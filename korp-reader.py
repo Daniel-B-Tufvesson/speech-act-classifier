@@ -21,13 +21,13 @@ def test_read(file_name: str):
 #test_read('Data/familjeliv-adoption.xml.bz2')
             
 
-def from_xml_to_compact_familjeliv_adoption(xml_bz2_filename: str, output_filename: str):
+def from_xml_to_dat1_familjeliv_adoption(xml_bz2_filename: str, output_filename: str):
     """
-    Convert an xml-corpus to a much more compact format with only the data we need.
+    Convert an xml-corpus to dat1 which is a much more compact format with only the data we need.
 
-    The new format is similar conllx. 
+    The dat1 format is similar conllx. 
 
-    The new format: 
+    The dat1 format: 
     - Each row contains one token.
     - A token consists of an in-sentence ID, a word, and a POS tag. These are separated by a TAB escape character.
     - The tokens are grouped together to form sentences. 
@@ -60,21 +60,36 @@ def from_xml_to_compact_familjeliv_adoption(xml_bz2_filename: str, output_filena
 
     print('from_xml_to_compact_familjeliv_adoption')
     
-    n = 0
-    for xml_block in xml_blocks(xml_bz2_filename, 'thread'):
+    with open(output_filename, mode='w') as target_file:
+        n = 0
+        for xml_block in xml_blocks(xml_bz2_filename, 'thread'):
 
-        root = ET.fromstring(xml_block)
-        for sentence in root.iter('sentence'):
+            root = ET.fromstring(xml_block)
 
-            for token in sentence.iter('token'):
-                print(token.text, token.attrib['pos'])
+            # Read and format all sentences
+            for sentence in root.iter('sentence'):
 
+                # Read and format all tokens in sentence.
+                token_index = 1
+                for token in sentence.iter('token'):
 
-        n += 1
-        if n == 1:
-            break
-    
-    print('NUMBER OF BLOCKS: ', n)
+                    assert token.text != None, 'token must no be empty'
+                    assert token.attrib['pos'] != None, 'pos attribute must be set'
+
+                    dat1_token = to_token_dat1_string(token_index, token.text, token.attrib['pos'])
+                    print(dat1_token)
+                    target_file.write(dat1_token)
+                    target_file.write('\n')
+                    token_index += 1
+
+                # Add empty line at end of sentence.
+                target_file.write('\n')
+
+            n += 1
+            if n == 100:
+                break
+        
+        print('NUMBER OF BLOCKS: ', n)
 
 
 
@@ -126,4 +141,14 @@ def xml_blocks(xml_bz2_filename: str, xml_tag: str) -> Generator[str, None, None
                 xml_block += xml_line
 
 
-from_xml_to_compact_familjeliv_adoption('Data/familjeliv-adoption.xml.bz2', '')
+
+def to_token_dat1_string(token_index: int, token_text: str, pos: str) -> str:
+    """
+    Format the token data to a dat1 string.
+    """
+    return f'{token_index}\t{token_text}\t{pos}'
+
+
+
+from_xml_to_dat1_familjeliv_adoption('raw data/familjeliv-adoption.xml.bz2', 
+                                     'processed data/familjeliv-adoption.dat1')
