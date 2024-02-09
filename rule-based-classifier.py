@@ -1,16 +1,7 @@
 from sentence import Sentence
 from sentence import Word
 
-# Expresses an assertion.
-TYPE_DECLARATIVE = 'declarative'
-# Expresses a question.
-TYPE_INTERROGATIVE = 'interrogative'
-# Expresses a command.
-TYPE_DIRECTIVE = 'directive'
-# Expresses an emotion, value or surprise.
-TYPE_EXPRESSIVE = 'expressive'
-# Expresses an assumption or hypothesis.
-TYPE_SUPPOSITIVE = 'suppositive'
+
 
 
 def classify(sentence : Sentence):
