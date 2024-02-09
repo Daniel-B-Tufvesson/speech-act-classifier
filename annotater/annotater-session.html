@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotater|Session</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="annotater-style.css">
+    <script type="module" src="annotater.js" defer></script>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="progress-container">
+            <progress id="annotated-sentences" max="100" value="70"></progress>
+            <p id="progress-count">100/100</p>
+            <p>🏆</p>
+        </div>
+
+        <div class="sentence-container">
+            <p class="sentence">These tags mark the core part-of-speech categories. To distinguish additional lexical and grammatical properties of words, use the universal features.</p>
+        </div>
+
+        <div class="buttons">
+            <button id="button-assertion">Påstående</button>
+            <button id="button-question">Fråga</button>
+            <button id="button-directive">Uppmaning</button>
+            <button id="button-expressive">Expressiv</button>
+            <button id="button-hypothesis">Hypotes</button>
+            <button id="button-unknown">Vet ej</button>
+            <button id="button-none">Inget</button>
+        </div>
+
+        <div class="control-buttons">
+            <button id="undo-button">Undo</button>
+            <button id="end-session-button">Spara & Avsluta</button>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -19,6 +19,7 @@
 
 .sentence {
     font-size: 20pt;
+    text-align: center;
 }
 
 .buttons {
@@ -45,6 +46,10 @@ button:active {
     background-color: gray;
 }
 
+button:disabled {
+    background-color: aliceblue;
+}
+
 .progress-container {
     display: flex;
     flex-direction: row;
@@ -55,4 +60,16 @@ button:active {
 
 progress {
     width: 70vw;
+}
+
+.control-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 200px;
+}
+
+.control-buttons > button {
+    height: 50px;
+    font-size: 12pt;
 }
