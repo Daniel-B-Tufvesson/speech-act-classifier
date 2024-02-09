@@ -2,14 +2,6 @@
  * The main js code for the annotater.
  */
 
-/*
-const $progressBar = document.querySelector('#annotated-sentences')
-const $progressCount = document.querySelector('#progress-count')
-const $sentence = document.querySelector('.sentence')
-const $buttons = document.querySelector('.buttons')
-const $undoButton = document.querySelector('#undo-button')
-*/
-
 
 /**
  * A sentence.
@@ -218,6 +210,7 @@ class Controller {
     constructor(session) {
         this.session = session
 
+        // Add click listeners to annotation buttons.
         document.querySelector('#button-assertion').addEventListener(
             'click', () => this.clickAnnotate(AnnotationTags.assertion))
 
@@ -238,6 +231,9 @@ class Controller {
         
         document.querySelector('#button-none').addEventListener(
             'click', () => this.clickAnnotate(AnnotationTags.none))
+
+        // Add click listener to undo button.
+        document.querySelector('#undo-button').addEventListener('click', () => session.undo())
     }
 
     /**
@@ -258,8 +254,10 @@ const sentences = [
     new Sentence(3, 'Detta är en mening.')
 ]
 
+// Read 
+
+
 // Create new session.
-const session_id = `${currentDateAndTime}`
 const session = new Session(null, sentences)
 session.session_id = `test-session-${session.startTime}`
 new View(session)
@@ -271,7 +269,7 @@ session.onCompletion = () => {
 
     // Create download link.
     const downloadLink = document.createElement('a')
-    downloadLink.setAttribute('download', `${session.session_id}.anot`)
+    downloadLink.setAttribute('download', `${session.session_id}.✏️`)
     downloadLink.href = session.resultsURL
 
     // Wait and then auto-click the link.

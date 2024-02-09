@@ -1,6 +1,6 @@
-session_id = test-session-2024-02-09 22:41:03
-start_time = 2024-02-09 22:41:03
-end_time = 2024-02-09 22:41:24
+session_id = test-session-2024-02-09 22:52:18
+start_time = 2024-02-09 22:52:18
+end_time = 2024-02-09 22:52:22
 
 sent_id = 0
 text = Tänk om man hade en blå bil.
@@ -12,7 +12,7 @@ speech_act = hypothesis
 
 sent_id = 2
 text = Har du sett Spider-man?
-speech_act = unknown
+speech_act = expressive
 
 sent_id = 3
 text = Detta är en mening.
