@@ -7,6 +7,7 @@ from typing import Generator
 import xml.etree.ElementTree as ET
 import speech_act_classifier as sac
 import uuid
+import stanza
 
 def test_read(file_name: str):
     """Print the first few lines of a compressed file."""
