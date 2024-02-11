@@ -269,7 +269,7 @@ session.onCompletion = () => {
 
     // Create download link.
     const downloadLink = document.createElement('a')
-    downloadLink.setAttribute('download', `${session.session_id}.✏️`)
+    downloadLink.setAttribute('download', `${session.session_id}.anot_sent`)
     downloadLink.href = session.resultsURL
 
     // Wait and then auto-click the link.

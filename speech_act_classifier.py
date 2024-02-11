@@ -2,10 +2,14 @@
 The main python file for this project.
 """
 
+from enum import Enum
 
+# Todo: remove.
 DAT2_SPEECH_ACT_TAG = 'ACT'
 """The data tag indicating a speech act in the dat2 format."""
 
+# Todo: rename to speech act names, and not clause type names.
+# Todo: move to enum.
 TYPE_ASSERTIVE = 'assertive'
 """Expresses an assertion."""
 
@@ -30,7 +34,14 @@ def validate_speech_act_string(speech_act: str) -> bool:
             speech_act == TYPE_SUPPOSITIVE)
 
 
-# UD-POS tags from https://universaldependencies.org/u/pos/index.html
+class Genre(Enum):
+    """
+    The different genres which the data can belong to.
+    """
+    INTERNET_FORUM = 'internet_forum'
+
+
+# UPOS tags from https://universaldependencies.org/u/pos/index.html
 POS_TAGS = (
     'ADJ',   # Adjective
     'ADP',   # Adposition
@@ -51,36 +62,50 @@ POS_TAGS = (
     'X'      # Other
 )
 """
-The POS-tags that are supported in this project. These are the 
-Universal Dependencies POS-tags. 
+The POS-tags that are supported in this project. These are the Universal Dependencies POS-tags. 
 """
 
-# SUC POS tags are taken from https://spraakbanken.gu.se/korp/markup/msdtags.html
-# SUC_TO_UD_POS_TAGS = {
-#     'AB': 'ADVERB',  # Adverb
-#     'DT': 'DET',  # Determiner
-#     'HA': 'ADVERB',  # Interrogative/Relative Adverb 
-#     'HD': 'DET',  # Interrogative/Relative Determiner
-#     'HP': 'PRON',  # Interrogative/Relative Pronoun
-#     'HS': '????????',  # Interrogative/Relative Possessive
-#     'IE': '',  # Infinitive Marker
-#     'IN',  # Interjection
-#     'JJ',  # Adjective
-#     'KN',  # Conjunction
-#     'NN',  # Noun
-#     'PC',  # Participle
-#     'PL',  # Particle
-#     'PM',  # Proper Noun
-#     'PN',  # Pronoun
-#     'PP',  # Preposition
-#     'PS',  # Possessive
-#     'RG',  # Cardinal Number
-#     'RO',  # Ordinal Number
-#     'SN',  # Subjunction
-#     'UO',  # Foreign Word
-#     'VB'   # Verb
-# }
+# SUC POS tags are taken from https://spraakbanken.gu.se/korp/markup/msdtags.html.
+# Conversion is based on https://universaldependencies.org/tagset-conversion/sv-suc-uposf.html.
+SUC_TO_UPOS = {
+    'AB': 'ADVERB',  # Adverb
+    'DT': 'DET',  # Determiner
+    'HA': 'ADVERB',  # Interrogative/Relative Adverb 
+    'HD': 'DET',  # Interrogative/Relative Determiner
+    'HP': 'PRON',  # Interrogative/Relative Pronoun
+    'HS': 'DET',  # Interrogative/Relative Possessive
+    'IE': 'PART',  # Infinitive Marker
+    'IN': 'INTJ',  # Interjection
+    'JJ': 'ADJ',  # Adjective
+    'KN': 'CCONJ',  # Conjunction
+    'MAD': 'PUNCT',
+    'MID': 'PUNCT',
+    'NN': 'NOUN',  # Noun
+    'PAD': 'PUNCT',
+    'PC': 'VERB',  # Participle
+    'PL': 'PART',  # Particle
+    'PM': 'PROPN',  # Proper Noun
+    'PN': 'PRON',  # Pronoun
+    'PP': 'ADP',  # Preposition
+    'PS': 'DET',  # Possessive
+    'RG': 'NUM',  # Cardinal Number
+    'RO': 'ADJ',  # Ordinal Number
+    'SN': 'SCONJ',  # Subjunction
+    'UO': 'X',  # Foreign Word
+    'VB': 'VERB'   # Verb
+}
 
+def suc_to_upos(suc_pos: str) -> str:
+    """
+    Convert a SUC POS-tag to UPOS.
+    """
+    return SUC_TO_UPOS[suc_pos]
+
+def suc_to_ufeats(suc_feats: str) -> str:
+    """
+    Convert a string of SUC morphological features to universal features.
+    """
+    raise NotImplementedError()
 
 def validate_pos_string(pos: str) -> bool:
     """
