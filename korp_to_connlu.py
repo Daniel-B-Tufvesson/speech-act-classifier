@@ -28,9 +28,16 @@ def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1)
     nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
 
     # Parse and process the data in batches.
+    batch_count = 0
+    sentence_count = 0
     for batched_doc in batched_xml_to_doc(xml_corpus, 1000, max_sentences):
         tagged_doc = nlp_dep(batched_doc)
         CoNLL.write_doc2conll(tagged_doc, connlu_target)
+
+        batch_count += 1
+        sentence_count += len(batched_doc.sentences)
+        print(f'batch: {batch_count}, sentence: {sentence_count}')
+
     
     print('Conversion complete.')
 
@@ -264,5 +271,6 @@ def xmlbz2_to_connlubz2(xml_bz2_filename: str, output_filename: str, max_sentenc
 
 if __name__ == '__main__':
     #xmlbz2_to_connlubz2('raw data/familjeliv-adoption.xml.bz2', 'processed data/famtest.connlu.bz2', 100)
+    #xmlbz2_to_connlubz2('raw data/familjeliv-adoption.xml.bz2', 'processed data/famtest.connlu.bz2', 100000)
     pass
 
