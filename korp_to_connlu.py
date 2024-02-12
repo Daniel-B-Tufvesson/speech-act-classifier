@@ -18,7 +18,7 @@ import warnings
 SentenceObject = list[dict[str, Any]]
 SentenceComments = list[str]
 
-def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO):
+def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1):
     """
     Convert the Språkbanken xml corpus to a CoNLL-U file.
     """
@@ -27,20 +27,21 @@ def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO):
     # Initialize the stanza pipeline for dependency parsing.
     nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
 
-    # Parse and process the data in batches. 
-    for batched_doc in batched_xml_to_doc(xml_corpus, 1000):
+    # Parse and process the data in batches.
+    for batched_doc in batched_xml_to_doc(xml_corpus, 1000, max_sentences):
         tagged_doc = nlp_dep(batched_doc)
         CoNLL.write_doc2conll(tagged_doc, connlu_target)
     
     print('Conversion complete.')
 
 
-def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int) -> Generator[stanza.Document, None, None]:
+def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
     """
     Generator function that yields batches of stanza.Documents that are parsed from
     the Språkbanken xml corpus.
     """
 
+    # The number of sentences parsed so far.
     sentence_index = 0
 
     sentence_objects = []  # type: list[SentenceObject]
@@ -82,7 +83,10 @@ def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int) -> Generator[stanza.
         
         sentence_index += 1
 
-        
+        # Yield the current batch if we have reached max sentences.
+        if max_sentences != -1 and sentence_index == max_sentences:
+            yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
+            return
     
     # Yield remaining batch that is smaller than batch size.
     if len(sentence_objects) > 0:
@@ -242,11 +246,23 @@ def xml_tokens_to_text(sentence : ET.Element) -> str :
 
 
 
-def xmlbz2_to_connlu(xml_bz2_filename: str, output_filename: str):
+def xmlbz2_to_connlu(xml_bz2_filename: str, output_filename: str, max_sentences):
     print('xmlbz2_to_connlu')
     with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
         with open(output_filename, mode='w') as connlu_target:
-            xml_to_connlu(xml_corpus, connlu_target)
+            xml_to_connlu(xml_corpus, connlu_target, max_sentences)
+
+
+def xmlbz2_to_connlubz2(xml_bz2_filename: str, output_filename: str, max_sentences):
+    print('xmlbz2_to_connlu')
+    with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
+        with bz2.open(output_filename, mode='wt') as connlu_target:
+            xml_to_connlu(xml_corpus, connlu_target, max_sentences)
 
 
 #xmlbz2_to_connlu('raw data/familjeliv-adoption.xml.bz2', 'processed data/familjeliv-adoption_v2.connlu')
+
+if __name__ == '__main__':
+    #xmlbz2_to_connlubz2('raw data/familjeliv-adoption.xml.bz2', 'processed data/famtest.connlu.bz2', 100)
+    pass
+
