@@ -13,6 +13,7 @@ from stanza.utils.conll import CoNLL
 import xml.etree.ElementTree as ET
 import speech_act_classifier as sac
 import bz2
+import warnings
 
 SentenceObject = list[dict[str, Any]]
 SentenceComments = list[str]
@@ -21,38 +22,91 @@ def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO):
     """
     Convert the Språkbanken xml corpus to a CoNLL-U file.
     """
+    print('Converting xml corpus to CoNLL-U.')
     
     # Initialize the stanza pipeline for dependency parsing.
-    nlp = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
+    nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
 
-    doc = xml_to_doc(xml_corpus)
-
-    # Todo: parse dependencies.
-    doc = nlp(doc)
-
-    CoNLL.write_doc2conll(doc, connlu_target)
-
-
-def xml_to_doc(xml_corpus : TextIO) -> stanza.Document:
-    """
-    Convert the Språkbanken xml corpus to a stanza.Document.
-    """
+    # Parse and process the data in batches. 
+    for batched_doc in batched_xml_to_doc(xml_corpus, 1000):
+        tagged_doc = nlp_dep(batched_doc)
+        CoNLL.write_doc2conll(tagged_doc, connlu_target)
     
+    print('Conversion complete.')
+
+
+def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int) -> Generator[stanza.Document, None, None]:
+    """
+    Generator function that yields batches of stanza.Documents that are parsed from
+    the Språkbanken xml corpus.
+    """
+
+    sentence_index = 0
+
     sentence_objects = []  # type: list[SentenceObject]
     sentence_comments = []  # type: list[SentenceComments]
     for xml_sentence, xml_text in xml_sentences(xml_corpus):
-        sentence_objects.append(to_sentence_object(xml_sentence))
-        sentence_comments.append(to_sentence_comments(xml_sentence, xml_text))
 
-        if len(sentence_objects) == 10:
-            break
+        sentence_object = to_sentence_object(xml_sentence)
+        sentence_comment = to_sentence_comments(xml_sentence, xml_text)
+
+        #print(f"{sentence_index}, {[token['text'] for token in sentence_object]}")
+
+        # Skip the sentence if there was a failure at extracting the sentence/comment data.
+        # There is so much data, so we don't have to get hung up on extracting every single
+        # piece of it!
+        if len(sentence_comment) == 0:
+            warnings.warn(f'WARNING: sentence comments (index={sentence_index}) is empty. Skipping...')
+            warnings.warn(f'XML sentence tree: {xml_sentence}')
+            warnings.warn(f'XML text tree: {xml_text}')
+            continue
+
+        # Skip here as well.
+        if len(sentence_object) == 0:
+            warnings.warn(f'WARNING: sentence object (index={sentence_index}, id={sentence_comment[0]}) is empty. Skipping...')
+            warnings.warn(f'XML sentence tree: {xml_sentence}')
+            warnings.warn(f'XML text tree: {xml_text}')
+            continue
+
+        # Append sentence data to batch.
+        sentence_objects.append(sentence_object)
+        sentence_comments.append(sentence_comment)
+
+        # Create document batch and yield it.
+        if len(sentence_objects) == batch_size:
+            yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
+
+            # Reset the batch.
+            sentence_objects = []  # type: list[SentenceObject]
+            sentence_comments = []  # type: list[SentenceComments]
+        
+        sentence_index += 1
+
+        
     
-    return stanza.Document(
-        sentences=sentence_objects,
-        comments=sentence_comments
-    )
+    # Yield remaining batch that is smaller than batch size.
+    if len(sentence_objects) > 0:
+        yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
 
-# todo: batch the document reading.
+
+# def xml_to_doc(xml_corpus : TextIO) -> stanza.Document:
+#     """
+#     Convert the Språkbanken xml corpus to a stanza.Document.
+#     """
+    
+#     sentence_objects = []  # type: list[SentenceObject]
+#     sentence_comments = []  # type: list[SentenceComments]
+#     for xml_sentence, xml_text in xml_sentences(xml_corpus):
+#         sentence_objects.append(to_sentence_object(xml_sentence))
+#         sentence_comments.append(to_sentence_comments(xml_sentence, xml_text))
+
+#         if len(sentence_objects) == 10:
+#             break
+    
+#     return stanza.Document(
+#         sentences=sentence_objects,
+#         comments=sentence_comments
+#     )
 
 
 def xml_sentences(xml_corpus: TextIO) -> Generator[tuple[ET.Element, ET.Element], None, None]:
@@ -72,7 +126,6 @@ def xml_sentences(xml_corpus: TextIO) -> Generator[tuple[ET.Element, ET.Element]
 
     for xml_line in xml_corpus:
         xml_line = xml_line.strip()
-        print(xml_line)
 
         # Accumulate new block if start tag.
         if xml_line.startswith(startTag):
@@ -196,4 +249,4 @@ def xmlbz2_to_connlu(xml_bz2_filename: str, output_filename: str):
             xml_to_connlu(xml_corpus, connlu_target)
 
 
-xmlbz2_to_connlu('raw data/familjeliv-adoption.xml.bz2', 'processed data/familjeliv-adoption_v2.connlu')
+#xmlbz2_to_connlu('raw data/familjeliv-adoption.xml.bz2', 'processed data/familjeliv-adoption_v2.connlu')
