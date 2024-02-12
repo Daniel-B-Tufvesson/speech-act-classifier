@@ -1,0 +1,223 @@
+# sent_id = baca0d96
+# text = Jag skulle vilja diskutera adoption av barn med DS. 
+# date = 2008-09-25 15:34:31
+# url = http://www.familjeliv.se/forum/thread/36609115-onska-barn-med-down-syndrom/1#anchor-m1
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	vilja	vilja	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	diskutera	diskutera	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	adoption	adoption	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	_	_
+6	av	av	ADP	PP	_	7	case	_	_
+7	barn	barn	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	_
+8	med	med	ADP	PP	_	9	case	_	_
+9	DS	_	PROPN	PM	Case=Nom	7	nmod	_	SpaceAfter=No
+10	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = bac93dae
+# text = Jag tycker allt känns så pirrigt och nervöst.. 
+# date = 2008-06-09 11:58:37
+# url = http://www.familjeliv.se/forum/thread/33410865-nar-ni-bestamt-er-for-att-adoptera/4#anchor-m36
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	tycker	tycka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	allt	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+4	känns	känna|kännas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	xcomp	_	_
+5	så	så	ADVERB	AB	_	6	advmod	_	_
+6	pirrigt	pirrig	ADVERB	AB	Degree=Pos	4	xcomp	_	_
+7	och	och	CCONJ	KN	_	8	cc	_	_
+8	nervöst	nervös	ADVERB	AB	Degree=Pos	6	conj	_	SpaceAfter=No
+9	..	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = bac4a31f
+# text = Sen räcker det inte bara med att gå och gifta sig, det är flera utredningar som görs. 
+# date = 2009-10-07 09:26:36
+# url = http://www.familjeliv.se/forum/thread/47837979-adoption-av-sambons-barn/1#anchor-m3
+1	Sen	sen	ADVERB	AB	_	2	advmod	_	_
+2	räcker	räcka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	inte	inte	ADVERB	AB	_	2	advmod	_	_
+5	bara	bara	ADVERB	AB	_	2	advmod	_	_
+6	med	med	ADP	PP	_	8	mark	_	_
+7	att	att	PART	IE	_	8	mark	_	_
+8	gå	gå	VERB	VB	VerbForm=Inf|Voice=Act	2	advcl	_	_
+9	och	och	CCONJ	KN	_	10	cc	_	_
+10	gifta	gifta sig	VERB	VB	VerbForm=Inf|Voice=Act	8	conj	_	_
+11	sig	sig|gifta sig:10	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	8	obj	_	SpaceAfter=No
+12	,	_	PUNCT	MID	_	2	punct	_	_
+13	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	14	expl	_	_
+14	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+15	flera	_	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	16	amod	_	_
+16	utredningar	utredning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	nsubj	_	_
+17	som	_	PRON	HP	_	18	nsubj:pass	_	_
+18	görs	göra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	SpaceAfter=No
+19	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = bac9a5f6
+# text = hur bra man än har det så undrar man ju över sitt ursprung. 
+# date = 2008-01-23 12:57:52
+# url = http://www.familjeliv.se/forum/thread/29039601-adopterad-lamnad-vald-och-sen-var-kan-man-lasa-om-adoptivbarnen-med-normala-foraldrar/3#anchor-m27
+1	hur	hur|hur än	ADVERB	HA	_	2	advmod	_	_
+2	bra	bra	ADVERB	AB	Degree=Pos	5	advmod	_	_
+3	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+4	än	än|hur än:1	ADVERB	AB	_	5	advmod	_	_
+5	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	dislocated	_	_
+6	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	5	obj	_	_
+7	så	så	ADVERB	AB	_	8	advcl	_	_
+8	undrar	undra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
+10	ju	ju	ADVERB	AB	_	8	advmod	_	_
+11	över	över	ADP	PP	_	13	case	_	_
+12	sitt	sig	DET	PS	Definite=Def|Gender=Neut|Number=Sing	13	nmod:poss	_	_
+13	ursprung	ursprung	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	_	PUNCT	MAD	_	8	punct	_	_
+
+# sent_id = bac196fa
+# text = Tisdag orzia 
+# date = 2006-11-20 11:36:11
+# url = http://www.familjeliv.se/forum/thread/14470372-fler-i-skane-som-skavill-adoptera-del-2/1#anchor-m2
+1	orzia	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+
+# sent_id = bac4cc50
+# text = Väntetiden kan förväntas öka om många köar och få barn är tillgängliga för adoption. 
+# date = 2008-08-29 21:21:18
+# url = http://www.familjeliv.se/forum/thread/35731283-det-har-med-koerna/1#anchor-m8
+1	Väntetiden	väntetid	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	förväntas	förvänta	VERB	VB	VerbForm=Inf|Voice=Pass	2	xcomp	_	_
+4	öka	öka	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	om	om	SCONJ	SN	_	11	mark	_	_
+6	många	_	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	7	amod	_	_
+7	köar	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nsubj	_	_
+8	och	och	CCONJ	KN	_	10	cc	_	_
+9	få	få	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	10	amod	_	_
+10	barn	barn	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	_
+11	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+12	tillgängliga	tillgänglig	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	11	xcomp	_	_
+13	för	för	ADP	PP	_	14	case	_	_
+14	adoption	adoption	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = bacc5f7c
+# text = Flingan75: Om man ska börja utredning måste man gå igenom en läkarundersökning. 
+# date = 2007-02-28 19:29:20
+# url = http://www.familjeliv.se/forum/thread/17622323-friskintyg/2#anchor-m20
+1	Flingan75	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	:	_	PUNCT	MID	_	1	punct	_	_
+3	Om	om	SCONJ	SN	_	5	mark	_	_
+4	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+5	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+6	börja	börja	VERB	VB	VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	utredning	utredning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
+8	måste	måste	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
+10	gå	gå|gå igenom	VERB	VB	VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	igenom	gå igenom:10	PART	PL	_	10	compound:prt	_	_
+12	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	13	det	_	_
+13	läkarundersökning	läkarundersökning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	_	PUNCT	MAD	_	8	punct	_	_
+
+# sent_id = bac2482b
+# text = Det får inte vara det hemlighetsmakeriet som det är idag - utan in med luft och ljus i relationerna!" 
+# date = 2009-06-02 23:55:01
+# url = http://www.familjeliv.se/forum/thread/44369741-adoptera-omplaceringsbarn-i-sverige/4#anchor-m32
+1	Det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	får	få	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	inte	inte	ADVERB	AB	_	2	advmod	_	_
+4	vara	vara	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	6	det	_	_
+6	hemlighetsmakeriet	hemlighetsmakeri	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	xcomp	_	_
+7	som	_	PRON	HP	_	9	advmod	_	_
+8	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	-	_	PUNCT	MID	_	6	punct	_	_
+11	utan	utan	CCONJ	KN	_	12	cc	_	_
+12	in	in	ADVERB	AB	_	9	conj	_	_
+13	med	med	ADP	PP	_	14	case	_	_
+14	luft	luft	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	_
+15	och	och	CCONJ	KN	_	16	cc	_	_
+16	ljus	ljus	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	_
+17	i	i	ADP	PP	_	18	case	_	_
+18	relationerna	relation	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	12	obl	_	SpaceAfter=No
+19	!	_	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
+20	"	_	PUNCT	PAD	_	2	punct	_	_
+
+# sent_id = bac59802
+# text = Fru hemlig skrev 2007-12-25 16:03:04 följande: Jennie med ie skrev 2007-12-22 23:42:29 följande: Jag ser inget samband alls mellan barnens trygghet och äktenskap!Det borde du göra om du vet/visste vad äktenskap innebär och vad skillnaden mellan att adoptera som icke-gft och som gift vore... 
+# date = 2007-12-25 17:03:07
+# url = http://www.familjeliv.se/forum/thread/27983293-lite-nyfikna-fragor-om-adoption-vietnamn/3#anchor-m27
+1	Fru	fru	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	_
+2	hemlig	hemlig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	xcomp	_	_
+3	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	2007-12-25	_	NUM	RG	Case=Nom	3	obl	_	_
+5	16:03:04	_	NUM	RG	Case=Nom	3	obl	_	_
+6	följande	följande	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	:	_	PUNCT	MID	_	3	punct	_	_
+8	med	med	ADP	PP	_	9	case	_	_
+9	ie	_	PROPN	PM	Case=Nom	10	obl	_	_
+10	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	2007-12-22	_	NUM	RG	Case=Nom	10	nsubj	_	_
+12	23:42:29	_	NUM	RG	Case=Nom	10	obj	_	_
+13	följande	följa|följande	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	12	nmod	_	SpaceAfter=No
+14	:	_	PUNCT	MID	_	3	punct	_	_
+15	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+16	ser	se	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+17	inget	ingen	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	18	advmod	_	_
+18	samband	samband	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	_
+19	alls	alls	ADVERB	AB	_	16	advmod	_	_
+20	mellan	mellan	ADP	PP	_	22	case	_	_
+21	barnens	barn	NOUN	NN	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	22	nmod:poss	_	_
+22	trygghet	trygghet	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	_
+23	och	och	CCONJ	KN	_	24	cc	_	_
+24	äktenskap	äktenskap	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	conj	_	SpaceAfter=No
+25	!Det	_	ADVERB	AB	_	26	obj	_	_
+26	borde	böra	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+27	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	nsubj	_	_
+28	göra	göra|göra om	VERB	VB	VerbForm=Inf|Voice=Act	26	xcomp	_	_
+29	om	om|göra om:29	SCONJ	SN	_	31	mark	_	_
+30	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	31	nsubj	_	_
+31	vet	veta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	ccomp	_	SpaceAfter=No
+32	/	_	PUNCT	MID	_	33	punct	_	SpaceAfter=No
+33	visste	veta	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	_
+34	vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	36	obj	_	_
+35	äktenskap	äktenskap	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	36	nsubj	_	_
+36	innebär	innebära	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	33	ccomp	_	_
+37	och	och	CCONJ	KN	_	48	cc	_	_
+38	vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	39	det	_	_
+39	skillnaden	skillnad	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	48	nsubj	_	_
+40	mellan	mellan	ADP	PP	_	42	mark	_	_
+41	att	att	PART	IE	_	42	mark	_	_
+42	adoptera	adoptera	VERB	VB	VerbForm=Inf|Voice=Act	39	acl	_	_
+43	som	_	CCONJ	KN	_	44	cc	_	_
+44	icke-gft	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	42	conj	_	_
+45	och	och	CCONJ	KN	_	47	cc	_	_
+46	som	_	PRON	HP	_	47	advmod	_	_
+47	gift	gift	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	42	conj	_	_
+48	vore	vara	VERB	VB	Mood=Sub|Tense=Past|VerbForm=Fin|Voice=Act	36	conj	_	SpaceAfter=No
+49	...	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = baca0a9f
+# text = Känner igen mig också - och är medveten om att vi höll på längre med IVF än vad som var hälsosamt. 
+# date = 2008-02-09 16:25:34
+# url = http://www.familjeliv.se/forum/thread/29605103-till-ofrivilligt-barnlosa-som-funderar-pa-adoption/1#anchor-m4
+1	Känner	känna|känna igen|känna sig	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	igen	igen|känna igen:1	PART	PL	_	1	compound:prt	_	_
+3	mig	jag|känna sig:1	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	1	obj	_	_
+4	också	också	ADVERB	AB	_	1	advmod	_	_
+5	-	_	PUNCT	MID	_	1	punct	_	_
+6	och	och	CCONJ	KN	_	7	cc	_	_
+7	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	medveten	medveten	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	xcomp	_	_
+9	om	om	ADP	PP	_	12	mark	_	_
+10	att	att	SCONJ	SN	_	12	mark	_	_
+11	vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	12	nsubj	_	_
+12	höll	hålla|hålla på	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
+13	på	på|hålla på:12	PART	PL	_	12	compound:prt	_	_
+14	längre	länge|längre|lång	ADVERB	AB	Degree=Cmp	12	advmod	_	_
+15	med	med	ADP	PP	_	16	case	_	_
+16	IVF	_	PROPN	PM	Case=Nom	12	obl	_	_
+17	än	_	CCONJ	KN	_	20	mark	_	_
+18	vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	20	dislocated	_	_
+19	som	_	PRON	HP	_	20	nsubj	_	_
+20	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+21	hälsosamt	hälsosam	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	.	_	PUNCT	MAD	_	1	punct	_	_
+
