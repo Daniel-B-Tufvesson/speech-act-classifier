@@ -18,7 +18,7 @@ import warnings
 SentenceObject = list[dict[str, Any]]
 SentenceComments = list[str]
 
-def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1):
+def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1, **kwargs):
     """
     Convert the Språkbanken xml corpus to a CoNLL-U file.
     """
@@ -30,7 +30,7 @@ def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1)
     # Parse and process the data in batches.
     batch_count = 0
     sentence_count = 0
-    for batched_doc in batched_xml_to_doc(xml_corpus, 1000, max_sentences):
+    for batched_doc in batched_xml_to_doc(xml_corpus, 1000, max_sentences, **kwargs):
         tagged_doc = nlp_dep(batched_doc)
         CoNLL.write_doc2conll(tagged_doc, connlu_target)
 
@@ -42,7 +42,7 @@ def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1)
     print('Conversion complete.')
 
 
-def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
+def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int, max_sentences = -1, **kwargs) -> Generator[stanza.Document, None, None]:
     """
     Generator function that yields batches of stanza.Documents that are parsed from
     the Språkbanken xml corpus.
@@ -55,8 +55,8 @@ def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int, max_sentences = -1) 
     sentence_comments = []  # type: list[SentenceComments]
     for xml_sentence, xml_text in xml_sentences(xml_corpus):
 
-        sentence_object = to_sentence_object(xml_sentence)
-        sentence_comment = to_sentence_comments(xml_sentence, xml_text)
+        sentence_object = to_sentence_object(xml_sentence, **kwargs)
+        sentence_comment = to_sentence_comments(xml_sentence, xml_text, **kwargs)
 
         #print(f"{sentence_index}, {[token['text'] for token in sentence_object]}")
 
@@ -99,25 +99,6 @@ def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int, max_sentences = -1) 
     if len(sentence_objects) > 0:
         yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
 
-
-# def xml_to_doc(xml_corpus : TextIO) -> stanza.Document:
-#     """
-#     Convert the Språkbanken xml corpus to a stanza.Document.
-#     """
-    
-#     sentence_objects = []  # type: list[SentenceObject]
-#     sentence_comments = []  # type: list[SentenceComments]
-#     for xml_sentence, xml_text in xml_sentences(xml_corpus):
-#         sentence_objects.append(to_sentence_object(xml_sentence))
-#         sentence_comments.append(to_sentence_comments(xml_sentence, xml_text))
-
-#         if len(sentence_objects) == 10:
-#             break
-    
-#     return stanza.Document(
-#         sentences=sentence_objects,
-#         comments=sentence_comments
-#     )
 
 
 def xml_sentences(xml_corpus: TextIO) -> Generator[tuple[ET.Element, ET.Element], None, None]:
@@ -166,13 +147,13 @@ def xml_sentences(xml_corpus: TextIO) -> Generator[tuple[ET.Element, ET.Element]
             xml_block += xml_line
         
 
-def to_sentence_object(xml_sentence: ET.Element) -> SentenceObject:
+def to_sentence_object(xml_sentence: ET.Element, read_tail=True) -> SentenceObject:
     """
     Extract the tokens and their data as CoNLL-U tokens in a dictionary format.
     """
     sentence = SentenceObject()
     token_index = 1
-    for xml_token in xml_sentence.iterfind('token'):
+    for xml_token in xml_sentence.iter('token'):
         token = {}
         token['id'] = token_index
         token['text'] = xml_token.text
@@ -197,9 +178,10 @@ def to_sentence_object(xml_sentence: ET.Element) -> SentenceObject:
                 token['feats'] = feats
 
         # Parse tail.
-        tail = xml_token.attrib.get('_tail', None)
-        if tail is None:
-            token['misc'] = 'SpaceAfter=No'
+        if read_tail:
+            tail = xml_token.attrib.get('_tail', None)
+            if tail is None:
+                token['misc'] = 'SpaceAfter=No'
 
 
         sentence.append(token)
@@ -208,14 +190,14 @@ def to_sentence_object(xml_sentence: ET.Element) -> SentenceObject:
     return sentence
 
 
-def to_sentence_comments(xml_sentence: ET.Element, xml_text: ET.Element) -> SentenceComments:
+def to_sentence_comments(xml_sentence: ET.Element, xml_text: ET.Element, **kwargs) -> SentenceComments:
     """
     Extract the relevant sentence meta-data as CoNLL-U sentence comments.
     """
     comments = SentenceComments()
 
     comments.append(f'# sent_id = {xml_sentence.attrib["id"]}')
-    comments.append(f'# text = {xml_tokens_to_text(xml_sentence)}')
+    comments.append(f'# text = {xml_tokens_to_text(xml_sentence, **kwargs)}')
 
     # Parse date.
     if 'date' in xml_text.attrib:
@@ -228,7 +210,10 @@ def to_sentence_comments(xml_sentence: ET.Element, xml_text: ET.Element) -> Sent
     return comments
 
 
-def xml_tokens_to_text(sentence : ET.Element) -> str :
+def xml_tokens_to_text(sentence : ET.Element, read_tail = True) -> str :
+    """
+    Collect all the xml tokens and concate them as a single text string.
+    """
     sentence_text = ''
 
     # Append all words as a single string.
@@ -238,7 +223,7 @@ def xml_tokens_to_text(sentence : ET.Element) -> str :
         sentence_text += token.text
 
         # Append whitespace.
-        if '_tail' in token.attrib:
+        if not read_tail or '_tail' in token.attrib:
             sentence_text += ' '
     
     return sentence_text
@@ -260,17 +245,18 @@ def xmlbz2_to_connlu(xml_bz2_filename: str, output_filename: str, max_sentences)
             xml_to_connlu(xml_corpus, connlu_target, max_sentences)
 
 
-def xmlbz2_to_connlubz2(xml_bz2_filename: str, output_filename: str, max_sentences):
+def xmlbz2_to_connlubz2(xml_bz2_filename: str, output_filename: str, max_sentences, **kwargs):
     print('xmlbz2_to_connlu')
     with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
         with bz2.open(output_filename, mode='wt') as connlu_target:
-            xml_to_connlu(xml_corpus, connlu_target, max_sentences)
+            xml_to_connlu(xml_corpus, connlu_target, max_sentences, **kwargs)
 
 
 #xmlbz2_to_connlu('raw data/familjeliv-adoption.xml.bz2', 'processed data/familjeliv-adoption_v2.connlu')
 
 if __name__ == '__main__':
     #xmlbz2_to_connlubz2('raw data/familjeliv-adoption.xml.bz2', 'processed data/famtest.connlu.bz2', 100)
-    #xmlbz2_to_connlubz2('raw data/familjeliv-adoption.xml.bz2', 'processed data/famtest.connlu.bz2', 100000)
+    #xmlbz2_to_connlubz2('raw data/familjeliv-allmanna-familjeliv.xml.bz2', 'processed data/familjeliv-allmanna-familjeliv.connlu.bz2', 100000)
+    xmlbz2_to_connlubz2('raw data/suc3.xml.bz2', 'processed data/suc3.connlu.bz2', 100000, read_tail = False)
     pass
 
