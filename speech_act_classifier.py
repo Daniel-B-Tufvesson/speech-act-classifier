@@ -8,6 +8,29 @@ from enum import Enum
 DAT2_SPEECH_ACT_TAG = 'ACT'
 """The data tag indicating a speech act in the dat2 format."""
 
+class SpeechActs(Enum):
+    """
+    The speech acts to classify.
+    """
+    ASSERTION = 'assertion'
+    """Expresses an assertion."""
+
+    QUESTION = 'question'
+    """Expresses a question."""
+
+    DIRECTIVE = 'directive'
+    """Expresses a command."""
+
+    EXPRESSIVE = 'expressive'
+    """Expresses an emotion, value or surprise."""
+
+    HYPOTHESIS = 'hypothesis'
+    """Expresses an assumption or hypothesis."""
+
+    def is_valid(speech_act: str) -> bool:
+        return 
+
+
 # Todo: rename to speech act names, and not clause type names.
 # Todo: move to enum.
 TYPE_ASSERTIVE = 'assertive'
