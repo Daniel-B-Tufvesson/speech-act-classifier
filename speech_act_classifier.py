@@ -12,6 +12,7 @@ class SpeechActs(Enum):
     """
     The speech acts to classify.
     """
+    
     ASSERTION = 'assertion'
     """Expresses an assertion."""
 
@@ -27,34 +28,12 @@ class SpeechActs(Enum):
     HYPOTHESIS = 'hypothesis'
     """Expresses an assumption or hypothesis."""
 
+    @staticmethod
     def is_valid(speech_act: str) -> bool:
-        return 
-
-
-# Todo: rename to speech act names, and not clause type names.
-# Todo: move to enum.
-TYPE_ASSERTIVE = 'assertive'
-"""Expresses an assertion."""
-
-TYPE_INTERROGATIVE = 'interrogative'
-"""Expresses a question."""
-
-TYPE_DIRECTIVE = 'directive'
-"""Expresses a command."""
-
-TYPE_EXPRESSIVE = 'expressive'
-"""Expresses an emotion, value or surprise."""
-
-TYPE_SUPPOSITIVE = 'suppositive'
-"""Expresses an assumption or hypothesis."""
-
-def validate_speech_act_string(speech_act: str) -> bool:
-    """
-    Check if the given string matches any of the defined speech acts.
-    """
-    return (speech_act == TYPE_ASSERTIVE or speech_act == TYPE_INTERROGATIVE or 
-            speech_act == TYPE_DIRECTIVE or speech_act == TYPE_EXPRESSIVE or 
-            speech_act == TYPE_SUPPOSITIVE)
+        return (speech_act == SpeechActs.ASSERTION.value or 
+                speech_act == SpeechActs.QUESTION.value or
+                speech_act == SpeechActs.DIRECTIVE.value or
+                speech_act == SpeechActs.HYPOTHESIS.value)
 
 
 class Genre(Enum):
