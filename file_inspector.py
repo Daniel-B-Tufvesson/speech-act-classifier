@@ -25,5 +25,7 @@ def incremental_read(file_name: str):
 if __name__ == '__main__':
     #incremental_read('processed data/famtest.connlu.bz2')
     #incremental_read('raw data/suc3.xml.bz2')
-    incremental_read('processed data/suc3.connlu.bz2')
+    #incremental_read('processed data/suc3.connlu.bz2')
+    #incremental_read('raw data/familjeliv-expert.xml.bz2')
+    incremental_read('processed data/familjeliv-expert.connlu.bz2')
     pass
