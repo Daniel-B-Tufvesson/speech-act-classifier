@@ -12,7 +12,7 @@ class SpeechActs(Enum):
     """
     The speech acts to classify.
     """
-    
+
     ASSERTION = 'assertion'
     """Expresses an assertion."""
 
@@ -41,6 +41,8 @@ class Genre(Enum):
     The different genres which the data can belong to.
     """
     INTERNET_FORUM = 'internet_forum'
+
+    NEWS_ARTICLE = 'news_article'
 
 
 # UPOS tags from https://universaldependencies.org/u/pos/index.html
