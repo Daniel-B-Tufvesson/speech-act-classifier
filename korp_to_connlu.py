@@ -20,9 +20,10 @@ SentenceComments = list[str]
 
 class Korp_CoNNLU_Converter:
 
-    def __init__(self, read_tail=True, genre: str|None=None) -> None:
+    def __init__(self, read_tail=True, genre: str|None=None, retag_pos=True) -> None:
         self.read_tail = read_tail
         self.genre = genre
+        self.retag_pos = retag_pos
 
     def xml_to_connlu(self, xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1):
         """
@@ -31,14 +32,19 @@ class Korp_CoNNLU_Converter:
         print('Converting xml corpus to CoNLL-U.')
         
         # Initialize the stanza pipeline for dependency parsing.
-        nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
+        if self.retag_pos:
+            nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
 
         # Parse and process the data in batches.
         batch_count = 0
         sentence_count = 0
         for batched_doc in self.batched_xml_to_doc(xml_corpus, 1000, max_sentences):
-            tagged_doc = nlp_dep(batched_doc)
-            CoNLL.write_doc2conll(tagged_doc, connlu_target)
+            
+            if self.retag_pos:
+                tagged_doc = nlp_dep(batched_doc)
+                CoNLL.write_doc2conll(tagged_doc, connlu_target)
+            else:
+                CoNLL.write_doc2conll(batched_doc, connlu_target)
 
             batch_count += 1
             sentence_count += len(batched_doc.sentences)
@@ -106,53 +112,20 @@ class Korp_CoNNLU_Converter:
             yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
 
 
-
     def xml_sentences(self, xml_corpus: TextIO) -> Generator[tuple[ET.Element, ET.Element], None, None]:
         """
         Generator which yeilds each <sentence> and their corresponding <text> as a 2-tuple of ET.Elements. 
         """
-        
-        # Whether the current line is inside a target xml block.
-        is_inside_block = False
-
-        # The currently accumulated xml-block.
-        xml_block = ''
-
-        # Used for identifying start and end of block.
-        startTag = '<text'
-        endTag = '</text'
-
-        for xml_line in xml_corpus:
-            xml_line = xml_line.strip()
-
-            # Accumulate new block if start tag.
-            if xml_line.startswith(startTag):
-
-                assert not is_inside_block, 'cannot start a block inside another block'
-
-                is_inside_block = True
-                xml_block += xml_line
-            
-            # Yield accumulated block if end tag.
-            elif xml_line.startswith(endTag):
-
-                assert is_inside_block, 'must be inside a block to end it'
-
-                is_inside_block = False
-                xml_block += xml_line
-
-                xml_text = ET.fromstring(xml_block)
-                for xml_sentence in xml_text.iter('sentence'):
-                    yield xml_sentence, xml_text
-
-                # Reset the accumulated block.
-                xml_block = ''
-            
-            # Accumulate line if inside block.
-            elif is_inside_block:
-                xml_block += xml_line
-            
-
+        tree = ET.iterparse(xml_corpus)
+        for event, element in tree:
+            if event == 'end' and element.tag == 'text':
+                for xml_sentence in element.iter('sentence'):
+                    yield xml_sentence, element
+                
+                # Clear to free up memory.
+                element.clear()
+                
+    
     def to_sentence_object(self, xml_sentence: ET.Element) -> SentenceObject:
         """
         Extract the tokens and their data as CoNLL-U tokens in a dictionary format.
@@ -269,6 +242,8 @@ if __name__ == '__main__':
     #xmlbz2_to_connlubz2('raw data/familjeliv-allmanna-familjeliv.xml.bz2', 'processed data/familjeliv-allmanna-familjeliv.connlu.bz2', 100000)
     #xmlbz2_to_connlubz2('raw data/suc3.xml.bz2', 'processed data/suc3.connlu.bz2', 100000, read_tail = False)
     
-    Korp_CoNNLU_Converter(genre=sac.Genre.INTERNET_FORUM.value).xmlbz2_to_connlubz2('raw data/familjeliv-expert.xml.bz2', 'processed data/familjeliv-expert.connlu.bz2', 100000)
+    #Korp_CoNNLU_Converter(genre=sac.Genre.INTERNET_FORUM.value).xmlbz2_to_connlubz2('raw data/familjeliv-expert.xml.bz2', 'processed data/familjeliv-expert.connlu.bz2', 100000)
+    Korp_CoNNLU_Converter(genre=sac.Genre.NEWS_ARTICLE.value, retag_pos=False).xmlbz2_to_connlubz2('raw data/attasidor.xml.bz2', 'processed data no-pos/attasidor-100k.connlu.bz2', 100000)
+
     pass
 
