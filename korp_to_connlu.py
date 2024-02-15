@@ -18,238 +18,248 @@ import warnings
 SentenceObject = list[dict[str, Any]]
 SentenceComments = list[str]
 
-def xml_to_connlu(xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1, **kwargs):
-    """
-    Convert the Språkbanken xml corpus to a CoNLL-U file.
-    """
-    print('Converting xml corpus to CoNLL-U.')
-    
-    # Initialize the stanza pipeline for dependency parsing.
-    nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
+class Korp_CoNNLU_Converter:
 
-    # Parse and process the data in batches.
-    batch_count = 0
-    sentence_count = 0
-    for batched_doc in batched_xml_to_doc(xml_corpus, 1000, max_sentences, **kwargs):
-        tagged_doc = nlp_dep(batched_doc)
-        CoNLL.write_doc2conll(tagged_doc, connlu_target)
+    def __init__(self, read_tail=True, genre: str|None=None) -> None:
+        self.read_tail = read_tail
+        self.genre = genre
 
-        batch_count += 1
-        sentence_count += len(batched_doc.sentences)
-        print(f'batch: {batch_count}, sentence: {sentence_count}')
+    def xml_to_connlu(self, xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1):
+        """
+        Convert the Språkbanken xml corpus to a CoNLL-U file.
+        """
+        print('Converting xml corpus to CoNLL-U.')
+        
+        # Initialize the stanza pipeline for dependency parsing.
+        nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
 
-    
-    print('Conversion complete.')
+        # Parse and process the data in batches.
+        batch_count = 0
+        sentence_count = 0
+        for batched_doc in self.batched_xml_to_doc(xml_corpus, 1000, max_sentences):
+            tagged_doc = nlp_dep(batched_doc)
+            CoNLL.write_doc2conll(tagged_doc, connlu_target)
+
+            batch_count += 1
+            sentence_count += len(batched_doc.sentences)
+            print(f'batch: {batch_count}, sentence: {sentence_count}')
+
+        
+        print('Conversion complete.')
 
 
-def batched_xml_to_doc(xml_corpus: TextIO, batch_size: int, max_sentences = -1, **kwargs) -> Generator[stanza.Document, None, None]:
-    """
-    Generator function that yields batches of stanza.Documents that are parsed from
-    the Språkbanken xml corpus.
-    """
+    def batched_xml_to_doc(self, xml_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
+        """
+        Generator function that yields batches of stanza.Documents that are parsed from
+        the Språkbanken xml corpus.
+        """
 
-    # The number of sentences parsed so far.
-    sentence_index = 0
+        # The number of sentences parsed so far.
+        sentence_index = 0
 
-    sentence_objects = []  # type: list[SentenceObject]
-    sentence_comments = []  # type: list[SentenceComments]
-    for xml_sentence, xml_text in xml_sentences(xml_corpus):
+        sentence_objects = []  # type: list[SentenceObject]
+        sentence_comments = []  # type: list[SentenceComments]
+        for xml_sentence, xml_text in self.xml_sentences(xml_corpus):
 
-        sentence_object = to_sentence_object(xml_sentence, **kwargs)
-        sentence_comment = to_sentence_comments(xml_sentence, xml_text, **kwargs)
+            sentence_object = self.to_sentence_object(xml_sentence)
+            sentence_comment = self.to_sentence_comments(xml_sentence, xml_text)
 
-        #print(f"{sentence_index}, {[token['text'] for token in sentence_object]}")
+            #print(f"{sentence_index}, {[token['text'] for token in sentence_object]}")
 
-        # Skip the sentence if there was a failure at extracting the sentence/comment data.
-        # There is so much data, so we don't have to get hung up on extracting every single
-        # piece of it!
-        if len(sentence_comment) == 0:
-            warnings.warn(f'WARNING: sentence comments (index={sentence_index}) is empty. Skipping...')
-            warnings.warn(f'XML sentence tree: {xml_sentence}')
-            warnings.warn(f'XML text tree: {xml_text}')
-            continue
+            # Skip the sentence if there was a failure at extracting the sentence/comment data.
+            # There is so much data, so we don't have to get hung up on extracting every single
+            # piece of it!
+            if len(sentence_comment) == 0:
+                warnings.warn(f'WARNING: sentence comments (index={sentence_index}) is empty. Skipping...')
+                warnings.warn(f'XML sentence tree: {xml_sentence}')
+                warnings.warn(f'XML text tree: {xml_text}')
+                continue
 
-        # Skip here as well.
-        if len(sentence_object) == 0:
-            warnings.warn(f'WARNING: sentence object (index={sentence_index}, id={sentence_comment[0]}) is empty. Skipping...')
-            warnings.warn(f'XML sentence tree: {xml_sentence}')
-            warnings.warn(f'XML text tree: {xml_text}')
-            continue
+            # Skip here as well.
+            if len(sentence_object) == 0:
+                warnings.warn(f'WARNING: sentence object (index={sentence_index}, id={sentence_comment[0]}) is empty. Skipping...')
+                warnings.warn(f'XML sentence tree: {xml_sentence}')
+                warnings.warn(f'XML text tree: {xml_text}')
+                continue
 
-        # Append sentence data to batch.
-        sentence_objects.append(sentence_object)
-        sentence_comments.append(sentence_comment)
+            # Append sentence data to batch.
+            sentence_objects.append(sentence_object)
+            sentence_comments.append(sentence_comment)
 
-        # Create document batch and yield it.
-        if len(sentence_objects) == batch_size:
+            # Create document batch and yield it.
+            if len(sentence_objects) == batch_size:
+                yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
+
+                # Reset the batch.
+                sentence_objects = []  # type: list[SentenceObject]
+                sentence_comments = []  # type: list[SentenceComments]
+            
+            sentence_index += 1
+
+            # Yield the current batch if we have reached max sentences.
+            if max_sentences != -1 and sentence_index == max_sentences:
+                yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
+                return
+        
+        # Yield remaining batch that is smaller than batch size.
+        if len(sentence_objects) > 0:
             yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
 
-            # Reset the batch.
-            sentence_objects = []  # type: list[SentenceObject]
-            sentence_comments = []  # type: list[SentenceComments]
+
+
+    def xml_sentences(self, xml_corpus: TextIO) -> Generator[tuple[ET.Element, ET.Element], None, None]:
+        """
+        Generator which yeilds each <sentence> and their corresponding <text> as a 2-tuple of ET.Elements. 
+        """
         
-        sentence_index += 1
+        # Whether the current line is inside a target xml block.
+        is_inside_block = False
 
-        # Yield the current batch if we have reached max sentences.
-        if max_sentences != -1 and sentence_index == max_sentences:
-            yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
-            return
-    
-    # Yield remaining batch that is smaller than batch size.
-    if len(sentence_objects) > 0:
-        yield stanza.Document(sentences=sentence_objects, comments=sentence_comments)
+        # The currently accumulated xml-block.
+        xml_block = ''
+
+        # Used for identifying start and end of block.
+        startTag = '<text'
+        endTag = '</text'
+
+        for xml_line in xml_corpus:
+            xml_line = xml_line.strip()
+
+            # Accumulate new block if start tag.
+            if xml_line.startswith(startTag):
+
+                assert not is_inside_block, 'cannot start a block inside another block'
+
+                is_inside_block = True
+                xml_block += xml_line
+            
+            # Yield accumulated block if end tag.
+            elif xml_line.startswith(endTag):
+
+                assert is_inside_block, 'must be inside a block to end it'
+
+                is_inside_block = False
+                xml_block += xml_line
+
+                xml_text = ET.fromstring(xml_block)
+                for xml_sentence in xml_text.iter('sentence'):
+                    yield xml_sentence, xml_text
+
+                # Reset the accumulated block.
+                xml_block = ''
+            
+            # Accumulate line if inside block.
+            elif is_inside_block:
+                xml_block += xml_line
+            
+
+    def to_sentence_object(self, xml_sentence: ET.Element) -> SentenceObject:
+        """
+        Extract the tokens and their data as CoNLL-U tokens in a dictionary format.
+        """
+        sentence = SentenceObject()
+        token_index = 1
+        for xml_token in xml_sentence.iter('token'):
+            token = {}
+            token['id'] = token_index
+            token['text'] = xml_token.text
+            token['upos'] = sac.suc_to_upos(xml_token.attrib['pos'])
+            token['xpos'] = xml_token.attrib['pos']
+
+            # Ignore dependencies.
+            #token['head'] = xml_token.get('dephead', 0)  # 0 for root.
+            #token['deprel'] = xml_token.attrib['deprel']
 
 
+            # Parse lemma if available.
+            if 'lemma' in xml_token.attrib:
+                lemma = xml_token.attrib['lemma'].strip('|')
+                if lemma != '':
+                    token['lemma'] = lemma
 
-def xml_sentences(xml_corpus: TextIO) -> Generator[tuple[ET.Element, ET.Element], None, None]:
-    """
-    Generator which yeilds each <sentence> and their corresponding <text> as a 2-tuple of ET.Elements. 
-    """
-    
-    # Whether the current line is inside a target xml block.
-    is_inside_block = False
+            # Parse feats if available.
+            if 'ufeats' in xml_token.attrib:
+                feats = xml_token.attrib['ufeats'].strip('|')
+                if feats != '':
+                    token['feats'] = feats
 
-    # The currently accumulated xml-block.
-    xml_block = ''
+            # Parse tail.
+            if self.read_tail:
+                tail = xml_token.attrib.get('_tail', None)
+                if tail is None:
+                    token['misc'] = 'SpaceAfter=No'
 
-    # Used for identifying start and end of block.
-    startTag = '<text'
-    endTag = '</text'
 
-    for xml_line in xml_corpus:
-        xml_line = xml_line.strip()
-
-        # Accumulate new block if start tag.
-        if xml_line.startswith(startTag):
-
-            assert not is_inside_block, 'cannot start a block inside another block'
-
-            is_inside_block = True
-            xml_block += xml_line
+            sentence.append(token)
+            token_index += 1
         
-        # Yield accumulated block if end tag.
-        elif xml_line.startswith(endTag):
+        return sentence
 
-            assert is_inside_block, 'must be inside a block to end it'
 
-            is_inside_block = False
-            xml_block += xml_line
+    def to_sentence_comments(self, xml_sentence: ET.Element, xml_text: ET.Element) -> SentenceComments:
+        """
+        Extract the relevant sentence meta-data as CoNLL-U sentence comments.
+        """
+        comments = SentenceComments()
 
-            xml_text = ET.fromstring(xml_block)
-            for xml_sentence in xml_text.iter('sentence'):
-                yield xml_sentence, xml_text
+        comments.append(f'# sent_id = {xml_sentence.attrib["id"]}')
+        comments.append(f'# text = {self.xml_tokens_to_text(xml_sentence)}')
 
-            # Reset the accumulated block.
-            xml_block = ''
+        # Parse date.
+        if 'date' in xml_text.attrib:
+            comments.append(f'# date = {xml_text.attrib["date"]}')
         
-        # Accumulate line if inside block.
-        elif is_inside_block:
-            xml_block += xml_line
+        # Parse url.
+        if 'url' in xml_text.attrib:
+            comments.append(f'# url = {xml_text.attrib["url"]}')
+
+        # Write genre if specified.
+        if self.genre is not None:
+            comments.append(f'# genre = {self.genre}')
         
-
-def to_sentence_object(xml_sentence: ET.Element, read_tail=True) -> SentenceObject:
-    """
-    Extract the tokens and their data as CoNLL-U tokens in a dictionary format.
-    """
-    sentence = SentenceObject()
-    token_index = 1
-    for xml_token in xml_sentence.iter('token'):
-        token = {}
-        token['id'] = token_index
-        token['text'] = xml_token.text
-        token['upos'] = sac.suc_to_upos(xml_token.attrib['pos'])
-        token['xpos'] = xml_token.attrib['pos']
-
-        # Ignore dependencies.
-        #token['head'] = xml_token.get('dephead', 0)  # 0 for root.
-        #token['deprel'] = xml_token.attrib['deprel']
+        return comments
 
 
-        # Parse lemma if available.
-        if 'lemma' in xml_token.attrib:
-            lemma = xml_token.attrib['lemma'].strip('|')
-            if lemma != '':
-                token['lemma'] = lemma
+    def xml_tokens_to_text(self, sentence : ET.Element) -> str :
+        """
+        Collect all the xml tokens and concate them as a single text string.
+        """
+        sentence_text = ''
 
-        # Parse feats if available.
-        if 'ufeats' in xml_token.attrib:
-            feats = xml_token.attrib['ufeats'].strip('|')
-            if feats != '':
-                token['feats'] = feats
+        # Append all words as a single string.
+        for token in sentence.iter('token'):
+            assert token.text != None, 'token must no be empty'
 
-        # Parse tail.
-        if read_tail:
-            tail = xml_token.attrib.get('_tail', None)
-            if tail is None:
-                token['misc'] = 'SpaceAfter=No'
+            sentence_text += token.text
 
+            # Append whitespace.
+            if not self.read_tail or '_tail' in token.attrib:
+                sentence_text += ' '
+        
+        return sentence_text
 
-        sentence.append(token)
-        token_index += 1
-    
-    return sentence
-
-
-def to_sentence_comments(xml_sentence: ET.Element, xml_text: ET.Element, **kwargs) -> SentenceComments:
-    """
-    Extract the relevant sentence meta-data as CoNLL-U sentence comments.
-    """
-    comments = SentenceComments()
-
-    comments.append(f'# sent_id = {xml_sentence.attrib["id"]}')
-    comments.append(f'# text = {xml_tokens_to_text(xml_sentence, **kwargs)}')
-
-    # Parse date.
-    if 'date' in xml_text.attrib:
-        comments.append(f'# date = {xml_text.attrib["date"]}')
-    
-    # Parse url.
-    if 'url' in xml_text.attrib:
-        comments.append(f'# url = {xml_text.attrib["url"]}')
-    
-    return comments
-
-
-def xml_tokens_to_text(sentence : ET.Element, read_tail = True) -> str :
-    """
-    Collect all the xml tokens and concate them as a single text string.
-    """
-    sentence_text = ''
-
-    # Append all words as a single string.
-    for token in sentence.iter('token'):
-        assert token.text != None, 'token must no be empty'
-
-        sentence_text += token.text
-
-        # Append whitespace.
-        if not read_tail or '_tail' in token.attrib:
-            sentence_text += ' '
-    
-    return sentence_text
-
-# def batch_sentences(xml_corpus: TextIO) -> Generator[stanza.Document, None, None]:
-#     """
-#     Generator function that yields batches of the xml corpus as Stanza Documents.
-#     Note: these are not annotated with any dependency relations.
-#     """
-#     pass
+    # def batch_sentences(xml_corpus: TextIO) -> Generator[stanza.Document, None, None]:
+    #     """
+    #     Generator function that yields batches of the xml corpus as Stanza Documents.
+    #     Note: these are not annotated with any dependency relations.
+    #     """
+    #     pass
 
 
 
 
-def xmlbz2_to_connlu(xml_bz2_filename: str, output_filename: str, max_sentences):
-    print('xmlbz2_to_connlu')
-    with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
-        with open(output_filename, mode='w') as connlu_target:
-            xml_to_connlu(xml_corpus, connlu_target, max_sentences)
+    def xmlbz2_to_connlu(self, xml_bz2_filename: str, output_filename: str, max_sentences):
+        print('xmlbz2_to_connlu')
+        with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
+            with open(output_filename, mode='w') as connlu_target:
+                self.xml_to_connlu(xml_corpus, connlu_target, max_sentences)
 
 
-def xmlbz2_to_connlubz2(xml_bz2_filename: str, output_filename: str, max_sentences, **kwargs):
-    print('xmlbz2_to_connlu')
-    with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
-        with bz2.open(output_filename, mode='wt') as connlu_target:
-            xml_to_connlu(xml_corpus, connlu_target, max_sentences, **kwargs)
+    def xmlbz2_to_connlubz2(self, xml_bz2_filename: str, output_filename: str, max_sentences):
+        print('xmlbz2_to_connlu')
+        with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
+            with bz2.open(output_filename, mode='wt') as connlu_target:
+                self.xml_to_connlu(xml_corpus, connlu_target, max_sentences)
 
 
 #xmlbz2_to_connlu('raw data/familjeliv-adoption.xml.bz2', 'processed data/familjeliv-adoption_v2.connlu')
@@ -257,6 +267,8 @@ def xmlbz2_to_connlubz2(xml_bz2_filename: str, output_filename: str, max_sentenc
 if __name__ == '__main__':
     #xmlbz2_to_connlubz2('raw data/familjeliv-adoption.xml.bz2', 'processed data/famtest.connlu.bz2', 100)
     #xmlbz2_to_connlubz2('raw data/familjeliv-allmanna-familjeliv.xml.bz2', 'processed data/familjeliv-allmanna-familjeliv.connlu.bz2', 100000)
-    xmlbz2_to_connlubz2('raw data/suc3.xml.bz2', 'processed data/suc3.connlu.bz2', 100000, read_tail = False)
+    #xmlbz2_to_connlubz2('raw data/suc3.xml.bz2', 'processed data/suc3.connlu.bz2', 100000, read_tail = False)
+    
+    Korp_CoNNLU_Converter(genre=sac.Genre.INTERNET_FORUM.value).xmlbz2_to_connlubz2('raw data/familjeliv-expert.xml.bz2', 'processed data/familjeliv-expert.connlu.bz2', 100000)
     pass
 
