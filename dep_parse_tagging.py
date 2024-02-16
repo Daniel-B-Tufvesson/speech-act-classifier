@@ -33,13 +33,23 @@ def tag(source: TextIO, target: TextIO, **kwargs):
     # Tag the corpus in batches.
     batch_count = 0
     sentence_count = 0
-    for batched_doc in read_batched_doc(source, 1000, **kwargs):
-        tagged_doc = nlp_dep(batched_doc)
+    for batched_doc in read_batched_doc(source, 100, **kwargs):
+        tagged_doc = nlp_dep(batched_doc)  # type: stanza.Document
         CoNLL.write_doc2conll(tagged_doc, target)
 
         batch_count += 1
         sentence_count += len(batched_doc.sentences)
         print(f'batch: {batch_count}, sentences: {sentence_count}')
+
+        # Clear documents to free memory.
+        # However, I'm not sure if this actually improves memory performance. Running the script 
+        # (either at 100 or 1000 batchsize) seem to keep memory usage at ~1.2 GB.
+        batched_doc.sentences = None
+        tagged_doc.sentences = None
+    
+    print(f'Parsing complete. Parsed {sentence_count} sentences')
+    
+
 
 
 def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
@@ -69,16 +79,23 @@ def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1)
             if sentence_count != max_sentences:
                 lines = []
                 sentence_count = 0
-                
+
             # If reached max, stop parsing.
             else :
-                break
+                return
+    
+    # Parse remaining lines.
+    if len(lines) != 0:
+        doc_conll, doc_comments = CoNLL.load_conll(lines)
+        doc_dict, doc_empty = CoNLL.convert_conll(doc_conll)
+        doc = stanza.Document(doc_dict, text=None, comments=doc_comments, empty_sentences=doc_empty)
+        yield doc
 
             
 
 
 
 if __name__ == '__main__':
-    tag_bz2('processed data no-deps/attasidor-100k-clean.connlu.bz2', 'processed data/attasidor-100k.connlu.bz2')
+    tag_bz2('processed data no-deps/attasidor-100k-clean.connlu.bz2', 'processed data/attasidor-test.connlu.bz2')
         
             
