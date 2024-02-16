@@ -28,5 +28,6 @@ if __name__ == '__main__':
     #incremental_read('processed data/suc3.connlu.bz2')
     #incremental_read('raw data/familjeliv-expert.xml.bz2')
     #incremental_read('processed data/familjeliv-expert.connlu.bz2')
-    incremental_read('processed data no-pos/attasidor-100k.connlu.bz2')
+    #incremental_read('processed data no-pos/attasidor-100k.connlu.bz2')
+    incremental_read('processed data/attasidor-100k.connlu.bz2')
     pass
