@@ -50,8 +50,6 @@ def tag(source: TextIO, target: TextIO, **kwargs):
     print(f'Parsing complete. Parsed {sentence_count} sentences')
     
 
-
-
 def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
     """
     Read a connlu corpus in batches. The batches are yielded as stanza.Documents. The batch size is given
@@ -90,9 +88,6 @@ def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1)
         doc_dict, doc_empty = CoNLL.convert_conll(doc_conll)
         doc = stanza.Document(doc_dict, text=None, comments=doc_comments, empty_sentences=doc_empty)
         yield doc
-
-            
-
 
 
 if __name__ == '__main__':
