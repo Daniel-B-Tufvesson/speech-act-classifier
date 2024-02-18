@@ -1,5 +1,5 @@
 """
-Codes used for reading KORP corpora.
+Codes used for reading KORP corpora. This is mostly deprecated!
 """
 
 import bz2
