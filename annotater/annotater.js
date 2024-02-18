@@ -265,7 +265,7 @@ const sentences = [
 
 // Read sentences.
 const fileURL = '../data to annotate/data-to-annotate-v1.txt'
-const sentences = await random_sample_of_sentences(fileURL, 20)
+const sentences = await random_sample_of_sentences(fileURL, 50)
 console.log('Number of sentences: ', sentences.length)
 
 // Create new session.
