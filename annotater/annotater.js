@@ -2,17 +2,18 @@
  * The main js code for the annotater.
  */
 
+import { random_sample_of_sentences } from "./data-reading.js"
 
 /**
  * A sentence.
  */
-class Sentence {
+export class Sentence {
 
     annotationTag = null
 
     /**
      * 
-     * @param {number} sent_id the ID of the sentence.
+     * @param {*} sent_id the ID of the sentence.
      * @param {string} text the string of the sentence.
      */
     constructor(sent_id, text) {
@@ -252,6 +253,7 @@ class Controller {
     }
 }
 
+/*
 // Some test sentences.
 const sentences = [
     new Sentence(0, 'Tänk om man hade en blå bil.'),
@@ -259,16 +261,16 @@ const sentences = [
     new Sentence(2, 'Har du sett Spider-man?'),
     new Sentence(3, 'Detta är en mening.')
 ]
+*/
 
 // Read sentences.
-fetch('test-file.txt')
-  .then(response => response.text())
-  .then(text => console.log(text))
-
+const fileURL = '../data to annotate/data-to-annotate-v1.txt'
+const sentences = await random_sample_of_sentences(fileURL, 20)
+console.log('Number of sentences: ', sentences.length)
 
 // Create new session.
 const session = new Session(null, sentences)
-session.session_id = `test-session-${session.startTime}`
+session.session_id = `session-${session.startTime}`
 new View(session)
 new Controller(session)
 
