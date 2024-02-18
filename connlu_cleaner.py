@@ -59,4 +59,5 @@ def clean_up(source: TextIO, target: TextIO):
 
 if __name__ == '__main__':
     #clean_up_bz2('processed data no-deps/attasidor-100k.connlu.bz2', 'processed data no-deps/attasidor-100k-clean.connlu.bz2')
+    clean_up_bz2('processed data no-deps/gp2013-100k.connlu.bz2', 'processed data no-deps/gp2013-100k-clean.connlu.bz2')
     pass

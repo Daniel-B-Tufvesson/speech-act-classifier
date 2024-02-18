@@ -11998,3 +11998,3003 @@ text = - Gå försiktigt , trampa i mina fotspår , manar han oss , och både gr
 sent_id = bfe4d2
 text = Ingen av de inblandade är kända hos polisen tidigare , säger Tomas Näsström .
 
+sent_id = f9383ce60-f91bcbfbe
+text = Sedan i höstas har uppgifter om listor över skattesmitare vållat en allt hetare debatt , trots att listornas existens i några fall inte har bekräftats .
+
+sent_id = f9787cd1b-f9f86c2ed
+text = Född : 5 april 1977 i Spånga .
+
+sent_id = f99c2a5c1-f939aaa0c
+text = Fem av sex skott från kanten hamnade i nät .
+
+sent_id = f9bb72b5e-f9c8d10e9
+text = Familj : Son på 8 månader och pojkvän .
+
+sent_id = f98b8a2f7-f996bd162
+text = – Det slår i så fall väldigt hårt mot konsultbranschen i Göteborgsområdet .
+
+sent_id = f923c0a9e-f95153e84
+text = Att vara leveranssäkra är en av våra affärsidéer . ”
+
+sent_id = f9d898f94-f9dca3139
+text = Hur mycket bättre vore det inte om han istället uthålligt drev Kristdemokraternas starka frågor .
+
+sent_id = f96358f7e-f9801d292
+text = Grekiskt , enkelt och prisvärt .
+
+sent_id = f9d6bb11b-f98787d6c
+text = Polisen söker med hund i området .
+
+sent_id = f91882c6d-f9a530a6d
+text = Gav ut tre album under 1990-talet och samarbetade med såväl Pet Shop Boys Neil Tennant som Kraftwerks Karl Bartos .
+
+sent_id = f94d0a6e9-f9eda9aa0
+text = – Barrväxterna har fått ett litet oförtjänt dåligt rykte efter 1970-talets barrtrend .
+
+sent_id = f92b6265d-f9eeac725
+text = Både Windows och Mac kan drabbas .
+
+sent_id = f91658208-f99317cae
+text = En av munkarna är 100 år gammal och fick flygas med helikopter till sjukhus , där han svävar mellan liv och död med allvarliga brännskador .
+
+sent_id = f95e17a30-f9cd159fa
+text = Översättning : Olov Hyllienmark
+
+sent_id = f9cc35013-f9ef20541
+text = Han är klok som få med alla möjliga och omöjliga infallsvinklar .
+
+sent_id = f94d2fa04-f97e1f54c
+text = Det är svårt att ge åtgärdsförslag utan att veta mer , till exempel om din vikt och hälsostatus , och om vad du faktiskt får i dig i form av energi och näring .
+
+sent_id = f9a3b63c6-f9fca9836
+text = – Jag tror att någon har kastat den från översta våningen , in i Ljushallen , säger Emilia .
+
+sent_id = f9a52165e-f972990f1
+text = Mathias Lidberg , 42 , forskare .
+
+sent_id = f9f360ce5-f9da8d23b
+text = Företaget har fått sitt namn efter grundaren
+
+sent_id = f9f521807-f91c46b2e
+text = Tysklands förbundskansler Angela Merkel var mycket dämpad efter valutgången i delstatsvalet i Niedersachsen .
+
+sent_id = f99a756c5-f915ade3f
+text = Tidigt på säsongen kan det gå att åka på exempelvis Surtesjöarna på Vättlefjäll och flera sjöar i Lerums och Härryda kommun .
+
+sent_id = f9819ed6a-f96031613
+text = 27 januari : Poolspel U10
+
+sent_id = f9e99f58d-f95d2c679
+text = Pia Hellström har tillsammans med kollegorna på Bifrost förskola lagt incidenten med kanylerna bakom sig .
+
+sent_id = f91e28baa-f97f53550
+text = Solo-festival på Teater Trixter
+
+sent_id = f9a7fb3dc-f916f1982
+text = Fyndet baseras på de drygt 6 000 kvinnor som deltog i en studie vid University of Bristol .
+
+sent_id = f9addc80f-f904af927
+text = Då är det mer givande att ta sig an Paolo Hewitts coffeetablevolym Bowie album för album .
+
+sent_id = f9dedd6fb-f9913b55d
+text = Men polisen får kritik för dålig knarkspaning på nätet .
+
+sent_id = f9ee3bc81-f9b8df12d
+text = Joseph Kennedy ” skapade ” Kennedy-klanen i början av det förra seklet .
+
+sent_id = f975c0218-f9ad68aac
+text = Om du gör en film om polygami och går till attack mot konventionen så kommer du direkt att mötas av argument för polygami .
+
+sent_id = f943c0296-f935b6bb5
+text = Test : Den mest prisvärda stora tv-apparaten kommer från Philips .
+
+sent_id = f91968fc9-f97e805e9
+text = Jag kan inte säga att jag spelar mycket på det .
+
+sent_id = f92e5f376-f90786d8c
+text = Helheten :
+
+sent_id = f97a47b4d-f9c886819
+text = på export
+
+sent_id = f9dc847ef-f9542cbc9
+text = Problemet med Bunkern är att det skrämmande på en gång är för handgripligt och för splittrat mångskiftande , vilket gör att skildringen förlorar i dramatisk skärpa .
+
+sent_id = f911e23b2-f959724fd
+text = Testa dig fram till din favorit .
+
+sent_id = f99e03343-f9d7b8712
+text = Johannes Bjerling , doktorand i journalistik vid Göteborgs universitet , har forskat om mediernas bevakning av valen från 1979 till 2010 .
+
+sent_id = f93cc8f58-f9e394fcb
+text = Men jag vet inte om det är någon idé att lägga tid på att leta efter någon i deras släkt .
+
+sent_id = f96d67396-f987a7d5f
+text = Kapp-Ahls lyft
+
+sent_id = f9f8929f7-f99710c84
+text = Några av dem ser sig till och med som demokratins försvarare .
+
+sent_id = f9dcaadd6-f9745c7ea
+text = Per Löthgren
+
+sent_id = f9840a7b3-f9d8a55fe
+text = Malik Bendjellou , som har gjort filmen om återupptäckten av den amerikanske musikern Sixto Rodriguez , tar emot priset på 50 000 kronor vid invigningen av Göteborgs filmfestival den 25 januari .
+
+sent_id = f9dd286f3-f95b6d266
+text = Det har varit fråga om sexuella handlingar som att killen har rört sitt könsorgan mot flickans rygg och rumpa .
+
+sent_id = f944392bf-f9bdaa32f
+text = En annan fördel är att det eviga ringandet upphör ute i verksamheterna och på så sätt frigör tid för dem att sköta sitt jobb .
+
+sent_id = f9c7d9a78-f953b4986
+text = Med : Denzel Washington , Kelly Reilly , Don Cheadle , John Goodman m fl
+
+sent_id = f9e0c7054-f9ed5b4bf
+text = Spelet från 76-årige Redford , som krasst uttryckt är för gammal för rollfiguren i den här filmen , övertygar inte fullt ut .
+
+sent_id = f9a48bfcc-f9b780bf4
+text = Slopa prestigen
+
+sent_id = f9b050b06-f9d2a82da
+text = Ryssland2
+
+sent_id = f9139de0a-f9dd2995e
+text = Privat har hon inte orkat besöka World Trade Center sedan katastrofen .
+
+sent_id = f98598684-f9b32a47b
+text = I Ismailia skanderade demonstranterna : ” Ned med Muhammad Mursi , ned med undantagstillståndet ! ” .
+
+sent_id = f9332176e-f917236e5
+text = På flera av bilderna gör sig en identifierbar kravallpolis beredd att slå ner på demonstranter bakifrån , med batong och sköld i högsta hugg , medan hans offer ser helt oförberedda ut .
+
+sent_id = f9e14adcc-f9e876a9c
+text = Charlotta Forsberg
+
+sent_id = f9b5037dc-f9eab919e
+text = Den unge mannen har flera domar bakom sig .
+
+sent_id = f9894cb2c-f9c3e7a04
+text = – Jag får ofta frågan om varför det är så få kvinnor som lagar mat på proffsnivå .
+
+sent_id = f9b89fff6-f9114605f
+text = I höstas beslagtog polisen vid en husrannsakan en större mängd vapen hos 66-åringen .
+
+sent_id = f9d878314-f9127124c
+text = Signhild Arnegård Hansen : En ny ordförande som vill vara publik och som är beredd att stå i Aktuellts tv-studio och diskutera näringslivsfrågor .
+
+sent_id = f98be04e3-f9ddb7ec2
+text = Stefan Löfven ( S ) vill bekämpa arbetslösheten genom att alla företag som konkurerar om offentliga uppdrag måste ha en viss procent anställda som hämtats ur en pool på arbetsförmedlingen för långtidsarbetslösa , funktionshindrade och personer med speciella förutsättningar .
+
+sent_id = f9a252503-f94aa4655
+text = Sedan blev det radioobservatörstjänst i lumpen .
+
+sent_id = f99c76067-f98b20225
+text = Den något svala publikkontakten .
+
+sent_id = f9d262885-f9c9080f5
+text = Det har varit otroligt mycket folk .
+
+sent_id = f9a75f060-f930f445d
+text = JONAS LUNDÉN
+
+sent_id = f9f182ca2-f9ca2e02b
+text = Budskapet har gått fram .
+
+sent_id = f9d34ef22-f91c20117
+text = Det faktum att regeringen länge vägrade att utreda uppgifterna , eller ens att kommentera deras sanningshalt , stärkte bara många greker i uppfattningen att det är en korrumperad och inkompetent klick av politiker som har orsakat krisen .
+
+sent_id = f9f412ce1-f9c5efec3
+text = Det är så dumt att ta det i bitar .
+
+sent_id = f95c70a3f-f9f49df6f
+text = Föddes : 6 oktober 1887 i som Charles Edouard Jeanneret .
+
+sent_id = f99737cb7-f9f2b2339
+text = Hola muchachos , ropar han glatt till sina kompisar .
+
+sent_id = f9dec2682-f93b28955
+text = Och både boot-camp-grupper och andra använde sig av Plikta för styrketräning .
+
+sent_id = f9b0aaa33-f92c11bb8
+text = • NÖJE : Tajming för Vinterbergs nya film 62
+
+sent_id = f9a3fb1dc-f912085e2
+text = medarbetare .
+
+sent_id = f9a5889f2-f9b8a5d49
+text = Ryskan hade inte tappat ett enda set på vägen fram till semifinalen .
+
+sent_id = f92a85fd4-f9af1b12a
+text = Skövde 12 7 1 4 300 – 293 15
+
+sent_id = f98da348d-f92332798
+text = Kinesiska medier har ju utsatts för övergrepp från censurmyndigheterna förut .
+
+sent_id = f94085185-f98cda396
+text = Och det ska vara så .
+
+sent_id = f953df859-f9ba383df
+text = – Klausulen gäller efter säsongen , berättar Mats Grauers .
+
+sent_id = f98f4aab9-f9df5f52d
+text = Eslöv 10 9 0 1 29 – 9 18
+
+sent_id = f91dd2c92-f9b565ac7
+text = Gör så här :
+
+sent_id = f96495210-f9c3d7295
+text = Det är hög tid att se över kommunallagen , för att göra ansvarsfördelningen tydlig .
+
+sent_id = f95ec6730-f9ca593db
+text = Eftersom man inte hade räknat med den svenska iskylan stannar den idag vid vattenytan .
+
+sent_id = f9e85ea36-f992f6b09
+text = En ny Sisyfosundersökning visar att kronprinsessan Victoria är populärast i kungafamiljen .
+
+sent_id = f970521cd-f95a63434
+text = Ungdomsstyrelsen har beviljat 258 miljoner kronor i organisationsbidrag till 221 barn- och ungdomsorganisationer .
+
+sent_id = f9a74f4ee-f9c324412
+text = Och så själva Pannhuset som inkarnerar platsens själ .
+
+sent_id = f9d2d262f-f9939fc74
+text = ( TT )
+
+sent_id = f9cc1b814-f992f85c0
+text = Men oppositionen vädjar till regeringen att inte ta IMF:s lån .
+
+sent_id = f93911f42-f94fa95de
+text = Guldmick .
+
+sent_id = f99b9afd3-f903a77b7
+text = Över 30 000 oskyldiga greps , många fängslades , torterades eller mördades .
+
+sent_id = f9f587667-f9540388d
+text = Ett litet tag till .
+
+sent_id = f93504d59-f9af26ed0
+text = Fredrik Larsson – sjukgymnast med digert arbete framför sig .
+
+sent_id = f95c0e6b3-f9129c790
+text = Nyhetsportalen Sina lät första bokstaven i rubrikerna på första sidan , om man läser dem vertikalt , stava : ” Heja Nanfang zhoumo ” .
+
+sent_id = f9c486083-f9e7bda0d
+text = … men efter valet i Israel väntar hårda prövningar
+
+sent_id = f9c36bf5f-f9be72eb7
+text = Det är en plisserad långklänning med ett enkelt t-shirtliv från en kollektion Ida gjorde där alla kläder var röda .
+
+sent_id = f9306f381-f93b38436
+text = 90-åring överfölls av inbrottstjuv
+
+sent_id = f96d27a21-f9e0041a3
+text = Kungsportsavenyn 5
+
+sent_id = f93b2fa3f-f93b54145
+text = – Min andra son är skriven i Mölndal , hos sin pappa , och de går båda två på Toltorpsskolan .
+
+sent_id = f9c6e0a1f-f91301d0e
+text = SKRIBENTEN
+
+sent_id = f9292e9ac-f928e978d
+text = Nu ska jag in och ge blod , och jag valde att åka kollektivt i stället , säger han .
+
+sent_id = f9a597a57-f994a6bea
+text = Men förnyelsen av den svenska bilparken ger det största bidraget till säkerheten , säger trafiksäkerhetsdirektör Claes Tingvall på Trafikverket i en kommentar för Dagens Nyheter .
+
+sent_id = f9d4dba92-f9abf11f0
+text = • The Tallest Man on Earth ( premiär : 14 / 2 , Göteborg ) .
+
+sent_id = f9cfe941c-f9cc09891
+text = Vinnaren får ett årskort på stadens bad- och fritidsanläggningar .
+
+sent_id = f9645d351-f973c7a21
+text = Björnlund .
+
+sent_id = f92574cae-f902724b0
+text = Sveriges Radio skall avveckla grammofonarkivet .
+
+sent_id = f938df8c9-f90ae1156
+text = – Plus att jag har lite utförsäljning av mina kläder , välgörenhet till Nepal .
+
+sent_id = f9ff82b33-f91cbf4dd
+text = Den 62-årige sjukpensionären är märkt av den svåra misshandeln och han har en pressad ekonomi .
+
+sent_id = f90420266-f93ab6fd3
+text = Laget blandade och gav lite under söndagen , tyvärr räckte det inte hela vägen till avancemang denna gång heller .
+
+sent_id = f9324dd68-f9baf44d2
+text = & Rock
+
+sent_id = f9efd4942-f92c811a7
+text = Parkeringsplatserna ska vara trygga , av god kvalitet , ha väderskydd och det ska finnas möjligheter att låsa in eller fast cykeln .
+
+sent_id = f933011e4-f9391b7da
+text = Men så tänker jag på kugghjul som rullar på i maskineriet .
+
+sent_id = f94ca1af6-f9f3c5940
+text = Först och främst måste man se det allmänna pensionssystemet som ett generationskontrakt där den yrkesverksamma generationen betalar de äldres pension och samtidigt tar ansvar för att skapa förutsättning för sin egen pension .
+
+sent_id = f93280d84-f916d0fa2
+text = December 2009 : Över 100 personer omkom i en explosion orsakad av fyrverkerier i en bar på en nattklubb i den ryska staden Perm .
+
+sent_id = f936a8512-f9920f9dd
+text = På tre dagar finns lite fler än 18 000 publikplatser , men försäljningen har inte tagit fart ännu .
+
+sent_id = f9988b334-f99725dfd
+text = Samtidigt som de minskar i bidragstyngda Angered
+
+sent_id = f9c06e5cb-f9a34548b
+text = Niklas Aronsson är en av alla de som räknat fåglar och han tror sig veta vilken som vinner .
+
+sent_id = f93775221-f968c5100
+text = Djurrättsalliansens manifestation handlade om att uppmana läkemedelsjätten att inte omplacera de hundar som blivit över då en kennel i Örkelljunga läggs ner .
+
+sent_id = f928d5687-f9b6e2713
+text = Bland alla dessa veteraner vill jag också passa på att tipsa om Little Hurricane med Tone Catalano på gitarr och C.C .
+
+sent_id = f91f9ba42-f9acd4b27
+text = Men så blev det inte .
+
+sent_id = f94fb8ab7-f9d66c52c
+text = Jag såg nog ganska komisk ut .
+
+sent_id = f97ed4fb5-f98eb225e
+text = Biståndsministern under en kort bilfärd mellan Iraks utrikesdepartement och den svenska ambassaden i Bagdad .
+
+sent_id = f9db4ec6d-f951f7417
+text = Att det är julbord i december kan ju knappast komma som en överraskning för den som bemannar Fiskekrogen .
+
+sent_id = f954ed35a-f9a056b59
+text = Domaren , som kandiderar till Högsta domstolen , fällde kommentaren sedan parlamentet ställt en fråga om lämpligheten att införa dödsstraff mot våldtäktsmän .
+
+sent_id = f95763797-f94ca34ec
+text = Gubbarna har börjat anlända till kaféet .
+
+sent_id = f9efb884c-f9cadb1b5
+text = Som ägare vill jag vara långsiktig .
+
+sent_id = f984ecffc-f90453492
+text = Strömming är en fet fisk som tål att varieras med tuffa kryddor .
+
+sent_id = f94079d88-f9191455f
+text = Låt oss ta det på allvar .
+
+sent_id = f99e9bd48-f9a244944
+text = – Min andra son är skriven i Mölndal , hos sin pappa , och de går båda två på Toltorpsskolan .
+
+sent_id = f9b9b84b2-f921c57d2
+text = 500 g fast potatis
+
+sent_id = f96f75bec-f95738cb2
+text = De tre nominerade kvinnorna på listan är amerikanskorna Lydia Davis och Marilynne Robinson samt franska Marie Ndiaye .
+
+sent_id = f944768ce-f91f12ca3
+text = 16 juni 2011 inleddes en omvälvande förändring genom en dom i Högsta domstolen , HD , som slog fast att enbart mängden knark inte ska få bestämma straffets längd .
+
+sent_id = f9e317491-f9bb4f5b4
+text = Även redaktionellt gör TV4 en satsning på landets näst högsta serie .
+
+sent_id = f90425629-f99181d5b
+text = Hon släpper taget och landar på rygg i fönsterkarmen , och där blir hon liggande med benen i vädret .
+
+sent_id = f9195666e-f9247250f
+text = Prins Daniel : Jag tror att framtidens entreprenörer finns på våra gymnasieskolor , högskolor och universitet .
+
+sent_id = f9debaa49-f920a6bdb
+text = I torsdags dog tio personer i byn Kibusu , när orma-folket hämnades en attack på byn Nduru dagen innan , som pokomo-folket utförde , och som skördade nio offer .
+
+sent_id = f98fc4c8f-f95c26de5
+text = De gifte sig den 26 maj 1990 i Livets ords kyrka i Uppsala och skiljde sig tio år senare .
+
+sent_id = f9ba80cf5-f9aaab5ab
+text = Sedan är det ett lidande i sig att behöva gå igenom det här i många år , med osäkerheten som det innebär , säger Jan Ivarsson , som bor i en av de berörda villorna .
+
+sent_id = f9371d515-f978464e2
+text = Det är mycket det som sporrat mig .
+
+sent_id = f951c9c70-f9ade44b3
+text = – Det känns overkligt , som vanligt , säger Marit Kapla och ler .
+
+sent_id = f97d9c468-f948163f0
+text = Ändå dröjde det till den 86:e minuten innan Sjachtar avgjorde matchen efter ett skickligt samspel mellan Taison och Eduardo .
+
+sent_id = f9f4684ef-f98402ed5
+text = I Göteborgsområdet finns många olika stilar och klubbar att välja på och som nybörjare går det vanligtvis bra att provträna gratis en eller två gånger innan man bestämmer sig .
+
+sent_id = f99c270ff-f9a70a370
+text = I den appen lägger du inte ut status eller skriver något på andras väggar utan du skickar meddelanden och chattar .
+
+sent_id = f94cf46a3-f949b984e
+text = Jag är feminist .
+
+sent_id = f9ea8679e-f95ec7e7d
+text = Syftena är flera .
+
+sent_id = f9317ea59-f938def75
+text = Komettorget , Bergsjön
+
+sent_id = f9624dbb5-f9cf1dfcc
+text = RIK tog tredje raka segern , efter vinsten mot Ystad .
+
+sent_id = f95096710-f9cf0523d
+text = Ulla Skoogs insats i Dom över död man gav en bagge .
+
+sent_id = f9018ea8a-f9d64881a
+text = Inom ICBLW ansvarar Maud Olofsson för en arbetsgrupp som studerar ledarskap .
+
+sent_id = f92d904c5-f942f007e
+text = Men jag har aldrig varit vanlig .
+
+sent_id = f9701fe4f-f904d37ff
+text = Enligt Trafikverkets och trafikkontorets prognos kommer trafiken att minska med 15 – 20 procent vid betalstationerna , med 10 – 15 procent i innerstan och med 5 – 15 procent på de stora infartslederna sedan trängselskatten införts .
+
+sent_id = f9267e9a9-f9dde7857
+text = Internationella fotbollsförbundet , Fifa , har beslutat att avstängningarna gäller över hela världen .
+
+sent_id = f9679e5db-f9eaeb929
+text = President Mursi har dåligt med tid att göra något åt roten till Egyptens problem – landets usla ekonomi .
+
+sent_id = f9c07964e-f9ac90edc
+text = Kanske får han en stund i rampljuset då , annars är det bra mycket svårare att få uppmärksamhet som riksdagspolitiker än som kommunalråd i Kungsbacka .
+
+sent_id = f989a3c08-f99a69834
+text = Glatt besked .
+
+sent_id = f9f2d1075-f98c62765
+text = Bryssel : Med snygg logga , tufft namn och skarpa hjärnor ska EC3 sätta skräck i EU:s cyberskurkar .
+
+sent_id = f9b205e07-f96485ea0
+text = – … Är det nog fortfarande Viktoria som drar längsta strået – åtminstone i det korta programmet , säger Joshi Helgesson och fortsätter :
+
+sent_id = f911d0e8f-f91dab822
+text = Rapporter kom om strider från staden Diabaly 40 mil norr om huvudstaden Bamako .
+
+sent_id = f94556959-f9e23f46a
+text = – Jag har en kontinuerlig dialog med Mild , han är lite som en mentor för mig .
+
+sent_id = f9e65f5bc-f943a0d6c
+text = Demokrati handlar ytterst om en strid om makten .
+
+sent_id = f9059ca2d-f958eb6f4
+text = Stockholm : Sydkorea dömde i går för första gången en våldtäktsman till så kallad kemisk kastrering .
+
+sent_id = f9ea6e45b-f9a7e6939
+text = – Det går aldrig att komma från att det sportsliga är viktigt .
+
+sent_id = f9fdcae24-f914b8a21
+text = Göteborgs Bluesförening ställer till med den blåaste av konserter på Musikens Hus nu i helgen .
+
+sent_id = f9d0f74d8-f9ec87ba0
+text = – Om inte du kan hjälpa mig , vem har ansvar att hjälpa mig då ?
+
+sent_id = f94d3ce65-f965764dd
+text = – Han har köpt in elektronikprodukter , främst i Europa , och sålt dem vidare utan bokföring och utan att betala moms , förklarar Lundgren .
+
+sent_id = f9d4646cc-f9c169868
+text = GP firar 200 år
+
+sent_id = f9150522b-f9adf2158
+text = Jag önskar att han blir den han är .
+
+sent_id = f912db18a-f930f700d
+text = Favorit i repris
+
+sent_id = f972be99c-f9e040e0a
+text = Camilla Läckberg : Men herregud .... ” Min leksaksspade är större än din leksaksspade ” ..... Blir mållös .
+
+sent_id = f9c2cff49-f9a36e3fe
+text = Det är heller inte jakten på mördaren som utgör romanens fascinationskraft , utan alla dessa olika berättelser om alla dessa människor i det lilla samhället som intill förvirringens gräns skaver i och mot varandra .
+
+sent_id = f97b9f204-f9c8253c0
+text = Den stora skillnaden är ersättningen vid uppsägning .
+
+sent_id = f9fe8448e-f98e8818f
+text = Memphis 32 22 10 3047 – 2868 44
+
+sent_id = f9595e0c3-f9ca591c3
+text = Efter ett nytt sponsoravtal värt 1,5 miljoner ser läget bättre ut och övriga spelare i truppen har fått nya kontrakt .
+
+sent_id = f9de9ec7e-f903a4579
+text = Några , men för få , mäklare fälls för att ha vilselett kunderna med lockpriser .
+
+sent_id = f9f6a2c16-f967a84d9
+text = – Jag har varit ledig för länge .
+
+sent_id = f934ac819-f9065e571
+text = På institutionen för tillämpad fysik och elektronik vid Umeå universitet pågår sedan flera år tillbaka forskning på algoritmer som ska kunna känna igen ansikten .
+
+sent_id = f90c1738c-f9c7f7a46
+text = VAD : Maria Arnholm ( FP ) ny jämställdhetsminister .
+
+sent_id = f97ea4498-f90d01a14
+text = Fram till klockan åtta har det varit 43 grader varmt .
+
+sent_id = f916ff805-f91fcbd38
+text = Man kände med blicken hur de där sidensvansarna kallnade , för dem var livet plötsligt över .
+
+sent_id = f951d7b16-f9b2f0ff4
+text = Ackumulatortanken på 750 liter hissades upp med rep och taljor till övervåningen .
+
+sent_id = f9b81b22b-f986c2ccd
+text = Det var oerhört svårt att få ut information som togs emot på ett bra sätt , minns han .
+
+sent_id = f9f83aa62-f91d6b41b
+text = 21 språk talas bland personalen och det kommer alltid att finnas personal på plats som kan persiska , kurdiska , arabiska , franska , spanska , BSK ( bosniska , serbiska och kroatiska ) och finska .
+
+sent_id = f94b0ddae-f949a2f7f
+text = – Fast det är klart , ett tag hade jag alltid fredagsmys med chips och popcorn , men det är borta nu .
+
+sent_id = f9f0b55e2-f9b35c207
+text = – Jag är en jäkla tävlingsmänniska och kan kanske vara lite jävlig mot de jag spelar mot .
+
+sent_id = f909a4db7-f91e736b8
+text = Han berättar att det forskningssamarbete som bolaget har med Lunds universitet och danska läkemedelsbolaget Novo Nordisk skulle kunna leda fram till bot av diabetes .
+
+sent_id = f9917f103-f9e651ae4
+text = BMW X1 lanserades 2010 och redan nu är det dags för ett ansiktslyft .
+
+sent_id = f90657bd3-f9558f7e4
+text = Det blev lite Idrottsgalan och Zlatan-saknad över hela kvällen
+
+sent_id = f980390da-f9f6ba4cf
+text = Tystnad och stängda dörrar har aldrig varit goda instrument för att utveckla kunskap och demokrati .
+
+sent_id = f9250d40e-f96901280
+text = Massiva protester bröt ut i sunniarabiska områden i Irak för över en månad sedan , men det är första gången som människor skjutits ihjäl av säkerhetsstyrkor under protesterna .
+
+sent_id = f90f4dcab-f9d28a74b
+text = På många sätt framstår han som en vanlig kille .
+
+sent_id = f906e76b7-f953109ae
+text = Fredrik Lööf & Max Salminen , segling starbåt .
+
+sent_id = f9a57a1ab-f92164f81
+text = – Den här kunskapen är viktig för att kunna förstå hur biologiska kompass-system fungerar , säger docent Marie Dacke , när TT når henne i 40 graders värme på lundaforskarnas fältstation cirka 40 mil nordväst om Johannesburg i Sydafrika .
+
+sent_id = f999d62ed-f90e61ee4
+text = scen : Regionteater Väst i Uddevalla får en ny konstnärlig ledare i Pelle Hanæus .
+
+sent_id = f93a31d41-f9430ab22
+text = Sålunda överraskar Vänsterpartiets ledare Jonas Sjöstedt med att hylla den brittiske konservative statsministern David Cameron som en stor statsman .
+
+sent_id = f90f8cc43-f9136603e
+text = Alingsås klättrar i tabellen
+
+sent_id = f9afaa0a8-f943fff4d
+text = Ja , vid sidan av glada barn och folk kring dukade bord , det där stimmet som hör ihop med samvaro , skratt och höjda röster .
+
+sent_id = f9d0e1544-f9db6841b
+text = Han har under åren hjälpt otaliga personer med psykisk ohälsa och alkoholproblem samt deras anhöriga .
+
+sent_id = f97cf0ecd-f93c64f73
+text = Innebandy
+
+sent_id = f9b193166-f9bc1a617
+text = Årets juleträd har stått och lyst utöver det vanliga .
+
+sent_id = f91fa061e-f93b94c0c
+text = HD:s domar avgör gränserna
+
+sent_id = f9afac6b0-f959d999c
+text = En lägenhetsinnehavare kommer hem till Blendas gata efter att ha varit borta i några dagar och upptäcker att någon brutit sig in .
+
+sent_id = f967c91fb-f90056902
+text = – Därför tänker vi inte delta , säger Wadas president John Fahey .
+
+sent_id = f9b58de25-f9a0ab326
+text = När Sture gick i pension skaffade han ett torp på västkusten och började med trädgårdsodling .
+
+sent_id = f93ccb5b7-f997a9969
+text = Menyer kom in , vi fick beställa , mat och dryck levererades och vi blev tillfrågade om vi tyckte att det smakade bra – allt i rappt tempo och med ett leende .
+
+sent_id = f937902eb-f9c5ca389
+text = Går det att behålla populariteten ?
+
+sent_id = f9e89af98-f9a9b1aee
+text = Göteborgregionens kommunalförbund lovade i samma veva att skjuta till tio miljoner kronor för planeringen av tågsträckan Göteborg-Mölnlycke vilket skulle skynda på en ny angelägen tågförbindelse mellan Göteborg och Borås .
+
+sent_id = f91424c6f-f9215f59c
+text = Vad kan du säga om hur du fick lämna Volvo ?
+
+sent_id = f9741433f-f959698f3
+text = Det är runt var tredje intagen i landets överfulla fängelser , enligt nyhetsbyrån CTK .
+
+sent_id = f9638f50b-f9425782d
+text = Sålde 282 000 bilar 2012 .
+
+sent_id = f9744a841-f9a145d0e
+text = Avgörande straffen innebär förutom två poäng till laget , också ett mål i poängprotokollet .
+
+sent_id = f9e7e2b12-f9d733baf
+text = Jag vill att vi skall vara mycket tydligare . ”
+
+sent_id = f94945c2e-f9627f42c
+text = Det riktas ibland kritik mot amorteringskrav , som att boendekostnader blir högre och unga köpare drabbas .
+
+sent_id = f9e3b2a9b-f95ce5e7f
+text = I år var ett gäng Up Helly Aa-are där också , och markerade det nya året med eld .
+
+sent_id = f93c79a4f-f90a83f79
+text = 150 g valfri svamp
+
+sent_id = f9ef1b60f-f9350371f
+text = Så också Liseberg där underhållningschefen Per Alexandersson , producenten Mikael Solkulle och programchefen Åsa Bilén är trojkan som ansvarar för vad som ska erbjudas på parkens scener .
+
+sent_id = f99b1594d-f9512bd81
+text = Ingen misstänkt gripen .
+
+sent_id = f985a0900-f94a811a9
+text = Att sitta där med alla glaspärlor och tänka ut något .
+
+sent_id = f9b1c092e-f9dd5672a
+text = Ett par minuter senare ringer hon och frågar om jag har en app på min telefon , en app som hon kan spela in på , för att sedan skicka ljudfilen vidare .
+
+sent_id = f9b7c0caa-f9a128cd8
+text = Bostadsbristen bland studenter i Göteborg är lika lite en nyhet som bostadsbristen i övrigt .
+
+sent_id = f96115156-f93ad1128
+text = Nya användningsområden saknas inte .
+
+sent_id = f9d9c7dd3-f9145cb83
+text = Sjöutsikt
+
+sent_id = f98702016-f9f817f75
+text = Indien på väg att införa skärpta straff för sexbrott efter dådet i NewDelhi
+
+sent_id = f99169c00-f98506b03
+text = Det har också gjort att dödligheten i anorexia nervosa har minskat .
+
+sent_id = f906dc9b9-f913ef333
+text = Avslappnad kvarterskrog där man kan äta förrätt , varmrätt och dessert för en billig peng .
+
+sent_id = f98586a13-f9bec31ab
+text = Då kan vi också styra pengarna på ett bättre sätt , så att varje investerad krona ger så god nytta som möjligt .
+
+sent_id = f966015a0-f97ff5e57
+text = 63 ungdomar omkom i Göteborgsolyckan och det här är ju ännu större .
+
+sent_id = f9d2d09c7-f92610464
+text = – Enbart i torsdags kom 27 fall in till kliniken i flyktinglägret Mugunga III väster om Goma , berättar Thierry Goffeau , chef för den verksamhet MSF driver i provinsen Nord-Kivu .
+
+sent_id = f924a2b03-f9bf0e566
+text = Telia 158
+
+sent_id = f9b4c2869-f9f7ccd96
+text = – Det här är en stor dag för Europa och vår position i det globala forskarsamhället .
+
+sent_id = f9a04f862-f96813307
+text = Han går också till angrepp mot Filmfestivalens ledning för valet av invigningsfilmer .
+
+sent_id = f98873204-f9bf16c9f
+text = Den 26 oktober meddelade UCI att resultatlistorna inte kommer att uppdateras i spåren av skandalen .
+
+sent_id = f9d5bef1b-f9762294e
+text = Olivedalsgatan 13 ( 21 / 12 2012 )
+
+sent_id = f90984795-f9255014a
+text = ” Klubben plöjde ned 400 000 kronor i nya kartor för några år sen .
+
+sent_id = f92a7c03f-f9f893d4a
+text = Chelsea höll ut och vann till slut
+
+sent_id = f944006ed-f9257b4ed
+text = Då är det i så fall just åldersskillnaden som är grejen .
+
+sent_id = f9ab8eb4f-f9e3dea29
+text = Pengarna finns borta i öst nu .
+
+sent_id = f9d464bdc-f9212efe4
+text = Där fanns också de riktigt höga husen .
+
+sent_id = f92ade49e-f95f268e1
+text = Astra Zeneca vill samla en splittrad medicinbransch
+
+sent_id = f97c83fcf-f94799d66
+text = ” Omfattande ” motbud till NHL-ägarna
+
+sent_id = f994df15f-f955e0240
+text = Denna något dystra utvärdering finns att läsa på både länsstyrelsens och Naturvårdsverkets hemsidor .
+
+sent_id = f93324023-f9c6f7be0
+text = För att resterna skulle sälja fick de ett fint namn – parisersmörgås .
+
+sent_id = f9dfa4d61-f9cc997d2
+text = – Rory och jag har inte haft de duellerna som jag haft med Phil ( Mickelson ) , Ernie ( Els ) , och Vijay ( Singh ) .
+
+sent_id = f9f268931-f992f4dcd
+text = Vid det andra använde han delar från en garderob .
+
+sent_id = f947a2629-f96d206bc
+text = Republikanerna har läst valstatistiken och vet att partiet straffades för sin hårda linje mot illegala invandrare med latinamerikansk bakgrund .
+
+sent_id = f9d4251f8-f91006a5d
+text = – Jag kommer bli mer försiktig på nätet och jag vet nu vilka som är mina riktiga vänner .
+
+sent_id = f95b6914c-f98add574
+text = fiskafänge .
+
+sent_id = f9b8e1e06-f9044737b
+text = Det enda stockholmarna inte förstår är varför det händer så lite i Göteborg – när man nu är så överens .
+
+sent_id = f90628723-f9ce73ff4
+text = Tredje perioden : 3 – 5 ( 8.25 ) Jesper Fasth ( Anton Bengtsson ) , 3 – 6 ( 10.53 ) Jack Connolly ( Per Åslund ) , 4 – 6 ( 13.09 ) Johan Lindström ( Elias Fälth , William Karlsson ) , 4 – 7 ( 17.16 ) Patrik Lundh ( Marius Holtet , Anton Grundel ) .
+
+sent_id = f95a62659-f9611e0a3
+text = – Den största risken för anställda som arbetar utomlands är trafiken , säger han .
+
+sent_id = f907360ff-f9a1a80a7
+text = Jo , det är en sak som är väldigt , väldigt bra i The artist och det är Jack Russell-terriern Uggie , som spelar Valentins hund , och som vann en Hundpalm på filmfestivalen i Cannes .
+
+sent_id = f9300340e-f984576cd
+text = Därefter har investeringar på omkring 200 000 kronor gjorts .
+
+sent_id = f92a7ce9a-f94a6f954
+text = Här glas i fyrpack , 299 kr , Ponpon .
+
+sent_id = f9c7667b1-f9ce1717e
+text = – Allt gick galet .
+
+sent_id = f9062b988-f95c5ee43
+text = joshi – femma inför finalen .
+
+sent_id = f94b94dcb-f967e86c7
+text = Trots att de vi intervjuade levde i en extremt begränsad situation där pengarna aldrig räckte , så var det ingen som klagade på att de fick för lite pengar .
+
+sent_id = f935da6c9-f9c049619
+text = Världens längsta stickade halsduk förfärdigades dock några år tidigare i Wales .
+
+sent_id = f94f8fce8-f98646395
+text = 21.00 : Philadelphia – Pittsburgh TV 10
+
+sent_id = f94945614-f9eebb102
+text = blir Amelia Earhart Putnam den första personen att flyga solo från Hawaii till Kalifornien .
+
+sent_id = f9b387b9f-f93345bb2
+text = * * *
+
+sent_id = f9c2fc503-f91bdbc88
+text = Det kan dock vara på sin plats att påpeka att Drop anchor hade blivit en monsterhit om det var Chris Martin eller Adéle som sjöng .
+
+sent_id = f9cd55723-f98d4ceed
+text = Mikael Stahre fick så småningom anledning att bli mer oroad , och citaten ” Det är för dåligt ” , ” Icke godkänt ” och ” Vi glömde signera tavlan ” upprepades ett antal gånger under året .
+
+sent_id = f93e542d3-f94946584
+text = På Slottsberget och Lindholmen var utedassen kvar långt in på 1980-talet .
+
+sent_id = f9a624c92-f92c2a6a3
+text = Pjäsen handlar om författaren Comte de Lautréamonts sista timmar .
+
+sent_id = f9aca82ab-f924e1670
+text = – Det finns en osäkerhet hos kung Erik , som det finns hos vår riktiga kung också , som är väldigt sympatisk .
+
+sent_id = f9bd1c1e4-f948d8ec7
+text = 79 av dem går i fjärrsjöfart , enligt färsk statistik från Delegationen för sjöfartsstöd .
+
+sent_id = f9ce1cd48-f93b2ae67
+text = Skala och skär potatisen i klyftor och lägg i det kokande vatten i 12 minuter .
+
+sent_id = f91ee9861-f968f4d9a
+text = Natten före en lunch beat lägger jag mig sällan före klockan fyra .
+
+sent_id = f9cdeeb4d-f91ff3aca
+text = Cedvander säger sig inte ha haft några speciella förväntningar eller förhoppningar om en fortsatt process .
+
+sent_id = f9db79f26-f9584baf8
+text = Lång avstängning för Blomdahl
+
+sent_id = f9eef20cf-f9c1753b9
+text = – Träden är anledningen till att de kom till vårt hus , säger Belko Bokoum med en nick mot lövverket som skuggar gårdsplanen .
+
+sent_id = f928cdef3-f90ac0c8d
+text = – Jag åkte längs med 45:an och tog bilder på skyltar som var fel .
+
+sent_id = f918a828a-f94660d97
+text = – Han gör det jättebra och visar att formen han haft i klubblaget gäller även internationellt .
+
+sent_id = f9b8b4d64-f912dc117
+text = 16 januari
+
+sent_id = f9c956e36-f9ffe0fd8
+text = Mest klirr i ­kassan beräknas det bli för Handelsbanken .
+
+sent_id = f998f5c92-f98ecf645
+text = Det känns bra att vi inte är låsta vid två killar och två tjejer som vissa lag är , säger Lars Öberg .
+
+sent_id = f9cc41353-f92a00b21
+text = ” Nu när jag har satt igång den här processen vill jag fortsätta .
+
+sent_id = f95f24364-f9118ef22
+text = Sjundeplatsen innebär att svenskan kammar hem 70 000 i prispengar .
+
+sent_id = f90c7284f-f9e94c99d
+text = Men det handlar också om den egna organisationen .
+
+sent_id = f9217c64b-f9ee509ac
+text = Holly beskriver tiden då kränkningarna pågick som hemsk .
+
+sent_id = f95bda481-f9601349a
+text = Dagslängden i Sverige varierar kraftigt över året beroende på att vårt land ligger långt från ekvatorn .
+
+sent_id = f961b7ec2-f990226f0
+text = Jakten
+
+sent_id = f912ec8bb-f9b5d70ca
+text = UPP OCH NER .
+
+sent_id = f9a7c8bdd-f9b9dee57
+text = * * * *
+
+sent_id = f94102602-f90fca238
+text = vad händer ?
+
+sent_id = f92223384-f907f617f
+text = De fick uppehållstillstånd inom ett par månader och samma höst började barnen skolan .
+
+sent_id = f9d17a7c9-f98e32200
+text = Göteborg : Två barn , elva och åtta år , ska utvisas till Serbien med sin biologiska 26-åriga mamma , som tidigare av svenska myndigheter fråntagits vårdnaden .
+
+sent_id = f90206196-f9cb1164d
+text = Förstucket kan antydas att de är dyra för sjukvården och med ett ja kan visa tacksamhet och bidra till ekonomin .
+
+sent_id = f95031129-f9a707041
+text = Folkets hjälte ( John Ford , 1939 )
+
+sent_id = f94f6f5dc-f98b2eead
+text = Frihet av Jonathan Franzen .
+
+sent_id = f98b84f00-f9117d6a2
+text = Varje månad som går är förödande , säger han .
+
+sent_id = f9c3376c1-f9dcf5af6
+text = Samma dag utsåg den nye ägaren Stefan Jacoby till vd .
+
+sent_id = f9cc8382b-f934216be
+text = Sveriges Oscarsbidrag , Lasse Hallströms Hypnotisören , fanns däremot inte med bland de nominerade .
+
+sent_id = f9b04d00d-f9ba8eed1
+text = Det är klokt att i god tid se över vilka kostnader man har när man inte längre jobbar , säger Ylva Yngvesson .
+
+sent_id = f9f4173b2-f93f4b381
+text = 90 meter tårta , duvsläpp av 90 duvor på nationaldagen och allsångsafton på Gunnebo var några exempel på hur staden uppmärksammade , firade och marknadsförde dess 90-åriga stadsrättigheter .
+
+sent_id = f9fbacf08-f95fee932
+text = Fällande dom kan medföra livstids fängelse .
+
+sent_id = f93780b51-f987ed3cb
+text = Ingen anträffas i lägenheten på andra våningen .
+
+sent_id = f9c844ccd-f9384dca2
+text = – Då var jag livrädd för allt .
+
+sent_id = f9704432b-f9edd2779
+text = Polis griper samtliga tre som får lämna tillbaka säckarna som innehåller mat ur en container inne på området .
+
+sent_id = f9ddbe8d2-f98f0dec1
+text = – Finns det något värre än att ha en person som inte är rolig när du lägger ett humorkrav på någon som inte är kul ?
+
+sent_id = f940bbbb4-f97e43e6a
+text = Det var beväpnade fort där kalifen mot skatter höll med soldater som vaktade uppe på de höga murarna .
+
+sent_id = f9077f2f5-f99e262f7
+text = Timrå 43 7 11 25 75 – 107 38
+
+sent_id = f98ce7e6f-f970120ef
+text = Men det är ofta då de verkliga problemen börjar .
+
+sent_id = f94381207-f93db9031
+text = Sven-Göran Eriksson , 64 , har en annan klubb på gång .
+
+sent_id = f93b50867-f9abb6fda
+text = Men det är väl rimligt att det ska räcka till ett par standardglas med standardbågar .
+
+sent_id = f98c51781-f9f8c7cab
+text = Därför har vi en vision om fri invandring .
+
+sent_id = f9b6dc669-f95828dc0
+text = – Vi drar järnvägstunneln något längre söderut än planerat , säger Bo Larsson , projektchef för Västlänken .
+
+sent_id = f96ddd28b-f9e37acd2
+text = Barnlediga partiledare finns inte på kartan någon annanstans i världen .
+
+sent_id = f9e81673c-f91102268
+text = En fisk som är starkt förknippad med svårtämjd smak .
+
+sent_id = f913ff6fe-f92d3420e
+text = De har inte ångrat sig en sekund .
+
+sent_id = f9305f6a5-f9e427d70
+text = Teaterföreställningar och musikkonserter hit och dit , ibland vill man ju själv stå på scen .
+
+sent_id = f9db9880e-f9885e2d6
+text = Var : Pustervik .
+
+sent_id = f92563101-f9fdf7257
+text = På måndagsträningen körde han i kedjeformation tillsammans med Joel Lundqvist och Dick Axelsson .
+
+sent_id = f9632f073-f91b04b81
+text = Efter matchen fick han behandling för en ömmande fot – ingen större fara , enligt honom själv .
+
+sent_id = f9c559975-f9482d858
+text = Bennett gör klart att han är motståndare till en palestinsk stat och vill att Israel ska annektera stora delar av Västbanken .
+
+sent_id = f98758d0a-f98ee4d5a
+text = Det som mest fått uppmärksamhet är att programgruppen bland annat vill ta bort skolplikt , ändra arvsregler samt förorda månggifte och fri invandring .
+
+sent_id = f9cbd741a-f92ea51f2
+text = Det är en procedur med många moment eftersom jag är amputerad och får ta på en särskild badprotes .
+
+sent_id = f9e7de4bf-f94a79833
+text = Välkommen !
+
+sent_id = f959e3298-f9009711f
+text = Men han har varit borta ett tag , det får vi ha lite överseende med .
+
+sent_id = f9e310aec-f9e83be7e
+text = Nordkoreas tredje kärnvapentest , som förmodas bli kraftigare än de tidigare , kan genomföras redan inom några veckor – även om bedömare som TT talat med tonar ned betydelsen .
+
+sent_id = f90f5483c-f9c29d130
+text = Eller varför inte det ” varma mack-alternativet ” på Cyrano , på Viktoriagatan , som numera har vedugnsbakade glutenfria pizzor .
+
+sent_id = f92d97df1-f9079a94a
+text = Sebastian Larsson på allra bästa sätt .
+
+sent_id = f9339d1c1-f9ef4348e
+text = En historia som inleddes 2006 .
+
+sent_id = f9fb17f93-f9134590b
+text = dressyr , Herning , Danmark
+
+sent_id = f9e3cb9ca-f9c8420a7
+text = Förövarna , ett antal pojkar i tonåren , fick som mest 140 timmars samhällstjänst .
+
+sent_id = f9eb2f46d-f9ca441b4
+text = Det har satt fart på dem som vill fortsätta expandera vägsystemen för ökad vägtrafik .
+
+sent_id = f91ea0706-f98d8225e
+text = Mikael Damberg ( S ) raljerade över Björklunds resonemang att det tar 10-20 år att förändra skolan .
+
+sent_id = f9fb2f0ee-f91c16a92
+text = När bussen parkerar över laddningsplattan vid ändhållplatsen sätts laddningen igång .
+
+sent_id = f9a83524c-f9e953d8f
+text = Bowie album för album
+
+sent_id = f981a1aff-f9e4c60a2
+text = FN:s säkerhetsråd sammankallade snabbt till krismöte och i ett uttalande efteråt uttryckte rådet allvarlig oro över rebelloffensiven och konstaterade att den ” utgör ett direkt hot mot internationell fred och säkerhet ” .
+
+sent_id = f9ddf6577-f9623492b
+text = En person är chockad efter olyckan , men ingen ska ha fått några fysiska skador .
+
+sent_id = f9068e4c4-f90850712
+text = Att ha åstadkommit ett handslag mellan Svenskt näringsliv och LO och öppnat för att 10 000-tals ungdomar skulle ha fått yrkesintroduktion hade onekligen blivit en fjäder i hatten för alliansregeringen .
+
+sent_id = f918a1126-f911aad13
+text = Runt 500 personer har bjudits in personligen till invigningsfilmen med efterföljande branschfest i kväll , främst filmare , producenter , regissörer , samarbetspartners , representanter för näringslivet , kultureliten , media samt festivalens egen personal och styrelse .
+
+sent_id = f9e29bab0-f9764074b
+text = Familj : Son på 8 månader och pojkvän .
+
+sent_id = f95445891-f9156a756
+text = Det här är omistliga värden för ett gott , tryggt liv .
+
+sent_id = f95f80003-f9a01e3eb
+text = Heid hade ingen chans mot Sävehof .
+
+sent_id = f92076cba-f9fd5479a
+text = Klara Krantz vantrivdes också på högstadiet , älskade Håkans musik och insåg tidigt att hon är bisexuell .
+
+sent_id = f9bfb99f4-f98af6a1e
+text = Zlatans 1 – 4 rörde inte tyskarna i ryggen .
+
+sent_id = f947ead34-f9a106e92
+text = OCEAN´S TWELVE
+
+sent_id = f99418c7a-f9e791103
+text = Välj gärna en bh med knäppe med tre hyskor .
+
+sent_id = f9b352692-f9d8534fc
+text = Totalt i fjol : 1300 .
+
+sent_id = f927c2d68-f903fba00
+text = André Myhrer slutade tvåa i världscuptävlingen i parallellslalom i Moskva i går kväll .
+
+sent_id = f98a446a9-f93376906
+text = eventuellt färska böngroddar
+
+sent_id = f91a28e29-f9f5f442a
+text = Hon har ingen logisk , vettig förklaring till varför hon gjort som hon gjort .
+
+sent_id = f9653ee13-f9da1c6bd
+text = ” Det finns tusentals .
+
+sent_id = f94e79eb8-f9af514a2
+text = Tottenham tog över tredje plats genom att göra 3 – 1 hemma mot Reading .
+
+sent_id = f9afacb74-f9955dbac
+text = Men Socialstyrelsen är också sedan länge utrustad med befogenheter att övervaka , kontrollera och ingripa i sociala förhållanden , som i slutändan handlar om enskilda människors liv , göranden och låtanden .
+
+sent_id = f9195783b-f9b803c8c
+text = Jörgen Johansson begär nu genom sin advokat Petter Aasheim att Bengt Landahl omprövar sitt beslut .
+
+sent_id = f968bf1b1-f93c4760f
+text = Har värvat stort och smart i backklippan Ryan Suter och den förre Devilskaptenen Zach Parise .
+
+sent_id = f97199c0d-f9c276ca9
+text = Dagens festivalbesökare
+
+sent_id = f92c0697a-f90a324cc
+text = Alla ni som fortsätter gapa om att Swedish house mafia inte gör riktig musik – fyller man Friends arenda om och om igen ska man naturligtvis ha pokal .
+
+sent_id = f93e3241a-f9eb5c7d9
+text = Det var så gott !
+
+sent_id = f97ebbb96-f9d844d72
+text = Därefter arbetade Göteborg BIO om sin ansökan och kom in med en ny efter sommaren 2012 .
+
+sent_id = f90631b25-f92e38a60
+text = Men musiken trängde sig in via lediga stunder .
+
+sent_id = f9a840f30-f9be1f726
+text = Vi vill fördjupa vårt filmutvecklingsarbete och behöver bli mer insatta för att kunna göra riktiga bedömningar .
+
+sent_id = f9e69d4ae-f9429f52f
+text = Han blev av med plastskydden , men slapp böter .
+
+sent_id = f965d1e14-f9f63fa27
+text = Det senaste raserianfallet tycks gälla SVT-programmet Uppdrag Granskning och programledaren Janne Josefsson , som undersökt påståendena i Rädda Barnens återkommande kampanjer om barnfattigdom .
+
+sent_id = f964f551a-f9bba4e49
+text = Alltså hittar Kate en surrogatmamma i form av white trash-tjejen Angie ( Amy Poehler i god form ) , som inte är direkt smart .
+
+sent_id = f9734b865-f907a8c24
+text = Januari är en av de bästa månaderna för pantbankerna .
+
+sent_id = f9535ac0b-f9ed2adc2
+text = MJ = Mats Johnson
+
+sent_id = f961c8186-f9bd07df3
+text = Lindell Vikarby femma i Maribor
+
+sent_id = f94e51aa9-f93a7990e
+text = Den viktigaste framtidsfrågan för Sverige är att vända utvecklingen i skolan .
+
+sent_id = f990bcf1b-f924396ce
+text = 11 .
+
+sent_id = f9b178372-f9ae512c1
+text = Peking arrangerar VM 2014
+
+sent_id = f9300b1d6-f914f31fd
+text = Sipprar ner genom den tjocka betongen .
+
+sent_id = f9b83fe45-f9e8a0925
+text = – I dag är det en katastrof .
+
+sent_id = f95d6188c-f9435910b
+text = string .
+
+sent_id = f977d172b-f922723d8
+text = Cahuzac – som är ansvarig för att bekämpa skatteflykt – har nekat till anklagelser om skattebrott .
+
+sent_id = f9ad5a90e-f90de66fc
+text = Macau håvar in pengarna
+
+sent_id = f9142be73-f9f34cefb
+text = Det internationella cykelförbundet , UCI , lägger ner den oberoende kommission som man inrättat för att utreda sin egen roll i Lance Armstrong-affären .
+
+sent_id = f9c332198-f95ddcdb5
+text = Andreas Augustsson
+
+sent_id = f95ee3ef9-f9094b17a
+text = – Nästan allt det som ni i media kallar näthat kallar jag för vanlig kritik .
+
+sent_id = f902856b9-f947e74d8
+text = Men fokus är här och nu .
+
+sent_id = f906abf6c-f94d320a9
+text = Torkel Norling har hittat vargspår .
+
+sent_id = f9e46198c-f94927df5
+text = 1 msk finhackad timjan
+
+sent_id = f908b5b12-f94fc6dc5
+text = – Det är då kvinnor lämnar jobbet och tar sig hemåt , berättar hjälplinjens chef Sushma Khanna , för Mail Online .
+
+sent_id = f90c8c124-f941e3382
+text = Att följa den tråden är som att kliva in i ett alternativt universum , en parallell skuggvärld fylld av rädsla , hat och av paranoida föreställningar om det svenska samhället .
+
+sent_id = f9039d667-f963fc8c2
+text = Att de ändå lyckades stå upp så bra som de gjorde ser de som ett kvitto på att de gör något bra .
+
+sent_id = f95a7db33-f9593fadb
+text = Fredric Askerup
+
+sent_id = f9c15a72d-f98d0df04
+text = Ishockey
+
+sent_id = f95716527-f9abca160
+text = – Det är ett frågedrivet program .
+
+sent_id = f9ad080ca-f94ad73ea
+text = Kvastskaft i ögat gav fängelse
+
+sent_id = f988ea10f-f999af721
+text = jurist vid Centrum för rättvisa
+
+sent_id = f908a6b56-f9bb557f7
+text = ”
+
+sent_id = f9378073e-f9deb3b45
+text = ( Adressen som behövs finns på ditt konto hos Amazon.com , under Manage your Kindle , Personal document settings )
+
+sent_id = f9c5b075f-f9b717beb
+text = Det är regissören Tarik Salehs nya långfilm Tommy , en thriller som kretsar kring en grupp människor som planerar ett större brott , som ska ha fått de två stjärnnamnen till sin ensemblelista .
+
+sent_id = f9f8133f8-f973ccfe7
+text = Jag och min familj tränar mycket så de bör inte vara för smala .
+
+sent_id = f95d5d425-f9a4a501f
+text = Gubbar som tjötar ; svart kaffe , rejäla mackor med pannbiff och ägg , bacon och falukorv .
+
+sent_id = f9923522a-f96569619
+text = – Hej , jag heter Stefan och ringer från Humtidum .
+
+sent_id = f94b729f7-f97617b70
+text = Ärendet är nu anmält till Socialstyrelsen .
+
+sent_id = f94b30fcb-f96f3c27c
+text = På fredag tittar vi på Järfälla .
+
+sent_id = f95d7af99-f9c56cdd6
+text = Moskva : Ryssland är på väg att förbjuda så kallad homosexuell propaganda .
+
+sent_id = f993074b7-f9b6ccc66
+text = Låga räntor har pressat bankernas räntenetto under fjärde kvartalet .
+
+sent_id = f9a9ecffb-f904e2caf
+text = Självklart skulle The Ark vinna .
+
+sent_id = f9b0ec161-f95a1da3b
+text = ( TT )
+
+sent_id = f9f46d6a3-f903ad2ef
+text = Mot Strömsgodset kan säsongens första vinst komma .
+
+sent_id = f908660b8-f9c7954b2
+text = Tronskifte .
+
+sent_id = f9d0a5169-f90c03d71
+text = Lindelöws
+
+sent_id = f942f8860-f9e98d45b
+text = När förseningsavgiften , eller tilläggsavgiften som den formellt heter , höjdes till 500 kronor hösten 2008 kom det som en chock för stockholmarna .
+
+sent_id = f90152427-f97f06b33
+text = Det verkar funka rätt bra ändå .
+
+sent_id = f945d23aa-f9336ba50
+text = Mia Skäringers .
+
+sent_id = f9eb21b28-f9fca4a6f
+text = Jag borde hugga upp en lucka i ytterdörren , så katten kan komma och gå precis som den vill , som jag kan .
+
+sent_id = f963454cd-f9e3d5775
+text = Pojkar tom 17 år
+
+sent_id = f98fd9528-f9a323960
+text = Tidningen Urheilulehti gick ut med uppgiften att spelarna åkt fast för cannabisbruk .
+
+sent_id = f9d8466c0-f95d979fa
+text = Du är bara 25 år men har ändå jobbat i flera år som fotograf .
+
+sent_id = f94ecd839-f9d37fe57
+text = IMF-chefen Christine Lagarde på filmduken under World Economic Forum i schweiziska Davos .
+
+sent_id = f972ce12a-f972d3e23
+text = Den möjligheten finns inte , säger han .
+
+sent_id = f9068395b-f9ca28736
+text = Några av oss har skrivit om jämställdhet och brott .
+
+sent_id = f9c31305a-f9c80aa7d
+text = 1892
+
+sent_id = f9a32a5c4-f92a3226f
+text = R .
+
+sent_id = f9d207fbf-f9fa551dd
+text = Gästarbetare ska få sina pengar
+
+sent_id = f9e033e56-f9b1d66df
+text = V40 är något av en ödesmodell för Volvo .
+
+sent_id = f9ecd33e9-f9e59edd9
+text = Men jag jobbar på att förbättra mitt spel .
+
+sent_id = f9b6d5c39-f97a21039
+text = Som Cristiano ( Ronaldo ) eller Messi .
+
+sent_id = f91efd97a-f9beb3974
+text = Utredningen
+
+sent_id = f9160c9f8-f935993f9
+text = Dessutom är Jerry ägare till två av de 236 snöskotrar som är registrerade i Göteborg .
+
+sent_id = f9f0df266-f96a7b827
+text = Folk här vill ha barn som påminner om dem själva .
+
+sent_id = f95ddb652-f9ffdfb15
+text = – Det är jobbigast för sexåringen , man packar väskan och han frågar om man ska till jobbet .
+
+sent_id = f9d73117a-f945dc07f
+text = Musik : Riksspelemannen och nyckelharpisten Hasse Gille gick bort natten till måndagen efter en tids sjukdom , skriver Nyckelharpans forum .
+
+sent_id = f9868fc20-f9eae2afc
+text = Förhands­oddsen är urusla .
+
+sent_id = f978a167c-f99e380a0
+text = BYGGS UT .
+
+sent_id = f97ec0d6a-f9e413649
+text = Du får 50 000 kronor i prissumma .
+
+sent_id = f9a095a37-f9ea3690f
+text = Lönsamhet är den snabbaste och säkraste vägen till fler jobb .
+
+sent_id = f9f791732-f98e587bf
+text = Den 66-årige mannen har en bakgrund som framgångsrik företagare .
+
+sent_id = f98eb2eb7-f92e7c0d7
+text = Sedan är det bra om det kan ske diskussioner mellan LO och Svenskt näringsliv också .
+
+sent_id = f900dbb47-f96ec639a
+text = Uppskattningsvis 400 hundar kommer därför att skickas till labb i England i stället .
+
+sent_id = f9fcc819d-f9a25a920
+text = – En total eufori som är svår att beskriva , säger Catrin om sekunderna efter att barnet kom .
+
+sent_id = f9925d97b-f911047f0
+text = vd i Göteborgs hamn
+
+sent_id = f9d382b68-f9ca3b5b6
+text = Damavslutningen blev odramatisk i toppen .
+
+sent_id = f9888722e-f9f0919ec
+text = Först ratade producenten Christian Gabel ( bob hund m.fl. ) Pelle Osslers demos .
+
+sent_id = f9549e552-f94191e70
+text = Taro Aso : Jag behöver inte sådan vård .
+
+sent_id = f90425b5b-f9bf518a0
+text = <><><><><><><><><><><><><><><><><><><><>1 100 svarade på enkät
+
+sent_id = f9a8a5fc7-f9beb658c
+text = Fjällresa med bordellbesök , för skattepengar ...
+
+sent_id = f9e31566c-f9fe0cd47
+text = Nu försöker jag bara skriva bra , proffsiga texter , säger Natalia Kazmierska som kommer att fortsätta skriva krönikor i Aftonbladet även under det kommande året .
+
+sent_id = f93fd5a89-f9b9f73e1
+text = Något som hon även märker av i kontakten med elever i Frölunda .
+
+sent_id = f90c62a4e-f9cdf2263
+text = Bor : I Solängen , Mölndal
+
+sent_id = f94df28dc-f9024f61f
+text = – Så är det och det målet har väl alla som är här .
+
+sent_id = f95150bad-f9442c56e
+text = Chilli
+
+sent_id = f97013bfd-f96499f50
+text = De från allsvenskan har han ju hunnit se och träffa här .
+
+sent_id = f911b0809-f9d176d68
+text = Insamlingen gick över all förväntan .
+
+sent_id = f942a02ea-f99b072d1
+text = Patrik Stenberg
+
+sent_id = f930a4b34-f9cecc290
+text = Ny i Bp . Nicklas Bärkroth har lämnat IFK Göteborg för Brommapojkarna .
+
+sent_id = f9a58cbbb-f99f9330a
+text = Landslagsmeriterade Jessica Landström vill göra Göteborg till ett guldlag .
+
+sent_id = f91cdf5e8-f933385db
+text = Jennie Danielsson
+
+sent_id = f9291a1b3-f90c5cb84
+text = Den senaste Falkomgången ( fem filmer direkt till dvd ) har varit kraftigt förbättrad jämfört med tidigare filmer .
+
+sent_id = f956d01d8-f9fadb25e
+text = Det är säkert bra .
+
+sent_id = f9fd46bdc-f92430014
+text = Självklart har jag en elva i huvudet som vi jobbar efter .
+
+sent_id = f9b60d371-f91dc59bd
+text = Övriga nominerade var : Rolf-Göran Bengtsson , hästhoppning , Håkan Dahlby , dubbeltrap , André Myhrer , alpint .
+
+sent_id = f92691d96-f964d4d00
+text = De 11 027 på läktarna , säsongens tredje bästa publiksiffra , fick se en jämn , intensiv match med högt tempo , böljande öppet spel , ett sudden death där Frölunda hade tre jättechanser och en avgörande straffläggning i åtta omgångar – där hela sju straffar gick i mål .
+
+sent_id = f9a6631da-f9f0e7ff3
+text = – Vi anser att vi ska testa det här även om det är en svår avvägning .
+
+sent_id = f9015caf2-f92b0dfc4
+text = Förra centerledaren i Expressen om första julen som mormor
+
+sent_id = f9fdb33d5-f9bcba7ba
+text = Partiledarna tar allt större plats i valbevakningen .
+
+sent_id = f95c71e24-f992f82a5
+text = I herrturneringen blev Roger Federer hårt pressad av fransmannen Jo-Wilfried Tsonga .
+
+sent_id = f906f1bae-f95cdfad8
+text = För den enskilde blir en andra kränkning när polisen inte utreder ett brott .
+
+sent_id = f9cdfab77-f9db9bb1d
+text = David Moberg Karlsson och Sam Larsson är tillbaka i Albir på den spanska vita kusten .
+
+sent_id = f97a74063-f9b8eb8d7
+text = Jag lyckades göra min beställning på 50 pund ( utlandscheck bifogades ) och med posten anlände snart , från skivbolaget Island , snyggt paketerad och ordentligt adresserad , box nummer 466 av en upplaga på 500 .
+
+sent_id = f9e004d98-f9891bf66
+text = Parkering nu .
+
+sent_id = f9c47ee74-f988a20f2
+text = När jag skulle bli facebookvän nyligen med en tjej jag gick i mellanstadiet med förstod hon inte vem jag var .
+
+sent_id = f93f77ddc-f9574238c
+text = djungeltrumman.se / iki
+
+sent_id = f9c3e03f5-f929cd8aa
+text = Enligt uppgifter till Viasat vaknade Potts upp i ambulansen .
+
+sent_id = f9c39f7e1-f9cafb32e
+text = Per Nordén är doktorand och är ansvarig för ett nystartat forskningsprojekt med arbetsnamnet Regnbågsungar .
+
+sent_id = f9eed0ec7-f99728d3c
+text = Viktor Svedberg , 21 .
+
+sent_id = f9588c90c-f93d7f5b3
+text = Närmast anhöriga är hustrun Margareta , sonen Carl med familj , samt barnen Malin och Niklas med familjer samt brodern Bo och svägerskan Marianne .
+
+sent_id = f90081448-f96411f54
+text = Göteborgs konstmuseum över 260 000 .
+
+sent_id = f9a76536c-f9b023010
+text = Festivalledningen förklarar hur de har tänkt .
+
+sent_id = f946da4df-f90470599
+text = – Det var kul för publiken och skönt för självförtroendet att få sätta några straffar , men det är ju inte så att man går och jublar nu .
+
+sent_id = f998cb646-f9c20f7c1
+text = Som GP tidigare har skrivit är söktrycket till BUP högre än någonsin och alla som söker får inte hjälp .
+
+sent_id = f95881cac-f9b307e18
+text = Aspekten speglar hur man ser på det som sker eller har skett .
+
+sent_id = f9cebc91f-f9ffea36e
+text = Det är lätt .
+
+sent_id = f970198d5-f97ec09af
+text = Mathias Ström nådde 15,83 , Daniel Lennartsson 15,25 och Anton Andersson hade fem övertramp innan han gav upp .
+
+sent_id = f9bf70628-f9443f2ac
+text = Nya EU-regler för båtresor
+
+sent_id = f9c1171b0-f9a297f5e
+text = Lycka till på Årets Bild när priserna delas ut i Trollhättan den 22 till 24 mars .
+
+sent_id = f9ce62d92-f9f839c77
+text = Jag var mitt uppe i ett lyckorus .
+
+sent_id = f91299dc5-f91d4668d
+text = Vägen kommer att göras smalare och vi hoppas pengarna även räcker till gångpassager över vägen och en säkrare busshållplats , säger Ulf Bredby , trafikingenjör på gatukontoret i Mölndal .
+
+sent_id = f9f2e7927-f960dcbe5
+text = Skämten och de buttra minerna kommer automatiskt , på ett roligt och charmigt sätt .
+
+sent_id = f9ad61bfe-f96da3eb1
+text = Vi var på semester i USA och hyrde en bil för att det är hart när omöjligt att ta sig fram på annat sätt i staterna .
+
+sent_id = f9fbcd358-f9b49571e
+text = – Behöver eller behöver inte , hittar vi något roligt nog så .
+
+sent_id = f92a26221-f933c99c1
+text = Varför , frågar jag mig , skulle det ta ytterligare över tre decennier innan ” alla ” som visste hur det låg till reagerade ?
+
+sent_id = f934d7c99-f97b25645
+text = Under Göteborgs filmfestival spejar jag efter djurögon .
+
+sent_id = f9968b6eb-f9ab19334
+text = Desserten påminner mer om chokladpudding och apelsinen är syltade bitar .
+
+sent_id = f9b873f25-f950cf3c2
+text = Han var en fantastisk farfar för barnbarnen och lärde dem allt om Disney , flygplanshistoria , fåglar och andra angelägna ting .
+
+sent_id = f92193e25-f9c0af569
+text = Skala och hacka löken .
+
+sent_id = f96c69360-f98ced61a
+text = Ulf Grimsand i Partille är en av många bilister i Storgöteborg som drabbats av en skyltstöld .
+
+sent_id = f91222137-f9d78f813
+text = Jag ska jobba på min gård , det är min semester .
+
+sent_id = f9edb629e-f9f1325b2
+text = Mer tv-ätande under förhandling
+
+sent_id = f95de9851-f9da9f811
+text = Backabon Christer Möller har GP skrivit om tidigare i ett reportage inför införandet av trängselskatten .
+
+sent_id = f947609a5-f9e8e9bee
+text = Då var Folkpartiet mot betyg , svårt att tro i dag .
+
+sent_id = f9fbee4cd-f98f0e58f
+text = Bildrömmar .
+
+sent_id = f939597a3-f9daa3efb
+text = Lägg dem i långpanna , ringla över olivolja , strö över timjan , salt , peppar och eventuellt chiliflakes efter smak .
+
+sent_id = f9a8e9b76-f9f6a8583
+text = Jag vill inte ha ett arbete där jag inte behöver tänka .
+
+sent_id = f9b28ee1d-f9fc9610e
+text = Det finns ju ett allmänintresse att kyrkogårdarna ska se fina ut och det är svårt att göra undantag , säger han .
+
+sent_id = f9a6e1d0f-f9f66d9ab
+text = Och Peterson var starkast och sträckte fram sin högerbenet .
+
+sent_id = f9b6115b8-f97a7e0bb
+text = – Även om det har varit förfärligt och gav en förfärligt stor kostnad , så blev det det beslutet .
+
+sent_id = f9ae6d155-f99f2cee9
+text = Fuskare
+
+sent_id = f939d940d-f9b9a15c5
+text = Tar nu tag i koncernens problembarn : det stora färjerederiet som kört i motvind och dålig sikt under flera år .
+
+sent_id = f9d99d844-f98a67ee5
+text = ... till Robin Aron Olsson
+
+sent_id = f9708d5d3-f97c69313
+text = Efter urpremiären på Uppsala stadsteater talades det om en nytändning av politisk samtidssatir .
+
+sent_id = f95083ee2-f9fb8b9e0
+text = – Egentligen tror jag att det mesta negativa man hör om är fördomar och rykten .
+
+sent_id = f949d96a0-f97145f3d
+text = De olika islamistgrupperingarna är däremot inte välkomna till förhandlingsbordet .
+
+sent_id = f9d27cb1a-f91b4876b
+text = ( TT )
+
+sent_id = f9d05aa87-f9a8d31cd
+text = Det är inte omöjligt att den bästa svenska långfilmen 2012 ( Palme ) går lottlös från galan .
+
+sent_id = f97551cbb-f99a6c761
+text = Jag skulle vilja att den blir en paradgata , som Champs Élyssées .
+
+sent_id = f96795d24-f9f987035
+text = Ridley Scott , USA , 1989 ( 15 år )
+
+sent_id = f96d88091-f9ab96f4c
+text = Det ser så bra ut det kan än så länge , och det viktigaste nu är att Emil mår bra och kan fungera .
+
+sent_id = f9b24dcd7-f915367b7
+text = Redan 1914 stod det klart att pansarbåtsföreningen skulle få ett överskott på drygt 3 milj.kr .
+
+sent_id = f92a045e8-f9bb1873e
+text = Huliganerna nu som pocket
+
+sent_id = f92110143-f9ae32019
+text = Kompisar .
+
+sent_id = f945ea28b-f9d711571
+text = Sedan ett tag får taxibilar inte längre köra i bussfilerna .
+
+sent_id = f9a5e619f-f9d521352
+text = Där finns också den bekännelse som kommer i dagen vid romanens slut .
+
+sent_id = f9ee6c247-f9e586c21
+text = Det är dags för oss att lösa frågan om Storbritannien och Europa , sade premiärminister Cameron i gårdagens linjetal om de framtida relationerna till EU .
+
+sent_id = f936e406a-f91081b0e
+text = – Hmm .
+
+sent_id = f90fc3453-f9a93b05b
+text = När jag tio år senare startade Argument Förlag hade vi kommit att bygga en djup vänskap .
+
+sent_id = f9d9e5d41-f9bc4ac95
+text = GP:s Kenny Genborg om två motsatta sidor hos partiledaren .
+
+sent_id = f9604f97a-f950d1042
+text = Minnen från Auschwitz kan bryta rätt in i en text , som korta scener från ett helvete mitt i ett trygg svensk nutid .
+
+sent_id = f9fea9daa-f9340a21b
+text = Han ville ha böckerna billigare , men nekades .
+
+sent_id = f994455f5-f9ca48962
+text = ­Arbetsmarknaden släpar ju efter , normalt ett halvår , så arbetslösheten kommer fortsätta och stiga under året , säger Annika Winsth .
+
+sent_id = f984e4daa-f97d7a4e6
+text = Stockholm : Iran förnekar kraftigt rykten om att en stor explosion ska ha ägt rum i urananrikningsanläggningen Fordo .
+
+sent_id = f9e3d0fe1-f9deca5e7
+text = Den 8 januari skrev sju kommunpolitiker att olika kommuner bör få fortsätta att ställa olika energikrav på byggnader , utöver de nationella byggreglerna .
+
+sent_id = f9e3bf609-f9bd798da
+text = Så småningom kom Merimas föräldrar och syster till polishuset .
+
+sent_id = f95d59a24-f94883d9c
+text = Spåren har töat bort .
+
+sent_id = f910b7411-f9488f5c1
+text = MUSIK : Wienermusik och operettpärlor utlovar Göteborg Wind Orchestra som anordnar en Trettondagskonsert i Kronhuset 4-5 januari .
+
+sent_id = f948354c3-f9aa5a4d4
+text = På programmet förra året var ett anförande av finansminister Anders Borg huvudnumret .
+
+sent_id = f9e37d70a-f941063ac
+text = 42 – ett OS-guld , fyra Stanley cup , 20 säsonger i NHL .
+
+sent_id = f9afdc186-f98dc8da3
+text = Linn håman
+
+sent_id = f9fa1e268-f9f940a35
+text = Substansen uteblir , bara imagebygge och tomma ord återstår .
+
+sent_id = f9580f664-f90f3e5d9
+text = Det tråkiga är att det är i sådana lägen det kommer besparingsåtgärder , och att företag även väljer att ta långsiktiga strategiska sparbeslut , som att man har för mycket i högkostnadsländer och för lite i lågkostnadsländer .
+
+sent_id = f945765dd-f93bf50c8
+text = Tyvärr är det ofta föräldrarna som backar , även om det känns som att det blivit mer accepterat med rosa på killar på sistone .
+
+sent_id = f9d5a3bee-f9342e3f5
+text = Peter Swartling lämnade musikindustrin och flyttade till Göteborg för att leda och utveckla Poseidon Diving Systems .
+
+sent_id = f951fc24b-f99a77335
+text = Anneli Hulthén ( S ) : Ett skytrain är säkert ett alternativ , men vill vi verkligen ha det ?
+
+sent_id = f91521e42-f9c030a8d
+text = Vice chefsåklagare Lars Lithner visade upp de tavlor med tack för ” hjälp och goda råd ” som advokaten fått från Brödraskapet Wolfpack och Hells Angels och påpekade att en ledande Hells Angelsmedlem var en av de första som ex-advokaten träffade när han släpptes ur häktet .
+
+sent_id = f967b53de-f93673e11
+text = •Den mest oförklarliga axeln går mellan Armenien och Frankrike , tätt följd av den mellan Schweiz och Albanien .
+
+sent_id = f93db7949-f9b025734
+text = ÅLDER 48 år .
+
+sent_id = f96208ae1-f961a7da0
+text = Enligt bostadssajten Booli har omkring 33 000 lägenheter och småhus legat ute till försäljning i hela landet räknat från årsskiftet , en nedgång med nio procent jämfört med samma period förra året .
+
+sent_id = f984dff6c-f98f9f61c
+text = Patrullen tog sig dit och grep den misstänkte .
+
+sent_id = f9bfacf0e-f9332c3e2
+text = För någon vecka sedan skrev GP om fastighetsbolaget Wallenstam som tillsammans med Wingårdhs arkitektkontor under våren ska påbörja omvandlingen av ett antal fastigheter längs Avenyn och Teatergatan .
+
+sent_id = f912ccff5-f9ae12eac
+text = Cavani räddade poäng med 100:e målet
+
+sent_id = f9f71210a-f9f1f54fc
+text = Christer tycker sig märka av ett starkt skägghat , speciellt från den äldre generationen .
+
+sent_id = f9af95f98-f92a44385
+text = – Kanske känner hon sig hemma på sådana platser .
+
+sent_id = f9c6836b2-f9c0dcadd
+text = Jag undrar om inte detta mycket bidrar till spänsten .
+
+sent_id = f90464d3d-f95903caa
+text = Samtidigt insåg han att för-ändring krävs för att det ska bli en satsning mot Rio 2016 .
+
+sent_id = f9674075d-f92c2204f
+text = 75 ( 76 ) HENRIK NILSSON
+
+sent_id = f9c0dc4e6-f9fa30fd7
+text = Vinnaren blir bjussad på nattamat !
+
+sent_id = f9c07940b-f97ec347a
+text = Rollen som den unga skönheten Cosette är Amanda Seyfried tyngsta hittills .
+
+sent_id = f990b6ce9-f92a870d0
+text = Astra Zeneca , Ericsson , Autoliv och Telia Sonera .
+
+sent_id = f9f48f248-f9add3067
+text = Sommaren 2011 vann Bemannia med lägsta pris uppdraget att täcka upp med ” konsulter ” när Väst­trafiks egen personal har semester , är sjuka eller är föräldralediga .
+
+sent_id = f9f016fc6-f924e56ff
+text = Frågan är väldigt känslig men jag upprepar att det finns en nolltolerans mot rasism på stadion , vi måste stå emot .
+
+sent_id = f92508390-f9fefc21f
+text = Testa eventuellt med en köpfri månad först , innan du beslutar dig för en längre period som ett år .
+
+sent_id = f9d6de5ad-f9d3eda8e
+text = Kvartetten
+
+sent_id = f978cb228-f9460c1e0
+text = ( TT )
+
+sent_id = f91d6bdd3-f9ccc31f6
+text = Bland dem som uppnått maxtid i sjukförsäkringen är en majoritet kvinnor , säger Andreas Ek .
+
+sent_id = f9c1f92df-f9c51bf98
+text = TJänsten finns på glassboard.com och har appar för android och iphone .
+
+sent_id = f987bf4b1-f99f2a8e1
+text = Tokyo : Japans nye premiärminister Shinzo Abe har för första gången öppet talat om att bygga nya reaktorer , trots utbrett kärnkraftsmotstånd efter härdsmältan i Fukushima .
+
+sent_id = f92143610-f947f86fb
+text = – Att utsättas för reklam skapar ett behov som man inte visste om .
+
+sent_id = f95a0f2f9-f97fccbc6
+text = Göteborgs filmfestival växer sig större för varje år .
+
+sent_id = f92048d9e-f9f205d00
+text = <>Ny smäll för Gais
+
+sent_id = f9f3b4ed0-f9fd74c57
+text = Skulle Agnès gå bort så skulle vårdnaden om Lily tillfalla Agnès föräldrar och skulle paret separera så får Sylvie lita på att Agnès låter henne få delad vårdnad om Lily , för själv har hon har ingen laglig rätt till det .
+
+sent_id = f964e7bc5-f99ad70ef
+text = Lennart Cagnell , Bror Schwieler , Harald von Matérn , Mats Andersson
+
+sent_id = f9c25c876-f9f9230db
+text = The village
+
+sent_id = f9330afce-f90b07cd2
+text = När Pontus Wernbloom för ett år sedan skrev på för CSKA var det kanske en del som höjde lite på ögonbrynen .
+
+sent_id = f91a2da30-f96b9883f
+text = – Vi är från många olika kulturer , vi har alltid något att berätta eller lära av varandra .
+
+sent_id = f99e6b5ce-f9437f326
+text = Norrmän bland de sista saknade
+
+sent_id = f926ed972-f9641ccdd
+text = Interiören går att variera i val av klädsel och färger .
+
+sent_id = f9f8161d5-f96fb0e3c
+text = Då har du i alla fall ett kvar .
+
+sent_id = f9b8599cc-f9c7f1cdc
+text = Kräver : Körkort i A1 , A2 eller A3-klassen och hjälm .
+
+sent_id = f924dc9c5-f92b3435b
+text = Men är man född och uppvuxen i Las Vegas så är det lite lättare att stå emot , säger Dan Reynolds .
+
+sent_id = f9b68910f-f9e4ccd35
+text = Colin Nutley , Sverige , 1987
+
+sent_id = f98751755-f9d5016e7
+text = MAthias Boström .
+
+sent_id = f95a9535f-f98f11f64
+text = För första gången kördes persontågen i Sverige över 100 miljoner tågkilometer .
+
+sent_id = f9cd3b190-f9c1cdedb
+text = ” Ett flackt första kvartal , men sen går det sakta , sakta åt rätt håll ”
+
+sent_id = f9f8f1ceb-f97ff8413
+text = – Efter klockan 22 !
+
+sent_id = f9a77024e-f90f7d046
+text = Antal uppkörningar : ” En .
+
+sent_id = f96f765d0-f9f1d1753
+text = Miljöpartiet gläds , tillsammans med alla som slutit upp bakom trängselskatten , åt att biltrafiken in mot Göteborg minskar och att fler väljer att resa tillsammans , med kollektivtrafik och genom samåkning .
+
+sent_id = f90a2293f-f9720a77d
+text = Jag har ännu inte bestämt mig för vad jag ska yrka på .
+
+sent_id = f9c2d6336-f95b5ce92
+text = Jimmy Carter
+
+sent_id = f929aa414-f9ad6e04c
+text = Den försiktiga strategin kanske hjälper företagen att övervintra krisen men de riskerar att bli omkörda sedan , enligt Nilsson .
+
+sent_id = f9e1b4e54-f980edf44
+text = Slog sönder väggar .
+
+sent_id = f94ebb063-f93da409a
+text = Förhållandena vid arresten är dessutom under polisutredning .
+
+sent_id = f98214f33-f9e19a120
+text = De har faktiskt skött sig riktigt bra .
+
+sent_id = f98bd4bdf-f9b10d24d
+text = – Jag tycker det funkar bra .
+
+sent_id = f91315430-f9cab4a13
+text = Bland annat ska hon spela in en långfilm och en tv-serie , men vad de handlar om är än så länge hemligt .
+
+sent_id = f9c26e97f-f9d2d9cb5
+text = Eller komponera egna banor inför kurser och träningar .
+
+sent_id = f9b7c20ba-f9f867581
+text = Istället väntar man ivrigt på nästa filmsekvens och upplösningen i denna vindlande historia .
+
+sent_id = f9ab7707b-f9097feb5
+text = – Den genomsnittliga processen för bygglov är nu cirka åtta månader och för detaljplaner ungefär tre .
+
+sent_id = f98673c83-f93bfa4ee
+text = Laget blandar och ger under dagen .
+
+sent_id = f9f2a6ca9-f986e89cc
+text = Du menar subventioner ?
+
+sent_id = f9958f364-f935feb05
+text = Islamistledare lynchad i Mali
+
+sent_id = f91e95de2-f9e60e78c
+text = Mölndal
+
+sent_id = f9cd10fe5-f9420d703
+text = – Det är där , vid sjöar och hav , som de flesta olyckor och tillbud inträffar , säger Maria Lindstedt .
+
+sent_id = f94dc7643-f949bbd63
+text = Men vid något tillfälle kanske man kunde göra vissa insatser så att folk inser att det inte är okej att skräpa ner .
+
+sent_id = f9f1a0d0b-f9b986408
+text = Nu finns Tillbaka till henne också i pocket .
+
+sent_id = f951d80b2-f934abe21
+text = Med politik som går ut på hårdare tag mot palestinerna har han lyckats få en stor del av väljarna med sig .
+
+sent_id = f97e5af39-f90785014
+text = musik : Göteborg Wind Orchestra öppnar säsongen i Kronhuset ikväll med ett av de första stora verken för blåsorkester – First Suite in Eb från 1909 av Gustav Holst .
+
+sent_id = f9ad80de0-f95eee96d
+text = Dock fanns inte tolv toppstick utan spelföraren fick göra en insats .
+
+sent_id = f9e02e2e5-f93a5c6a1
+text = Utan behandling med tillväxthormoner hade Messi ( 1,69 ) inte blivit världens bäste fotbollsspelare .
+
+sent_id = f98b62e27-f9aa6a6e6
+text = Stefan Erixon , som trots sina 35 år och tio spelade VM-turneringar inte är mest erfaren i laget , håller med om att truppsammansättningen knappast chockade honom .
+
+sent_id = f98b7b7f7-f9715c16a
+text = – Lämna ( planen ) ?
+
+sent_id = f9addd39b-f9796d45b
+text = BOR I fyra på Lindholmen .
+
+sent_id = f9f6d628e-f90a81749
+text = Men min personliga åsikt kvarstår .
+
+sent_id = f95f8965e-f9b04961d
+text = Jag vet inte varför , på reklamskolorna är kvinnor i majoritet .
+
+sent_id = f9fc55bba-f946287f7
+text = Det så kallade budgetstupet var en kombination av åtgärder som skulle inträffa vid årsskiftet .
+
+sent_id = f951a3515-f908ceb42
+text = Han har varit vice ordförande i bankens styrelse sedan 2001 .
+
+sent_id = f9a967a9a-f9099222d
+text = 16.56
+
+sent_id = f93d66148-f95513fca
+text = Men måste man märka alla kläder ?
+
+sent_id = f92198473-f90291493
+text = Det är en ganska utsatt position som målvakt , antingen blir du hjälte eller syndabock ?
+
+sent_id = f93592801-f92ab9313
+text = Enligt nordamerikanska medier ska kontraktet vara värt 30 miljoner dollar , cirka 195 miljoner kronor , och han blir där med lagets bäst betalde back .
+
+sent_id = f961b68d8-f91e61984
+text = Undviker att gå i debatt .
+
+sent_id = f92d09ee2-f9b0b6d74
+text = Målet nu för Sanny är att bli symtomfri .
+
+sent_id = f98762f96-f98daf275
+text = Oppositionen vägrar samtala och gatorna fylls av demonstranter som kräver regeringens avgång .
+
+sent_id = f9b296a64-f95eb7ee1
+text = Så lite rättvisa finns det , även om man bor i Linné och vill sörpla på en avgasfri specialimporterad flasköl på stamhaket innanför vallgraven .
+
+sent_id = f92ae7898-f94986b1f
+text = – En pop- och rockgala som gestaltar vad P3 är .
+
+sent_id = f944dcbfb-f95b02292
+text = Hur bekämpas då de överhängande hoten ?
+
+sent_id = f98b478e7-f952adbc3
+text = Hur mycket de kostar är ännu inte offentligt .
+
+sent_id = f9516c163-f9fb9486d
+text = Ninjakille .
+
+sent_id = f99a9c30c-f9522d000
+text = – Ryggen var problemet .
+
+sent_id = f98bc6a88-f9cec8ec4
+text = 1 tsk hackad timjan
+
+sent_id = f9e9d5755-f913d549e
+text = 80-talsnegativen : Aids , Palmemordet , 30-novemberkravallerna , Boforsskandalen , Black Army , gänguppgörelserna …
+
+sent_id = f9440c0b4-f97cf161b
+text = Så gott som alla restauranger har kyckling på menyn , ofta med så hemlagad touche som möjligt .
+
+sent_id = f912924a2-f9bd339fc
+text = Barns kyrkobesök var undervisning
+
+sent_id = f97d46ca0-f96b32c70
+text = – Vi köper hellre något vi gillar än många saker , säger Lina .
+
+sent_id = f97ec16b8-f99376057
+text = solkigt pussel
+
+sent_id = f937edbda-f9515a664
+text = Lampard var bäst på planen och gjorde sitt sjunde mål på åtta matcher .
+
+sent_id = f9245a09e-f9a4c99d7
+text = Den flygande handläggaren har drag av revy när den beskriver systemskiftet inom det svenska samhället .
+
+sent_id = f9f993ff5-f93bae3ae
+text = – Oscar går normalt på en daglig verksamhet men under januari har han varit ledig därifrån .
+
+sent_id = f977c59fd-f92bfb3db
+text = Och det ska vi göra , säger Joel Lundqvist .
+
+sent_id = f9f0f4b2d-f9b87b638
+text = Kungsportsavenyn 1 ( 5 / 4 2012 )
+
+sent_id = f978f1574-f900afb60
+text = KUNGÄLV : Skottlossningen mot en 23-årig man i Rödbo var hämnden för en misshandel på annandagen .
+
+sent_id = f9d4bbf9a-f953ee60c
+text = I dag avslutas World Economic Forum .
+
+sent_id = f98cf0b32-f95ba523c
+text = 5 frågor
+
+sent_id = f903a112c-f91520b06
+text = vackert vinterväder vid start .
+
+sent_id = f9bcc3043-f915b0172
+text = 1,5 l hönsbuljong
+
+sent_id = f98d182fd-f923f89f0
+text = Landskamper : 48 ( 2 mål ) .
+
+sent_id = f9a033a3b-f9f6c7227
+text = Tommy Törnqvist , 54 ,
+
+sent_id = f93c88c9d-f9a792f0e
+text = Få företag expanderar , visar undersökningen .
+
+sent_id = f944608c1-f95446778
+text = – Vi tar det på yttersta allvar och lägger stora resurser på det här .
+
+sent_id = f9199191d-f9b857cd9
+text = Om lagen går igenom kommer homosexuella par få adoptera tillsammans , och ena partnern kan adoptera den andres barn .
+
+sent_id = f9086a6da-f9b293b75
+text = Flera personer , de flesta civila , skadades .
+
+sent_id = f95fe1192-f9c4995bc
+text = Men det gäller att allting stämmer .
+
+sent_id = f98120de9-f9a333d56
+text = Anledningen till att vi lyfte upp frågan just nu var att vi inte har sett Bohus­banan på några prioriteringslistor över huvud taget .
+
+sent_id = f9b7bfedf-f90f276da
+text = 3 feb : Final
+
+sent_id = f9233290f-f93f0c49e
+text = ♥ Ä 8 6 4
+
+sent_id = f9209b5dd-f959157bf
+text = ( TT )
+
+sent_id = f916993b0-f9eca6072
+text = Han är eventuellt också misstänkt för våld mot tjänsteman .
+
+sent_id = f98c031e6-f9f45236d
+text = Sedan får vi se hur statyetterna fördelas rent allmänt .
+
+sent_id = f94a1a561-f9141ecf2
+text = Bor : Askim
+
+sent_id = f9eee6824-f95320f6d
+text = Förvaltningsrättens dom innebär att han får bo kvar med sina personliga assistenter på landet utanför Kungälv .
+
+sent_id = f93ae5444-f97d26050
+text = * *
+
+sent_id = f9fb26fbb-f94f01a3f
+text = Under ­tiden fortsätter han sökandet efter sanningen bakom dikten Two Acres .
+
+sent_id = f93247aaa-f9002c301
+text = En liknande slutsats finns hos Imre Kertész .
+
+sent_id = f932d0ad9-f97dee186
+text = Efter en ny show vid Fifa-galan i Zürich , där hon utsågs till Årets tränare , framstår Fotbollförbundets rekrytering av ny förbundskapten som en garanterad succé .
+
+sent_id = f98df6e2a-f973fbf35
+text = Alltså att religiöst ortodoxa män inte ska slippa värnplikt , att det ska bli mindre statligt ekonomiskt stöd till de ortodoxa och till bosättningar , säger Stas Kaufman , 27 , student i Tel Aviv , till GP .
+
+sent_id = f9f6e0260-f9917a973
+text = När : Fredag 11 januari
+
+sent_id = f99d3cc15-f9ee9551c
+text = Skrev senast om Ursula Meiers film Syster .
+
+sent_id = f9baebde2-f9c2ae8a0
+text = Konspirationsteorier i kombination med de allvarliga biverkningar av svininfluensavaccinet som drabbade några svenskar , har dock bidragit till en ökad skepsis mot vaccin .
+
+sent_id = f98f4270d-f92980406
+text = Storstäderna Stockholm och Göteborg är viktiga för exempelvis vidare resor utanför landets gränser .
+
+sent_id = f975ad5da-f93843b9c
+text = Till exempel gick det hur lätt som helst att aska elegant med pekfingret , även att släppa ut rök ur munnen och samtidigt dra in den i näsan gick fin-fint .
+
+sent_id = f9bd1e2cf-f9259fd97
+text = next top model och som
+
+sent_id = f98ad16a1-f9225e52e
+text = växande vargstam .
+
+sent_id = f9ffb051c-f988825e6
+text = Mats Olaussons goda kontakter med sina tidigare klienter blir en viktig del också i hovrättsförhandlingen .
+
+sent_id = f98563e87-f9b54cc25
+text = Räkna med såväl hiphop och r ’ n ’ b som ballader och tryckare , utblandat med en och annan indiebanger .
+
+sent_id = f976962df-f99cef694
+text = Petter Aasheim tror , med rätta , att Bengt Landahl inte hade alla fakta om skjutningen när han tog sitt beslut att inte inleda någon förundersökning mot polismannen .
+
+sent_id = f93caace4-f9275a7ad
+text = Riktigt lovande svenskt drama .
+
+sent_id = f96a80d60-f9c76d90f
+text = Äntligen ett veckoslut där förhoppningsvis inte allt medieutrymme fylls med långsökta analyser av Zlatan , internationell fotboll och elitseriens 43:e omgång .
+
+sent_id = f986061d4-f9cafa2a0
+text = Det här ligger i linje med vad Volvo önskat sedan lång tid tillbaka .
+
+sent_id = f92aedc17-f9abdcbfb
+text = Flashback lämnar aldrig ut uppgifter till polisen .
+
+sent_id = f9bcc4419-f9ff2cfff
+text = – Det var en stabil seger , speciellt bra försvarsspel från vår sida , säger femmålsskytten Johan Fagerlund .
+
+sent_id = f97001a2f-f95983be7
+text = En skam som gör att ingen identifierar sig som fattig .
+
+sent_id = f91819b14-f92d7bbf3
+text = Tidigare fanns ett Domus-hus på platsen och sedan det revs har området varit en ruin .
+
+sent_id = f98c86821-f9dc08df4
+text = Många medelålders män och kvinnor är i dag tacksamma för att han satte sig upp mot tidens pedagogiskt korrekta beskyddarnit .
+
+sent_id = f99c1c054-f9e9949e2
+text = Den figur jag möter i LO-borgen är lite bullrig , lite högljudd , lite kaffe­speedad .
+
+sent_id = f928ce16c-f901afdaa
+text = Det innebär också att existerande spår i marknivå kommer att kunna användas för pendeltåg eller duospårvagnar .
+
+sent_id = f98be241e-f97980f09
+text = Hans sociala program , misiones , har gett honom en mycket stark ställning i folkdjupet .
+
+sent_id = f9ba35f08-f91acc1bc
+text = En målvakt till är akut och på önskelistan står även två kreativa spelare .
+
+sent_id = f90fdeb39-f91ec94c9
+text = Björn Wirdheim återvänder till Sverige efter mer än 15 år på den internationella arenan .
+
+sent_id = f952524d8-f97340119
+text = Samtidigt kräver fansen att samtliga 73 personer som står anklagade för delaktighet i morden ska dömas till döden .
+
+sent_id = f9ac1a61a-f9fe7ff99
+text = Fast man måste komma ihåg att hockeyn är en ung mans sport .
+
+sent_id = f9831aa3e-f968e0b4f
+text = KULTUR , sidan 48
+
+sent_id = f9040f79f-f933eb249
+text = Brinner för hållbar arkitektur
+
+sent_id = f9391355f-f987499f5
+text = Jag vet att du var kapten i rugbylaget och att sådant brukar gå ut över studierna . ”
+
+sent_id = f907598d7-f9bb49a15
+text = Mjöl och mjöl är alltså inte samma sak .
+
+sent_id = f96bf658f-f97f33df1
+text = BERGAKUNGEN , BIOPALATSET
+
+sent_id = f933d1440-f90f01c28
+text = TV 6 , KL 21.00
+
+sent_id = f9242b6c8-f91c3e4e8
+text = Avspänd stund i mordidyll .
+
+sent_id = f950829a8-f901cbff9
+text = Och mer än hälften är barn , enligt FN som nu planerar för en dubblering av antalet flyktingar .
+
+sent_id = f918203dd-f9cc72afa
+text = 499 kr • Piemonte , Italien • 95313 5
+
+sent_id = f9a3c4976-f90e131d8
+text = Polisbefälet uppger att det hela var ett misstag .
+
+sent_id = f9ac5cf85-f9e2ca56e
+text = Meet the World-turneringarna ger oss chansen att utanför vår normala affärsverksamhet bidra positivt till de samhällen och regioner där vi är verksamma och samtidigt får allmänheten lära sig lite mer om SKF , säger Ingalill Östman , informationsdirektör på SKF , i ett pressemeddelande .
+
+sent_id = f91d62bc9-f96f3a963
+text = ” Try an old idea . ” Försök med en gammal idé .
+
+sent_id = f9593a334-f9a40ef4e
+text = Efter det var vi bättre , Jacob Bandling Melin .
+
+sent_id = f9145a17e-f9bb07796
+text = Vi har dragit ner grovt under två år , kapat 35 – 40 procent av lönbudgeten .
+
+sent_id = f946e24ea-f9925f3a8
+text = Att Annie Lööf fått avbryta sin utlandsresa och åka hem och ta hand om den ideologiska krisen i sitt parti och själv blivit ifrågasatt märktes inte .
+
+sent_id = f9ad19e20-f927040ce
+text = Redan i gryningen var ett lämmeltåg på väg över de då fortfarande öppna broarna och människor kom i tusental uppför trapporna från tunnelbanestationerna och rusade mot de platserna som var avsedda för de biljettlösa på det öppna promenadstråket The Mall framför Capitolium .
+
+sent_id = f9ee37bdb-f95a88264
+text = UVM-guldet i laser radial ger Julia Carlsson priset som årets kvinnliga junior .
+
+sent_id = f9054019b-f9bd1d26c
+text = Allt det där finns här .
+
+sent_id = f9f82047b-f99e6661e
+text = Intresset för utlåningen av mopederna har varit mycket litet , trots att informationslappar sitter uppe på bland annat äldreboenden , vårdcentraler och apotek .
+
+sent_id = f9bf76fb9-f945e53c2
+text = Men också politik .
+
+sent_id = f9003bbdd-f9588d3c5
+text = I Kairo samlades tiotusentals demonstranter på Tahrirtorget , de flest för att protestera mot regeringen och kräva president Mohammed Mursis avgång .
+
+sent_id = f92964979-f9ec05066
+text = Speciellt över hur debattklimatet blev .
+
+sent_id = f984e80bc-f9b993653
+text = Skaparna till dokumentärfilmen om Palme var blygsamma i sina beräkningar .
+
+sent_id = f9a3a27d0-f92d47c39
+text = ( Hjärnan tyckte sig känna doften av rosmarin och vitlök vid provningen . )
+
+sent_id = f9f1b40fe-f90cda790
+text = 3 stjälkar blekselleri
+
+sent_id = f9be99877-f9de68b9e
+text = Då hade redan Issam Jemâa , Tunisiens främste målskytt genom tiderna , klivit av skadad .
+
+sent_id = f967cf4d0-f9fac7688
+text = Annika Rejmer ,
+
+sent_id = f9eefdb30-f953a1b4e
+text = Frej Växjö 10 3 0 7 13 – 24 6
+
+sent_id = f94948af7-f956e29d8
+text = Här syns Anna tillsammans med barnen Alexandra , Max och Amanda .
+
+sent_id = f97150608-f9d960cdc
+text = Men fortfarande 2013 möts jag av förutfattade meningar och bristande kunskap .
+
+sent_id = f96ff9dbf-f98fbc5da
+text = Men när vi blickar framåt ser vi ingen förändring .
+
+sent_id = f9db4d61d-f991cc195
+text = Om studierna faller väl ut hoppas forskarna att behandlingarna som hjälper barn mot fetma kan börja om fem , sex år .
+
+sent_id = f97251256-f9aefa935
+text = HV71-Frölunda
+
+sent_id = f9a083dd5-f95e8e76c
+text = – När det är extra kallt ställer jag mig innanför ingången till butiken , men det blåser in så det blir kallt ändå .
+
+sent_id = f9768da37-f9b2b876b
+text = Det känns väldigt stort för oss , ­säger Thomas Forslin , ordförande i den ideella baptistanknutna förening som driver Stenungsögården .
+
+sent_id = f97968561-f9b864978
+text = 1917
+
+sent_id = f9dfe20f7-f90d47fd9
+text = 1 .
+
+sent_id = f902bd4dc-f9ae1fa96
+text = Är det allt , tänker jag ?
+
+sent_id = f98041b29-f988dada3
+text = Sedan lunch , skoprovning och ett första bollpass på Skatås på eftermiddagen ( där Pontus Wernbloom var med ) .
+
+sent_id = f9b5cfd26-f985a4d68
+text = Jag vill gärna sticka ut lite inte ha det som andra har det .
+
+sent_id = f91a172e3-f985cee14
+text = Men på det stora hela gör Delphic det på tok för svårt för sig .
+
+sent_id = f91eabf89-f97374ced
+text = Mina barn är alltid viktigast .
+
+sent_id = f96bcea73-f99f5a90c
+text = Men de har inte sett något ovanligt högt tryck under de senaste dagarna .
+
+sent_id = f9b4e6e5a-f92810324
+text = Innehållet i boken förefaller dock vara ganska harmlöst i jämförelse med and­ra svartkonstböcker .
+
+sent_id = f99bb1538-f9d8fa7c5
+text = Michelangelo Bar & Kök
+
+sent_id = f944b6050-f90d4dcf7
+text = Några roliga historier från året som gick ?
+
+sent_id = f92b48872-f99810484
+text = Över huvud taget kan man fråga sig under vilka villkor utsatta barn tvingas leva .
+
+sent_id = f9e0f8206-f90f4f59e
+text = fotboll
+
+sent_id = f9a26d8f1-f9e6c40c0
+text = Några nationella regler för hur stor en parkeringsruta ska vara finns inte , utan det är upp till den som står för parkeringen .
+
+sent_id = f97dab409-f95d431d1
+text = Enligt uppgift drivs båda verksamheterna av mödrar tillsammans med döttrar .
+
+sent_id = f91d415fb-f931b33b6
+text = Men militären von Rosen var en handlingskraftig fredsförhandlare som med list och diplomati och en flera år lång , ihållande gästfrihet mot den belägrande amiralen kunde hålla Göteborg utanför krigen , och nu skulle detta firas !
+
+sent_id = f99da0e56-f92982a92
+text = Förutom uppdaterade rutiner har förskolechef Anders Lindroth ägnat tiden efter incidenten åt samtal med personal , föräldrar och barn .
+
+sent_id = f908be932-f96700a5e
+text = Mannen greps förra veckan av franska specialstyrkor tillsammans med ytterligare en person , som senare släpptes .
+
+sent_id = f951b3c39-f942c171e
+text = Merparten , 85-90 procent , av dem finns i ett bälte över Mellansverige .
+
+sent_id = f97ad1467-f9fc89eea
+text = 1 l vatten
+
+sent_id = f910db722-f97edb318
+text = Men hur kan det ha dröjt över 50 år innan det kom fram ?
+
+sent_id = f9b85bf56-f9bec9624
+text = Det mesta filmkrutet lägger Spielberg på presidentens besatthet av att driva igenom konstitutionstillägget om slaveriets avskaffande .
+
+sent_id = f9010d31f-f94fea0f3
+text = Absolut innan dagen är slut , säger Daniel Svensson , 20 .
+
+sent_id = f92317b5f-f9a7a1616
+text = Plötsligt står man där med just sitt korta liv och sin långa dag och undrar vart utvecklingen och framåtrörelsen har tagit vägen .
+
+sent_id = f947085ca-f9de09d54
+text = Jack Reacher hävdas i en av böckerna även vara så hård att man kan åka skridskor på honom .
+
+sent_id = f95b52235-f964f9cd0
+text = Enligt ett förslag , som nu är ute på remiss , ska väpnade motståndsmän kunna dömas för landsförräderi .
+
+sent_id = f9477a713-f93f0cbab
+text = * Gift med Carl-Johan ( född Carlsson ) augusti 2011 .
+
+sent_id = f9b1d4efb-f979fbea7
+text = Men du känner inte att det stämmer ?
+
+sent_id = f94c0e714-f90ed4d97
+text = Den rapporten innehåller två olika referensbanor , varav en som inte innehåller kärnkraft .
+
+sent_id = f9175563d-f93c9de81
+text = Exit !
+
+sent_id = f90e51c06-f94fd7ef0
+text = – Det som till sist kan rädda mänskligheten är vår förmåga till kommunikation , till samtal .
+
+sent_id = f91ed5219-f99c4ee6d
+text = Vi tror att vi kommer att förbli likadana för resten av livet .
+
+sent_id = f940a3a01-f9d6ee924
+text = – Majoriteten skjuter ifrån sig ansvaret och dödar i praktiken integrationsfrågan fram till valet .
+
+sent_id = f9d1de88f-f980e7706
+text = – Om alla låtar vore lika bra skulle ett land från Balkan eller det forna Sovjet alltid vinna Eurovision , säger docent Nicholas Charron .
+
+sent_id = f9f595f0d-f98beaa66
+text = Andelen vuxna som arbetar liksom medelinkomsten ligger något över snittet för Göteborg medan andelen utländska medborgare ligger under genomsnittet .
+
+sent_id = f981ddaae-f9547478b
+text = Raja Mirchi var någon decimeter före Maharajah och Noras Bean i mål .
+
+sent_id = f90de199b-f91036094
+text = Språket är grunden för att hantera dessa .
+
+sent_id = f98bb41aa-f9cd30811
+text = Drottning Beatrix abdikerar
+
+sent_id = f9f9f4835-f9b111f3b
+text = Centrum , Göteborg
+
+sent_id = f9d1d64f1-f97632b48
+text = Det kommer därför att bli tuffa tag när den nya kongressen börjar sitt arbete .
+
+sent_id = f972565c7-f92c1c5d1
+text = – På ett sätt kan det vara sunt att inse att man har gjort fel , å andra sidan kan även små misstag bli något som ligger och gnager under många år .
+
+sent_id = f9785738f-f93ff5977
+text = Han får i semifinalen möta Andy Murray .
+
+sent_id = f9267761d-f98023166
+text = Lauritz Hjort grundade fabriken i Rönne på Bornholm år 1859 .
+
+sent_id = f9062db82-f9b6ad819
+text = – De har blivit fixpunkter för debatten snarare än att de själva leder debatten .
+
+sent_id = f9b1625d3-f9ef8fd2b
+text = Namn : Lerum nästa
+
+sent_id = f96f1e966-f9f6a4ffa
+text = Det brukar förvisso uppskattas .
+
+sent_id = f9090a87b-f9c7ebc44
+text = Lägga ner öppna förskolan .
+
+sent_id = f99def595-f9f11e1b0
+text = Det som gladde mig att vi var så pass vassa framåt , det hade jag inte riktigt räknat med eftersom vi fortfarande formerar , säger Thomas Askenbrand .
+
+sent_id = f93080f6f-f90782490
+text = Hulthéns högra hand .
+
+sent_id = f945b2205-f98e8bd8d
+text = Uppskov med beskattning av kapitalvinst avskaffas för avyttringar som sker efter 1 januari 2015 .
+
+sent_id = f9316ba51-f986b4b7d
+text = Ryanair svarar att bolaget följer den irländska luftfartsmyndighetens certifiering och godkännande .
+
+sent_id = f973dc3e1-f998f0815
+text = Jag hoppas alltid kunna göra mitt bästa .
+
+sent_id = f9eaa1ce0-f978c5cee
+text = Det fina med den här boken är att den tvingar en att fundera över alla kloka saker som sagts om fördumning , underhållning till döds och medial rännstenskultur .
+
+sent_id = f9dfe8701-f93a8ec0a
+text = All personal valde att stanna kvar när kommunen tog över .
+
+sent_id = f9b5cdbe8-f9ea59a13
+text = Polisen ringde och väckte Merima med nyheten om att hon är helt avförd från utredningen .
+
+sent_id = f91925461-f955a6b80
+text = Nu gör Annie Lööf det hon lovade att hon skulle göra , men när det blir problem får hon stå ensam med ansvaret .
+
+sent_id = f9a1a9d29-f97dbe84a
+text = Marcus Översjö
+
+sent_id = f9e04b292-f983801ac
+text = Skurkarna kommer att få det jobbigt .
+
+sent_id = f96b29869-f92e3a70f
+text = Haddile med sin fostermamma Malén Liewehr och fosterpappan Miklos Liewehr .
+
+sent_id = f9ffca738-f9b8c14fc
+text = Ett fungerande språkbruk
+
+sent_id = f946151c3-f90669d89
+text = 85 tum verkar lagom att sikta på nu om man ska tro pressreleaserna från CES .
+
+sent_id = f9e6d909c-f98e6a333
+text = Men framför allt vill jag göra det bättre än på VM i Hong Kong .
+
+sent_id = f96d07b13-f9cb4eced
+text = Lagstiftningen är också utformad med detta för ögonen .
+
+sent_id = f995bb546-f963feb7a
+text = I går satte han ännu en gång 3 – 2 .
+
+sent_id = f9403a18a-f98cc8d1d
+text = Kvinna våldtogs av fem män
+
+sent_id = f95b1575e-f9cce3b44
+text = USA:s avgående utrikesminister har inte drabbats av någon stroke och hennes läkare säger att hon väntas bli helt återställd , skriver USA Today .
+
+sent_id = f95c279e5-f9a1c8538
+text = Det pågår ett perspektivskifte i synen på fattigdomsbekämpning .
+
+sent_id = f9ff5ae8d-f99876c37
+text = NOVEMBER
+
+sent_id = f94bf9880-f95bbf736
+text = Lyrans vits får ändå till sist en sorts homerisk ton .
+
+sent_id = f9d29bc2f-f9665c2af
+text = Gör : Sjukskriven .
+
+sent_id = f9670f601-f96f95f60
+text = Isner har ont i högra knät , en skada som gjorde att han tvingades dra sig ur Hopman Cup förra veckan .
+
+sent_id = f9bf3b50f-f9d456aa1
+text = – Det finns ett stort intresse för bostäder i området , säger han .
+
+sent_id = f9a05dfae-f965702fc
+text = ” Men maten är sådär ” , säger han .
+
+sent_id = f9c202ae6-f9ab7764d
+text = – Vi tittar långsiktigt på Kina .
+
+sent_id = f905f80a4-f9e0d7a38
+text = – Jag upplever att det blir en skillnad .
+
+sent_id = f95059d33-f981a23e9
+text = Film : Festivalens styrka är dess mångfald .
+
+sent_id = f9e7b3cad-f99aed0f1
+text = Samtidigt var det också som en enda lång uppvisning i konstarten ” Jag bollar med stora summor pengar , men har inte en aning om hur jag ska sköta dem ” .
+
+sent_id = f927f2b25-f909ab852
+text = – Det här är ingenting vi ställer oss bakom .
+
+sent_id = f9241652a-f95227916
+text = Mikael Fellenius , vd för Göteborgs filmfestival , håller med om att uppdelningen främst har skett av utrymmesskäl .
+
+sent_id = f9ef69f4b-f995fd766
+text = att viska är inte riktigt hans grej – för föreställningen att det är möjligt att lösa våra globala problem genom att steg för steg förenkla det globala samhället och välja en mer lokalcentrerad och ekologisk tillvaro , ” privatisera framtiden ” , som han kallar det .
+
+sent_id = f9240c838-f9f1a5eab
+text = Är du med , kära läsare ?
+
+sent_id = f9149dc6b-f95e455a6
+text = ÅLDER 24 .
+
+sent_id = f98190c73-f95bd113d
+text = MUSIK : Uppsala internationella gitarrfestival blev en succé som också slog publikrekord .
+
+sent_id = f92249d6e-f91e75973
+text = Allt gott startar där , med ett samhälle där barnen vårdas av både far och mor , så ljust ser jag det i dag , en måndag i januari 2013 .
+
+sent_id = f9e033c66-f9785e674
+text = Rosendal 13 7 0 6 339 – 317 14
+
+sent_id = f97f28cab-f9bc09700
+text = Vi har inte så bred trupp att vi har råd med att ha skador .
+
+sent_id = f9cbf36bc-f999ee503
+text = Tordyvel .
+
+sent_id = f9414609f-f90d1143f
+text = Peter Lenken
+
+sent_id = f9b20096a-f947eda99
+text = – Vi har självklart en plan , säger Anderz Larqvist .
+
+sent_id = f9642d89a-f9d4e6e2e
+text = 1944
+
+sent_id = f9209c025-f988a5512
+text = frölundas lag
+
+sent_id = f90b5940f-f91bd7dcf
+text = 23 .
+
+sent_id = f998854d3-f9b80e6f7
+text = Häcken meddelar på sin hem-sida att den talangfulle mittfältaren Oscar Lewicki missar stora delar av säsongsinledningen .
+
+sent_id = f91fb1656-f9f90cbd1
+text = Jag tror inte att kulturskolan i Mölndal vill representera en konservativ och förlegad familjebild , så jag förutsätter att de kommer göra något åt det här .
+
+sent_id = f99f4711f-f978ed26e
+text = – Det är en hel skatt som har öppnat sig .
+
+sent_id = f9abfede7-f9c37ba47
+text = <>Dragshow
+
+sent_id = f9f7f7efa-f916268f6
+text = Inget obeställt landade på bordet , inte ens bröd .
+
+sent_id = f9417d52b-f9e6755af
+text = Frölundas ordförande Mats Grauers vet i alla fall om risken att förlora Joel Lundqvist till NHL .
+
+sent_id = f94632c40-f9bc784d5
+text = På en flotte byggd av balsaträ ger han sig ut på en 800 mil lång resa med en sex man stark besättning .
+
+sent_id = f96f14acf-f97d5b333
+text = ( TT )
+
+sent_id = f995b08c2-f9eb947b2
+text = Men reglerna är godtyckliga och har inte tagits fram på ett vetenskapligt sätt , menar forskarna .
+
+sent_id = f972d1e4b-f91d8ac96
+text = Melodifestivalen 2013 > 8 – 9 / 2
+
+sent_id = f971c0380-f91b5c125
+text = Tjeckiens nyvalde , frispråkige president leder ett vänsterparti , Medborgarrättspartiet ( SPOZ ) , men säger att han vill samla röster från hela den politiska paletten .
+
+sent_id = f91a484c1-f96bd9501
+text = Stan har fått en ny kulturgeografi med en förskjutning från Götaplatsen till Järntorget och vidare till Röda sten .
+
+sent_id = f9199a820-f9cdc2877
+text = Warberg : Linus Henriksson 2 , Henrik Olofsson 2 , Kimmo Eskelinen , Mattias Hasselström , Kim Hadelund , Daniel Karlander , Martin Emanuelsson .
+
+sent_id = f9314c515-f9be63999
+text = Guds tystnad garanterar prästens status .
+
+sent_id = f9d978899-f95d4dfac
+text = kampanjlänsansvarig Hjärnkoll Västra Götaland
+
+sent_id = f9ad2f934-f9e64b818
+text = Semestrande svenskar köper timeshare-liknande produkter , till exempel medlemskap i semesterklubbar med boende visst antal veckor utomlands .
+
+sent_id = f9c35c7a0-f98125259
+text = Med 55,04 poäng var hon bara en tiondel från sitt personliga rekord och strax före storasyster som fick 54,77 poäng .
+
+sent_id = f9ccfe3fe-f97bb7d08
+text = Avhandlingen visar att kvinnor får vänta längre än män på att få kranskärlen undersökta och på blodproppsförebyggande medicin
+
+sent_id = f932c3cfa-f96cdbfc2
+text = Men varken polis eller åklagare meddelade ägaren .
+
+sent_id = f9585390d-f9c78e9ab
+text = Dem har jag kvar .
+
+sent_id = f9f5344c6-f93d77c79
+text = Ja , Skål då , Friberg !
+
+sent_id = f9d2eab7c-f99087ce9
+text = Sverige är ett ekonomiskt överflödssamhälle där det är svårt att växa upp som barn till en av de här 100 000 människor som under lång tid lever på socialbidrag .
+
+sent_id = f9602ff24-f9ae3ed1b
+text = I dag är allt annorlunda .
+
+sent_id = f995aafcc-f98ff747b
+text = – När de skulle ta foton på alla VM-förare så frågade någon , ” Ska du verkligen stå här med de stora killarna ? ” .
+
+sent_id = f945072c4-f920d7939
+text = Trafiken i Stockholms innerstad minskade med åtta procent vilket minskade kötiderna med 30 – 50 procent .
+
+sent_id = f9b40dd49-f96bbac51
+text = Den påkörda bilen bärgas från platsen .
+
+sent_id = f9e09b626-f9e1e0f05
+text = Det finns en massa andra prylar också , om du hellre vill ha en dörrmatta eller en handduk .
+
+sent_id = f9a3a6ef9-f984fa40d
+text = Statoil får besked om att terrorister försökt kapa en personalbuss vid en gasanläggning utanför oasen In Amenas .
+
+sent_id = f9d42d716-f9255041d
+text = De flesta kunde få vård direkt på plats , medan sex fördes till sjukhus .
+
+sent_id = f99025167-f97ab486a
+text = God mat men lite små portioner – och besvärlig akustik .
+
+sent_id = f9ecc979e-f90dde54f
+text = Å andra sidan kan vi ju nu säga att flickan är den enda person , av alla som figurerat på Instagram , som faktiskt är bevisat fullständigt oskyldig , svarar Peter Gillberg .
+
+sent_id = f97e52248-f92e32aae
+text = Översättning Maria Ekman
+
+sent_id = f95d5fc08-f9fea8186
+text = Diana Ross
+
+sent_id = f99fe5deb-f92b744e1
+text = Man bekräftar att man är inne i slutskedet av bokningsarbetet och räknar med att släppa ett antal namn redan under nästa vecka .
+
+sent_id = f941bbb95-f9ad8e84a
+text = – En pojkdröm går i uppfyllelse , säger han till P4 Skaraborg .
+
+sent_id = f99caed58-f9b7e5ffd
+text = För att detta ska lyckas måste det finnas plats för folk att bo och leva i staden .
+
+sent_id = f9798588c-f91dfac27
+text = Sveriges långa vintrar får många att drömma om värme under den kalla delen av året .
+
+sent_id = f9e14780c-f9068c2ad
+text = I den principiellt viktiga domen vann staten .
+
+sent_id = f92d9cd1b-f955932ee
+text = Oron inför framtiden finns även i Ryssland , som i går beslutade att evakuera ett hundratal ryska medborgare från Syrien .
+
+sent_id = f96a829e2-f9958efc7
+text = Trafikolyckor stängde E 6
+
+sent_id = f992575ea-f9638ab30
+text = Det tillhör att ha ont , säger Joel .
+
+sent_id = f999c6a57-f9ae2d10d
+text = .
+
+sent_id = f922ab68d-f9fbb25b8
+text = Hjärt- och kärlsjukdomar – och riskfaktorerna .
+
+sent_id = f9b556294-f92bafa24
+text = I samband med åtminstone två polisingripanden har 16-åringens urinprov visat spår av cannabis , kokain och amfetamin .
+
+sent_id = f9f109f75-f9fb822c2
+text = De träffade först två olika arkitekter men det stämde inte .
+
+sent_id = f9e9040c0-f9b1af44b
+text = – Men jag måste nog hoppa ännu högre för att komma med , säger hon till GP .
+
+sent_id = f91a72f50-f9ecaa5fa
+text = – Svenskarna är verkligen ett studiecirkelfolk .
+
+sent_id = f915ffe96-f9441c20f
+text = Vilket Göteborgslag har bäst placeringssnitt i allsvenskan sedan Häcken återvände till högsta serien 2009 ?
+
+sent_id = f9c386950-f91589241
+text = Det främsta syftet med forskningsprojektet Regnbågsungar , som Per hoppas kunna presentera i form av en avhandling om 3-4 år , är just att bidra till att skapa förutsättningar för en framtida inkluderande utbildningsmiljö .
+
+sent_id = f9535cb4d-f97a6e4fb
+text = En utredning har föreslagit att kommuner inte ska få ställa krav på energieffektivitet .
+
+sent_id = f9c76ecfc-f94b6b449
+text = I nästa vecka presenteras min efterträdare i Kulturutskottet och även vilka frågor jag ska jobba med framöver .
+
+sent_id = f9261a7c7-f976c60ff
+text = Det låter kanske pretentiöst , men någonstans så sjunger jag för att hela mig själv , för att läka saker .
+
+sent_id = f95bcd916-f90e3f863
+text = Vad som nu sker är egentligen hennes första riktiga prövning som partiledare , ett test på om hon är tillräckligt lyhörd och om hon har förmågan att på en gång leda och samla partiet .
+
+sent_id = f9e1cad74-f92b43bfe
+text = Onsdag : Paneldebatt om konjunkturen
+
+sent_id = f98916fe6-f923380ca
+text = Men vi har för stor kostym just nu , säger Kristina Svensson .
+
+sent_id = f9ef23b41-f98987e46
+text = Pelicans 40 11 8 21 102 – 131 46
+
+sent_id = f95897662-f9ae33756
+text = Partille arvoderar sina politiker enligt en modell där nivå bedöms utifrån svårighetsgraden på uppdraget .
+
+sent_id = f95edc3cc-f91bab74f
+text = Det skedde på Majstångsgatan i Majorna .
+
+sent_id = f9252c9fb-f923c71a0
+text = De följde efter en falskskyltad lastbil som med hjälp av en följebil lyckades skaka av sig tullarna .
+
+sent_id = f9c8ae2d2-f93d56331
+text = ” Lagarde-listan ” härrör från en stöld av namnen på 24 000 kontoinnehavare i den brittiska banken HSBC:s kontor i Genève .
+
+sent_id = f98777f3f-f923cee29
+text = Parallellt pågick under gårdagen en stor givarkonferens i etiopiska Addis Abeba , där omvärlden utlovade motsvarande runt 2,9 miljarder kronor till Mali .
+
+sent_id = f96799bb4-f96f910a4
+text = Bor : Påvelund
+
+sent_id = f9bd88348-f92b9f9fc
+text = Den 94-årige ex-presidentens tre veckor långa sjukhusvistelse i december den längsta sedan han släpptes från fängelset 1990 satte nationen på helspänn .
+
+sent_id = f93edaf0c-f9300a960
+text = 13 .
+
+sent_id = f94269e14-f96fe18cb
+text = Jag hjälper till med en del , nya sportchefen Christian Lechtaler har en del och det nya tränarparet har en del , berättar klubbdirektör Anderz Larqvist för GP .
+
+sent_id = f97989dc4-f94b3c0de
+text = Även Elisabeth Örn , ordförande i Färgelanda kommunkrets , vill stryka ett streck över det som har hänt .
+
+sent_id = f923eca3a-f903e0d31
+text = Som företagare hade jag i många år kontakt med det brittiska företaget Stamm and Partners ordförande : den före detta brigadgeneralen Basil Chichester-Cooke .
+
+sent_id = f981d6ddc-f9d43310e
+text = Den som Henrik Lundqvist hoppades på redan i september .
+
+sent_id = f992a103b-f9fd997de
+text = Anne Hathaway och Hugh Jackman .
+
+sent_id = f92448be3-f91ee0455
+text = – Mardrömmen fortsätter .
+
+sent_id = f941e9b88-f9deb8cf9
+text = Sållningen görs enligt ett S & P-index .
+
+sent_id = f91400cf2-f956210c0
+text = Att sticka ut och inte se ut som alla andra handlar om att hitta det lilla extra .
+
+sent_id = f9c54ed97-f93291d21
+text = Båda lagen var redan klara för åttondelen men motståndet avgörs utifrån placering i gruppen .
+
+sent_id = f9c3df385-f96d499bf
+text = Enligt dissidenter dödades flera civila medan statliga nyhetsbyrån Sana beskrev det som en arméoffensiv mot ” terrorister ” .
+
+sent_id = f9e67433d-f997292e7
+text = I väntan på önskade broförbindelser är detta ett konkret förslag som kan genomföras i närtid – om viljan finns .
+
+sent_id = f9bb4a0fd-f932a2bba
+text = – En oerhört tuff dom .
+
+sent_id = f92cb768e-f94c4831a
+text = Förebyggande kontroll
+
+sent_id = f9e6833ee-f96e46a56
+text = Brasilianaren Rogerio Cenis .
+
+sent_id = f9a35aee7-f9664bc57
+text = Bolaget har infört restriktioner för sina anställda på plats .
+
+sent_id = f926af70f-f9c58487e
+text = Och Chalmers blir en attraktiv partner på långt fler områden , säger Jari Kinaret .
+
+sent_id = f9f4c2090-f91a98bfe
+text = Där bekräftas bilden av en hyresnivå som faktiskt steg något i Göteborgs citykärna under 2012 .
+
+sent_id = f9a115f72-f93f14511
+text = Och just det är något som både förespråkarna och motståndarna till samkönade äktenskap är överens om .
+
+sent_id = f96c6b817-f9dfad473
+text = & Jazz
+
+sent_id = f90d54c3a-f94d77cab
+text = EU:s finans-ministrar möts i Bryssel .
+
+sent_id = f9b55b627-f90363feb
+text = You and me forever .
+
+sent_id = f978b3e48-f9a8b5cd4
+text = Kareby tappade luften
+
+sent_id = f9baf5765-f9c23b222
+text = När snygga 5 – 2 kom var matchen mer eller mindre avgjord .
+
+sent_id = f95d03625-f9ef75824
+text = Om det nu finns någon som är tillräckligt bra för att gå rätt in i laget – och dessutom passa in i gruppen ...
+
+sent_id = f95cfee5d-f9932ee78
+text = Gröp ur ett hål i muffinsarna och fyll med lemoncurd .
+
+sent_id = f92b19cae-f9911f014
+text = Hon blev 27 år .
+
+sent_id = f9ee0d9e1-f9b56416e
+text = Straight out of hell förkroppsligar mycket av vad Helloween handlar om , det vill säga storslagna teman , allsångsrefränger och galopperande gitarrer .
+
+sent_id = f93627073-f9f4a335e
+text = Han nekar , enligt förhör i utredningen .
+
+sent_id = f96363b9d-f99cd7512
+text = Dessutom ingår chattprogrammet Kik Messenger i förundersökningen och det administreras från Kanada .
+
+sent_id = f95e527ed-f9f4a8118
+text = GI-erbjudande var vilseledande
+
+sent_id = f92439850-f9c0c5289
+text = – Nej , polisen har inga bevis på att jag satte upp plasten för trängselskattens skull .
+
+sent_id = f935b14ac-f955c0758
+text = Fotografi
+
+sent_id = f9b75415b-f960a02ed
+text = Men nio av tio företag tror ändå att de kommer öka sin egen lönsamhet under året , visar en undersökning som konsultföretaget Axholmen och Linköpings universitet gjort .
+
+sent_id = f980ea438-f9c36e0e7
+text = – Det är så här man vinner VM , fortsätter han , vi har en plan och följer den , alla är delaktiga .
+
+sent_id = f9c224c3c-f9d33de8d
+text = Stadskärnan har runt 9 000 innevånare , kommunen som helhet cirka 22 000 .
+
+sent_id = f9d2246e3-f9ac3fdc7
+text = Men när Chelseas tränare Rafael Benitez presenterade truppen till dagens ligamöte med Stoke fanns Terry med .
+
+sent_id = f9b2ddcbe-f945f27a3
+text = Missa den inte , står det i recensionerna .
+
+sent_id = f97044f8b-f9f8f4188
+text = gjorda mål
+
+sent_id = f9eeecfdb-f966ad99c
+text = Senare förtydligar hon sig – det är ju inte så att hon bara råkat skriva en bok .
+
+sent_id = f9e8ec7af-f9e279f1c
+text = SVT2 Måndag , 22.45
+
+sent_id = f97033e15-f9829112f
+text = Sågar Kon-tiki .
+
+sent_id = f9e1529ec-f969c429d
+text = EU:s reaktion på halshuggningen av lankesiskan Rizana Nafeek förstärktes av att saudierna förkastat upprepade vädjanden om att avrättningen skulle skjutas upp .
+
+sent_id = f924f65d4-f9ae12fa2
+text = Han efterlyser mer pengar som ökar möjligheten att öka informationen om Gisa .
+
+sent_id = f9bcff9a4-f9d6daa83
+text = Att jobba med lager på lager är en klassiker i modesammanhang och i vår är det enklare än någonsin .
+
+sent_id = f982241ca-f9f485d06
+text = Det dröjer inte länge förrän tallrikarna bärs in .
+
+sent_id = f9bed4ae2-f9645e986
+text = IOK blundar fortfarande .
+
+sent_id = f97b485e2-f920fbaae
+text = Usch då .
+
+sent_id = f9e417d76-f927321cc
+text = – Den har nästan allt , den har mörkare sånger och gladare sånger och dessutom lite dubstep .
+
+sent_id = f98737c3b-f99aff2e0
+text = Då har jag ju tydligen utmanat deras världsbild , en världsbild som dessa personer alldeles tydligt inte vill ha någon nyans i , säger hon .
+
+sent_id = f96d772d2-f957803bf
+text = Markus Uvell , vd för Timbro / Stiftelsen fritt näringsliv , menar i en debattartikel i Dagens Industri hur idé-debatten i Centern handlar om marknadsekonomi .
+
+sent_id = f9fbe807c-f943c4144
+text = Eller med hans egna ord : ” Efter hand är en övergång till helt nya marknadsmekanismer nödvändig . ” Hur ser dessa ” helt nya ” – följaktligen aldrig förr skådade – marknadsmekanismer ut ?
+
+sent_id = f9d857740-f9521c978
+text = De flesta är unga och flera av dem fortsätter med billiga kokainsubstanser .
+
+sent_id = f9cb0b932-f9e7dbbd3
+text = 10 .
+
+sent_id = f9581256d-f9b6f5e0b
+text = Sedan har det rullat på .
+
+sent_id = f92ee4c76-f9e5a09a5
+text = Medan Vattenfall här hemma berömmer sig av satsningar på förnybar energi , till exempel vindkraft , satsar man hårt utanför vårt lands gränser på gas- och kolkraftsanvändning .
+
+sent_id = f9a73fde6-f91e745a7
+text = – Hon var som en dammsugare när vi var ute .
+
+sent_id = f91bc8a7e-f9cf92486
+text = Hon är 1,80 lång och består av 80 kilo muskler .
+
+sent_id = f99f62b39-f9bd50b8c
+text = Om man reser vidare inom staden från nuvarande centralstation eller från Liseberg , kan knappast ha någon betydelse .
+
+sent_id = f9515ec79-f942cae21
+text = Men antagligen kommer vi att blicka västerut , kanske mot Kanada .
+
+sent_id = f95de0eb9-f9e38b145
+text = ( TT )
+
+sent_id = f948e03e7-f941ba874
+text = Peterson och Jönson starkast på upploppet i Liberec
+
+sent_id = f9b8def3b-f98796d19
+text = – Gladiatorerna har väldigt olika bakgrund .
+
+sent_id = f929d1264-f91cb4f87
+text = Journalanteckningar och / eller rättsintyg rörande skottskadorna synes inte ha inhämtats vilket får anses vara anmärkningsvärt ” , skriver Aasheim .
+
+sent_id = f9161116e-f983e804d
+text = Att flytta skåpet blir väldigt kostsamt , hävdar Skanova som därför anser att Trafikkontoret bör stå för en del av kostnaden .
+
+sent_id = f9a2a4899-f9c4836f9
+text = Ett dussin av Öis färska superettaspelare , många med studier som sidoverksamhet , har tränat avslut under Prytz och nye assistenten Marcus Lantz överinseende .
+
+sent_id = f9b09167e-f98bf74e3
+text = Inför årets säsong har Mikael Stahre mer uttalat gett honom en roll som mittfältare men premiärmatchen spelade han på topp då trion Hysén , Söder och Stiller saknades .
+
+sent_id = f97b0c82e-f91ee4b14
+text = BP:s ansvar för oljespill klubbat
+
+sent_id = f9fc4ec24-f99d3fca1
+text = Viktigast i veckan för oss var ...
+
+sent_id = f96c1f5ef-f990c2947
+text = Hockeysäsongen är över för Färjestadsbacken Sanny Lindström .
+
+sent_id = f9498f321-f9ce7ec37
+text = Responsen var fantastisk och jag fick sålt en massa .
+
+sent_id = f9b566888-f988e3b5f
+text = I Italien tror man att den nyttiga blodapelsinen innehåller ämnen som är cancerhämmande .
+
+sent_id = f96f18f80-f9a1b2ee8
+text = Erik Walfridsson har varit ute på nätet , hatat och tyckt under många år .
+
+sent_id = f96d2fca7-f9f3007c7
+text = De 32-åriga Vancouverstjärnorna har haft långa och intensiva säsonger de senaste åren .
+
+sent_id = f9fc9f6a3-f974d4d8a
+text = Hur reglerar ni antal besökare ?
+
+sent_id = f96d2a98a-f9412fd6b
+text = Japansk animerad film är mer än Miyazaki .
+
+sent_id = f9d8e20a1-f9042d5c3
+text = Södra vägen 24 ( 31 / 8 2012 )
+
+sent_id = f9827a563-f9bbf1d91
+text = Men det kom att uppfattas som ett regelrätt förhör av den sistnämnde och dennes kollegor .
+
+sent_id = f9ff01717-f98d29f26
+text = Han var en omtyckt svensk skådespelare som medverkade i filmer som Göta Kanal , Ronja Rövardotter , och Änglagård .
+
+sent_id = f971d8501-f9af6cc78
+text = 3 Kan jag ångra mig ?
+
+sent_id = f9ac6c36c-f9a46f888
+text = Hur mycket är det värt att få parkett och balkong ?
+
+sent_id = f9695e6fa-f9005187f
+text = Norge – Österrike 32 – 34 ( 16 – 17 )
+
+sent_id = f98f5aacf-f961b2df7
+text = Morfar funderade på hur Gais skall klara sig utan Dime och Fredrik om Barcelona dyker upp för en returmatch på Gamla Ullevi i sommar .
+
+sent_id = f98f5f29b-f9bdc80df
+text = Då fick Marks kommun 6,4 poäng på en tiogradig skala .
+
+sent_id = f9a98c636-f96cedbd5
+text = Den nya sidan på webben går att nå via www.gp.se eller direkt via info.gp.se/prenumerera .
+
+sent_id = f99686a30-f9bbf4538
+text = 64
+
+sent_id = f935dea5b-f94f22ee3
+text = Även vapen ska ha hittats i butikerna .
+
+sent_id = f908fb72b-f973b821c
+text = – Mannen är förd till Mora lasarett .
+
+sent_id = f9c146617-f9d49c903
+text = Premiärminister Dmitrij Medvedev sade nyligen i en tv-intervju att lagen inte behövs .
+
+sent_id = f9c64d3a1-f9434c130
+text = Det är det jag gjort hela mitt liv .
+
+sent_id = f909381a4-f9c55629b
+text = I fallen med hjärnskakningar är det dock i det långa loppet win-win att ha tålamod och ta det lugnt , säger Zetterberg .
+
+sent_id = f9f53dacd-f9e92134d
+text = Sprinten körs på en 7,3 kilometer lång specialsträcka som totalt körs tre gånger , två kval och en final .
+
+sent_id = f98cd05e4-f9bc23ad6
+text = Så som i fallet med Kira .
+
+sent_id = f91d68904-f94caaff8
+text = Internetknark väller in
+
+sent_id = f9227398d-f91cd4a13
+text = Offensiven var oundviklig , säger han .
+
+sent_id = f91eaf345-f97cc6729
+text = Den låter som en dieselmotor brukar göra , ganska mycket till och med .
+
+sent_id = f9d2db12b-f95a0892d
+text = Här bjuder vi på några smakprov från vinnarna .
+
+sent_id = f909170e7-f9faf2ecb
+text = Lite läskigt också , men mest roligt , säger Johanna Leden .
+
+sent_id = f9a78d30b-f93b705f2
+text = Nästan halva befolkningen lever på mindre än två dollar om dagen .
+
+sent_id = f91ec2662-f9c98d10e
+text = Bostad : Lägenhet i Högsbohöjd
+
+sent_id = f9865cc1e-f995b3a0b
+text = – Det var en rolig match med två väldigt bra lag , säger Victor Rask .
+
+sent_id = f9c86a594-f9deaafab
+text = – Jag vill spela .
+
+sent_id = f98fe6bf2-f95253308
+text = Brooklyn 35 20 15 3366 – 3315 40
+
+sent_id = f944061de-f9651e33d
+text = – Det är viktigt att man är varse hur man reagerar , påpekar Masuma Novak .
+
+sent_id = f9d1b63fd-f938cca44
+text = Yair Lapids framgång är ett uttryck för den israeliska medelklassens revolt .
+
+sent_id = f9038a9c1-f9f0d6215
+text = Högt över rälsen har Ing-Marie Hagström koll på hastighet , teknik och räls medan landskapet svischar förbi i svindlande fart .
+
+sent_id = f97217a05-f9dfc6733
+text = Thailändskt .
+
+sent_id = f96bfd60f-f94a24e63
+text = – Vi ska inte bli skräckslagna .
+
+sent_id = f95bf359d-f9180adbc
+text = – Det är jättebra att så många engagerar sig , det är precis som det ska vara .
+
+sent_id = f917d1f76-f96a6ec2e
+text = Om man inte har setts förut kommer ju hela livet med en jäkla schvung .
+
+sent_id = f9ab56ef1-f92c692ab
+text = Du har också rätt att erbjudas ett nytt resealternativ eller få dina pengar tillbaka om din resa ställs in eller försenas med över 90 minuter .
+
+sent_id = f99274fce-f9a289b0d
+text = På Hörnet
+
+sent_id = f9097bd23-f90694b40
+text = ” AB kultur tar steget fullt ut och låter 17-åriga revolutionsromantiker ta över sidan ” , kunde man bland annat läsa på twitter .
+
+sent_id = f9bbc36f6-f91fa322f
+text = Handeln med tulpanlökar eskalerade till närmast en hysteri under 1600-talet , då en tulpanlök kunde kosta en tredjedels årslön .
+
+sent_id = f95ef9b52-f92b4ff0e
+text = Kroppen har inte fått ta igen sig riktigt på ett år .
+
+sent_id = f91b951b3-f936d9bfb
+text = Jag söker mer handling och mindre ord .
+
+sent_id = f9a512545-f9cf5ccec
+text = Vi mot vintern : Snart blir det faktiskt 1 – 0 .
+
+sent_id = f973edec7-f94942f84
+text = 1936
+
+sent_id = f92375532-f9feffbb2
+text = En ny högstadiefriskola med idrottsinriktning öppnar i Göteborg i höst .
+
+sent_id = f9a5404ee-f9e3c3846
+text = Samtidigt råder vikariestopp för undersköterskor inom äldrevården i delar av kommunen .
+
+sent_id = f9dd28b27-f96115521
+text = Det kommande året blir det tävlingar ” varje ” vecka .
+
+sent_id = f93a2a134-f98688a51
+text = Där hoppas man att de äldre , som givetvis ska ha barnasinnet i behåll , kan sprida glädje bland de allra yngsta .
+
+sent_id = f9d092392-f9fb0f2c0
+text = Appen kommer från Tele-P .
+
+sent_id = f90a0d604-f9246601a
+text = Ett kontroversiellt tal
+
+sent_id = f91095c3c-f9e3dd49a
+text = FDP fick 14,6 procent av rösterna vid förbundsdagsvalet 1999 och bildade regering med kristdemokratiska CDU och dess bayerska systerparti CSU .
+
+sent_id = f9a54dd6d-f9929d10f
+text = Lyonhar dessutom gjort klart med amerikanska landslagsmittfältaren Megan Rapinoe .
+
+sent_id = f98ee6586-f9b61a26f
+text = orimligt .
+
+sent_id = f9bf3b9cc-f956c6f88
+text = Idéprogrammet , som skulle ge en nystart , har i stället tvingat henne och partiet på defensiven .
+
+sent_id = f9a50cb4a-f96f060ee
+text = * * * *
+
+sent_id = f9632f14d-f9cacb908
+text = När någon glömt det var det tolv grader varmt inne när man vaknade på morgonen .
+
+sent_id = f9f98d8ac-f92cb4ea2
+text = – I slutet av januari hoppas vi ha en branschöverenskommelse om vad som skall vara en god säkerhetsnivå i badhus , äventyrsbad och på badplatser , säger Maria Lindstedt .
+
+sent_id = f9d8cd6fe-f942f26b3
+text = De som gått vidare till finalen i dag i Konserthuset i Göteborg är Kitiara Braune , violin , John Zhang , piano , Fred Lindberg , cello och Filip Graden , cello .
+
+sent_id = f9c6a6ea9-f9da01100
+text = Azealia Banks klar för WoW
+
+sent_id = f967caf68-f97200331
+text = På ett svartvitt fotografi från 1963 , taget på ett fullsatt pendeltåg i New York av en fotograf från tidskriften Life , sitter samtliga passagerare med tidningar framför ansiktet .
+
+sent_id = f93d08949-f918da176
+text = 15 januari : Vargen observeras i centrala Falkenberg .
+
+sent_id = f95212c96-f95831c43
+text = – Men undan för undan kom vi in i matchen , fick mer boll och lyckades trycka upp spelet samtidigt som vi skärpte försvaret , säger Nicklas Asp .
+
+sent_id = f9456779b-f90586e07
+text = Syskonen Shrivers far gjorde försök att bli både president och vicepresident sedan hans svågrar John F och Robert mördats .
+
+sent_id = f99da2751-f96b2113a
+text = Var är de pengarna ?
+
+sent_id = f9b0f564d-f910f4a72
+text = Händer det den första lastbilen något hinner ingen av de andra få stopp på sina fordon i tid .
+
+sent_id = f96ae09b5-f9e380829
+text = Det var inte ovanligt att präster intresserade sig för svartkonst .
+
+sent_id = f9aad2072-f994e1162
+text = Hur ser du på att vara en förebild ?
+
+sent_id = f91554397-f9ae67c73
+text = 3 000 personer ankommer eller avreser per dag via Centralstationen .
+
+sent_id = f97ec55c8-f95cd331b
+text = Katarina Wennstam , författare :
+

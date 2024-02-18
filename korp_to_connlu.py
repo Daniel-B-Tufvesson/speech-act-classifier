@@ -2,7 +2,6 @@
 This code converts xml corpora from Språkbanken to the CoNNL-U format. The linquistic 
 data is also converted to Universal Dependencies formalism. This involves:
 - Converting the SUC POS-tags to UPOS-tags.
-- Re-parsing the dependency trees.
 """
 
 from typing import TextIO
@@ -13,17 +12,15 @@ from stanza.utils.conll import CoNLL
 import xml.etree.ElementTree as ET
 import speech_act_classifier as sac
 import bz2
-import warnings
 
 SentenceObject = list[dict[str, Any]]
 SentenceComments = list[str]
 
 class Korp_CoNNLU_Converter:
 
-    def __init__(self, read_tail=True, genre: str|None=None, retag_pos=True) -> None:
+    def __init__(self, read_tail=True, genre: str|None=None) -> None:
         self.read_tail = read_tail
         self.genre = genre
-        self.retag_pos = retag_pos
 
     def xml_to_connlu(self, xml_corpus: TextIO, connlu_target: TextIO, max_sentences = -1):
         """
@@ -31,20 +28,12 @@ class Korp_CoNNLU_Converter:
         """
         print('Converting xml corpus to CoNLL-U.')
         
-        # Initialize the stanza pipeline for dependency parsing.
-        if self.retag_pos:
-            nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
-
         # Parse and process the data in batches.
         batch_count = 0
         sentence_count = 0
         for batched_doc in self.batched_xml_to_doc(xml_corpus, 1000, max_sentences):
             
-            if self.retag_pos:
-                tagged_doc = nlp_dep(batched_doc)
-                CoNLL.write_doc2conll(tagged_doc, connlu_target)
-            else:
-                CoNLL.write_doc2conll(batched_doc, connlu_target)
+            CoNLL.write_doc2conll(batched_doc, connlu_target)
 
             batch_count += 1
             sentence_count += len(batched_doc.sentences)
@@ -70,22 +59,20 @@ class Korp_CoNNLU_Converter:
             sentence_object = self.to_sentence_object(xml_sentence)
             sentence_comment = self.to_sentence_comments(xml_sentence, xml_text)
 
-            #print(f"{sentence_index}, {[token['text'] for token in sentence_object]}")
-
             # Skip the sentence if there was a failure at extracting the sentence/comment data.
             # There is so much data, so we don't have to get hung up on extracting every single
             # piece of it!
             if len(sentence_comment) == 0:
-                warnings.warn(f'WARNING: sentence comments (index={sentence_index}) is empty. Skipping...')
-                warnings.warn(f'XML sentence tree: {xml_sentence}')
-                warnings.warn(f'XML text tree: {xml_text}')
+                print(f'WARNING: sentence comments (index={sentence_index}) is empty. Skipping...')
+                print(f'XML sentence tree: {xml_sentence}')
+                print(f'XML text tree: {xml_text}')
                 continue
 
             # Skip here as well.
             if len(sentence_object) == 0:
-                warnings.warn(f'WARNING: sentence object (index={sentence_index}, id={sentence_comment[0]}) is empty. Skipping...')
-                warnings.warn(f'XML sentence tree: {xml_sentence}')
-                warnings.warn(f'XML text tree: {xml_text}')
+                print(f'WARNING: sentence object (index={sentence_index}, id={sentence_comment[0]}) is empty. Skipping...')
+                print(f'XML sentence tree: {xml_sentence}')
+                print(f'XML text tree: {xml_text}')
                 continue
 
             # Append sentence data to batch.
@@ -132,7 +119,13 @@ class Korp_CoNNLU_Converter:
         """
         sentence = SentenceObject()
         token_index = 1
-        for xml_token in xml_sentence.iter('token'):
+        
+        # Determine which kind of token tag the sentence contains.
+        token_tag = self.get_token_tag(xml_sentence)
+        if token_tag is None:
+            return sentence
+
+        for xml_token in xml_sentence.iter(token_tag):
             token = {}
             token['id'] = token_index
             token['text'] = xml_token.text
@@ -191,6 +184,20 @@ class Korp_CoNNLU_Converter:
             comments.append(f'# genre = {self.genre}')
         
         return comments
+    
+
+    def get_token_tag(self, xml_sentence: ET.Element) -> str|None:
+        # Check if standard token tag.
+        if xml_sentence.find('token'):
+            return 'token'
+        
+        # Check if legacy token tag.
+        elif xml_sentence.iter('w'):
+            return 'w'
+        
+        # If sentence contains no tokens, return none.
+        else:
+            return None
 
 
     def xml_tokens_to_text(self, sentence : ET.Element) -> str :
@@ -199,8 +206,13 @@ class Korp_CoNNLU_Converter:
         """
         sentence_text = ''
 
+        # Determine which kind of token tag the sentence contains.
+        token_tag = self.get_token_tag(sentence)
+        if token_tag is None:
+            return sentence_text
+
         # Append all words as a single string.
-        for token in sentence.iter('token'):
+        for token in sentence.iter(token_tag):
             assert token.text != None, 'token must no be empty'
 
             sentence_text += token.text
@@ -211,20 +223,11 @@ class Korp_CoNNLU_Converter:
         
         return sentence_text
 
-    # def batch_sentences(xml_corpus: TextIO) -> Generator[stanza.Document, None, None]:
-    #     """
-    #     Generator function that yields batches of the xml corpus as Stanza Documents.
-    #     Note: these are not annotated with any dependency relations.
-    #     """
-    #     pass
-
-
-
 
     def xmlbz2_to_connlu(self, xml_bz2_filename: str, output_filename: str, max_sentences):
         print('xmlbz2_to_connlu')
         with bz2.open(xml_bz2_filename, mode='rt') as xml_corpus:
-            with open(output_filename, mode='w') as connlu_target:
+            with open(output_filename, mode='wt') as connlu_target:
                 self.xml_to_connlu(xml_corpus, connlu_target, max_sentences)
 
 
@@ -243,7 +246,7 @@ if __name__ == '__main__':
     #xmlbz2_to_connlubz2('raw data/suc3.xml.bz2', 'processed data/suc3.connlu.bz2', 100000, read_tail = False)
     
     #Korp_CoNNLU_Converter(genre=sac.Genre.INTERNET_FORUM.value).xmlbz2_to_connlubz2('raw data/familjeliv-expert.xml.bz2', 'processed data/familjeliv-expert.connlu.bz2', 100000)
-    Korp_CoNNLU_Converter(genre=sac.Genre.NEWS_ARTICLE.value, retag_pos=False).xmlbz2_to_connlubz2('raw data/attasidor.xml.bz2', 'processed data no-pos/attasidor-100k.connlu.bz2', 100000)
+    Korp_CoNNLU_Converter(genre=sac.Genre.NEWS_ARTICLE.value, read_tail=False).xmlbz2_to_connlubz2('raw data/gp2013.xml.bz2', 'processed data no-deps/gp2013-100k.connlu.bz2', 100000)
 
     pass
 
