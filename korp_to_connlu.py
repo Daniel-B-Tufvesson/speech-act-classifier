@@ -64,15 +64,15 @@ class Korp_CoNNLU_Converter:
             # piece of it!
             if len(sentence_comment) == 0:
                 print(f'WARNING: sentence comments (index={sentence_index}) is empty. Skipping...')
-                print(f'XML sentence tree: {xml_sentence}')
-                print(f'XML text tree: {xml_text}')
+                #print(f'XML sentence tree: {xml_sentence}')
+                #print(f'XML text tree: {xml_text}')
                 continue
 
             # Skip here as well.
             if len(sentence_object) == 0:
                 print(f'WARNING: sentence object (index={sentence_index}, id={sentence_comment[0]}) is empty. Skipping...')
-                print(f'XML sentence tree: {xml_sentence}')
-                print(f'XML text tree: {xml_text}')
+                #print(f'XML sentence tree: {xml_sentence}')
+                #print(f'XML text tree: {xml_text}')
                 continue
 
             # Append sentence data to batch.
@@ -123,6 +123,8 @@ class Korp_CoNNLU_Converter:
         # Determine which kind of token tag the sentence contains.
         token_tag = self.get_token_tag(xml_sentence)
         if token_tag is None:
+            raise ValueError()
+
             return sentence
 
         for xml_token in xml_sentence.iter(token_tag):
@@ -188,11 +190,11 @@ class Korp_CoNNLU_Converter:
 
     def get_token_tag(self, xml_sentence: ET.Element) -> str|None:
         # Check if standard token tag.
-        if xml_sentence.find('token'):
+        if xml_sentence.find('.//token') is not None:
             return 'token'
         
         # Check if legacy token tag.
-        elif xml_sentence.iter('w'):
+        elif xml_sentence.find('.//w') is not None:
             return 'w'
         
         # If sentence contains no tokens, return none.
@@ -246,7 +248,7 @@ if __name__ == '__main__':
     #xmlbz2_to_connlubz2('raw data/suc3.xml.bz2', 'processed data/suc3.connlu.bz2', 100000, read_tail = False)
     
     #Korp_CoNNLU_Converter(genre=sac.Genre.INTERNET_FORUM.value).xmlbz2_to_connlubz2('raw data/familjeliv-expert.xml.bz2', 'processed data/familjeliv-expert.connlu.bz2', 100000)
-    Korp_CoNNLU_Converter(genre=sac.Genre.NEWS_ARTICLE.value, read_tail=False).xmlbz2_to_connlubz2('raw data/gp2013.xml.bz2', 'processed data no-deps/gp2013-100k.connlu.bz2', 100000)
+    #Korp_CoNNLU_Converter(genre=sac.Genre.NEWS_ARTICLE.value, read_tail=False).xmlbz2_to_connlubz2('raw data/gp2013.xml.bz2', 'processed data no-deps/gp2013-100k.connlu.bz2', 100000)
 
     pass
 

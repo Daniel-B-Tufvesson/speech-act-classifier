@@ -42,6 +42,8 @@ class Genre(Enum):
     """
     INTERNET_FORUM = 'internet_forum'
 
+    INTERNET_BLOG = 'internet_blog'
+
     NEWS_ARTICLE = 'news_article'
 
 

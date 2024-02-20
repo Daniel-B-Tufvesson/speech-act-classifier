@@ -28,12 +28,12 @@ def tag(source: TextIO, target: TextIO, **kwargs):
     print('Tag corpus with dep tags')
 
     # Initialize the stanza pipeline for dependency parsing.
-    nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True)
+    nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True, use_gpu=True)
 
     # Tag the corpus in batches.
     batch_count = 0
     sentence_count = 0
-    for batched_doc in read_batched_doc(source, 2000, **kwargs):
+    for batched_doc in read_batched_doc(source, 100, **kwargs):
         tagged_doc = nlp_dep(batched_doc)  # type: stanza.Document
         CoNLL.write_doc2conll(tagged_doc, target)
 
@@ -92,6 +92,7 @@ def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1)
 
 if __name__ == '__main__':
     #tag_bz2('processed data no-deps/gp2013-100k-clean.connlu.bz2', 'processed data/gp2013-100k.connlu.bz2')
+    tag_bz2('processed data no-deps/familjeliv-adoption-100k-clean.connlu.bz2', 'processed data/familjeliv-adoption-100k.connlu.bz2')
     pass 
         
             

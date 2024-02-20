@@ -89,7 +89,9 @@ if __name__ == '__main__':
         'processed data/attasidor-99k.connlu.bz2',
         'processed data/familjeliv-expert-100k.connlu.bz2',
         'processed data/suc3-100k.connlu.bz2',
-        'processed data/gp2013-100k.connlu.bz2'
+        'processed data/gp2013-100k.connlu.bz2',
+        'processed data/bloggmix2017-100k.connlu.bz2',
+        'processed data/familjeliv-adoption-100k.connlu.bz2'
     ]
 
     for source_file in source_files:
