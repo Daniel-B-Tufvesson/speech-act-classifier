@@ -46,6 +46,8 @@ class Genre(Enum):
 
     NEWS_ARTICLE = 'news_article'
 
+    FICTION_NOVEL = 'fiction_novel'
+
 
 # UPOS tags from https://universaldependencies.org/u/pos/index.html
 POS_TAGS = (

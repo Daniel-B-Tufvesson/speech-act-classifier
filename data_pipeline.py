@@ -42,4 +42,4 @@ def process(corpus_name: str, genre: str, read_tail=False):
 
 
 if __name__ == '__main__':
-    process('bloggmix2017', sac.Genre.INTERNET_BLOG.value, read_tail=False)
+    process('romi', sac.Genre.FICTION_NOVEL.value, read_tail=False)

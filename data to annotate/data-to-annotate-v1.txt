@@ -20998,3 +20998,3003 @@ text = Möjlighet till reflektion kring ens drömmar om ett barn.Värderingsövn
 sent_id = bac7eb1a
 text = Vi gör om lite hos oss så jag hoppas vi hinner fpå det på plats.
 
+sent_id = 0356345f9-03574b76d
+text = Glaset är överdraget av en tunn skiftande hinna blek vintersol som en skicklig tekniker med stor omsorg kan skala av .
+
+sent_id = 0359bb440-035f51279
+text = En svag ånga väller fram ur skötet .
+
+sent_id = 035ad50aa-035a01645
+text = Det tycktes som om han , när allt kom omkring , inte hade missat sitt ursprungliga syfte med att konstruera periskopet .
+
+sent_id = 0355a8131-035ad82fb
+text = Om jag bara bestämde mig för det kunde jag ta av mig kartongen när som helst .
+
+sent_id = 0357fcc0a-0353d9bf2
+text = Att använda en ficklampa bara för att göra anteckningar är till exempel rena slöseriet .
+
+sent_id = 035415904-035925a47
+text = Först är skrattet obehagligt och hånfullt , men efter en stund försvinner skärpan i det och hon skrattar varmt och roat .
+
+sent_id = 03517e144-035b510f7
+text = Det var som en sidenflagga som mjukt flöt ut i vinden .
+
+sent_id = 03554552e-0351d0b08
+text = -- Du har rätt till två minuter till .
+
+sent_id = 035899667-03513628e
+text = Att döma av er kartong kan ni inte föreställa er det , förmodar jag , men det är skillnad på en riktig kartong och en falsk .
+
+sent_id = 035c2a476-0352381d9
+text = Bödeln
+
+sent_id = 035744132-03529ffb6
+text = Ett fall i motsatt riktning ...
+
+sent_id = 03543fc3f-03505d142
+text = Hon gav mig till och med vad behandlingen kostade .
+
+sent_id = 0358d1d27-035ac1b42
+text = Om det visade sig nödvändigt skulle jag vilja berätta det för den falske kartongmannen också .
+
+sent_id = 03502bb08-0355a3f04
+text = Vad händer om doktorn kommer tillbaka ? "
+
+sent_id = 03503c992-035290419
+text = Eller också hade min kropp lärt sig att anpassa sig , så vitt hudens förmåga att andas angick , och klarade sig med mindre syre .
+
+sent_id = 03585b79e-0354d120f
+text = Den nakna kroppen och kroppen är två olika saker .
+
+sent_id = 0351f4a4a-03563b8b5
+text = Även om jag skulle vakna under processen ( jag kan inte vakna eftersom jag låtsats sova från början ) , så skulle du kunna tänka ut hur många ursäkter som helst för att rättfärdiga dig själv och säga att du ger mig morfin därför att jag har andningssvårigheter eller något i den stilen .
+
+sent_id = 0353bb77d-035557f93
+text = Naturligtvis vill alla höra det .
+
+sent_id = 035d6c633-035946bf3
+text = Jag är inte särskilt morsk , men jag är i alla fall inte något lik .
+
+sent_id = 0359580a5-03554c9bb
+text = Hennes fingrar rörde sig mot den nionde knappen .
+
+sent_id = 0354293b3-0358d467f
+text = " Jag , till exempel . "
+
+sent_id = 03510bfbe-0353530f7
+text = Var det därför att det förde tanken till könsorganen ?
+
+sent_id = 035db8227-03509b2bf
+text = " Nej , nej , det duger inte alls .
+
+sent_id = 035776efd-035bbb4c8
+text = En klyfta som insidan på en buktig snäcka glänste till framför mig -- kanske berodde det på någon association som föddes ur gräsets intensiva doft .
+
+sent_id = 035917b2d-035510bf3
+text = " Nåja , men även om det är sant , så kan jag inte gärna låta dig gå härifrån utan nån som helst påföljd , eller vad säger du ?
+
+sent_id = 035c1aec9-0358f686a
+text = Men från och med denna punkt finns det inga som helst objektiva bevis .
+
+sent_id = 035d54f41-035bea150
+text = Ett oförskämt öga , som tvingade in mig i rollen att vara sedd utan att se .
+
+sent_id = 035b95af8-035aefe17
+text = Han sträcker ut armen genom ett hål , på det här sättet , och börjar snatta saker till höger och vänster .
+
+sent_id = 0359f735c-0356cb3ba
+text = Plastförhänget var av precis samma färg som mitt och arrangerat på exakt samma sätt ( den enda skillnaden var att det inte fanns ett enda litet hål i kartongen -- inte ens ett penishål ) .
+
+sent_id = 035289910-0354cfb73
+text = Bit för bit försökte han pressa den övre änden över stängslet .
+
+sent_id = 035b2cecb-0351fe275
+text = Med tre lager , som är öppna framtill , har man obegränsad rörelsefrihet och kan ytterst bekvämt tömma tarm och blåsa och tillgodose diverse andra behov .
+
+sent_id = 035ded685-0355a9cb0
+text = Sedan fick jag luft under vingarna -- nu skall jag flyga !
+
+sent_id = 0355d24fd-035c2b7d8
+text = Naturligtvis , så vitt henne angick kände jag henne ännu inte väl nog för att kunna uttala någon som helst uppfattning som innebar kritik .
+
+sent_id = 035a3a03a-0355321b8
+text = Du svarade att om du kunde så skulle du vilja tillbringa dem ensam och se på havet . "
+
+sent_id = 035310298-0353bac8e
+text = Stora och små ljusa rektanglar visade var sådana ting som radion , väskan och ficklampan tidigare hängt .
+
+sent_id = 0357d0893-03511850d
+text = På golvet låg en grön matta .
+
+sent_id = 035200122-03509f727
+text = Löften har infriats , och
+
+sent_id = 035db64f8-0353fe13b
+text = Samma enkla logik gäller sprutor .
+
+sent_id = 035e6c0a0-0352ffe5e
+text = Jag står här och arbetar mig framåt i dessa anteckningar , medan jag söker skydd för regnet under en bro .
+
+sent_id = 035432f63-035a3796b
+text = Sista lördagen i september närmar sig sitt slut .
+
+sent_id = 035018e3d-03500f3b9
+text = Plötsligt ändras min andning kraftigt igen .
+
+sent_id = 03571599a-0350dee52
+text = Samma sak gäller för människor .
+
+sent_id = 03513387c-035bb5314
+text = -- Du får dålig hy om du röker sent på kvällen .
+
+sent_id = 0354db8b6-035b2b0c2
+text = Ja , faktiskt ... på något sätt känns det som om det skulle kunna stämma ... kartongen kunde kanske vara värd femtio tusen yen , beroende på av vilken anledning doktorn ville ha den .
+
+sent_id = 0359dc644-0359a913b
+text = Eller också skulle hon få håll i sidan av skratt .
+
+sent_id = 035452ff3-0351dc0fc
+text = D kände sig allt ondare och snuskigare och till slut kunde han inte hejda tåreflödet .
+
+sent_id = 0350f251e-03599f4a6
+text = Om jag inte kan se henne , kommer det att vara samma sak som att hon är naken .
+
+sent_id = 03504143f-035043160
+text = För sent , tänkte jag .
+
+sent_id = 0354d2b9c-0358ab092
+text = Svaret är enkelt .
+
+sent_id = 0358553e3-03569a2c3
+text = Se till att binda honom ordentligt innan du ger dig iväg .
+
+sent_id = 035c2d782-035fe4d53
+text = Det enda du kan göra nu är att se till att resten går utan en hake .
+
+sent_id = 035323d32-035787f3b
+text = Nej , det är nog dumt att låta för ursäktande .
+
+sent_id = 0355b3fc3-03571950c
+text = Mitt falska jag blir något som inte alls är jag själv när jag tar på mig kartongen .
+
+sent_id = 0354e0d77-0354f7f57
+text = Jag ville ha ett allvarligt samtal med henne ( åtminstone genom fönstret , om det nu var möjligt ) , lämna tillbaka de femtio tusen yenen och få henne att lösa mig från mitt löfte att kasta bort kartongen .
+
+sent_id = 035249229-0353a1553
+text = För att undvika att dra på mig en förkylning drog jag mig tillfälligt undan till kartongen , men det var bara för att klara mig tills kläderna var torra , och jag ämnade snart lämna den .
+
+sent_id = 035def1fa-03500d533
+text = Jag trängde mig sidledes in genom ett manshögt snår av astrar .
+
+sent_id = 0354a7eb3-035e8791d
+text = Den var inte vit , som han hade föreställt sig den , utan babyblå .
+
+sent_id = 0356e08a5-03534f608
+text = Jag hade fått honom på min sida genom att tidigare ge honom litet mat .
+
+sent_id = 03501ba9f-035cefc95
+text = " Är du färdig snart ? "
+
+sent_id = 035fb78d1-03529f5b5
+text = Har den verklige kartongmannen äntligen fått för sig att komma ?
+
+sent_id = 035d0a999-035b8ed80
+text = Jag hade haft en känsla av att den skulle kunna bli bra att ha och gömt undan den istället för att slänga bort den .
+
+sent_id = 035d861df-035593e60
+text = Medan vi står tysta och stirrar på varandra kommer ändå det skyddande lagret runt våra nerver att nötas bort tills det blir en kortslutning som kommer att bränna oss båda illa .
+
+sent_id = 0359f01cb-035b6bd0c
+text = -- Det finns ställen som man inte kan se så bra om ljuset bara kommer uppifrån .
+
+sent_id = 0354b659e-03539a4bc
+text = Mitt verkliga namn är C , men det fullständiga namn jag använder när jag praktiserar medicin , och det som står registrerat hos Sjukvårdsdepartementet , tillhör den arméläkare som var min överordnade när jag gick ut i fält som sjukvårdare under kriget .
+
+sent_id = 0358716e0-0358c98b5
+text = " Jag förstår .
+
+sent_id = 035c9a86a-035acd949
+text = -- Det är bättre än att vara naken .
+
+sent_id = 035107150-035e3ff8e
+text = Om ni talar om det så kommer ni själv att erkänna att ni två är produkter av min fantasi . "
+
+sent_id = 03514a792-0358b5c2f
+text = Jag har ingen särskild anledning att odla någon kvardröjande förtjusning för sådana här anteckningar .
+
+sent_id = 035b3abd8-035aea8dc
+text = Jag kan inte ha hört ytterdörren .
+
+sent_id = 035abe314-0358034bb
+text = Nej , en skicklig simmare skulle säkert avhålla sig från sådan dumdristighet .
+
+sent_id = 035e655d6-03515e599
+text = Men det anstötliga hos en kartongmänniska är inte lika lätt att handskas med .
+
+sent_id = 03569f7a2-035cc6c88
+text = Den falska kartongen var varken sönderriven eller slagen i stycken , utan satt fortfarande kvar i samma ställning på sängkanten .
+
+sent_id = 03547e62e-035da41b3
+text = När hon kommit mig så nära som det var möjligt , gav hon sig iväg utan att säga ett ord .
+
+sent_id = 035ae8296-035e43fde
+text = Det var sprutans fel .
+
+sent_id = 0359709ee-035773dff
+text = Jag torkade snabbt av den med skjortsnibben och ställde in den igen .
+
+sent_id = 0356f9232-03501bf30
+text = En dag , jag vet inte om det berodde på att han blivit infekterad av getens inälvsbakterier eller om han förgiftats genom att smaka på det malda trävirket , hade doktorn oturen att bli sjuk .
+
+sent_id = 035737085-0353c36ae
+text = Under kriget var det stor brist på socker och sötsaker var mycket dyrbara .
+
+sent_id = 0359484db-035abbb33
+text = " Men när jag var här -- det erkände ni ju själv -- hade jag en kula från ett luftgevär i axeln . "
+
+sent_id = 035e827dc-035f6114c
+text = Du börjar skriva .
+
+sent_id = 035e0ab7c-035ba8524
+text = " Då så !
+
+sent_id = 035b02979-0354a1341
+text = -- Jag vill ha den där kartongen !
+
+sent_id = 035aa437b-0352f763b
+text = Det minns jag också att jag lyckats med ett otal gånger .
+
+sent_id = 03512e7b9-035c1c50d
+text = Jag håller på att kvävas .
+
+sent_id = 035a610be-035f842bf
+text = Efter ett par veckor hade A nästan börjat glömma kartongmannen .
+
+sent_id = 0358e143e-03597feb3
+text = Jag fick en känsla av att hennes kinder fylldes en aning av ett visst sorts leende .
+
+sent_id = 035fe7323-03593cc19
+text = Kanske hade det det , men hur det än var med den saken , så var hon inte längre naken .
+
+sent_id = 035acbac1-03547a9ce
+text = " Jag tvekar därför att ni står i vägen för mig . "
+
+sent_id = 035b2f02d-035da2e5f
+text = -- Naturligtvis .
+
+sent_id = 03520e983-03585e670
+text = Det var -- var var det nu igen -- ja , visst , ja , det var vid en gatukorsning till den breda promenaden mellan tunnelbanestationen och banken .
+
+sent_id = 03586a585-035e47ee6
+text = Han fick inte nog luft bara genom näsan .
+
+sent_id = 03583893d-035fada6f
+text = Jag vände kartongen och tog snabbt tre bilder i följd .
+
+sent_id = 035398a36-035d25c5d
+text = Om jag söker efter en förklaring måste det vara möjligt att hitta en .
+
+sent_id = 0355a4fbe-0358c0eb7
+text = Om ni började klockan tre på morgonen skulle klockan nu omöjligt kunna vara före tre på eftermiddagen . "
+
+sent_id = 0357262ca-035a74e0c
+text = Området kring en järnvägsstation eller ett överbefolkat affärscentrum var lämpligare för en kartongmänniska .
+
+sent_id = 035e904fa-0352f19b8
+text = Jag kunde se kartongens framsida .
+
+sent_id = 03536d4e2-03588a844
+text = Men vanligtvis förflyter en kartongmänniskas dagar lugnt , sedan hon väl tagit sig ut i stadsvimlet .
+
+sent_id = 035391c44-035f829b1
+text = -- Jag vill bara veta sanningen .
+
+sent_id = 035c3df52-035b2b9b6
+text = De olika detaljerna i omgivningen blir homogena , får samma betydelse .
+
+sent_id = 035f40c43-035c7adab
+text = " Få se nu ... era anteckningar uppgår till femtionio sidor .
+
+sent_id = 035dc8bc2-03547ebde
+text = " Men ni tittar ju knappast på henne .
+
+sent_id = 035843b9e-035ca1b73
+text = Det var förstås delvis köparens idé att vi skulle välja den här platsen , även om jag faktiskt föreslog det .
+
+sent_id = 03548cb31-035602b6c
+text = När jag undersökte patienter som kom till mig från andra sjukhus blev jag sanningen att säga ständigt förbluffad över de ansvarslösa och felaktiga diagnoser som ställts av dessa läkare , som examinerats från universiteten men skött sina studier illa .
+
+sent_id = 03576db24-0359de29e
+text = Men man skulle tycka att det inte skulle göra någon skillnad för den döda människan om det är en nyhet eller inte .
+
+sent_id = 035836df1-035ab416d
+text = Jag ville inte heller stå ansikte mot ansikte med doktorn .
+
+sent_id = 035754e3a-0355184fd
+text = När den mänskliga puppa som kartongmänniskan är brister
+
+sent_id = 0355b91e9-03512a691
+text = Att spioneri på någon annan vanligen betraktas med förakt är antagligen därför att man inte själv vill vara på den sida som ses .
+
+sent_id = 0350939f3-035c1c052
+text = Inuti kravlade två jättelika spindlar omkring .
+
+sent_id = 035f2a5e0-03558f77f
+text = " För min egen del är jag nöjd med att bara få reda på att ni känner er skyldig .
+
+sent_id = 035920d2f-0351313b7
+text = Med det där oskuldsfulla ansiktet ... jag var förbluffad ... men , hur det nu är , fattar man beslut förvånande snabbt i en sådan situation ... förbluffande snabbt .
+
+sent_id = 03516c363-035084829
+text = Den var inte särskilt brant och hade bara fem trappsteg .
+
+sent_id = 035d6751c-035dd9c7b
+text = Sedan jag torkat av smutsen från den höll jag upp den i sned vinkel och kikade i den nedifrån .
+
+sent_id = 035c4c70a-0357a81e6
+text = Det var en smal gränd , där det knappast fanns plats nog för en person , och utan att känna till platsen särskilt väl kunde man av topografien och riktningen räkna ut att det var en återvändsgränd , som stängdes till av stationsområdet .
+
+sent_id = 035eb6391-0350cf1ba
+text = Rösten lät inte alls hotfull och det var en lättnad .
+
+sent_id = 0353af0da-0351b6e80
+text = Jag hade också varit naken i min kartong .
+
+sent_id = 035186494-035de9153
+text = Det svaga metallklirr jag hör nu kommer från en spruta som läggs i en steriliseringsapparat .
+
+sent_id = 0359b50e6-035ff415c
+text = Nej , jag har inte för avsikt att använda detta bevismaterial i onda syften , om jag hade haft det skulle jag gjort det för länge sedan .
+
+sent_id = 035e04681-035ada617
+text = Jag såg honom nyss ute på gatan . "
+
+sent_id = 0352423f3-0350ef9f0
+text = Hennes blick , som blev till svart ljus , trängde ut genom nyckelhålet .
+
+sent_id = 035d3271c-035d3f5b2
+text = Med den föll också mitt bevismaterial i bitar , och jag kunde fortfarande inte avgöra vilket värde det sönderslitna och tomma kartongliket skulle tillmätas .
+
+sent_id = 03598d7e2-035142988
+text = Det var otroligt att den låga hastigheten kunde ge sådan destruktiv kraft .
+
+sent_id = 0350dbbe1-03586f4d6
+text = Kulan hade gått upp mot taket men det hördes inte ett ljud efter nedslaget .
+
+sent_id = 0354f4f99-035ae49f3
+text = Mitt fall
+
+sent_id = 03528b471-035d19da4
+text = Jag spände öronen och lyssnade efter hennes steg i korridoren .
+
+sent_id = 0355ee457-03502ddb5
+text = Jag kunde med ett enda ögonkast urskilja den som en kartongmänniskas avkrängda skinn .
+
+sent_id = 0354fdac1-035314d25
+text = Förvånande nog är till och med tiggare en del av det revir som tillhör stadsfolket , och när man blir kartongmänniska står man kanske under tiggarna .
+
+sent_id = 035b5d5a0-0358d2b15
+text = Plötsligt kan vinden bli kylig och västlig .
+
+sent_id = 035e64ff0-035d74325
+text = Det här är en idealisk plats inte bara för att göra sig av med lik utan också för levande människor .
+
+sent_id = 035d2df4d-035e3ee4e
+text = Ni är rädd för att erkänna det för er själv .
+
+sent_id = 0354c9160-035707365
+text = Men jag tror knappast det hade någon betydelse .
+
+sent_id = 035773ced-035d5e5ae
+text = ned uppifrån bron .
+
+sent_id = 035936fb7-0355dd2b0
+text = Den luftfyllda påsen med dess röda tejp kommer lätt att dra uppmärksamheten till sig när den driver in med tidvattnet .
+
+sent_id = 035836565-03592d5c2
+text = Skall vi säga elva timmar och femtio minuter ?
+
+sent_id = 035d461b9-0357716b8
+text = I smärtan av denna heta vind utsätts jag för en fysisk förändring , som inte kommer att försvinna förrän efter min död .
+
+sent_id = 035a28210-035241a99
+text = -- Häpnadsväckande !
+
+sent_id = 035a36b72-035f0b255
+text = " Ni började skriva på stranden exakt arton minuter över tre , inte sant ?
+
+sent_id = 0355a326e-035c4b96a
+text = Han gick runt byggnaden och fortsatte fram mot huvudingången , medan han kände sig som ett lamm som leddes iväg till slakt och hårt tryckte periskopet , som visat sig vara odugligt , mot bröstet .
+
+sent_id = 035724d87-03542db09
+text = Det enda jag kunde göra var tydligen att vänta med öppna ögon tills sömnen övermannade mig .
+
+sent_id = 035e491ce-0353d791f
+text = Hon hade fullt upp med sitt arbete , men så var hon i gengäld säker på att få all sin behandling i ersättning för det .
+
+sent_id = 035905e4d-035f3f8a1
+text = Vad skall jag göra nu ?
+
+sent_id = 035af4add-035de5533
+text = Fantasifoster kanske , men inga lögner .
+
+sent_id = 0354d6306-03569e7fd
+text = Sjukhuset var obekvämt beläget , men doktorn hade säkert skaffat sig någon liten skattgömma sedan han etablerat sig , och i så fall skulle själva det obekväma läget tjäna att lägga avstånd mellan oss och omvärlden .
+
+sent_id = 0356ce3b6-035edd125
+text = han började leva i en
+
+sent_id = 0357e0e4d-03555fbdf
+text = Mitt vattenkrus som stulits av den falske kartongmannen .
+
+sent_id = 035cc1ce4-035f92c78
+text = Faktum är att jag var en verkligt hängiven lyssnare till nyheter under en lång period .
+
+sent_id = 035c290b0-0351508cd
+text = Den är en fönsterlucka för observationsfönstret och skyddar mot regn under vinternätter när det blåser hårt , och under sommarnätter , när det inte blåser alls , tjänstgör den bekvämt som fläkt .
+
+sent_id = 035a7c0f9-0352663f6
+text = " Det är en massa människor som har luftgevär här i trakten .
+
+sent_id = 0354d2b65-035e65210
+text = Men en dödsdömd njuter sin cigarrett .
+
+sent_id = 035e80e42-035ce5f32
+text = Och därinne ... fanns doktorn , antog jag .
+
+sent_id = 035cff5e7-035f30965
+text = Jag tänker inte koka henne för länge , halvrått blir fint .
+
+sent_id = 035ae2a15-035233774
+text = Medan du stirrar på dörren tänker du på mycket .
+
+sent_id = 0357aeaf4-035216c9e
+text = Det återstod bara för A att själv skrida till handling .
+
+sent_id = 0356e04d4-0352bbf59
+text = Raket efter raket skjuts iväg mot Mars och nån fiskebåt skickar iväg ett SOS och tystnar .
+
+sent_id = 035f9b6a2-0354f65da
+text = Men ni vet givetvis om att när ni använder er av den frånsäger ni er varje rätt till ursäkt , varje rätt att återvända till kartongen .
+
+sent_id = 03565c7ba-035703e03
+text = Om man inte på något sätt begränsar mängden av tillhörigheter , går man på nålar för att de skall blåsa iväg med vinden .
+
+sent_id = 0357c5f1d-03551aebf
+text = Först av allt såg han toalettens porslinsskål .
+
+sent_id = 035a3167f-0352f6573
+text = " Nej , det gör jag inte ... "
+
+sent_id = 0359ec2a7-0353459bb
+text = -- Ja , javisst , om du gör det kort ...
+
+sent_id = 035b9bb33-035f705f5
+text = Slutanalysen visar att de planerat det tillsammans .
+
+sent_id = 035a313f0-035f0d64a
+text = En mörk svallvåg som sprider ut sig någonstans ifrån har börjat sudda ut krusningarna på vattenytan .
+
+sent_id = 0359673dd-0358843fd
+text = -- Jo , ljuset kom först .
+
+sent_id = 035fdfc81-03570d755
+text = bara hälften så nött ,
+
+sent_id = 03571f6f0-035a18ed0
+text = Kanske hade jag behov av den form nyheterna har , sammandragna klichéer och inte sanning eller erfarenhet .
+
+sent_id = 035e181ec-035226937
+text = Allt som allt greps 180 personer i gångtunnlarna och bakom Tokyos Kulturinstitut , beläget inom Uenoparkens polisdistrikt .
+
+sent_id = 0357a7840-0358029c1
+text = Jag skulle bli mycket mer förvånad om hon dök upp som hon sade att hon skulle .
+
+sent_id = 0359805ac-0350448e0
+text = Det kändes dock alltför snöpligt att behöva avstå från bröllopet därför att jag inte kunde betala avgiften för vagnen .
+
+sent_id = 0351b7094-035bd6e16
+text = Om det blir något bråk skulle det aldrig falla någon in att tro att ett krokodilskinn skulle kunna använda som ett dödligt vapen .
+
+sent_id = 03589f7c8-035057921
+text = Han var inte helt klar över hur det förhöll sig , och gjorde heller inga speciella ansträngningar för att ta reda på det .
+
+sent_id = 03572668f-0357ce39d
+text = Den halvöppna munnen ser ut som ett apelsinskal som skurits upp med en kniv och de röda konstgjorda tänderna i underkäken börjar sticka fram ur öppningen .
+
+sent_id = 0354df9d3-0355a420a
+text = Det är en plan hon har tänkt ut för att doktorn inte skall få kartongen .
+
+sent_id = 035943522-0354a3db6
+text = Jag försöker lukta på brevpapperet med de gröna linjerna som vikts i tre delar .
+
+sent_id = 035c65390-035f2d7c1
+text = Jag kände mig som en brevlåda och vände mig om för att se en gestalt på väg bort , redan ett tiotal meter från mig .
+
+sent_id = 035d1cc3e-0359363cf
+text = Till dess hade jag fått doktorn att ta hand om kontakterna utåt , som till exempel att bevista läkarkongresser , men snart blev hans onaturliga sätt att tala och uppträda alltför uppenbart , och de skällsord och den vanära som kom honom till del , inklusive insinuationer om att han skulle vara galen , började slå tillbaka på oss .
+
+sent_id = 0354c2607-035bb16f1
+text = -- Åh , det visste han bara ... på ett eller annat sätt .
+
+sent_id = 035ccbb09-0351b2961
+text = Flickan smålog medan hon knäppte upp den femte knappen .
+
+sent_id = 035451e3b-035728447
+text = Höll han på att falla åt sidan ?
+
+sent_id = 035409a72-0356d7575
+text = Om detta inte fungerar kan ni heroiskt hoppa från ett brant klippstup .
+
+sent_id = 035f3123e-035098bf8
+text = Samma fråga hela tiden hela tiden .
+
+sent_id = 035c8ade2-0357c4105
+text = När du rest dig helt är tvålitersbehållaren ungefär halvfylld .
+
+sent_id = 0356486a6-0354f4e7c
+text = på kartongens
+
+sent_id = 03562cdce-03559ee1c
+text = Den falske kartongmannen harklade sig och kom fram ur hörnet där han stått .
+
+sent_id = 03557dac4-0353bf3d4
+text = Det var ett stycke ur den melodi hon vanemässigt avslutade sina övningar med .
+
+sent_id = 0350b2f00-0353956d4
+text = Sedan en stor vit yta .
+
+sent_id = 035940ae7-0352dd629
+text = Vad beträffar den bästa platsen att göra sig av med kroppen , skulle jag vilja föreslå baksidan av soyasås-fabriken , som vi två tidigare kom överens om .
+
+sent_id = 035fffef9-0355fa23f
+text = Men detta förstånd är lika bräckligt som ett sandslott vid havsstranden när floden kommer och börjar skölja över det .
+
+sent_id = 035ca0b7a-0359a2372
+text = -- Det bryr jag mig inte om .
+
+sent_id = 035f18c5a-035383fa4
+text = Även om hon skulle ha somnat skulle hon sova lätt .
+
+sent_id = 0357ab48b-0358b53c8
+text = När jag kastade en förstulen blick på flickan , såg jag att hon börjat koncentrera sig på att trä fisknätet med osynligt garn och snabbt rörde fingrarna på båda händerna .
+
+sent_id = 03522d27a-0357ef4e0
+text = Yrke : Läkarassistent ( sjukvårdare )
+
+sent_id = 03505ff86-0355e2374
+text = parerade jag i lätt ton , halvt skämtsamt .
+
+sent_id = 035d9d35f-035a9a752
+text = Instruktion
+
+sent_id = 03522c619-035f8ec4f
+text = Det fanns två människor därinne .
+
+sent_id = 035ddf7d2-035c5c2f6
+text = två gånger om dagen , utan undantag ,
+
+sent_id = 0350db170-035fd9737
+text = Hon skrattade bara med munnen och visade misstänksamt tänderna , varpå hennes ansiktsuttryck förändrades och hon såg ut som ett trotsigt barn .
+
+sent_id = 035f52919-03516332b
+text = " Vad är er klocka nu ? "
+
+sent_id = 0352dced0-035efca7e
+text = Den falske kartongmannen började kitta över det tomrum min tystnad lämnat öppen med sitt meningslösa tjatter .
+
+sent_id = 035009a40-035eec9e0
+text = har inte börjat än .
+
+sent_id = 035819e74-035876ce9
+text = Men jag har huvudet med mig .
+
+sent_id = 03558639c-035fd6293
+text = Jag undrade om jag hade misstagit mig .
+
+sent_id = 035eeec8d-03564178c
+text = Det skulle vara en annan sak om det fanns ett ständigt tillflöde av varor genom underjordiska kanaler , men i en liten landsortsstad som den här , är det inte många som kan anskaffa ett så stort lager knark att det skulle kunna leda till så många ärr .
+
+sent_id = 035280ad2-035bbeee4
+text = Men kartongens effekt reducerades till intet , när jag tog den branta backen till sjukhuset .
+
+sent_id = 035a023af-035d9afc7
+text = Du kommer självklart att genomskåda den manövern , det är jag övertygad om , men du kommer att känna dig bättre till mods än om jag verkligen sov .
+
+sent_id = 035af0b19-035a0e6d2
+text = De är de obehagligaste personer en kartongmänniska kan råka ut för .
+
+sent_id = 0354fdf72-035cd33a5
+text = Du tar tre steg och sedan rinner kraften ur dig .
+
+sent_id = 0350f312c-0356098e5
+text = " Men jag har ingen mani att exponera mig på nåt oanständigt sätt ! "
+
+sent_id = 0358b3f88-03526ac95
+text = Det fanns ingen anledning att vara misstänksam , det är alltihop .
+
+sent_id = 035d7e353-035494d96
+text = Det fanns ingen fiendskap eller kamp mellan oss .
+
+sent_id = 035998272-0357842a9
+text = Han sade att han inte stod ut med att titta upp mellan mina ben när jag stod på alla fyra .
+
+sent_id = 03549babe-035dac7b9
+text = Det som gjorde A mest besviken var att han inte hade kunnat se uttrycket i kartongmannens ansikte .
+
+sent_id = 03533cb07-035e48613
+text = Om jag bara hade byxor på mig , skulle jag på något sätt kunna gå ut i världen .
+
+sent_id = 035276e61-035afa479
+text = Fastän det var ett faktum var det svårt att tro att de två förenats till en enda personlighet , med ett ögonblicks varsel .
+
+sent_id = 0355e6a06-035b6a835
+text = En medelålders kille , som vid första ögonkastet såg ut som en manschettjobbare gick hur vanligt som helst framför mig .
+
+sent_id = 035e37f31-0356e55b0
+text = Och där de hade fallit virvlade en rökpust upp .
+
+sent_id = 0358b7178-0355f7872
+text = " Jag fick dig i alla fall att betala vad du var skyldig mig .
+
+sent_id = 035ad1d9e-0358c66ce
+text = Det främsta villkoret för att den exhibitionistiska handlingen skall vara effektiv för honom är att den person han visar sig för är obekant och av motsatt kön .
+
+sent_id = 03576779f-0355de5b8
+text = Den före detta fotografen som väntade under bron i går kväll ... "
+
+sent_id = 035586cdd-035d486eb
+text = Samtidigt genomborrades min vänstra axel av en genomträngande smärta , som när man biter i is med en trasig tand , och urinen slutade rinna .
+
+sent_id = 0353f6b23-0357441ce
+text = När jag såg hennes fulla leende kände jag ett knivstyng av svagt vemod gå genom hjärtat .
+
+sent_id = 03526cbc3-0355b3b42
+text = När jag stod stilla för att hämta andan strömmade svetten fram och rann ned i ögonen .
+
+sent_id = 0353020ca-035a99bc6
+text = En vildkatt med smutsig matt päls .
+
+sent_id = 035e51d48-035506a7b
+text = Min förstämning härrörde ur det faktum , att fastän jag alltid målade samma flicka på mina bilder , hade den verkliga flickan blivit äldre under tidens lopp och jag skulle aldrig kunna få henne tillbaka .
+
+sent_id = 035ed3ba8-035655f35
+text = Det var kanske lika bra att komma tillbaka i morgon när jag fått litet tid på mig och rett ut mina känslor .
+
+sent_id = 035976c31-03574d57f
+text = På så nära håll är det svårt , och inte lätt som man skulle kunna tro , att urskilja fiendens rätta ansikte .
+
+sent_id = 0352fab2d-035132124
+text = Med stenen på bör den komma bra långt ut .
+
+sent_id = 0357cece2-035972f64
+text = Det spelar ingen roll hur hårt du anstränger dig , du är ändå en falsk kartongmänniska .
+
+sent_id = 0357e1e66-0352ea17e
+text = Vittnesmål -- Fortsättning
+
+sent_id = 0352da2dd-035204469
+text = Jag har en känsla av att min mun är uppsvälld av vanskötta och värkande gommar .
+
+sent_id = 035d639e4-035705e9c
+text = Brobalkarna är för höga .
+
+sent_id = 03590a0ad-035dffd5c
+text = Ja , sannerligen , själva rummet hade verkligen liten betydelse .
+
+sent_id = 035777aae-03501ef8e
+text = Den var verklig , mina fantasier kunde inte på några villkor mäta sig med hennes verkliga nakenhet .
+
+sent_id = 035ad35ad-035653197
+text = Men det tjänar ingenting till att våndas , hur mycket jag än klänger mig fast , betyder det inte mer än det .
+
+sent_id = 0352d4a61-0357ba2da
+text = " Lögnare !
+
+sent_id = 035906a17-035e874ef
+text = När du gjort detta är du klar med alla förberedelser .
+
+sent_id = 0356c6438-0359558dd
+text = Håller något på att förändras i min kartong ?
+
+sent_id = 0354b78e5-0355573a3
+text = " Om jag kunde välja skulle jag också föredra att handla mer direkt .
+
+sent_id = 035b74fdc-035f8ceac
+text = Därav kom det sig att jag vandrade åstad vid sidan av min faders kartong och vände ryggen åt den stad där jag så länge bott .
+
+sent_id = 0352d4f3e-0350b57b6
+text = I ännu högre grad gäller att man absolut inte kan jämföra mat som man känner till med lukten av rester som blandats ihop på måfå .
+
+sent_id = 035d5f13a-0354bf99f
+text = " Gå runt till framsidan och kom in genom dörren . "
+
+sent_id = 035a49a06-035a80cdd
+text = Jag var inte beredd att ge upp ännu utan stod kvar och väntade på någonting , gömd under takskägget .
+
+sent_id = 03539d913-0352313a5
+text = Frånsett en lätt attack av dåligt samvete hade han inte någon speciell känsla av att han gjorde något onormalt .
+
+sent_id = 0351293e3-035200354
+text = På det sättet kan jag ju i själva verket så ett frö av misstänksamhet .
+
+sent_id = 0359af7c4-03532dcec
+text = Men det är inte ljust nog för att göra anteckningar .
+
+sent_id = 035b19a68-035008b68
+text = Inte ens den mest hotfulla blick kan vara så förolämpande som denna slits .
+
+sent_id = 035a6c199-035e47e04
+text = Jag ämnar emellertid inte ursäkta mitt eget brott därmed .
+
+sent_id = 035d4c2b6-03598706d
+text = Några tillägg angående
+
+sent_id = 0359dc26f-035b490ba
+text = Hade han tvekat så länge att siktet halkat snett ?
+
+sent_id = 035ad2cf3-035268aca
+text = för slutna ögon under natten
+
+sent_id = 03507049c-035150c72
+text = Om jag skulle hitta någon ledtråd skulle det vara där .
+
+sent_id = 0355ca179-03586fe8d
+text = Men jag inser att det åtminstone är någon konflikt mellan dem .
+
+sent_id = 035431c9f-0354e1861
+text = Det gör nämligen absolut ingen skillnad om författaren är någon annan än ni själv . "
+
+sent_id = 0353d65b8-035046d2b
+text = Jag skall vidare be världen om tillgift och lova att aldrig ägna mig åt medicinskt arbete igen .
+
+sent_id = 0351e696e-035226ca0
+text = Han hade tur .
+
+sent_id = 035646c22-035df3821
+text = Jag är det verkliga ... det som verkligen finns .
+
+sent_id = 035231edd-035a1afc3
+text = Jag antog snarare att kartongmänniskornas skara utökats med ännu en kandidat , och jag kände ett slags närhet till honom .
+
+sent_id = 035b81cdb-035394298
+text = -- Ja , det dröp av mig .
+
+sent_id = 03520ee02-0356716ce
+text = -- Varför ?
+
+sent_id = 035d56609-035cf10d0
+text = Plötsligt svänger dörren upp och flickan bjuder genast in mig med utbredda armar .
+
+sent_id = 0357e6032-03518c459
+text = Jämfört med det du som finns i mitt hjärta har det jag som finns i ditt ingen betydelse .
+
+sent_id = 03565d602-0352c513e
+text = Vi är redan ett stenkast från den .
+
+sent_id = 035909711-03530864b
+text = Kommer hon till exempel att ta emot mig så där , med knapparna till den vita klänningen uppknäppta , eller kommer de att vara knäppta ?
+
+sent_id = 0358b58ba-03526e444
+text = Det var efter det som jag började intressera mig för kartongmänniskor .
+
+sent_id = 0359264fa-035d3f1be
+text = Här är det också en liten finess som man måste tänka på .
+
+sent_id = 035a5abb1-035597d7a
+text = Jag ville inte skada kartongen .
+
+sent_id = 0355ef3ec-035ed20a3
+text = Om nu en fisk kan klara av det , så har han förvisso inget speciellt obehag av att inte ha armar och ben .
+
+sent_id = 035412a74-035263a4a
+text = Du kan råka illa ut om den där bortskämda byrackan skulle följa efter dig .
+
+sent_id = 03594eed1-0350bbea1
+text = Man kan inte gärna svälja betet helt bara för att det påstås vara skrivet av en som är död . )
+
+sent_id = 035b856c3-0352f48a3
+text = Jag skulle vilja ta detta tillfälle i akt att lätta mitt hjärta och avbörda mig det tunga ansvar jag så länge burit inom mig .
+
+sent_id = 03520e074-035c2f44a
+text = " Jag beklagar .
+
+sent_id = 03596b19a-035a2caac
+text = föll upp helt .
+
+sent_id = 0354626f8-0352a117b
+text = Jag är beredd att gå till motattack .
+
+sent_id = 035bd1963-0350fc584
+text = Eftersom jag är född offer -- ja , verkligen , eftersom jag är en kartongmänniska , vilket är samma sak som att inte existera , kommer de inte att kunna döda mig hur de än försöker -- kommer mördarrollen automatiskt att falla på min fiende .
+
+sent_id = 0352e86d8-035a09fdd
+text = Lyckligtvis kändes det fint att sitta där naken i kartongen , kanske berodde det på att jag så noga tvättat av smutsen , men min kropp kändes egendomligt uppfriskad alltigenom och jag fick till och med riktigt lust att omfamna mig själv .
+
+sent_id = 035f2e166-0354c511f
+text = Den nakna flickan på alla fyra .
+
+sent_id = 035f8dcd9-0354ddc99
+text = vilket slags levande varelse som skall komma fram .
+
+sent_id = 0355e9492-035c15ab9
+text = Kanske var det blodet som strömmade i mitt huvud .
+
+sent_id = 03507bf36-03565235b
+text = Men postväsendet har utvecklats och allteftersom dess förstatligande pågått , har mitt namn blivit alltmer välkänt i samband med förfalskning av frimärken .
+
+sent_id = 035bacb83-035ce3379
+text = Naturligtvis är jag inte säker på att jag helt kommer att övertyga er , hur ordentligt jag än försöker rättfärdiga mig .
+
+sent_id = 03587fe9c-0354aa463
+text = frågar jag mig .
+
+sent_id = 03550cae6-035564feb
+text = Varför kommer du inte bara in ? "
+
+sent_id = 0359051de-0353ad37f
+text = Luften var fylld av mjukheten i en tidig lördagskväll som aldrig skulle ta slut .
+
+sent_id = 03539689b-035cc9299
+text = Men om fisken inte är verklig nyktrar så småningom all berusning till och till sist duvnar den .
+
+sent_id = 035829845-0351842f9
+text = Vreden vällde åter upp inom honom .
+
+sent_id = 035200030-035734867
+text = " En sån härlig , fast bak ... "
+
+sent_id = 03516b3de-035be9bc7
+text = Ni behöver inte alls bry er om mig .
+
+sent_id = 03535d7ea-035301b53
+text = Om jag är i fara är hon det också .
+
+sent_id = 03502c8de-035b0a541
+text = Jag visste inte vad jag skulle ta mig till .
+
+sent_id = 03532bc16-0352e1997
+text = Jag tror att vi helt enkelt gett upp hoppet från början .
+
+sent_id = 035204374-0359da3fb
+text = Mitt oklippta hår ... mitt sandpappersansikte som var översållat med sår från rakbladet ... och fastän jag stank av tvål föll skinnet som mjäll från halsen och axlarna . "
+
+sent_id = 035ecf8b6-035ea8882
+text = Han hade siktat flera decimeter nedanför och till vänster om den linje som förenade fönstrets nedre vänstra och övre högra hörn .
+
+sent_id = 0357762dc-035f27354
+text = Jag hade , kort sagt , en känsla av att om jag bara kom till ett definitivt avgörande skulle allt bli bra .
+
+sent_id = 035873ad7-035559271
+text = Åtminstone är det säkrast att jag väntar med att förstöra kartongen tills jag kontrollerat hennes verkliga motiv ännu en gång .
+
+sent_id = 035cdc1b2-0354fdcee
+text = Ta av dig strumporna .
+
+sent_id = 03515122b-0351296ac
+text = Jag har satt fast ett svartvitt negativ med tejp i övre högra hörnet på omslagets innersida .
+
+sent_id = 035e6a331-035e26fa6
+text = Det luktar helt enkelt svagt av desinfektionsmedel .
+
+sent_id = 035567372-035c46131
+text = Min köpare glänste som en trasig ölflaska i solen .
+
+sent_id = 035ef360a-035db1e0f
+text = Dörren är inte stängd så du kan gå rätt in . "
+
+sent_id = 035f4fe93-03535da61
+text = Den här kartongen , som är min , har sålts till någon .
+
+sent_id = 03527c344-0355e2eec
+text = tillägg på annat papper
+
+sent_id = 0353e2441-035ffd66a
+text = Allt som här säges är med sanningen överensstämmande .
+
+sent_id = 03570095f-035507300
+text = Skulle jag nu säga adjö till kartongen ?
+
+sent_id = 0358b23e4-035104511
+text = A hörde något som lät som ett slag mot ett vått tält .
+
+sent_id = 035488c2a-035030cc3
+text = Nu är det naturligtvis så , vad samhället beträffar , att andra uppenbarligen inte skiljer särskilt klart mellan de två , inte så tydligt som kartongmänniskorna gör .
+
+sent_id = 035c9120a-03581a897
+text = Du griper tag i kulspetspennan och sätter dig i skrivställning , men ändrar dig och tittar på klockan .
+
+sent_id = 0353efe85-035f96b1c
+text = Det är arbetsamt att samla ihop föremålen också , men den ansträngning som krävs för att kasta bort dem är ännu större .
+
+sent_id = 035fe177d-03542b6b2
+text = Det var fuktigare där än i trädgården utanför hans eget hem .
+
+sent_id = 035c3cbc2-035cd0531
+text = Hon sade att när hon stod modell och kände en konstnärs ögon på sig , blev hon våldsamt upphetsad .
+
+sent_id = 03518585c-035dcdd71
+text = " Härmed följer ett sammandrag av händelseförloppet .
+
+sent_id = 035f147ce-035733228
+text = Det fanns en möjlighet att jag kunde förvärra hennes situation genom att driva henne för långt .
+
+sent_id = 03509741a-035889c59
+text = Tejpa kanterna på de tre utsatta ställena i taket och på det ställe där de möts i sidan .
+
+sent_id = 0352b97b7-035e02534
+text = Jag skulle hitta ett par byxor , vilka gamla trasor som helst fick duga .
+
+sent_id = 0359186c6-035faa1ae
+text = Brandtrappan är avstängd , så nu måste hon vara instängd i huset .
+
+sent_id = 0352032bc-0350fa1e4
+text = När jag sade detta stelnade plötsligt käken så att tänderna gnisslade mot varandra .
+
+sent_id = 0350a6e33-03572a290
+text = Jag duger inte till sånt här .
+
+sent_id = 0359a4a38-035279624
+text = Det är bara den där fördömda blusen och kjolen som fjärmar henne från mig .
+
+sent_id = 035236b57-035ce1cbc
+text = " Jag skall låsa dörren " , sade hon och gick förbi honom .
+
+sent_id = 0356efcdf-035cb6074
+text = " Vad är det som är ologiskt ? "
+
+sent_id = 035c4bbc4-035da34e4
+text = Du öppnar den förstrött .
+
+sent_id = 0356926f7-03525dc93
+text = Men jag vill att ni accepterar ett enda villkor .
+
+sent_id = 035f6e930-035cdad63
+text = Han körde fingrarna i min högra kind som om den varit en rispudding , och med oväntad kraft vräkte jag till med krokodilsandpåsen över min motståndares skenben .
+
+sent_id = 03572d09e-03586676f
+text = Vad beträffar platsen jag flyr till och hur jag bär mig åt , tänker jag skriva om det allra sist i dessa anteckningar .
+
+sent_id = 035870efa-035f66205
+text = Vad var det , undrade jag , som fick det där benet att attrahera mig så starkt ?
+
+sent_id = 035adc28f-03529ca38
+text = Jag föll sönder i delar inför henne .
+
+sent_id = 035e680f6-035a1ff8a
+text = Jag börjar i detta ögonblick skriva min redogörelse i min kartong .
+
+sent_id = 03512106e-03598cae9
+text = Längst inne vill ni att det skall hända , men ni kommer inte att tro på att jag skall göra det . "
+
+sent_id = 035cacd00-035b22921
+text = Även om det plötsligt skulle bli högvatten , när floden sväller över av regnvatten vid flod , kan jag alltid resa mig och byta plats , så länge det inte når över stövelskaften .
+
+sent_id = 0352e528b-035366d83
+text = Det viktigaste skälet att använda standardformatet är att det är svårt att skilja den ena kartongen från den andra .
+
+sent_id = 035ae770a-035bcfa36
+text = På den vanliga vägen lyckas man vanligen undvika att gå vilse .
+
+sent_id = 0351f4882-035714a01
+text = Olyckligtvis verkade det som om B hela tiden använt en filtpenna med vattenlöslig färg och det var ingalunda möjligt att tyda texten .
+
+sent_id = 0354063c1-03542537c
+text = När avsikten är att avlägsna den sjukes plågor .
+
+sent_id = 035be787a-03548380d
+text = Men jag har aldrig hört talas om kartongmänniskor någonstans .
+
+sent_id = 035a1c810-035769f86
+text = Tänder bröt fram i kanten av de övre och undre ögonlocken .
+
+sent_id = 035364205-0354eb40b
+text = Dessutom , när han en gång hade bestämt sig , täcktes hans tvekan av hans längtan att kika som av ett tjockt lager grundfärg .
+
+sent_id = 03524ae33-035d96cd6
+text = Att det inte finns några fönster här passar mig mer än något annat förträffligt i min nuvarande sinnesstämning .
+
+sent_id = 0352e9590-035a3ef9e
+text = Därför att jag ville att ni skulle se att jag hållit mitt löfte .
+
+sent_id = 035c515fb-035a8f516
+text = Hon såg sig sakta om över axeln , och drog sig sedan tillbaka till sitt eget rum .
+
+sent_id = 035c7ef3c-0350efa24
+text = Så länge man svettas är man en falsk kartongmänniska .
+
+sent_id = 035ef3f31-035247486
+text = Efter att ha tryckt ihop mina lungor sätter du en stor tratt till min mun och häller i tankens innehåll .
+
+sent_id = 035f2f1a6-035bdbbf5
+text = Nu ångrar jag mig förstås .
+
+sent_id = 035d0f978-0351b9291
+text = Men jag inser helt och fullt att ni inte vill erkänna det .
+
+sent_id = 0358ac8c2-035b722b7
+text = Kanske bodde hon egentligen inte i stugan utan drog bara då och då fördel av att den var ljudisolerad och gick dit för att spela piano .
+
+sent_id = 0353b3b9a-0350eac5b
+text = Efter en sista liten korrigering kommer allt plötsligt att stå klart .
+
+sent_id = 0355c60d7-035de9e54
+text = Han förlorade känseln under fotsulorna .
+
+sent_id = 0358af045-0352b4f11
+text = " Att döma av vad jag sett av er , skulle ni föredra att handla mer direkt än att ta bilder " , sa han med falsk munterhet .
+
+sent_id = 035bc2ca6-035969f33
+text = På väg hem från polisstationen gick han upp till en vän och lånade ett luftgevär .
+
+sent_id = 0356f208c-035ba1aa4
+text = Han bad ofta om att bli starkare .
+
+sent_id = 0354bf8c8-035de4824
+text = Hela proceduren ska inte ta mer än trettio sekunder .
+
+sent_id = 035a1e5a1-0355442e5
+text = Eftersom han var läkare skulle det vara lätt för honom att smussla ned en droppe gift .
+
+sent_id = 03543adba-03526680e
+text = Han gör inte mycket annat under dagen än att läsa och lyssna till nyheterna .
+
+sent_id = 0351bf659-035fefaf2
+text = " Och vem är nu ni ?
+
+sent_id = 0355106af-035341976
+text = Det kanske tycks som om jag upprepade mig , men en kartongmänniska är det idealiska offret .
+
+sent_id = 0356566a6-035253619
+text = Det är ändå försent .
+
+sent_id = 035bd89ab-0355a9c48
+text = Kanske borde han slänga sina onödiga fördomar mot kartonger överbord .
+
+sent_id = 035a9bbf4-035ed4770
+text = Det är skönt att älska , men otäckt att bli älskad .
+
+sent_id = 035488057-03568d362
+text = Ja , jag kanske borde ha varnat er på förhand innan vi började förhandla .
+
+sent_id = 035a600d3-035fdb6e8
+text = De var så levande att jag inte har något minne av vilken färg hon hade på klänningen .
+
+sent_id = 035a164ba-0352dca88
+text = Och när du gör det , får du inte glömma att göra dig av med det havsvatten som finns kvar i behållaren .
+
+sent_id = 03503002b-035592c78
+text = " Jag ska faktiskt inte göra om det . "
+
+sent_id = 0354c0473-0352c568c
+text = Det bästa för dig vore om jag sov djupt .
+
+sent_id = 0356ed803-0350fb4f5
+text = Med en verklig fisk kan man inte veta , men det sägs att en drömfisk har en helt annan tidsuppfattning än när den är vaken .
+
+sent_id = 0355a36a9-0358b21e0
+text = 109 .
+
+sent_id = 03505dbbf-03506b2cd
+text = Det enda som emellertid står helt klart är att ni inte vill komma ut ur kartongen . "
+
+sent_id = 035ba1178-0359cd0b9
+text = Jag har för länge sedan gett upp min rätt till henne .
+
+sent_id = 0359ecda9-035ee0306
+text = Han vred sig .
+
+sent_id = 0355ea0c0-035e21052
+text = Det är bäst att rätta till den missuppfattningen genast .
+
+sent_id = 03541d934-035a46bcf
+text = Och det var riktat rakt mot mitt vänstra öga .
+
+sent_id = 03531fab4-035de6ee7
+text = Himmel och hav var stilla , i svärta , och allt var som det hade varit från början .
+
+sent_id = 035af2f01-035479423
+text = När han inte stod ut längre klagade han för hyreshusets vicevärd , men förgäves .
+
+sent_id = 0356b0bcb-035c16ffa
+text = Eftersom jag trodde att jag inte var den ende som var sårad , bestämde jag mig för att inte envisas .
+
+sent_id = 0355921cd-035dc45bf
+text = Jag gick till kartongen i hörnet vid dörren där jag hade lagt mina kläder när jag tog av mig dem , öppnade min bergsklättrarväska ( förmodligen en överskottsartikel från amerikanska armén ) , och fiskade upp en uppstoppad leksakskrokodil .
+
+sent_id = 035e8934c-03578f1dc
+text = Väl hemma i sitt rum tände han en cigarrett och lugnade sig .
+
+sent_id = 035fad5f9-035ec422c
+text = Jag undrade om det inte var det ni var ute efter .
+
+sent_id = 0351b8b83-0355731dc
+text = Men bödeln kommer inte att vänta hur mycket jag än kedjeröker .
+
+sent_id = 035ddc981-0354cea29
+text = Om ni ofta rör er i folksamlingar , antar jag att det är lika bra att ni sticker upp hål i den högra och vänstra väggen medan ni ändå håller på .
+
+sent_id = 0350f07a1-0352f425a
+text = Hon kom inte ens ned till kajkanten .
+
+sent_id = 035adf8a7-0351459e9
+text = Han satt på sängkanten och hade på sig en kartong som såg precis ut som min -- från graden av nedsmutsning till resterna av de tryckta bokstäver som utgjorde namnet på en försäljningsartikel ... för att inte tala om storleken .
+
+sent_id = 0352548d7-03554e750
+text = Jag låtsades ge den falske kartongmannen krokodilen med viss tvekan och slog underifrån till gevärspipan .
+
+sent_id = 035549e3b-035ce3eba
+text = Cigarrettfimpar ... det klibbiga varet i ett hundöga ... fönstren i ett tvåvåningshus med fladdrande gardiner ... bucklorna i en hoptryckt tunna ... ringar som äter sig in i fläskiga fingrar ... järnvägsspår som leder bort i fjärran ... säckar med cement som hårdnat i fukten ... smuts under fingernaglarna ... öppna skyddslock under vägarbete ... men sådana landskap tycker jag mycket om .
+
+sent_id = 035ab5649-035c67f67
+text = Löften ...
+
+sent_id = 0354d1248-0358a055f
+text = Regnet hade upphört men de låga fuktladdade molnen gjorde att det tog lång tid att torka .
+
+sent_id = 0358aece4-035987f66
+text = Men oroa er inte , jag har gjort mig av med kartongen som ni befallde .
+
+sent_id = 035e2fb58-0350f7b23
+text = För det första är det som om ens luktsinne förändras , när man gnuggar hud med någon annan .
+
+sent_id = 035558f54-035e88437
+text = Är ett brutet löfte någonting att hetsa upp sig för ?
+
+sent_id = 0354ee6ef-0358a4c55
+text = När man inte kan undvika att bli sedd är det sunt att begära kompensation .
+
+sent_id = 035341876-035a54856
+text = Vita fingertoppar snuddade vid observationsfönstret och tre tusenyen-sedlar slängdes in .
+
+sent_id = 035c65577-035e4e0b8
+text = Han tyckte tiden gick fruktansvärt långsamt .
+
+sent_id = 0356f5987-03556432c
+text = Jag vänder mig om och tittar på flickan .
+
+sent_id = 0358ec95c-035e989cd
+text = -- Det är för att det är sommar som det är hett .
+
+sent_id = 035e2fb43-035db1c88
+text = Det vi måste tänka på är hur verkliga våra känslor , den heta vinden mot vår hud är .
+
+sent_id = 035235b51-0351aba8e
+text = " Det är för att de sitter närmast könsorganen . "
+
+sent_id = 0351e08eb-035e3fa5c
+text = Klipp till sist av den återstående ståltråden i bitar på tre , fem , tio och femton centimeter , böj tillbaka ändarna och använd bitarna som upphängningskrokar i väggen .
+
+sent_id = 0353c03e1-035441724
+text = För första gången onanerade han avspänt i kartongen .
+
+sent_id = 035202e0e-035ad2ad9
+text = Det finns ingen anledning att tvivla och inte heller att tro .
+
+sent_id = 03506123c-035be446d
+text = Enligt specialisterna skall det tydligen vara en modifierad form av attack eller hotelse .
+
+sent_id = 0359ec3e6-035bf143c
+text = Du torkar av svetten som rinner ned i din panna från hårfästet med en bomullstuss genomdränkt av sprit , och du fuktar dina kladdiga läppar med saliv , men du kan inte gärna sätta på fläkten till luftkonditioneringen .
+
+sent_id = 0351da47b-03535385e
+text = Havsstranden är mörk och insvept i havsdoft .
+
+sent_id = 0353b0d0a-035ad2ab9
+text = Han har ett yrke där han tar av sig dem och sätter på sig dem mer än normalt .
+
+sent_id = 035bea640-035108c6e
+text = Det kunde inte jämföras med en riktig kartong som hängt med länge .
+
+sent_id = 035526395-035fbb0c0
+text = Ni har fått tiden att stanna . "
+
+sent_id = 03588e0ac-03559c720
+text = Ni frågar vidare varför han hade en pappkartong över huvudet .
+
+sent_id = 0358f4b42-035430a8e
+text = Dessutom kan du själv se hur långa armar jag har .
+
+sent_id = 03541e9b5-0350172b5
+text = Om man slår med all sin kraft krossar man skallen .
+
+sent_id = 035e36eb4-035751b9c
+text = Vad är det där för ljud som nu fångar din uppmärksamhet ?
+
+sent_id = 035133491-035038264
+text = Han beräknade att det var den ungefärliga punkt där armen gick över i höger axel .
+
+sent_id = 035e663c0-0356f84b6
+text = Hans despotiska krav på att få beundra den nyligen anlända sköterskeelevens , Toyama Yoko , nakna kropp och på att hon skulle tvingas ge honom lavemang naken , gjorde mig åtskilligt bekymmer .
+
+sent_id = 035d1444f-035a666a4
+text = Jag var trots allt i stånd att till och med göra detta .
+
+sent_id = 035171332-0351b928e
+text = Nu hör jag sirenen från en ambulans som närmar sig .
+
+sent_id = 035a119a4-0359fa382
+text = Dessutom mötte jag oväntat den falske kartongmannen .
+
+sent_id = 03583bea9-035aeebbc
+text = Det sista jag skrev var kanske de första bokstäverna i " annorlunda " .
+
+sent_id = 035a36f07-035a3a03c
+text = Den gulgröna glödlampan som ser ut som fluorit ... sekundvisaren på klockan som närmar sig åttan ... ytan på det vattenavstötande papperet som glänser som en hinna av olja ... den svaga kontur som så småningom avtecknar sig ... en kontur från vilken en annan går ut ... en kontur ovanpå en kontur ... till sist din nakna kropp , inpräntad i mig som en brottslings fotspår ...
+
+sent_id = 035a35b26-035dc7621
+text = Men om det var allt , fanns det många ben som var mycket sexigare .
+
+sent_id = 0351791b1-035fb8d8b
+text = Men jag antog att det inte skulle hjälpa mig att hitta henne .
+
+sent_id = 035df464f-0357f782b
+text = Mitt specialområde är framförallt kirurgi , som blindtarmsoperationer .
+
+sent_id = 035528145-03529a49f
+text = Det gick så långt att han stängde in sig på sitt rum utan att kunna förmå sig att ta ett steg utanför det .
+
+sent_id = 0358aa68f-035ebc471
+text = Jag börjar hostande förklara .
+
+sent_id = 0354ed6ec-035152166
+text = Eftersom blicken var otroligt lätt -- det var som om den kunnat flyta omkring i rymden på det viset en halv dag -- tittade jag inte alls bort utan lyckades återgälda hennes blick utan att blinka .
+
+sent_id = 035346ae5-0350eb10f
+text = Jag kan inte tänka mig att det fanns något klart syfte bakom handlingsmönstret annat än att bringa död .
+
+sent_id = 03512667f-0351c78ad
+text = Men jag är en sådan kartongmänniska .
+
+sent_id = 035bbce06-0355e24a6
+text = Kartongens död hade naturligtvis inte nödvändigtvis något med B:s kroppsliga död att göra .
+
+sent_id = 0350e9892-035cbc2e4
+text = Jag befinner mig i en pappkartong , som vilar på mitt huvud och täcker mig fullständigt ned till höfterna .
+
+sent_id = 035636119-03587442d
+text = Medan min hjärna är klar kan jag lyckas att åtminstone låta bli att skjuta undan din hjälpande hand .
+
+sent_id = 03530925e-0351e8e81
+text = Anteckningarna som du stuckit in under armen glider ljudlöst ned på skrivbordet .
+
+sent_id = 035025303-035644189
+text = Det lät falskt på något sätt .
+
+sent_id = 035db1493-0356cbcc3
+text = Efter det bestämde jag mig för att slå till först när det gällde tiggarna i Wappen , även om jag aldrig annars gör det .
+
+sent_id = 035c57c9e-035b3402b
+text = En svekfull kvinna som hon passar mig .
+
+sent_id = 0358f9806-035e4f914
+text = Du får mig att känna mig lika generad som du är själv .
+
+sent_id = 035bd5247-035fb4673
+text = Trots allt detta ruskade jag på kartongen och fortsatte hundlikt framåt .
+
+sent_id = 0357f2770-0352f7f7e
+text = När jag kröp ut ur kartongen upptäckte jag att jag var på sjukhuset längst upp på kullen .
+
+sent_id = 035a5dea7-035a69481
+text = Eftersom jag förhållandevis snabbare avslutade en teckning när jag minskade dimensionerna , använde jag mer och mer papper .
+
+sent_id = 03500d8ef-0350cf7ed
+text = Kan du tänka dig ... han bad mig kolla om han hade erektion eller inte .
+
+sent_id = 035eac43c-035be999d
+text = Jag tror inte det är särskilt svårt .
+
+sent_id = 0359672b9-035525600
+text = Varför ?
+
+sent_id = 035aff7d1-035b4f2d8
+text = Det var bara den översta knappen som var knäppt .
+
+sent_id = 0356531c8-035c2acaf
+text = Men när det blev dags för mig att gå in på scenen , kunde jag inte få fram de korta repliker jag förväntades leverera vid ett enda tillfälle , det spelade ingen roll hur jag än försökte .
+
+sent_id = 03524a2f4-03515cfd6
+text = -- Nåå ... ?
+
+sent_id = 035182a69-035373a7b
+text = Vagnen stannade .
+
+sent_id = 035e67dcb-035f13c97
+text = När man är törstig kan man inte låta bli att springa mot illusionen av vatten även om man vet att det är en hägring .
+
+sent_id = 03558bb68-0357d0fcc
+text = En kartongmänniska , som befinner sig i sin kartong , tecknar en kartongmänniskas krönika .
+
+sent_id = 035fdec65-035814d20
+text = Vesslorna ställer tydligen till med ett väldigt rabalder i hönshusen " , sade hon plötsligt igen och upprepade samma undanflykt .
+
+sent_id = 035189e91-035e3796d
+text = Vid blotta tanken på mänsklig närvaro i en angränsande toalett , tyckte han sig känna lukten av ångande urin , och den välkända melodin räckte för att få senorna i hans rygg att skälva av sensuell åtrå .
+
+sent_id = 035003c69-0357fb93b
+text = " Ni har inte hållit ert löfte , eller hur ?
+
+sent_id = 035352ead-035b728b7
+text = Men för ögonblicket antar jag att jag får nöja mig med det .
+
+sent_id = 0359555c0-0359f4ffc
+text = Eftersom det blir fråga om individuella variationer , skall följande siffror bara ses som referensuppgifter .
+
+sent_id = 03526bf21-035f9de82
+text = Sedan en tid tillbaka har det varit risk för att doktorn skulle begå självmord , och jag beklagar djupt att jag varit försumlig och inte kunnat stoppa honom innan någonting hände .
+
+sent_id = 035ccfbc4-0355ccd90
+text = Om en kartongmänniska är en specialiserad fönstertittare , så är hon född offer till denne tittare ( det enda som bekymrar mig är varför doktorn , som stått öga mot öga med denna sida av henne , känt sig tvingad att leva i en kartong ) .
+
+sent_id = 035477b7f-035972bb5
+text = Det skulle kunna vara någon ligist som spelat på någon läkares svagheter .
+
+sent_id = 03522ff15-0357a8a33
+text = Jag siktade dåligt och skrapade upp nagelbandet på vänster tumme .
+
+sent_id = 035a39caf-035223dd9
+text = Särskilt den nedre delen av mig , som sticker fram ur kartongen , ser otroligt löjlig ut , föreställer jag mig .
+
+sent_id = 035ae8de1-035f32002
+text = Enligt en rapport från ovan nämnda tjänstemän var mannen cirka en och sjuttio lång och hade normal kroppsbyggnad .
+
+sent_id = 0358e0ef2-035c094a3
+text = Jag begär inget kvitto .
+
+sent_id = 035d3d8fd-0352c75ff
+text = Det var inte särskilt trevligt att se min spegelbild gå omkring som den ville utan att bry sig om vad jag ville .
+
+sent_id = 035767744-035d87e5a
+text = -- Jag inser det nu .
+
+sent_id = 03541d54f-03507e528
+text = Gatan var en brant backe och inte ens de längsta fotgängarna nådde upp till kanten på planket .
+
+sent_id = 0358bc1da-035649018
+text = Far hade rätt .
+
+sent_id = 0353278dc-03520987b
+text = Efter en stund öppnas dörren sakta men säkert .
+
+sent_id = 0357e21ab-03582fe60
+text = Ovanpå den vita sjuksköterskeuniformen spretade de pyttesmå svarta trosorna som en död spindel .
+
+sent_id = 0354ce7db-0358250b7
+text = Men jag sänder henne rapporter om alla intäkter och utgifter och fortsätter erkänna hennes rätt som partner .
+
+sent_id = 035607e90-0354d2634
+text = Det verkade som om jag hade blivit drogad utan att veta om det .
+
+sent_id = 035976f96-03569fd14
+text = Låt oss inte längre sticka under stol med att hon hetsar upp oss .
+
+sent_id = 0355d477a-035f92357
+text = Till slut ändrade jag mig och tog ingen bild , men det var inte för att jag kände någon särskild sorg över liket .
+
+sent_id = 03573b25c-03570b50d
+text = Sakerna inuti kartongen slår mot varandra med ett kraftigt slamrande .
+
+sent_id = 035568673-0357882b4
+text = När jag höll spegeln stadigt avtecknade sig väggar och en dörr i det vita .
+
+sent_id = 035043d0f-035a13485
+text = Om omständigheterna på något vis skulle tyda på mord , beror det helt och hållet på min egen klumpighet ...
+
+sent_id = 035102721-035678b78
+text = Jag var helt övertygad om att vi skulle kunna fortsätta leva på det här sättet hur många år som helst , så länge det bara var vi två .
+
+sent_id = 035aeb7a7-03551c86a
+text = Jag tvekar till och med att skriva hennes namn här och nu .
+
+sent_id = 035071784-03528a402
+text = Risken att dö är densamma .
+
+sent_id = 035019312-035a2ee6d
+text = Jag kanske hade blivit en kaka lort , förutom skelettet .
+
+sent_id = 035a6bcde-03506d5e7
+text = Man vill röra vid honom , föra sina händer över hela hans kropp .
+
+sent_id = 03503e7a1-0355da18b
+text = Fem minuter ungefär ?
+
+sent_id = 035026a0d-0351def08
+text = " Varför då ? "
+
+sent_id = 035e97300-0354cce6e
+text = Hennes bröst var ett lock på insidan av en omvänd triangel som formades av hennes bål , höfter och överarmar .
+
+sent_id = 035bcd57f-035fb5162
+text = En kärlek som börjar med svunnen kärlek rymmer därför inga skuggor alls .
+
+sent_id = 035131d80-03580748d
+text = Ett par byxor .
+
+sent_id = 035551586-035531abf
+text = Anledningen till att jag som inte är död befinner mig i bårhuset -- för din skull måste jag betona detta kraftigt -- har ingenting särskilt att göra med att jag skulle få den speciella behandling man ägnar en död kropp , utan för att jag anhöll om att få vara här .
+
+sent_id = 035c6ca7f-035af0063
+text = Jag var djupt upprörd .
+
+sent_id = 03583133e-0355d91b0
+text = Öppningen skall vara i mitten och de två delarna skall gå omlott bråkdelen av en centimeter .
+
+sent_id = 035243f54-035511977
+text = Jag undrar verkligen om hon tänker svika sitt ord .
+
+sent_id = 03547e0a2-03567d562
+text = Min skugga gick fram och tillbaka i diagonal genom rummet med stapplande steg som en leksaksrobot .
+
+sent_id = 035cf7426-035497762
+text = När den är ny glänser den som om den vore oljad , men uppenbarligen avger den lätt statisk elektricitet , absorberar snabbt smuts och blir övertäckt av damm .
+
+sent_id = 03544ea7f-0359f688c
+text = Såvitt jag förstår hade ni ändå tänkt fotografera mig .
+
+sent_id = 03528ca88-0358dd75e
+text = Detta är en kartongmänniskas journal .
+
+sent_id = 035f143cc-035338729
+text = Du har blivit fruktansvärt misstänksam .
+
+sent_id = 0351629ec-03565b24c
+text = Det första jag såg var en elektrisk bordslampa på hörnet av ett stort skrivbord .
+
+sent_id = 0351a60c1-0356d2ae6
+text = Sedan fjärde .
+
+sent_id = 03555a963-035192ccd
+text = Ja , i nödfall skall jag verkligen låta de här anteckningarna följa trälådorna och bambukorgarna .
+
+sent_id = 035dbda42-035d27b9b
+text = Vem av oss var inte någon kartongmänniska ?
+
+sent_id = 0352fc7bc-035b72fbe
+text = " Jag har funderat ut en liten kompromiss . "
+
+sent_id = 0351c71df-035fb89ae
+text = När man har en fisks kropp , utan så mycket som stämband , för att inte tala om händer och fötter , plågas man av att använda sådana ord .
+
+sent_id = 035d79da0-035cc7ab2
+text = Jo , du hör det ... där ... det där är det ... från ett annat håll .
+
+sent_id = 035896094-035e93bef
+text = " Hmm ... men kanske någon annan sitter och skriver någon annanstans . "
+
+sent_id = 0358ba161-035de8316
+text = Det var ingen som sagt att det inte fick vara en bagagekärra , och sedan jag blivit gift kunde jag göra vad jag ville med den .
+
+sent_id = 03597764c-035d71f67
+text = -- Du har rätt .
+
+sent_id = 0355c9041-035411f44
+text = Nej , en molluscus är ingen tillfällig historia .
+
+sent_id = 0357d0e39-0358cc622
+text = Fast A gjorde sitt bästa för att inte titta , så gjorde han det .
+
+sent_id = 035d59a9a-03552115b
+text = Hennes nakna kropp var vida mer förtrollande än jag hade väntat mig .
+
+sent_id = 03570e957-035c8b8bc
+text = Klockan hade blivit midnatt och mer , och jag tänkte att de av en eller annan anledning hade glömt att släcka ljuset , men på något sätt kände jag mig obehaglig till mods .
+
+sent_id = 0351e2c41-03546739a
+text = Dimman skingrades och en låst järnport dök upp .
+
+sent_id = 035cf5b6e-035ba1260
+text = Så länge han höll på och tjatade på mig var jag tvungen att hålla andan för att kunna stå ut .
+
+sent_id = 0352f689a-03578ab66
+text = -- Jag är törstig ( klagade hon ) .
+
+sent_id = 0351cdb47-035d7ef93
+text = Bårhus .
+
+sent_id = 035849c7a-03528934c
+text = Jag står verkligen och tittar på det där avskärmade rummet , som bara är tillräckligt stort för en person .
+
+sent_id = 03582c104-035ceca0f
+text = Men han var inte alls säker på sig själv .
+
+sent_id = 035af1552-0353a73ca
+text = Som om den anat A:s inre förvirring , vickade kartongen lätt , och den halvt genomskinliga plastgardinen för fönstret delade sig lodrätt i två delar .
+
+sent_id = 035d44046-035bc87f9
+text = Plötsligt hörde jag ett skarpt ljud .
+
+sent_id = 0359a52a0-035ac4587
+text = Det ljudet skulle jag kunna urskilja på hur långt håll som helst , som en ökenråtta som känner doften av vatten på mer än en mils avstånd .
+
+sent_id = 035849fcc-035137596
+text = Nu står jag vid det allmänna badhuset vid havsstranden och ser T:s dockor tvärsöver hamnen .
+
+sent_id = 035994bf4-0359fb3e0
+text = -- Jag släckte alltså lampan , tog av mig kläderna , tände lampan och gav injektionen .
+
+sent_id = 0357fb9e2-035890e65
+text = Den tilltalade personen var en kartongmänniska .
+
+sent_id = 035d7a9b7-03524c07a
+text = Alla mina muskler spändes i beredskap att slå sönder glasrutan och dyka in i rummet , men på grund av hennes bedrägeri visste jag att jag inte skulle göra det ( ett exempel på en kartongmänniskas sätt att finna ursäkter ) .
+
+sent_id = 0359d5ca2-0355cc10e
+text = Jag satte några hårstrån från näsan i hennes skrev , och fastän jag försökt skulptera henne absolut verklighetstroget , såg det ärligt talat mer ut som en groda än som en kvinna .
+
+sent_id = 0354c3dfc-035dc4b09
+text = Om jag inte gick in i samma affär mer än en gång i månaden , behövde jag inte vara rädd för att bli angripen .
+
+sent_id = 0358d15fa-0359a717a
+text = Hon gav mig ett snabbt ögonkast och vände sedan blicken mot den falske kartongmannen .
+
+sent_id = 0351ef968-035e91401
+text = Jag tänker helt enkelt vänta tills hon hunnit långt nog härifrån , så att hon inte kan höra ljudet från hammaren .
+
+sent_id = 035c8c8aa-035b48c73
+text = Du kan inte slingra dig med att säga att du inte visste det .
+
+sent_id = 0353cd2c9-0350f2827
+text = Eftersom jag målat dessa tavlor finns det nu ingen levande person som inte känner till mitt namn .
+
+sent_id = 03503a02b-0357891d2
+text = Kartongmannen rörde sig inte ur fläcken .
+
+sent_id = 035512b44-035be36fb
+text = Det kom ett ljud från kartongen som drog min uppmärksamhet till sig och den lutade sig framåt som för att göra intryck .
+
+sent_id = 03596a198-03586d091
+text = Jag undrade om han aldrig skulle tröttna på att fråga .
+
+sent_id = 035ff5066-035344b61
+text = Det hade inte gått en timme sedan hon släppte ned pengarna till mig -- det var möjligt att hon var vaken ännu .
+
+sent_id = 035664375-0351da7bb
+text = Utan att jag haft den ringaste aning därom , började vi tydligen bli accepterade i vida kretsar runt om i världen .
+
+sent_id = 035f37504-0359d7b93
+text = -- Visst inte .
+
+sent_id = 035c5ed12-035719b40
+text = Varje gång jag sover går mina inälvor ännu en bit mot förruttnelsen .
+
+sent_id = 035b8bcda-035a0ed53
+text = " Än sen då ? "
+
+sent_id = 03580f476-035cea161
+text = Hans bara lemmar var seniga och vita och iögonfallande håriga .
+
+sent_id = 035243d02-035784d26
+text = Billiga typer , som genast stelnar vid temperaturförändringar , kommer att ställa till med problem .
+
+sent_id = 0356d77ab-0354f0122
+text = Nej , det är knappast lämpligt att bedöma hennes inställning efter knapparna .
+
+sent_id = 0355fe7a4-03596b7a8
+text = Det var ett uttryck av öppenhet .
+
+sent_id = 03592a873-035b38a00
+text = En känsla av att kvävas får henne att vilja klösa ut sina minnen med naglarna .
+
+sent_id = 0351c0916-035644a1e
+text = Som obduktionen visade hade ärren från sprutsticken på insidan av armarna och på låren redan bildat skorpor .
+
+sent_id = 0359e0e47-035891dd4
+text = När det kom till den punkt när jag inte kunde röra mig för överbelastning och tyngd , blev jag till sist medveten om att det var nödvändigt att slänga ut alltihop .
+
+sent_id = 0353fa40b-035093b2e
+text = Medströms börjar genast större och mindre virvlar gradvis forma sig runt bropelarna , trögt som smältningen av oraffinerad rishonung .
+
+sent_id = 035dd2405-03534edca
+text = -- Det är ni , doktorn , som är bekymrad över att jag varit naken framför honom .
+
+sent_id = 0355e6543-035a7c05a
+text = Eftersom det inte finns någon anledning att bekymra sig över att bli botad eller inte eller över infektioner , tänker jag ignorera den ganska bryska behandlingen .
+
+sent_id = 035ab3e17-03572a613
+text = Filmstjärnor och sångare gifter sig och skiljer sig .
+
+sent_id = 0355d0af5-0352449d6
+text = Doktorn sköt ut armen genom observationsfönstret för att inte komma i underläge .
+
+sent_id = 035f8032f-0358d8e1e
+text = Faktiskt inte alls .
+
+sent_id = 035255336-0359b0b29
+text = Nu var det emellertid hon som kom .
+
+sent_id = 035f41fa6-03546be7a
+text = Vidare var hela ytan täckt av otaliga inskriptioner .
+
+sent_id = 035303b6b-035b24c10
+text = När trycket lättade i magen kände jag en djup lättnad , som om jag flög över någon avlägsen bergskedja .
+
+sent_id = 03555c9d8-0352dedcd
+text = Min kopia stirrade stint på flickan som stod på alla fyra med rumpan högt i vädret ( försvarslöst väntande på att bli sedd ) .
+
+sent_id = 035b1c65a-035d2adcd
+text = Jag vill att ni ger mig ert tillstånd att se på er .
+
+sent_id = 035813fed-035ea4526
+text = Hur långt den än sträcks ut i tiden förmodar jag att man kommer att vakna ur den någon gång .
+
+sent_id = 035e25ed4-035b78d9d
+text = Tvärtom bearbetade han mig med smicker och till och med hotade mig med upprepade antydningar om att begå självmord ifall jag slutade .
+
+sent_id = 035b8797e-035584aa3
+text = Hur kunde någon se honom , undrade han , och varifrån ?
+
+sent_id = 0350bc1f8-035be1286
+text = Jag är inte rädd för att jag inte skall ha tillräckligt med tid .
+
+sent_id = 0357f2e6e-0359e1710
+text = -- Släck ljuset .
+
+sent_id = 0353f6bf0-035e32402
+text = minuter sedan .
+
+sent_id = 0352a7f28-0359bd732
+text = Jag undrar om ni hört talas om molluscus ?
+
+sent_id = 0357470f9-03583f461
+text = När hon knäppte upp den sjunde knappen , vred hon på överkroppen och såg på väggen bakom sig .
+
+sent_id = 03540a0f9-03599c306
+text = Jag var fullkomligt fascinerad av dem .
+
+sent_id = 0357d1218-03578a837
+text = -- Jag talar om tiggaren som gick omkring med en kartong över huvudet , sade hon .
+
+sent_id = 035cb9e11-035141801
+text = När hon ser ut från sin kartong ser hon genom lögnerna och de hemliga avsikter som döljer sig under ytan .
+
+sent_id = 035ee3976-035705838
+text = Det feminina i ben anser jag , vad ni än säger , helt enkelt ligga i de kurviga ytornas flytande linjer .
+
+sent_id = 03568c4a1-035197c88
+text = Nåja , han hade ju träffat målet .
+
+sent_id = 0354a58e1-035fbb4ef
+text = Mannen i kartongen behövde inte nödvändigtvis ha ansiktet vänt framåt .
+
+sent_id = 035a1f532-035d60bfd
+text = Jag gick över grusgången som ledde till ingången ( eftersom den var övertäckt av jord hördes inte ett ljud ) .
+
+sent_id = 03581e6f9-035569830
+text = Han tänkte att kvarterets självutnämnde uppsyningsman , som alltid tjatade om sopförvaringen , eller gudvetvad , ändå skulle göra något åt saken .
+
+sent_id = 0358d9a29-035dfeb48
+text = Sedan du snabbt avslutat dina anteckningar , glider du ned från sängen och faller på knä på golvet .
+
+sent_id = 03522e45f-035170903
+text = Vad jag menar är att jag inte har någon lust att dö ännu .
+
+sent_id = 0359625fb-035a1b334
+text = Jag tar ut spånet och skumplasten och bär för det mesta bara omkring på fodralet , men den här morgonen hade jag haft en föraning och i förväg stoppat upp den med sand från stranden .
+
+sent_id = 03548e827-035784ca1
+text = Historien bör tas med en nypa salt , har jag en känsla av , men den är inte otrolig .
+
+sent_id = 0350393b8-0352d492a
+text = Det är överflödigt att nämna att porträtten förvandlades till porträtt av en naken kvinna , så snart jag blev mer tränad .
+
+sent_id = 03597d78e-0354f6981
+text = Pianots högfärdiga toner fick hans knäleder att rycka som i nervösa spasmer .
+
+sent_id = 03526bfb3-035d7ec9c
+text = Nu är vi framme vid sista stadiet .
+
+sent_id = 035f9b2f6-03565a89f
+text = Jag tror inte heller att bårhuset vid trappan kastade någon skugga över oss .
+
+sent_id = 035138f6c-035189731
+text = Om det blir alltför illa kan man alltid gå och ställa sig i en husport över en ventil för luftkonditionering .
+
+sent_id = 035cd5e05-035ffe65d
+text = I själva verket är de ganska små inbuktningar , men fisklådor av trä , bitar av bambukorgar och plastburkar dras vacklande nära , börjar plötsligt snurra runt , svajar , välter gång på gång , och just när de tycks stanna upp sväljs de alla samtidigt ned .
+
+sent_id = 035f0999d-03550db68
+text = Sedan använder man armbågen som hävstång och vrider överkroppen , inklusive kartongen , till vänster .
+
+sent_id = 035c23c68-03568c88b
+text = Han resignerade , stålsatte sig mot sin egen fulhet , tog av sig jackan , knäppte av sig skjortan och lät byxorna falla till golvet .
+
+sent_id = 0353a0673-0355d160c
+text = När en giftig orm slinker iväg ur en bananlast , en tjänsteman i Internationella handels- och industriministeriet begår självmord , en treårig flicka blir våldtagen , en internationell konferens har framgång och till slut klappar ihop , en förening bildas för att föda upp steriliserade möss , ett barnlik hittas i cementen på byggplatsen till en stormarknad , det totala antalet desertörer från arméer runt om i världen sätter nytt rekord , tycks världen sjuda över som en tekanna .
+
+sent_id = 0350052c5-035f3db85
+text = Ni kanske inte kommer att tro mig , men det finns inte tillstymmelse till lögn i det jag skrivit .
+
+sent_id = 0357beee6-035d2e64a
+text = För sömn och uttömning behöver man inte välja ut något särskilt ställe , men detta gäller knappast för ätandet .
+
+sent_id = 03511a9b5-035e865a5
+text = -- Låt det vara .
+
+sent_id = 035369c9b-035a5b7cc
+text = Om hon inte gick med på det skulle hon säga det tydligt och klart .
+
+sent_id = 035e19aee-035ddf50a
+text = Detta är ett sådant sällsynt tillfälle , när människan kan se sin egen själ som ett konkret föremål med sina egna ögon .
+
+sent_id = 0359b54b8-035f841a3
+text = Bara tanken på att vara naken hade redan börjat ge honom stånd .
+
+sent_id = 0354b015a-0359323f0
+text = När jag tänkte på vad han hade sagt kunde jag se att det var helt korrekt .
+
+sent_id = 0351a275a-03525f0fe
+text = Du trycker in kolven ännu djupare .
+
+sent_id = 035b3d243-035ff3864
+text = Med tanke på det verkade det ohyggligt långt .
+
+sent_id = 03556c13a-035e7f30d
+text = En farlig färg , fylld med all flyktens blå förförelse .
+
+sent_id = 0356fe99f-03581104a
+text = En ung grabb , som såg ut som en student gick förbi och tittade roat på den fallne mannen : " Herregud , han är ju död ! "
+
+sent_id = 03575d9ae-0353eb904
+text = Nu är vi framme vid förra året .
+
+sent_id = 0353844df-035f5ba52
+text = Det spelar ingen roll hur starkt man tar avstånd från världen och försvinner från den genom att krypa in i en kartong , i grunden är en kartongmänniska an ...
+
+sent_id = 0351d13ca-035a0e9f8
+text = Ni är för långt borta .
+
+sent_id = 035224c40-035a8c5b4
+text = Tunna och sladdriga sorter är ännu värre .
+
+sent_id = 035ff9e2a-0358c2832
+text = Nu har jag just spikat igen ingången .
+
+sent_id = 035271ba7-03547e6c6
+text = Läget på slagfält ändras varenda minut .
+
+sent_id = 035c2789e-0354c2126
+text = Kraftfulla ben som inte hela tiden kämpar mot tyngdlagen som hos en man eller ger upp som hos en kvinna .
+
+sent_id = 035e16b36-035be5f42
+text = Jag behöver faktiskt inte gömma mig .
+
+sent_id = 0356ee578-0355306cc
+text = Om kartongen på minsta sätt är iögonenfallande kommer nämligen den anonymitet , som är dess kännetecken , att bli lidande .
+
+sent_id = 0356a04e3-035adbb2f
+text = Den var alldeles för skicklig för normala behov .
+
+sent_id = 0353f152b-0356314e7
+text = En gång kunde jag inte undvika hans överraskningsanfall , eftersom jag vant mig vid att inte låtsas om honom , och därför var ouppmärksam och inte på min vakt .
+
+sent_id = 03575c1f1-035cf9963
+text = Därmed har alla nödvändiga åtgärder för att få det att se ut som om kroppen dött genom drunkning fullgjorts .
+
+sent_id = 035a19872-0356f026b
+text = Det är naturligt att du känner dig tung om hjärtat .
+
+sent_id = 0351ca52a-035c6d056
+text = Därför var hon rädd att smälla igen den .
+
+sent_id = 03576cbcf-03532fc4a
+text = Jag hade massor med tid , eller kanske var det snarare så att det jag hade för händer sög upp mig , eftersom jag har haft mycket att tänka på under veckans lopp .
+
+sent_id = 03549e188-035f39e3c
+text = Lederna börjar längtansfullt minnas tyngden av de olika vävnader och muskler som styr dem .
+
+sent_id = 0355f2b3b-035863279
+text = Om jag skrev ut en dödsattest skulle den för det första innehålla samma namn som jag själv bar och det skulle jag knappast kunna visa upp för en offentlig instans .
+
+sent_id = 035808cc4-035e169b2
+text = Hon bet sig lätt i underläppen .
+
+sent_id = 035a91d13-035fc557d
+text = Ändå har jag absolut inget minne av det .
+
+sent_id = 035e2ec89-03502fe7b
+text = Den som tröttnar på att prata eller den som tröttnar på att lyssna ? "
+
+sent_id = 0355ef10b-0351bca29
+text = Han sa att jag skulle sluta prata strunt och att han borde veta det bäst själv .
+
+sent_id = 0351b2afc-03532161e
+text = -- Vi kommer att få problem om du utelämnar det du vill .
+
+sent_id = 03570d8a7-035c47c02
+text = Enligt doktorns uppfattning kunde inget brott föreligga om det inte förekom några klagomål .
+
+sent_id = 03585a395-0352e3d97
+text = Hade hon utan ord meddelat att de ännu inte kommit överens om att upphöra med undersökningarna ?
+
+sent_id = 035b87ff2-035db3dba
+text = Jag sitter ju verkligen och skriver .
+
+sent_id = 0358e9ee1-035870a3f
+text = " Nåja , om det är på det viset , kan jag väl också klä av mig .
+
+sent_id = 03599ac67-03508e364
+text = Jag hade gått den här vägen många gånger förut , men det här var första gången jag gått den med en kartong på mig .
+
+sent_id = 035438f9e-0357ea4ae
+text = Och sedan en underlig mekanisk stol som såg ut som en tandläkarstol , men som på något sätt kändes annorlunda .
+
+sent_id = 035d59371-03534281a
+text = När jag alltså noterade att istället för att se en naken flicka komma springande uppför trappan , jag idag såg en påklädd , som tyst betraktade mig , så var jag inte särskilt förbluffad och lyckades endast känna en lätt besvikelse , som om jag återvänt till utgångspunkten .
+
+sent_id = 03531f047-0353230e2
+text = Olyckligtvis såg jag bara ryggen på henne , men benen var fantastiskt vackra .
+
+sent_id = 035062ae1-03553c48a
+text = Detta är händelseförloppet fram till i dag .
+
+sent_id = 0356e6325-035f96d97
+text = Utrotning av allt liv i havsvikar genom utsläpp från fabriker , men på något sätt överlever du allting .
+
+sent_id = 035c5a5ee-0350a2896
+text = Killen sprang mot vägkanten och sedan tvärs över vägen och försvann utom synhåll .
+
+sent_id = 035299371-03512b8b7
+text = Du sitter nu och stirrar på kanten av den tjocka glasskivan på skrivbordet .
+
+sent_id = 03513382e-0357b6936
+text = " Åh , det där är någonting som det är säkrast att tala tyst om .
+
+sent_id = 035f64da7-035a77958
+text = Jag väljer döden av fri vilja .
+
+sent_id = 0359c3582-0354f74af
+text = Gummislangen virade sig kring hennes smala seniga fingrar och hennes naglar glänste i silver .
+
+sent_id = 0353c9d71-0359cba91
+text = 3 .
+
+sent_id = 03505018b-035767b0b
+text = Jag ville åtminstone sova ett par , tre timmar innan jag lämnade kartongen .
+
+sent_id = 035ad30f0-035d76025
+text = De var smäckra , men inte alltför smäckra -- ljusa ben med mjukt avrundade kurvor .
+
+sent_id = 035f96d59-035bbcec7
+text = Ilsken över sin egen svaga vilja och med värkande hjärta har han inte förmåga att slita sig från radioapparaten eller teven .
+
+sent_id = 035fe395a-035d69273
+text = Lyckligtvis verkar kartongmannen vara ovanligt fäst vid henne .
+
+sent_id = 03512d201-0357f4fcb
+text = Det är lika bra att jag går i sömnen .
+
+sent_id = 035d7148d-035a8fad6
+text = Himlen hade en rödlila ton , det var säkert neonljusen från gatan som reflekterades mot molnen .
+
+sent_id = 0359f257c-035bb20f0
+text = Jag mindes en dröm där jag vridit mig desperat , medan jag flöt omkring i taket och såg ned på min egen döda kropp .
+
+sent_id = 035cabe08-035e9e3f3
+text = Jag sade vagn , men egentligen var det en bagagekärra .
+
+sent_id = 0352adbed-035ebfc1c
+text = Hon kallade dig en skitstövel . "
+
+sent_id = 0358a4b6a-035893f2c
+text = Det är en flyktväg som bara står öppen för en kartongmänniska .
+
+sent_id = 035edd186-03575506a
+text = Tillverkningen av kartongen behöver inte följa något speciellt schema .
+
+sent_id = 035b1317d-035c713f0
+text = Jag ville tvätta mina underkläder och min skjorta , raka mig och tvätta håret , för att inte tala om resten av min kropp .
+
+sent_id = 035b79c53-035c34860
+text = Han verkade vara ganska upphetsad .
+
+sent_id = 0358b8f21-035ba0e5e
+text = D sade till sig själv att han inte fick vänta sig för mycket , att det skulle vara alldeles för högmodigt att vänta sig att lyckas första gången .
+
+sent_id = 035a91599-035e1b99a
+text = Varje gång jag tänkte på det , kändes smärtan över vårt avsked lika stark , och mina slappa tårkanaler flödade över utan någon som helst anledning .
+
+sent_id = 035797d88-0353e7086
+text = Detta innebär inte att allt kommer att följa någon logisk ordning .
+
+sent_id = 035ae8e9f-035dc8e0b
+text = Hennes ryggmuskler sträcktes som ett måttband av stål .
+
+sent_id = 035ab31da-03599d2f2
+text = När jag bände upp det hoptorkade locket brast gångjärnet .
+
+sent_id = 03528f163-035fc89fd
+text = Hur jag än skriver dem , så angår det bara mig . "
+
+sent_id = 035751b6f-0350f8550
+text = " Kan vi göra så här ?
+
+sent_id = 035964c6f-0355e5e09
+text = Att bli tagen på bar gärning när han kikade från den här sidan planket skulle kunna bli ganska mycket besvärligare .
+
+sent_id = 035d814fe-035ccc7e9
+text = Resultatet av obduktionen gjorde det möjligt att fastställa den antagliga tiden för dödens inträffande till cirka trettio timmar tidigare . "
+
+sent_id = 035375c56-0359143b2
+text = Jag har naturligtvis börjat lägga märke till att tiden blivit alltmer ogynnsam för detektivhistorier .
+
+sent_id = 035a767a9-0353582c1
+text = För första gången används en reservoarpenna och handstilen är helt annorlunda .
+
+sent_id = 0351ceaf2-035bc89f4
+text = Han såg den ljudisolerade dörren översållad med hål , vars blotta åsyn gav honom en känsla av klåda .
+
+sent_id = 035839d8e-035e10e87
+text = Men frånsett inkomsten , var tydligen det modelljobb hon tidigare sysslat med det arbete som tilltalade henne mest .
+
+sent_id = 0359ac1ca-03511d4a0
+text = Men han blev mer och mer upphetsad och körde med all styrka in nosen som en blöt tvål mellan mina ben .
+
+sent_id = 035fc1e7b-035095e3f
+text = Om en oemotståndlig känsla av lättnad kommer att lysa fram i hennes spända drag , innebär det att hennes förhållande till doktorn från första början rymt främlingskap och att jag kommer att rädda henne från hans förbud och pålagor .
+
+sent_id = 035b21909-035e6f074
+text = Ett bärbart hus av wellpapp exakt avbildat efter kartongmänniskan i sängen närmast väggen .
+
+sent_id = 0354f702f-035b61cfa
+text = Den döda människan har förändrat sig , men världen omkring henne har också förändrats och saker och ting kan inte förändras mer än de redan har .
+
+sent_id = 035bf5855-03525c260
+text = " Vad tycker du om det här stycket . "
+
+sent_id = 03576b542-03522cba3
+text = Efter en stund stänger jag av strömmen .
+
+sent_id = 035a7ec10-035d4debf
+text = Hon lämnade tillbaka glaset till kartongen , och tog ett par långa steg bakåt med svängande höfter .
+
+sent_id = 035bb1933-0357db984
+text = Hon hade nästan rökt upp en tredjedel av cigarretten .
+
+sent_id = 0358ec96f-0350bfb33
+text = Han harklade sig och fortsatte med lägre , mer inställsam röst .
+
+sent_id = 0353fd1dd-035db230c
+text = Ser jag ut som om jag ville så mycket ?
+
+sent_id = 035fd9e65-0359d344e
+text = Hon hade tydligen avslutat sin vattenkastning , sedan hon upptäckt honom .
+
+sent_id = 035507970-035fa9471
+text = Men det här var verklighet och inte fantasi .
+
+sent_id = 035bc0717-03568e746
+text = " Chopin !
+
+sent_id = 035d6e39e-0358bfe72
+text = Jag hade tänkt komma hit sedan jag gjort mig av med den .
+
+sent_id = 03569dadf-035479ce8
+text = 5 .
+
+sent_id = 03560f1ff-035bd4e21
+text = Men för att klara av det behövde han hennes hjälp och det skulle ta ganska lång tid .
+
+sent_id = 0358ff0b5-035d00f02
+text = I princip är det samma teknik som att kasta diskus , fast man inte tar sats .
+
+sent_id = 035921ffc-035e1ed2e
+text = Vad beträffade den detaljen tog han på sitt sätt för givet att de skulle kunna komma till en gemensam överenskommelse .
+
+sent_id = 035317d3c-0352eedf7
+text = En kraftig tropisk storm vräkte sig ned och fick havsbotten att skälva .
+
+sent_id = 035d7e4b4-035e0eba9
+text = Jag vill spionera överallt , och eftersom det är omöjligt att slå upp hål i hela världen , gick det upp för mig att en kartong under dessa omständigheter kunde fungera som ett bärbart hål .
+
+sent_id = 0355af641-035090e76
+text = Det viktiga var att hon var påklädd .
+
+sent_id = 03561fe78-03533ad4d
+text = Jag försökte skulptera hennes torso .
+
+sent_id = 0353614e9-035f788fa
+text = Vad beträffar omständigheterna kring det lik , som ni frågade mig om , kan jag med säkerhet omtala att kroppen tillhör den doktorskapten , vars namn jag lånade för att praktisera medicin .
+
+sent_id = 0352e45a8-0353fb34a
+text = Om jag börjar prata nu slutar det med att jag bekänner .
+
+sent_id = 035440259-035de061d
+text = De är praktiska medel för fortskaffning .
+
+sent_id = 035341ecd-03533abca
+text = Jag skall fästa en sten , stor som en knytnäve vid tejpen , med hjälp av papper .
+
+sent_id = 035480f52-03573bdae
+text = Det låg ett tomt rum tvärs över korridoren , där det var bekvämt att stapla upp köksavfallet .
+
+sent_id = 03585021e-035c165f8
+text = Ni drar ut för länge på det .
+
+sent_id = 035228afb-035da169c
+text = Eftersom du nyss satt mig i exakt samma situation , vill jag inte höra några undanflykter . "
+
+sent_id = 035735cca-0352c0b97
+text = Hon fimpade sin cigarrett , nickade och kliade sig i örat med den fria handens lillfinger .
+
+sent_id = 0355dfa3f-035fb7b11
+text = När en narkomani fortskridit så långt , är det enligt min uppfattning inte lönt att förvåna sig över eccentriskt beteende av den här arten .
+
+sent_id = 035406571-0350b206a
+text = Hade jag inte riktigt väntat mig svek av henne ?
+
+sent_id = 035204aa7-0358776b0
+text = Ni säger visst att jag har en tendens att klänga mig fast för hårt vid kartongen ?
+
+sent_id = 0353a9a7d-035f75843
+text = -- Märkligt .
+
+sent_id = 035230df7-0359ffeea
+text = Titta bara , mina ben skakar som om jag suttit på en tvättmaskin .
+
+sent_id = 03551c869-035c46650
+text = " Det tjänar inget till att ljuga .
+
+sent_id = 035cc4920-035b197c1
+text = under dagen i övermorgon när ännu ingenting inträffat .
+
+sent_id = 035938def-0358718c4
+text = Du går fram till sängen .
+
+sent_id = 035fcb191-03577f610
+text = Att få den andra att låtsas som om hon inte såg honom var utan jämförelse det mest stimulerande .
+
+sent_id = 03569c1c8-0357f4260
+text = Jag blev lättad när jag insåg att den falske kartongmannen inte stigit ut ur sin kartong .
+
+sent_id = 035c0547d-0352bc089
+text = Min egen åsikt är att texten i detta legala prejudikat håller sig en aning väl mycket till fysiska aspekter .
+
+sent_id = 0356f5c34-035342c3b
+text = Ta av dig kläderna nu .
+
+sent_id = 03548c8e5-0357a6e4a
+text = Han kände det som om gevärskulan studsat tillbaka från två veckor tidigare .
+
+sent_id = 035aa1a48-035063826
+text = Skulle det vara bättre om jag talade om det här för dina föräldrar ? "
+
+sent_id = 0358b3cc2-035390886
+text = Han kunde se sin lilla flyende kropp skutta iväg över det .
+
+sent_id = 03574e108-035a47a87
+text = Bläcket är slut .
+
+sent_id = 035e0cf43-0355ed045
+text = Till slut använde jag förstoringsglas och nålade fast papperslappar som inte var mer än tumnagelsstora vid mitt ritbord .
+
+sent_id = 035d568b7-035297528
+text = Jag kommer inte att lägga mig i eller bråka med er eller ställa till några som helst problem för er .
+
+sent_id = 035c80435-0351815d1
+text = " Blunda ett tag .
+
+sent_id = 035b77c33-035fd503b
+text = Jag var fruktansvärt besviken .
+
+sent_id = 035af55b2-035039c2c
+text = Snart blir det ljust . "
+
+sent_id = 035336f2c-035519128
+text = Varför är du så långsam ?
+
+sent_id = 035873383-035236d3b
+text = vittrar det småningom sönder .
+
+sent_id = 035db9ba6-03527db3d
+text = Efter avmobiliseringen fortsatte jag att arbeta tillsammans med doktorn .
+
+sent_id = 0352a09b7-03519d2a0
+text = Men nog är det konstigt , eller hur ?
+
+sent_id = 03583ba08-03544a2cf
+text = Den som stod först i kön stoppade in pengar i kartongen ( min far , förstås ) bredvid pianot och mottog med stor vördnad den tavla jag just målat färdig .
+
+sent_id = 0357cb236-03551ef22
+text = Bakdelen , som är täckt av ryggskölden , mjuknar och om kräftan tvingas ut kommer den att krossas och dö .
+
+sent_id = 035d21518-0353edc1d
+text = Det blir hennes reaktion gentemot mig som kommer att avgöra om utgången , hur behaglig eller obehaglig den än må bli , skall visa om jag vunnit eller förlorat på att avsäga mig kartongen .
+
+sent_id = 03526694f-035e7094a
+text = Fast han kanske bara låtsades gråta .
+
+sent_id = 035dcab7a-035a0bdd7
+text = Då skulle hon bli fri .
+
+sent_id = 035d635bf-035c4c036
+text = Det kan inte vara mer mord att döda en kartongmänniska än att döda på slagfältet eller utdela straff som utförs av en bödel .
+
+sent_id = 0353198cb-03518b4ea
+text = Havsvatten som bara förekommer i lungorna måste ses som något mycket anmärkningsvärt och kan inte undgå att väcka misstänksamhet .
+
+sent_id = 0352098ef-035af9a8e
+text = Efter en stund sipprade en skälvande ljuscirkel ned över marken ungefär två meter framför mig .
+
+sent_id = 03558420a-035939cd0
+text = Kanske berodde det också på att mitt mål var för tydligt utstakat .
+
+sent_id = 035fd9cd9-03552975e
+text = Den tråkade redan ut mig fullkomligt .
+
+sent_id = 035fb1248-03597df9d
+text = Så snart jag uttröttad fallit ihop i sanden hörde jag någonting ovanför mig som lät som en grusbil som välte .
+
+sent_id = 0353b2f01-035fb2cd0
+text = Icke desto mindre var det en ytterst elegant efterapning .
+
+sent_id = 0352c8ce4-035879ef3
+text = -- Om han visste hade han ju inte behövt fråga dig , eller hur ?
+
+sent_id = 035bfeef7-035c29712
+text = Det är sant att en kartongmänniska knappast är iögonenfallande .
+
+sent_id = 0359679ca-0358beed6
+text = Tvärs över gatan , mittemot affärerna , låg en mäklarfirma kombinerad med en privat bagageinlämning .
+
+sent_id = 03594a021-035d25452
+text = Först och främst ( om man är högerhänt ) , måste man böja högra armen , som sticker ut genom observationsfönstret , vågrätt från insidan .
+
+sent_id = 035b78c68-035e19cfd
+text = Jag ringer på .
+
+sent_id = 035c44c58-0359a7d96
+text = Han fylldes av ett starkt tvång att ta sig in i huset och förstöra pianot .
+
+sent_id = 035f52971-0350336e9
+text = Det gör absolut ingen skillnad om jag river sönder de här anteckningarna och slänger bort dem så snart jag avslutat den här sista meningen ...
+
+sent_id = 0359c3bbd-0352bf2dd
+text = Låt mig säga ett par ord om hans forskning .
+
+sent_id = 0355cd27e-035976661
+text = Samtidigt gjorde kartongen ett våldsamt språng .
+
+sent_id = 035b667e9-035181d8b
+text = Om han bara inte bestämt sig för att byta kylskåp , så skulle han i sinom tid ha botats från ovanan , men ...
+
+sent_id = 03558a730-035e2e73d
+text = Kanske hon var med på hans plan från början .
+
+sent_id = 035e0f498-0355621d0
+text = En ymnig samling ogräs snodde sig runt fötterna på mig .
+
+sent_id = 0353cbe1d-035e56b2a
+text = Och dessutom , för att tala rent ut , så är jag missnöjd .
+
+sent_id = 035271827-035c389ab
+text = Han väntade inget besök och hade ingenstans att gå .
+
+sent_id = 03597b9bd-0355f761f
+text = Jag kände mig illamående .
+
+sent_id = 0351c45d6-035e6d004
+text = Jag kände mig mycket dålig , som om jag just blivit förkyld .
+
+sent_id = 03556c1fd-03506bb1c
+text = " Du svettas över hela kroppen ... "
+
+sent_id = 035af9379-03577369a
+text = Det heter ju : ' sopa dammet under mattan ' .
+
+sent_id = 035b21322-0351ea83a
+text = Först blötte jag ned mig ordentligt under duschen , sedan tvålade jag in mig över hela kroppen och skrubbade mig ordentligt med underkläderna istället för med en tvättlapp .
+
+sent_id = 035b8da34-0358c1394
+text = När han tar av sig den är det som att komma rätt in i en annan värld , precis som när en insekt genomgår en metamorfos .
+
+sent_id = 03597baf6-035823c99
+text = " Jag tror helt enkelt att patienterna skulle fara illa om vi plötsligt meddelade att det inte längre gjordes några undersökningar . "
+
+sent_id = 035fba79e-035e5e497
+text = På det avståndet kunde vi knappast se varandra , men det upplevde vi inte som särskilt besvärande .
+
+sent_id = 035e1a93e-035879a43
+text = Det lät som när man river av ett plåster , och sedan kunde jag se kartongens insida .
+
+sent_id = 035d3ba32-035ae668d
+text = Han började gråta istället .
+
+sent_id = 03535f1fd-035e5a199
+text = Men vänta ett ögonblick , jag kanske har förbisett någonting viktigt .
+
+sent_id = 035c8c431-035dc7f2d
+text = ( Stopp ett tag .
+
+sent_id = 035ef4ac6-035abaf7a
+text = Vattnet var mycket mörkare än himlen .
+
+sent_id = 035ec356f-0355016de
+text = Ni har ansträngt er att få flickan att skriva ut ett laissez-passer över demarkationslinjen , inte sant ?
+
+sent_id = 03509a100-035f51c51
+text = Allt blod rann ur skinkorna och de blev vita och avdomnade .
+
+sent_id = 035029451-035bdeaa4
+text = Vägen var grusbelagd och under mina fötter var det ljusare än runt omkring .
+
+sent_id = 0356c80bb-035600b63
+text = Jag betonade till och med alldeles särskilt att jag skulle kunna sälja den till henne för ingenting .
+
+sent_id = 03544a5c8-0354459cd
+text = Framförallt växte mitt medicinska intresse gradvis och jag sög flitigt och oupphörligt in de senaste rönen i den medicinska litteraturen och fackpressen .
+
+sent_id = 0354283d9-035e45367
+text = Så snart man tittar ut genom kartongens observationsfönster , ser emellertid allting annorlunda ut .
+
+sent_id = 0356aabe3-035ca9e0b
+text = Det var svårt att jaga bort honom tyst .
+
+sent_id = 0358684a4-035a07960
+text = Till sist gick A själv till polisen .
+
+sent_id = 035a16b9a-035bb6ff2
+text = det fotografiska bevismaterialet
+
+sent_id = 03554ac0b-0351f3a04
+text = Men dina motiv är alldeles för uppenbara .
+
+sent_id = 035370c74-0353afe4a
+text = Små virvlar dansar på vattenytan i tratten .
+
+sent_id = 0355cd1d3-035c7660f
+text = När det begav sig stod jag just där och lättade mig .
+
+sent_id = 035dcafd0-0354b8d66
+text = Jag bytte arm och stöttade den här gången spegeln mot fönsterkarmen för att kunna hålla den stadigt .
+
+sent_id = 035ad8f40-03579635a
+text = Han kunde definitivt känna att en förändring ägt rum , men en sådan grad av förändring var ju önskvärd .
+
+sent_id = 035a8669a-03592af9d
+text = Om någon en dag gör en tydlig utskrift i en ny anteckningsbok med andra anteckningar , borde de helt enkelt standardisera papperet och handstilen .
+
+sent_id = 035a62d85-03565ced7
+text = En löjligt hederlig kartongmänniska , som bara hade väntat på att någon skulle slänga åt honom femtio tusen yen , som en belöning till en hund , som stod en halv dag som han lovat och studerade vattenvirvlarna under bron ... papphuvud ... dasspapper ... skyddad av en pappkartong ... taskspelare i pappkartong .
+
+sent_id = 0358ae2d4-035d3e164
+text = När kriget var över hade han redan utvecklat symptom på beroende .
+
+sent_id = 03550100d-03586c01f
+text = " Men jag förstår inte ... välskapta ben , klumpiga ben ... det är som att tvingas läsa ett främmande språk som jag är obekant med .
+
+sent_id = 03577d572-0359cca74
+text = Någonting falskt var i alla fall någonting falskt när det kom till kritan .
+
+sent_id = 0352b23a6-035a1a0fe
+text = " Var jag verkligen så besvärlig ? "
+
+sent_id = 0354dd88b-035a6a5c5
+text = " Det är många häromkring som har luftgevär .
+
+sent_id = 03565699b-03511fa81
+text = Vad tar du dig till ! "
+
+sent_id = 035740724-03507d7db
+text = Om upphittaren så önskar , kan han göra sig en liten förmögenhet på de här anteckningarna .
+
+sent_id = 0358e94fc-035d0e85b
+text = Om han lyckades utvinna socker ur trä skulle det vara en upptäckt av världsomfattande betydelse .
+
+sent_id = 035f5c1fa-035f9c2e4
+text = Så ofta de kunde , låtsades alla att de inte såg honom .
+
+sent_id = 0357de171-035de5243
+text = Klockans visare nöts ojämnt .
+
+sent_id = 0353f53c8-0356bc38f
+text = Det röda ljuset lyste fortfarande långt i fjärran .
+
+sent_id = 0357b27b5-035716411
+text = Gasledningar under konstruktion antändes och åtta personer fick allvarligare och lättare skador , men du lever och är trygg .
+
+sent_id = 035eca3b0-035fdfd78
+text = Från början var Nana formellt gift med den arméläkare vars namn och identitet jag lånade medan jag praktiserade , men eftersom jag sammanbodde med henne med läkarens vetskap och medgivande orsakade det aldrig några problem .
+
+sent_id = 0356346b5-035702826
+text = Kan ni inte låna mig ett par byxor .
+
+sent_id = 035693151-0352a6083
+text = " Enligt officiell statistik tjugonio , men i verkligheten trettiotvå , eller trettiotre skulle jag tro . "
+
+sent_id = 03580feab-03508eda6
+text = Hon , till exempel , som jag hade råkat möta veckan innan , hon , som lika omisstänksamt som ett barn hade sopat undan mina skulder som en högenergihaltig anordning för allrengöring , om det bara var hon var det möjligt att jag skulle kunna råka på henne igen någonstans .
+
+sent_id = 0352d914f-0355657f5
+text = Det skilde sig alldeles för mycket från vad jag hade väntat .
+
+sent_id = 0352149c7-035079ac8
+text = Om ni är en av dem som har drömt om , bara en enda gång i era tankar beskrivit , den anonyma staden som finns till för sina namnlösa invånare , får ni inte vara likgiltig , för då är ni alltid utsatt för samma faror som A -- den där staden där alla dörrar står öppna , där man inte behöver vara på sin vakt ens bland främlingar , där man kan stå på huvudet eller sova vid vägkanten utan att bli klandrad , där det står en fritt att sjunga om man är stolt över sin förmåga , och där man , när man gjort allt detta , kan flyta in i den namnlösa massan närhelst man önskar .
+
+sent_id = 035311e3d-035554536
+text = Jag snubblade över kantstenarna , och hunden , som misstolkade situationen , skuttade glatt omkring mig .
+
+sent_id = 03579f9d5-035f231ff
+text = Den som skall dö lider av en svartsjuka och en avundsjuka som de kvarvarande inte kan föreställa sig .
+
+sent_id = 035f67c14-0358f4fd2
+text = Jag verkade vara djupt sårad av det som faktiskt inte hade hänt -- scenen där kartongen våldförde sig på henne -- någonting som jag inte ville skulle hända , någonting som absolut inte fick hända .
+
+sent_id = 035151ddc-0351149a6
+text = Det fanns ingen anledning att tillfoga honom ytterligare straff ovanpå detta .
+
+sent_id = 035f42bc1-035177604
+text = När jag tryckte fingrarna mot såret blev de kladdiga och översköljda av blod .
+
+sent_id = 035961c0a-035dd84fc
+text = Lugn !
+
+sent_id = 035d3ae3d-035b45c0e
+text = Jag blev alldeles handfallen .
+
+sent_id = 035e4114f-035f4c0a1
+text = I en vrå av hans medvetande flöt bilden av hennes vita skinkor nedsänkta i toalettskålen samman med spolvirvlarna .
+
+sent_id = 0354b8452-035f1d621
+text = Just när jag skall sticka in tungan i luftens anushål , mörknar drömmen och stannar av .
+
+sent_id = 0354e2570-0356b5f6c
+text = " Nåja , anta då att jag försöker pränta in det faktum att han inte existerar i verkligheten för att bevisa hur overklig han är . "
+
+sent_id = 035135ff3-0352ba819
+text = Hans flämtande andhämtningar var , tänkte han , som den röda , brinnande änden på ett bloss där det dinglade i sitt pappersband .
+
+sent_id = 0358bc815-035194dda
+text = Den visade ryggen på någon som hade bråttom uppför backen och dolde ett gevär genom att försöka hålla det tryckt mot kroppen under armen .
+
+sent_id = 0350c22fd-035f34464
+text = undrade han .
+
+sent_id = 0353118b1-035667c26
+text = Klockan fem hade hans far ännu inte kommit hem och hans mor var då vanligen ute och handlade till kvällsvarden .
+
+sent_id = 03546ef60-0353662da
+text = -- Så då vill du inte fortsätta ?
+
+sent_id = 03528560d-03575245a
+text = Först skall jag djärvt göra flickan min kur , och om jag blir avvisad ( och avvisad är just vad jag kommer att bli ) , skall jag döda henne och sedan skall jag i dagar njuta av att äta upp hennes lik .
+
+sent_id = 0357614fa-035ca73ff
+text = Behållaren innehåller havsvatten .
+
+sent_id = 0353205d4-0358c03f4
+text = Det kanske är det här gräset med dess taggiga blad som vrider sig som fyrverkeriblixtar och täcker hela den klippiga slänt , där jag nu sitter .
+
+sent_id = 03577567d-0355103f7
+text = Kan det tydas på något annat sätt ?
+
+sent_id = 03533b082-035dfc550
+text = En övergiven sandig strand där eremitkräftor kravlar omkring och för oväsen .
+
+sent_id = 03509a2d4-0356e282a
+text = Det tar två och en halv minut att vässa den .
+
+sent_id = 0358e6fac-035e4f97f
+text = När jag kom för att få behandling förra veckan hade jag dem på mig för första gången .
+
+sent_id = 0351ef886-03546ae35
+text = Till och med den vanliga sortens wellpapp har nyligen förstärkts , och eftersom den är tämligen vattentät finns det ingen anledning att välja någon specialsort , om man tänkt vara ute under den regniga årstiden .
+
+sent_id = 03508f393-035472f04
+text = Det får en helt oväntat att känna det som om man såg in i en annan tidsdimension .
+
+sent_id = 035ba512b-035c5f775
+text = I utkanten av en sparsamt besökt badplats sköljdes en oidentifierad kropp upp .
+
+sent_id = 035b88fe3-0354dddea
+text = En representant för anti-avbetalning .
+
+sent_id = 0356e3296-035ae6bf3
+text = Den tjänar också som skärbräda när jag lagar mat .
+
+sent_id = 0353508d4-035d160e2
+text = " Nej , men ... "
+
+sent_id = 03520c261-03554ac3a
+text = Precis som insidan på ett luftskepp .
+
+sent_id = 0355175e3-035465921
+text = Man kan inte göra anspråk på att vara en riktig kartongmänniska innan man kan handskas med tiggarna från Wappen .
+
+sent_id = 0355acf72-035af3963
+text = Det var fint att hon dök upp i egen person , men det var alldeles för affärsmässigt .
+
+sent_id = 03540b130-0353a0d0a
+text = Personligen anser jag att en kartong långt ifrån är ett slut , utan istället ett inträde i en annan värld .
+
+sent_id = 0350664e3-03552ed50
+text = vet inte ens jag själv
+
+sent_id = 0354beaf1-035efbce2
+text = Eftersom axlarna var dragna bakåt såg hennes bröst mindre ut än de i själva verket var .
+
+sent_id = 035a2a64a-035d5b297
+text = Om du gör någon din kur på det sättet kommer du aldrig att behöva bli sårad .
+
+sent_id = 035d2cac0-035f5d9ee
+text = Men han tog genast av sig den igen -- han hade sannerligen anledning att le bittert !
+
+sent_id = 035cb358e-03575259c
+text = Det är också bäst att du sätter på mig byxorna och stövlarna innan du tar på mig kartongen .
+
+sent_id = 035e9a808-035d3a5ed
+text = " När tror ni egentligen att er tvätt kommer att vara torr ? "
+
+sent_id = 035ba3657-035e65290
+text = -- Det där glaset är sprucket .
+
+sent_id = 0359ce1f0-035e17cc5
+text = Hon sade att spänningen i att exponera sin nakna kropp som modell gav hennes liv extra krydda och inspirerade henne att skapa .
+
+sent_id = 035e52224-03503d029
+text = Det tog inte fem minuter innan han satt där och stirrade på lysröret och verkade ha glömt mig helt .
+
+sent_id = 035f9f1ad-035aba4a1
+text = Det stämde visserligen att hon hade lovat stå modell för mig .
+
+sent_id = 0352c179e-035ec7ae2
+text = Hon såg enträget på mig .
+
+sent_id = 0352f7b67-035a4c5c5
+text = De bedömer alltför lättvindigt vilken betydelse en kartong har för en kartongmänniska .
+
+sent_id = 035617796-035265186
+text = Du drar ut nålen , stryker på blodstillande medel och pressar fingertoppen hårt över såret .
+
+sent_id = 035df9232-035e3647b
+text = Sedan tittade han rätt ut genom fönstret , och när han gjorde det vände kartongmannen kartongens observationsslits rakt mot honom .
+
+sent_id = 0359e3b40-035731cf2
+text = Vänd er åt det hållet . "
+
+sent_id = 035cd732a-035721ba9
+text = Krokodilen , som jag tagit fram , var litet mindre än tre och en halv decimeter lång med en bröstvidd på strax över tre decimeter .
+
+sent_id = 0355219ec-035704d05
+text = Men det var den falske kartongmannen som skrattade .
+
+sent_id = 03544eb13-03536a578
+text = " Det ligger ett sjukhus längst upp på kullen " , sade den .
+
+sent_id = 035bf1a2f-035269489
+text = Nu har jag till slut kommit underfund med vem ni verkligen är .
+
+sent_id = 03557f093-035d878a5
+text = Jag drog en djup suck .
+
+sent_id = 035e041b4-035947d61
+text = Hennes röst från andra sidan dörren var också torr .
+
+sent_id = 03582e468-0351bdf9b
+text = Hon lyfte blicken och såg kokett på den falska kartongen .
+
+sent_id = 035268459-035ca73a9
+text = Om jag dör kommer det inte att vara självmord , inte ens genom olyckshändelse , utan definitivt bero på elakt spel .
+
+sent_id = 03508f8da-0351bcc4e
+text = Men när jag slog upp ögonen hade underkläderna och byxorna , som jag hängt till tork , försvunnit .
+
+sent_id = 03513f20c-035650de0
+text = Nu sitter du och tittar på en almanacka från en läkemedelsfabrik , som du lagt under glasskivan på skrivbordet .
+
+sent_id = 03555ebea-035c71637
+text = " Chopin , du är inte alls utan talang .
+
+sent_id = 0353789b4-035d0ed82
+text = -- Det är samma sak ... var det än är ...
+
+sent_id = 0354c14f8-03525ba51
+text = Dessutom måste det finnas ett bestämt avstånd mellan honom och den andra personen , och relationen mellan att se och bli sedd får inte störas genom att man kommer varandra för nära .
+
+sent_id = 035e310db-0359e275d
+text = Hur , undrade jag , skulle hon se ut nu ?
+
+sent_id = 03566f6bf-035c72262
+text = Sedan dess har han inte återvänt till sin lägenhet .
+
+sent_id = 03513f41f-035af0233
+text = Fisk luktar fisk , kött luktar kött , grönsaker luktar grönsaker , allting har en egen lukt , och när man får detta bekräftat när de blandas i munnen på en , känner man sig nöjd och lugnad .
+
+sent_id = 035f18fc7-0351559fa
+text = Men jag förstår ändå inte .
+
+sent_id = 03512e4ca-03531fa45
+text = " Det är ju ungefär samma sak . "
+
+sent_id = 035a3f3bd-035e95a55
+text = Hennes nakna kropp skulle ha varit den definitiva orsaken att förhandla om förlängningen av mitt liv , för så länge jag ser henne begår jag inte självmord .
+
+sent_id = 0354e3396-0350a9fbf
+text = Så genant det blir för mig om du inte spelar den roll du fått dig tilldelad , den må sedan vara hur obehaglig eller löjlig som helst .
+
+sent_id = 035f9fd96-03518cfd7
+text = När man tänker på de hårda skakningarna i vagnen , finns det heller ingen anledning att klandra mig för att mina naturliga behov till sist krävde sin rätt .
+
+sent_id = 0353a388d-0358758fa
+text = Hur stora katastrofer de än hör talas om , så är emellertid de som lyssnar fullkomligt levande .
+
+sent_id = 035c95a6b-035462145
+text = Nu kan det tyckas som om jag upprepade mig själv , men jag är för närvarande en kartongmänniska .
+
+sent_id = 035354230-035f59613
+text = " Vad tänkte du om mig ? "
+
+sent_id = 0355d5495-03536753a
+text = Till dess hade jag inte tyckt att kartongen var fullt så oestetisk .
+
+sent_id = 035de9da5-0353dc817
+text = till ridå
+
+sent_id = 035e96dbd-035c41800
+text = Den var mörkt grå med upphöjda sömmar som på en rugbyboll .
+
+sent_id = 035428acb-035587c92
+text = Som resultat av detta har jag kallats .
+
+sent_id = 035a50a22-0357ceb8d
+text = Doktorn utvecklade en sjuklig svaghet för sötsaker under ursäkt att han saknade sina gamla experiment där han försökte utvinna socker ur trä .
+
+sent_id = 035392f89-035eb82dc
+text = Någonstans i buskaget hördes det sorgsna flämtandet från hunden som hamrade mot marken med burken han hade mellan tänderna .
+
+sent_id = 03567d58e-03545f187
+text = I någon ihålig skarv i sängen , som lätt kan upptäckas med litet ansträngning , men som inte direkt faller i ögonen .
+
+sent_id = 035378e4d-03564420b
+text = Detta är realiteter som ingen kan tvivla på .
+
+sent_id = 03537025e-03550ce28
+text = Passagen var blockerad av gummislangar , en krematorieugn gjord av en plåttunna , uppstaplade pappkartonger och fem uppradade skålar med bonsai , som börjat torka , där de stod inklämda mellan gamla cyklar .
+
+sent_id = 035c2dee6-035317a10
+text = Om skaftet träffat någon decimeter längre åt sidan hade det trängt in i ögat på mig .
+
+sent_id = 03551c4db-035ad7d43
+text = Efter en halv dag började det ruttna och en påträngande stank trängde ut varje gång man öppnade och stängde dörren .
+
+sent_id = 03501c668-0354d154a
+text = Han kanske hade tagit sig genom tunneln och kastat bort kartongen .
+
+sent_id = 035994e2f-0356be508
+text = ( Ett obehagligt minne dyker plötsligt upp .
+
+sent_id = 0356427ad-03554d1b4
+text = Det var tydligen doktorns vardags- och arbetsrum .
+
+sent_id = 035cfc694-035348c70
+text = Det fanns ingen hörbar klang av motvilja i hennes röst när hon gav honom en motfråga .
+
+sent_id = 03593ad87-035e5a995
+text = På insidan av kartongen var spåren av den tidigare innevånaren ( låt oss för tillfället kalla honom B ) tydligt och negativt inetsade som av en handpress som tryckts in i lera .
+
+sent_id = 035305b26-035fe15b0
+text = Att dö är , naturligtvis , en sorts förvandling .
+
+sent_id = 035815961-035236f2d
+text = Du vänder dig om och ser mot fönstret .
+
+sent_id = 0350a921e-0350b8c6d
+text = Långt ifrån .
+
+sent_id = 035cd8490-035c2f675
+text = Men på grund av allt detta blev doktorns mentala hälsa allt sämre , han kände sig trött på livet och en böjelse åt självmord fanns uppenbart uttalad .
+
+sent_id = 035542b33-0359f2ac0
+text = Kraften rann ur min arm , spegeln skakade kraftigt och rummet flög utom synhåll .
+
+sent_id = 035dcf33f-035665c01
+text = Nog nu .
+
+sent_id = 035cb405f-035ea3014
+text = Eller är det så att du stöds av ditt ansenliga självförtroende ?
+
+sent_id = 03554c4b2-035aa4246
+text = Jag antar att bläckfisktrålarna är på väg in.Det är dags för dem strax .
+
+sent_id = 0350fc3cc-035a06ed9
+text = Jag har hört att en vildfågel som fångas brukar vägra att äta och därför dör av hunger .
+
+sent_id = 0357273cd-0354111e4
+text = Varför har jag låst mig så vid ben ?
+
+sent_id = 0355f42dd-0354dd1c2
+text = Men gissningarna har helt ändrats efter en ny rollbesättning ...
+
+sent_id = 035fb5dd3-035340817
+text = Det har gått över fyra timmar sedan du satte dig här .
+
+sent_id = 035de73b7-0353b419b
+text = Gång på gång fick jag respektfullt bönfalla doktorn att lägga alla tankar på självmord åt sidan .
+
+sent_id = 0355eb6a2-035e03f28
+text = Alltihop -- att vara på ett sådant här ställe vid en sådan här tidpunkt -- är onaturligt och inte likt en kartongmänniska .
+
+sent_id = 035d8d1f7-035324886
+text = Därinne låg det två kulspetspennor , en kniv utan skaft , ett armbandsur utan kristaller och med bara minutvisare och till sist en liten anteckningsbok utan pärm .
+
+sent_id = 0358db5e3-035b7df55
+text = Han kom plötsligt på att han kunde sätta på sig en kartong och gå omkring förklädd till kartongmänniska .
+
+sent_id = 035c84604-035ce3e6a
+text = Men jag var maktlös inför hennes leende .
+
+sent_id = 0357c5712-035f9fcd1
+text = Men så länge nyhetsflödet fortsätter tar det aldrig slut .
+
+sent_id = 0359bfb47-035349ff8
+text = Han hade sitt rum på andra våningen , men eftersom han gick till sängs och steg upp vid oregelbundna tider och ofta använde brandstegen för att kunna komma och gå som han ville , är det omöjligt att påta sig ansvar för alla hans handlingar .
+
+sent_id = 0356668c6-03507f3c8
+text = -- Jamen det var ju bara håret .
+
+sent_id = 0353e001a-035aed2be
+text = Vid varje vindpust spreds de sönderslagna regndropparna ut som tentaklerna på en manet .
+
+sent_id = 035410a2d-035d03600
+text = Vid det här laget var det inte längre fråga om vem som hade högre eller lägre rang , och inte heller tvingade han mig till någonting .
+
+sent_id = 035cca815-035c8acc1
+text = -- Han var inte uppåt .
+
+sent_id = 0356599af-0351f9f63
+text = Men när tanken på att spionera på henne väl dykt upp hos honom kändes det som om han tänkt på det länge .
+
+sent_id = 035a2144d-035365013
+text = Ovanstående är helt med sanningen överensstämmande .
+
+sent_id = 035e2c75f-035456dbf
+text = Vi behövde inte ens sätta ut skylten , där det stod att undersökningarna var inställda .
+
+sent_id = 0351a8de6-035741b26
+text = När jag sträcker ut fingrarna öppnas ett hål i luften och blir till en anus .
+
+sent_id = 035e871ff-035c08b6c
+text = Elastisk tejp ( vattenbeständig ) -- cirka åtta meter
+
+sent_id = 03543262c-0352b69de
+text = Jag försökte dra loss överdelen .
+
+sent_id = 03548495b-0350db27a
+text = Det är kanske därför bokstäverna som formas av min kulspetspenna ser nästan svarta ut när de borde vara gröna .
+
+sent_id = 035af2003-03530333b
+text = Om man verkligen vill lära känna en annan människa och inte lär känna honom med sina fingrar , knuffar honom , boxar honom , böjer honom och sliter i honom kan man knappast påstå att man känner honom helt .
+
+sent_id = 0355816b4-03577657e
+text = Den falske kartongmannen svajade .
+
+sent_id = 035bb92f0-035f1d571
+text = Nej , eftersom vi vill att det skall se ut som ett olycksfall , tills rättsläkaren som är misstänksam , kommer hit , borde jag kanske gömma dem någonstans i det här rummet .
+
+sent_id = 035388750-0354feb10
+text = I normalfallet skall fönstrets överdel placeras två decimeter från kartongens övre kant och dess nederdel tre decimeter längre ned och bredden vara fyra decimeter .
+
+sent_id = 035bab3fe-035ac99f1
+text = Det sätt på vilken döden fås att inträda skall vara moraliskt acceptabelt .
+
+sent_id = 03501bab9-035179895
+text = För att kunna notera det som död genom drunkning , måste de åtminstone hitta plankton i andra organ än lungorna .
+
+sent_id = 03505a10c-0351c5ba6
+text = Hur många gånger kartongmänniskor än vaknar upp från drömmar de haft , visar det sig helt tydligt att de fortfarande är de kartongmänniskor de alltid var .
+
+sent_id = 035b82690-035e7d1d6
+text = När hon stängde munnen och skakade en aning på huvudet från höger till vänster , var den utskjutande underläppen oväntat lidelsefull .
+
+sent_id = 035a0ee7c-035053696
+text = och det jag som det skrivs om .
+
+sent_id = 03563d3ce-0358d4739
+text = En fotograf är en sorts fönstertittare .
+
+sent_id = 03569d6d7-035b270d8
+text = Och den idealiska platsen för ett mord måste vara den idealiska platsen att bli mördad på .
+
+sent_id = 03547efb2-0356df3f0
+text = Det var ett glas med litet öl kvar .
+
+sent_id = 035513b18-035ee1e13
+text = Jag antar att en fisk mycket väl kan drunkna i luften genom att falla i motsatt riktning , uppåt , mot himlen .
+
+sent_id = 035948dc2-035681726
+text = " Åh , jag tycker om det . "
+
+sent_id = 035de006c-035ce7ef6
+text = Det märktes inte ens minsta tecken till rörelse .
+
+sent_id = 035867c06-035c63d9c
+text = Jag väntar mig egentligen inte att hon skall komma tillbaka .
+
+sent_id = 035fb9dba-03583acbc
+text = tog sin ände
+
+sent_id = 035c24a15-035d14e7d
+text = När hon gjorde det kände jag en skarp svartsjuka över leendet som hon lät breda ut sig över ansiktet .
+
+sent_id = 035bc9f9f-035695247
+text = Vänta ett ögonblick , nej , inte vid fingrarna utan någonstans där liket lätt själv kunde ha knutit fast dem .
+
+sent_id = 0354ae648-035d95b1c
+text = Ja , den heta vinden är för våldsam .
+
+sent_id = 035ba7719-035f6b93d
+text = Det sägs att man drömmer att man är en fisk när man känner doften av molluscus .
+
+sent_id = 035cfb1d4-0350dc3ec
+text = Pådriven av den falske kartongmannen gled hon snett över rummet , förbi mig .
+
+sent_id = 03536c8bb-035232605
+text = Enligt författarens resonemang bottnar detta i patientens insikt om sin egen fulhet .
+
+sent_id = 03587ea46-035aa0bf5
+text = " Ja , sannerligen , det är stor skillnad " , upprepade den falske kartongmannen tankfullt med lugn röst .
+
+sent_id = 0359aea9e-03577aea1
+text = Men om ni går så långt som till att hävda något sådant , kan jag lägga fram en komplett motsatt hypotes .
+
+sent_id = 035717e46-035619d79
+text = Det är överflödigt att säga att det var jag själv som varit hans modell .
+
+sent_id = 035baaebd-03531d851
+text = Det hjälper inte hur mycket man försöker låta bli att se de redan tryckta bokstäverna , de försvinner ändå inte .
+
+sent_id = 0359b41ff-035de8717
+text = Men olyckligtvis har inte en fisk några naglar att nypa med och inte heller någon hand att nypa på översidan av .
+
+sent_id = 03544f107-0356ce21d
+text = Vad säger ni ... hur känns det att leva i en kartong ?
+
+sent_id = 035cbde1b-035ca8305
+text = -- Jag lovade ju att jag absolut inte skulle låta honom röra vid mig , gjorde jag inte det ?
+
+sent_id = 035754a27-03595ab0b
+text = Om man antar att det inte är jag som kämpar vidare med de här anteckningarna ( jag kan inte själv låta bli att erkänna den tidsdiskrepans som påpekats av den falske kartongmannen ) , och vem denne än må vara , så tycker jag att han för handlingen framåt på ett ovanligt fånigt sätt .
+
+sent_id = 0356e83a1-035eb709e
+text = " Det kanske det gör , under vissa omständigheter .
+
+sent_id = 0356ef65a-035c5a94e
+text = -- Sådärja .
+
+sent_id = 035b8c211-0358d48b9
+text = Medan jag koncentrerade mig på den falska vägen hörde jag plötsligt en röst bakom mig .
+
+sent_id = 035749fc8-0351c0b5d
+text = Hon hade tydligen hört ljudet av vagnen på avstånd , och kommit ända fram till vägkanten för att välkomna mig .
+
+sent_id = 035d0aee6-035aba197
+text = Det var tydligt en önskan att få den andra att deltaga i den exhibitionistiska handlingen genom att begå visuell våldtäkt .
+
+sent_id = 035f17146-0351c2c5b
+text = Man behöver inte fatta något speciellt beslut för att klia sig om man blivit stucken av en insekt .
+
+sent_id = 035abc3a0-035b97520
+text = Jag hade en känsla av att slicka hennes sår med en beskyddares generositet .
+
+sent_id = 0354cd892-035e3eeb3
+text = -- Kort ?
+
+sent_id = 035e76e68-035f45cce
+text = Jag undrade just .
+
+sent_id = 035ea8a56-035096b43
+text = Lyckligtvis kom jag på att jag hade stoppat backspegeln från min bil i min alltialloväska .
+
+sent_id = 0352e3cab-0358b3c75
+text = Det hördes ett tungt och blött ljud som när en yxa biter i virke som inte torkat tillräckligt .
+
+sent_id = 035b862d8-0351d8c0e
+text = När han lämnade sitt rum bara en liten aning längre än vanligt , oroade han sig under tiden för att rummet skulle ha försvunnit och kunde därför inte vara lugn när han gick ut .
+
+sent_id = 035a40ebb-0352bd4dd
+text = När jag var inne i kartongen var avstånd normalt inget allvarligt hinder .
+
+sent_id = 035a806ed-035d6494e
+text = Den sköterska jag hade haft till dess packade ögonblickligen och gav sig iväg . "
+
+sent_id = 03561c360-035b2ecb3
+text = Det finns ingen anledning att tro henne och inte heller att misstro henne .
+
+sent_id = 035e2a054-035a4a1fe
+text = Ni är rädd för att få vad ni själv bad om och så stannar ni tiden . "
+
+sent_id = 035903770-035f78289
+text = Skratta inte .
+
+sent_id = 03524e756-035a67f66
+text = ( Åter några anteckningar i marginalen med rött bläck .
+
+sent_id = 0357cdacf-035411f73
+text = Sedan den sista knappen ...
+
+sent_id = 035df0ec4-035d8b997
+text = Vem misslyckades med att bli en kartongmänniska ?
+
+sent_id = 035a54ab2-03572f0eb
+text = Enligt min inte alltför rättvisa klocka är det inte senare än femton eller sexton minuter över nio .
+
+sent_id = 03529772b-0354c3de5
+text = När vi kommit så långt tog händelserna en plötslig vändning .
+
+sent_id = 035a66bde-035e2b6f4
+text = Men om jag låter blicken glida bara ett par decimeter åt sidan
+
+sent_id = 035dad0a2-0353c9871
+text = Det kom litet blod , men smärtan gick genast över .
+
+sent_id = 035f8bf8b-0351afea7
+text = Vi tog ingen notis om det .
+
+sent_id = 0352e7b43-0353435a7
+text = Det verkade alldeles tydligt som om rösten kom från toaletten .
+
+sent_id = 03521ca37-03540954a
+text = Första sidan i anteckningsboken började på följande sätt .
+
+sent_id = 0350a23e9-03562a50c
+text = Från morgonen och framåt höll han sig till kartongen .
+
+sent_id = 035d4f67d-035aa9bbf
+text = Fingrarna är breda och tunga , men fingertopparna är rundade och ser ut som om de aldrig utsatts för arbete .
+
+sent_id = 035d648b2-035f265ce
+text = Om man jämför den med ett vanligt rum , så antar jag att en kartongs svaga punkt är att den inte har något golv .
+
+sent_id = 035f28c51-035c15cfc
+text = Jag måste ha sagt att jag skulle vilja vara tillsammans med så många andra människor som möjligt ... någonting i stil med en station eller ett varuhus ... ett ställe med en massa liv . "
+
+sent_id = 035c9107f-035e7efdf
+text = Man har inga öron , ingen hals , inga axlar och , framförallt , inga armar .
+
+sent_id = 03520235b-035204a54
+text = Tunga lastbilar fullastade med fryst fisk eller massaved river upp den tjocka asfalten rätt ovanför på bron , och kör tutande fram och tillbaka varannan sekund , fullkomligt absorberade av sitt eget oväsen som oskäliga djur .
+
+sent_id = 035d8711b-03516cc3b
+text = -- Jag har inga strumpor .
+
+sent_id = 0353c6982-03597cbf9
+text = Skottet gick in i övre fönsterkarmen och kartongen hoppade till .
+
+sent_id = 03565df5b-0354fe9d5
+text = De första sommardagar en kartongmänniska genomlider , när hon först blir kartongmänniska , är till exempel början till hennes plågor .
+
+sent_id = 035149863-035c5c295
+text = Jag förmodade att fläkten var fel inställd och att den kalla luften blåste längs golvet .
+
+sent_id = 035e5f7e0-035ccde76
+text = Om det finns något hopp är det så svagt att det inte ens kan upptäckas med en högspänningsdetektor .
+
+sent_id = 035b76673-0352f3e2d
+text = Det stadium där ord hade någon betydelse var redan passerat .
+
+sent_id = 03506b79b-035cd2982
+text = Om du är där , så svara mig .
+
+sent_id = 035b2439b-03505f50f
+text = Nu kommer det bara luft .
+
+sent_id = 035058384-03567ac81
+text = Följande slående klichéer är snarast ett sammandrag .
+
+sent_id = 035faa0ff-035f95b11
+text = Självmord är förstås en nobel handling , och så länge som det är en handling , kan det inte förverkligas bara genom förnuft eller ivrig önskan .
+
+sent_id = 03529c918-035475011
+text = -- Jag trodde att det kanske var en vän till mig .
+
+sent_id = 03579b93f-0351ee0be
+text = Det var en nakenhet som redan studerades av någon annan , och denne andre var mitt falska jag .
+
+sent_id = 035f3380f-035cbf294
+text = Man kunde också se frisyren , den nya skräddarsydda kostymen som satt väl , de anmärkningsvärt skrynkliga byxorna , som icke desto mindre var av högsta kvalitet och de typiska låga skorna av toffelmodell . "
+
+sent_id = 0356368dd-035bd9183
+text = Vårt förhållande efter det gick i samma riktning som Newtons äpple ... enligt tyngdlagen .
+
+sent_id = 035f0f216-03555ed41
+text = En människa gick helt nonchalant förbi med en pappkartong över huvudet .
+
+sent_id = 0357aa6c0-035e6b44a
+text = Jag har inte hittills dömts till straffarbete för brott och inte heller förhörts som misstänkt av polisen eller allmänne åklagaren .
+
+sent_id = 0356a2a69-035a2e34b
+text = Men han beslöt sig för att för tillfället försöka vänta ut det hela i tysthet .
+
+sent_id = 035ef440c-0357d39cf
+text = " Jag har för mig att det fanns tändstickor därborta , gör det inte det ? "
+
+sent_id = 035046535-03554e419
+text = Jag drog genast slutsatsen att det var ett luftgevär .
+
+sent_id = 0357058ba-0356ba8f6
+text = Människor lyssnar bara till nyheter för att känna sig lugnade .
+
+sent_id = 03527db11-0359e351b
+text = -- Försök nu berätta vad som hände en gång till , i rätt ordning från början .
+
+sent_id = 035cf83fa-035cda310
+text = Jag tänker ta av mig kartongen , visa mitt ansikte och låta er , och bara er , veta vem den verklige författaren till dessa anteckningar är och vilket motiv han i själva verket haft .
+
+sent_id = 035c2d1c8-035399a31
+text = Under alla förhållanden kommer jag att låta anteckningsboken falla till golvet och dra din uppmärksamhet till sig , så att du vet att jag medvetet låtsas sova .
+
+sent_id = 03594fd06-035e2aa25
+text = En mans ben är knotiga , därför att han ständigt bär en vikt som trotsar tyngdlagen , och de djupt inbäddade lederna är utbredda vågrätt .
+
+sent_id = 035e7905e-035692ddf
+text = En chokladbit blir äcklig om den smakar stekt ostron .
+
+sent_id = 035956cab-0350f5bf1
+text = Spänningen som gick från axlarna till höfterna lossade , och jag utstötte ett ljud som när man sliter bort ett plåster .
+
+sent_id = 03540b5b3-03526ed64
+text = -- Så du lät honom hjälpa dig ?
+
+sent_id = 035ef2897-03547f723
+text = Men det syntes inga livstecken från hennes rum .
+
+sent_id = 035d55834-035e0b159
+text = En debatt vore ändå mer grotesk .
+
+sent_id = 0352f25ff-0351fb250
+text = En genomvåt trekantig vimpel flaxar runt en bambustång .
+
+sent_id = 035045d9f-035f0c449
+text = Hon går inåt huset , samtidigt som hon snabbt säger någonting .
+
+sent_id = 035384dba-035c25b1d
+text = Frånsett behovet av fullkomlig nyhetsförmedling , som jag plågades av till att börja med , kan man periodvis , tills man vant sig , bli helt lamslagen av en outsäglig känsla av ensamhet . "
+
+sent_id = 035727450-0355e35b7
+text = ( Att ha till hands om det skulle behövas : Tre bitar nött segelduk och ett par gummistövlar , förutom normala arbetskläder för utomhusbruk . )
+
+sent_id = 035586888-0353cce64
+text = Kartongmannen som försökte jaga henne påminde om en insekt med avslitna ben .
+
+sent_id = 035ac2cf5-035a405c8
+text = Jag skulle vilja se den människa som kan återgälda en sådan blick med bibehållen fattning .
+
+sent_id = 035a258b5-035c0a616
+text = Det verkar vara futtiga saker , men de utgör en nödvändig och effektiv uppsättning nödvändighetsartiklar , som har prövats ut under lång erfarenhet av livet i en kartong .
+
+sent_id = 035339796-035c3e638
+text = En bit i taget fick hennes rörelser rymden att rynka sig , fördunklade ljuset , skapade strömmar och snidade fram en helt ny värld .
+
+sent_id = 035dda1d4-035ef43fd
+text = Han hade en känsla av att det skulle vara mindre chans att bli attackerad om han tog sig över till andra sidan .
+
+sent_id = 035b5f341-035c2c4e2
+text = Men det gjorde ingen skillnad om papperet var stort eller litet .
+
+sent_id = 0353b64d9-0356e8ace
+text = Det finns naturligtvis ingen objektiv måttstock med vilken man exakt kan utvärdera en allmänpraktiserande läkares metoder .
+
+sent_id = 035a8ca25-0359b5f86
+text = Andra gången fortsatte han titta trots den syn som vräkte sig ned över honom ur kikaren .
+
+sent_id = 035406eb5-035711add
+text = En naken kropp som gör någonting är mer fullständigt naken än en som bara har tagit av sig kläderna .
+
+sent_id = 035faab50-035b36f90
+text = -- Jag skulle vilja ha en cigarrett .
+
+sent_id = 03579ea31-03585e5e0
+text = Bara motorn till pumpen .
+
+sent_id = 035732a4b-035c3c028
+text = " Det är Chopin .
+
+sent_id = 035e5c11b-035438480
+text = Jag mindes att jag någonstans sett exakt samma scen . )
+
+sent_id = 035f7335e-03532c195
+text = Också jag gick så tyst jag kunde tillbaka till det gamla undersökningsrummet .
+
+sent_id = 035522cc7-035ef38d3
+text = Seså , nu ger vi oss iväg .
+
