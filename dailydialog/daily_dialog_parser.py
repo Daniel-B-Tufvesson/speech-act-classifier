@@ -56,7 +56,7 @@ def parse_dialog(utterances: list[str], acts: list[str]) -> tuple[list[str], lis
     Parse a dialog given by its seqeuence of utterances and acts.
     """
 
-    assert len(utterances) == len(acts), f'length of utterances and acts to not match {utterances}, {acts}'
+    assert len(utterances) == len(acts), f'length of utterances and acts do not match {utterances}, {acts}'
 
     parsed_utterances = []
     parsed_acts = []
@@ -72,6 +72,7 @@ def parse_dialog(utterances: list[str], acts: list[str]) -> tuple[list[str], lis
 
 
 if __name__ == '__main__':
-    reformat_daily_dialog('dailydialog/ijcnlp_dailydialog/validation/dialogues_validation.txt', 
-                          'dailydialog/ijcnlp_dailydialog/validation/dialogues_act_validation.txt',
-                          'dailydialog/formatted data/dd_val.txt')
+    # reformat_daily_dialog('dailydialog/ijcnlp_dailydialog/validation/dialogues_validation.txt', 
+    #                       'dailydialog/ijcnlp_dailydialog/validation/dialogues_act_validation.txt',
+    #                       'dailydialog/formatted data/dd_val.txt')
+    pass
