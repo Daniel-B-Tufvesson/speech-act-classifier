@@ -8,6 +8,7 @@ from typing import TextIO
 from typing import Generator
 import stanza
 from stanza.utils.conll import CoNLL
+import data_loading as dat
 
 def tag_bz2(source_file: str, target_file: str, **kwargs):
     """
@@ -33,7 +34,7 @@ def tag(source: TextIO, target: TextIO, **kwargs):
     # Tag the corpus in batches.
     batch_count = 0
     sentence_count = 0
-    for batched_doc in read_batched_doc(source, 100, **kwargs):
+    for batched_doc in dat.read_batched_doc(source, 100, **kwargs):
         tagged_doc = nlp_dep(batched_doc)  # type: stanza.Document
         CoNLL.write_doc2conll(tagged_doc, target)
 
@@ -48,46 +49,6 @@ def tag(source: TextIO, target: TextIO, **kwargs):
         tagged_doc.sentences = None
     
     print(f'Parsing complete. Parsed {sentence_count} sentences')
-    
-
-def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
-    """
-    Read a connlu corpus in batches. The batches are yielded as stanza.Documents. The batch size is given
-    in the number of sentences.
-    """
-    
-    lines = []  # The lines of the current batch.
-    sentence_count = 0
-    
-    # Collect and batch the lines.
-    for line in connlu_corpus:
-        lines.append(line)
-
-        if line == '\n':
-            sentence_count += 1
-        
-        # Parse the batch as document and yield it.
-        if sentence_count == batch_size or sentence_count == max_sentences:
-            doc_conll, doc_comments = CoNLL.load_conll(lines)
-            doc_dict, doc_empty = CoNLL.convert_conll(doc_conll)
-            doc = stanza.Document(doc_dict, text=None, comments=doc_comments, empty_sentences=doc_empty)
-            yield doc
-
-            # Reset accumulated lines if we have not reached max.
-            if sentence_count != max_sentences:
-                lines = []
-                sentence_count = 0
-
-            # If reached max, stop parsing.
-            else :
-                return
-    
-    # Parse remaining lines.
-    if len(lines) != 0:
-        doc_conll, doc_comments = CoNLL.load_conll(lines)
-        doc_dict, doc_empty = CoNLL.convert_conll(doc_conll)
-        doc = stanza.Document(doc_dict, text=None, comments=doc_comments, empty_sentences=doc_empty)
-        yield doc
 
 
 if __name__ == '__main__':
