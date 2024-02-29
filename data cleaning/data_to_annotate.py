@@ -12,64 +12,74 @@ import bz2
 from typing import TextIO
 import os
 
-def extract_n_sentences_bz2(source_file: str, target_file: str, sent_ids: set[str], n_sentences):
-    """
-    Exract the first N sentences from coonly compressed corpus, and appending them to 
-    text file.
-    """
+class Sentence:
 
-    with bz2.open(source_file, mode='rt') as source:
-        with open(target_file, mode='at') as target:
-            extract_n_sentences(source, target, sent_ids, n_sentences)
+    def __init__(self, text: str, id: int):
+        self.text = text
+        self.id = id
 
 
-def extract_n_sentences(source: TextIO, target: TextIO, sent_ids: set[str], n_sentences):
-    """
-    Extract and append the first N sentences from the source to the target.
-    """
-    print(f'Extracting {n_sentences} from corpus.')
+def extract_sentences(source_files: list[str], target_dir: str, sent_per_source: int, sent_per_target: int):
+    print('Extracting sentences to annotate.')
 
-    currentID = None
-    currentText = None
-    sentence_count = 0
+# def extract_n_sentences_bz2(source_file: str, target_file: str, sent_ids: set[str], n_sentences):
+#     """
+#     Exract the first N sentences from coonly compressed corpus, and appending them to 
+#     text file.
+#     """
 
-    for line in source:
-        if line == '\n':
+#     with bz2.open(source_file, mode='rt') as source:
+#         with open(target_file, mode='at') as target:
+#             extract_n_sentences(source, target, sent_ids, n_sentences)
+
+
+# def extract_n_sentences(source: TextIO, target: TextIO, sent_ids: set[str], n_sentences):
+#     """
+#     Extract and append the first N sentences from the source to the target.
+#     """
+#     print(f'Extracting {n_sentences} from corpus.')
+
+#     currentID = None
+#     currentText = None
+#     sentence_count = 0
+
+#     for line in source:
+#         if line == '\n':
             
-            # Write ID and sentence to target.
-            if currentID and currentText:
+#             # Write ID and sentence to target.
+#             if currentID and currentText:
 
-                if currentID in sent_ids:
-                    print(f'WARNING: Duplicate ID found: {currentID}, skipping sentence')
-                    currentID = None
-                    currentText = None
-                    continue
+#                 if currentID in sent_ids:
+#                     print(f'WARNING: Duplicate ID found: {currentID}, skipping sentence')
+#                     currentID = None
+#                     currentText = None
+#                     continue
 
-                sent_ids.add(currentID)               
+#                 sent_ids.add(currentID)               
 
-                target.write(f'sent_id = {currentID}\n')
-                target.write(f'text = {currentText}\n')
-                target.write('\n')
+#                 target.write(f'sent_id = {currentID}\n')
+#                 target.write(f'text = {currentText}\n')
+#                 target.write('\n')
 
-                currentID = None
-                currentText = None
-                sentence_count += 1
+#                 currentID = None
+#                 currentText = None
+#                 sentence_count += 1
 
-                # Stop if reached max sentences.
-                if sentence_count == n_sentences:
-                    break
+#                 # Stop if reached max sentences.
+#                 if sentence_count == n_sentences:
+#                     break
 
-        else:
-            line = line.strip()
+#         else:
+#             line = line.strip()
             
-            if line.startswith('# text ='):
-                currentText = line.removeprefix('# text = ')
+#             if line.startswith('# text ='):
+#                 currentText = line.removeprefix('# text = ')
 
-            elif line.startswith('# sent_id ='):
-                currentID = line.removeprefix('# sent_id = ')
+#             elif line.startswith('# sent_id ='):
+#                 currentID = line.removeprefix('# sent_id = ')
 
-    print(f'Done! Extracted {sentence_count}/{n_sentences} from corpus.')
-    
+#     print(f'Done! Extracted {sentence_count}/{n_sentences} from corpus.')
+
 
 if __name__ == '__main__':
 
@@ -84,6 +94,7 @@ if __name__ == '__main__':
     if os.path.isfile(target_file):
         os.remove(target_file)  # Start with a fresh file.
 
+   
     source_files = [
         'processed data/familjeliv-allmanna-familjeliv-100k.connlu.bz2',
         'processed data/attasidor-99k.connlu.bz2',
