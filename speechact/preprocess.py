@@ -146,3 +146,35 @@ def reindex(corpora: list[Corpus], target_dir: str, start_id=1):
 
 
     print(f'Reindexing complete. Assigned new ID to {sent_count} sentences.')
+
+
+def merge_corpora(corpora: list[Corpus], target_file: str, start_id=1, print_progress=False):
+    """
+    Merge the corpora files in to a single file.
+    """
+    if print_progress: print(f'Merging {len(corpora)} corpora to {target_file}.')
+
+    sent_id = start_id
+    sent_count = 0
+    with bz2.open(target_file, mode='wt') as target:
+
+        for corpus in corpora:
+            for sentence in corpus.sentences():
+
+                # Update sentence meta data.
+                x_sent_id = sentence.get_meta_data('sent_id')
+                sentence.set_meta_data('x_sent_id', x_sent_id)
+                sentence.set_meta_data('sent_id', sent_id)
+                sentence.set_meta_data('corpus', corpus.name)
+
+                # Write sentence to target.
+                target.writelines(sentence.sentence_lines)
+                target.write('\n')
+
+                sent_id += 1
+                sent_count += 1
+
+                if print_progress and sent_count % 2000 == 0:
+                    print(f'Merged {sent_count} sentences...')
+
+    if print_progress: print(f'Merging complete. ')
