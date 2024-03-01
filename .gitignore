@@ -1,9 +1,8 @@
-raw data
 __pycache__
-processed data/familjeliv-adoption_v2.connlu
-dailydialog/ijcnlp_dailydialog
-dailydialog/formatted data
-dailydialog/embeddings
-processed data no-deps
+scripts/dailydialog/formatted data
+scripts/dailydialog/ijcnlp_dailydialog
+scripts/dailydialog/embeddings
+data/processed data no-deps
 data/processed data no-deps clean
 data/processed data
+data/raw data
