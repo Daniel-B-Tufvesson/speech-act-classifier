@@ -7,14 +7,14 @@ The new files are uncompressed as a regular txt format.
 These files are used for manual annotation of the sentences.
 """
 
-from speechact.annotate import extract_sentences
-import speechact.preprocess as dat
+import speechact.annotate as annot
+import speechact.preprocess as pre
 
 if __name__ == '__main__':
 
-    source_files = dat.lines('processed data no-deps clean/data files.txt')
+    source_files = pre.lines('processed data no-deps clean/data files.txt')
     target_dir = 'data to annotate'
 
     # Extract 1000 sentences from each corpus, to files with 50 sentences each.
-    extract_sentences(source_files, target_dir, sent_per_source=1000, sent_per_target=50, print_progress=True)
+    annot.extract_sentences(source_files, target_dir, sent_per_source=1000, sent_per_target=50, print_progress=True)
 
