@@ -1,7 +1,7 @@
 import os
 from typing import Generator
 import bz2
-import speechact.data as dat
+import speechact.preprocess as dat
 
 class Sentence:
 

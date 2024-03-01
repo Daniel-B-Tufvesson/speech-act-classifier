@@ -5,7 +5,7 @@ This script assigns a new sent_id to each sentence across a set of several corpo
 import os
 from speechact.corpus import Corpus
 import bz2
-import speechact.data as dat
+import speechact.preprocess as dat
 from . import file_inspector as fi
 
 def reindex(corpora: list[Corpus], target_dir: str, start_id=1):

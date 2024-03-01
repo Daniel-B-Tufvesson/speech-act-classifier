@@ -6,7 +6,7 @@ also saved for each sentence.
 """
 
 import bz2
-from ...speechact import data as fi
+from ...speechact import preprocess as fi
 from speechact.corpus import Corpus
 
 

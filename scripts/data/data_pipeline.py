@@ -4,7 +4,7 @@ the project.
 """
 
 from .korp_to_connlu import Korp_CoNNLU_Converter
-from ...speechact import data as fi
+from ...speechact import preprocess as fi
 from . import connlu_cleaner as cl
 from . import dep_parse_tagging as dep
 import speechact.core as sac
