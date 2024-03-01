@@ -1,7 +1,7 @@
 """
-This code converts xml corpora from Språkbanken to the CoNNL-U format. The linquistic 
-data is also converted to Universal Dependencies formalism. This involves:
-- Converting the SUC POS-tags to UPOS-tags.
+This code converts xml corpora from Språkbanken to the CoNNL-U format. The POS-tags are also
+converted to UPOS-tages (https://universaldependencies.org/u/pos/). The original tags are 
+assigned to the XPOS field (see https://universaldependencies.org/format.html).
 """
 
 from typing import TextIO
