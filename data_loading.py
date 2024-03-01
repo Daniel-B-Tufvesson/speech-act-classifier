@@ -67,3 +67,12 @@ def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1)
         doc_dict, doc_empty = CoNLL.convert_conll(doc_conll)
         doc = stanza.Document(doc_dict, text=None, comments=doc_comments, empty_sentences=doc_empty)
         yield doc
+
+
+def lines(txt_file_source: str) -> list[str]:
+    """
+    Read all lines in the text file and return them as a list of strings.
+    """
+    with open(txt_file_source, mode='rt') as source:
+        lines = lines = [line.rstrip() for line in source.readlines()]
+    return lines
