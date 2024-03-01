@@ -9,6 +9,7 @@ import stanza
 import stanza.models.common.doc as doc
 from stanza.utils.conll import CoNLL
 import speechact.corpus as corp
+import speechact.preprocess as dat
 
 def read_sentences_bz2(connlu_corpus_file: str, max_sentences = -1) -> Generator[doc.Sentence, None, None]:
     """
@@ -237,3 +238,36 @@ def extract_sub_sample(source: TextIO, target: TextIO, n_sentences: int, print_p
                 break
 
     if print_progress: print(f'Extracted {sentence_count}/{n_sentences}.')
+
+
+def tag_dep_rel(source: TextIO, target: TextIO, print_progress=False, **kwargs):
+    """
+    Tag a source CoNNL-U corpus with Universal Dependency relations. The tagged sentences are
+    written to the target as CoNNL-U.
+
+    The dependency tags are the Universal Dependency Relations: 
+    https://universaldependencies.org/u/dep/index.html
+    """
+    if print_progress: print('Tag corpus with dep tags')
+
+    # Initialize the stanza pipeline for dependency parsing.
+    nlp_dep = stanza.Pipeline(lang='sv', processors='depparse', depparse_pretagged=True, use_gpu=True)
+
+    # Tag the corpus in batches.
+    batch_count = 0
+    sentence_count = 0
+    for batched_doc in dat.read_batched_doc(source, 100, **kwargs):
+        tagged_doc = nlp_dep.process(batched_doc)
+        CoNLL.write_doc2conll(tagged_doc, target)
+
+        batch_count += 1
+        sentence_count += len(batched_doc.sentences)
+        if print_progress: print(f'batch: {batch_count}, sentences: {sentence_count}')
+
+        # Clear documents to free memory.
+        # However, I'm not sure if this actually improves memory performance. Running the script 
+        # (either at 100 or 1000 batchsize) seem to keep memory usage at ~1.2 GB.
+        batched_doc.sentences = None
+        tagged_doc.sentences = None  # type: ignore
+
+    if print_progress: print(f'Parsing complete. Parsed {sentence_count} sentences')
