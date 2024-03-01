@@ -98,7 +98,6 @@ def extract_sentences(source_files: list[str], target_dir: str, sent_per_source:
 
         # Create new 
         if sentence_count != 0 and sentence_count % sent_per_target == 0:
-            target_count += 1
             target_file = f'{target_dir}/sents_{target_count}.{UNANNOTATED_EXT}'
 
             # Write lines to file.
@@ -106,7 +105,7 @@ def extract_sentences(source_files: list[str], target_dir: str, sent_per_source:
                 target.writelines(lines_to_write)
                 lines_to_write = []
 
-            break # Temp break. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            target_count += 1
 
         sentence_count += 1
         lines_to_write.append(sentence.id) # We assume they end with newlines.
