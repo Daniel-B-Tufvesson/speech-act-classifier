@@ -1,5 +1,5 @@
 """
-Some functions for handling and preprocess corpus data files.
+Some functions for handling and preprocessing corpus data files.
 """
 
 import bz2
@@ -33,7 +33,7 @@ def read_sentences(connlu_corpus: TextIO, max_sentences = -1) -> Generator[doc.S
 
 def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
     """
-    Read a connlu corpus in batches. The batches are yielded as stanza.Documents. The batch size is given
+    Read a CoNNL-U corpus in batches. The batches are yielded as stanza.Documents. The batch size is given
     in the number of sentences.
     """
     
