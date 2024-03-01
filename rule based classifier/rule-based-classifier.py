@@ -1,6 +1,6 @@
 
 import stanza.models.common.doc as doc
-import data_loading
+import speechact.data as data
 
 def classify(sentence : doc.Sentence):
     print('classify: ', sentence.text)
@@ -79,7 +79,7 @@ def get_clause_base(sentence: doc.Sentence) -> list[doc.Word]:
 
 
 def test1():
-    sentences = data_loading.read_sentences_bz2('processed data/attasidor-99k.connlu.bz2', max_sentences=1)
+    sentences = data.read_sentences_bz2('processed data/attasidor-99k.connlu.bz2', max_sentences=1)
     for sentence in sentences:
         classify(sentence)
 

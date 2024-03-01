@@ -7,7 +7,7 @@ from .korp_to_connlu import Korp_CoNNLU_Converter
 from . import file_inspector as fi
 from . import connlu_cleaner as cl
 from . import dep_parse_tagging as dep
-import speech_act_classifier as sac
+import speechact.core as sac
 
 DIR_RAW_DATA = 'raw data'
 DIR_NO_DEPS = 'processed data no-deps'

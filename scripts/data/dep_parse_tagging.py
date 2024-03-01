@@ -8,7 +8,7 @@ from typing import TextIO
 from typing import Generator
 import stanza
 from stanza.utils.conll import CoNLL
-import data_loading as dat
+import speechact.data as dat
 
 def tag_bz2(source_file: str, target_file: str, **kwargs):
     """

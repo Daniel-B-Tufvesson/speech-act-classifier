@@ -7,7 +7,7 @@ also saved for each sentence.
 
 import bz2
 from . import file_inspector as fi
-from corpus import Corpus
+from speechact.corpus import Corpus
 
 
 def merge_corpora(corpora: list[Corpus], target_file: str, start_id=1):

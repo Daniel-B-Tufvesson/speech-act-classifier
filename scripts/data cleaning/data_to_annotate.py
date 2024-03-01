@@ -12,7 +12,7 @@ from typing import TextIO
 import os
 import random
 from . import file_inspector as fi
-import data_loading as dat
+import speechact.data as dat
 
 class Sentence:
 

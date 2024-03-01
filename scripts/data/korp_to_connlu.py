@@ -10,7 +10,7 @@ from typing import Any
 import stanza
 from stanza.utils.conll import CoNLL
 import xml.etree.ElementTree as ET
-import speech_act_classifier as sac
+import speechact.core as sac
 import bz2
 
 SentenceObject = list[dict[str, Any]]

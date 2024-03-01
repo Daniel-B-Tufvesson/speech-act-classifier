@@ -5,7 +5,7 @@ Codes used for reading KORP corpora. This is mostly deprecated!
 import bz2
 from typing import Generator
 import xml.etree.ElementTree as ET
-import speech_act_classifier as sac
+import speechact.core as sac
 import uuid
 
 def test_read(file_name: str):
