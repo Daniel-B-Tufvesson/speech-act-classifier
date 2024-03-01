@@ -2,33 +2,8 @@
 A script for extracting sub samples of sentences in a CoNNL-U file.
 """
 
-from typing import TextIO
 import bz2
-
-def extract_sub_sample(source: TextIO, target: TextIO, n_sentences: int):
-    """
-    Extract a sub sample of sentences from the CoNNL-U source and write them to the target.
-    """
-    
-    sentence_count = 0
-    
-    # Write lines from source to target.
-    for line in source:
-        target.write(line)
-
-        # New line indicated end of sentence.
-        if line == '\n':
-            sentence_count += 1
-
-            if sentence_count % 2000 == 0:
-                print(f'...extracted {sentence_count} sentences.')
-
-            # Stop if reached max sample size.
-            if sentence_count == n_sentences:
-                break
-    
-    print(f'Extracted {sentence_count}/{n_sentences}.')
-
+import speechact.preprocess as pre
 
 def extract_sub_sample_bz2(source_file: str, target_file: str, n_sentences: int):
     """
@@ -38,7 +13,7 @@ def extract_sub_sample_bz2(source_file: str, target_file: str, n_sentences: int)
     print(f'Extracting sub sample of {n_sentences} sentences from "{source_file}" to "{target_file}"')
     with bz2.open(source_file, mode='rt') as source:
         with bz2.open(target_file, mode='wt') as target:
-            extract_sub_sample(source, target, n_sentences)
+            pre.extract_sub_sample(source, target, n_sentences, print_progress=True)
 
 
 if __name__ == '__main__':

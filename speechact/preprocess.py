@@ -214,3 +214,28 @@ def clean_up_connlu(source: TextIO, target: TextIO, print_progress=False):
             lines.append(line)
 
     if print_progress: print(f'Cleaned up {sentence_count} sentences. Found {error_count}/{sentence_count} errors.')
+
+
+def extract_sub_sample(source: TextIO, target: TextIO, n_sentences: int, print_progress=False):
+    """
+    Extract a sub sample of sentences from the CoNNL-U source and write them to the target.
+    """
+
+    sentence_count = 0
+
+    # Write lines from source to target.
+    for line in source:
+        target.write(line)
+
+        # New line indicated end of sentence.
+        if line == '\n':
+            sentence_count += 1
+
+            if print_progress and sentence_count % 2000 == 0:
+                print(f'...extracted {sentence_count} sentences.')
+
+            # Stop if reached max sample size.
+            if sentence_count == n_sentences:
+                break
+
+    if print_progress: print(f'Extracted {sentence_count}/{n_sentences}.')
