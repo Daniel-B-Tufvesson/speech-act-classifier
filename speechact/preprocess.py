@@ -8,9 +8,7 @@ from typing import Generator
 import stanza
 import stanza.models.common.doc as doc
 from stanza.utils.conll import CoNLL
-
-import speechact.preprocess as dat
-from speechact.corpus import Corpus
+import speechact.corpus as corp
 
 def read_sentences_bz2(connlu_corpus_file: str, max_sentences = -1) -> Generator[doc.Sentence, None, None]:
     """
@@ -99,7 +97,7 @@ def print_initial_lines(file_name: str, n_lines = 30):
         print(f'Printed the first {i}/{n_lines} in {file_name} ----------------------')
 
 
-def reindex(corpora: list[Corpus], target_dir: str, start_id=1):
+def reindex(corpora: list[corp.Corpus], target_dir: str, start_id=1):
     """
     Reindex each sentence in each corpus, and write them to new corpus files in the target
     directory.
@@ -141,14 +139,14 @@ def reindex(corpora: list[Corpus], target_dir: str, start_id=1):
 
         print('Reindexing for corpus complete.')
         print('Printing first 30 lines:')
-        dat.print_initial_lines(target_file, 30)
+        print_initial_lines(target_file, 30)
         print(f'Reindexed {corp_count}/{len(corpora)} corpora...')
 
 
     print(f'Reindexing complete. Assigned new ID to {sent_count} sentences.')
 
 
-def merge_corpora(corpora: list[Corpus], target_file: str, start_id=1, print_progress=False):
+def merge_corpora(corpora: list[corp.Corpus], target_file: str, start_id=1, print_progress=False):
     """
     Merge the corpora files in to a single file.
     """
