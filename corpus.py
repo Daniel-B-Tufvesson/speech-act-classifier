@@ -1,6 +1,7 @@
 import os
 from typing import Generator
 import bz2
+import data_loading as dat
 
 class Sentence:
 
@@ -79,3 +80,10 @@ class Corpus:
         
         return self._sentence_count
 
+
+def load_corpora_from_data_file(data_file: str) -> list[Corpus]:
+    """
+    Load several corpora from a text file listing the file names of each corpus.
+    """
+    source_files = dat.lines(data_file)
+    return [Corpus(file, file.split('/')[-1].removesuffix('.connlu.bz2').removesuffix('-100k').removesuffix('-500k')) for file in source_files]
