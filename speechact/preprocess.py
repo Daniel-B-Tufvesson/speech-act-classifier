@@ -178,3 +178,39 @@ def merge_corpora(corpora: list[Corpus], target_file: str, start_id=1, print_pro
                     print(f'Merged {sent_count} sentences...')
 
     if print_progress: print(f'Merging complete. ')
+
+
+def clean_up_connlu(source: TextIO, target: TextIO, print_progress=False):
+    """
+    Clean up the source CoNNL-U corpus and save it to the target. This is done by removing 
+    sentences that are improperly formatted. A sentence is incorrectly formatted if it cannot 
+    be loaded by Stanza's CoNNL-U parser.
+    """
+    if print_progress: print('Clean up corpus')
+
+    lines = []
+    error_count = 0
+    sentence_count = 0
+    for line in source:
+        if line == '\n':
+
+            sentence_count += 1
+
+            # Try parsing sentence.
+            try:
+                CoNLL.load_conll(lines)
+
+                # Sentence is ok. Write to file.
+                target.writelines(lines)
+                target.write('\n')
+
+            except Exception as e:
+                error_count += 1
+                print('Failed to parse sentence: ', e)
+
+            # Reset accumulated lines.
+            lines = []
+        else :
+            lines.append(line)
+
+    if print_progress: print(f'Cleaned up {sentence_count} sentences. Found {error_count}/{sentence_count} errors.')
