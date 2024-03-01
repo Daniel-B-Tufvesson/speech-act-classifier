@@ -76,3 +76,21 @@ def lines(txt_file_source: str) -> list[str]:
     with open(txt_file_source, mode='rt') as source:
         lines = lines = [line.rstrip() for line in source.readlines()]
     return lines
+
+
+def print_initial_lines(file_name: str, n_lines = 30):
+    """
+    Read the first N lines in bz2 compressed file.
+    """
+    with bz2.open(file_name, mode='rt') as source:
+        print(f'Printing the first {n_lines} in "{file_name}" ---------------------')
+
+        i = 0
+        for line in source:
+            print(line)
+            i += 1
+
+            if i == n_lines:
+                break
+
+        print(f'Printed the first {i}/{n_lines} in {file_name} ----------------------')

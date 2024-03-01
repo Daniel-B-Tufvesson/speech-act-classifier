@@ -4,7 +4,7 @@ the project.
 """
 
 from .korp_to_connlu import Korp_CoNNLU_Converter
-from . import file_inspector as fi
+from ...speechact import data as fi
 from . import connlu_cleaner as cl
 from . import dep_parse_tagging as dep
 import speechact.core as sac
@@ -19,20 +19,20 @@ def process(corpus_name: str, genre: str, read_tail=False, parse_pos=True):
 
     # Print first lines from xml file.
     source_file = f'{DIR_RAW_DATA}/{corpus_name}.xml.bz2'
-    fi.read_n_first_lines(source_file, 30)
+    fi.print_initial_lines(source_file, 30)
 
     # Parse from xml to CoNNL-U.
     target_file = f'{DIR_NO_DEPS}/{corpus_name}-100k.connlu.bz2'
     print(f'Parsing xml "{source_file}" to CoNNL-U "{target_file}"')
     Korp_CoNNLU_Converter(genre=genre, read_tail=read_tail).xmlbz2_to_connlubz2(source_file, target_file, 100000)
-    fi.read_n_first_lines(target_file, 30)
+    fi.print_initial_lines(target_file, 30)
 
     # Clean up data
     source_file = target_file
     target_file = f'{DIR_NO_DEPS_CLEAN}/{corpus_name}-100k.connlu.bz2'
     print(f'Cleaning up "{source_file}" to "{target_file}"')
     cl.clean_up_bz2(source_file, target_file)
-    fi.read_n_first_lines(target_file, 30)
+    fi.print_initial_lines(target_file, 30)
 
     # Parse dependency relations.
     if parse_pos:
@@ -40,7 +40,7 @@ def process(corpus_name: str, genre: str, read_tail=False, parse_pos=True):
         target_file = f'{DIR_PROCESSED}/{corpus_name}-100k.connlu.bz2'
         print(f'Parsing dependency relations "{source_file}" to "{target_file}"')
         dep.tag_bz2(source_file, target_file)
-        fi.read_n_first_lines(target_file, 30)
+        fi.print_initial_lines(target_file, 30)
 
 
 if __name__ == '__main__':

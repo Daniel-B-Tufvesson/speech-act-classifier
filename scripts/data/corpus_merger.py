@@ -6,7 +6,7 @@ also saved for each sentence.
 """
 
 import bz2
-from . import file_inspector as fi
+from ...speechact import data as fi
 from speechact.corpus import Corpus
 
 
@@ -52,4 +52,4 @@ if __name__ == '__main__':
 
     target_file = 'merge corpora test.connlu.bz2'
     merge_corpora(corpora, target_file)
-    fi.read_n_first_lines(target_file)
+    fi.print_initial_lines(target_file)

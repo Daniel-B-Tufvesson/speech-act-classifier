@@ -6,7 +6,6 @@ import os
 from speechact.corpus import Corpus
 import bz2
 import speechact.data as dat
-from . import file_inspector as fi
 
 def reindex(corpora: list[Corpus], target_dir: str, start_id=1):
     """
@@ -49,7 +48,7 @@ def reindex(corpora: list[Corpus], target_dir: str, start_id=1):
 
         print('Reindexing for corpus complete.')
         print('Printing first 30 lines:')
-        fi.read_n_first_lines(target_file, 30)
+        dat.print_initial_lines(target_file, 30)
         print(f'Reindexed {corp_count}/{len(corpora)} corpora...')
         
     
