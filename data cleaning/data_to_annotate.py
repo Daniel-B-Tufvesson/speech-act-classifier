@@ -115,7 +115,6 @@ def read_n_sentences(source_file: str, n_sentences: int, sent_ids: set[str]) -> 
 if __name__ == '__main__':
 
     source_files = dat.lines('processed data no-deps clean/data files.txt')
-    #source_files = [dat.absolute_path(file) for file in source_files]
     target_dir = 'data to annotate'
 
     # Extract 1000 sentences from each corpus, to files with 50 sentences each.
