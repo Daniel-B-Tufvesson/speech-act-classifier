@@ -1,7 +1,6 @@
 import os
 from typing import Generator
 import bz2
-import speechact.preprocess as dat
 
 class Sentence:
 
@@ -85,5 +84,6 @@ def load_corpora_from_data_file(data_file: str) -> list[Corpus]:
     """
     Load several corpora from a text file listing the file names of each corpus.
     """
+    import speechact.preprocess as dat
     source_files = dat.lines(data_file)
     return [Corpus(file, file.split('/')[-1].removesuffix('.connlu.bz2').removesuffix('-100k').removesuffix('-500k')) for file in source_files]

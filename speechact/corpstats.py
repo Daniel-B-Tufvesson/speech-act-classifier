@@ -2,18 +2,21 @@
 Code for printing corpus statistics to files.
 """
 
-from . import corpus
-from speechact.corpus import Corpus
+import speechact.corpus as corp
 from typing import TextIO
 
-def write_sentence_counts(corpora: list[Corpus], target: TextIO):
+def write_sentence_counts(corpora: list[corp.Corpus], target: TextIO):
     print('Writing sentences counts in corpora to target...')
 
+    corp_count = 0
     for corpus in corpora:
         count = corpus.sentence_count
 
         target.write(corpus.name)
         target.write(f' {count}\n')
+
+        corp_count += 1
+        print(f'Counted sentences in {corp_count}/{len(corpora)}...')
     
     print('Writing complete.')
 
