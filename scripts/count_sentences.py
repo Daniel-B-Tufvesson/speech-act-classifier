@@ -6,7 +6,7 @@ import speechact.corpus as corp
 import speechact.corpstats as cs
 
 if __name__ == '__main__':
-    data_dir = 'data/reindexed data'
+    data_dir = 'data/tagged data'
     corpora = corp.load_corpora_from_data_file(f'{data_dir}/data files.txt')
 
     with open(f'{data_dir}/sentence counts.txt', mode='wt') as target:
