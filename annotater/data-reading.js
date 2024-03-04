@@ -93,12 +93,12 @@ export async function parseSentences(fileURL, nSentences) {
             line = line.trim()
 
             // Parse sentence ID.
-            if (line.startsWith('sent_id = ')) {
-                sentenceID = line.substring('sent_id = '.length)
+            if (line.startsWith('# sent_id = ')) {
+                sentenceID = line.substring('# sent_id = '.length)
             }
             // Parse sentence text.
-            else if (line.startsWith('text = ')) {
-                sentenceText = line.substring('text = '.length)
+            else if (line.startsWith('# text = ')) {
+                sentenceText = line.substring('# text = '.length)
             }
         }
     }

@@ -2,7 +2,7 @@
  * The main js code for the annotater.
  */
 
-import { random_sample_of_sentences } from "./data-reading.js"
+import { parseSentences } from "./data-reading.js"
 
 /**
  * A sentence.
@@ -263,14 +263,19 @@ const sentences = [
 ]
 */
 
+// Choose random sentence file.
+//...
+//...
+
 // Read sentences.
-const fileURL = '../data to annotate/data-to-annotate-v1.txt'
-const sentences = await random_sample_of_sentences(fileURL, 50)
+const file_name = 'sents_752'
+const fileURL = `../data/data to annotate/test annotation/${file_name}.💬`
+const sentences = await parseSentences(fileURL, -1)
 console.log('Number of sentences: ', sentences.length)
 
 // Create new session.
 const session = new Session(null, sentences)
-session.session_id = `session-${session.startTime}`
+session.session_id = `${file_name}-${session.startTime}`
 new View(session)
 new Controller(session)
 
@@ -280,7 +285,7 @@ session.onCompletion = () => {
 
     // Create download link.
     const downloadLink = document.createElement('a')
-    downloadLink.setAttribute('download', `${session.session_id}.anot_sent`)
+    downloadLink.setAttribute('download', `${session.session_id}.✏️`)
     downloadLink.href = session.resultsURL
 
     // Wait and then auto-click the link.
