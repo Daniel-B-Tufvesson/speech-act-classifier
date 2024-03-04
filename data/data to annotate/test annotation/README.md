@@ -1,0 +1,2 @@
+# `test annotation`
+This directory contain the data developing the annotation guidelines. The guidelines are developed iteratively through MAMA subcycle (Model-Annotate-Model-Annotate), which is part of the MATTER cycle. Once the guidelines are complete, they will be used for annotating the remaining data outside of this directory.
