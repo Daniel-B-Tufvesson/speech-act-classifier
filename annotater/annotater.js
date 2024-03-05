@@ -146,16 +146,16 @@ class Session {
         const lines = []
         
         // Write the session data.
-        lines.push('session_id = ' + this.session_id + '\n')
-        lines.push('start_time = ' + this.startTime + '\n')
-        lines.push('end_time = ' + currentDateAndTime() + '\n')
+        lines.push('# session_id = ' + this.session_id + '\n')
+        lines.push('# start_time = ' + this.startTime + '\n')
+        lines.push('# end_time = ' + currentDateAndTime() + '\n')
         
         // Write all sentences as lines.
         for (let sentence of this.sentences) {
             lines.push('\n')
-            lines.push('sent_id = ' + sentence.sent_id + '\n')
-            lines.push('text = ' + sentence.text + '\n')
-            lines.push('speech_act = ' + sentence.annotationTag + '\n')
+            lines.push('# sent_id = ' + sentence.sent_id + '\n')
+            lines.push('# text = ' + sentence.text + '\n')
+            lines.push('# speech_act = ' + sentence.annotationTag + '\n')
         }
         
         // Create blob of lines.
