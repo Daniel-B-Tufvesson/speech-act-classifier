@@ -1,203 +1,203 @@
-session_id = sents_754-2024-03-04 21:40:04
-start_time = 2024-03-04 21:40:04
-end_time = 2024-03-04 21:54:10
+# session_id = sents_754-2024-03-04 21:40:04
+# start_time = 2024-03-04 21:40:04
+# end_time = 2024-03-04 21:54:10
 
-sent_id = 1600931
-text = Har precis varit iväg en vecka på Ko Tao, bodde på en fantastisk resort med pool precis vid havet.
-speech_act = assertion
+# sent_id = 1600931
+# text = Har precis varit iväg en vecka på Ko Tao, bodde på en fantastisk resort med pool precis vid havet.
+# speech_act = assertion
 
-sent_id = 2900543
-text = Nu har dom laddat upp den igen.
-speech_act = assertion
+# sent_id = 2900543
+# text = Nu har dom laddat upp den igen.
+# speech_act = assertion
 
-sent_id = 700574
-text = Vad är det som är billigt/prisvärt i polen??
-speech_act = question
+# sent_id = 700574
+# text = Vad är det som är billigt/prisvärt i polen??
+# speech_act = question
 
-sent_id = 2300930
-text = Med Windows 32 bits kan du bara adressera 4 GB och använda cirka 3,5GB.
-speech_act = assertion
+# sent_id = 2300930
+# text = Med Windows 32 bits kan du bara adressera 4 GB och använda cirka 3,5GB.
+# speech_act = assertion
 
-sent_id = 2000955
-text = alla ???
-speech_act = question
+# sent_id = 2000955
+# text = alla ???
+# speech_act = question
 
-sent_id = 900814
-text = http://www.roligaklipp.se/gymnastikproblem,274.html
-speech_act = assertion
+# sent_id = 900814
+# text = http://www.roligaklipp.se/gymnastikproblem,274.html
+# speech_act = assertion
 
-sent_id = 100980
-text = Gwen Stefani skrev 2009-01-08 01:46:36 följande : FN satsar stort på återförening av splittrade familjer.I Sverige splittrar vi familjer - i lagens namn.I en internatonell jämförelse så framstår Sverige som ett av de länder som är mest benäget att använda tvångsåtgärder för att hjälpa människor .
-speech_act = none
+# sent_id = 100980
+# text = Gwen Stefani skrev 2009-01-08 01:46:36 följande : FN satsar stort på återförening av splittrade familjer.I Sverige splittrar vi familjer - i lagens namn.I en internatonell jämförelse så framstår Sverige som ett av de länder som är mest benäget att använda tvångsåtgärder för att hjälpa människor .
+# speech_act = none
 
-sent_id = 2000048
-text = Gud vilken underbar nyhet!
-speech_act = expressive
+# sent_id = 2000048
+# text = Gud vilken underbar nyhet!
+# speech_act = expressive
 
-sent_id = 1100289
-text = Hej!
-speech_act = expressive
+# sent_id = 1100289
+# text = Hej!
+# speech_act = expressive
 
-sent_id = 1800466
-text = 1 feb - sagan12345
-speech_act = none
+# sent_id = 1800466
+# text = 1 feb - sagan12345
+# speech_act = none
 
-sent_id = 1500761
-text = Har också två barn som är 6 och 8 tror ni det skulle funka?
-speech_act = question
+# sent_id = 1500761
+# text = Har också två barn som är 6 och 8 tror ni det skulle funka?
+# speech_act = question
 
-sent_id = 2900405
-text = "Desperat", "narcissist" och "dryg".
-speech_act = assertion
+# sent_id = 2900405
+# text = "Desperat", "narcissist" och "dryg".
+# speech_act = assertion
 
-sent_id = 2700345
-text = För att få ett lån behöver du bevisa att din inkomst är av varaktig natur.
-speech_act = assertion
+# sent_id = 2700345
+# text = För att få ett lån behöver du bevisa att din inkomst är av varaktig natur.
+# speech_act = assertion
 
-sent_id = 1300971
-text = Börjar känna att det kanske inte var så bra att behålla bebben när vi bara varit ihop i sex månader.
-speech_act = expressive
+# sent_id = 1300971
+# text = Börjar känna att det kanske inte var så bra att behålla bebben när vi bara varit ihop i sex månader.
+# speech_act = expressive
 
-sent_id = 1800068
-text = Beräknad förlossning:
-speech_act = none
+# sent_id = 1800068
+# text = Beräknad förlossning:
+# speech_act = none
 
-sent_id = 1400962
-text = Då kanske du inte kan eller vågar göra det.
-speech_act = assertion
+# sent_id = 1400962
+# text = Då kanske du inte kan eller vågar göra det.
+# speech_act = assertion
 
-sent_id = 900336
-text = Ska li roligt att komma in här igen när jag kommer hem!
-speech_act = expressive
+# sent_id = 900336
+# text = Ska li roligt att komma in här igen när jag kommer hem!
+# speech_act = expressive
 
-sent_id = 2100281
-text = Vi gick hem till henne och tänkte nu jevlar blir det orgasmer från höger och vänster men nej.....hon ville bara mysa med mig i sängen.
-speech_act = assertion
+# sent_id = 2100281
+# text = Vi gick hem till henne och tänkte nu jevlar blir det orgasmer från höger och vänster men nej.....hon ville bara mysa med mig i sängen.
+# speech_act = assertion
 
-sent_id = 2100515
-text = (Hm, en instuktionsfilm på detta hade nog varit bra.
-speech_act = expressive
+# sent_id = 2100515
+# text = (Hm, en instuktionsfilm på detta hade nog varit bra.
+# speech_act = expressive
 
-sent_id = 3300613
-text = Den man bor med och tar hit (alltså det mer seriösa förhållandet) vill ju i alla fall jag skall vara smartare än en kokosnöt.
-speech_act = expressive
+# sent_id = 3300613
+# text = Den man bor med och tar hit (alltså det mer seriösa förhållandet) vill ju i alla fall jag skall vara smartare än en kokosnöt.
+# speech_act = expressive
 
-sent_id = 3200944
-text = Det var dessutom känt även härom dagen.
-speech_act = assertion
+# sent_id = 3200944
+# text = Det var dessutom känt även härom dagen.
+# speech_act = assertion
 
-sent_id = 1000842
-text = Så nästa vecka är det dags för mig att åka till jobb.
-speech_act = assertion
+# sent_id = 1000842
+# text = Så nästa vecka är det dags för mig att åka till jobb.
+# speech_act = assertion
 
-sent_id = 900414
-text = Midka skrev 2009-05-29 20:32:40 följande:Dorian Ertymexx skrev 2009-05-29 19:04:59 följande: Är det fysiskt möjligt för dig?
-speech_act = none
+# sent_id = 900414
+# text = Midka skrev 2009-05-29 20:32:40 följande:Dorian Ertymexx skrev 2009-05-29 19:04:59 följande: Är det fysiskt möjligt för dig?
+# speech_act = none
 
-sent_id = 600538
-text = hahaha va äckligt
-speech_act = expressive
+# sent_id = 600538
+# text = hahaha va äckligt
+# speech_act = expressive
 
-sent_id = 700987
-text = Vilka är det som åker imorron till Turkiet?
-speech_act = question
+# sent_id = 700987
+# text = Vilka är det som åker imorron till Turkiet?
+# speech_act = question
 
-sent_id = 800558
-text = Att kvinnor är överlägsna i socialt samspel och empati, kan givetvis ha sina fördelar men det är inte detsamma som bra ledare.
-speech_act = assertion
+# sent_id = 800558
+# text = Att kvinnor är överlägsna i socialt samspel och empati, kan givetvis ha sina fördelar men det är inte detsamma som bra ledare.
+# speech_act = assertion
 
-sent_id = 700139
-text = Indien kan väl vara intressant att resa i?
-speech_act = question
+# sent_id = 700139
+# text = Indien kan väl vara intressant att resa i?
+# speech_act = question
 
-sent_id = 1300810
-text = Aha du menade så, då missuppfattade jag dig.
-speech_act = assertion
+# sent_id = 1300810
+# text = Aha du menade så, då missuppfattade jag dig.
+# speech_act = assertion
 
-sent_id = 1200562
-text = vill oxå nämna att jag tycker det är ett bra förslag; titti och mini!
-speech_act = expressive
+# sent_id = 1200562
+# text = vill oxå nämna att jag tycker det är ett bra förslag; titti och mini!
+# speech_act = expressive
 
-sent_id = 300035
-text = Tex .
-speech_act = none
+# sent_id = 300035
+# text = Tex .
+# speech_act = none
 
-sent_id = 1500941
-text = Under sommaren plockar hon fram tre gårdar, jag fixar och trixar med mäklarna, ett fel gör jag och det är att jag inte plockar fram någon gård att åka och titta på men lägger just då ingen värdering i det då ju hennes tre är bra objekt att göra bedömningar av.
-speech_act = assertion
+# sent_id = 1500941
+# text = Under sommaren plockar hon fram tre gårdar, jag fixar och trixar med mäklarna, ett fel gör jag och det är att jag inte plockar fram någon gård att åka och titta på men lägger just då ingen värdering i det då ju hennes tre är bra objekt att göra bedömningar av.
+# speech_act = assertion
 
-sent_id = 2600816
-text = Avstängd i en vecka.
-speech_act = assertion
+# sent_id = 2600816
+# text = Avstängd i en vecka.
+# speech_act = assertion
 
-sent_id = 2300396
-text = Jag bryter ihop snart.
-speech_act = expressive
+# sent_id = 2300396
+# text = Jag bryter ihop snart.
+# speech_act = expressive
 
-sent_id = 1400844
-text = Om jag var du skulle jag nog se till att satta upp ett schema igen, for ett sadant system ni nu har baddar for konflikter.
-speech_act = directive
+# sent_id = 1400844
+# text = Om jag var du skulle jag nog se till att satta upp ett schema igen, for ett sadant system ni nu har baddar for konflikter.
+# speech_act = directive
 
-sent_id = 1500539
-text = Lämna honom om han menat allvar med att skärpa sig skulle han vänt sig till en terapeut.
-speech_act = none
+# sent_id = 1500539
+# text = Lämna honom om han menat allvar med att skärpa sig skulle han vänt sig till en terapeut.
+# speech_act = none
 
-sent_id = 3600461
-text = Håller med dig, det är synd om man bara kör en enhetstaxa.
-speech_act = expressive
+# sent_id = 3600461
+# text = Håller med dig, det är synd om man bara kör en enhetstaxa.
+# speech_act = expressive
 
-sent_id = 3300033
-text = Jag tipset (OBS tips, inte medicinsk rådgivning eller ordination) (en liten bamyl tror jag han sa) av en läkare.
-speech_act = assertion
+# sent_id = 3300033
+# text = Jag tipset (OBS tips, inte medicinsk rådgivning eller ordination) (en liten bamyl tror jag han sa) av en läkare.
+# speech_act = assertion
 
-sent_id = 2100511
-text = Varför skratta sådär?
-speech_act = question
+# sent_id = 2100511
+# text = Varför skratta sådär?
+# speech_act = question
 
-sent_id = 300431
-text = Anónimo , din bror har tur han , fom dom killarna är heta
-speech_act = expressive
+# sent_id = 300431
+# text = Anónimo , din bror har tur han , fom dom killarna är heta
+# speech_act = expressive
 
-sent_id = 3600548
-text = Skulle tippa på New York City.
-speech_act = assertion
+# sent_id = 3600548
+# text = Skulle tippa på New York City.
+# speech_act = assertion
 
-sent_id = 2200704
-text = När jag var ung ensamstående mamma till mina två äldsta barn ansökte jag om att få en kontaktfamilj.
-speech_act = assertion
+# sent_id = 2200704
+# text = När jag var ung ensamstående mamma till mina två äldsta barn ansökte jag om att få en kontaktfamilj.
+# speech_act = assertion
 
-sent_id = 2200016
-text = Jag vet inte om flickor i gemen kunde få barn i 12-13 årsåldern på medeltiden (nu talade vi iofs om 16-1800-talet tidigare, och det är stor skillnad vad gäller medellivslängden på 1300-talet och på 1800-talet t ex) - även om de giftes bort då.
-speech_act = assertion
+# sent_id = 2200016
+# text = Jag vet inte om flickor i gemen kunde få barn i 12-13 årsåldern på medeltiden (nu talade vi iofs om 16-1800-talet tidigare, och det är stor skillnad vad gäller medellivslängden på 1300-talet och på 1800-talet t ex) - även om de giftes bort då.
+# speech_act = assertion
 
-sent_id = 1900314
-text = Säkert INTE billigt... :/
-speech_act = expressive
+# sent_id = 1900314
+# text = Säkert INTE billigt... :/
+# speech_act = expressive
 
-sent_id = 1500688
-text = Hon verkar ha mycket att jobba med, som inte har ett enda dugg med dig att göra.
-speech_act = assertion
+# sent_id = 1500688
+# text = Hon verkar ha mycket att jobba med, som inte har ett enda dugg med dig att göra.
+# speech_act = assertion
 
-sent_id = 200569
-text = Det vore verkligen att mata trollen...
-speech_act = assertion
+# sent_id = 200569
+# text = Det vore verkligen att mata trollen...
+# speech_act = assertion
 
-sent_id = 2700430
-text = Allt han gör är klockrent)
-speech_act = expressive
+# sent_id = 2700430
+# text = Allt han gör är klockrent)
+# speech_act = expressive
 
-sent_id = 2500519
-text = Där finns ofta helt hela och användbara möbler som folk slängt för att de flyttar.
-speech_act = assertion
+# sent_id = 2500519
+# text = Där finns ofta helt hela och användbara möbler som folk slängt för att de flyttar.
+# speech_act = assertion
 
-sent_id = 200763
-text = De flesta trådar det handlar om finns ju under Familjeliv-sajten!
-speech_act = assertion
+# sent_id = 200763
+# text = De flesta trådar det handlar om finns ju under Familjeliv-sajten!
+# speech_act = assertion
 
-sent_id = 2300322
-text = Du får sisådär 50-90 procent bättre prestanda med ett kort till.
-speech_act = assertion
+# sent_id = 2300322
+# text = Du får sisådär 50-90 procent bättre prestanda med ett kort till.
+# speech_act = assertion
 
-sent_id = 1800376
-text = Kunde vara kul att utbyta erfarenheter på lite mer lokal nivå
-speech_act = expressive
+# sent_id = 1800376
+# text = Kunde vara kul att utbyta erfarenheter på lite mer lokal nivå
+# speech_act = expressive

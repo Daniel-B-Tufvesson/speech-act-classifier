@@ -1,203 +1,203 @@
-session_id = sents_759-2024-03-05 07:34:19
-start_time = 2024-03-05 07:34:19
-end_time = 2024-03-05 07:51:01
+# session_id = sents_759-2024-03-05 07:34:19
+# start_time = 2024-03-05 07:34:19
+# end_time = 2024-03-05 07:51:01
 
-sent_id = 1400456
-text = För om de ser att det är så du ser dem så kanske det väcker en tanke hos dem.
-speech_act = assertion
+# sent_id = 1400456
+# text = För om de ser att det är så du ser dem så kanske det väcker en tanke hos dem.
+# speech_act = assertion
 
-sent_id = 3100384
-text = Försök åtminstone att motivera varför ni saknar någon viss sort
-speech_act = directive
+# sent_id = 3100384
+# text = Försök åtminstone att motivera varför ni saknar någon viss sort
+# speech_act = directive
 
-sent_id = 1200194
-text = Vi sitter bredvid, klappar och sjunger falskt tills han somnar.
-speech_act = assertion
+# sent_id = 1200194
+# text = Vi sitter bredvid, klappar och sjunger falskt tills han somnar.
+# speech_act = assertion
 
-sent_id = 1400727
-text = Uf har inte ställt några krav, varken utifrån sunt förnuft eller utifrån någon lag.
-speech_act = assertion
+# sent_id = 1400727
+# text = Uf har inte ställt några krav, varken utifrån sunt förnuft eller utifrån någon lag.
+# speech_act = assertion
 
-sent_id = 1400627
-text = Men de förstår man ju... hans son är ju en odåga som knarkar och är kriminell så då finns han ju inte längre...
-speech_act = assertion
+# sent_id = 1400627
+# text = Men de förstår man ju... hans son är ju en odåga som knarkar och är kriminell så då finns han ju inte längre...
+# speech_act = assertion
 
-sent_id = 1200469
-text = De har väl ögon att blunda med?"
-speech_act = question
+# sent_id = 1200469
+# text = De har väl ögon att blunda med?"
+# speech_act = question
 
-sent_id = 1300061
-text = Kaiza- haha det såg jag med, och det blev samma reaktion här kan jag säga.
-speech_act = expressive
+# sent_id = 1300061
+# text = Kaiza- haha det såg jag med, och det blev samma reaktion här kan jag säga.
+# speech_act = expressive
 
-sent_id = 3700429
-text = Dessa är inte vanligt förekommande och det är inte heller troligt att de kommer att säljas mer.
-speech_act = assertion
+# sent_id = 3700429
+# text = Dessa är inte vanligt förekommande och det är inte heller troligt att de kommer att säljas mer.
+# speech_act = assertion
 
-sent_id = 889
-text = Burit tanken på adoption längre än så .
-speech_act = assertion
+# sent_id = 889
+# text = Burit tanken på adoption längre än så .
+# speech_act = assertion
 
-sent_id = 3100444
-text = God natt.
-speech_act = expressive
+# sent_id = 3100444
+# text = God natt.
+# speech_act = expressive
 
-sent_id = 1100300
-text = Jag är ju ingen expert på hur mycket de olika företagen säljer, så om du menar vem som är världsledande i.o.m vems som säljer flest produkter så kan jag inte svara på det.Jag kan ju tala om vilka märken som jag och mina kollegor använder mest och vad som dominerar i press och annan media.
-speech_act = assertion
+# sent_id = 1100300
+# text = Jag är ju ingen expert på hur mycket de olika företagen säljer, så om du menar vem som är världsledande i.o.m vems som säljer flest produkter så kan jag inte svara på det.Jag kan ju tala om vilka märken som jag och mina kollegor använder mest och vad som dominerar i press och annan media.
+# speech_act = assertion
 
-sent_id = 1100825
-text = Jag använder nästan bara pensel när jag tar på skuggor tycker att det är lättare att få det jämt men som sagt det blir så mycket spill från det märket jag använder just nu...
-speech_act = assertion
+# sent_id = 1100825
+# text = Jag använder nästan bara pensel när jag tar på skuggor tycker att det är lättare att få det jämt men som sagt det blir så mycket spill från det märket jag använder just nu...
+# speech_act = assertion
 
-sent_id = 1600398
-text = fixar till listan igen
-speech_act = assertion
+# sent_id = 1600398
+# text = fixar till listan igen
+# speech_act = assertion
 
-sent_id = 1100624
-text = Vinkla sedan penseln från yttre näsvingen längs med yttre ögonvrån, där ska du sluta plocka.
-speech_act = directive
+# sent_id = 1100624
+# text = Vinkla sedan penseln från yttre näsvingen längs med yttre ögonvrån, där ska du sluta plocka.
+# speech_act = directive
 
-sent_id = 100776
-text = Vill du rädda din giftermål ?
-speech_act = question
+# sent_id = 100776
+# text = Vill du rädda din giftermål ?
+# speech_act = question
 
-sent_id = 2100315
-text = Du anar inte hur många gånger jag har varit "skengravid" för att jag har gått och väntat på mensen och oroat mig.
-speech_act = assertion
+# sent_id = 2100315
+# text = Du anar inte hur många gånger jag har varit "skengravid" för att jag har gått och väntat på mensen och oroat mig.
+# speech_act = assertion
 
-sent_id = 1800948
-text = Så hur kan man namnge deras namn?
-speech_act = question
+# sent_id = 1800948
+# text = Så hur kan man namnge deras namn?
+# speech_act = question
 
-sent_id = 2000343
-text = !
-speech_act = none
+# sent_id = 2000343
+# text = !
+# speech_act = none
 
-sent_id = 1800854
-text = Hesu78 oj va krångligt!
-speech_act = expressive
+# sent_id = 1800854
+# text = Hesu78 oj va krångligt!
+# speech_act = expressive
 
-sent_id = 1300143
-text = Jag sa bara att det låg på hans bord.
-speech_act = assertion
+# sent_id = 1300143
+# text = Jag sa bara att det låg på hans bord.
+# speech_act = assertion
 
-sent_id = 2800777
-text = https://www.scb.se/statistik/_publik...BE96ST0701.pdf
-speech_act = assertion
+# sent_id = 2800777
+# text = https://www.scb.se/statistik/_publik...BE96ST0701.pdf
+# speech_act = assertion
 
-sent_id = 1600839
-text = Vi ska i alla fall på påsklunch med mammagruppen - himla trevligt!
-speech_act = expressive
+# sent_id = 1600839
+# text = Vi ska i alla fall på påsklunch med mammagruppen - himla trevligt!
+# speech_act = expressive
 
-sent_id = 600459
-text = Den ormen förstörde all min tilltro till ormar .
-speech_act = assertion
+# sent_id = 600459
+# text = Den ormen förstörde all min tilltro till ormar .
+# speech_act = assertion
 
-sent_id = 600325
-text = O så ÄTER man kött o kykling o sådant !
-speech_act = unknown
+# sent_id = 600325
+# text = O så ÄTER man kött o kykling o sådant !
+# speech_act = unknown
 
-sent_id = 351
-text = Du får jättebra information av dem.
-speech_act = expressive
+# sent_id = 351
+# text = Du får jättebra information av dem.
+# speech_act = expressive
 
-sent_id = 3000500
-text = himla dåligt att dom inte säger det i butiken när man frågar också "näädå, om du tvättar dom rätt så ska dom inte krympa".
-speech_act = expressive
+# sent_id = 3000500
+# text = himla dåligt att dom inte säger det i butiken när man frågar också "näädå, om du tvättar dom rätt så ska dom inte krympa".
+# speech_act = expressive
 
-sent_id = 2100505
-text = Men om han krävde hårt sm-sex så nej då kommer det inte funka.
-speech_act = assertion
+# sent_id = 2100505
+# text = Men om han krävde hårt sm-sex så nej då kommer det inte funka.
+# speech_act = assertion
 
-sent_id = 1900372
-text = Väldigt billig i inköp om man jämför med andra märken.
-speech_act = assertion
+# sent_id = 1900372
+# text = Väldigt billig i inköp om man jämför med andra märken.
+# speech_act = assertion
 
-sent_id = 2500400
-text = Läs och lär.
-speech_act = directive
+# sent_id = 2500400
+# text = Läs och lär.
+# speech_act = directive
 
-sent_id = 3400980
-text = Att spela "stackars arbetarklass"-kortet är så oerhört fegt och visar bara på att man vägrar ta ansvar själv.
-speech_act = expressive
+# sent_id = 3400980
+# text = Att spela "stackars arbetarklass"-kortet är så oerhört fegt och visar bara på att man vägrar ta ansvar själv.
+# speech_act = expressive
 
-sent_id = 265
-text = Jag ser iaf inga fel att få starta en utredning innan man fyllt 25 , medgivandet fick vi ju strax innan jag fyllde (man blir ju inte mer mogen/äldre el så för att de hade väntat de 3 mån som "fattades") papperen fick vi skicka till landet eftersom jag ändå skulle hinna fylla 25 innan de skulle komma att titta i dem + att ngra veckor ej är avgörande huvudsaken är att man isf fyllt 25 när man bli matchad om man ej fått medgivande för särskilda skäl såklart.
-speech_act = unknown
+# sent_id = 265
+# text = Jag ser iaf inga fel att få starta en utredning innan man fyllt 25 , medgivandet fick vi ju strax innan jag fyllde (man blir ju inte mer mogen/äldre el så för att de hade väntat de 3 mån som "fattades") papperen fick vi skicka till landet eftersom jag ändå skulle hinna fylla 25 innan de skulle komma att titta i dem + att ngra veckor ej är avgörande huvudsaken är att man isf fyllt 25 när man bli matchad om man ej fått medgivande för särskilda skäl såklart.
+# speech_act = unknown
 
-sent_id = 3100588
-text = Påsen är bara inte blöt på det stället där dom är vita =)
-speech_act = assertion
+# sent_id = 3100588
+# text = Påsen är bara inte blöt på det stället där dom är vita =)
+# speech_act = assertion
 
-sent_id = 654
-text = Om man ÄR sjukskriven får man troligen inget medgivande men att man har varit det tidigare ska inte spela någon roll om man nu är frisk och kan visa upp intyg på det.
-speech_act = assertion
+# sent_id = 654
+# text = Om man ÄR sjukskriven får man troligen inget medgivande men att man har varit det tidigare ska inte spela någon roll om man nu är frisk och kan visa upp intyg på det.
+# speech_act = assertion
 
-sent_id = 2800707
-text = Säger också den nya lägenheten.
-speech_act = assertion
+# sent_id = 2800707
+# text = Säger också den nya lägenheten.
+# speech_act = assertion
 
-sent_id = 2800272
-text = ja kanske skulle jag ta och kolla på det för en gångs skull.
-speech_act = assertion
+# sent_id = 2800272
+# text = ja kanske skulle jag ta och kolla på det för en gångs skull.
+# speech_act = assertion
 
-sent_id = 1600163
-text = Lyssna på vad du själv säger här.
-speech_act = directive
+# sent_id = 1600163
+# text = Lyssna på vad du själv säger här.
+# speech_act = directive
 
-sent_id = 2100062
-text = Du kanske innerst inne är kär, men du förnekar det?
-speech_act = question
+# sent_id = 2100062
+# text = Du kanske innerst inne är kär, men du förnekar det?
+# speech_act = question
 
-sent_id = 1100534
-text = (Origins finns tex på Åhlens och N.K i Sthlm) Sen är det även viktig vad för slags foundation och concealer du använder.
-speech_act = assertion
+# sent_id = 1100534
+# text = (Origins finns tex på Åhlens och N.K i Sthlm) Sen är det även viktig vad för slags foundation och concealer du använder.
+# speech_act = assertion
 
-sent_id = 1900177
-text = Finns hur mycket bra hårdrock som helst typ: Anthrax, suicidal tendencies, pantera, megadeth, Therion, candlemass... osv.
-speech_act = assertion
+# sent_id = 1900177
+# text = Finns hur mycket bra hårdrock som helst typ: Anthrax, suicidal tendencies, pantera, megadeth, Therion, candlemass... osv.
+# speech_act = assertion
 
-sent_id = 1800323
-text = Ja vi blev supernöjda.
-speech_act = expressive
+# sent_id = 1800323
+# text = Ja vi blev supernöjda.
+# speech_act = expressive
 
-sent_id = 2300401
-text = Det lär väl finnas kvalitetsprylar i den prisklassen också, eller?
-speech_act = question
+# sent_id = 2300401
+# text = Det lär väl finnas kvalitetsprylar i den prisklassen också, eller?
+# speech_act = question
 
-sent_id = 800156
-text = Observera VILL!
-speech_act = directive
+# sent_id = 800156
+# text = Observera VILL!
+# speech_act = directive
 
-sent_id = 2200856
-text = Fast jag tror INTE du mår så mycket annorlunda isf av att ta det vaginalt.
-speech_act = assertion
+# sent_id = 2200856
+# text = Fast jag tror INTE du mår så mycket annorlunda isf av att ta det vaginalt.
+# speech_act = assertion
 
-sent_id = 2700572
-text = tack så mycket, det var ett vettigt svar!
-speech_act = expressive
+# sent_id = 2700572
+# text = tack så mycket, det var ett vettigt svar!
+# speech_act = expressive
 
-sent_id = 3700749
-text = Vad har hänt med mitt paket tror ni snälla hjälp.
-speech_act = question
+# sent_id = 3700749
+# text = Vad har hänt med mitt paket tror ni snälla hjälp.
+# speech_act = question
 
-sent_id = 1400002
-text = Tiden är först om tre veckor!!!
-speech_act = assertion
+# sent_id = 1400002
+# text = Tiden är först om tre veckor!!!
+# speech_act = assertion
 
-sent_id = 1000199
-text = Funderar lite på hur många som skulle vilja träffas på riktigt framåt vår/sommar kanten?
-speech_act = question
+# sent_id = 1000199
+# text = Funderar lite på hur många som skulle vilja träffas på riktigt framåt vår/sommar kanten?
+# speech_act = question
 
-sent_id = 1200677
-text = "men han älskar ju ändå mig"... ja ni fattar?
-speech_act = question
+# sent_id = 1200677
+# text = "men han älskar ju ändå mig"... ja ni fattar?
+# speech_act = question
 
-sent_id = 2000713
-text = Hmm... lycka till med pillren!
-speech_act = expressive
+# sent_id = 2000713
+# text = Hmm... lycka till med pillren!
+# speech_act = expressive
 
-sent_id = 400332
-text = Jag har sett att vissa köpt billiga från IKEA men många motsätter sig detta och säger att de inte är helt säkra från att gå sönder .
-speech_act = assertion
+# sent_id = 400332
+# text = Jag har sett att vissa köpt billiga från IKEA men många motsätter sig detta och säger att de inte är helt säkra från att gå sönder .
+# speech_act = assertion

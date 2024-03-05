@@ -1,203 +1,203 @@
-session_id = sents_750-2024-03-04 07:54:07
-start_time = 2024-03-04 07:54:07
-end_time = 2024-03-04 08:07:43
+# session_id = sents_750-2024-03-04 07:54:07
+# start_time = 2024-03-04 07:54:07
+# end_time = 2024-03-04 08:07:43
 
-sent_id = 3200209
-text = :P
-speech_act = unknown
+# sent_id = 3200209
+# text = :P
+# speech_act = unknown
 
-sent_id = 1300467
-text = jag kanske inte tillför nåt nytt.
-speech_act = assertion
+# sent_id = 1300467
+# text = jag kanske inte tillför nåt nytt.
+# speech_act = assertion
 
-sent_id = 500219
-text = Genom att kompostera komposterbara saker?
-speech_act = question
+# sent_id = 500219
+# text = Genom att kompostera komposterbara saker?
+# speech_act = question
 
-sent_id = 3000504
-text = Du kanske är lite gammaldags, om du fäster sådan vikt vid vid vilka tillfällen man ska ha ett visst antal knappar på rockärmarna.
-speech_act = assertion
+# sent_id = 3000504
+# text = Du kanske är lite gammaldags, om du fäster sådan vikt vid vid vilka tillfällen man ska ha ett visst antal knappar på rockärmarna.
+# speech_act = assertion
 
-sent_id = 1100910
-text = tack för ditt svar!
-speech_act = expressive
+# sent_id = 1100910
+# text = tack för ditt svar!
+# speech_act = expressive
 
-sent_id = 600268
-text = Skoj ju ...
-speech_act = expressive
+# sent_id = 600268
+# text = Skoj ju ...
+# speech_act = expressive
 
-sent_id = 1500977
-text = Du gör också samma fel, man måste, tro det eller ej, ha en läggning för matematik.
-speech_act = assertion
+# sent_id = 1500977
+# text = Du gör också samma fel, man måste, tro det eller ej, ha en läggning för matematik.
+# speech_act = assertion
 
-sent_id = 1000621
-text = VARFÖR??
-speech_act = unknown
+# sent_id = 1000621
+# text = VARFÖR??
+# speech_act = unknown
 
-sent_id = 3400815
-text = Självklart frågar du en person innan du lämnar dem som referens.
-speech_act = assertion
+# sent_id = 3400815
+# text = Självklart frågar du en person innan du lämnar dem som referens.
+# speech_act = assertion
 
-sent_id = 3300472
-text = Bedrövligt uttal har jag säkert också!
-speech_act = expressive
+# sent_id = 3300472
+# text = Bedrövligt uttal har jag säkert också!
+# speech_act = expressive
 
-sent_id = 1600883
-text = Nej, ska passa på att ta en dusch medan lillen sover...
-speech_act = assertion
+# sent_id = 1600883
+# text = Nej, ska passa på att ta en dusch medan lillen sover...
+# speech_act = assertion
 
-sent_id = 100095
-text = Rätten har begärt ett snabbyttrande från socialen och ska dit nästa vecka .
-speech_act = assertion
+# sent_id = 100095
+# text = Rätten har begärt ett snabbyttrande från socialen och ska dit nästa vecka .
+# speech_act = assertion
 
-sent_id = 600164
-text = vart är din empati för mig ?
-speech_act = unknown
+# sent_id = 600164
+# text = vart är din empati för mig ?
+# speech_act = unknown
 
-sent_id = 400863
-text = Jag tycker nog att 50 liter också är i mesta laget .
-speech_act = expressive
+# sent_id = 400863
+# text = Jag tycker nog att 50 liter också är i mesta laget .
+# speech_act = expressive
 
-sent_id = 800291
-text = Då bara hävdar arbetsgivaren "han/hon är inte fast anställd och därför ska inte vi betala sjuklön i två veckor".
-speech_act = assertion
+# sent_id = 800291
+# text = Då bara hävdar arbetsgivaren "han/hon är inte fast anställd och därför ska inte vi betala sjuklön i två veckor".
+# speech_act = assertion
 
-sent_id = 2900512
-text = Innan vi mötte dem var vi helt oskyldiga.
-speech_act = assertion
+# sent_id = 2900512
+# text = Innan vi mötte dem var vi helt oskyldiga.
+# speech_act = assertion
 
-sent_id = 800332
-text = JA, självklart ska alla få välja om de vill jobba eller vara hemma med barn.
-speech_act = unknown
+# sent_id = 800332
+# text = JA, självklart ska alla få välja om de vill jobba eller vara hemma med barn.
+# speech_act = unknown
 
-sent_id = 2500528
-text = Sälj sedan för 10:- / twix eller cola eller 15:- för både twix och cola.
-speech_act = directive
+# sent_id = 2500528
+# text = Sälj sedan för 10:- / twix eller cola eller 15:- för både twix och cola.
+# speech_act = directive
 
-sent_id = 2900982
-text = Vem fan gör så?
-speech_act = question
+# sent_id = 2900982
+# text = Vem fan gör så?
+# speech_act = question
 
-sent_id = 1700475
-text = Vecka 49 (21)
-speech_act = assertion
+# sent_id = 1700475
+# text = Vecka 49 (21)
+# speech_act = assertion
 
-sent_id = 1700498
-text = v.17 20.
-speech_act = assertion
+# sent_id = 1700498
+# text = v.17 20.
+# speech_act = assertion
 
-sent_id = 1700923
-text = OBS!!!!
-speech_act = directive
+# sent_id = 1700923
+# text = OBS!!!!
+# speech_act = directive
 
-sent_id = 3500221
-text = +1
-speech_act = none
+# sent_id = 3500221
+# text = +1
+# speech_act = none
 
-sent_id = 3400397
-text = PM if you like.
-speech_act = none
+# sent_id = 3400397
+# text = PM if you like.
+# speech_act = none
 
-sent_id = 2900753
-text = Skiter i om det kostar mer.
-speech_act = expressive
+# sent_id = 2900753
+# text = Skiter i om det kostar mer.
+# speech_act = expressive
 
-sent_id = 2600077
-text = Användaren gavlip avstängd för Ohörsamhet.
-speech_act = assertion
+# sent_id = 2600077
+# text = Användaren gavlip avstängd för Ohörsamhet.
+# speech_act = assertion
 
-sent_id = 900836
-text = Min är optisk *myser*
-speech_act = assertion
+# sent_id = 900836
+# text = Min är optisk *myser*
+# speech_act = assertion
 
-sent_id = 3700087
-text = Mvh!
-speech_act = expressive
+# sent_id = 3700087
+# text = Mvh!
+# speech_act = expressive
 
-sent_id = 300273
-text = vad ska du ha dom till ?
-speech_act = question
+# sent_id = 300273
+# text = vad ska du ha dom till ?
+# speech_act = question
 
-sent_id = 2000378
-text = Samma morgon som jag tänkte göra ett test kom mensen.
-speech_act = assertion
+# sent_id = 2000378
+# text = Samma morgon som jag tänkte göra ett test kom mensen.
+# speech_act = assertion
 
-sent_id = 2300735
-text = Instämmer om avataren.
-speech_act = unknown
+# sent_id = 2300735
+# text = Instämmer om avataren.
+# speech_act = unknown
 
-sent_id = 3000415
-text = Ni är förmodligen helt vanliga svenssons som kämpar in i det sista för att visa upp något som inte finns.
-speech_act = assertion
+# sent_id = 3000415
+# text = Ni är förmodligen helt vanliga svenssons som kämpar in i det sista för att visa upp något som inte finns.
+# speech_act = assertion
 
-sent_id = 2000988
-text = Vi gick igenom när detta började, vad jag har ätit för preventivmedel osv.
-speech_act = assertion
+# sent_id = 2000988
+# text = Vi gick igenom när detta började, vad jag har ätit för preventivmedel osv.
+# speech_act = assertion
 
-sent_id = 3100521
-text = Jag undrar.
-speech_act = unknown
+# sent_id = 3100521
+# text = Jag undrar.
+# speech_act = unknown
 
-sent_id = 200549
-text = Jag tror inte folk söker direkt på nicket utan mer att de läser trådar och sen utifrån det går in och kikar hos folk.
-speech_act = assertion
+# sent_id = 200549
+# text = Jag tror inte folk söker direkt på nicket utan mer att de läser trådar och sen utifrån det går in och kikar hos folk.
+# speech_act = assertion
 
-sent_id = 2300599
-text = Ibland när jag kör single player går t.o.m spelet för fort, gubben springer i 120, granater flyger fram som missiler.
-speech_act = assertion
+# sent_id = 2300599
+# text = Ibland när jag kör single player går t.o.m spelet för fort, gubben springer i 120, granater flyger fram som missiler.
+# speech_act = assertion
 
-sent_id = 2400967
-text = Hmm, kommer inte ihåg vilka jag hade men det var 0.04mg tabbar...väldigt bra.
-speech_act = expressive
+# sent_id = 2400967
+# text = Hmm, kommer inte ihåg vilka jag hade men det var 0.04mg tabbar...väldigt bra.
+# speech_act = expressive
 
-sent_id = 540
-text = Jag tror verkligen att ens tidigare erfarenheter avgör hur nära man har i tanken till adoption!
-speech_act = assertion
+# sent_id = 540
+# text = Jag tror verkligen att ens tidigare erfarenheter avgör hur nära man har i tanken till adoption!
+# speech_act = assertion
 
-sent_id = 800651
-text = Enligt vems perspektiv är dessa slutsatser dragna?
-speech_act = question
+# sent_id = 800651
+# text = Enligt vems perspektiv är dessa slutsatser dragna?
+# speech_act = question
 
-sent_id = 600256
-text = Jag vet , det är något slags äckelfascination man har !
-speech_act = assertion
+# sent_id = 600256
+# text = Jag vet , det är något slags äckelfascination man har !
+# speech_act = assertion
 
-sent_id = 3200214
-text = Vad tror ni Nederländerna tycker om detta?
-speech_act = question
+# sent_id = 3200214
+# text = Vad tror ni Nederländerna tycker om detta?
+# speech_act = question
 
-sent_id = 2300341
-text = 1.
-speech_act = none
+# sent_id = 2300341
+# text = 1.
+# speech_act = none
 
-sent_id = 3200832
-text = Inte där kommer det hem fulla elektriker, så varför tar du upp så konstiga exempel som är dessutom kassa.
-speech_act = unknown
+# sent_id = 3200832
+# text = Inte där kommer det hem fulla elektriker, så varför tar du upp så konstiga exempel som är dessutom kassa.
+# speech_act = unknown
 
-sent_id = 3000549
-text = 2220.80.00.
-speech_act = none
+# sent_id = 3000549
+# text = 2220.80.00.
+# speech_act = none
 
-sent_id = 1600991
-text = Förklara varför för barnen om det händer igen.
-speech_act = directive
+# sent_id = 1600991
+# text = Förklara varför för barnen om det händer igen.
+# speech_act = directive
 
-sent_id = 100733
-text = det är nog mer lämpligt att ha vart tillsammans i minst ett år så att man inte är nykär längre och har lärt känna varandra ordentligt .
-speech_act = assertion
+# sent_id = 100733
+# text = det är nog mer lämpligt att ha vart tillsammans i minst ett år så att man inte är nykär längre och har lärt känna varandra ordentligt .
+# speech_act = assertion
 
-sent_id = 3600583
-text = Och La Gazzetta säger att Andrea Pirlo, som för tillfället semestrar med familjen i New York, snarast kommer att ansluta till New York City FC...en aning vemodigt.
-speech_act = assertion
+# sent_id = 3600583
+# text = Och La Gazzetta säger att Andrea Pirlo, som för tillfället semestrar med familjen i New York, snarast kommer att ansluta till New York City FC...en aning vemodigt.
+# speech_act = assertion
 
-sent_id = 2800294
-text = Vet inte om jag orkar dra igång nåt med föreningen för att få ner värdet.
-speech_act = expressive
+# sent_id = 2800294
+# text = Vet inte om jag orkar dra igång nåt med föreningen för att få ner värdet.
+# speech_act = expressive
 
-sent_id = 3100736
-text = De hade även en artikel om det i lokalpressen idag.
-speech_act = assertion
+# sent_id = 3100736
+# text = De hade även en artikel om det i lokalpressen idag.
+# speech_act = assertion
 
-sent_id = 2500417
-text = Bor man i Finland så kan man extra knäcka på att sälja snus.
-speech_act = assertion
+# sent_id = 2500417
+# text = Bor man i Finland så kan man extra knäcka på att sälja snus.
+# speech_act = assertion
