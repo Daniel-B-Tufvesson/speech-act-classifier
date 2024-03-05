@@ -268,7 +268,7 @@ const sentences = [
 //...
 
 // Read sentences.
-const file_name = 'sents_752'
+const file_name = 'sents_759'
 const fileURL = `../data/data to annotate/test annotation/${file_name}.💬`
 const sentences = await parseSentences(fileURL, -1)
 console.log('Number of sentences: ', sentences.length)
