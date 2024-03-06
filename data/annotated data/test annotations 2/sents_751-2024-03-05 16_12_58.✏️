@@ -1,0 +1,203 @@
+# session_id = sents_751-2024-03-05 16:12:58
+# start_time = 2024-03-05 16:12:58
+# end_time = 2024-03-05 16:21:22
+
+# sent_id = 2200276
+# text = http://www.fass.se/LIF/produktfakta/substance_products.jsp?substanceId=IDE4POJYUCQ8CVERT1
+# speech_act = assertion
+
+# sent_id = 3200634
+# text = De flesta missbrukare som dör, dör av andra droger.
+# speech_act = assertion
+
+# sent_id = 2800098
+# text = De 3 första av de sifforna var hårt kopplade till ett län.
+# speech_act = assertion
+
+# sent_id = 400893
+# text = Spontanköp av fiskar blir sällan bra .
+# speech_act = assertion
+
+# sent_id = 1800123
+# text = Det är verkligen hemskt!
+# speech_act = expressive
+
+# sent_id = 1600702
+# text = Lillen är dock bättre idag så det är skönt.
+# speech_act = expressive
+
+# sent_id = 1600287
+# text = Ja kag ska träffa honom sen när han e tillbaka i sverige men kommer inte berätta för dom men jag vet också attdet kommer bli kriiig om dom får veta eftersom min familj e från libanon och denna killen är också arab.så först ska jag kolla upp vsd som kan hända ifall jag träffar honom även om han kanske använder droger vilket jag inte vet
+# speech_act = assertion
+
+# sent_id = 2200401
+# text = Gulligt av dig Får väl fösöka coola ner mig - har inte hört ngt mer från kliniken än.
+# speech_act = assertion
+
+# sent_id = 500607
+# text = Vi har en liten gräsmatta på vår uteplats som.. ja inte är en gräsmatta.
+# speech_act = assertion
+
+# sent_id = 1900930
+# text = Men ja.
+# speech_act = assertion
+
+# sent_id = 308
+# text = Hej Pumba!
+# speech_act = expressive
+
+# sent_id = 600917
+# text = Självklart kan det vara sleep paralysis det handlade om redan då men det känns mer spännande att tänka sig en mara som rider en .
+# speech_act = expressive
+
+# sent_id = 500178
+# text = ( Självgående, svett-jocke osv) En gammal självgående
+# speech_act = none
+
+# sent_id = 3100109
+# text = Snarare friskhet eftersom jag inte har engagemang för dårar på nätet som ska kränka någon personlighet jag saknar.
+# speech_act = assertion
+
+# sent_id = 1300281
+# text = Själv kan jag nog inte få mer sexlust än nu skulle jag nog kunna säga.
+# speech_act = expressive
+
+# sent_id = 1400667
+# text = Finns det någonstans något skrivet om att BF ska göra halva resan?
+# speech_act = question
+
+# sent_id = 600063
+# text = T ex hade jag perioder när jag inte kunde sova för jag var så rädd att det skulle bli översvämning ( var den nu skulle komma ifrån ) och jordbävning .
+# speech_act = assertion
+
+# sent_id = 2400304
+# text = Ät nolva nu för fan... så slutar det ömma och skiten går tillbaka...
+# speech_act = directive
+
+# sent_id = 3400190
+# text = Inte alla tar ju ut sin semester samma tid.
+# speech_act = assertion
+
+# sent_id = 1500456
+# text = Gå in på gymnasieval hemsidan och kolla t.ex vilka ämnen som skiljer.
+# speech_act = directive
+
+# sent_id = 2000821
+# text = Är en sån mes!
+# speech_act = expressive
+
+# sent_id = 3600675
+# text = Vet någon hur mycket han är värd?
+# speech_act = question
+
+# sent_id = 3600174
+# text = Syns rätt tydligt här: https://www.fotbollskanalen.se/video...p3n4cwgKfGTgGA Börjar när det är 40 s kvar av videon.
+# speech_act = assertion
+
+# sent_id = 800167
+# text = ska det vara HERR eller FRU gårman?
+# speech_act = question
+
+# sent_id = 800893
+# text = Vi har alla begränsningar i vad vi kan göra.
+# speech_act = assertion
+
+# sent_id = 3600522
+# text = Hehe, framförallt minns man den sämsta fotbollsmatchen vi antagligen sett på Gamla... https://www.youtube.com/watch?v=fZZ1cYV_NHU
+# speech_act = assertion
+
+# sent_id = 3100725
+# text = Tråd finns, sedan ett stort antal timmar: (FB) EU föreslår chockhöjning av snuspriset
+# speech_act = assertion
+
+# sent_id = 2300551
+# text = Detta ska självklart inte ske.
+# speech_act = expressive
+
+# sent_id = 2000490
+# text = Orolig att de ska bli så nästa gång jag ska ta provera.
+# speech_act = expressive
+
+# sent_id = 3600440
+# text = Addera dessa två, så är det ett bra spel att sätta X2.
+# speech_act = directive
+
+# sent_id = 44
+# text = Och jag håller med dig M2003, ingen höjer på ögonbrynen om vi skulle få biologiska nu...
+# speech_act = assertion
+
+# sent_id = 2900494
+# text = Med den logiken är ju du kränkt för att andra kommenterar att det är en dålig reklamfilm och bör påminna dig själv om att en vettig människa ska vara okränkbar.
+# speech_act = assertion
+
+# sent_id = 1000133
+# text = Så att dem får lyckliga jular.
+# speech_act = assertion
+
+# sent_id = 3600016
+# text = Sedan kan det nog bli rätt tight med Coutinho precis bakom, om inte Firmino startar mer på en kant.
+# speech_act = assertion
+
+# sent_id = 3000121
+# text = Apropå ingenting...
+# speech_act = unknown
+
+# sent_id = 900139
+# text = supersuf tog 300
+# speech_act = assertion
+
+# sent_id = 3200004
+# text = Gränsen som klevs över hade inte funnits om cannabis varit legaliserad och reglerad.
+# speech_act = assertion
+
+# sent_id = 3700887
+# text = Gissar att du kollar på AN baserade raketbränsle.
+# speech_act = assertion
+
+# sent_id = 1700996
+# text = Jag misstänker starkt graviditet...för jag har aldrig känt detta jag känner nu.
+# speech_act = assertion
+
+# sent_id = 1100580
+# text = Jag applicerar skuggan direkt efter att lagt på concealern för bästa resultat.
+# speech_act = assertion
+
+# sent_id = 2200092
+# text = Bebisen var rätt stor, ca 2300g redan och beräknad födelsevikt blev då 3800g, +- 10% förstås om det sker vid rätt tid.
+# speech_act = assertion
+
+# sent_id = 3600563
+# text = https://twitter.com/CraigNorwood/sta...45749428117504
+# speech_act = assertion
+
+# sent_id = 300287
+# text = YES !
+# speech_act = expressive
+
+# sent_id = 2500272
+# text = Av vad jag förstått skulle detta fungera genom att mina föräldrar står som betalningsansvariga för lånet (fram till avslutade studier), och jag står för deras nettokostnader.
+# speech_act = assertion
+
+# sent_id = 337
+# text = Har alla gått på semester?
+# speech_act = question
+
+# sent_id = 3000668
+# text = Min poäng... det skriker fel århundrade..
+# speech_act = assertion
+
+# sent_id = 2700224
+# text = Är du nöjd med din V40 så finns det ingen anledning att byta modell.
+# speech_act = directive
+
+# sent_id = 1700091
+# text = Jag tycker om inredning, barn, djur, baka, laga mat, hushållssysslor (haha!
+# speech_act = expressive
+
+# sent_id = 2500520
+# text = 3: De skrivs inte av.
+# speech_act = assertion
+
+# sent_id = 1400968
+# text = Gemensam vårdnad innebär alltså inte alls hälftenboende - och även om du har ensam vårdnad så kan pappan yrka på umgänge .... att fästa på papper och helst då godkänt hos familjerätten är bra för ni behöver alla veta vad som gäller
+# speech_act = assertion

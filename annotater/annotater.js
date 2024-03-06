@@ -271,6 +271,7 @@ const sentences = [
 const file_name = 'sents_759'
 const fileURL = `../data/data to annotate/test annotation/${file_name}.💬`
 const sentences = await parseSentences(fileURL, -1)
+sentences.sort(() => Math.random() - 0.5) // Shuffle sentences.
 console.log('Number of sentences: ', sentences.length)
 
 // Create new session.
