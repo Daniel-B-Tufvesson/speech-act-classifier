@@ -1,6 +1,6 @@
 """
 A module to aid the manual annotation process. This involves code for extracting sentence from CoNNL-U
-files and then formatting them to a convinient format for the annotation tool to read. This also involves
+files and then formatting them to a convenient format for the annotation tool to read. This also involves
 code for analyzing the then annotated sentences, i.e. computing Cohen's kappa.
 """
 
@@ -46,34 +46,36 @@ class SentenceCorpus:
 
     def __init__(self, file_name: str) -> None:
         assert os.path.isfile(file_name), f'Sentence corpus does not exist: "{file_name}"'
-
         self.file_name = file_name
 
 
-    def sentences(self) -> Generator[Sentence, None, None]:
+    def load_sentences(self) -> list[Sentence]:
+        sentences = []
         with open(self.file_name, mode='rt') as source:
 
             sentence_id = None
             sentence_text = None
             sentence_label = None
 
+            line_number = 0
             for line in source:
+                line_number += 1
+                line = line.strip()
 
-                if line == '\n':
+                if line == '':
                     
                     if sentence_id != None and sentence_text != None:
                         sentence = Sentence(sentence_text, sentence_id, sentence_label)
+                        sentences.append(sentence)
+
                         sentence_id = None
                         sentence_text = None
                         sentence_label = None
 
-                        yield sentence
-                    else:
-                        pass # Wtf do I do here???
+                    elif sentence_id != None or sentence_text != None:
+                        raise Exception(f'Newline but sentence data was not complete at line {line_number}')
                 
                 else:
-                    line = line.strip()
-
                     # Parse sentence ID.
                     if line.startswith('# sent_id = '):
                         sentence_id = line.removeprefix('# sent_id = ')
@@ -83,8 +85,15 @@ class SentenceCorpus:
                         sentence_text = line.removeprefix('# text = ')
                     
                     # Parse sentence label.
-                    elif line.startswith('# speech_act '):
-                        sentence_label = line.removeprefix('# speech_act ')
+                    elif line.startswith('# speech_act = '):
+                        sentence_label = line.removeprefix('# speech_act = ')
+        
+        # Store last sentence entry.
+        if sentence_id != None and sentence_text != None:
+            sentence = Sentence(sentence_text, sentence_id, sentence_label)
+            sentences.append(sentence)
+
+        return sentences
 
 
 class AnnotatedCorpusPair:
@@ -95,16 +104,6 @@ class AnnotatedCorpusPair:
     def __init__(self, corpus_a: SentenceCorpus, corpus_b: SentenceCorpus) -> None:
         self.corpus_a = corpus_a
         self.corpus_b = corpus_b
-
-
-    def sentence_pairs(self) -> Generator[SentencePair, None, None]:
-        """
-        Yield each sentence pair in the two corpora. Sentences are paired up in the order they come in, as in,
-        the first sentence in A is paired up with the first in B, the second in A with the second in B, and so on.
-        """
-        for sentence_a, sentence_b in zip(self.corpus_a.sentences(), self.corpus_b.sentences()):
-            yield SentencePair(sentence_a, sentence_b)
-
 
 
 
@@ -202,21 +201,55 @@ def extract_sentences(source_files: list[str], target_dir: str, sent_per_source:
     if print_progress: print(f'Extraction complete. Extracted {len(sentences)} sentences.')
 
 
+def compute_cohens_kappa_dir(directory_a: str, directory_b: str) -> float:
+    """
+    Compute Cohen's kappa between the two directories of annotated sentence corpora. Directory A contains
+    the sentences annotated by annotator A. Directory B of those by annotator B.
+    """
+
+    # Retrieve the file names from directories.
+    files_a = annotation_files_in_dir(directory_a)
+    files_b = annotation_files_in_dir(directory_b)
+
+    assert len(files_a) == len(files_b), f'Number of annotation files do not match. A: {len(files_a)}, B: {len(files_b)}'
+
+    # Pair up file names.
+    file_pairs = pair_up_annotation_files(files_a, files_b)
+
+    # Load corpus pairs from file pairs.
+    corpus_pairs = [AnnotatedCorpusPair(SentenceCorpus(file_a), SentenceCorpus(file_b)) for file_a, file_b in file_pairs.items()]
+
+    return compute_cohens_kappa(corpus_pairs)
+
+
 def compute_cohens_kappa(corpus_pairs: list[AnnotatedCorpusPair]) -> float:
     """
-    Compute the Cohen's kappa between the 
+    Compute Cohen's kappa between the corpora pairs.
     """
     labels_a = []
     labels_b = []
 
     # Collect the labels from corpus pairs.
     for corpus_pair in corpus_pairs:
-        for sentence_pair in corpus_pair.sentence_pairs():
-            assert sentence_pair.a.id == sentence_pair.b.id, "ID's do not match for sentence pair."
+        try:
+            sentences_a = corpus_pair.corpus_a.load_sentences()
+            sentences_b = corpus_pair.corpus_b.load_sentences()
 
-            labels_a.append(sentence_pair.a.label)
-            labels_b.append(sentence_pair.b.label)
+            assert len(sentences_a) == len(sentences_b), f'Number of sentences do not match. A: {len(sentences_a)}, B: {len(sentences_b)}'
 
+            # Map B sentences to their IDs.
+            id_to_sent_b = {sent.id: sent for sent in sentences_b}
+
+            # Match A and B sentences with regards to their IDs.
+            for sentence_a in sentences_a:
+                sentence_b = id_to_sent_b.get(sentence_a.id)
+                assert sentence_b != None, f'No B sentence with ID {sentence_a.id}'
+
+                labels_a.append(sentence_a.label)
+                labels_b.append(sentence_b.label)
+        except Exception as e:
+            raise Exception(f'Failed to pair sentences between "{corpus_pair.corpus_a.file_name}" and "{corpus_pair.corpus_b.file_name}" because "{e}"')
+    
     assert len(labels_a) > 0, 'No labels for A'
     assert len(labels_b) > 0, 'No labels for B'
     assert len(labels_a) == len(labels_b), f'Number of labels do not match. A: {len(labels_a)}, B: {len(labels_b)}'
@@ -231,3 +264,54 @@ def annotation_files_in_dir(directory: str) -> list[str]:
     """
     files_and_dirs = os.listdir(directory)
     return [os.path.join(directory, file) for file in files_and_dirs if os.path.isfile(os.path.join(directory, file)) and file.endswith(ANNOTATED_EXT)]
+
+
+def pair_up_annotation_files(files_a: list[str], files_b: list[str]) -> dict[str, str]:
+    """
+    Pair up the annotation file names. For example a file from A named "sents_754-2024-03-05" will be
+    paired with a file from B named "sents_754-2024-04-07".
+    """
+    assert len(files_a) == len(files_b), f'Number of file do not match. A: {len(files_a)}, B: {len(files_b)}'
+    
+    assert_duplicate_annotation_files(files_a)
+    assert_duplicate_annotation_files(files_b)
+
+    prefixes_b = {get_annotation_file_prefix(file_b): file_b for file_b in files_b}
+
+    # Pair up files with identical prefixes.
+    pairs = {}
+    for file_a in files_a:
+        prefix_a = get_annotation_file_prefix(file_a)
+        file_b = prefixes_b.get(prefix_a)
+        assert file_b != None, f'No mathing file for "{file_a}" with prefix "{prefix_a}"'
+
+        pairs[file_a] = file_b
+    
+    return pairs
+
+
+def assert_duplicate_annotation_files(files: list[str]):
+    """
+    Make sure that there are no duplicate annotation files in the list of files. Two files are duplicates
+    if they start with the same sents_xxx prefix. For example, "sents_754-2024-03-05" and "sents_754-2024-04-07"
+    are duplicates, while "sents_754-2024-03-05" and "sents_755-2024-03-05" are not.
+    """
+    unique_prefixes = set()
+    for file in files:
+        prefix = get_annotation_file_prefix(file)
+        assert prefix not in unique_prefixes, f'Duplicate annotation file found starting with {prefix}'
+    
+    # No duplicates found :)
+
+
+def get_annotation_file_prefix(file: str) -> str:
+    """
+    Get the sents_xxx prefix from the file name of an annotated sentences file. For example, "sents_755-2024-03-05"
+    gives "sents_755".
+    """
+    name_without_path = file.split('/')[-1]
+    prefix = name_without_path.split('-')[0]
+
+    assert prefix.startswith('sents_'), f'Annotation file does not start with "sent_": "{file}"'
+
+    return prefix
