@@ -45,15 +45,18 @@ class Sentence:
 
 class Corpus:
     """
-    A corpus which loads sentences from CoNNL-U file.
+    A corpus which loads sentences from CoNNL-U file (bz2 compressed).
     """
 
-    def __init__(self, file_name: str, name: str) -> None:
+    def __init__(self, file_name: str, name: str|None = None) -> None:
         assert os.path.isfile(file_name), f'Corpus file does not exist: "{file_name}"'
+
+        # Get name from filename instead.
+        if name == None:
+            name = os.path.basename(file_name).removesuffix('.connlu.bz2')
 
         self.file_name = file_name
         self.name = name
-
         self._sentence_count = None
 
 
