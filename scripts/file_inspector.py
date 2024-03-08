@@ -23,5 +23,6 @@ def incremental_read(file_name: str):
 
 
 if __name__ == '__main__':
-    incremental_read('data/reindexed data/familjeliv-adoption.connlu.bz2')
+    file_name = 'data/annotated data/dev-set.connlu.bz2'
+    incremental_read(file_name)
     pass

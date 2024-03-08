@@ -8,7 +8,9 @@ import bz2
 import os
 import random
 import sklearn.metrics as metrics
-from typing import Generator
+from typing import TextIO
+import speechact.corpus as corp
+from enum import Enum
 
 
 UNANNOTATED_EXT = '💬'  # speech bubble emoji.
@@ -17,10 +19,36 @@ UNANNOTATED_EXT = '💬'  # speech bubble emoji.
 ANNOTATED_EXT = '✏️'  # pencil emoji
 """The file extension for annotated sentence files."""
 
+class SpeechActLabels(Enum):
+    """
+    The speech acts labels.
+    """
+
+    ASSERTION = 'assertion'
+    """Expresses an assertion."""
+
+    QUESTION = 'question'
+    """Expresses a question."""
+
+    DIRECTIVE = 'directive'
+    """Expresses a command."""
+
+    EXPRESSIVE = 'expressive'
+    """Expresses an emotion, value or surprise."""
+
+    HYPOTHESIS = 'hypothesis'
+    """Expresses an assumption or hypothesis."""
+
+    UNKNOWN = 'unknown'
+    """It is unclear what speech act the sentence is expressing."""
+
+    NONE = 'none'
+    """The sentence does not express any of the given speech acts."""
+
 
 class Sentence:
     """
-    An annotated or unannatotated sentece. This only consist of the whole sentence, and not any token data.
+    An annotated or unannatotated sentence. This only consist of the whole sentence, and not any token data.
     """
 
     def __init__(self, text: str, id: str, label: str|None = None):
@@ -315,3 +343,54 @@ def get_annotation_file_prefix(file: str) -> str:
     assert prefix.startswith('sents_'), f'Annotation file does not start with "sent_": "{file}"'
 
     return prefix
+
+
+def generate_connlu_corpus(sent_corpora: list[SentenceCorpus], connlu_corpora: list[corp.Corpus],
+                           target_file: TextIO, print_progress=False, exclude_labels: list[str]|None=None):
+    """
+    Generate a CoNNL-U corpus of sentences annotated with speech acts. This tries to match up all the
+    sentences in the annotated sentence corpora, with the sentences in the CoNNL-U corpora with
+    respect to their sent_ids. The generated corpora is written to the target_file.
+    """
+    
+    if print_progress: 
+        print(f'Generating speech act annotated corpus from {len(sent_corpora)} corpora.')
+        if exclude_labels != None: print(f'Excluding labels: {exclude_labels}.')
+
+    corpus_count = 0
+    sentence_count = 0
+
+    # Parse annotated sentences from each sentence corpus.
+    for sent_corpus in sent_corpora:
+        if print_progress: print(f'Parsing sentences from {sent_corpus.file_name}')
+        corpus_count += 1
+        try:
+
+            # Match each annotated sentence to its CoNNL-U sentence.
+            for annotated_sentence in sent_corpus.load_sentences():
+                assert annotated_sentence.label != None, f'Sentence does not have a speech act label: {annotated_sentence.id}'
+
+                # Skip sentence if it has an excluded label.
+                if exclude_labels != None and annotated_sentence.label in exclude_labels:
+                    continue
+
+                # Find the CoNNL-U sentence.
+                sent_id = int(annotated_sentence.id)
+                connlu_sentence = corp.find_sentence_with_id(connlu_corpora, sent_id)
+                assert connlu_sentence != None, f'CoNNL-U sentence with sent_id {sent_id} not found.'
+
+                # Add the label to the sentence and write to target.
+                connlu_sentence.set_meta_data('speech_act', annotated_sentence.label)
+                connlu_sentence.write(target_file)
+
+                # Print progress.
+                sentence_count += 1
+                if print_progress and sentence_count % 100 == 0:
+                    print(f'Parsed {sentence_count} sentences...')
+
+        except Exception as e:
+            raise RuntimeError(f'Failed to parse sentence corpus "{sent_corpus.file_name}" because {e}')
+        
+    if print_progress: 
+        print(f'Parsing complete! Parsed {corpus_count}/{len(sent_corpora)} corpora.')
+        print(f'A total of {sentence_count} sentences.')

@@ -4,10 +4,6 @@ The main python file for this project.
 
 from enum import Enum
 
-# Todo: remove.
-DAT2_SPEECH_ACT_TAG = 'ACT'
-"""The data tag indicating a speech act in the dat2 format."""
-
 class SpeechActs(Enum):
     """
     The speech acts to classify.
