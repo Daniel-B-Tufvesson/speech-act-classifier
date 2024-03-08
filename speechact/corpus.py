@@ -1,6 +1,7 @@
 import os
-from typing import Generator
 import bz2
+from typing import Generator
+from typing import TextIO
 
 class Sentence:
 
@@ -40,7 +41,21 @@ class Sentence:
             else:
                 index += 1
             
-                
+    @property
+    def sent_id(self) -> int:
+        """
+        The ID (sent_id) of the sentence. This assumes the ID is an integer, and won't work for 
+        non-integer IDs. 
+        """
+        return int(self.get_meta_data('sent_id'))
+    
+    def write(self, target: TextIO):
+        """
+        Write this sentence to a target file as CoNNL-U. This also writes an additional newline at
+        the end.
+        """
+        target.writelines(self.sentence_lines)
+        target.write('\n')
 
 
 class Corpus:
@@ -58,6 +73,8 @@ class Corpus:
         self.file_name = file_name
         self.name = name
         self._sentence_count = None
+        self._first_id = None
+        self._last_id = None
 
 
     def sentences(self) -> Generator[Sentence, None, None]:
@@ -82,6 +99,52 @@ class Corpus:
         
         return self._sentence_count
 
+    @property
+    def first_id(self) -> int:
+        """
+        The ID (sent_id) of the first sentence.
+        """
+        if self._first_id == None:
+            first_sentence = next(self.sentences())
+            self._first_id = first_sentence.sent_id
+
+        return self._first_id
+
+    @property
+    def last_id(self) -> int:
+        """
+        The ID (sent_id) of the first sentence.
+        """
+        if self._last_id == None:
+            self._last_id = self.last_sentence.sent_id
+
+        return self._last_id
+
+    @property
+    def last_sentence(self) -> Sentence:
+        """
+        The last sentence in the corpus.
+        """
+        last_sent = None
+        for sent in self.sentences():
+            last_sent = sent
+
+        if last_sent == None:
+            raise RuntimeError(f'Corpus has no sentences: f{self.file_name}')
+        
+        return last_sent
+
+    def find_sentence_with_id(self, sent_id: int) -> Sentence|None:
+        """
+        Find the sentence with the sentence ID.
+        """
+        for sentence in self.sentences():
+            if sentence.sent_id == sent_id:
+                return sentence
+        
+        return None
+    
+
 
 def load_corpora_from_data_file(data_file: str) -> list[Corpus]:
     """
@@ -90,3 +153,19 @@ def load_corpora_from_data_file(data_file: str) -> list[Corpus]:
     import speechact.preprocess as dat
     source_files = dat.lines(data_file)
     return [Corpus(file, file.split('/')[-1].removesuffix('.connlu.bz2').removesuffix('-100k').removesuffix('-500k')) for file in source_files]
+
+
+def find_sentence_with_id(corpora: list[Corpus], sent_id: int) -> Sentence|None:
+    """
+    Find the sentence with the given ID among a list of corpora. It is assumed that a corpus has
+    the sentence if its ID is >= the first ID and <= the last ID.
+    """
+    for corpus in corpora:
+
+        if sent_id < corpus.first_id:
+            continue
+
+        if sent_id > corpus.last_id:
+            continue
+
+        return corpus.find_sentence_with_id(sent_id)
