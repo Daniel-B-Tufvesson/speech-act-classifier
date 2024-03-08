@@ -98,6 +98,21 @@ def print_initial_lines(file_name: str, n_lines = 30):
         print(f'Printed the first {i}/{n_lines} in {file_name} ----------------------')
 
 
+def list_files(directory: str, file_extension: str|None = None) -> list[str]:
+    """
+    List all files in the directory. If file_extension is provided, then only files with a 
+    matching extension will be listed.
+    """
+    import os
+
+    def file_filter(file: str):
+        return (os.path.isfile(os.path.join(directory, file)) and 
+                (file_extension == None or file.endswith(file_extension)))
+
+    files_and_dirs = os.listdir(directory)
+    return [os.path.join(directory, file) for file in files_and_dirs if file_filter(file)]
+
+
 def reindex(corpora: list[corp.Corpus], target_dir: str, start_id=1):
     """
     Reindex each sentence in each corpus, and write them to new corpus files in the target
