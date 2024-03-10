@@ -20,6 +20,8 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier):
         for correct_label, sentence in zip(correct_labels, batch.sentences):
             assert sentence.speech_act != None, f'Sentence does not have a speech act: {sentence.sent_id}'
 
+            print(f'Predicted: {sentence.speech_act}, correct: {correct_label}, sentence: "{sentence.text}"')
+
             total += 1
             if sentence.speech_act == correct_label:
                 correct += 1
@@ -27,4 +29,5 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier):
     # Compute accuracy.
     accuracy = correct / total if total > 0 else 0
     
-    print(f'accuracy: {accuracy}')
+    print(f'Classified: {total} sentences.')
+    print(f'Accuracy: {accuracy}')
