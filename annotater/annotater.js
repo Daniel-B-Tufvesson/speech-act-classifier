@@ -268,7 +268,7 @@ const sentences = [
 //...
 
 // Read sentences.
-const file_name = 'sents_16'
+const file_name = 'sents_20'
 const fileURL = `../data/data to annotate/real annotation/${file_name}.💬`
 const sentences = await parseSentences(fileURL, -1)
 sentences.sort(() => Math.random() - 0.5) // Shuffle sentences.
