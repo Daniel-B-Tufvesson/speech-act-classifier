@@ -1,20 +1,31 @@
+"""
+An algorithmic speech act classifier. This uses syntactical information to classify sentences with speech acts.
+"""
+
 
 import stanza.models.common.doc as doc
 import speechact.preprocess as preprocess
+from . import base
 
-def classify(sentence : doc.Sentence):
-    print('classify: ', sentence.text)
+class RuleBasedClassifier(base.Classifier):
+    
+    def classify_document(self, document: doc.Document):
+        for sentence in document.sentences:
+            self.classify_sentence(sentence)
 
-    if is_FA_clause(sentence):
-        print('FA clause!')
+    def classify_sentence(self, sentence: doc.Sentence):
+        print('classify: ', sentence.text)
 
-    elif is_AF_clause(sentence):
-        print('AF clause!')
+        if is_FA_clause(sentence):
+            print('FA clause!')
 
-    else:
-        print('Not AF nor FA!')
+        elif is_AF_clause(sentence):
+            print('AF clause!')
 
- 
+        else:
+            print('Not AF nor FA!')
+
+
 def is_FA_clause(sentence : doc.Sentence) -> bool:
     finite_verb = get_finite_verb(sentence)
     if finite_verb is None:
