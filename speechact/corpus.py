@@ -2,6 +2,7 @@ import os
 import bz2
 from typing import Generator
 from typing import TextIO
+import stanza.models.common.doc as doc
 
 class Sentence:
 
@@ -143,6 +144,16 @@ class Corpus:
                 return sentence
         
         return None
+    
+    def batched_docs(self, batch_size) -> Generator[doc.Document, None, None]:
+        """
+        Yield batches of stanza documents of this corpus.
+        """
+        import speechact.preprocess as pre
+        with bz2.open(self.file_name, mode='rt') as source:
+            for batch in pre.read_batched_doc(source, batch_size):
+                yield batch
+        
     
 
 
