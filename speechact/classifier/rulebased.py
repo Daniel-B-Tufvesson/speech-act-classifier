@@ -5,7 +5,7 @@ An algorithmic speech act classifier. This uses syntactical information to class
 
 import stanza.models.common.doc as doc
 import speechact.preprocess as preprocess
-from . import base
+import base
 
 class RuleBasedClassifier(base.Classifier):
     
