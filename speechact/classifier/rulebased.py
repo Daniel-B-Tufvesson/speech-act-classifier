@@ -5,7 +5,8 @@ An algorithmic speech act classifier. This uses syntactical information to class
 
 import stanza.models.common.doc as doc
 import speechact.preprocess as preprocess
-import base
+from . import base
+import speechact.annotate as annotate
 
 class RuleBasedClassifier(base.Classifier):
     
@@ -14,16 +15,51 @@ class RuleBasedClassifier(base.Classifier):
             self.classify_sentence(sentence)
 
     def classify_sentence(self, sentence: doc.Sentence):
-        print('classify: ', sentence.text)
+        # print('classify: ', sentence.text)
 
-        if is_FA_clause(sentence):
-            print('FA clause!')
+        # if is_FA_clause(sentence):
+        #     print('FA clause!')
 
-        elif is_AF_clause(sentence):
-            print('AF clause!')
+        # elif is_AF_clause(sentence):
+        #     print('AF clause!')
 
-        else:
-            print('Not AF nor FA!')
+        # else:
+        #     print('Not AF nor FA!')
+
+        speech_act = classify_from_punctation(sentence)
+        sentence.speech_act = speech_act  # type: ignore
+
+
+def classify_from_punctation(sentence: doc.Sentence) -> str:
+    """
+    Classify the sentence based on the punctation.
+    """
+    punctation = get_punctation(sentence)
+
+    if punctation == '.':
+        return annotate.SpeechActLabels.ASSERTION.value
+    elif punctation == '?':
+        return annotate.SpeechActLabels.QUESTION.value
+    elif punctation == '!':
+        return annotate.SpeechActLabels.EXPRESSIVE.value
+    else:
+        return annotate.SpeechActLabels.NONE.value
+
+
+def get_punctation(sentence: doc.Sentence) -> str|None:
+    """
+    Get the major delimiting punctation of the sentence, e.g. '.', '?', '!',
+    or nothing.
+    """
+    last_word = sentence.words[-1]
+    if last_word.text == '.':
+        return '.'
+    elif last_word.text == '!':
+        return '!'
+    elif last_word.text == '?':
+        return '?'
+    else:
+        return None
 
 
 def is_FA_clause(sentence : doc.Sentence) -> bool:
@@ -88,13 +124,3 @@ def get_clause_base(sentence: doc.Sentence) -> list[doc.Word]:
     return clause_base
 
 
-
-def test1():
-    sentences = preprocess.read_sentences_bz2('processed data/attasidor-99k.connlu.bz2', max_sentences=1)
-    for sentence in sentences:
-        classify(sentence)
-
-
-
-if __name__ == '__main__':
-    test1()
