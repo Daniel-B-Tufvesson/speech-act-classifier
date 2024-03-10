@@ -3,6 +3,56 @@ The main python file for this project.
 """
 
 from enum import Enum
+import stanza.models.common.doc as doc
+
+def get_sentence_property(sentence: doc.Sentence, key: str) -> str|None:
+    """
+    Get a property from a Stanza Sentence. This property is stored as a
+    comment in the sentence.
+    """
+    # Find the comment matching the key.
+    key_str = f'# {key} = '
+    for comment in sentence.comments:
+        if comment.startswith(key_str):
+            return comment.removeprefix(key_str)
+    
+    return None
+
+
+def set_sentence_property(sentence: doc.Sentence, key: str, value: str):
+    """
+    Set a property from a Stanza Sentence. This property is stored as a
+    comment in the sentence.
+    """
+    property_comment = f'# {key} = {value}'
+    for comment_index, comment in enumerate(sentence.comments):
+        if comment.startswith(f'# {key} = '):
+            sentence.comments[comment_index] = property_comment
+            break
+    else:
+        sentence.comments.append(property_comment)
+
+
+def set_sentence_speech_act(sentence: doc.Sentence, speech_act: str):
+    """
+    Set the speech act for the sentence. 
+    """
+    sentence._speech_act = speech_act  # type: ignore
+
+
+def get_sentence_speech_act(sentence: doc.Sentence):
+    """
+    Get the speech act for the sentence.
+    """
+    pass
+
+# Add speech act property to Stanza Sentence class.
+doc.Sentence.add_property(
+    'speech_act', 
+    default=None,
+    getter=lambda sentence: get_sentence_property(sentence, 'speech_act'),
+    setter=lambda sentence, value: set_sentence_property(sentence, 'speech_act', value)
+    )
 
 class SpeechActs(Enum):
     """
