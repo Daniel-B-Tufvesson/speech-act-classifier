@@ -9,7 +9,6 @@ import stanza
 import stanza.models.common.doc as doc
 from stanza.utils.conll import CoNLL
 import speechact.corpus as corp
-import speechact.preprocess as dat
 
 def read_sentences_bz2(connlu_corpus_file: str, max_sentences = -1) -> Generator[doc.Sentence, None, None]:
     """
@@ -272,7 +271,7 @@ def tag_dep_rel(source: TextIO, target: TextIO, print_progress=False, **kwargs):
     # Tag the corpus in batches.
     batch_count = 0
     sentence_count = 0
-    for batched_doc in dat.read_batched_doc(source, 200, **kwargs):
+    for batched_doc in read_batched_doc(source, 200, **kwargs):
         tagged_doc = nlp_dep.process(batched_doc)
         CoNLL.write_doc2conll(tagged_doc, target)
 
