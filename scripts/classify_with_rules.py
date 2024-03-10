@@ -6,7 +6,7 @@ import speechact.classifier.rulebased as rb
 import speechact.evaluation as evaluation
 import speechact.corpus as corp
 
-if __name__ == '__name__':
+if __name__ == '__main__':
     classifier = rb.RuleBasedClassifier()
     corpus = corp.Corpus('data/annotated data/dev-set.connlu.bz2')
     evaluation.evaluate(corpus, classifier)
