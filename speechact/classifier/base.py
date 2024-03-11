@@ -49,8 +49,7 @@ class MostFrequentClassifier(Classifier):
         for corpus in corpora:
             for batch in corpus.batched_docs(batch_size):
                 for sentence in batch.sentences:
-                    assert sentence.speech_act != None, f'Sentence does not have a speech act {
-                        sentence.sent_id}'
+                    assert sentence.speech_act != None, f'Sentence does not have a speech act {sentence.sent_id}'
 
                     self.class_frequencies[sentence.speech_act] += 1
     
