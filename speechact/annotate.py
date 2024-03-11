@@ -45,6 +45,10 @@ class SpeechActLabels(Enum):
     NONE = 'none'
     """The sentence does not express any of the given speech acts."""
 
+    @staticmethod
+    def get_labels() -> list[str]:
+        return [label.value for label in SpeechActLabels]
+
 
 class Sentence:
     """
