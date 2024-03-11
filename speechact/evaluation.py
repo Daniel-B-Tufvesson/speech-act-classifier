@@ -12,10 +12,10 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, labels: list[str],
     """
     Evaluate the classifier on the CoNNL-U corpus.
     """
+
+    # Collect all the correct and predicted labels.
     all_correct_labels = []
     all_predicted_labels = []
-    # correct = 0
-    # total = 0
     for batch in corpus.batched_docs(100):
 
         # Get the correct labels for batch.
@@ -29,26 +29,6 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, labels: list[str],
         predicted_labels = [sentence.speech_act for sentence in batch.sentences]
         all_predicted_labels += predicted_labels
 
-
-    #     # Count labels.
-    #     for correct_label, sentence in zip(correct_labels, batch.sentences):
-    #         assert sentence.speech_act != None, f'Sentence does not have a speech act: {sentence.sent_id}'
-
-    #         if print_classifications: 
-    #             print(f'Predicted: {sentence.speech_act}, correct: {correct_label}, sentence: "{sentence.text}"')
-
-    #         total += 1
-
-    #         # Count correct labels.
-    #         if sentence.speech_act == correct_label:
-    #             correct += 1
-    
-    # # Compute accuracy.
-    # accuracy = correct / total if total > 0 else 0
-    
-    # print('EVALUATION RESULTS')
-    # print(f'Classified: {total} sentences.')
-    # print(f'Accuracy: {accuracy}')
 
     report = metrics.classification_report(y_true=all_correct_labels,
                                            y_pred=all_predicted_labels,
