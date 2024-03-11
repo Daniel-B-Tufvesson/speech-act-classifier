@@ -6,7 +6,7 @@ import speechact.classifier.base as cb
 import speechact.corpus as corp
     
 
-def evaluate(corpus: corp.Corpus, classifier: cb.Classifier):
+def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, print_classifications=False):
     """
     Evaluate the classifier on the CoNNL-U corpus.
     """
@@ -20,7 +20,8 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier):
         for correct_label, sentence in zip(correct_labels, batch.sentences):
             assert sentence.speech_act != None, f'Sentence does not have a speech act: {sentence.sent_id}'
 
-            print(f'Predicted: {sentence.speech_act}, correct: {correct_label}, sentence: "{sentence.text}"')
+            if print_classifications: 
+                print(f'Predicted: {sentence.speech_act}, correct: {correct_label}, sentence: "{sentence.text}"')
 
             total += 1
             if sentence.speech_act == correct_label:
@@ -29,5 +30,6 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier):
     # Compute accuracy.
     accuracy = correct / total if total > 0 else 0
     
+    print('EVALUATION RESULTS')
     print(f'Classified: {total} sentences.')
     print(f'Accuracy: {accuracy}')
