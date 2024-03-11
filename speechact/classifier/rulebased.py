@@ -18,6 +18,10 @@ SUBJECT_RELS = {
     'nsubj:pass'
     }
 
+INTERROGATIVE_PRONOUNS = {'vilken', 'vilkendera', 'hurdan', 'vem', 'vad'}
+
+INTERROGATIVE_ADVERBS = {'var', 'vart', 'när', 'hur'}
+
 class ClauseType(enum.StrEnum):
     """
     The main clause types a sentence can have, including 'none'.
@@ -238,7 +242,8 @@ def get_head(sentence : doc.Sentence) -> doc.Word:
 
 def get_finite_verb(sentence : doc.Sentence) -> doc.Word|None:
     """
-    Retrieve the finite verb in the sentence. The finite verb must be the head in the sentence.
+    Retrieve the finite verb in the sentence. The finite verb must be the head in the 
+    sentence.
     """
     head = get_head(sentence)
 
@@ -269,14 +274,20 @@ def get_subject(sentence: doc.Sentence) -> doc.Word|None:
     Retrieve the subject of the sentence. This is a dependent of the sentence's head. 
     """
 
-    # Todo: fix subject relation for copular verbs.
+    # Find finite verb.
+    finite_verb = get_finite_verb(sentence)
+    if finite_verb == None:
+        return None
 
+    # Find the subject of the finite verb.
     for word in sentence.words:
-        if word.head == 1 and word.deprel in SUBJECT_RELS:
+        if word.head == finite_verb.id and word.deprel in SUBJECT_RELS:
             return word
     
+    # Todo: fix subject relation for copular verbs.
+    
     # No subject found.
-    return word
+    return None
 
 def has_clause_base(sentence: doc.Sentence) -> bool:
     """
@@ -307,10 +318,14 @@ def has_expressive_in_base(sentence: doc.Sentence) -> bool:
     Check if there is an expressive clause part in the clause base of the sentence.
     """
     clause_base = get_clause_base(sentence)
+    if len(clause_base) == 0:
+        return False
 
     # Check if base starts with adverbial phrase.
-    # ..
-    # ..
+    if clause_base[0].text.lower() in ('vad', 'så'):
+        return True
+
+    # Todo: fix remaining variations of an expressive part.
 
     return False
 
@@ -319,18 +334,49 @@ def has_interrogative_base(sentence: doc.Sentence) -> bool:
     """
     Check if the clause base in the sentence is on interrogative form.
     """
-    return False
+    first_word_text = sentence.words[0].text.lower()
+    return first_word_text in INTERROGATIVE_ADVERBS or first_word_text in INTERROGATIVE_PRONOUNS
 
 
 def starts_with_subjunctive(sentence: doc.Sentence, word: str) -> bool:
     """
     Check if the sentence starts with the given subjunctive word.
     """
-    return False
+    # See https://universaldependencies.org/sv/pos/SCONJ.html
+
+    first_word = sentence.words[0]
+
+    # Check that the word matches.
+    if first_word.text.lower() != word:
+        return False
+    
+    # Check that it is subjunctive.
+    return first_word.pos == 'SCONJ'
 
 
-def starts_with(sentence: doc.Sentence, word: str|list[str]) -> bool:
+def starts_with(sentence: doc.Sentence, words: str|list[str]) -> bool:
     """
     Check if the sentence starts with the given word.
     """
-    return False
+
+    assert type(words) == str or type(words) == list
+
+    # Check single word.
+    if type(words) == str:
+        first_word_text = sentence.words[0].text.lower()
+        return first_word_text == words
+    
+    # Check several words.
+    else:
+        assert len(words) > 0
+
+        # Check if the sentence starts with all the words.
+        for index, word in enumerate(words):
+            word_text = sentence.words[index].text.lower()
+            if word_text != word:
+                return False
+            
+        # Sentence starts with the words.
+        return True
+        
+
