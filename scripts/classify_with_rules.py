@@ -11,9 +11,9 @@ if __name__ == '__main__':
     corpus = corp.Corpus('data/annotated data/dev-set.connlu.bz2')
 
     print()
-    classifier = rb.RuleBasedClassifier()
-    print('Rule-based results:')
-    evaluation.evaluate(corpus, classifier)
+    punctuation_classifier = rb.PunctuationClassifier()
+    print('Punctuation classifier results:')
+    evaluation.evaluate(corpus, punctuation_classifier)
     print()
 
     most_frequent = b.MostFrequentClassifier()

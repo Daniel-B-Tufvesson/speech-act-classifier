@@ -8,6 +8,15 @@ import speechact.preprocess as preprocess
 from . import base
 import speechact.annotate as annotate
 
+class PunctuationClassifier(base.Classifier):
+    """
+    Classify speech acts purely from punctuation.
+    """
+
+    def classify_sentence(self, sentence: doc.Sentence):
+        speech_act = classify_from_punctation(sentence)
+        sentence.speech_act = speech_act  # type: ignore
+
 class RuleBasedClassifier(base.Classifier):
     
     def classify_document(self, document: doc.Document):
@@ -30,6 +39,7 @@ class RuleBasedClassifier(base.Classifier):
         sentence.speech_act = speech_act  # type: ignore
 
 
+
 def classify_from_punctation(sentence: doc.Sentence) -> str:
     """
     Classify the sentence based on the punctation.
@@ -43,7 +53,7 @@ def classify_from_punctation(sentence: doc.Sentence) -> str:
     elif punctation == '!':
         return annotate.SpeechActLabels.EXPRESSIVE.value
     else:
-        return annotate.SpeechActLabels.NONE.value
+        return annotate.SpeechActLabels.ASSERTION.value
 
 
 def get_punctation(sentence: doc.Sentence) -> str|None:
