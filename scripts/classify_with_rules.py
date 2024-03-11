@@ -18,6 +18,7 @@ if __name__ == '__main__':
     most_frequent = b.MostFrequentClassifier()
     most_frequent.train(corpora=[corpus])
     print(f'Most frequenct class is "{most_frequent.most_common}"')
+    print()
     print('Baseline results:')
     evaluation.evaluate(corpus, most_frequent, labels)
     print()
