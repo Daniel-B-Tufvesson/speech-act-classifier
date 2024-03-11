@@ -39,6 +39,7 @@ class MostFrequentClassifier(Classifier):
     def __init__(self) -> None:
         super().__init__()
         self.class_frequencies = coll.Counter()
+        self.most_common = None
 
 
     def train(self, corpora: list[corp.Corpus], batch_size=100):
@@ -52,10 +53,12 @@ class MostFrequentClassifier(Classifier):
                     assert sentence.speech_act != None, f'Sentence does not have a speech act {sentence.sent_id}'
 
                     self.class_frequencies[sentence.speech_act] += 1
+        
+        self.most_common = self.class_frequencies.most_common()[0][0]
     
 
     def classify_sentence(self, sentence: doc.Sentence):
         """
         Classify the sentence with the most frequent speech act.
         """
-        return self.class_frequencies.most_common()
+        sentence.speech_act = self.most_common  # type: ignore
