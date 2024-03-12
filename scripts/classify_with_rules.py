@@ -20,17 +20,21 @@ if __name__ == '__main__':
     print(f'Most frequenct class is "{most_frequent.most_common}"')
     print()
     print('Baseline results:')
-    evaluation.evaluate(corpus, most_frequent, labels)
+    evaluation.evaluate(corpus, most_frequent, labels,
+                        draw_conf_matrix=True)
     print()
 
     # Evaluate punctuation classifier.
     punctuation_classifier = rb.PunctuationClassifier()
     print('Punctuation classifier results:')
-    evaluation.evaluate(corpus, punctuation_classifier, labels)
+    evaluation.evaluate(corpus, punctuation_classifier, labels,
+                        draw_conf_matrix=True)
     print()
 
     # Evaluate clause classifier.
     clause_classifier = rb.ClauseClassifier()
     print('Clause classifier results:')
-    evaluation.evaluate(corpus, clause_classifier, labels)
+    evaluation.evaluate(corpus, clause_classifier, labels, 
+                        print_missclassified=('assertion', 'none'),
+                        draw_conf_matrix=False)
     print()
