@@ -107,20 +107,22 @@ class RuleBasedClassifier(base.Classifier):
             self.classify_sentence(sentence)
 
     def classify_sentence(self, sentence: doc.Sentence):
-        # print('classify: ', sentence.text)
-
-        # if is_FA_clause(sentence):
-        #     print('FA clause!')
-
-        # elif is_AF_clause(sentence):
-        #     print('AF clause!')
-
-        # else:
-        #     print('Not AF nor FA!')
-
-        speech_act = classify_from_punctation(sentence)
+        speech_act = self.get_speech_act(sentence).value
         sentence.speech_act = speech_act  # type: ignore
 
+    def get_speech_act(self, sentence: doc.Sentence) -> annotate.SpeechActLabels:
+
+        # Try to classify based on clause type.
+        clause_type = get_clause_type(sentence)
+        if clause_type != ClauseType.NONE:
+            return clause_type_to_speech_acts[clause_type]
+
+        # Classify as assertion if sentence is a noun phrase.
+        if is_sentence_np(sentence):
+            return annotate.SpeechActLabels.ASSERTION
+        
+        # Unknown speech act.
+        return annotate.SpeechActLabels.NONE
 
 
 def classify_from_punctation(sentence: doc.Sentence) -> str:
@@ -186,7 +188,7 @@ def get_clause_type(sentence: doc.Sentence) -> ClauseType:
                     return ClauseType.DIRECTIVE
             else:
                 return ClauseType.DESIDERATIVE
-    
+
     # Sentence does not have any known clause type.
     return ClauseType.NONE
 
@@ -200,10 +202,14 @@ def is_FA_clause(sentence : doc.Sentence) -> bool:
     if subject == None:
         return True # To make this work, we assume a subject-less sentence is AF.
 
+    # Subject should be after the finite verb.
     if subject.id > finite_verb.id:
         return True
     
+    # Or the entire clause base should be the subject.
     clause_base = get_clause_base(sentence)
+
+    # fixme: what if the subject is larger than one word?
     if len(clause_base) == 1 and clause_base[0] == subject:
         return True
     
@@ -237,7 +243,7 @@ def get_head(sentence : doc.Sentence) -> doc.Word:
         if word.head == 0:
             return word
     
-    raise ValueError('Sentence lacks head.')
+    raise ValueError('Sentence lacks a head.')
 
 
 def get_finite_verb(sentence : doc.Sentence) -> doc.Word|None:
@@ -379,4 +385,12 @@ def starts_with(sentence: doc.Sentence, words: str|list[str]) -> bool:
         # Sentence starts with the words.
         return True
         
+
+def is_sentence_np(sentence: doc.Sentence) -> bool:
+    """
+    Check if the sentence is a noun phrase.
+    """
+    # We assume it's an NP if the head word is a noun or proper noun.
+    head_word = get_head(sentence)
+    return head_word.pos == 'NOUN'# or head_word.pos == 'PROPN'
 

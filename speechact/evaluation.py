@@ -79,6 +79,9 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, labels: list[str],
     
 
 def plot_confusion_matrix(confusion_matrix, labels: list[str]):
+    """
+    Plot a confusion and display it in a window. 
+    """
     import matplotlib.pyplot as plt
 
     display = metrics.ConfusionMatrixDisplay(confusion_matrix,

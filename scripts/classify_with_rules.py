@@ -21,20 +21,27 @@ if __name__ == '__main__':
     print()
     print('Baseline results:')
     evaluation.evaluate(corpus, most_frequent, labels,
-                        draw_conf_matrix=True)
+                        draw_conf_matrix=False)
     print()
 
     # Evaluate punctuation classifier.
     punctuation_classifier = rb.PunctuationClassifier()
     print('Punctuation classifier results:')
     evaluation.evaluate(corpus, punctuation_classifier, labels,
-                        draw_conf_matrix=True)
+                        draw_conf_matrix=False)
     print()
 
     # Evaluate clause classifier.
     clause_classifier = rb.ClauseClassifier()
     print('Clause classifier results:')
     evaluation.evaluate(corpus, clause_classifier, labels, 
-                        print_missclassified=('assertion', 'none'),
+                        #print_missclassified=('assertion', 'none'),
                         draw_conf_matrix=False)
     print()
+
+    # Evaluate rule based classifier.
+    rb_classifier = rb.RuleBasedClassifier()
+    print('Rule-based classifier results:')
+    evaluation.evaluate(corpus, rb_classifier, labels,
+                        print_missclassified=('assertion', 'none'),
+                        draw_conf_matrix=False)
