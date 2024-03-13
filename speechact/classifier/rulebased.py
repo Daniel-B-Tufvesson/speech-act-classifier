@@ -8,6 +8,7 @@ import speechact.preprocess as preprocess
 from . import base
 import speechact.annotate as annotate
 import enum
+import re
 
 SUBJECT_RELS = {
     'csubj', 
@@ -88,6 +89,7 @@ class PunctuationClassifier(base.Classifier):
         speech_act = classify_from_punctation(sentence)
         sentence.speech_act = speech_act    # type: ignore
 
+
 class ClauseClassifier(base.Classifier):
     """
     Classify speech acts purely from the clause type of the sentence.
@@ -99,16 +101,17 @@ class ClauseClassifier(base.Classifier):
         sentence.speech_act = speech_act  # type: ignore
 
 
-
 class RuleBasedClassifier(base.Classifier):
     
     def classify_document(self, document: doc.Document):
         for sentence in document.sentences:
             self.classify_sentence(sentence)
 
+
     def classify_sentence(self, sentence: doc.Sentence):
         speech_act = self.get_speech_act(sentence).value
         sentence.speech_act = speech_act  # type: ignore
+
 
     def get_speech_act(self, sentence: doc.Sentence) -> annotate.SpeechActLabels:
 
@@ -119,6 +122,10 @@ class RuleBasedClassifier(base.Classifier):
 
         # Classify as assertion if sentence is a noun phrase.
         if is_sentence_np(sentence):
+            return annotate.SpeechActLabels.ASSERTION
+        
+        # Classify as assertion if a link.
+        if is_link(sentence):
             return annotate.SpeechActLabels.ASSERTION
         
         # Unknown speech act.
@@ -404,3 +411,10 @@ def is_clause_base_the_subject(sentence: doc.Sentence, subject: doc.Word|None) -
     clause_base = get_clause_base(sentence)
     return subject in clause_base
 
+
+def is_link(sentence: doc.Sentence) -> bool:
+    """
+    Check if the sentence is a URL link.
+    """
+    pattern = re.compile(r'^(http|https|ftp)://[^\s/$.?#].[^\s]*$')
+    return pattern.match(sentence.text) is not None  # type: ignore
