@@ -207,10 +207,7 @@ def is_FA_clause(sentence : doc.Sentence) -> bool:
         return True
     
     # Or the entire clause base should be the subject.
-    clause_base = get_clause_base(sentence)
-
-    # fixme: what if the subject is larger than one word?
-    if len(clause_base) == 1 and clause_base[0] == subject:
+    if is_clause_base_the_subject(sentence, subject):
         return True
     
     return False
@@ -221,15 +218,17 @@ def is_AF_clause(sentence : doc.Sentence) -> bool:
     if finite_verb is None:
         return False
 
+    # There needs to be a subject.
     subject = get_subject(sentence)
     if subject == None:
         return False
 
+    # Subject should come before the finite verb.
     if subject.id > finite_verb.id:
         return False
     
-    clause_base = get_clause_base(sentence)
-    if len(clause_base) == 1 and clause_base[0] == subject:
+    # But, the subject should not be the entire clause base.
+    if is_clause_base_the_subject(sentence, subject):
         return False
     
     return True
@@ -393,4 +392,15 @@ def is_sentence_np(sentence: doc.Sentence) -> bool:
     # We assume it's an NP if the head word is a noun or proper noun.
     head_word = get_head(sentence)
     return head_word.pos == 'NOUN'# or head_word.pos == 'PROPN'
+
+
+def is_clause_base_the_subject(sentence: doc.Sentence, subject: doc.Word|None) -> bool:
+    """
+    Check if the subject constitute the entire clause base.
+    """
+    # Note: we assume that the entire base is a subject if the "subject word" is part
+    # of it.
+
+    clause_base = get_clause_base(sentence)
+    return subject in clause_base
 
