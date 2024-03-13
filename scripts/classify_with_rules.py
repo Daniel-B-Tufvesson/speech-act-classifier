@@ -43,5 +43,5 @@ if __name__ == '__main__':
     rb_classifier = rb.RuleBasedClassifier()
     print('Rule-based classifier results:')
     evaluation.evaluate(corpus, rb_classifier, labels,
-                        print_missclassified=('assertion', 'none'),
+                        print_missclassified=('expressive', 'assertion'),
                         draw_conf_matrix=False)

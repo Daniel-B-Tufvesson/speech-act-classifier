@@ -81,13 +81,25 @@ clause_type_to_speech_acts = {
     ClauseType.NONE: annotate.SpeechActLabels.NONE
 }
 
+class Punctuation(enum.StrEnum):
+    PERIOD = '.'
+    EXCLAMATION = '!'
+    QUESTION = '?'
+    NONE = 'none'
+    
+
 class PunctuationClassifier(base.Classifier):
     """
     Classify speech acts purely from punctuation.
     """
 
     def classify_sentence(self, sentence: doc.Sentence):
-        speech_act = classify_from_punctation(sentence)
+        speech_act = classify_from_punctation(sentence).value
+
+        # Default is an assertion.
+        if speech_act == annotate.SpeechActLabels.NONE:
+            speech_act = annotate.SpeechActLabels.ASSERTION
+
         sentence.speech_act = speech_act    # type: ignore
 
 
@@ -116,9 +128,21 @@ class RuleBasedClassifier(base.Classifier):
 
     def get_speech_act(self, sentence: doc.Sentence) -> annotate.SpeechActLabels:
 
+        # Try classifying as assertion or question based on punctuation.
+        punctuation = get_punctation(sentence)
+        if punctuation == Punctuation.PERIOD:
+            return annotate.SpeechActLabels.ASSERTION
+        if punctuation == Punctuation.QUESTION:
+            return annotate.SpeechActLabels.QUESTION
+
         # Try to classify based on clause type.
         clause_type = get_clause_type(sentence)
         if clause_type != ClauseType.NONE:
+
+            # Handle an exclamating declarative.
+            if clause_type == ClauseType.DECLARATIVE and punctuation == Punctuation.EXCLAMATION:
+                return annotate.SpeechActLabels.EXPRESSIVE
+
             return clause_type_to_speech_acts[clause_type]
 
         # Classify as assertion if sentence is a noun phrase.
@@ -133,40 +157,40 @@ class RuleBasedClassifier(base.Classifier):
         if is_date(sentence):
             return annotate.SpeechActLabels.ASSERTION
         
-        # Unknown speech act.
-        return annotate.SpeechActLabels.NONE
+        
+        return classify_from_punctation(sentence)
 
 
-def classify_from_punctation(sentence: doc.Sentence) -> str:
+def classify_from_punctation(sentence: doc.Sentence) -> annotate.SpeechActLabels:
     """
     Classify the sentence based on the punctation.
     """
     punctation = get_punctation(sentence)
 
-    if punctation == '.':
-        return annotate.SpeechActLabels.ASSERTION.value
-    elif punctation == '?':
-        return annotate.SpeechActLabels.QUESTION.value
-    elif punctation == '!':
-        return annotate.SpeechActLabels.EXPRESSIVE.value
+    if punctation == Punctuation.PERIOD:
+        return annotate.SpeechActLabels.ASSERTION
+    elif punctation == Punctuation.QUESTION:
+        return annotate.SpeechActLabels.QUESTION
+    elif punctation == Punctuation.EXCLAMATION:
+        return annotate.SpeechActLabels.EXPRESSIVE
     else:
-        return annotate.SpeechActLabels.ASSERTION.value
+        return annotate.SpeechActLabels.NONE
 
 
-def get_punctation(sentence: doc.Sentence) -> str|None:
+def get_punctation(sentence: doc.Sentence) -> Punctuation:
     """
     Get the major delimiting punctation of the sentence, e.g. '.', '?', '!',
     or nothing.
     """
     last_word = sentence.words[-1]
-    if last_word.text == '.':
-        return '.'
-    elif last_word.text == '!':
-        return '!'
-    elif last_word.text == '?':
-        return '?'
+    if last_word.text[-1] == '.':
+        return Punctuation.PERIOD
+    elif last_word.text[-1] == '!':
+        return Punctuation.EXCLAMATION
+    elif last_word.text[-1] == '?':
+        return Punctuation.QUESTION
     else:
-        return None
+        return Punctuation.NONE
 
 
 def get_clause_type(sentence: doc.Sentence) -> ClauseType:
