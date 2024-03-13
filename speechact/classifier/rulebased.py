@@ -9,6 +9,7 @@ from . import base
 import speechact.annotate as annotate
 import enum
 import re
+import dateutil.parser as dt_parser
 
 SUBJECT_RELS = {
     'csubj', 
@@ -126,6 +127,10 @@ class RuleBasedClassifier(base.Classifier):
         
         # Classify as assertion if a link.
         if is_link(sentence):
+            return annotate.SpeechActLabels.ASSERTION
+        
+        # Classify as an assertion if it's a date.
+        if is_date(sentence):
             return annotate.SpeechActLabels.ASSERTION
         
         # Unknown speech act.
@@ -418,3 +423,14 @@ def is_link(sentence: doc.Sentence) -> bool:
     """
     pattern = re.compile(r'^(http|https|ftp)://[^\s/$.?#].[^\s]*$')
     return pattern.match(sentence.text) is not None  # type: ignore
+
+
+def is_date(sentence: doc.Sentence) -> bool:
+    """
+    Check if sentence is a date.
+    """
+    try:
+        dt_parser.parse(sentence.text)  # type: ignore
+        return True
+    except ValueError:
+        return False
