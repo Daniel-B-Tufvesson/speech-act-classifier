@@ -44,4 +44,4 @@ if __name__ == '__main__':
     print('Rule-based classifier results:')
     evaluation.evaluate(corpus, rb_classifier, labels,
                         print_missclassified=('expressive', 'assertion'),
-                        draw_conf_matrix=False)
+                        draw_conf_matrix=True)
