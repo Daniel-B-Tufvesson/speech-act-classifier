@@ -9,7 +9,7 @@ import speechact.corpus as corp
 import speechact.annotate as annotate
 
 if __name__ == '__main__':
-    corpus = corp.Corpus('data/annotated data/dev-set.connlu.bz2')
+    corpus = corp.Corpus('data/annotated data/dev-set-sentiment.connlu.bz2')
     labels = annotate.SpeechActLabels.get_labels()
 
     print()

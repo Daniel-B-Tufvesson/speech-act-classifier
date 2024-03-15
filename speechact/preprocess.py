@@ -9,6 +9,7 @@ import stanza
 import stanza.models.common.doc as doc
 from stanza.utils.conll import CoNLL
 import speechact.corpus as corp
+import speechact as sa
 
 def read_sentences_bz2(connlu_corpus_file: str, max_sentences = -1) -> Generator[doc.Sentence, None, None]:
     """
@@ -286,3 +287,56 @@ def tag_dep_rel(source: TextIO, target: TextIO, print_progress=False, **kwargs):
         tagged_doc.sentences = None  # type: ignore
 
     if print_progress: print(f'Parsing complete. Parsed {sentence_count} sentences')
+
+
+def tag_sentiment(source: corp.Corpus, target: TextIO, print_progress=False):
+    """
+    Tag a source CoNNL-U corpus with sentiment labels and score. The tagged sentences are
+    written to the target as CoNNL-U.
+    """
+    if print_progress: print('Tag corpus with sentiment tags')
+
+    import transformers as trf
+
+    # Create sentiment analysis pipeline.
+    sentiment_model = trf.AutoModelForSequenceClassification.from_pretrained(
+        'KBLab/robust-swedish-sentiment-multiclass')
+    tokenizer = trf.AutoTokenizer.from_pretrained('KBLab/megatron-bert-large-swedish-cased-165k') 
+    sentiment_nlp = trf.pipeline("sentiment-analysis", 
+                                 model=sentiment_model,
+                                 tokenizer=tokenizer)
+    
+    sentence_count = 0
+    # Tag and write each sentence.
+    for sentence in source.sentences():
+        text = sentence.get_meta_data('text')
+
+        result = sentiment_nlp(text)
+        sentiment = result[0]['label']  # type: ignore
+        score = result[0]['score']  # type: ignore
+
+        strd_label = to_sentiment(sentiment)
+
+        sentence.set_meta_data('sentiment_label', strd_label)
+        sentence.set_meta_data('sentiment_score', score)
+        sentence.write(target)
+
+        sentence_count += 1
+        if print_progress and sentence_count % 100 == 0:
+            print(f'Tagged {sentence_count} sentences with sentiment.')
+
+    if print_progress: print(f'Sentiment tagging complete. Tagged {sentence_count} sentences.')
+
+
+def to_sentiment(sentiment_label) -> sa.Sentiment:
+    """
+    Convert a sentiment label from a tagger to the Sentiment labels used in this project.
+    """
+    if sentiment_label == 'POSITIVE':
+        return sa.Sentiment.POSITIVE
+    if sentiment_label == 'NEGATIVE':
+        return sa.Sentiment.NEGATIVE
+    if sentiment_label == 'NEUTRAL':
+        return sa.Sentiment.NEUTRAL
+
+    raise ValueError(f'Unsupported sentiment label: {sentiment_label}.')  

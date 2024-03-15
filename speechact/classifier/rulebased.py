@@ -10,7 +10,7 @@ import speechact.annotate as annotate
 import enum
 import re
 import dateutil.parser as dt_parser
-import transformers as trf
+import speechact as sa
 
 SUBJECT_RELS = {
     'csubj', 
@@ -88,13 +88,7 @@ class Punctuation(enum.StrEnum):
     QUESTION = '?'
     NONE = 'none'
 
-class Sentiment(enum.StrEnum):
-    """
-    The three possible sentiments in sentiment analysis.
-    """
-    POSITIVE = 'positve'
-    NEGATIVE = 'negative'
-    NEUTRAL = 'neutral'
+
     
 
 class PunctuationClassifier(base.Classifier):
@@ -125,19 +119,6 @@ class ClauseClassifier(base.Classifier):
 
 class RuleBasedClassifier(base.Classifier):
 
-    def __init__(self) -> None:
-        super().__init__()
-
-        # Create sentiment analysis pipeline.
-        sentiment_model = trf.AutoModelForSequenceClassification.from_pretrained(
-            'KBLab/robust-swedish-sentiment-multiclass')
-        # Note: tokenizer won't actually be used, but the pipeline needs it.
-        tokenizer = trf.AutoTokenizer.from_pretrained('KBLab/megatron-bert-large-swedish-cased-165k') 
-        self.sentiment_nlp = trf.pipeline("sentiment-analysis", 
-                                          model=sentiment_model,
-                                          tokenizer=tokenizer)
-    
-
     def classify_document(self, document: doc.Document):
         for sentence in document.sentences:
             self.classify_sentence(sentence)
@@ -153,7 +134,7 @@ class RuleBasedClassifier(base.Classifier):
         # Try classifying as assertion or question based on punctuation.
         punctuation = get_punctation(sentence)
         if punctuation == Punctuation.PERIOD:
-            if self.get_sentiment(sentence) != Sentiment.NEUTRAL:
+            if self.get_sentiment(sentence) != sa.Sentiment.NEUTRAL:
                     return annotate.SpeechActLabels.EXPRESSIVE
             else: 
                 return annotate.SpeechActLabels.ASSERTION
@@ -170,7 +151,7 @@ class RuleBasedClassifier(base.Classifier):
                     return annotate.SpeechActLabels.EXPRESSIVE
                 
                 # Not-neutral sentences are expressives.
-                if self.get_sentiment(sentence) != Sentiment.NEUTRAL:
+                if self.get_sentiment(sentence) != sa.Sentiment.NEUTRAL:
                     return annotate.SpeechActLabels.EXPRESSIVE
 
             return clause_type_to_speech_acts[clause_type]
@@ -191,28 +172,16 @@ class RuleBasedClassifier(base.Classifier):
         return classify_from_punctation(sentence)
     
 
-    def get_sentiment(self, sentence: doc.Sentence) -> Sentiment:
+    def get_sentiment(self, sentence: doc.Sentence) -> sa.Sentiment:
         """
         Get the sentiment of the sentence.
         """
-        result = self.sentiment_nlp(sentence.text)
-        sentiment = result[0]['label']
-        score = result[0]['score']
+        sentiment = sa.get_sentence_property(sentence, 'sentiment_label')
 
-        if score < 0.9:
-            return Sentiment.NEUTRAL
-
-        if sentiment == 'POSITIVE':
-            return Sentiment.POSITIVE
-        if sentiment == 'NEGATIVE':
-            return Sentiment.NEGATIVE
-        if sentiment == 'NEUTRAL':
-            return Sentiment.NEUTRAL
-
-        raise ValueError(f'Unsupported sentiment result: {sentiment}.')  
-
-
-
+        assert sentiment != None, f'Sentence {sentence.sent_id} does not have a sentiment.'
+        assert sa.Sentiment.is_valid(sentiment), f'Invalid sentiment value "{sentiment}" for sentence {sentence.sent_id}'
+        
+        return sentiment  # type: ignore
 
 
 def classify_from_punctation(sentence: doc.Sentence) -> annotate.SpeechActLabels:

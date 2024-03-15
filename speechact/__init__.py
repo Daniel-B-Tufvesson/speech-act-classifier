@@ -1,1 +1,1 @@
-import speechact.core
+from speechact.core import *

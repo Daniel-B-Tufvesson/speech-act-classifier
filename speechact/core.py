@@ -2,7 +2,7 @@
 The main python file for this project.
 """
 
-from enum import Enum
+import enum
 import stanza.models.common.doc as doc
 
 def get_sentence_property(sentence: doc.Sentence, key: str) -> str|None:
@@ -54,7 +54,7 @@ doc.Sentence.add_property(
     setter=lambda sentence, value: set_sentence_property(sentence, 'speech_act', value)
     )
 
-class SpeechActs(Enum):
+class SpeechActs(enum.Enum):
     """
     The speech acts to classify.
     """
@@ -82,7 +82,7 @@ class SpeechActs(Enum):
                 speech_act == SpeechActs.HYPOTHESIS.value)
 
 
-class Genre(Enum):
+class Genre(enum.Enum):
     """
     The different genres which the data can belong to.
     """
@@ -166,3 +166,19 @@ def validate_pos_string(pos: str) -> bool:
     Check if the given string matches any of the defined POS tags.
     """
     return pos in POS_TAGS
+
+
+class Sentiment(enum.StrEnum):
+    """
+    The three possible sentiments in sentiment analysis.
+    """
+    POSITIVE = 'positive'
+    NEGATIVE = 'negative'
+    NEUTRAL = 'neutral'
+
+    @staticmethod
+    def is_valid(sentiment: str) -> bool:
+        return (sentiment == Sentiment.POSITIVE or 
+                sentiment == Sentiment.NEGATIVE or
+                sentiment == Sentiment.NEUTRAL)
+
