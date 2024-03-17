@@ -333,6 +333,16 @@ def starts_with_finite_verb(sentence: doc.Sentence) -> bool:
     
     return finite_verb.id == 1
 
+def is_finite_verb_imperative(sentence: doc.Sentence) -> bool:
+    """
+    Check if the finite verb is in mood imperative.
+    """
+    finite_verb = get_finite_verb(sentence)
+    if finite_verb == None:
+        return False
+    
+    return 'Mood=Imp' in finite_verb.feats  # type: ignore
+
 def get_subject(sentence: doc.Sentence) -> doc.Word|None:
     """
     Retrieve the subject of the sentence. This is a dependent of the sentence's head. 
