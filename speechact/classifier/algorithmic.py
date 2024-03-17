@@ -1,5 +1,6 @@
 """
-An algorithmic speech act classifier. This uses syntactical information to classify sentences with speech acts.
+An algorithmic speech act classifier. This uses syntactical information to classify sentences 
+with speech acts.
 """
 
 

@@ -2,7 +2,7 @@
 This script classifies sentences using the rule based classfier.
 """
 from context import speechact
-import speechact.classifier.rulebased as rb
+import speechact.classifier.algorithmic as algo
 import speechact.classifier.base as b
 import speechact.evaluation as evaluation
 import speechact.corpus as corp
@@ -25,14 +25,14 @@ if __name__ == '__main__':
     print()
 
     # Evaluate punctuation classifier.
-    punctuation_classifier = rb.PunctuationClassifier()
+    punctuation_classifier = algo.PunctuationClassifier()
     print('Punctuation classifier results:')
     evaluation.evaluate(corpus, punctuation_classifier, labels,
                         draw_conf_matrix=False)
     print()
 
     # Evaluate clause classifier.
-    clause_classifier = rb.ClauseClassifier()
+    clause_classifier = algo.ClauseClassifier()
     print('Clause classifier results:')
     evaluation.evaluate(corpus, clause_classifier, labels, 
                         #print_missclassified=('assertion', 'none'),
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     print()
 
     # Evaluate rule based classifier.
-    rb_classifier = rb.RuleBasedClassifier()
+    rb_classifier = algo.RuleBasedClassifier()
     print('Rule-based classifier results:')
     evaluation.evaluate(corpus, rb_classifier, labels,
                         print_missclassified=('directive', 'assertion'),
