@@ -1,0 +1,52 @@
+{
+    "rules":[
+        {
+            "speech_act":"question",
+            "blocks": ["INT_PRON", "FIN_VERB", "SUBJECT"]
+        },
+        {
+            "speech_act":"question",
+            "blocks": ["INT_PRON", "FIN_VERB", "SUBJECT", "OBL"]
+        },
+        {
+            "speech_act":"question",
+            "blocks": ["FIN_VERB", "ADV_MOD", "SUBJECT", "XCOMP"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks": ["SUBJECT", "FIN_VERB", "ADV_MOD", "ADV_MOD", "OBL"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks": ["SUBJECT", "FIN_VERB", "OBL"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks": ["SUBJECT", "FIN_VERB", "XCOMP"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks": ["SUBJECT", "FIN_VERB", "ADV_MOD", "ADV_CL"]
+        },
+        {
+            "speech_act":"question",
+            "blocks": ["FIN_VERB", "SUBJECT", "XCOMP"]
+        },
+        {
+            "speech_act":"question",
+            "blocks": ["FIN_VERB", "SUBJECT", "ADV_MOD", "XCOMP"]
+        },
+        {
+            "speech_act":"directive",
+            "blocks": ["FIN_VERB_IMP", "ADV_MOD", "OBL"]
+        },
+        {
+            "speech_act":"directive",
+            "blocks":["ADV_MOD", "FIN_VERB", "OBJECT"]
+        },
+        {
+            "speech_act":"question",
+            "blocks":["INT_ADV", "ADVERB"]
+        }
+    ]
+}

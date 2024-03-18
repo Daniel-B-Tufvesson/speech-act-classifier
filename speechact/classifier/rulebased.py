@@ -52,69 +52,35 @@ class Rule:
 
 class RuleBasedClassifier(base.Classifier):
 
-    def __init__(self) -> None:
+    def __init__(self, ruleset_file: str|None = None) -> None:
         super().__init__()
         self.rules = []  # type: list[Rule]
-        self.init_rules()
-
-    def init_rules(self):
-        self.new_rule(anno.SpeechActLabels.QUESTION, [
-            SyntBlock.INT_PRON, 
-            SyntBlock.FIN_VERB, 
-            SyntBlock.SUBJECT
-        ])
-        self.new_rule(anno.SpeechActLabels.QUESTION, [
-            SyntBlock.INT_PRON, 
-            SyntBlock.FIN_VERB, 
-            SyntBlock.SUBJECT, 
-            SyntBlock.OBL
-        ])
-        self.new_rule(anno.SpeechActLabels.QUESTION, [
-            SyntBlock.FIN_VERB,
-            SyntBlock.ADV_MOD,
-            SyntBlock.SUBJECT,
-            SyntBlock.XCOMP
-        ])
-        self.new_rule(anno.SpeechActLabels.ASSERTION, [
-            SyntBlock.SUBJECT,
-            SyntBlock.FIN_VERB,
-            SyntBlock.ADV_MOD,
-            SyntBlock.ADV_MOD,
-            SyntBlock.OBL
-        ])
-        self.new_rule(anno.SpeechActLabels.ASSERTION, [
-            SyntBlock.SUBJECT,
-            SyntBlock.FIN_VERB,
-            SyntBlock.OBL
-        ])
-        self.new_rule(anno.SpeechActLabels.ASSERTION, [
-            SyntBlock.SUBJECT,
-            SyntBlock.FIN_VERB,
-            SyntBlock.XCOMP
-        ])
-        self.new_rule(anno.SpeechActLabels.ASSERTION, [
-            SyntBlock.SUBJECT,
-            SyntBlock.FIN_VERB,
-            SyntBlock.ADV_MOD,
-            SyntBlock.ADV_CL
-        ])
-        self.new_rule(anno.SpeechActLabels.QUESTION, [
-            SyntBlock.FIN_VERB,
-            SyntBlock.SUBJECT,
-            SyntBlock.XCOMP
-        ])
-        self.new_rule(anno.SpeechActLabels.QUESTION, [
-            SyntBlock.FIN_VERB,
-            SyntBlock.SUBJECT,
-            SyntBlock.ADV_MOD,
-            SyntBlock.XCOMP
-        ])
-        self.new_rule(anno.SpeechActLabels.DIRECTIVE, [
-            SyntBlock.FIN_VERB_IMP,
-            SyntBlock.ADV_MOD,
-            SyntBlock.OBL
-        ])
         
+        if ruleset_file != None:
+            self.load_rules(ruleset_file)
+    
+    
+    def load_rules(self, ruleset_file: str):
+        """
+        Load a set of rules from a json file.
+        """
+
+        # Read json file.
+        import json
+        with open(ruleset_file, "r") as json_file:
+            json_data = json.load(json_file)
+        
+        # Load each rule from json.
+        json_rules = json_data['rules']
+        for json_rule in json_rules:
+            speech_act = json_rule['speech_act']
+            json_blocks = json_rule['blocks']
+
+            # Convert to enum synt-blocks.
+            synt_blocks = [SyntBlock[block] for block in json_blocks]
+
+            self.new_rule(anno.SpeechActLabels(speech_act), synt_blocks)
+    
     
     def new_rule(self, speech_act: anno.SpeechActLabels, synt_blocks: list[SyntBlock]):
         """

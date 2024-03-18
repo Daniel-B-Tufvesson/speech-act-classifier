@@ -48,7 +48,7 @@ if __name__ == '__main__':
                         draw_conf_matrix=False)
 
     # Evaluate rule based classifier.
-    rule_classifer = rule.RuleBasedClassifier()
+    rule_classifer = rule.RuleBasedClassifier(ruleset_file='models/ruleset_1.json')
     print('Rule-based classifier results:')
     evaluation.evaluate(corpus, rule_classifer, labels,
                         #print_missclassified=('directive', 'assertion'),
