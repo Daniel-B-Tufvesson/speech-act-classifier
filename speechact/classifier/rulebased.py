@@ -28,6 +28,7 @@ class SyntBlock(enum.StrEnum):
     FIN_VERB = 'finite verb'
     FIN_VERB_IMP = 'finite verb imperative'
     ADVERB = 'adverb'
+    NOUN = 'noun'
 
     # None.
     NONE = 'none'
@@ -35,11 +36,19 @@ class SyntBlock(enum.StrEnum):
 
 class Rule:
     
-    def __init__(self, speech_act: anno.SpeechActLabels, synt_blocks: list[SyntBlock]):
+    def __init__(self, speech_act: anno.SpeechActLabels, synt_blocks: list[SyntBlock],
+                 strict = True):
         self.speech_act = speech_act
         self.synt_blocks = synt_blocks
-
+        self.strict = strict
+    
     def is_matching(self, synt_blocks: list[SyntBlock]) -> bool:
+        if self.strict:
+            return self.is_matching_strict(synt_blocks)
+        else:
+            return self.is_matching_unstrict(synt_blocks)
+
+    def is_matching_strict(self, synt_blocks: list[SyntBlock]) -> bool:
         if len(self.synt_blocks) != len(synt_blocks):
             return False
         
@@ -48,6 +57,29 @@ class Rule:
                 return False
         
         return True
+
+    def is_matching_unstrict(self, synt_blocks: list[SyntBlock]) -> bool:
+        """
+        Check if all the rule's synt-blocks are present in the given list of 
+        synt-blocks.
+        """
+        if len(self.synt_blocks) >= len(synt_blocks):
+            return False
+        
+        this_index = 0
+        for other_block in synt_blocks:
+            if other_block == self.synt_blocks[this_index]:
+                this_index += 1
+
+                if this_index >= len(self.synt_blocks):
+                    break
+
+        # If not all the rule's synt-blocks match.
+        if this_index < len(self.synt_blocks):
+            return False
+                
+        return True
+    
 
 
 class RuleBasedClassifier(base.Classifier):
@@ -75,14 +107,16 @@ class RuleBasedClassifier(base.Classifier):
         for json_rule in json_rules:
             speech_act = json_rule['speech_act']
             json_blocks = json_rule['blocks']
+            strict = json_rule.get('strict', False)
 
             # Convert to enum synt-blocks.
             synt_blocks = [SyntBlock[block] for block in json_blocks]
 
-            self.new_rule(anno.SpeechActLabels(speech_act), synt_blocks)
+            self.new_rule(anno.SpeechActLabels(speech_act), synt_blocks, strict)
     
     
-    def new_rule(self, speech_act: anno.SpeechActLabels, synt_blocks: list[SyntBlock]):
+    def new_rule(self, speech_act: anno.SpeechActLabels, synt_blocks: list[SyntBlock],
+                 strict = False):
         """
         Create and add a new rule to this classifier. 
         """
@@ -92,7 +126,7 @@ class RuleBasedClassifier(base.Classifier):
             if other_rule.is_matching(synt_blocks):
                 raise ValueError(f'rule is already taken: {synt_blocks}')
 
-        rule = Rule(speech_act, synt_blocks)
+        rule = Rule(speech_act, synt_blocks, strict)
         self.rules.append(rule)
     
     def classify_sentence(self, sentence: doc.Sentence):
@@ -144,6 +178,7 @@ class RuleBasedClassifier(base.Classifier):
                 else: return SyntBlock.FIN_VERB
             
             if word.pos == 'ADVERB': return SyntBlock.ADVERB
+            if word.pos == 'NOUN': return SyntBlock.NOUN
             else: return SyntBlock.NONE
 
         if word.lemma in INTERROGATIVE_PRONOUNS and word.pos == 'PRON': return SyntBlock.INT_PRON
