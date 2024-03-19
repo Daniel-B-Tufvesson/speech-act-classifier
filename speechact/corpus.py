@@ -153,6 +153,14 @@ class Corpus:
         with bz2.open(self.file_name, mode='rt') as source:
             for batch in pre.read_batched_doc(source, batch_size):
                 yield batch
+    
+    def stanza_sentences(self) -> Generator[doc.Sentence, None, None]:
+        """
+        Yield stanza sentences of this corpus.
+        """
+        for batch in self.batched_docs(1000):
+            for sentence in batch.sentences:
+                yield sentence
         
     
 
