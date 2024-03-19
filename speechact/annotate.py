@@ -10,7 +10,7 @@ import random
 import sklearn.metrics as metrics
 from typing import TextIO
 import speechact.corpus as corp
-from enum import Enum
+import enum
 
 
 UNANNOTATED_EXT = '💬'  # speech bubble emoji.
@@ -19,7 +19,7 @@ UNANNOTATED_EXT = '💬'  # speech bubble emoji.
 ANNOTATED_EXT = '✏️'  # pencil emoji
 """The file extension for annotated sentence files."""
 
-class SpeechActLabels(Enum):
+class SpeechActLabels(enum.StrEnum):
     """
     The speech acts labels.
     """

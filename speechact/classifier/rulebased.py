@@ -7,6 +7,8 @@ import stanza.models.common.doc as doc
 from . import base
 import speechact.annotate as anno
 import enum
+import speechact.corpus as corp
+import collections as col
 
 INTERROGATIVE_PRONOUNS = {'vilken', 'vilkendera', 'hurdan', 'vem', 'vad'}
 
@@ -150,8 +152,25 @@ class RuleBasedClassifier(base.Classifier):
         rule = Rule(speech_act, synt_blocks, strict)
         self.rules.append(rule)
     
+    def find_rule(self, synt_blocks: list[SyntBlock], strict: bool|None = None) -> Rule|None:
+        """
+        Find the rule that is matching the synt-blocks.
+        """
+        for rule in self.rules:
+            if strict == None and rule.is_matching(synt_blocks):
+                return rule
+            
+            elif strict and rule.is_matching_strict(synt_blocks):
+                return rule
+            
+            elif not strict and rule.is_matching_unstrict(synt_blocks):
+                return rule
+        
+        return None
+
+    
     def classify_sentence(self, sentence: doc.Sentence):
-        speech_act = self.get_speech_act_for(sentence).value
+        speech_act = self.get_speech_act_for(sentence)
         sentence.speech_act = speech_act  # type: ignore
 
     def get_speech_act_for(self, sentence: doc.Sentence) -> anno.SpeechActLabels:
@@ -257,5 +276,57 @@ def get_deps(sentence: doc.Sentence, head: doc.Word) -> list[doc.Word]:
     return deps
 
 
+class TrainableRule(Rule):
 
+    def __init__(self, synt_blocks: list[SyntBlock]):
+        super().__init__(anno.SpeechActLabels.NONE, synt_blocks)
+        self.counts = col.Counter()
+
+    def increment_for(self, speech_act: anno.SpeechActLabels):
+        self.counts[speech_act] += 1
     
+    def refresh_label(self):
+        self.speech_act = self.counts.most_common()[0][0]
+
+
+
+class TrainableClassifier(RuleBasedClassifier):
+    """
+    A trainable rule based classifier.
+    """
+
+    def __init__(self, ruleset_file: str | None = None):
+        super().__init__(ruleset_file)
+
+    def train(self, corpus: corp.Corpus):
+        """
+        Train the classifier on the corpus.
+        """
+        for sentence in corpus.stanza_sentences():
+            assert sentence.speech_act != None, f'sentence {sentence.sent_id} does not have a speech act'  # type: ignore
+            blocks = self.to_synt_blocks(sentence)
+            
+            # Find matching rule, and increment to it.
+            matching_rule = self.find_rule(blocks, strict=True)
+            if matching_rule != None:
+                assert type(matching_rule) == TrainableRule, 'rule is not a trainable rule.'
+                matching_rule.increment_for(sentence.speech_act)  # type: ignore
+            
+            # No matching rule, create new rule.
+            else:
+                new_rule = TrainableRule(blocks)
+                new_rule.strict = True
+                new_rule.increment_for(sentence.speech_act)  # type: ignore
+                self.rules.append(new_rule)
+        
+        # Refresh the labels for all rules.
+        for rule in self.rules:
+            assert type(rule) == TrainableRule, 'rule is not a trainable rule.'
+            rule.refresh_label()
+
+
+
+
+
+
+            

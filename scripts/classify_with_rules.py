@@ -51,5 +51,13 @@ if __name__ == '__main__':
     rule_classifer = rule.RuleBasedClassifier(ruleset_file='models/ruleset_1.json')
     print('Rule-based classifier results:')
     evaluation.evaluate(corpus, rule_classifer, labels,
-                        print_missclassified=('directive', 'assertion'),
+                        #print_missclassified=('directive', 'assertion'),
                         draw_conf_matrix=False)
+    
+    # Evaluate trainable rule based classifier.
+    trainable_rule_classifier = rule.TrainableClassifier()
+    trainable_rule_classifier.train(corpus)
+    print('Trainable rule-based classifier results:')
+    evaluation.evaluate(corpus, trainable_rule_classifier, labels,
+                        #print_missclassified=('directive', 'assertion'),
+                        draw_conf_matrix=True)
