@@ -1,0 +1,3008 @@
+{
+    "rules": [
+        {
+            "speech_act": "none",
+            "blocks": [
+                "noun",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advcl",
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "object",
+                "advmod",
+                "advmod",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "advmod",
+                "oblique modifier",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "advmod",
+                "object",
+                "oblique modifier",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "expletive",
+                "advmod",
+                "advmod",
+                "advmod",
+                "dislocated"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "finite verb",
+                "xcomp",
+                "oblique modifier",
+                "advmod",
+                "advcl",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "advmod",
+                "subject",
+                "object",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "none",
+            "blocks": [
+                "proper noun",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "xcomp",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "conjunction",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "oblique modifier",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "object",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "xcomp",
+                "oblique modifier",
+                "conjunction",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "advcl",
+                "finite verb",
+                "expletive",
+                "subject",
+                "oblique modifier",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "object",
+                "oblique modifier",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "xcomp",
+                "oblique modifier",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "expletive",
+                "subject",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "oblique modifier",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advmod",
+                "finite verb",
+                "subject",
+                "particle",
+                "object",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "subject",
+                "advmod",
+                "advcl",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "advcl",
+                "finite verb",
+                "advmod",
+                "subject",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod",
+                "oblique modifier",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "oblique modifier",
+                "advmod",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "expletive",
+                "advmod",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "conjunction",
+                "ccomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "object",
+                "oblique modifier",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "advcl",
+                "advcl",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "particle",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "object",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "oblique modifier",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "advmod",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "none",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "particle",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "subject",
+                "supine",
+                "particle",
+                "object",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "subject",
+                "finite verb",
+                "advmod",
+                "oblique modifier",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "oblique modifier",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "object",
+                "conjunction",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "object",
+                "finite verb",
+                "subject",
+                "advmod",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "advcl",
+                "finite verb",
+                "advmod",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "expletive",
+                "xcomp",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "advmod",
+                "advmod",
+                "xcomp",
+                "advcl",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp",
+                "advcl",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "expletive",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "xcomp",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "subject",
+                "oblique modifier",
+                "object",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "object",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "expletive",
+                "advmod",
+                "dislocated",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod",
+                "object",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "advmod",
+                "subject",
+                "oblique modifier",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "particle",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod",
+                "advmod",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "particle",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "oblique modifier",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "object",
+                "advmod",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "subject",
+                "oblique modifier",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "advmod",
+                "conjunction",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "particle",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "particle",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "xcomp",
+                "xcomp",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "subject",
+                "finite verb",
+                "object",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "subject",
+                "finite verb",
+                "ccomp",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "advmod",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "advcl",
+                "finite verb",
+                "subject",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "xcomp",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "object",
+                "oblique modifier",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "ccomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "subject",
+                "advmod",
+                "finite verb",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "subject",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "subject",
+                "advmod",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "object",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advcl",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "object",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "object",
+                "finite verb",
+                "subject",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "object",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "expletive",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "expletive",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "xcomp",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "advmod",
+                "oblique modifier",
+                "finite verb",
+                "expletive",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "xcomp",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "expletive",
+                "xcomp",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "subject",
+                "finite verb",
+                "xcomp",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "advmod",
+                "finite verb",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "subject",
+                "finite verb",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "object",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "oblique modifier",
+                "oblique modifier",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "subject",
+                "advmod",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "object",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "particle",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "advmod",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "finite verb",
+                "subject",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp",
+                "oblique modifier",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "object",
+                "finite verb",
+                "subject",
+                "object",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "advmod",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "advmod",
+                "subject",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "particle",
+                "conjunction",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "none",
+            "blocks": [
+                "proper noun",
+                "conjunction",
+                "conjunction",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "subject",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "advmod",
+                "advmod",
+                "adjective",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "subject",
+                "advmod",
+                "finite verb",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "ccomp",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "subject",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "advmod",
+                "object",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "xcomp",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative pronoun",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "oblique modifier",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "advmod",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "advmod",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "expletive",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "subject",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "subject",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative pronoun",
+                "finite verb",
+                "expletive",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative adverbial",
+                "finite verb",
+                "subject",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "advmod",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "object",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "object",
+                "finite verb",
+                "subject",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "conjunction",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "object",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "advmod",
+                "advmod",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "object",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "expletive",
+                "advmod",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative adverbial",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "subject",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "dislocated",
+                "advcl",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "particle"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "supine",
+                "object",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "subject",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "advmod",
+                "particle",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative adverbial",
+                "finite verb",
+                "subject",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "advmod",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "none",
+            "blocks": [
+                "proper noun",
+                "conjunction",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "xcomp",
+                "finite verb",
+                "subject",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "object",
+                "oblique modifier",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "adjective",
+                "advcl",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "advmod",
+                "particle",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "particle",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "subject",
+                "finite verb",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advcl",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative pronoun",
+                "finite verb",
+                "xcomp",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "object",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp",
+                "particle"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "xcomp",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "subject",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "subject",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "object",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "oblique modifier",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "object",
+                "oblique modifier",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative pronoun",
+                "finite verb",
+                "subject",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "oblique modifier",
+                "finite verb",
+                "subject",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "supine",
+                "object",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "finite verb",
+                "oblique modifier",
+                "oblique modifier",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "dislocated",
+                "subject",
+                "finite verb",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "advmod",
+                "adjective",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "finite verb",
+                "object",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl",
+                "finite verb",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "xcomp",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "expletive",
+                "finite verb",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "noun",
+                "advmod",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "xcomp",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "object",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "advmod",
+                "finite verb imperative",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "advmod",
+                "adverb",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "object",
+                "finite verb",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "particle"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "advmod",
+                "adjective"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "advmod",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "advmod",
+                "adjective"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "advmod",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "finite verb imperative",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "advmod",
+                "noun"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "finite verb",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "xcomp",
+                "finite verb",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "adverb",
+                "oblique modifier",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "noun",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "noun",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "adverb",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative pronoun",
+                "finite verb",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "adjective",
+                "subject",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "expletive",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "noun",
+                "conjunction",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "oblique modifier",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "object",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "participle",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "oblique modifier",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "subject",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "adverb",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "noun",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "subject",
+                "finite verb"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "adjective"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "finite verb imperative",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "subject"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "noun",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "noun"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "supine",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "conjunction",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "proper noun",
+                "name"
+            ]
+        },
+        {
+            "speech_act": "none",
+            "blocks": [
+                "subject",
+                "noun"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "participle",
+                "conjunction"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "subject",
+                "adjective"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "interrogative pronoun",
+                "noun"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "ccomp"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb imperative",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "participle",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb imperative",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod",
+                "adverb"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "advmod",
+                "finite verb"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "noun",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "advmod",
+                "object"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "interrogative adverbial",
+                "adverb"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "finite verb imperative",
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "supine",
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "adjective",
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "finite verb",
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "interrogative pronoun",
+                "adjective"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "noun"
+            ]
+        },
+        {
+            "speech_act": "none",
+            "blocks": [
+                "number"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "xcomp"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "finite verb imperative"
+            ]
+        },
+        {
+            "speech_act": "none",
+            "blocks": [
+                "proper noun"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advmod"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "oblique modifier"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "adverb"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "advcl"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "adjective"
+            ]
+        }
+    ]
+}

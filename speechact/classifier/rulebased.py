@@ -122,7 +122,7 @@ class RuleBasedClassifier(base.Classifier):
 
         # Read json file.
         import json
-        with open(ruleset_file, "r") as json_file:
+        with open(ruleset_file, "rt") as json_file:
             json_data = json.load(json_file)
         
         # Load each rule from json.
@@ -137,7 +137,30 @@ class RuleBasedClassifier(base.Classifier):
 
             self.new_rule(anno.SpeechActLabels(speech_act), synt_blocks, strict)
     
-    
+    def save_rules(self, ruleset_file: str):
+        """
+        Save the rules to a json file.
+        """
+        json_rules = []
+        for rule in self.rules:
+            json_rule = {
+                'speech_act': rule.speech_act,
+                'blocks': rule.synt_blocks
+            }
+
+            if rule.strict:
+                json_rule['strict'] = True
+
+            json_rules.append(json_rule)
+
+        json_data = {
+            'rules': json_rules
+        }
+
+        import json
+        with open(ruleset_file, "wt") as json_file:
+            json.dump(json_data, json_file, indent=4)
+        
     def new_rule(self, speech_act: anno.SpeechActLabels, synt_blocks: list[SyntBlock],
                  strict = False):
         """
@@ -167,6 +190,9 @@ class RuleBasedClassifier(base.Classifier):
                 return rule
         
         return None
+
+    def sort_rules(self):
+        self.rules.sort(key=lambda rule: -len(rule.synt_blocks))
 
     
     def classify_sentence(self, sentence: doc.Sentence):
@@ -198,9 +224,12 @@ class RuleBasedClassifier(base.Classifier):
         for word in words:
 
             synt_block = self.get_synt_block(word)
+            
+            if synt_block == SyntBlock.NONE:
+                continue
 
             # Ignore punctuations if there is no block for it.
-            if word.pos == 'PUNCT' and synt_block == SyntBlock.NONE:
+            if word.pos == 'PUNCT':# and synt_block == SyntBlock.NONE:
                 continue
             
             synt_blocks.append(synt_block)
@@ -305,6 +334,9 @@ class TrainableClassifier(RuleBasedClassifier):
         for sentence in corpus.stanza_sentences():
             assert sentence.speech_act != None, f'sentence {sentence.sent_id} does not have a speech act'  # type: ignore
             blocks = self.to_synt_blocks(sentence)
+
+            if len(blocks) == 0:
+                continue
             
             # Find matching rule, and increment to it.
             matching_rule = self.find_rule(blocks, strict=True)
@@ -315,7 +347,7 @@ class TrainableClassifier(RuleBasedClassifier):
             # No matching rule, create new rule.
             else:
                 new_rule = TrainableRule(blocks)
-                new_rule.strict = True
+                new_rule.strict = False
                 new_rule.increment_for(sentence.speech_act)  # type: ignore
                 self.rules.append(new_rule)
         
@@ -323,6 +355,8 @@ class TrainableClassifier(RuleBasedClassifier):
         for rule in self.rules:
             assert type(rule) == TrainableRule, 'rule is not a trainable rule.'
             rule.refresh_label()
+        
+        self.sort_rules()
 
 
 

@@ -59,6 +59,7 @@ if __name__ == '__main__':
     test_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-test.conllu.bz2')
     train_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-train.conllu.bz2')
     trainable_rule_classifier.train(train_corpus)
+    trainable_rule_classifier.save_rules('models/trained_rules.json')
     print('Trainable rule-based classifier results:')
     evaluation.evaluate(test_corpus, trainable_rule_classifier, labels,
                         #print_missclassified=('directive', 'assertion'),
