@@ -12,6 +12,15 @@ INTERROGATIVE_PRONOUNS = {'vilken', 'vilkendera', 'hurdan', 'vem', 'vad'}
 
 INTERROGATIVE_ADVERBS = {'var', 'vart', 'när', 'hur'}
 
+SUBJECT_RELS = {
+    'csubj', 
+    'csubj:outer', 
+    'csubj:pass',
+    'nsubj',
+    'nsubj:outer',
+    'nsubj:pass'
+    }
+
 class SyntBlock(enum.StrEnum):
 
     # Dependency blocks.
@@ -23,15 +32,27 @@ class SyntBlock(enum.StrEnum):
     INT_PRON = 'interrogative pronoun'
     OBL = 'oblique modifier'
     XCOMP = 'xcomp'
+    CCOMP = 'ccomp'
+    PARTICLE = 'particle'
+    CONJ = 'conjunction'
+    EXPL = 'expletive'
+    NAME = 'name'
+    DISLOCATED = 'dislocated'
 
     # Root blocks.
     FIN_VERB = 'finite verb'
     FIN_VERB_IMP = 'finite verb imperative'
+    SUP_VERB = 'supine'
+    PART_VERB = 'participle'
     ADVERB = 'adverb'
     NOUN = 'noun'
+    ADJECTIVE = 'adjective'
+    NUMBER = 'number'
+    PROPN = 'proper noun'
 
-    # None.
+    # Special.
     NONE = 'none'
+    QUESTION_MARK = 'question mark'
 
 
 class Rule:
@@ -63,7 +84,7 @@ class Rule:
         Check if all the rule's synt-blocks are present in the given list of 
         synt-blocks.
         """
-        if len(self.synt_blocks) >= len(synt_blocks):
+        if len(self.synt_blocks) > len(synt_blocks):
             return False
         
         this_index = 0
@@ -157,13 +178,14 @@ class RuleBasedClassifier(base.Classifier):
         synt_blocks = []
         for word in words:
 
-            # Ignore punctuations.
-            if word.pos == 'PUNCT':
-                continue
-
             synt_block = self.get_synt_block(word)
+
+            # Ignore punctuations if there is no block for it.
+            if word.pos == 'PUNCT' and synt_block == SyntBlock.NONE:
+                continue
+            
             synt_blocks.append(synt_block)
-        
+
         return synt_blocks
 
     
@@ -172,24 +194,42 @@ class RuleBasedClassifier(base.Classifier):
         Get the synt-block for the word (and its dependencies).
         """
 
+        if word.text == '?': return SyntBlock.QUESTION_MARK
+
         if word.deprel == 'root':
-            if word.pos == 'VERB' and word.feats != None and 'VerbForm=Fin' in word.feats:
-                if 'Mood=Imp' in word.feats: return SyntBlock.FIN_VERB_IMP
-                else: return SyntBlock.FIN_VERB
-            
+            if word.pos == 'VERB' and word.feats != None:
+                if 'VerbForm=Fin' in word.feats:
+                    if 'Mood=Imp' in word.feats: return SyntBlock.FIN_VERB_IMP
+                    else: return SyntBlock.FIN_VERB
+                
+                elif 'VerbForm=Part' in word.feats:
+                    return SyntBlock.PART_VERB
+                
+                elif 'VerbForm=Sup' in word.feats:
+                    return SyntBlock.SUP_VERB
+
             if word.pos == 'ADVERB': return SyntBlock.ADVERB
             if word.pos == 'NOUN': return SyntBlock.NOUN
+            if word.pos == 'ADJ': return SyntBlock.ADJECTIVE
+            if word.pos == 'NUM': return SyntBlock.NUMBER
+            if word.pos == 'PROPN': return SyntBlock.PROPN
             else: return SyntBlock.NONE
 
         if word.lemma in INTERROGATIVE_PRONOUNS and word.pos == 'PRON': return SyntBlock.INT_PRON
         if word.lemma in INTERROGATIVE_ADVERBS and word.pos == 'ADVERB': return SyntBlock.INT_ADV
 
-        if word.deprel == 'nsubj': return SyntBlock.SUBJECT
+        if word.deprel in SUBJECT_RELS: return SyntBlock.SUBJECT
         if word.deprel == 'advmod': return SyntBlock.ADV_MOD
         if word.deprel == 'advcl': return SyntBlock.ADV_CL
         if word.deprel == 'xcomp': return SyntBlock.XCOMP
+        if word.deprel == 'ccomp': return SyntBlock.CCOMP
         if word.deprel == 'obl': return SyntBlock.OBL
         if word.deprel == 'obj': return SyntBlock.OBJECT
+        if word.deprel == 'conj': return SyntBlock.CONJ
+        if word.deprel == 'compound:prt': return SyntBlock.PARTICLE
+        if word.deprel == 'expl': return SyntBlock.EXPL
+        if word.deprel == 'flat:name': return SyntBlock.NAME
+        if word.deprel == 'dislocated': return SyntBlock.DISLOCATED
 
         return SyntBlock.NONE
 

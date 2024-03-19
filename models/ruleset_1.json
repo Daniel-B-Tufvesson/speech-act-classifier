@@ -2,6 +2,10 @@
     "rules":[
         {
             "speech_act":"question",
+            "blocks":["QUESTION_MARK"]
+        },
+        {
+            "speech_act":"question",
             "blocks": ["INT_PRON", "FIN_VERB", "SUBJECT"]
         },
         {
@@ -47,17 +51,85 @@
         {
             "speech_act":"assertion",
             "blocks":["ADV_MOD", "FIN_VERB", "SUBJECT"]
-        }
-    ],
-
-    "unused":[
-        {
-            "speech_act":"question",
-            "blocks": ["INT_PRON", "FIN_VERB", "SUBJECT", "OBL"]
         },
         {
-            "speech_act":"question",
-            "blocks": ["FIN_VERB", "SUBJECT", "ADV_MOD", "XCOMP"]
+            "speech_act":"assertion",
+            "blocks":["SUBJECT", "FIN_VERB"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["FIN_VERB", "ADV_MOD", "ADV_CL"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["FIN_VERB", "XCOMP"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["FIN_VERB", "OBJECT"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["EXPL", "FIN_VERB", "SUBJECT"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["FIN_VERB", "CCOMP"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["ADJECTIVE", "SUBJECT"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["OBL", "FIN_VERB", "SUBJECT"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["PART_VERB", "OBL"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["FIN_VERB", "OBL"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["ADV_CL", "FIN_VERB", "SUBJECT"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["FIN_VERB", "SUBJECT"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["FIN_VERB", "ADV_CL"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["SUP_VERB", "XCOMP"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["PART_VERB"]
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["NUMBER"],
+            "strict": true
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["PROPN"],
+            "strict": true
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["PROPN", "NAME"],
+            "strict": true
+        },
+        {
+            "speech_act":"assertion",
+            "blocks":["ADV_MOD", "FIN_VERB", "EXPL", "DISLOCATED"]
         }
     ]
 }
