@@ -339,4 +339,30 @@ def to_sentiment(sentiment_label) -> sa.Sentiment:
     if sentiment_label == 'NEUTRAL':
         return sa.Sentiment.NEUTRAL
 
-    raise ValueError(f'Unsupported sentiment label: {sentiment_label}.')  
+    raise ValueError(f'Unsupported sentiment label: {sentiment_label}.')
+
+
+def split_train_test(corpus: corp.Corpus, target_test_file: str, target_train_file: str,
+                     train_percentage: float, print_progress=False):
+    """
+    Split a CoNLL-U corpus into a training corpus file and a test corpus file.
+    """
+    
+    assert train_percentage > 0 and train_percentage < 1, f'train_percentage must be > 0 and < 1: {train_percentage}'
+    train_size = int(train_percentage * corpus.sentence_count)
+
+    if print_progress: 
+        print(f'Splitting corpus {corpus.name} to {target_test_file} and {target_train_file}')
+        print(f'{train_size} sentences for training.')
+        print(f'{corpus.sentence_count - train_size} sentences for testing.')
+
+    with bz2.open(target_train_file, mode='wt') as train, bz2.open(target_test_file, mode='wt') as test:
+        for index, sentence in enumerate(corpus.sentences()):
+            if index < train_size:
+                sentence.write(train)
+            else:
+                sentence.write(test)
+    
+    if print_progress: print('Splitting complete.')
+            
+
