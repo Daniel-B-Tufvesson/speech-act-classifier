@@ -281,17 +281,17 @@ class RuleBasedClassifier(base.Classifier):
         if word.lemma in INTERROGATIVE_ADVERBS and word.pos == 'ADVERB': return SyntBlock.INT_ADV
 
         if word.deprel in SUBJECT_RELS: return SyntBlock.SUBJECT
-        if word.deprel == 'advmod': return SyntBlock.ADV_MOD
-        if word.deprel == 'advcl': return SyntBlock.ADV_CL
-        if word.deprel == 'xcomp': return SyntBlock.XCOMP
-        if word.deprel == 'ccomp': return SyntBlock.CCOMP
-        if word.deprel == 'obl': return SyntBlock.OBL
-        if word.deprel == 'obj': return SyntBlock.OBJECT
-        if word.deprel == 'conj': return SyntBlock.CONJ
-        if word.deprel == 'compound:prt': return SyntBlock.PARTICLE
-        if word.deprel == 'expl': return SyntBlock.EXPL
-        if word.deprel == 'flat:name': return SyntBlock.NAME
-        if word.deprel == 'dislocated': return SyntBlock.DISLOCATED
+        #if word.deprel == 'advmod': return SyntBlock.ADV_MOD
+        #if word.deprel == 'advcl': return SyntBlock.ADV_CL
+        #if word.deprel == 'xcomp': return SyntBlock.XCOMP
+        #if word.deprel == 'ccomp': return SyntBlock.CCOMP
+        # if word.deprel == 'obl': return SyntBlock.OBL
+        # if word.deprel == 'obj': return SyntBlock.OBJECT
+        # if word.deprel == 'conj': return SyntBlock.CONJ
+        # if word.deprel == 'compound:prt': return SyntBlock.PARTICLE
+        # if word.deprel == 'expl': return SyntBlock.EXPL
+        # if word.deprel == 'flat:name': return SyntBlock.NAME
+        # if word.deprel == 'dislocated': return SyntBlock.DISLOCATED
 
         return SyntBlock.NONE
 
