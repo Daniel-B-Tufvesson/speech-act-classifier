@@ -4,6 +4,7 @@ Code for printing corpus statistics to files.
 
 import speechact.corpus as corp
 from typing import TextIO
+import collections as col
 
 def write_sentence_counts(corpora: list[corp.Corpus], target: TextIO):
     print('Writing sentences counts in corpora to target...')
@@ -21,9 +22,10 @@ def write_sentence_counts(corpora: list[corp.Corpus], target: TextIO):
     print('Writing complete.')
 
 
-# if __name__ == '__main__':
-#     data_dir = 'reindexed data'
-#     corpora = corpus.load_corpora_from_data_file(f'{data_dir}/data files.txt')
+def speech_act_frequencies(corpus: corp.Corpus) -> col.Counter:
+    counter = col.Counter()
 
-#     with open(f'{data_dir}/sentence counts.txt') as target:
-#         write_sentence_counts(corpora, target)
+    for sentence in corpus.sentences():
+        counter[sentence.get_meta_data('speech_act')] += 1  # type: ignore
+    
+    return counter
