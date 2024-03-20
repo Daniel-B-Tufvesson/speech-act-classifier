@@ -56,8 +56,8 @@ if __name__ == '__main__':
     
     # Evaluate trainable rule based classifier.
     trainable_rule_classifier = rule.TrainableClassifier()
-    test_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-test.conllu.bz2')
-    train_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-train.conllu.bz2')
+    test_corpus = corp.Corpus('data/annotated data/dev-set-test.conllu.bz2')
+    train_corpus = corp.Corpus('data/annotated data/dev-set-train.conllu.bz2')
     trainable_rule_classifier.train(train_corpus)
     trainable_rule_classifier.new_rule(annotate.SpeechActLabels.DIRECTIVE,
                                        [rule.SyntBlock.FIN_VERB_IMP])
