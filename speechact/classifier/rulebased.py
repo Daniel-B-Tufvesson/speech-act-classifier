@@ -12,8 +12,8 @@ import collections as col
 import speechact as sa
 
 INTERROGATIVE_PRONOUNS = {'vilken', 'vilkendera', 'hurdan', 'vem', 'vad'}
-
 INTERROGATIVE_ADVERBS = {'var', 'vart', 'när', 'hur'}
+PRON_2ND_PERSON = {'du', 'ni'}
 
 SUBJECT_RELS = {
     'csubj', 
@@ -28,6 +28,7 @@ class SyntBlock(enum.StrEnum):
 
     # Dependency blocks.
     SUBJECT = 'SUBJECT'
+    SUBJECT_2ND = 'SUBJECT_2ND'  # 2nd person subject.
     OBJECT = 'OBJECT'
     ADV_MOD = 'ADV_MOD'
     ADV_CL = 'ADV_CL'
@@ -280,7 +281,9 @@ class RuleBasedClassifier(base.Classifier):
         if word.lemma in INTERROGATIVE_PRONOUNS and word.pos == 'PRON': return SyntBlock.INT_PRON
         if word.lemma in INTERROGATIVE_ADVERBS and word.pos == 'ADVERB': return SyntBlock.INT_ADV
 
-        if word.deprel in SUBJECT_RELS: return SyntBlock.SUBJECT
+        if word.deprel in SUBJECT_RELS: 
+            if word.text.lower() in PRON_2ND_PERSON: return SyntBlock.SUBJECT_2ND
+            else: return SyntBlock.SUBJECT
         #if word.deprel == 'advmod': return SyntBlock.ADV_MOD
         #if word.deprel == 'advcl': return SyntBlock.ADV_CL
         #if word.deprel == 'xcomp': return SyntBlock.XCOMP
