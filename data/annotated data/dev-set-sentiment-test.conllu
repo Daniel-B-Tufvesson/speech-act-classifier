@@ -1,0 +1,3771 @@
+# sent_id = 2400263
+# text = Biverkningarna slutar så fort preparaten går ur kroppen, så problem för livet kan du inte få, har du däremot svagt hjärta, eller kardiovaskulära problem kan du få en infarkt.
+# date = 2012-01-09 19:52
+# url = https://www.flashback.org/p35016913#p35016913
+# genre = internet_forum
+# x_sent_id = c28ad4738
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8762950897216797
+1	Biverkningarna	biverkning	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
+2	slutar	sluta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	så	så	ADVERB	AB	_	6	mark	_	_
+4	fort	fort	ADVERB	AB	Degree=Pos	3	fixed	_	_
+5	preparaten	preparat	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj	_	_
+6	går	gå	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	ur	ur	ADP	PP	_	8	case	_	_
+8	kroppen	kropp	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	_	PUNCT	MID	_	2	punct	_	_
+10	så	så	ADVERB	AB	_	11	advmod	_	_
+11	problem	problem	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	_
+12	för	för	ADP	PP	_	13	case	_	_
+13	livet	liv	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	_
+14	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+15	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	_	_
+16	inte	inte	ADVERB	AB	_	14	advmod	_	_
+17	få	få	VERB	VB	VerbForm=Inf|Voice=Act	14	xcomp	_	SpaceAfter=No
+18	,	_	PUNCT	MID	_	19	punct	_	_
+19	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+20	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nsubj	_	_
+21	däremot	däremot	ADVERB	AB	_	19	advmod	_	_
+22	svagt	svag	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	hjärta	hjärta	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+24	,	_	PUNCT	MID	_	28	punct	_	_
+25	eller	eller	CCONJ	KN	_	27	cc	_	_
+26	kardiovaskulära	kardiovaskulär	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	27	amod	_	_
+27	problem	problem	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	23	conj	_	_
+28	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+29	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	nsubj	_	_
+30	få	få	VERB	VB	VerbForm=Inf|Voice=Act	28	xcomp	_	_
+31	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	32	det	_	_
+32	infarkt	infarkt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	obj	_	SpaceAfter=No
+33	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 200336
+# text = Jo, att fa lite info vart viktigt for mig, aven om det inte vart det for dig....sant e livet o gott e val det!
+# date = 2008-01-24 08:38:37
+# url = http://www.familjeliv.se/forum/thread/29027446-info-mina-favoriter-uppdateras-just-nu-de-ar-ej-borta/47#anchor-m462
+# genre = internet_forum
+# x_sent_id = b6364c0
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.5449895858764648
+1	Jo	jo	INTJ	IN	_	4	discourse	_	SpaceAfter=No
+2	,	_	PUNCT	MID	_	4	punct	_	_
+3	att	att	PART	IE	_	4	mark	_	_
+4	fa	_	VERB	VB	VerbForm=Inf|Voice=Act	0	root	_	_
+5	lite	lite	ADVERB	AB	Degree=Pos	6	advmod	_	_
+6	info	info	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	_	_
+7	vart	vart	ADVERB	HA	_	8	advmod	_	_
+8	viktigt	viktig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	xcomp	_	_
+9	for	fara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	mig	jag	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	_	PUNCT	MID	_	9	punct	_	_
+12	aven	_	ADVERB	AB	_	16	mark	_	_
+13	om	om	SCONJ	SN	_	16	mark	_	_
+14	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	16	expl	_	_
+15	inte	inte	ADVERB	AB	_	16	advmod	_	_
+16	vart	varda	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+17	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	16	expl	_	_
+18	for	fara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	csubj	_	_
+19	dig	du	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	18	obj	_	SpaceAfter=No
+20	....	_	PUNCT	MID	_	18	punct	_	SpaceAfter=No
+21	sant	sann	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	conj	_	_
+22	e	e	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	fixed	_	_
+23	livet	liv	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	_
+24	o	o	CCONJ	KN	_	27	cc	_	_
+25	gott	god|gott	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	e	e	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	27	nmod	_	_
+27	val	val	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	conj	_	_
+28	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	27	appos	_	SpaceAfter=No
+29	!	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 3500298
+# text = Du resonerar som en vänsterpartist när det kommer till kukstorlekar iaf.
+# date = 2021-11-30 15:22
+# url = https://www.flashback.org/p78113787#p78113787
+# genre = internet_forum
+# x_sent_id = 3ffa28ec
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.4998057186603546
+1	Du	Du|du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	resonerar	resonera	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	som	_	CCONJ	KN	_	2	advmod	_	_
+4	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	5	det	_	_
+5	vänsterpartist	vänsterpartist	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	xcomp	_	_
+6	när	när	ADVERB	HA	_	8	mark	_	_
+7	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	till	till	ADP	PP	_	10	case	_	_
+10	kukstorlekar	kukstorlek	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	obl	_	_
+11	iaf	_	INTJ	IN	_	10	nmod	_	SpaceAfter=No
+12	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1200121
+# text = Här är det motsatt problem med vikten jag har rasat neråt.
+# date = 2007-01-05 13:31:14
+# url = http://www.familjeliv.se/forum/thread/13643543-fjarde-aptraden/165#anchor-m1646
+# genre = internet_forum
+# x_sent_id = 4e9c46031
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.5089025497436523
+1	Här	här	ADVERB	AB	_	2	advmod	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
+4	motsatt	motsatt	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	5	amod	_	_
+5	problem	problem	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	_
+6	med	med	ADP	PP	_	7	case	_	_
+7	vikten	vikt	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	_
+8	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+10	rasat	rasa	VERB	VB	VerbForm=Sup|Voice=Act	9	xcomp	_	_
+11	neråt	neråt	ADVERB	AB	_	10	advmod	_	SpaceAfter=No
+12	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1100355
+# text = Vilka färger och på vilket sätt ska sminket användas för att var med i modet?
+# date = 2009-04-21 09:40:48
+# url = http://www.familjeliv.se/forum/thread/43275797-varfor-inget-svar-pa-min-forra-fraga/1
+# genre = internet_forum
+# x_sent_id = fb945ee
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.982105016708374
+1	Vilka	_	DET	HD	Definite=Ind|Gender=Com,Neut|Number=Plur	2	det	_	_
+2	färger	färg	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj	_	_
+3	och	och	CCONJ	KN	_	6	cc	_	_
+4	på	på	ADP	PP	_	6	case	_	_
+5	vilket	_	DET	HD	Definite=Ind|Gender=Neut|Number=Sing	6	det	_	_
+6	sätt	sätt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	_
+7	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	sminket	smink	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
+9	användas	använda	VERB	VB	VerbForm=Inf|Voice=Pass	7	xcomp	_	_
+10	för	för	ADP	PP	_	12	mark	_	_
+11	att	att	PART	IE	_	12	mark	_	_
+12	var	vara|vara med	VERB	VB	Mood=Ind|VerbForm=Fin|Voice=Act	9	advcl	_	_
+13	med	med|vara med:12	PART	PL	_	12	compound:prt	_	_
+14	i	i	ADP	PP	_	15	case	_	_
+15	modet	mod|mode	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+16	?	_	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 1400647
+# text = Det tycker inte jag låter försvarbart.
+# date = 2009-01-20 00:02:38
+# url = http://www.familjeliv.se/forum/thread/40492924-helt-forstord/2#anchor-m20
+# genre = internet_forum
+# x_sent_id = 8ab23613
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.4984799027442932
+1	Det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	tycker	tycka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	inte	inte	ADVERB	AB	_	2	advmod	_	_
+4	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+5	låter	låta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+6	försvarbart	försvarbar	ADVERB	AB	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 200729
+# text = Det blir aldrig bra när kollegor övervakar varandra.
+# date = 2010-06-11 09:57:42
+# url = http://www.familjeliv.se/forum/thread/52994311-communitydod/5#anchor-m43
+# genre = internet_forum
+# x_sent_id = b63d11b
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.4970223009586334
+1	Det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	blir	bli	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	aldrig	aldrig	ADVERB	AB	_	2	advmod	_	_
+4	bra	bra	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur,Sing	2	xcomp	_	_
+5	när	när	ADVERB	HA	_	7	mark	_	_
+6	kollegor	kollega	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nsubj	_	_
+7	övervakar	övervaka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	varandra	varandra	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 500077
+# text = ska man hjälpa den att ta bort fröskalet??
+# date = 2008-01-29 17:39:05
+# url = http://www.familjeliv.se/forum/thread/29260985-grodd/1
+# genre = internet_forum
+# x_sent_id = 74c4cf49
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9493610262870789
+1	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nsubj	_	_
+3	hjälpa	hjälpa	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+4	den	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing	3	obj	_	_
+5	att	att	PART	IE	_	6	mark	_	_
+6	ta	ta|ta bort	VERB	VB	VerbForm=Inf|Voice=Act	3	advcl	_	_
+7	bort	bort|ta bort:6	PART	PL	_	6	compound:prt	_	_
+8	fröskalet	fröskal	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+9	?	_	PUNCT	MAD	_	1	punct	_	SpaceAfter=No
+10	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2900754
+# text = Jag skulle summera låten som ett försök till en dance-låt.
+# date = 2014-08-12 21:48
+# url = https://www.flashback.org/p49918535#p49918535
+# genre = internet_forum
+# x_sent_id = 631c39c48
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.98026043176651
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	summera	summera	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	låten	låt	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obj	_	_
+5	som	_	CCONJ	KN	_	7	mark	_	_
+6	ett	en	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	7	det	_	_
+7	försök	försök	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	xcomp	_	_
+8	till	till	ADP	PP	_	10	case	_	_
+9	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	10	det	_	_
+10	dance-låt	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1500360
+# text = Han ljuger, och har sagt flera gånger att han flyttar ut?
+# date = 2018-07-20 04:17:47
+# url = http://www.familjeliv.se/forum/thread/78895996-uppgiven-och-korkad-tjej/1#anchor-m2
+# genre = internet_forum
+# x_sent_id = 557b2e60
+# speech_act = question
+# sentiment_label = negative
+# sentiment_score = 0.6516203880310059
+1	Han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	ljuger	ljuga	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	MID	_	5	punct	_	_
+4	och	och	CCONJ	KN	_	5	cc	_	_
+5	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	sagt	säga	VERB	VB	VerbForm=Sup|Voice=Act	5	xcomp	_	_
+7	flera	_	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	8	amod	_	_
+8	gånger	gång	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obj	_	_
+9	att	att	SCONJ	SN	_	11	mark	_	_
+10	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	_
+11	flyttar	flytta|flytta ut	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	_
+12	ut	ut|flytta ut:11	PART	PL	_	11	compound:prt	_	SpaceAfter=No
+13	?	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2100371
+# text = Jag skulle bara känna mig utklädd, och det skulle garanterat synas.
+# date = 2010-03-19 21:31:04
+# url = http://www.familjeliv.se/forum/thread/51182713-klar-du-dig-sexigt-kvinna/5#anchor-m45
+# genre = internet_forum
+# x_sent_id = 14e60b8ea
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9127188324928284
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	bara	bara	ADVERB	AB	_	2	advmod	_	_
+4	känna	känna|känna sig	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	mig	jag|känna sig:4	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	4	obj	_	_
+6	utklädd	klä ut|utklädd	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+7	,	_	PUNCT	MID	_	10	punct	_	_
+8	och	och	CCONJ	KN	_	10	cc	_	_
+9	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	garanterat	_	ADVERB	AB	_	10	advmod	_	_
+12	synas	syna|synas	VERB	VB	VerbForm=Inf|Voice=Pass	10	xcomp	_	SpaceAfter=No
+13	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2800506
+# text = http://www.flyttsidan.se/flyttfirmor/index.asp
+# date = 2010-08-03 17:30
+# url = https://www.flashback.org/p24612229#p24612229
+# genre = internet_forum
+# x_sent_id = bd3358f0c
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.995915949344635
+1	http://www.flyttsidan.se/flyttfirmor/index.asp	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+
+# sent_id = 2200292
+# text = Du vet hur desperat man är jag har t.o.m kontaktat Heikki Vesa och Saidas dottet och undrat hur mitt liv blir.
+# date = 2008-07-18 12:15:15
+# url = http://www.familjeliv.se/forum/thread/34545002-ar-man-for-gammal-om-man-fyller-50-nu-i-augusti/2#anchor-m19
+# genre = internet_forum
+# x_sent_id = 05304d22c
+# speech_act = expressive
+# sentiment_label = negative
+# sentiment_score = 0.8806176781654358
+1	Du	Du|du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	vet	veta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	hur	hur	ADVERB	HA	_	4	advmod	_	_
+4	desperat	desperat	ADVERB	AB	Degree=Pos	6	advmod	_	_
+5	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	_
+6	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+7	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj	_	_
+8	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+9	t.o.m	_	ADVERB	AB	Abbr=Yes	10	advmod	_	_
+10	kontaktat	kontakta	VERB	VB	VerbForm=Sup|Voice=Act	8	xcomp	_	_
+11	Heikki	_	PROPN	PM	Case=Nom	10	obj	_	_
+12	Vesa	_	PROPN	PM	Case=Nom	10	obj	_	_
+13	och	och	CCONJ	KN	_	14	cc	_	_
+14	Saidas	_	PROPN	PM	Case=Gen	15	nmod:poss	_	_
+15	dottet	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	conj	_	_
+16	och	och	CCONJ	KN	_	17	cc	_	_
+17	undrat	undra	VERB	VB	VerbForm=Sup|Voice=Act	10	conj	_	_
+18	hur	hur	ADVERB	HA	_	21	advmod	_	_
+19	mitt	jag	DET	PS	Definite=Def|Gender=Neut|Number=Sing	20	amod	_	_
+20	liv	liv	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	nsubj	_	_
+21	blir	bli	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	SpaceAfter=No
+22	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1500730
+# text = Däremot förstår jag om du tycker att folk "mästrar" dig, dvs att få det att låta som om du är korkad som tar automatkörkort, bara för att de själva har körkort för manuella bilar.
+# date = 2022-12-12 16:13:50
+# url = http://www.familjeliv.se/forum/thread/82149257-varfor-ar-folk-sahar/2#anchor-m18
+# genre = internet_forum
+# x_sent_id = 557b571c
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8520334959030151
+1	Däremot	däremot	ADVERB	AB	_	2	advmod	_	_
+2	förstår	förstå	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+4	om	om	SCONJ	SN	_	6	mark	_	_
+5	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj	_	_
+6	tycker	tycka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+7	att	att	SCONJ	SN	_	10	mark	_	_
+8	folk	folk	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	_
+9	"	_	PUNCT	PAD	_	10	punct	_	SpaceAfter=No
+10	mästrar	mästra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	SpaceAfter=No
+11	"	_	PUNCT	PAD	_	10	punct	_	_
+12	dig	du	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	10	iobj	_	SpaceAfter=No
+13	,	_	PUNCT	MID	_	10	punct	_	_
+14	dvs	dvs	ADVERB	AB	Abbr=Yes	16	advmod	_	_
+15	att	att	PART	IE	_	16	mark	_	_
+16	få	få	VERB	VB	VerbForm=Inf|Voice=Act	10	conj	_	_
+17	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	16	obj	_	_
+18	att	att	PART	IE	_	19	mark	_	_
+19	låta	låta	VERB	VB	VerbForm=Inf|Voice=Act	16	advcl	_	_
+20	som	_	CCONJ	KN	_	19	advmod	_	_
+21	om	om	SCONJ	SN	_	23	mark	_	_
+22	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	_
+23	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+24	korkad	korka|korkad	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	_
+25	som	_	PRON	HP	_	26	nsubj	_	_
+26	tar	ta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	_
+27	automatkörkort	automatkörkort	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	obj	_	SpaceAfter=No
+28	,	_	PUNCT	MID	_	24	punct	_	_
+29	bara	bara	ADVERB	AB	_	34	advmod	_	_
+30	för	för	ADP	PP	_	34	mark	_	_
+31	att	att	SCONJ	SN	_	30	fixed	_	_
+32	de	en	DET	DT	Definite=Def|Gender=Com,Neut|Number=Plur	34	nsubj	_	_
+33	själva	själv|själva	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	34	nsubj	_	_
+34	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_
+35	körkort	körkort	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	34	obj	_	_
+36	för	för	ADP	PP	_	38	case	_	_
+37	manuella	manuell	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	38	amod	_	_
+38	bilar	bil	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	34	obl	_	SpaceAfter=No
+39	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 600890
+# text = :p Som Nadja skrev , det var inte riktat mot dig , min kommentar alltså .
+# date = 2009-02-04 05:59:37
+# url = http://www.familjeliv.se/forum/thread/38505767-det-otackaste-som-hant-dig/7#anchor-m67
+# genre = internet_forum
+# x_sent_id = dd38f57b0
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9456421136856079
+1	:p	_	INTJ	IN	_	4	punct	_	_
+2	Som	som	ADVERB	HA	_	4	advmod	_	_
+3	Nadja	Nadja	PROPN	PM	Case=Nom	4	nsubj	_	_
+4	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	,	_	PUNCT	MID	_	4	punct	_	_
+6	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+8	inte	inte	ADVERB	AB	_	7	advmod	_	_
+9	riktat	rikta	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+10	mot	mot	ADP	PP	_	11	case	_	_
+11	dig	du	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	9	obl	_	_
+12	,	_	PUNCT	MID	_	7	punct	_	_
+13	min	jag	DET	PS	Definite=Def|Gender=Com|Number=Sing	14	nmod:poss	_	_
+14	kommentar	kommentar	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	conj	_	_
+15	alltså	alltså	ADVERB	AB	_	14	advmod	_	_
+16	.	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 1300335
+# text = Han insåg till slut att han inte hade nån äggledare och blev till följd mobbad hela kvällen :)
+# date = 2007-06-15 06:02:00
+# url = http://www.familjeliv.se/forum/thread/19135338-korkade-kommentarer-fran-blivande-pappan-hall-glimten-i-ogat/90#anchor-m899
+# genre = internet_forum
+# x_sent_id = a68e14bcc
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.5901957750320435
+1	Han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	insåg	inse	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	till	till|till slut	ADP	PP	_	2	advmod	_	_
+4	slut	slut|till slut:3	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	fixed	_	_
+5	att	att	SCONJ	SN	_	8	mark	_	_
+6	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
+7	inte	inte	ADVERB	AB	_	8	advmod	_	_
+8	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+9	nån	någon	DET	DT	Definite=Ind|Gender=Com|Number=Sing	10	det	_	_
+10	äggledare	äggledare	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obj	_	_
+11	och	och	CCONJ	KN	_	12	cc	_	_
+12	blev	bli	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+13	till	till|till följd	ADP	PP	_	15	advmod	_	_
+14	följd	följd|till följd:13	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	fixed	_	_
+15	mobbad	mobba	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	_
+16	hela	hel	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	17	amod	_	_
+17	kvällen	kväll	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	obl	_	_
+18	:)	_	INTJ	IN	_	2	punct	_	_
+
+# sent_id = 3600673
+# text = Eftersom Real har gjort sig av med Casillas nu så sitter United med trumf på handen och är inte Real villiga att betala ja då kan de stå där en säsong med Navas och Kiko Casilla som målvakter.
+# date = 2015-07-13 00:36
+# url = https://www.flashback.org/p53996822#p53996822
+# genre = internet_forum
+# x_sent_id = a3c449713
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8770061731338501
+1	Eftersom	eftersom	SCONJ	SN	_	3	mark	_	_
+2	Real	_	PROPN	PM	Case=Nom	3	nsubj	_	_
+3	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	dislocated	_	_
+4	gjort	göra|göra sig|göra av|göra sig av	VERB	VB	VerbForm=Sup|Voice=Act	3	xcomp	_	_
+5	sig	sig|göra sig:4|göra sig av:4	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	4	obj	_	_
+6	av	av|göra av:4|göra sig av:4	PART	PL	_	4	compound:prt	_	_
+7	med	med	ADP	PP	_	8	case	_	_
+8	Casillas	_	PROPN	PM	Case=Nom	4	obl	_	_
+9	nu	nu	ADVERB	AB	_	4	advmod	_	_
+10	så	så	ADVERB	AB	_	11	advcl	_	_
+11	sitter	sitta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	United	_	PROPN	PM	Case=Nom	11	nsubj	_	_
+13	med	med	ADP	PP	_	14	case	_	_
+14	trumf	trumf	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
+15	på	på	ADP	PP	_	16	case	_	_
+16	handen	hand	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obl	_	_
+17	och	och	CCONJ	KN	_	18	cc	_	_
+18	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+19	inte	inte	ADVERB	AB	_	18	advmod	_	_
+20	Real	_	PROPN	PM	Case=Nom	18	obj	_	_
+21	villiga	villig	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	18	xcomp	_	_
+22	att	att	PART	IE	_	23	mark	_	_
+23	betala	betala	VERB	VB	VerbForm=Inf|Voice=Act	18	xcomp	_	_
+24	ja	ja|ja då	INTJ	IN	_	23	compound:prt	_	_
+25	då	då|ja då:24	ADVERB	AB	_	26	advmod	_	_
+26	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+27	de	de	PRON	PN	Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur	26	nsubj	_	_
+28	stå	stå	VERB	VB	VerbForm=Inf|Voice=Act	26	xcomp	_	_
+29	där	där	ADVERB	AB	_	28	advmod	_	_
+30	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	31	det	_	_
+31	säsong	säsong	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	obj	_	_
+32	med	med	ADP	PP	_	33	case	_	_
+33	Navas	_	PROPN	PM	Case=Nom	28	obl	_	_
+34	och	och	CCONJ	KN	_	35	cc	_	_
+35	Kiko	_	PROPN	PM	Case=Nom	33	conj	_	_
+36	Casilla	_	PROPN	PM	Case=Nom	35	flat:name	_	_
+37	som	_	CCONJ	KN	_	38	cc	_	_
+38	målvakter	målvakt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	33	conj	_	SpaceAfter=No
+39	.	_	PUNCT	MAD	_	11	punct	_	_
+
+# sent_id = 500869
+# text = Ska jag bara plocka bort allt det döda?
+# date = 2008-09-17 14:30:04
+# url = http://www.familjeliv.se/forum/thread/36344860-beskara-vass-den-ser-ratt-vissen-ut/1
+# genre = internet_forum
+# x_sent_id = 74c5b2b7
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9095142483711243
+1	Ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	nsubj	_	_
+3	bara	bara	ADVERB	AB	_	1	advmod	_	_
+4	plocka	plocka|plocka bort	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+5	bort	bort|plocka bort:4	PART	PL	_	4	compound:prt	_	_
+6	allt	all	DET	DT	Definite=Def,Ind|Gender=Neut|Number=Sing	8	det	_	_
+7	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	8	det	_	_
+8	döda	död	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	4	obj	_	SpaceAfter=No
+9	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 3400919
+# text = Vi har väl kvar totalt 8-10.000kr efter allt är betalt beronde på vad jag får ut.
+# date = 2009-04-04 14:05
+# url = https://www.flashback.org/p15964021#p15964021
+# genre = internet_forum
+# x_sent_id = b3e2f9d29
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9366751909255981
+1	Vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
+2	har	ha|ha kvar	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	väl	väl	ADVERB	AB	_	2	advmod	_	_
+4	kvar	kvar|ha kvar:2	PART	PL	_	2	compound:prt	_	_
+5	totalt	total	ADVERB	AB	Degree=Pos	6	advmod	_	_
+6	8-10.000kr	_	NUM	RG	Case=Nom	2	obj	_	_
+7	efter	efter	ADP	PP	_	9	advmod	_	_
+8	allt	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	7	fixed	_	_
+9	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+10	betalt	betala	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
+11	beronde	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	xcomp	_	_
+12	på	på	ADP	PP	_	15	mark	_	_
+13	vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	_
+14	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	_
+15	får	få	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+16	ut	ut	PART	PL	_	15	compound:prt	_	SpaceAfter=No
+17	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3400960
+# text = OT för Mods med varningsbehov: Tror du feltolkar signalerna TS, du får nog låta tjejerna vara.
+# date = 2013-10-20 22:27
+# url = https://www.flashback.org/p45765268#p45765268
+# genre = internet_forum
+# x_sent_id = b3e2b0607
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.7433406114578247
+1	OT	_	INTJ	IN	_	0	root	_	_
+2	för	för	ADP	PP	_	3	case	_	_
+3	Mods	mod|mods	NOUN	NN	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	_
+4	med	med	ADP	PP	_	5	case	_	_
+5	varningsbehov	varningsbehov	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	:	_	PUNCT	MID	_	1	punct	_	_
+7	Tror	tro	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+8	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
+9	feltolkar	feltolka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+10	signalerna	signal	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	obj	_	_
+11	TS	_	PROPN	PM	Case=Nom	9	obj	_	SpaceAfter=No
+12	,	_	PUNCT	MID	_	1	punct	_	_
+13	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	_	_
+14	får	få|få nog	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+15	nog	nog|få nog:14	ADVERB	AB	_	14	advmod	_	_
+16	låta	låta	VERB	VB	VerbForm=Inf|Voice=Act	14	advcl	_	_
+17	tjejerna	tjej	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	obj	_	_
+18	vara	vara	VERB	VB	VerbForm=Inf|Voice=Act	16	xcomp	_	SpaceAfter=No
+19	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2800222
+# text = Jag kan bara tala för mig själv ,mina erfarenheter och det säger mig att det kan vara som ett lotteri att hyra i andra hand...
+# date = 2007-07-26 11:06
+# url = https://www.flashback.org/p7817543#p7817543
+# genre = internet_forum
+# x_sent_id = bd335bb19
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.778561532497406
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	bara	bara	ADVERB	AB	_	2	advmod	_	_
+4	tala	tala	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	för	för	ADP	PP	_	6	case	_	_
+6	mig	jag	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
+7	själv	själv	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	acl	_	_
+8	,	_	PUNCT	MID	_	10	punct	_	SpaceAfter=No
+9	mina	jag	DET	PS	Definite=Def|Gender=Com,Neut|Number=Plur	10	amod	_	_
+10	erfarenheter	erfarenhet	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj	_	_
+11	och	och	CCONJ	KN	_	13	cc	_	_
+12	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	13	expl	_	_
+13	säger	säga|säga sig	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	mig	jag|säga sig:13	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	13	iobj	_	_
+15	att	att	SCONJ	SN	_	17	mark	_	_
+16	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	17	expl	_	_
+17	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+18	vara	vara	VERB	VB	VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	som	_	CCONJ	KN	_	18	advmod	_	_
+20	ett	en	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	21	det	_	_
+21	lotteri	lotteri	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	nsubj	_	_
+22	att	att	PART	IE	_	23	mark	_	_
+23	hyra	hyra	VERB	VB	VerbForm=Inf|Voice=Act	18	advcl	_	_
+24	i	i|i andra hand	ADP	PP	_	26	case	_	_
+25	andra	andra|i andra hand:24	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	26	amod	_	_
+26	hand	hand|i andra hand:24	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obl	_	SpaceAfter=No
+27	...	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2600609
+# text = De som rapporterat inlägget anser att Pluxor indirekt kallar sin meningsmotståndare för pedofiler.
+# date = 2005-03-28 21:22
+# url = https://www.flashback.org/p2021884#p2021884
+# genre = internet_forum
+# x_sent_id = 4eb27e2e
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8363448977470398
+1	De	de	PRON	PN	Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur	5	nsubj	_	_
+2	som	_	PRON	HP	_	3	nsubj	_	_
+3	rapporterat	rapportera	VERB	VB	VerbForm=Sup|Voice=Act	1	acl:relcl	_	_
+4	inlägget	inlägg	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	_
+5	anser	anse	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	att	att	SCONJ	SN	_	9	mark	_	_
+7	Pluxor	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	_
+8	indirekt	indirekt	ADVERB	AB	Degree=Pos	9	advmod	_	_
+9	kallar	kalla	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+10	sin	sig	DET	PS	Definite=Def|Gender=Com|Number=Sing	11	nmod:poss	_	_
+11	meningsmotståndare	meningsmotståndare	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	_	_
+12	för	för	ADP	PP	_	13	case	_	_
+13	pedofiler	pedofil	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	_	PUNCT	MAD	_	5	punct	_	_
+
+# sent_id = 600377
+# text = Thirteen ghosts
+# date = 2004-06-22 17:43:23
+# url = http://www.familjeliv.se/forum/thread/575023-tipsa-mig-om-bra-skrackfilmer/1
+# genre = internet_forum
+# x_sent_id = dd38e5b63
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.9788636565208435
+1	Thirteen	_	PROPN	PM	Case=Nom	2	nsubj	_	_
+2	ghosts	_	PROPN	PM	Case=Nom	0	root	_	_
+
+# sent_id = 200530
+# text = Japp...Samma skiten igen ..........
+# date = 2009-03-08 13:27:47
+# url = http://www.familjeliv.se/forum/thread/40063023-familjeliv-beta-info-och-support/57#anchor-m562
+# genre = internet_forum
+# x_sent_id = b639675
+# speech_act = expressive
+# sentiment_label = negative
+# sentiment_score = 0.8551822304725647
+1	Japp	japp	INTJ	IN	_	4	discourse	_	SpaceAfter=No
+2	...	_	PUNCT	MID	_	4	punct	_	SpaceAfter=No
+3	Samma	samma	DET	DT	Definite=Ind|Gender=Com,Neut|Number=Plur,Sing	4	det	_	_
+4	skiten	skit	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
+5	igen	igen	ADVERB	AB	_	4	advmod	_	_
+6	..........	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 3700718
+# text = Kompisen kontrar med att köpet redan är genomfört, bytet är gjort och bytt är bytt, typ.
+# date = 2013-08-19 18:27
+# url = https://www.flashback.org/p44853631#p44853631
+# genre = internet_forum
+# x_sent_id = 188e98404
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9202790856361389
+1	Kompisen	kompis	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	kontrar	kontra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	med	med	ADP	PP	_	7	mark	_	_
+4	att	att	SCONJ	SN	_	7	mark	_	_
+5	köpet	köp	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	redan	redan	ADVERB	AB	_	7	advmod	_	_
+7	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	genomfört	genomföra	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	SpaceAfter=No
+9	,	_	PUNCT	MID	_	2	punct	_	_
+10	bytet	byte	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	_
+11	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	gjort	gjord|göra	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+13	och	och	CCONJ	KN	_	14	cc	_	_
+14	bytt	byta	VERB	VB	VerbForm=Sup|Voice=Act	11	conj	_	_
+15	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	xcomp	_	_
+16	bytt	byta	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	SpaceAfter=No
+17	,	_	PUNCT	MID	_	18	punct	_	_
+18	typ	typ	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1300039
+# text = Han sa också efter första barnets födelse att "det där verkade ju inte göra så vidare ont"
+# date = 2007-05-26 21:58:41
+# url = http://www.familjeliv.se/forum/thread/19135338-korkade-kommentarer-fran-blivande-pappan-hall-glimten-i-ogat/67#anchor-m670
+# genre = internet_forum
+# x_sent_id = a68e56c89
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8849183917045593
+1	Han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	sa	säga	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	också	också	ADVERB	AB	_	2	advmod	_	_
+4	efter	efter	ADP	PP	_	7	case	_	_
+5	första	_	ADJ	RO	Case=Nom	7	amod	_	_
+6	barnets	barn	NOUN	NN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	_
+7	födelse	födelse	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
+8	att	att	SCONJ	SN	_	12	mark	_	_
+9	"	_	PUNCT	PAD	_	12	punct	_	SpaceAfter=No
+10	det	den|den där	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	_
+11	där	där|den där:10	ADVERB	AB	_	12	advmod	_	_
+12	verkade	verka	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+13	ju	ju	ADVERB	AB	_	12	advmod	_	_
+14	inte	inte	ADVERB	AB	_	12	advmod	_	_
+15	göra	göra|göra ont	VERB	VB	VerbForm=Inf|Voice=Act	12	xcomp	_	_
+16	så	så	ADVERB	AB	_	17	advmod	_	_
+17	vidare	vid|vidare	ADVERB	AB	Degree=Cmp	15	advmod	_	_
+18	ont	ond|göra ont:15	ADVERB	AB	Degree=Pos	15	xcomp	_	SpaceAfter=No
+19	"	_	PUNCT	PAD	_	2	punct	_	_
+
+# sent_id = 1200939
+# text = En vinröd.
+# date = 2007-01-17 23:34:38
+# url = http://www.familjeliv.se/forum/thread/13643543-fjarde-aptraden/205#anchor-m2048
+# genre = internet_forum
+# x_sent_id = 4e9c2edd8
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9097973108291626
+1	En	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	2	det	_	_
+2	vinröd	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+3	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1400525
+# text = Hade snackat med ett proffs innan hade det troligt kunnat fixat så änkan och nya barnen kunnat bott kvar och särkullsbarnen fått ut sitt arv.
+# date = 2010-02-26 17:47:34
+# url = http://www.familjeliv.se/forum/thread/51024728-hur-gora-for-att-sarkullbarnet-inte-ska-arva-huset/18#anchor-m175
+# genre = internet_forum
+# x_sent_id = 8ab25367
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8940269351005554
+1	Hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	dislocated	_	_
+2	snackat	snacka	VERB	VB	VerbForm=Sup|Voice=Act	1	nsubj	_	_
+3	med	med	ADP	PP	_	5	case	_	_
+4	ett	en	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	5	det	_	_
+5	proffs	proffs	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	_
+6	innan	innan	ADVERB	AB	_	7	advcl	_	_
+7	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	7	expl	_	_
+9	troligt	trolig	ADVERB	AB	Degree=Pos	7	advmod	_	_
+10	kunnat	kunna	VERB	VB	VerbForm=Sup|Voice=Act	7	xcomp	_	_
+11	fixat	fixa	VERB	VB	VerbForm=Sup|Voice=Act	10	xcomp	_	_
+12	så	så	ADVERB	AB	_	13	advmod	_	_
+13	änkan	änka	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
+14	och	och	CCONJ	KN	_	16	cc	_	_
+15	nya	ny	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	16	amod	_	_
+16	barnen	barn	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	13	conj	_	_
+17	kunnat	kunna	VERB	VB	VerbForm=Sup|Voice=Act	11	advcl	_	_
+18	bott	bo	VERB	VB	VerbForm=Sup|Voice=Act	17	xcomp	_	_
+19	kvar	kvar	PART	PL	_	18	compound:prt	_	_
+20	och	och	CCONJ	KN	_	22	cc	_	_
+21	särkullsbarnen	särkullsbarn	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	22	nsubj	_	_
+22	fått	få	VERB	VB	VerbForm=Sup|Voice=Act	7	conj	_	_
+23	ut	ut	PART	PL	_	22	compound:prt	_	_
+24	sitt	sig	DET	PS	Definite=Def|Gender=Neut|Number=Sing	25	nmod:poss	_	_
+25	arv	arv	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No
+26	.	_	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 400349
+# text = Vanliga stenar som hittas ute och som kokas fungerar oftast bra , främst gråsten .
+# date = 2013-06-27 11:17:58
+# url = http://www.familjeliv.se/forum/thread/70319365-fragor-om-dekoration-i-akvariet/1#anchor-m1
+# genre = internet_forum
+# x_sent_id = c7fc140
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9208344221115112
+1	Vanliga	vanlig	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	2	amod	_	_
+2	stenar	sten	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	_
+3	som	_	PRON	HP	_	4	nsubj:pass	_	_
+4	hittas	hitta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
+5	ute	ute	ADVERB	AB	_	4	advmod	_	_
+6	och	och	CCONJ	KN	_	8	cc	_	_
+7	som	_	PRON	HP	_	8	advmod	_	_
+8	kokas	koka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+9	fungerar	fungera	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	oftast	ofta	ADVERB	AB	Degree=Sup	9	advmod	_	_
+11	bra	bra	ADVERB	AB	Degree=Pos	9	advmod	_	_
+12	,	_	PUNCT	MID	_	9	punct	_	_
+13	främst	främst	ADVERB	AB	Degree=Sup	14	advmod	_	_
+14	gråsten	gråsten	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	conj	_	_
+15	.	_	PUNCT	MAD	_	9	punct	_	_
+
+# sent_id = 2300824
+# text = Okej tänkte jag, så gick in i BIOS och ändrade boot inställningar och satte HDD & Windows Boot Manager i botten och CDROM på plats 1.
+# date = 2013-01-21 19:13
+# url = https://www.flashback.org/p41607693#p41607693
+# genre = internet_forum
+# x_sent_id = b10c5bbcc
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9676669239997864
+1	Okej	_	INTJ	IN	_	6	discourse	_	_
+2	tänkte	tänka	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	dislocated	_	_
+3	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	_	PUNCT	MID	_	2	punct	_	_
+5	så	så	ADVERB	AB	_	6	advcl	_	_
+6	gick	gå|gå in	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	in	in|gå in:6|in i	PART	PL	_	6	compound:prt	_	_
+8	i	i|in i:7	ADP	PP	_	9	case	_	_
+9	BIOS	bio	NOUN	NN	Abbr=Yes	6	obl	_	_
+10	och	och	CCONJ	KN	_	11	cc	_	_
+11	ändrade	ändra	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	boot	_	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	13	amod	_	_
+13	inställningar	inställning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	obj	_	_
+14	och	och	CCONJ	KN	_	15	cc	_	_
+15	satte	sätta	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+16	HDD	_	PROPN	PM	Case=Nom	15	obj	_	_
+17	&	&	CCONJ	KN	Abbr=Yes	18	cc	_	_
+18	Windows	_	PROPN	PM	Case=Nom	16	conj	_	_
+19	Boot	_	PROPN	PM	Case=Nom	20	nmod	_	_
+20	Manager	_	PROPN	PM	Case=Nom	16	conj	_	_
+21	i	i|i botten	ADP	PP	_	22	case	_	_
+22	botten	botten|i botten:21	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	obl	_	_
+23	och	och	CCONJ	KN	_	24	cc	_	_
+24	CDROM	_	PROPN	PM	Case=Nom	16	conj	_	_
+25	på	på	ADP	PP	_	27	case	_	_
+26	plats	plats	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nmod	_	_
+27	1	_	NUM	RG	Case=Nom	24	nmod	_	SpaceAfter=No
+28	.	_	PUNCT	MAD	_	6	punct	_	_
+
+# sent_id = 2200377
+# text = Gelen är nog mer koncentrerad och sätter sig fast direkt på slemhinnan - då verkar den ju mer effektivt och du behöver inte lika hög dos.
+# date = 2009-05-15 17:11:22
+# url = http://www.familjeliv.se/forum/thread/43426433-sleepings-nya-trad-om-det-mesta-nr-4/13#anchor-m126
+# genre = internet_forum
+# x_sent_id = 05301107f
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9617733955383301
+1	Gelen	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	nog	nog	ADVERB	AB	_	2	advmod	_	_
+4	mer	mer|mycket	ADVERB	AB	Degree=Cmp	5	advmod	_	_
+5	koncentrerad	koncentrera	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	och	och	CCONJ	KN	_	7	cc	_	_
+7	sätter	sätta|sätta sig|sätta fast	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	sig	sig|sätta sig:7	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	7	obj	_	_
+9	fast	fast|sätta fast:7	PART	PL	_	7	compound:prt	_	_
+10	direkt	direkt	ADVERB	AB	Degree=Pos	12	advmod	_	_
+11	på	på	ADP	PP	_	12	case	_	_
+12	slemhinnan	slemhinna	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	_	_
+13	-	_	PUNCT	MID	_	2	punct	_	_
+14	då	då	ADVERB	AB	_	15	advmod	_	_
+15	verkar	verka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+16	den	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	_
+17	ju	ju	ADVERB	AB	_	15	advmod	_	_
+18	mer	mer|mycket	ADVERB	AB	Degree=Cmp	19	advmod	_	_
+19	effektivt	effektiv	ADVERB	AB	Degree=Pos	15	advmod	_	_
+20	och	och	CCONJ	KN	_	22	cc	_	_
+21	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	nsubj	_	_
+22	behöver	behöva	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+23	inte	inte	ADVERB	AB	_	22	advmod	_	_
+24	lika	lika	ADVERB	AB	_	25	advmod	_	_
+25	hög	hög	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	26	amod	_	_
+26	dos	dos	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obj	_	SpaceAfter=No
+27	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 800522
+# text = Jag håller med dig TS.
+# date = 2010-02-21 22:13:26
+# url = http://www.familjeliv.se/forum/thread/50891871-individualisera-foraldraforsakringen/97#anchor-m965
+# genre = internet_forum
+# x_sent_id = 7332f8a0
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.7802755236625671
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	håller	hålla|hålla med|hålla sig	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	med	med|hålla med:2	PART	PL	_	2	compound:prt	_	_
+4	dig	du|hålla sig:2	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	2	iobj	_	_
+5	TS	_	PROPN	PM	Case=Nom	2	obj	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3300772
+# text = Troligtvis 1000thb/ utekvällen.
+# date = 2015-11-24 21:24
+# url = https://www.flashback.org/p55512243#p55512243
+# genre = internet_forum
+# x_sent_id = e8f4eb23
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9548200964927673
+1	Troligtvis	troligtvis	ADVERB	AB	_	2	advmod	_	_
+2	1000thb	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
+3	/	_	PUNCT	MID	_	4	cc	_	_
+4	utekvällen	utekväll	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	conj	_	SpaceAfter=No
+5	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2900618
+# text = Var är den där gillette reklamen många pratar om?
+# date = 2020-02-12 18:31
+# url = https://www.flashback.org/p70248435#p70248435
+# genre = internet_forum
+# x_sent_id = 631c60643
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9854030609130859
+1	Var	var	ADVERB	HA	_	2	advmod	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	den	den|en|den där	DET	DT	Definite=Def|Gender=Com|Number=Sing	2	expl	_	_
+4	där	där|den där:3	ADVERB	AB	_	5	advmod	_	_
+5	gillette	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obj	_	_
+6	reklamen	reklam	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nmod	_	_
+7	många	mången	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com,Neut|Number=Plur	8	nsubj	_	_
+8	pratar	prata	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+9	om	om	ADP	PP	_	5	case	_	SpaceAfter=No
+10	?	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1800946
+# text = Puffpuff hur är det med er brudar?
+# date = 2014-04-03 19:17:43
+# url = http://www.familjeliv.se/forum/thread/72416191-varmlandsmammor/12#anchor-m114
+# genre = internet_forum
+# x_sent_id = a6aa1e83
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.5191828012466431
+1	Puffpuff	_	INTJ	IN	_	3	cc	_	_
+2	hur	hur	ADVERB	HA	_	3	advmod	_	_
+3	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	med	med	ADP	PP	_	7	case	_	_
+6	er	ni	DET	PS	Definite=Def|Gender=Com|Number=Sing	7	amod	_	_
+7	brudar	brud	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obl	_	SpaceAfter=No
+8	?	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 100983
+# text = Pappan till barnet har pratat med familjerätten & sagt att han ska befinna sig på vårat samarbetssamtal Imorgon ,
+# date = 2012-01-01 13:45:58
+# url = http://www.familjeliv.se/forum/thread/62757450-hjalp-nagon-som-vet/1
+# genre = internet_forum
+# x_sent_id = c777bd85
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9542152881622314
+1	Pappan	pappa	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
+2	till	till	ADP	PP	_	3	case	_	_
+3	barnet	barn	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	_
+4	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	pratat	prata	VERB	VB	VerbForm=Sup|Voice=Act	4	xcomp	_	_
+6	med	med	ADP	PP	_	7	case	_	_
+7	familjerätten	familjerätt	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obl	_	_
+8	&	&	CCONJ	KN	Abbr=Yes	9	cc	_	_
+9	sagt	säga	VERB	VB	VerbForm=Sup|Voice=Act	4	conj	_	_
+10	att	att	SCONJ	SN	_	12	mark	_	_
+11	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
+12	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	_
+13	befinna	befinna|befinna sig	VERB	VB	VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	sig	sig|befinna sig:13	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	13	obj	_	_
+15	på	på	ADP	PP	_	17	case	_	_
+16	vårat	vi	DET	PS	Definite=Def|Gender=Neut|Number=Sing	17	amod	_	_
+17	samarbetssamtal	samarbetssamtal	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	_
+18	Imorgon	imorgon	ADVERB	AB	_	13	advmod	_	_
+19	,	_	PUNCT	MID	_	4	punct	_	_
+
+# sent_id = 3200445
+# text = Så fungerar forskarvärlden.
+# date = 2000-10-02 09:37
+# url = https://www.flashback.org/p376246#p376246
+# genre = internet_forum
+# x_sent_id = 776584db1
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9777052998542786
+1	Så	så	ADVERB	AB	_	2	advmod	_	_
+2	fungerar	fungera	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	forskarvärlden	forskarvärld	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1700329
+# text = Nessa78, Xena75, mars78 (3) 29.
+# date = 2006-01-01 14:55:22
+# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/67#anchor-m666
+# genre = internet_forum
+# x_sent_id = b17e7eef
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.9188563227653503
+1	Nessa78	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
+2	,	_	PUNCT	MID	_	1	punct	_	_
+3	Xena75	_	PROPN	PM	Case=Nom	1	obl	_	SpaceAfter=No
+4	,	_	PUNCT	MID	_	3	punct	_	_
+5	mars78	_	NUM	RG	Case=Nom	3	nmod	_	_
+6	(	_	PUNCT	PAD	_	5	punct	_	SpaceAfter=No
+7	3	_	NUM	RG	Case=Nom	5	nmod	_	SpaceAfter=No
+8	)	_	PUNCT	PAD	_	3	punct	_	_
+9	29	_	NUM	RG	Case=Nom	7	nummod	_	SpaceAfter=No
+10	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 1200953
+# text = Som tur är lovade hon själv att hjälpa till.
+# date = 2007-01-17 08:45:21
+# url = http://www.familjeliv.se/forum/thread/13643543-fjarde-aptraden/203#anchor-m2029
+# genre = internet_forum
+# x_sent_id = 4e9c4436f
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.7843957543373108
+1	Som	_	CCONJ	KN	_	4	advmod	_	_
+2	tur	tur	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	fixed	_	_
+3	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
+4	lovade	lova	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	hon	hon	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
+6	själv	själv	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	acl	_	_
+7	att	att	PART	IE	_	8	mark	_	_
+8	hjälpa	hjälpa|hjälpa till	VERB	VB	VerbForm=Inf|Voice=Act	4	xcomp	_	_
+9	till	till|hjälpa till:8	PART	PL	_	8	compound:prt	_	SpaceAfter=No
+10	.	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 3000724
+# text = Sen klär väll folk sig ofta till vad efter intresse dom har.
+# date = 2009-02-01 01:25
+# url = https://www.flashback.org/p14906926#p14906926
+# genre = internet_forum
+# x_sent_id = 709b74f2
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9703035354614258
+1	Sen	sen	ADVERB	AB	_	2	advmod	_	_
+2	klär	klä	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	väll	_	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	advmod	_	_
+4	folk	folk	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	_
+5	sig	sig	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	2	obj	_	_
+6	ofta	ofta	ADVERB	AB	Degree=Pos	2	advmod	_	_
+7	till	till	ADP	PP	_	8	case	_	_
+8	vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	_
+9	efter	efter	ADP	PP	_	10	case	_	_
+10	intresse	intresse	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	_
+11	dom	de	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com,Neut|Number=Plur	12	nsubj	_	_
+12	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpaceAfter=No
+13	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1800879
+# text = 21 maj - Hoppitossa
+# date = 2016-10-04 19:05:33
+# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/2#anchor-m14
+# genre = internet_forum
+# x_sent_id = a6aa01b3
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.9683287739753723
+1	21	_	NUM	RG	Case=Nom	2	nummod	_	_
+2	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+3	-	_	PUNCT	MID	_	2	punct	_	_
+4	Hoppitossa	hoppitossa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
+
+# sent_id = 3600313
+# text = Men jag är hursomhelst oerhört glad över Dzeko.
+# date = 2015-08-07 00:01
+# url = https://www.flashback.org/p54258912#p54258912
+# genre = internet_forum
+# x_sent_id = a3c4f770d
+# speech_act = expressive
+# sentiment_label = positive
+# sentiment_score = 0.6087400913238525
+1	Men	men	CCONJ	KN	_	3	cc	_	_
+2	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+3	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	hursomhelst	hursomhelst	ADVERB	AB	_	3	advmod	_	_
+5	oerhört	oerhörd	ADVERB	AB	Degree=Pos	6	advmod	_	_
+6	glad	glad	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	xcomp	_	_
+7	över	över	ADP	PP	_	8	case	_	_
+8	Dzeko	_	PROPN	PM	Case=Nom	3	obl	_	SpaceAfter=No
+9	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 900781
+# text = Pliis
+# date = 2009-04-28 18:32:30
+# url = http://www.familjeliv.se/forum/thread/43243899-jag-dodar-alla/16#anchor-m153
+# genre = internet_forum
+# x_sent_id = b667418
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.9311251640319824
+1	Pliis	_	PROPN	PM	Case=Nom	0	root	_	_
+
+# sent_id = 651
+# text = Det hade varit bättre att få diskutera olika situationer som kan uppstå både under processen och när barnet kommit hit.
+# date = 2007-02-20 21:37:03
+# url = http://www.familjeliv.se/forum/thread/17351160-foraldrautbildning/3#anchor-m28
+# genre = internet_forum
+# x_sent_id = bac5920f
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.9586095213890076
+1	Det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
+2	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	varit	vara	VERB	VB	VerbForm=Sup|Voice=Act	2	xcomp	_	_
+4	bättre	bra|god	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Cmp|Gender=Com,Neut|Number=Plur,Sing	2	xcomp	_	_
+5	att	att	PART	IE	_	6	mark	_	_
+6	få	få	VERB	VB	VerbForm=Inf|Voice=Act	2	csubj	_	_
+7	diskutera	diskutera	VERB	VB	VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	olika	olik	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	9	amod	_	_
+9	situationer	situation	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj	_	_
+10	som	_	PRON	HP	_	11	nsubj	_	_
+11	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+12	uppstå	uppstå	VERB	VB	VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	både	både och	CCONJ	KN	_	15	cc	_	_
+14	under	under	ADP	PP	_	15	case	_	_
+15	processen	process	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	_	_
+16	och	och|både och:13	CCONJ	KN	_	19	cc	_	_
+17	när	när	ADVERB	HA	_	19	advmod	_	_
+18	barnet	barn	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	_
+19	kommit	komma	VERB	VB	VerbForm=Sup|Voice=Act	15	conj	_	_
+20	hit	hit	ADVERB	AB	_	19	advmod	_	SpaceAfter=No
+21	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3300652
+# text = skulle bara vilja veta
+# date = 2012-12-05 16:25
+# url = https://www.flashback.org/p40736858#p40736858
+# genre = internet_forum
+# x_sent_id = e8f87b28
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.9232004284858704
+1	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	bara	bara	ADVERB	AB	_	1	advmod	_	_
+3	vilja	vilja	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+4	veta	veta	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	_	_
+
+# sent_id = 1900236
+# text = Men nöjer du dig med en lite slöare finns Mercedes combin i vanligt AMG utförande med endast 467 hk oich finns begagnade också.
+# date = 2011-10-04 14:19:49
+# url = http://www.familjeliv.se/forum/thread/60915073-snabbaste-bilen/1#anchor-m9
+# genre = internet_forum
+# x_sent_id = c52c0b3
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.6436213254928589
+1	Men	men	CCONJ	KN	_	9	cc	_	_
+2	nöjer	nöja sig	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+3	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+4	dig	du|nöja sig:2	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	2	obj	_	_
+5	med	med	ADP	PP	_	8	case	_	_
+6	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	8	det	_	_
+7	lite	lite	ADVERB	AB	Degree=Pos	8	advmod	_	_
+8	slöare	slö	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Cmp|Gender=Com,Neut|Number=Plur,Sing	2	obl	_	_
+9	finns	finna|finnas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	Mercedes	Mercedes	PROPN	PM	Case=Nom	11	amod	_	_
+11	combin	combi	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nsubj:pass	_	_
+12	i	i	ADP	PP	_	15	case	_	_
+13	vanligt	vanlig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	AMG	_	PROPN	PM	Case=Nom	15	nmod	_	_
+15	utförande	utförande	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
+16	med	med	ADP	PP	_	20	case	_	_
+17	endast	endast	ADVERB	AB	_	18	advmod	_	_
+18	467	_	NUM	RG	Case=Nom	19	nummod	_	_
+19	hk	hk	NOUN	NN	Abbr=Yes	20	nmod	_	_
+20	oich	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	15	nmod	_	_
+21	finns	finna|finnas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	_
+22	begagnade	begagna|begagnad	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur|Tense=Past|VerbForm=Part	21	advmod	_	_
+23	också	också	ADVERB	AB	_	21	advmod	_	SpaceAfter=No
+24	.	_	PUNCT	MAD	_	9	punct	_	_
+
+# sent_id = 1100504
+# text = Mvh Åsa
+# date = 2009-04-22 12:25:00
+# url = http://www.familjeliv.se/forum/thread/43291112-tandblekning/1#anchor-m1
+# genre = internet_forum
+# x_sent_id = fb9f4d6
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.9720190763473511
+1	Mvh	_	PROPN	PM	Case=Nom	2	nmod	_	_
+2	Åsa	Åsa	PROPN	PM	Case=Nom	0	root	_	_
+
+# sent_id = 1300566
+# text = Om han vill ha gemensam vårdnad om barnet så får HAN fixa det (vi är inte gifta) och efter bara någon vecka så hade han ordnat en tid hos Familjerätten Men det är också det enda.
+# date = 2007-12-03 15:13:00
+# url = http://www.familjeliv.se/forum/thread/27525853-varfor-ar-en-del-blivande-pappor-som-min-sambo-sa-daliga-pa-att-engagera-sig/2#anchor-m11
+# genre = internet_forum
+# x_sent_id = a68ecb35b
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8492605686187744
+1	Om	om	SCONJ	SN	_	3	mark	_	_
+2	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+3	vill	vilja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	dislocated	_	_
+4	ha	ha	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	gemensam	gemensam	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+6	vårdnad	vårdnad	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	_	_
+7	om	om	ADP	PP	_	8	case	_	_
+8	barnet	barn	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	_
+9	så	så	ADVERB	AB	_	10	advcl	_	_
+10	får	få	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	HAN	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	_
+12	fixa	fixa	VERB	VB	VerbForm=Inf|Voice=Act	10	xcomp	_	_
+13	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	12	obj	_	_
+14	(	_	PUNCT	PAD	_	10	punct	_	SpaceAfter=No
+15	vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	nsubj	_	_
+16	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+17	inte	inte	ADVERB	AB	_	16	advmod	_	_
+18	gifta	gift	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur|Tense=Past|VerbForm=Part	16	advmod	_	SpaceAfter=No
+19	)	_	PUNCT	PAD	_	10	punct	_	_
+20	och	och	CCONJ	KN	_	26	cc	_	_
+21	efter	efter	ADP	PP	_	24	case	_	_
+22	bara	bara	ADVERB	AB	_	24	advmod	_	_
+23	någon	någon	DET	DT	Definite=Ind|Gender=Com|Number=Sing	24	det	_	_
+24	vecka	vecka	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obl	_	_
+25	så	så	ADVERB	AB	_	26	advcl	_	_
+26	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+27	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	nsubj	_	_
+28	ordnat	ordna	VERB	VB	VerbForm=Sup|Voice=Act	26	xcomp	_	_
+29	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	30	det	_	_
+30	tid	tid	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	obj	_	_
+31	hos	hos	ADP	PP	_	32	case	_	_
+32	Familjerätten	familjerätt	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	obl	_	_
+33	Men	men	CCONJ	KN	_	35	cc	_	_
+34	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	35	nsubj	_	_
+35	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	_
+36	också	också	ADVERB	AB	_	35	advmod	_	_
+37	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	35	nsubj	_	_
+38	enda	enda	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur,Sing	35	xcomp	_	SpaceAfter=No
+39	.	_	PUNCT	MAD	_	10	punct	_	_
+
+# sent_id = 2400651
+# text = Snicksnack.
+# date = 2009-12-30 10:45
+# url = https://www.flashback.org/p20596512#p20596512
+# genre = internet_forum
+# x_sent_id = c28a254a0
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.8671370148658752
+1	Snicksnack	snicksnack	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+2	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 900109
+# text = !
+# date = 2005-12-12 20:36:12
+# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/282#anchor-m2818
+# genre = internet_forum
+# x_sent_id = b667be3
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.8935645818710327
+1	!	_	PUNCT	MAD	_	0	root	_	_
+
+# sent_id = 600776
+# text = För bara några veckor sedan var det några ungdomar från skåne som tog sig upp hit till mellansverige för att frontalkrocka med en lastbil 8självmord ) .
+# date = 2009-04-07 15:35:13
+# url = http://www.familjeliv.se/forum/thread/42918214-hjalp-vad-gor-man-med-ett-santhar-inlagg/7#anchor-m66
+# genre = internet_forum
+# x_sent_id = dd385b9a8
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.6396722197532654
+1	För	för	ADP	PP	_	4	case	_	_
+2	bara	bara	ADVERB	AB	_	4	advmod	_	_
+3	några	någon	DET	DT	Definite=Ind|Gender=Com,Neut|Number=Plur	4	nummod	_	_
+4	veckor	vecka	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	_	_
+5	sedan	sedan	ADVERB	AB	_	1	fixed	_	_
+6	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	6	expl	_	_
+8	några	någon	DET	DT	Definite=Ind|Gender=Com,Neut|Number=Plur	9	det	_	_
+9	ungdomar	ungdom	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	_
+10	från	från	ADP	PP	_	11	case	_	_
+11	skåne	_	PROPN	PM	Case=Nom	9	nmod	_	_
+12	som	_	PRON	HP	_	13	nsubj	_	_
+13	tog	ta|ta sig|ta upp	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	sig	sig|ta sig:13	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	13	obj	_	_
+15	upp	upp|ta upp:13	PART	PL	_	13	compound:prt	_	_
+16	hit	hit	ADVERB	AB	_	13	advmod	_	_
+17	till	till	ADP	PP	_	18	case	_	_
+18	mellansverige	mellansverige	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	_
+19	för	för	ADP	PP	_	21	mark	_	_
+20	att	att	PART	IE	_	21	mark	_	_
+21	frontalkrocka	frontalkrocka	VERB	VB	VerbForm=Inf|Voice=Act	13	advcl	_	_
+22	med	med	ADP	PP	_	25	case	_	_
+23	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	24	det	_	_
+24	lastbil	lastbil	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	nmod	_	_
+25	8självmord	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	_
+26	)	_	PUNCT	PAD	_	6	punct	_	_
+27	.	_	PUNCT	MAD	_	6	punct	_	_
+
+# sent_id = 3300085
+# text = OT - Detta kommer bli vår första gång i Thailand så ursäkta mig om jag ställer dumma frågor
+# date = 2013-01-16 00:46
+# url = https://www.flashback.org/p41504113#p41504113
+# genre = internet_forum
+# x_sent_id = e8fd42ae
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.8895898461341858
+1	OT	_	INTJ	IN	_	4	discourse	_	_
+2	-	_	PUNCT	MID	_	4	punct	_	_
+3	Detta	denna	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	bli	bli	VERB	VB	VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	vår	vi	DET	PS	Definite=Def|Gender=Com|Number=Sing	8	det	_	_
+7	första	_	ADJ	RO	Case=Nom	8	amod	_	_
+8	gång	gång	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+9	i	i	ADP	PP	_	10	case	_	_
+10	Thailand	Thailand	PROPN	PM	Case=Nom	5	obl	_	_
+11	så	så	ADVERB	AB	_	12	advmod	_	_
+12	ursäkta	ursäkta|ursäkta sig	VERB	VB	VerbForm=Fin|Voice=Act	5	advcl	_	_
+13	mig	jag|ursäkta sig:12	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	12	obj	_	_
+14	om	om	SCONJ	SN	_	16	mark	_	_
+15	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+16	ställer	ställa	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+17	dumma	dum	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	18	amod	_	_
+18	frågor	fråga	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obj	_	_
+
+# sent_id = 900832
+# text = Ja vi skriver så här!!!
+# date = 2005-12-12 21:31:26
+# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/398#anchor-m3972
+# genre = internet_forum
+# x_sent_id = b66eb9d
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9167041778564453
+1	Ja	ja	INTJ	IN	_	3	discourse	_	_
+2	vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj	_	_
+3	skriver	skriva	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	så	så|så här	ADVERB	AB	_	3	advmod	_	_
+5	här	här|så här:4	ADVERB	AB	_	4	fixed	_	SpaceAfter=No
+6	!	_	PUNCT	MAD	_	3	punct	_	SpaceAfter=No
+7	!	_	PUNCT	MAD	_	3	punct	_	SpaceAfter=No
+8	!	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 1300257
+# text = Så han var mycket engagerad, men hade inte fullt så mycket kunskap som jag hade önskat.
+# date = 2010-01-16 00:06:02
+# url = http://www.familjeliv.se/forum/thread/50020853-hur-intresserad-var-din-partner-under-din-graviditet/5#anchor-m48
+# genre = internet_forum
+# x_sent_id = a68e8bd4a
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.9596787691116333
+1	Så	så	CCONJ	KN	_	3	cc	_	_
+2	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+3	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	mycket	mycket	ADVERB	AB	Degree=Pos	5	advmod	_	_
+5	engagerad	engagera|engagerad	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No
+6	,	_	PUNCT	MID	_	8	punct	_	_
+7	men	men	CCONJ	KN	_	8	cc	_	_
+8	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	inte	inte	ADVERB	AB	_	8	advmod	_	_
+10	fullt	full	ADVERB	AB	Degree=Pos	11	advmod	_	_
+11	så	så	ADVERB	AB	_	12	advmod	_	_
+12	mycket	_	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	kunskap	kunskap	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obj	_	_
+14	som	_	PRON	HP	_	16	obj	_	_
+15	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+16	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	önskat	önska	VERB	VB	VerbForm=Sup|Voice=Act	16	xcomp	_	SpaceAfter=No
+18	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 1200082
+# text = *s*
+# date = 2006-11-05 19:46:22
+# url = http://www.familjeliv.se/forum/thread/13643543-fjarde-aptraden/37#anchor-m369
+# genre = internet_forum
+# x_sent_id = 4e9c098f9
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.968940794467926
+1	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
+2	s	s	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	*	_	PUNCT	MID	_	2	punct	_	_
+
+# sent_id = 100338
+# text = skulle kunna skriva en bok om allt jag var med om på dom 10 månaderna .
+# date = 2010-04-28 00:01:16
+# url = http://www.familjeliv.se/forum/thread/52207370-omhandertas-barn-utan-grund/2#anchor-m13
+# genre = internet_forum
+# x_sent_id = c772159f
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9031212329864502
+1	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	kunna	kunna	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	skriva	skriva	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+4	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	5	det	_	_
+5	bok	bok	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
+6	om	om	ADP	PP	_	7	case	_	_
+7	allt	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	_
+8	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	var	vara|vara med	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+10	med	med|vara med:9	PART	PL	_	9	compound:prt	_	_
+11	om	om	ADP	PP	_	9	obl	_	_
+12	på	på	ADP	PP	_	15	case	_	_
+13	dom	en	DET	DT	Definite=Def|Gender=Com,Neut|Number=Plur	14	advmod	_	_
+14	10	_	NUM	RG	Case=Nom	15	nummod	_	_
+15	månaderna	månad	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	obl	_	_
+16	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 3200181
+# text = Även om det är det absolut bästa alternativet så sitter det allt för många gamlingarna i maktpositioner som blivit matade med propagandan emot Cannabis.
+# date = 2017-11-08 13:38
+# url = https://www.flashback.org/p62279796#p62279796
+# genre = internet_forum
+# x_sent_id = 7765df42e
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.561118483543396
+1	Även	även|även om	ADVERB	AB	_	4	mark	_	_
+2	om	om|även om:1	SCONJ	SN	_	1	fixed	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	4	expl	_	_
+4	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	dislocated	_	_
+5	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	8	det	_	_
+6	absolut	absolut	ADVERB	AB	Degree=Pos	7	advmod	_	_
+7	bästa	bra|bäst|god	ADJ	JJ	Case=Nom|Definite=Def|Degree=Sup|Gender=Com,Neut|Number=Plur,Sing	8	amod	_	_
+8	alternativet	alternativ	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
+9	så	så	ADVERB	AB	_	10	advcl	_	_
+10	sitter	sitta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	10	expl	_	_
+12	allt	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	_
+13	för	för	ADP	PP	_	15	case	_	_
+14	många	_	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	15	amod	_	_
+15	gamlingarna	gamling	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	10	obl	_	_
+16	i	i	ADP	PP	_	17	case	_	_
+17	maktpositioner	maktposition	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obl	_	_
+18	som	_	PRON	HP	_	19	nsubj	_	_
+19	blivit	bli	VERB	VB	VerbForm=Sup|Voice=Act	17	acl:relcl	_	_
+20	matade	mata	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur|Tense=Past|VerbForm=Part	19	xcomp	_	_
+21	med	med	ADP	PP	_	22	case	_	_
+22	propagandan	propaganda	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	obl	_	_
+23	emot	emot	ADP	PP	_	24	case	_	_
+24	Cannabis	_	PROPN	PM	Case=Nom	22	nmod	_	SpaceAfter=No
+25	.	_	PUNCT	MAD	_	10	punct	_	_
+
+# sent_id = 500486
+# text = Okej, men dom e ute nu?
+# date = 2011-04-27 20:20:29
+# url = http://www.familjeliv.se/forum/thread/57493305-lagenhetsodlarna/17#anchor-m167
+# genre = internet_forum
+# x_sent_id = 74c742c6
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9575924873352051
+1	Okej	_	INTJ	IN	_	5	discourse	_	SpaceAfter=No
+2	,	_	PUNCT	MID	_	5	punct	_	_
+3	men	men	CCONJ	KN	_	5	cc	_	_
+4	dom	de	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com,Neut|Number=Plur	5	nsubj	_	_
+5	e	_	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ute	ute	ADVERB	AB	_	5	advmod	_	_
+7	nu	nu	ADVERB	AB	_	5	advmod	_	SpaceAfter=No
+8	?	_	PUNCT	MAD	_	5	punct	_	_
+
+# sent_id = 1700637
+# text = brukar i vanliga fall kunna ta rätt mkt (vänd andra kinden till-typ) men inte nu nä...fy, jag klipper direkt...
+# date = 2008-02-03 20:18:33
+# url = http://www.familjeliv.se/forum/thread/28947498-har-en-07a-och-planerar-en-08a-trad-nr-3/48#anchor-m473
+# genre = internet_forum
+# x_sent_id = b17eaaa7
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.9181988835334778
+1	brukar	bruka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	i	i|i vanliga fall	ADP	PP	_	4	case	_	_
+3	vanliga	vanlig|i vanliga fall:2	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	4	amod	_	_
+4	fall	fall|i vanliga fall:2	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	obl	_	_
+5	kunna	kunna	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+6	ta	ta|ta rätt	VERB	VB	VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	rätt	rätt|ta rätt:6	ADVERB	AB	_	8	amod	_	_
+8	mkt	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
+9	(	_	PUNCT	PAD	_	5	punct	_	SpaceAfter=No
+10	vänd	vända	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+11	andra	andra	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	12	amod	_	_
+12	kinden	kind	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obl	_	_
+13	till-typ	till-typ	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	advmod	_	SpaceAfter=No
+14	)	_	PUNCT	PAD	_	5	punct	_	_
+15	men	men	CCONJ	KN	_	17	cc	_	_
+16	inte	inte	ADVERB	AB	_	17	advmod	_	_
+17	nu	nu	ADVERB	AB	_	10	conj	_	_
+18	nä	nä	INTJ	IN	_	17	fixed	_	SpaceAfter=No
+19	...	_	PUNCT	MID	_	17	punct	_	SpaceAfter=No
+20	fy	fy	INTJ	IN	_	17	obl	_	SpaceAfter=No
+21	,	_	PUNCT	MID	_	1	punct	_	_
+22	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	_
+23	klipper	klippa	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+24	direkt	direkt	ADVERB	AB	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	...	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2400423
+# text = För att jag vill känna mig sexig.
+# date = 2015-12-15 02:40
+# url = https://www.flashback.org/p55720405#p55720405
+# genre = internet_forum
+# x_sent_id = c28a6337e
+# speech_act = assertion
+# sentiment_label = positive
+# sentiment_score = 0.483024537563324
+1	För	för	ADP	PP	_	4	mark	_	_
+2	att	att	SCONJ	SN	_	1	fixed	_	_
+3	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
+4	vill	vilja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	känna	känna|känna sig	VERB	VB	VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	mig	jag|känna sig:5	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	5	obj	_	_
+7	sexig	sexig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	.	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 2700646
+# text = MvH peller
+# date = 2012-10-24 16:21
+# url = https://www.flashback.org/p40003354#p40003354
+# genre = internet_forum
+# x_sent_id = 2c4afcc2
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.9782273769378662
+1	MvH	_	PROPN	PM	Case=Nom	2	nsubj	_	_
+2	peller	_	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 2800088
+# text = Vad gäller kattens eventuella buller så tala om för gubben att det minsann är borta sen man band fast fenrisulven, och det var inte igår.
+# date = 2008-12-21 09:32
+# url = https://www.flashback.org/p14236688#p14236688
+# genre = internet_forum
+# x_sent_id = bd333f794
+# speech_act = directive
+# sentiment_label = neutral
+# sentiment_score = 0.8764747977256775
+1	Vad	vad|vad för	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	7	cc	_	_
+2	gäller	gälla	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
+3	kattens	katt|katten	NOUN	NN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	nmod:poss	_	_
+4	eventuella	eventuell	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	5	amod	_	_
+5	buller	buller	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	_
+6	så	så	ADVERB	AB	_	7	advcl	_	_
+7	tala	tala|tala om	VERB	VB	VerbForm=Inf|Voice=Act	0	root	_	_
+8	om	om|tala om:7	PART	PL	_	7	compound:prt	_	_
+9	för	för|vad för:1	ADP	PP	_	10	case	_	_
+10	gubben	gubbe	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	_	_
+11	att	att	SCONJ	SN	_	14	mark	_	_
+12	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	14	expl	_	_
+13	minsann	minsann	ADVERB	AB	_	14	advmod	_	_
+14	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+15	borta	borta	PART	PL	_	14	compound:prt	_	_
+16	sen	sen	SCONJ	SN	_	18	mark	_	_
+17	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nsubj	_	_
+18	band	binda|binda fast	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	csubj	_	_
+19	fast	fast|binda fast:18	PART	PL	_	18	compound:prt	_	_
+20	fenrisulven	fenrisulv|fenrisulven	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	_	PUNCT	MID	_	24	punct	_	_
+22	och	och	CCONJ	KN	_	24	cc	_	_
+23	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	24	nsubj	_	_
+24	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+25	inte	inte	ADVERB	AB	_	24	advmod	_	_
+26	igår	igår	ADVERB	AB	_	24	advmod	_	SpaceAfter=No
+27	.	_	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 2600385
+# text = Reklam och annonsering.
+# date = 2012-04-08 01:03
+# url = https://www.flashback.org/p36691450#p36691450
+# genre = internet_forum
+# x_sent_id = 4ebe89b3
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9658927917480469
+1	Reklam	reklam	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+2	och	och	CCONJ	KN	_	3	cc	_	_
+3	annonsering	annonsering	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	SpaceAfter=No
+4	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 400175
+# text = Ska man spola ner kattungar , musungar , hundvalpar i toaletten också om man inte vill ha dom ?
+# date = 2011-11-03 17:01:16
+# url = http://www.familjeliv.se/forum/thread/61893208-overbefolkat-akvarium/1#anchor-m4
+# genre = internet_forum
+# x_sent_id = c7f4c8e
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.5291928648948669
+1	Ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nsubj	_	_
+3	spola	spola|spola ner	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+4	ner	ner|spola ner:3	PART	PL	_	3	compound:prt	_	_
+5	kattungar	kattunge	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	_
+6	,	_	PUNCT	MID	_	7	punct	_	_
+7	musungar	musunge	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj	_	_
+8	,	_	PUNCT	MID	_	9	punct	_	_
+9	hundvalpar	hundvalp	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj	_	_
+10	i	i	ADP	PP	_	11	case	_	_
+11	toaletten	toalett	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nmod	_	_
+12	också	också	ADVERB	AB	_	16	advmod	_	_
+13	om	om	SCONJ	SN	_	16	mark	_	_
+14	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nsubj	_	_
+15	inte	inte	ADVERB	AB	_	16	advmod	_	_
+16	vill	vilja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+17	ha	ha	VERB	VB	VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	dom	de	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com,Neut|Number=Plur	17	obj	_	_
+19	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 1600233
+# text = E jätte ledsen vill verkligen träffa honom men vill defenetivt inte förlora mina barn
+# date = 2020-01-04 23:52:52
+# url = http://www.familjeliv.se/forum/thread/80142758-villka-rattigheter-har-jag/1
+# genre = internet_forum
+# x_sent_id = b34f1e4
+# speech_act = expressive
+# sentiment_label = negative
+# sentiment_score = 0.8027165532112122
+1	E	e	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	jätte	jätte	ADVERB	AB	_	3	advmod	_	_
+3	ledsen	ledsen	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	nsubj	_	_
+4	vill	vilja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	verkligen	verkligen	ADVERB	AB	_	4	advmod	_	_
+6	träffa	träffa	VERB	VB	VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	honom	han	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	6	obj	_	_
+8	men	men	CCONJ	KN	_	9	cc	_	_
+9	vill	vilja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	defenetivt	_	ADVERB	AB	Degree=Pos	9	advmod	_	_
+11	inte	inte	ADVERB	AB	_	9	advmod	_	_
+12	förlora	förlora	VERB	VB	VerbForm=Inf|Voice=Act	9	xcomp	_	_
+13	mina	jag	DET	PS	Definite=Def|Gender=Com,Neut|Number=Plur	14	det	_	_
+14	barn	barn	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	_
+
+# sent_id = 3700478
+# text = Hur gick det för dig, och för andra som läser detta, har ni beställt de senaste 3 veckorna och fått hem varorna?
+# date = 2016-07-24 00:57
+# url = https://www.flashback.org/p57959071#p57959071
+# genre = internet_forum
+# x_sent_id = 188e71285
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.7090617418289185
+1	Hur	hur	ADVERB	HA	_	2	advmod	_	_
+2	gick	gå	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	för	för	ADP	PP	_	5	case	_	_
+5	dig	du	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	_	PUNCT	MID	_	14	punct	_	_
+7	och	och	CCONJ	KN	_	14	cc	_	_
+8	för	för	ADP	PP	_	9	case	_	_
+9	andra	annan	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com,Neut|Number=Plur	14	obl	_	_
+10	som	_	PRON	HP	_	11	nsubj	_	_
+11	läser	läsa	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+12	detta	denna	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	_	PUNCT	MID	_	14	punct	_	_
+14	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	ni	ni	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	_	_
+16	beställt	beställa	VERB	VB	VerbForm=Sup|Voice=Act	14	xcomp	_	_
+17	de	en	DET	DT	Definite=Def|Gender=Com,Neut|Number=Plur	20	det	_	_
+18	senaste	sen	ADJ	JJ	Case=Nom|Definite=Def|Degree=Sup|Gender=Com,Neut|Number=Plur,Sing	20	amod	_	_
+19	3	_	NUM	RG	Case=Nom	20	nummod	_	_
+20	veckorna	vecka	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	obl	_	_
+21	och	och	CCONJ	KN	_	22	cc	_	_
+22	fått	få	VERB	VB	VerbForm=Sup|Voice=Act	14	conj	_	_
+23	hem	hem	PART	PL	_	22	compound:prt	_	_
+24	varorna	vara	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	22	obj	_	SpaceAfter=No
+25	?	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2200373
+# text = Ingen 43- åring som är gravid?
+# date = 2012-09-12 20:29:05
+# url = http://www.familjeliv.se/forum/thread/66594860-nagon-43-aring-eller-aldre-om-lyckats-bli-gravid-m-syskon-och-darmed-fatt-tva-barn-efter-40/1#anchor-m10
+# genre = internet_forum
+# x_sent_id = 0530e9ad2
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.8862141370773315
+1	Ingen	ingen	DET	DT	Definite=Ind|Gender=Com|Number=Sing	2	det	_	_
+2	43-	_	NOUN	NN	Compound=Yes|Gender=Com	3	nmod	_	_
+3	åring	åring	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+4	som	_	PRON	HP	_	5	nsubj	_	_
+5	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+6	gravid	gravid	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	?	_	PUNCT	MAD	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 1200642
+# text = Tips???
+# date = 2007-01-11 16:59:38
+# url = http://www.familjeliv.se/forum/thread/13643543-fjarde-aptraden/185#anchor-m1849
+# genre = internet_forum
+# x_sent_id = 4e9c6098a
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9214215278625488
+1	Tips	tips	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+2	?	_	PUNCT	MAD	_	1	punct	_	SpaceAfter=No
+3	?	_	PUNCT	MAD	_	1	punct	_	SpaceAfter=No
+4	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2100474
+# text = men seriöst alltså , förhud är fint =)
+# date = 2013-04-17 22:46:22
+# url = http://www.familjeliv.se/forum/thread/69578654-forstora-brosten-klipp-forhuden/2#anchor-m20
+# genre = internet_forum
+# x_sent_id = 14e632726
+# speech_act = expressive
+# sentiment_label = positive
+# sentiment_score = 0.5214715600013733
+1	men	men	CCONJ	KN	_	2	cc	_	_
+2	seriöst	seriös	ADVERB	AB	Degree=Pos	0	root	_	_
+3	alltså	alltså	ADVERB	AB	_	2	advmod	_	_
+4	,	_	PUNCT	MID	_	2	punct	_	_
+5	förhud	förhud	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	_
+6	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+7	fint	fin	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	xcomp	_	_
+8	=)	_	PUNCT	MAD	_	6	punct	_	_
+
+# sent_id = 1900574
+# text = Vi ska ha vårt första i slutet av februari.
+# date = 2004-12-03 22:34:28
+# url = http://www.familjeliv.se/forum/thread/1423379-nya-farsor-i-mars-05-i-goteborg/1#anchor-m5
+# genre = internet_forum
+# x_sent_id = c50ea08
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9069288969039917
+1	Vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
+2	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ha	ha	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	vårt	vi	DET	PS	Definite=Def|Gender=Neut|Number=Sing	5	advmod	_	_
+5	första	_	ADJ	RO	Case=Nom	3	obj	_	_
+6	i	i	ADP	PP	_	7	case	_	_
+7	slutet	slut	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	_
+8	av	av	ADP	PP	_	9	case	_	_
+9	februari	februari	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2800367
+# text = Möss och råttor har en tendens att undvika platser som ens luktar katt så kattens eventuella förmåga att jaga skulle jag vilja påstå är sekundär.
+# date = 2021-03-04 12:57
+# url = https://www.flashback.org/p74906985#p74906985
+# genre = internet_forum
+# x_sent_id = bd33c9eb3
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8907865285873413
+1	Möss	mus	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nsubj	_	_
+2	och	och	CCONJ	KN	_	3	cc	_	_
+3	råttor	råtta	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	_	_
+4	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	6	det	_	_
+6	tendens	tendens	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	_	_
+7	att	att	PART	IE	_	8	mark	_	_
+8	undvika	undvika	VERB	VB	VerbForm=Inf|Voice=Act	6	acl	_	_
+9	platser	plats	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	obj	_	_
+10	som	_	PRON	HP	_	12	nsubj	_	_
+11	ens	ens	ADVERB	AB	_	12	advmod	_	_
+12	luktar	lukta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	katt	katt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	_
+14	så	så	ADVERB	AB	_	20	mark	_	_
+15	kattens	katt|katten	NOUN	NN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	17	nmod:poss	_	_
+16	eventuella	eventuell	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	17	amod	_	_
+17	förmåga	förmåga	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nsubj	_	_
+18	att	att	PART	IE	_	19	mark	_	_
+19	jaga	jaga	VERB	VB	VerbForm=Inf|Voice=Act	17	acl	_	_
+20	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+21	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nsubj	_	_
+22	vilja	vilja	VERB	VB	VerbForm=Inf|Voice=Act	20	xcomp	_	_
+23	påstå	påstå	VERB	VB	VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	xcomp	_	_
+25	sekundär	sekundär	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	24	xcomp	_	SpaceAfter=No
+26	.	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 2000491
+# text = :) Har även fått utskrivet provera som jag ska äta innan för att få fart på mensen men har läst här att det är många som började äta pergo på en gång istället för på mensdag 5.
+# date = 2014-01-08 18:02:45
+# url = http://www.familjeliv.se/forum/thread/72173292-borja-med-pergotime-snart-nagon-mer/1
+# genre = internet_forum
+# x_sent_id = d8f4429a9
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.940710186958313
+1	:)	_	INTJ	IN	_	2	punct	_	_
+2	Har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	även	även	ADVERB	AB	_	2	advmod	_	_
+4	fått	få	VERB	VB	VerbForm=Sup|Voice=Act	2	xcomp	_	_
+5	utskrivet	skriva ut	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+6	provera	provera	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
+7	som	_	PRON	HP	_	9	obj	_	_
+8	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	äta	äta	VERB	VB	VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	innan	innan	ADVERB	AB	_	14	mark	_	_
+12	för	för	ADP	PP	_	14	mark	_	_
+13	att	att	PART	IE	_	14	mark	_	_
+14	få	få	VERB	VB	VerbForm=Inf|Voice=Act	9	advcl	_	_
+15	fart	fart	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj	_	_
+16	på	på	ADP	PP	_	17	case	_	_
+17	mensen	mens	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obl	_	_
+18	men	men	CCONJ	KN	_	19	cc	_	_
+19	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+20	läst	läsa	VERB	VB	VerbForm=Sup|Voice=Act	19	xcomp	_	_
+21	här	här	ADVERB	AB	_	20	advmod	_	_
+22	att	att	SCONJ	SN	_	24	mark	_	_
+23	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	24	expl	_	_
+24	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	_	_
+25	många	mången	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com,Neut|Number=Plur	24	nsubj	_	_
+26	som	_	PRON	HP	_	27	nsubj	_	_
+27	började	börja	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
+28	äta	äta	VERB	VB	VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	pergo	pergo	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	obj	_	_
+30	på	på|på en gång	ADP	PP	_	32	case	_	_
+31	en	en|på en gång:30|en gång	DET	DT	Definite=Ind|Gender=Com|Number=Sing	32	det	_	_
+32	gång	gång|på en gång:30|en gång:31	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	obl	_	_
+33	istället	istället|istället för	ADVERB	AB	_	37	advmod	_	_
+34	för	för|istället för:33	ADP	PP	_	37	case	_	_
+35	på	på	ADP	PP	_	37	case	_	_
+36	mensdag	mensdag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	nmod	_	_
+37	5	_	NUM	RG	Case=Nom	28	obl	_	SpaceAfter=No
+38	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3400752
+# text = Vi kan redan konstatera att snacket inte funkade då chefen hotar med sparken.
+# date = 2016-05-01 21:54
+# url = https://www.flashback.org/p57136204#p57136204
+# genre = internet_forum
+# x_sent_id = b3e2ea049
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.781556248664856
+1	Vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
+2	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	redan	redan	ADVERB	AB	_	2	advmod	_	_
+4	konstatera	konstatera	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	att	att	SCONJ	SN	_	8	mark	_	_
+6	snacket	snack	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	inte	inte	ADVERB	AB	_	8	advmod	_	_
+8	funkade	funka	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+9	då	då	ADVERB	HA	_	11	advmod	_	_
+10	chefen	chef	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	_
+11	hotar	hota	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
+12	med	med	ADP	PP	_	13	case	_	_
+13	sparken	spark	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3700349
+# text = Men detta är min uppfattning.
+# date = 2015-02-05 17:29
+# url = https://www.flashback.org/p52155541#p52155541
+# genre = internet_forum
+# x_sent_id = 188e9a578
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.959257185459137
+1	Men	men	CCONJ	KN	_	3	cc	_	_
+2	detta	denna	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	min	jag	DET	PS	Definite=Def|Gender=Com|Number=Sing	5	nmod:poss	_	_
+5	uppfattning	uppfattning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 1700505
+# text = När man lyckats (eller, vilket vi hoppas inte gäller för någon på denna lista misslyckas) gör som punkt 1-4 fast ta bort dig från din dag.
+# date = 2005-12-23 08:34:49
+# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/59#anchor-m589
+# genre = internet_forum
+# x_sent_id = b17344de
+# speech_act = directive
+# sentiment_label = neutral
+# sentiment_score = 0.793183445930481
+1	När	när	ADVERB	HA	_	3	mark	_	_
+2	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj:pass	_	_
+3	lyckats	lyckas	VERB	VB	VerbForm=Sup|Voice=Pass	19	advcl	_	_
+4	(	_	PUNCT	PAD	_	3	punct	_	SpaceAfter=No
+5	eller	eller	CCONJ	KN	_	17	cc	_	SpaceAfter=No
+6	,	_	PUNCT	MID	_	9	punct	_	_
+7	vilket	_	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	9	advmod	_	_
+8	vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	nsubj:pass	_	_
+9	hoppas	hoppa|hoppas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+10	inte	inte	ADVERB	AB	_	11	advmod	_	_
+11	gäller	gälla	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+12	för	för	ADP	PP	_	13	case	_	_
+13	någon	någon	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	_
+14	på	på	ADP	PP	_	16	case	_	_
+15	denna	denna	DET	DT	Definite=Def|Gender=Com|Number=Sing	16	det	_	_
+16	lista	lista	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	_
+17	misslyckas	misslyckas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	19	advcl	_	SpaceAfter=No
+18	)	_	PUNCT	PAD	_	19	punct	_	_
+19	gör	göra|göra fast	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+20	som	_	CCONJ	KN	_	21	advmod	_	_
+21	punkt	punkt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	_	_
+22	1-4	_	NUM	RG	Case=Nom	19	nsubj	_	_
+23	fast	fast|göra fast:19	CCONJ	KN	_	24	cc	_	_
+24	ta	ta|ta bort|ta sig	VERB	VB	VerbForm=Inf|Voice=Act	19	conj	_	_
+25	bort	bort|ta bort:24	PART	PL	_	24	compound:prt	_	_
+26	dig	du|ta sig:24	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	24	obj	_	_
+27	från	från	ADP	PP	_	29	case	_	_
+28	din	du	DET	PS	Definite=Def|Gender=Com|Number=Sing	29	nmod:poss	_	_
+29	dag	dag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obl	_	SpaceAfter=No
+30	.	_	PUNCT	MAD	_	19	punct	_	_
+
+# sent_id = 2200018
+# text = Men under sker även vid IVF.er.
+# date = 2009-02-24 15:05:00
+# url = http://www.familjeliv.se/forum/thread/40625222-sleepings-nya-trad-om-det-mesta-nr-3/20#anchor-m199
+# genre = internet_forum
+# x_sent_id = 053063a80
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9104008078575134
+1	Men	men	CCONJ	KN	_	3	cc	_	_
+2	under	under	ADP	PP	_	3	case	_	_
+3	sker	ske	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	även	även	ADVERB	AB	_	3	advmod	_	_
+5	vid	vid	ADP	PP	_	6	case	_	_
+6	IVF.er	_	NOUN	NN	Abbr=Yes	3	obl	_	SpaceAfter=No
+7	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 900477
+# text = En annan sak är att min pojkvän ser många tjejer som är lika snygga som mig.
+# date = 2010-07-27 17:05:57
+# url = http://www.familjeliv.se/forum/thread/53661296-skyll-er-sjalva/18#anchor-m175
+# genre = internet_forum
+# x_sent_id = b66f830
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.7988598346710205
+1	En	en|en annan	DET	DT	Definite=Ind|Gender=Com|Number=Sing	3	det	_	_
+2	annan	annan|en annan:1	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+3	sak	sak	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
+4	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	att	att	SCONJ	SN	_	8	mark	_	_
+6	min	jag	DET	PS	Definite=Def|Gender=Com|Number=Sing	7	amod	_	_
+7	pojkvän	pojkvän	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
+8	ser	se	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+9	många	_	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	10	amod	_	_
+10	tjejer	tjej	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	obj	_	_
+11	som	_	PRON	HP	_	12	nsubj	_	_
+12	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+13	lika	lika	ADVERB	AB	_	14	advmod	_	_
+14	snygga	snygg	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	12	advmod	_	_
+15	som	_	CCONJ	KN	_	16	cc	_	_
+16	mig	jag	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 3600179
+# text = Åtminstone min tolkning.
+# date = 2021-06-24 19:42
+# url = https://www.flashback.org/p76338957#p76338957
+# genre = internet_forum
+# x_sent_id = a3c4a75b7
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9455568790435791
+1	Åtminstone	åtminstone	ADVERB	AB	_	3	advmod	_	_
+2	min	jag	DET	PS	Definite=Def|Gender=Com|Number=Sing	3	nmod:poss	_	_
+3	tolkning	tolkning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+4	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 900763
+# text = COurtney Cox
+# date = 2006-09-13 21:38:16
+# url = http://www.familjeliv.se/forum/thread/12307681-kandisar-kanner-kandisar/11#anchor-m101
+# genre = internet_forum
+# x_sent_id = b66971d
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9880087375640869
+1	COurtney	_	PROPN	PM	Case=Nom	0	root	_	_
+2	Cox	_	PROPN	PM	Case=Nom	1	flat:name	_	_
+
+# sent_id = 600694
+# text = Så kan man få så tidiga varningar ?
+# date = 2017-07-19 23:06:02
+# url = http://www.familjeliv.se/forum/thread/77851690-jag-vet-hur-jag-kommer-do/2#anchor-m16
+# genre = internet_forum
+# x_sent_id = dd386e45d
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.8555964231491089
+1	Så	så	ADVERB	AB	_	2	advmod	_	_
+2	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
+4	få	få	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	så	så	ADVERB	AB	_	6	advmod	_	_
+6	tidiga	tidig	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	7	amod	_	_
+7	varningar	varning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obj	_	_
+8	?	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1300592
+# text = Hugomamma: Tack för att din man är så ärlig, han har förgyllt min dag kommer skratta åt det hela dan
+# date = 2007-05-12 14:26:11
+# url = http://www.familjeliv.se/forum/thread/19135338-korkade-kommentarer-fran-blivande-pappan-hall-glimten-i-ogat/56#anchor-m559
+# genre = internet_forum
+# x_sent_id = a68ecc631
+# speech_act = expressive
+# sentiment_label = positive
+# sentiment_score = 0.9931417107582092
+1	Hugomamma	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
+2	:	_	PUNCT	MID	_	1	punct	_	_
+3	Tack	tack	INTJ	IN	_	1	parataxis	_	_
+4	för	för	ADP	PP	_	8	mark	_	_
+5	att	att	SCONJ	SN	_	8	mark	_	_
+6	din	du	DET	PS	Definite=Def|Gender=Com|Number=Sing	7	nmod:poss	_	_
+7	man	man	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
+8	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	så	så	ADVERB	AB	_	10	advmod	_	_
+10	ärlig	ärlig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	xcomp	_	SpaceAfter=No
+11	,	_	PUNCT	MID	_	1	punct	_	_
+12	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nsubj	_	_
+13	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+14	förgyllt	förgylla	VERB	VB	VerbForm=Sup|Voice=Act	13	xcomp	_	_
+15	min	jag	DET	PS	Definite=Def|Gender=Com|Number=Sing	16	amod	_	_
+16	dag	dag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj	_	_
+17	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+18	skratta	skratta	VERB	VB	VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	åt	åt	ADP	PP	_	20	case	_	_
+20	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	18	obl	_	_
+21	hela	hel	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	22	amod	_	_
+22	dan	_	PUNCT	MAD	_	18	obl	_	_
+
+# sent_id = 3700352
+# text = http://www.eurojust.europa.eu/press/...018-12-06.aspx
+# date = 2018-12-10 09:52
+# url = https://www.flashback.org/p66075760#p66075760
+# genre = internet_forum
+# x_sent_id = 188e6e1da
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.994607150554657
+1	http://www.eurojust.europa.eu/press/...018-12-06.aspx	_	NOUN	NN	Abbr=Yes	0	root	_	_
+
+# sent_id = 600666
+# text = Uggs är fortfarande inte helt ute .
+# date = 2008-11-04 23:50:04
+# url = http://www.familjeliv.se/forum/thread/37982714-vilka-ar-fulast/1#anchor-m10
+# genre = internet_forum
+# x_sent_id = dd3811bb0
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9553779363632202
+1	Uggs	_	PROPN	PM	Case=Nom	2	nsubj	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	fortfarande	fortfarande	ADVERB	AB	_	2	advmod	_	_
+4	inte	inte	ADVERB	AB	_	2	advmod	_	_
+5	helt	hel|helt	ADVERB	AB	Degree=Pos	6	advmod	_	_
+6	ute	ute	ADVERB	AB	_	2	advmod	_	_
+7	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3100872
+# text = Själv så kör jag med Smoke Gold råtobaksspill trehektosbyttan som kostar 100 i tobaksbutiken där jag handlar.
+# date = 2014-04-17 04:07
+# url = https://www.flashback.org/p48416771#p48416771
+# genre = internet_forum
+# x_sent_id = 362b5b17
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9663975238800049
+1	Själv	själv	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	_	_
+2	så	så	ADVERB	AB	_	3	obl	_	_
+3	kör	köra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+5	med	med	ADP	PP	_	7	case	_	_
+6	Smoke	_	PROPN	PM	Case=Nom	8	nmod	_	_
+7	Gold	_	PROPN	PM	Case=Nom	6	flat:name	_	_
+8	råtobaksspill	_	PROPN	PM	Case=Nom	9	nmod	_	_
+9	trehektosbyttan	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obj	_	_
+10	som	_	PRON	HP	_	11	nsubj	_	_
+11	kostar	kosta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+12	100	_	NUM	RG	Case=Nom	11	obj	_	_
+13	i	i	ADP	PP	_	14	case	_	_
+14	tobaksbutiken	tobaksbutik	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	_	_
+15	där	där	ADVERB	HA	_	17	advmod	_	_
+16	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
+17	handlar	handla	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	SpaceAfter=No
+18	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 3100237
+# text = (hör honom äckelhosta i skrivande stund, låter som det har fastnat en råtta i hans hals )
+# date = 2020-04-21 23:46
+# url = https://www.flashback.org/p71293245#p71293245
+# genre = internet_forum
+# x_sent_id = 362610ea
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.965014636516571
+1	(	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
+2	hör	höra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	honom	han	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	2	obj	_	_
+4	äckelhosta	äckelhosta	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
+5	i	i	ADP	PP	_	7	case	_	_
+6	skrivande	skriva	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	7	amod	_	_
+7	stund	stund	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	_	PUNCT	MID	_	9	punct	_	_
+9	låter	låta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	som	som	ADVERB	HA	_	12	advmod	_	_
+11	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	12	expl	_	_
+12	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	_
+13	fastnat	fastna	VERB	VB	VerbForm=Sup|Voice=Act	12	xcomp	_	_
+14	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	15	det	_	_
+15	råtta	råtta	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	obj	_	_
+16	i	i	ADP	PP	_	18	case	_	_
+17	hans	han	DET	PS	Definite=Def|Gender=Com,Neut|Number=Plur,Sing	18	amod	_	_
+18	hals	hals	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	obl	_	_
+19	)	_	PUNCT	PAD	_	2	punct	_	_
+
+# sent_id = 3200608
+# text = Ska vara duktig för dig.
+# date = 2020-01-30 19:57
+# url = https://www.flashback.org/p70100158#p70100158
+# genre = internet_forum
+# x_sent_id = 7765ac705
+# speech_act = assertion
+# sentiment_label = positive
+# sentiment_score = 0.9125276207923889
+1	Ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	vara	vara|vara sig	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	duktig	duktig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp	_	_
+4	för	för	ADP	PP	_	5	case	_	_
+5	dig	du|vara sig:2	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 100725
+# text = Sanningen är att mamman gick bakom min rygg och träffade en annan undertiden vi bodde tillsammans .
+# date = 2009-08-01 12:14:23
+# url = http://www.familjeliv.se/forum/thread/46020296-barnens-mamma-lagger-sej-i/1#anchor-m5
+# genre = internet_forum
+# x_sent_id = c77a6685
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8273893594741821
+1	Sanningen	sanning	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	att	att	SCONJ	SN	_	5	mark	_	_
+4	mamman	mamma	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+5	gick	gå	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+6	bakom	bakom	ADP	PP	_	8	case	_	_
+7	min	jag	DET	PS	Definite=Def|Gender=Com|Number=Sing	8	nmod:poss	_	_
+8	rygg	rygg	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+9	och	och	CCONJ	KN	_	10	cc	_	_
+10	träffade	träffa	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	en	en|en annan	DET	DT	Definite=Ind|Gender=Com|Number=Sing	13	det	_	_
+12	annan	annan|en annan:11	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
+13	undertiden	undertid	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obj	_	_
+14	vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	15	nsubj	_	_
+15	bodde	bo	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+16	tillsammans	tillsammans	ADVERB	AB	_	15	advmod	_	_
+17	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2500817
+# text = Sälj prylen du har hemma på blocket för förhoppningsvis runt 300-400 kr.
+# date = 2010-04-18 14:59
+# url = https://www.flashback.org/p22599890#p22599890
+# genre = internet_forum
+# x_sent_id = 1d424454
+# speech_act = directive
+# sentiment_label = neutral
+# sentiment_score = 0.9476800560951233
+1	Sälj	sälja	VERB	VB	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
+2	prylen	pryl	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obj	_	_
+3	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
+4	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+5	hemma	hemma	ADVERB	AB	_	4	advmod	_	_
+6	på	på	ADP	PP	_	7	case	_	_
+7	blocket	block	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	_
+8	för	för	ADP	PP	_	12	case	_	_
+9	förhoppningsvis	förhoppningsvis	ADVERB	AB	_	12	advmod	_	_
+10	runt	runt	ADP	PP	_	11	advmod	_	_
+11	300-400	_	NUM	RG	Case=Nom	12	nummod	_	_
+12	kr	kr	NOUN	NN	Abbr=Yes	4	obl	_	SpaceAfter=No
+13	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 3600831
+# text = Gissar på något mellanting av det där.
+# date = 2015-08-31 19:35
+# url = https://www.flashback.org/p54541091#p54541091
+# genre = internet_forum
+# x_sent_id = a3c445ded
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9715371131896973
+1	Gissar	gissa	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	på	på	ADP	PP	_	4	case	_	_
+3	något	någon	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	4	det	_	_
+4	mellanting	mellanting	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	_
+5	av	av	ADP	PP	_	6	case	_	_
+6	det	den|den där	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	_
+7	där	där|den där:6	ADVERB	AB	_	6	advmod	_	SpaceAfter=No
+8	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 300019
+# text = shit skulle aldrig visat mig naken på visningsbilden .
+# date = 2009-12-22 15:15:57
+# url = http://www.familjeliv.se/forum/thread/49528110-far-man-spara-en-bild-fran-msn-om-man-inte-har-tillstand/1#anchor-m6
+# genre = internet_forum
+# x_sent_id = 83a20f4
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.7520939707756042
+1	shit	_	INTJ	IN	_	2	nsubj	_	_
+2	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	aldrig	aldrig	ADVERB	AB	_	2	advmod	_	_
+4	visat	visa|visa sig	VERB	VB	VerbForm=Sup|Voice=Act	2	xcomp	_	_
+5	mig	jag|visa sig:4	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	4	obj	_	_
+6	naken	naken	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	xcomp	_	_
+7	på	på	ADP	PP	_	8	case	_	_
+8	visningsbilden	visningsbild	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
+9	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3600346
+# text = Nu är det snart officiellt att Maxi Pereira går från Benfica till Porto.
+# date = 2015-07-07 14:35
+# url = https://www.flashback.org/p53938398#p53938398
+# genre = internet_forum
+# x_sent_id = a3c40c20f
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9800936579704285
+1	Nu	nu	ADVERB	AB	_	2	advmod	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
+4	snart	snar|snart	ADVERB	AB	Degree=Pos	2	advmod	_	_
+5	officiellt	officiell	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	_
+6	att	att	SCONJ	SN	_	9	mark	_	_
+7	Maxi	_	PROPN	PM	Case=Nom	9	nsubj	_	_
+8	Pereira	_	PROPN	PM	Case=Nom	7	flat:name	_	_
+9	går	gå	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	_
+10	från	från	ADP	PP	_	11	case	_	_
+11	Benfica	_	PROPN	PM	Case=Nom	9	obl	_	_
+12	till	till	ADP	PP	_	13	case	_	_
+13	Porto	_	PROPN	PM	Case=Nom	9	obl	_	SpaceAfter=No
+14	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2200750
+# text = Långt?
+# date = 2008-06-17 19:19:53
+# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/24#anchor-m237
+# genre = internet_forum
+# x_sent_id = 0530ca066
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.8715426921844482
+1	Långt	lång|långt	ADVERB	AB	Degree=Pos	0	root	_	SpaceAfter=No
+2	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 200064
+# text = Hade den bland mina favoriter, men nu är den borta!
+# date = 2007-05-13 11:48:31
+# url = http://www.familjeliv.se/forum/thread/20684410-var-tog-traden-vagen/2#anchor-m13
+# genre = internet_forum
+# x_sent_id = b630f1a
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.6909952759742737
+1	Hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	den	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing	1	nsubj	_	_
+3	bland	bland	ADP	PP	_	5	case	_	_
+4	mina	jag	DET	PS	Definite=Def|Gender=Com,Neut|Number=Plur	5	amod	_	_
+5	favoriter	favorit	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	_	PUNCT	MID	_	9	punct	_	_
+7	men	men	CCONJ	KN	_	9	cc	_	_
+8	nu	nu	ADVERB	AB	_	9	advmod	_	_
+9	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+10	den	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+11	borta	borta	ADVERB	AB	_	9	advmod	_	SpaceAfter=No
+12	!	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 1400698
+# text = Det äldsta av barnen börjar i skolan i augusti och då kommer hon antagligen också bara vara hos pappan 78 dagar.
+# date = 2008-12-11 18:11:10
+# url = http://www.familjeliv.se/forum/thread/39101216-vad-kostar-ett-barn/5#anchor-m46
+# genre = internet_forum
+# x_sent_id = 8ab2feeb
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9146706461906433
+1	Det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	2	det	_	_
+2	äldsta	gammal	ADJ	JJ	Case=Nom|Definite=Def|Degree=Sup|Gender=Com,Neut|Number=Plur,Sing	5	nsubj	_	_
+3	av	av	ADP	PP	_	4	case	_	_
+4	barnen	barn	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	_
+5	börjar	börja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	i	i	ADP	PP	_	7	case	_	_
+7	skolan	skola	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obl	_	_
+8	i	i	ADP	PP	_	9	case	_	_
+9	augusti	augusti	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+10	och	och	CCONJ	KN	_	12	cc	_	_
+11	då	då	ADVERB	AB	_	12	advmod	_	_
+12	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	hon	hon	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
+14	antagligen	antagligen	ADVERB	AB	_	12	advmod	_	_
+15	också	också	ADVERB	AB	_	12	advmod	_	_
+16	bara	bara	ADVERB	AB	_	17	advmod	_	_
+17	vara	vara	VERB	VB	VerbForm=Inf|Voice=Act	12	xcomp	_	_
+18	hos	hos	ADP	PP	_	19	case	_	_
+19	pappan	pappa	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	obl	_	_
+20	78	_	NUM	RG	Case=Nom	21	nummod	_	_
+21	dagar	dag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obl	_	SpaceAfter=No
+22	.	_	PUNCT	MAD	_	5	punct	_	_
+
+# sent_id = 2000421
+# text = Det tar inte så lång tid, kanske 10-15 min.
+# date = 2004-12-02 20:01:28
+# url = http://www.familjeliv.se/forum/thread/1377910-erfarenheter-fran-kontrastrontgen/2#anchor-m12
+# genre = internet_forum
+# x_sent_id = d8f44dd4e
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9154274463653564
+1	Det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	tar	ta|ta tid	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	inte	inte	ADVERB	AB	_	2	advmod	_	_
+4	så	så	ADVERB	AB	_	5	advmod	_	_
+5	lång	lång	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+6	tid	tid|ta tid:2	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
+7	,	_	PUNCT	MID	_	6	punct	_	_
+8	kanske	kanske	ADVERB	AB	_	9	advmod	_	_
+9	10-15	_	NUM	RG	Case=Nom	10	nummod	_	_
+10	min	min	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	6	appos	_	SpaceAfter=No
+11	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1500461
+# text = Och skadade vår relation?
+# date = 2019-01-26 13:34:28
+# url = http://www.familjeliv.se/forum/thread/79395113-danny-saucedo-och-niello/1
+# genre = internet_forum
+# x_sent_id = 557b3521
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.7256909608840942
+1	Och	och	CCONJ	KN	_	2	cc	_	_
+2	skadade	skada	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	vår	vi	DET	PS	Definite=Def|Gender=Com|Number=Sing	4	nmod:poss	_	_
+4	relation	relation	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1700959
+# text = Carolin83 (1) 18.
+# date = 2005-11-28 11:59:01
+# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/11#anchor-m104
+# genre = internet_forum
+# x_sent_id = b170868e
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.9293631911277771
+1	Carolin83	_	PROPN	PM	Case=Nom	0	root	_	_
+2	(	_	PUNCT	PAD	_	1	punct	_	SpaceAfter=No
+3	1	_	NUM	RG	Case=Nom	1	list	_	SpaceAfter=No
+4	)	_	PUNCT	PAD	_	1	punct	_	_
+5	18	_	NUM	RG	Case=Nom	1	list	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 1600382
+# text = Typ fem minuter intensivt tuttande sen är han nöjd i två timmar.
+# date = 2009-01-13 21:08:40
+# url = http://www.familjeliv.se/forum/thread/39647119-harligt-gang-tjattrar-vidare-del-3/9#anchor-m90
+# genre = internet_forum
+# x_sent_id = 5ef66ea43
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8268671035766602
+1	Typ	typ	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+2	fem	fem	NUM	RG	Case=Nom	3	nummod	_	_
+3	minuter	minut	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	_	_
+4	intensivt	intensiv	ADVERB	AB	Degree=Pos	5	advmod	_	_
+5	tuttande	_	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	3	acl	_	_
+6	sen	sen	ADVERB	AB	_	5	advmod	_	_
+7	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
+9	nöjd	nöjd	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+10	i	i	ADP	PP	_	12	case	_	_
+11	två	två	NUM	RG	Case=Nom	12	nummod	_	_
+12	timmar	timme	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	_	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 1900436
+# text = Lite liv finns det allt.
+# date = 2006-12-20 18:54:05
+# url = http://www.familjeliv.se/forum/thread/14408841-vasterasgrabbar-som-vill-aktivera-sig/1#anchor-m6
+# genre = internet_forum
+# x_sent_id = c58db35
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.769153356552124
+1	Lite	lite	ADVERB	AB	Degree=Pos	2	amod	_	_
+2	liv	liv	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	_
+3	finns	finna|finnas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+5	allt	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 1300288
+# text = Och så turas ni om att varannan vecka hitta på något tex.middag, bowling, picknick, gå på fotbollsmatch, gå o shoppa o fika, bio, stats- el skogspromenad, baka tillsammans, simma, massera varandra...ja du förstår vad jag menar.
+# date = 2004-04-07 18:53:10
+# url = http://www.familjeliv.se/forum/thread/313845-gemensamt-intresse/2#anchor-m15
+# genre = internet_forum
+# x_sent_id = a68ea40dc
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.7629081010818481
+1	Och	och	CCONJ	KN	_	3	cc	_	_
+2	så	så	ADVERB	AB	_	3	advmod	_	_
+3	turas	_	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ni	ni	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj:pass	_	_
+5	om	om	ADP	PP	_	9	mark	_	_
+6	att	att	PART	IE	_	9	mark	_	_
+7	varannan	varannan	DET	DT	Definite=Ind|Gender=Com|Number=Sing	8	case	_	_
+8	vecka	vecka	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
+9	hitta	hitta	VERB	VB	VerbForm=Inf|Voice=Act	3	advcl	_	_
+10	på	på	ADP	PP	_	12	case	_	_
+11	något	någon	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	12	advmod	_	_
+12	tex.middag	_	NOUN	NN	Abbr=Yes	9	obl	_	SpaceAfter=No
+13	,	_	PUNCT	MID	_	14	punct	_	_
+14	bowling	bowling	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	_	PUNCT	MID	_	16	punct	_	_
+16	picknick	picknick	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	conj	_	SpaceAfter=No
+17	,	_	PUNCT	MID	_	18	punct	_	_
+18	gå	gå	VERB	VB	VerbForm=Inf|Voice=Act	12	conj	_	_
+19	på	på	ADP	PP	_	20	case	_	_
+20	fotbollsmatch	fotbollsmatch	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	_	PUNCT	MID	_	22	punct	_	_
+22	gå	gå	VERB	VB	VerbForm=Inf|Voice=Act	12	conj	_	_
+23	o	o	CCONJ	KN	_	24	cc	_	_
+24	shoppa	shoppa	VERB	VB	VerbForm=Inf|Voice=Act	22	conj	_	_
+25	o	o	CCONJ	KN	_	26	punct	_	_
+26	fika	fika	VERB	VB	VerbForm=Inf|Voice=Act	12	conj	_	SpaceAfter=No
+27	,	_	PUNCT	MID	_	28	punct	_	_
+28	bio	bio	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	conj	_	SpaceAfter=No
+29	,	_	PUNCT	MID	_	30	punct	_	_
+30	stats-	stat	NOUN	NN	Compound=Yes|Gender=Com	12	conj	_	_
+31	el	_	CCONJ	KN	_	32	cc	_	_
+32	skogspromenad	skogspromenad	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	conj	_	SpaceAfter=No
+33	,	_	PUNCT	MID	_	34	punct	_	_
+34	baka	baka	VERB	VB	VerbForm=Inf|Voice=Act	12	conj	_	_
+35	tillsammans	tillsammans	ADVERB	AB	_	34	compound:prt	_	SpaceAfter=No
+36	,	_	PUNCT	MID	_	37	punct	_	_
+37	simma	simma	VERB	VB	VerbForm=Inf|Voice=Act	12	conj	_	SpaceAfter=No
+38	,	_	PUNCT	MID	_	39	punct	_	_
+39	massera	massera	VERB	VB	VerbForm=Inf|Voice=Act	34	conj	_	_
+40	varandra	varandra	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur	39	obj	_	SpaceAfter=No
+41	...	_	PUNCT	MID	_	3	punct	_	SpaceAfter=No
+42	ja	ja	INTJ	IN	_	44	nummod	_	_
+43	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	44	nsubj	_	_
+44	förstår	förstå	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+45	vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	47	obj	_	_
+46	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	47	nsubj	_	_
+47	menar	mena	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	44	advcl	_	SpaceAfter=No
+48	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 3500584
+# text = Sen kan även tjejer som är betydligt mulligare än Kim vara riktigt heta.
+# date = 2010-04-15 01:01
+# url = https://www.flashback.org/p22537624#p22537624
+# genre = internet_forum
+# x_sent_id = 3ff0906f
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.7966341972351074
+1	Sen	sen	ADVERB	AB	_	2	advmod	_	_
+2	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	även	även	ADVERB	AB	_	2	advmod	_	_
+4	tjejer	tjej	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nsubj	_	_
+5	som	_	PRON	HP	_	6	nsubj	_	_
+6	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+7	betydligt	betydlig	ADVERB	AB	_	8	advmod	_	_
+8	mulligare	mullig	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Cmp|Gender=Com,Neut|Number=Plur,Sing	6	xcomp	_	_
+9	än	_	CCONJ	KN	_	10	case	_	_
+10	Kim	Kim	PROPN	PM	Case=Nom	11	nsubj	_	_
+11	vara	vara	VERB	VB	VerbForm=Inf|Voice=Act	2	advcl	_	_
+12	riktigt	riktig	ADVERB	AB	_	13	advmod	_	_
+13	heta	het	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	11	xcomp	_	SpaceAfter=No
+14	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2800945
+# text = Förr var det lika med skyltsöndagen, först då kom all julpynt upp och julhandeln startade, idag startar julhandeln senast i september.
+# date = 2019-11-12 09:13
+# url = https://www.flashback.org/p69272677#p69272677
+# genre = internet_forum
+# x_sent_id = bd33c112a
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9639886617660522
+1	Förr	förr	ADVERB	AB	_	2	advmod	_	_
+2	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	lika	lika	ADVERB	AB	_	2	advmod	_	_
+5	med	med	ADP	PP	_	4	fixed	_	_
+6	skyltsöndagen	skyltsöndag	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	_	PUNCT	MID	_	2	punct	_	_
+8	först	först	ADVERB	AB	_	9	advmod	_	_
+9	då	då	ADVERB	AB	_	10	advmod	_	_
+10	kom	komma|komma upp	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+11	all	all	DET	DT	Definite=Def,Ind|Gender=Com|Number=Sing	10	nsubj	_	_
+12	julpynt	julpynt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	_
+13	upp	upp|komma upp:10	ADVERB	AB	_	10	advmod	_	_
+14	och	och	CCONJ	KN	_	16	cc	_	_
+15	julhandeln	julhandel	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+16	startade	starta	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
+17	,	_	PUNCT	MID	_	2	punct	_	_
+18	idag	idag	ADVERB	AB	_	19	advmod	_	_
+19	startar	starta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+20	julhandeln	julhandel	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nsubj	_	_
+21	senast	sen|senast	ADVERB	AB	Degree=Sup	23	case	_	_
+22	i	i	ADP	PP	_	23	case	_	_
+23	september	september	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1700987
+# text = 12.
+# date = 2005-12-15 18:18:04
+# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/50#anchor-m492
+# genre = internet_forum
+# x_sent_id = b17afa01
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.9357349872589111
+1	12	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
+2	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 1900740
+# text = Jag kommer att köra på bana snart.
+# date = 2009-07-19 14:02:25
+# url = http://www.familjeliv.se/forum/thread/45495451-vad-har-ni-for-intressen/3#anchor-m22
+# genre = internet_forum
+# x_sent_id = c5b38a3
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9462123513221741
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	att	att	PART	IE	_	4	mark	_	_
+4	köra	köra	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	på	på	ADP	PP	_	6	case	_	_
+6	bana	bana	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
+7	snart	snar|snart	ADVERB	AB	Degree=Pos	4	advmod	_	SpaceAfter=No
+8	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 700020
+# text = Har bokat boende på Summer House.
+# date = 2007-01-06 13:47:36
+# url = http://www.familjeliv.se/forum/thread/15689211-thailand-vintern-20062007/8#anchor-m75
+# genre = internet_forum
+# x_sent_id = 6bb5fa1c
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.934848427772522
+1	Har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	bokat	boka	VERB	VB	VerbForm=Sup|Voice=Act	1	xcomp	_	_
+3	boende	boende	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	_
+4	på	på	ADP	PP	_	6	case	_	_
+5	Summer	_	PROPN	PM	Case=Nom	6	nmod	_	_
+6	House	_	PROPN	PM	Case=Nom	2	obl	_	SpaceAfter=No
+7	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2600006
+# text = Avstängd i en vecka.
+# date = 2016-05-31 16:38
+# url = https://www.flashback.org/p57436196#p57436196
+# genre = internet_forum
+# x_sent_id = 4eb37085
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.5388697981834412
+1	Avstängd	avstänga|stänga av	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	i	i	ADP	PP	_	4	case	_	_
+3	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	4	nummod	_	_
+4	vecka	vecka	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	SpaceAfter=No
+5	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 400231
+# text = Därtill några mollyyngel och guppy , samt två små " afghaner " ( randiga fiskar som jag inte vet det riktiga namnet på men afghaner kallades de för i butiken i alla fall . )
+# date = 2012-08-23 04:21:23
+# url = http://www.familjeliv.se/forum/thread/66333908-hjalp-mig-med-fredliga-fiskar-som-ser-fina-ut-tillsamms-och-utan-att-det-blir-fisksoppa/1
+# genre = internet_forum
+# x_sent_id = c7f0582
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9655133485794067
+1	Därtill	därtill	ADVERB	AB	_	3	advmod	_	_
+2	några	någon	DET	DT	Definite=Ind|Gender=Com,Neut|Number=Plur	3	det	_	_
+3	mollyyngel	mollyyngel	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
+4	och	och	CCONJ	KN	_	5	cc	_	_
+5	guppy	guppy	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	_
+6	,	_	PUNCT	MID	_	3	punct	_	_
+7	samt	samt	CCONJ	KN	_	11	cc	_	_
+8	två	två	NUM	RG	Case=Nom	11	nummod	_	_
+9	små	liten	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	11	amod	_	_
+10	"	_	PUNCT	PAD	_	11	punct	_	_
+11	afghaner	afghan	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	conj	_	_
+12	"	_	PUNCT	PAD	_	11	punct	_	_
+13	(	_	PUNCT	PAD	_	11	punct	_	_
+14	randiga	randig	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	15	amod	_	_
+15	fiskar	fisk	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	appos	_	_
+16	som	_	PRON	HP	_	19	obl	_	_
+17	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nsubj	_	_
+18	inte	inte	ADVERB	AB	_	19	advmod	_	_
+19	vet	veta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	22	det	_	_
+21	riktiga	riktig	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	22	amod	_	_
+22	namnet	namn	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	obj	_	_
+23	på	på	ADP	PP	_	16	case	_	_
+24	men	men	CCONJ	KN	_	26	cc	_	_
+25	afghaner	afghan	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	26	nsubj:pass	_	_
+26	kallades	kalla	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	_
+27	de	de	PRON	PN	Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur	26	nsubj:pass	_	_
+28	för	för	ADP	PP	_	30	case	_	_
+29	i	i	ADP	PP	_	30	case	_	_
+30	butiken	butik	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obl	_	_
+31	i	i|i alla fall	ADP	PP	_	33	case	_	_
+32	alla	all|i alla fall:31	DET	DT	Definite=Def,Ind|Gender=Com,Neut|Number=Plur	33	det	_	_
+33	fall	fall|i alla fall:31	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	26	obl	_	_
+34	.	_	PUNCT	MAD	_	3	punct	_	_
+35	)	_	PUNCT	PAD	_	3	punct	_	_
+
+# sent_id = 2100215
+# text = Kanske inte samma dag men generellt ökar sexlusten när kvinnor har sex och ju längre det går mellan sexet så minskar lusten.
+# date = 2012-10-25 09:03:06
+# url = http://www.familjeliv.se/forum/thread/67237911-min-fru-porrsurfar-villradig-men-pilsk/2#anchor-m16
+# genre = internet_forum
+# x_sent_id = 14e62e48f
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8947701454162598
+1	Kanske	kanske	ADVERB	AB	_	0	root	_	_
+2	inte	inte	ADVERB	AB	_	1	advmod	_	_
+3	samma	samma	DET	DT	Definite=Ind|Gender=Com,Neut|Number=Plur,Sing	4	det	_	_
+4	dag	dag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	_
+5	men	men	CCONJ	KN	_	7	cc	_	_
+6	generellt	generell	ADVERB	AB	Degree=Pos	7	advmod	_	_
+7	ökar	öka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	sexlusten	sexlust	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
+9	när	när	ADVERB	HA	_	11	mark	_	_
+10	kvinnor	kvinna	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nsubj	_	_
+11	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+12	sex	sex	NUM	RG	Case=Nom	11	obj	_	_
+13	och	och	CCONJ	KN	_	21	cc	_	_
+14	ju	_	CCONJ	KN	_	15	advmod	_	_
+15	längre	länge|längre|lång	ADVERB	AB	Degree=Cmp	17	advmod	_	_
+16	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	går	gå	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+18	mellan	mellan	ADP	PP	_	19	case	_	_
+19	sexet	sex	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	_
+20	så	så	ADVERB	AB	_	21	advcl	_	_
+21	minskar	minska	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+22	lusten	lust	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	_	PUNCT	MAD	_	21	punct	_	_
+
+# sent_id = 2600489
+# text = Missbruk av multipla konton är förbjudet
+# date = 2010-01-17 14:54
+# url = https://www.flashback.org/p20949836#p20949836
+# genre = internet_forum
+# x_sent_id = 4ebef7b0
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.5669782757759094
+1	Missbruk	missbruk	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	av	av	ADP	PP	_	4	case	_	_
+3	multipla	multipel	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	4	amod	_	_
+4	konton	konto	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	_
+5	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	förbjudet	förbjuda|förbjuden	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+
+# sent_id = 800112
+# text = skulle aldrig göra om det.
+# date = 2010-02-20 14:08:32
+# url = http://www.familjeliv.se/forum/thread/50891871-individualisera-foraldraforsakringen/5#anchor-m50
+# genre = internet_forum
+# x_sent_id = 7332f5d4
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.5838192105293274
+1	skulle	skola	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	aldrig	aldrig	ADVERB	AB	_	1	advmod	_	_
+3	göra	göra	VERB	VB	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+4	om	om	ADP	PP	_	5	case	_	_
+5	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 3300029
+# text = Din kropp kommer att bli plundrad på organ som går att sälja, dina ägodelar på hotellrummet kommer få nya ägare, och din kropp kommer att ruttna och bli uppäten av alla dessa olika insekter i en grop utanför staden....
+# date = 2014-06-13 18:16
+# url = https://www.flashback.org/p49176449#p49176449
+# genre = internet_forum
+# x_sent_id = e8fb0aff
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.5672020316123962
+1	Din	Du|du	DET	PS	Definite=Def|Gender=Com|Number=Sing	2	amod	_	_
+2	kropp	kropp	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	_
+3	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	att	att	PART	IE	_	5	mark	_	_
+5	bli	bli	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	plundrad	plundra	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+7	på	på	ADP	PP	_	8	case	_	_
+8	organ	organ	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	_
+9	som	_	PRON	HP	_	10	nsubj	_	_
+10	går	gå	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+11	att	att	PART	IE	_	12	mark	_	_
+12	sälja	sälja	VERB	VB	VerbForm=Inf|Voice=Act	10	advcl	_	SpaceAfter=No
+13	,	_	PUNCT	MID	_	18	punct	_	_
+14	dina	du	DET	PS	Definite=Def|Gender=Com,Neut|Number=Plur	15	det	_	_
+15	ägodelar	ägodel	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nsubj	_	_
+16	på	på	ADP	PP	_	17	case	_	_
+17	hotellrummet	hotellrum	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	_
+18	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+19	få	få	VERB	VB	VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	nya	ny	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	21	amod	_	_
+21	ägare	ägare	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	obj	_	SpaceAfter=No
+22	,	_	PUNCT	MID	_	26	punct	_	_
+23	och	och	CCONJ	KN	_	26	cc	_	_
+24	din	du	DET	PS	Definite=Def|Gender=Com|Number=Sing	25	nmod:poss	_	_
+25	kropp	kropp	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	nsubj	_	_
+26	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+27	att	att	PART	IE	_	28	mark	_	_
+28	ruttna	ruttna	VERB	VB	VerbForm=Inf|Voice=Act	26	advcl	_	_
+29	och	och	CCONJ	KN	_	30	cc	_	_
+30	bli	bli	VERB	VB	VerbForm=Inf|Voice=Act	28	conj	_	_
+31	uppäten	uppäta|äta upp	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+32	av	av	ADP	PP	_	36	case	_	_
+33	alla	all	DET	DT	Definite=Def,Ind|Gender=Com,Neut|Number=Plur	36	det	_	_
+34	dessa	denna	DET	DT	Definite=Def|Gender=Com,Neut|Number=Plur	36	det	_	_
+35	olika	olik	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	36	amod	_	_
+36	insekter	insekt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	31	obl:agent	_	_
+37	i	i	ADP	PP	_	39	case	_	_
+38	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	39	det	_	_
+39	grop	grop	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	obl	_	_
+40	utanför	utanför	ADP	PP	_	41	case	_	_
+41	staden	stad	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	39	nmod	_	SpaceAfter=No
+42	....	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 3100572
+# text = Personligen brukar jag köpa en dosa catch nånting med eukalyptussmak när jag ska åka buss..det smakar inte mycket snus direkt och rinner inte så mkt att man får äckel i halsen.
+# date = 2011-07-26 12:06
+# url = https://www.flashback.org/p31877779#p31877779
+# genre = internet_forum
+# x_sent_id = 362a26a2
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9506792426109314
+1	Personligen	personligen	ADVERB	AB	_	2	advmod	_	_
+2	brukar	bruka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+4	köpa	köpa	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	6	det	_	_
+6	dosa	dosa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	_	_
+7	catch	_	VERB	VB	Mood=Ind|VerbForm=Fin|Voice=Act	4	xcomp	_	_
+8	nånting	nånting	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	_
+9	med	med	ADP	PP	_	10	case	_	_
+10	eukalyptussmak	eukalyptussmak	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	_
+11	när	när	ADVERB	HA	_	13	advmod	_	_
+12	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nsubj	_	_
+13	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+14	åka	åka	VERB	VB	VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	buss	buss	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj	_	SpaceAfter=No
+16	..	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
+17	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	smakar	smaka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+19	inte	inte	ADVERB	AB	_	18	advmod	_	_
+20	mycket	_	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	snus	snus	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	nsubj	_	_
+22	direkt	direkt	ADVERB	AB	Degree=Pos	18	advmod	_	_
+23	och	och	CCONJ	KN	_	24	cc	_	_
+24	rinner	rinna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+25	inte	inte	ADVERB	AB	_	24	advmod	_	_
+26	så	så	ADVERB	AB	_	27	advmod	_	_
+27	mkt	_	ADVERB	AB	_	24	advmod	_	_
+28	att	att	SCONJ	SN	_	30	mark	_	_
+29	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	nsubj	_	_
+30	får	få	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_
+31	äckel	äckel	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	30	obj	_	_
+32	i	i	ADP	PP	_	33	case	_	_
+33	halsen	hals	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2900137
+# text = Ni som tycker att detta kan klassas som humor,är ni småbarnsföraldrar eller sinnessjuka alternativt pedofiler?
+# date = 2008-01-31 01:20
+# url = https://www.flashback.org/p9822557#p9822557
+# genre = internet_forum
+# x_sent_id = 631c18698
+# speech_act = question
+# sentiment_label = negative
+# sentiment_score = 0.8915783762931824
+1	Ni	Ni|ni	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	_
+2	som	_	PRON	HP	_	3	nsubj	_	_
+3	tycker	tycka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+4	att	att	SCONJ	SN	_	6	mark	_	_
+5	detta	denna	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+7	klassas	klassa	VERB	VB	VerbForm=Inf|Voice=Pass	6	xcomp	_	_
+8	som	_	CCONJ	KN	_	9	cc	_	_
+9	humor	humor	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	,	_	PUNCT	MID	_	11	punct	_	SpaceAfter=No
+11	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	ni	ni	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	_
+13	småbarnsföraldrar	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	obj	_	_
+14	eller	eller	CCONJ	KN	_	15	cc	_	_
+15	sinnessjuka	sinnessjuk	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	13	conj	_	_
+16	alternativt	alternativ	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	pedofiler	pedofil	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	obj	_	SpaceAfter=No
+18	?	_	PUNCT	MAD	_	11	punct	_	_
+
+# sent_id = 2800843
+# text = Då kommer det bli lättare att få honom vräkt, vilket han gjort sig förtjänt av flera gånger om... I morgon är det ni som går till polisen och anmäler gubben!
+# date = 2009-01-11 23:55
+# url = https://www.flashback.org/p14572835#p14572835
+# genre = internet_forum
+# x_sent_id = bd33bcdef
+# speech_act = directive
+# sentiment_label = negative
+# sentiment_score = 0.7122151255607605
+1	Då	då	ADVERB	AB	_	2	advmod	_	_
+2	kommer	komma	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
+4	bli	bli	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	lättare	lätt	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Cmp|Gender=Com,Neut|Number=Plur,Sing	4	xcomp	_	_
+6	att	att	PART	IE	_	7	mark	_	_
+7	få	få	VERB	VB	VerbForm=Inf|Voice=Act	4	csubj	_	_
+8	honom	han	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	7	obj	_	_
+9	vräkt	vräka	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	SpaceAfter=No
+10	,	_	PUNCT	MID	_	2	punct	_	_
+11	vilket	_	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	_
+12	han	han	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nsubj	_	_
+13	gjort	göra|göra sig	VERB	VB	VerbForm=Sup|Voice=Act	4	appos	_	_
+14	sig	sig|göra sig:13	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	13	obj	_	_
+15	förtjänt	förtjänt	ADVERB	AB	Degree=Pos	13	xcomp	_	_
+16	av	av	ADP	PP	_	18	case	_	_
+17	flera	_	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	18	amod	_	_
+18	gånger	gång	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	obl	_	_
+19	om	om	ADP	PP	_	11	case	_	SpaceAfter=No
+20	...	_	PUNCT	MID	_	2	punct	_	_
+21	I	i|i morgon	ADP	PP	_	23	advmod	_	_
+22	morgon	morgon|i morgon:21	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	fixed	_	_
+23	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+24	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	23	expl	_	_
+25	ni	ni	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	_
+26	som	_	PRON	HP	_	27	advmod	_	_
+27	går	gå	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	csubj	_	_
+28	till	till	ADP	PP	_	29	case	_	_
+29	polisen	polis	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	27	obl	_	_
+30	och	och	CCONJ	KN	_	31	cc	_	_
+31	anmäler	anmäla	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	_
+32	gubben	gubbe	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	31	obj	_	SpaceAfter=No
+33	!	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1400985
+# text = En tredje är mulitmiljonär och lever ett jet set liv i Florida.
+# date = 2010-02-27 11:58:07
+# url = http://www.familjeliv.se/forum/thread/51024728-hur-gora-for-att-sarkullbarnet-inte-ska-arva-huset/31#anchor-m303
+# genre = internet_forum
+# x_sent_id = 8ab2d1d6
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8448244333267212
+1	En	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	2	det	_	_
+2	tredje	_	ADJ	RO	Case=Nom	3	nsubj	_	_
+3	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	mulitmiljonär	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
+5	och	och	CCONJ	KN	_	6	cc	_	_
+6	lever	leva	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+7	ett	en	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	8	det	_	_
+8	jet	jet|jet set	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	_
+9	set	set|jet set:8	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	_
+10	liv	liv	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	_
+11	i	i	ADP	PP	_	12	case	_	_
+12	Florida	Florida	PROPN	PM	Case=Nom	6	obl	_	SpaceAfter=No
+13	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 1600497
+# text = Och när A är gnällig så blir jag och M sura på varann - nedåtgående spiral... iofs har ju A varit förkyld så då blir det jobbigare.
+# date = 2008-02-23 18:58:45
+# url = http://www.familjeliv.se/forum/thread/28676800-visparnas-trad-6/125#anchor-m1247
+# genre = internet_forum
+# x_sent_id = 5ef6d181e
+# speech_act = expressive
+# sentiment_label = negative
+# sentiment_score = 0.5791450142860413
+1	Och	och	CCONJ	KN	_	7	cc	_	_
+2	när	när	ADVERB	HA	_	4	advmod	_	_
+3	A	A|a	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	dislocated	_	_
+5	gnällig	gnällig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	xcomp	_	_
+6	så	så	ADVERB	AB	_	7	advcl	_	_
+7	blir	bli	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
+9	och	och	CCONJ	KN	_	10	cc	_	_
+10	M	_	PROPN	PM	Case=Nom	8	conj	_	_
+11	sura	sur	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	7	xcomp	_	_
+12	på	på	ADP	PP	_	13	case	_	_
+13	varann	varann	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur	7	obl	_	_
+14	-	_	PUNCT	MID	_	7	punct	_	_
+15	nedåtgående	nedåtgående	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	16	amod	_	_
+16	spiral	spiral	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	parataxis	_	SpaceAfter=No
+17	...	_	PUNCT	MID	_	7	punct	_	_
+18	iofs	_	INTJ	IN	_	19	advmod	_	_
+19	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+20	ju	ju	ADVERB	AB	_	19	advmod	_	_
+21	A	A|a	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	nsubj	_	_
+22	varit	vara	VERB	VB	VerbForm=Sup|Voice=Act	19	xcomp	_	_
+23	förkyld	förkyld	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	_
+24	så	så	ADVERB	AB	_	26	mark	_	_
+25	då	då	ADVERB	AB	_	26	advmod	_	_
+26	blir	bli	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+27	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	26	nsubj	_	_
+28	jobbigare	jobbig	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Cmp|Gender=Com,Neut|Number=Plur,Sing	26	xcomp	_	SpaceAfter=No
+29	.	_	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 1600070
+# text = Är det dumt att hålla kvar?
+# date = 2016-09-29 17:18:21
+# url = http://www.familjeliv.se/forum/thread/77010941-angest-over-forhallande/1
+# genre = internet_forum
+# x_sent_id = b34f8f0
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9087501168251038
+1	Är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	1	expl	_	_
+3	dumt	dum	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	xcomp	_	_
+4	att	att	PART	IE	_	5	mark	_	_
+5	hålla	hålla|hålla kvar	VERB	VB	VerbForm=Inf|Voice=Act	1	csubj	_	_
+6	kvar	kvar|hålla kvar:5	PART	PL	_	5	compound:prt	_	SpaceAfter=No
+7	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2100172
+# text = Smiskas bör göras med omsorg och grundligt...
+# date = 2008-08-23 19:30:41
+# url = http://www.familjeliv.se/forum/thread/35518066-vad-tander-du-pa-mest-av-dessa-alternativ/5#anchor-m47
+# genre = internet_forum
+# x_sent_id = 14e66e222
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8492445349693298
+1	Smiskas	_	PROPN	PM	Case=Nom	2	nsubj	_	_
+2	bör	böra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	göras	göra	VERB	VB	VerbForm=Inf|Voice=Pass	2	xcomp	_	_
+4	med	med	ADP	PP	_	5	case	_	_
+5	omsorg	omsorg	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
+6	och	och	CCONJ	KN	_	7	cc	_	_
+7	grundligt	grundlig	ADVERB	AB	Degree=Pos	5	conj	_	SpaceAfter=No
+8	...	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2100444
+# text = Har inte läst hela tråden än men kunde inte låta bli att svara redan nu.
+# date = 2015-07-03 02:08:39
+# url = http://www.familjeliv.se/forum/thread/75483004-inget-sex-pa-fem-ar/5#anchor-m46
+# genre = internet_forum
+# x_sent_id = 14e68ded4
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9618942737579346
+1	Har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	inte	inte	ADVERB	AB	_	1	advmod	_	_
+3	läst	läsa	VERB	VB	VerbForm=Sup|Voice=Act	1	xcomp	_	_
+4	hela	hel	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	5	amod	_	_
+5	tråden	tråd	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obj	_	_
+6	än	_	CCONJ	KN	_	3	advmod	_	_
+7	men	men	CCONJ	KN	_	8	cc	_	_
+8	kunde	kunna	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+9	inte	inte	ADVERB	AB	_	8	advmod	_	_
+10	låta	låta|låta bli	VERB	VB	VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	bli	bli|låta bli:10	VERB	VB	VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	att	att	PART	IE	_	13	mark	_	_
+13	svara	svara	VERB	VB	VerbForm=Inf|Voice=Act	11	advcl	_	_
+14	redan	redan	ADVERB	AB	_	15	advmod	_	_
+15	nu	nu	ADVERB	AB	_	13	advmod	_	SpaceAfter=No
+16	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2200187
+# text = Jag tycker du ska testa rentalen om du kan köpa den receptfritt i Finland.Pröva i 2 månader och mät slemhinnan några gånger och se om det hjälper, innan du kör igång en riktig behandling igen.
+# date = 2009-02-15 19:16:18
+# url = http://www.familjeliv.se/forum/thread/40625222-sleepings-nya-trad-om-det-mesta-nr-3/17#anchor-m162
+# genre = internet_forum
+# x_sent_id = 05303935b
+# speech_act = directive
+# sentiment_label = neutral
+# sentiment_score = 0.9114591479301453
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	tycker	tycka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
+4	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+5	testa	testa	VERB	VB	VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	rentalen	rental	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	obj	_	_
+7	om	om	SCONJ	SN	_	9	mark	_	_
+8	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	köpa	köpa	VERB	VB	VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	den	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing	10	obj	_	_
+12	receptfritt	receptfri	ADVERB	AB	Degree=Pos	10	advmod	_	_
+13	i	i	ADP	PP	_	14	case	_	_
+14	Finland.Pröva	_	NOUN	NN	Abbr=Yes	12	obl	_	_
+15	i	i	ADP	PP	_	17	case	_	_
+16	2	_	NUM	RG	Case=Nom	17	nummod	_	_
+17	månader	månad	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obl	_	_
+18	och	och	CCONJ	KN	_	19	cc	_	_
+19	mät	mäta	VERB	VB	Mood=Imp|VerbForm=Fin|Voice=Act	9	conj	_	_
+20	slemhinnan	slemhinna	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	obj	_	_
+21	några	någon	DET	DT	Definite=Ind|Gender=Com,Neut|Number=Plur	22	nummod	_	_
+22	gånger	gång	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	obl	_	_
+23	och	och	CCONJ	KN	_	24	cc	_	_
+24	se	se|se om	VERB	VB	VerbForm=Inf|Voice=Act	19	conj	_	_
+25	om	om|se om:24	SCONJ	SN	_	27	mark	_	_
+26	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	27	nsubj	_	_
+27	hjälper	hjälpa	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	SpaceAfter=No
+28	,	_	PUNCT	MID	_	27	punct	_	_
+29	innan	innan	SCONJ	SN	_	31	mark	_	_
+30	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	31	nsubj	_	_
+31	kör	köra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
+32	igång	igång	PART	PL	_	31	compound:prt	_	_
+33	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	35	det	_	_
+34	riktig	riktig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	35	amod	_	_
+35	behandling	behandling	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	obj	_	_
+36	igen	igen	ADVERB	AB	_	31	advmod	_	SpaceAfter=No
+37	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2800949
+# text = Kanske får lämna in dem för sprutlackering ändå, då blir det iaf.
+# date = 2010-04-23 14:58
+# url = https://www.flashback.org/p22700073#p22700073
+# genre = internet_forum
+# x_sent_id = bd33fdb71
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9544811844825745
+1	Kanske	kanske	ADVERB	AB	_	2	advmod	_	_
+2	får	få	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	lämna	lämna|lämna in	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	in	in|lämna in:3	PART	PL	_	3	compound:prt	_	_
+5	dem	de	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur	3	obj	_	_
+6	för	för	ADP	PP	_	7	case	_	_
+7	sprutlackering	sprutlackering	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
+8	ändå	ändå	ADVERB	AB	_	3	advmod	_	SpaceAfter=No
+9	,	_	PUNCT	MID	_	2	punct	_	_
+10	då	då	ADVERB	AB	_	11	advmod	_	_
+11	blir	bli	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	_
+13	iaf	_	ADVERB	AB	_	11	advmod	_	SpaceAfter=No
+14	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3500228
+# text = Jag låter dock inte min sexualitet styra över hela mitt liv, och definitivt inte över mina politiska åsikter.
+# date = 2016-07-07 18:59
+# url = https://www.flashback.org/p57793577#p57793577
+# genre = internet_forum
+# x_sent_id = 3ffe741a
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8648133277893066
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	låter	låta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	dock	dock	ADVERB	AB	_	2	advmod	_	_
+4	inte	inte	ADVERB	AB	_	2	advmod	_	_
+5	min	jag	DET	PS	Definite=Def|Gender=Com|Number=Sing	6	amod	_	_
+6	sexualitet	sexualitet	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
+7	styra	styra	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+8	över	över	ADP	PP	_	11	case	_	_
+9	hela	hel	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	11	amod	_	_
+10	mitt	jag	DET	PS	Definite=Def|Gender=Neut|Number=Sing	11	amod	_	_
+11	liv	liv	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	_	PUNCT	MID	_	19	punct	_	_
+13	och	och	CCONJ	KN	_	19	cc	_	_
+14	definitivt	definitiv	ADVERB	AB	Degree=Pos	15	advmod	_	_
+15	inte	inte	ADVERB	AB	_	19	advmod	_	_
+16	över	över	ADP	PP	_	19	case	_	_
+17	mina	jag	DET	PS	Definite=Def|Gender=Com,Neut|Number=Plur	19	det	_	_
+18	politiska	politisk	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	19	amod	_	_
+19	åsikter	åsikt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	_	SpaceAfter=No
+20	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3700559
+# text = Man kan ju iofs kolla gram blp, men det är ju lite olika kvalitet på blp:t från märke till märke
+# date = 2015-01-05 22:15
+# url = https://www.flashback.org/p51757723#p51757723
+# genre = internet_forum
+# x_sent_id = 188ef986d
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9725221991539001
+1	Man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
+2	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ju	ju|ju ju	ADVERB	AB	_	2	advmod	_	_
+4	iofs	_	ADVERB	AB	_	2	advmod	_	_
+5	kolla	kolla	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	gram	gram	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	_
+7	blp	_	ADVERB	AB	_	5	advmod	_	SpaceAfter=No
+8	,	_	PUNCT	MID	_	11	punct	_	_
+9	men	men	CCONJ	KN	_	11	cc	_	_
+10	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	11	expl	_	_
+11	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	ju	ju|ju ju:3	ADVERB	AB	_	11	advmod	_	_
+13	lite	lite	ADVERB	AB	Degree=Pos	14	advmod	_	_
+14	olika	olik	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Sing	15	amod	_	_
+15	kvalitet	kvalitet	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	_	_
+16	på	på	ADP	PP	_	17	case	_	_
+17	blp:t	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nmod	_	_
+18	från	från	ADP	PP	_	19	case	_	_
+19	märke	märke	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	_
+20	till	till	ADP	PP	_	21	case	_	_
+21	märke	märke	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	_
+
+# sent_id = 2600127
+# text = Användaren Ratsogs avstängd för 1.07.
+# date = 2012-07-21 12:48
+# url = https://www.flashback.org/p38425318#p38425318
+# genre = internet_forum
+# x_sent_id = 4ebe85dd
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.789811909198761
+1	Användaren	användare	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
+2	Ratsogs	_	PROPN	PM	Case=Gen	3	nsubj:pass	_	_
+3	avstängd	avstänga|stänga av	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	för	för	ADP	PP	_	5	case	_	_
+5	1.07	_	NUM	RG	Case=Nom	3	obl	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 2200827
+# text = BF 081216 Flower68, 40 år....
+# date = 2008-06-30 15:27:27
+# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/40#anchor-m394
+# genre = internet_forum
+# x_sent_id = 0530df6e3
+# speech_act = none
+# sentiment_label = neutral
+# sentiment_score = 0.9663602709770203
+1	BF	_	NOUN	NN	Abbr=Yes	2	nmod	_	_
+2	081216	_	NUM	RG	Case=Nom	0	root	_	_
+3	Flower68	_	NUM	RG	Case=Nom	2	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	MID	_	3	punct	_	_
+5	40	_	NUM	RG	Case=Nom	6	nummod	_	_
+6	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
+7	....	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1100770
+# text = Hälsn Nina
+# date = 2009-04-22 09:35:01
+# url = http://www.familjeliv.se/forum/thread/43145745-isadora-mineral-foundation/1#anchor-m4
+# genre = internet_forum
+# x_sent_id = fb9ab4e
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.9547905325889587
+1	Hälsn	_	INTJ	IN	_	2	nmod	_	_
+2	Nina	Nina	PROPN	PM	Case=Nom	0	root	_	_
+
+# sent_id = 3200856
+# text = Snart är det väl dags att börja registrera folk med avvikande politiska åsikter igen, så man har koll på de djävlarna menar jag.
+# date = 2004-10-16 02:11
+# url = https://www.flashback.org/p1428306#p1428306
+# genre = internet_forum
+# x_sent_id = 776541042
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.7091639041900635
+1	Snart	snar|snart	ADVERB	AB	Degree=Pos	2	advmod	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
+4	väl	väl	ADVERB	AB	_	2	advmod	_	_
+5	dags	dag|dags	NOUN	NN	Gender=Com	2	obl	_	_
+6	att	att	PART	IE	_	7	mark	_	_
+7	börja	börja	VERB	VB	VerbForm=Inf|Voice=Act	5	acl	_	_
+8	registrera	registrera	VERB	VB	VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	folk	folk	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	_
+10	med	med	ADP	PP	_	13	case	_	_
+11	avvikande	avvika|avvikande	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	13	amod	_	_
+12	politiska	politisk	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	13	amod	_	_
+13	åsikter	åsikt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	obl	_	_
+14	igen	igen	ADVERB	AB	_	8	advmod	_	SpaceAfter=No
+15	,	_	PUNCT	MID	_	2	punct	_	_
+16	så	så	CCONJ	KN	_	18	mark	_	_
+17	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nsubj	_	_
+18	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+19	koll	_	VERB	VB	VerbForm=Sup|Voice=Act	18	xcomp	_	_
+20	på	på	ADP	PP	_	22	case	_	_
+21	de	en	DET	DT	Definite=Def|Gender=Com,Neut|Number=Plur	22	det	_	_
+22	djävlarna	djävel|djävul	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	19	obl	_	_
+23	menar	mena	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+24	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	SpaceAfter=No
+25	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2400016
+# text = Finns inga som tävlar som använder synthol idag.
+# date = 2008-05-13 08:48
+# url = https://www.flashback.org/p11194994#p11194994
+# genre = internet_forum
+# x_sent_id = c28aedf4f
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.7454803586006165
+1	Finns	finna|finnas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	inga	ingen	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com,Neut|Number=Plur	1	nsubj:pass	_	_
+3	som	_	PRON	HP	_	4	advmod	_	_
+4	tävlar	tävla	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+5	som	_	PRON	HP	_	6	advmod	_	_
+6	använder	använda	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	xcomp	_	_
+7	synthol	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
+8	idag	idag	ADVERB	AB	_	6	advmod	_	SpaceAfter=No
+9	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 3500377
+# text = Sen finns det en grej som heter Google där en kan skriva in saker och få svar i stället för att bara kliva in på forum och kräva att få saker förklarat åt sig bara för att en är man.
+# date = 2017-02-24 00:50
+# url = https://www.flashback.org/p59991514#p59991514
+# genre = internet_forum
+# x_sent_id = 3ff6a010
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9021265506744385
+1	Sen	sen	ADVERB	AB	_	2	advmod	_	_
+2	finns	finna|finnas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
+4	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	5	det	_	_
+5	grej	grej	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj:pass	_	_
+6	som	_	PRON	HP	_	7	nsubj	_	_
+7	heter	heta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+8	Google	Google|google	PROPN	PM	Case=Nom	7	obj	_	_
+9	där	där	ADVERB	HA	_	11	advmod	_	_
+10	en	man	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	_	_
+11	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+12	skriva	skriva	VERB	VB	VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	in	in	PART	PL	_	12	compound:prt	_	_
+14	saker	sak	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obj	_	_
+15	och	och	CCONJ	KN	_	16	cc	_	_
+16	få	få	VERB	VB	VerbForm=Inf|Voice=Act	11	conj	_	_
+17	svar	svar	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	obj	_	_
+18	i	i|i stället|i stället för	ADP	PP	_	23	mark	_	_
+19	stället	ställ|ställe|i stället:18|i stället för:18	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	fixed	_	_
+20	för	för|i stället för:18	ADP	PP	_	18	fixed	_	_
+21	att	att	PART	IE	_	23	mark	_	_
+22	bara	bara	ADVERB	AB	_	23	advmod	_	_
+23	kliva	kliva	VERB	VB	VerbForm=Inf|Voice=Act	16	advcl	_	_
+24	in	in	PART	PL	_	23	compound:prt	_	_
+25	på	på	ADP	PP	_	26	case	_	_
+26	forum	forum	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	obl	_	_
+27	och	och	CCONJ	KN	_	28	cc	_	_
+28	kräva	kräva	VERB	VB	VerbForm=Inf|Voice=Act	23	conj	_	_
+29	att	att	PART	IE	_	30	mark	_	_
+30	få	få	VERB	VB	VerbForm=Inf|Voice=Act	28	xcomp	_	_
+31	saker	sak	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	30	obj	_	_
+32	förklarat	förklara	VERB	VB	VerbForm=Sup|Voice=Act	28	xcomp	_	_
+33	åt	_	PART	PL	_	32	compound:prt	_	_
+34	sig	sig	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	32	obj	_	_
+35	bara	bara	ADVERB	AB	_	39	advmod	_	_
+36	för	för	ADP	PP	_	39	mark	_	_
+37	att	att	SCONJ	SN	_	36	fixed	_	_
+38	en	man	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com|Number=Sing	39	nsubj	_	_
+39	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	_
+40	man	man	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	39	obj	_	SpaceAfter=No
+41	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 2000830
+# text = Jag var med och hjälpte till
+# date = 2008-01-22 14:30:43
+# url = http://www.familjeliv.se/forum/thread/29047763-lite-fragor-ang-att-starta-en-utredningtacksam-for-svar/1#anchor-m7
+# genre = internet_forum
+# x_sent_id = d8f46fcc7
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.6169803738594055
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	var	vara|vara med	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	med	med|vara med:2	PART	PL	_	2	compound:prt	_	_
+4	och	och	CCONJ	KN	_	5	cc	_	_
+5	hjälpte	hjälpa|hjälpa till	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	till	till|hjälpa till:5	PART	PL	_	5	compound:prt	_	_
+
+# sent_id = 200901
+# text = inget får vi veta och inget händer.
+# date = 2008-03-06 13:02:47
+# url = http://www.familjeliv.se/forum/thread/29027446-info-mina-favoriter-uppdateras-just-nu-de-ar-ej-borta/102#anchor-m1016
+# genre = internet_forum
+# x_sent_id = b6332b2
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.9740961194038391
+1	inget	ingen	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_
+2	får	få	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
+4	veta	veta	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	och	och	CCONJ	KN	_	7	cc	_	_
+6	inget	ingen	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	händer	hända	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+8	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 657
+# text = Dessutom kanske ni har egna önskemål om länder.)
+# date = 2008-08-11 12:48:56
+# url = http://www.familjeliv.se/forum/thread/35182627-hur-borjar-man/1#anchor-m2
+# genre = internet_forum
+# x_sent_id = bac5e3c9
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9537304639816284
+1	Dessutom	dessutom	ADVERB	AB	_	4	advmod	_	_
+2	kanske	kanske	ADVERB	AB	_	4	advmod	_	_
+3	ni	ni	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
+4	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	egna	egen	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	6	amod	_	_
+6	önskemål	önskemål	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	_
+7	om	om	ADP	PP	_	8	case	_	_
+8	länder	land	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	_	PUNCT	MAD	_	4	punct	_	SpaceAfter=No
+10	)	_	PUNCT	PAD	_	4	punct	_	_
+
+# sent_id = 3300262
+# text = Det som behövs är att du som damen ska leva sambo med kan visa att du kan försörja dig själv.Med detta visum får damen svenskt personnummer och kan t ex börja studera på SFI.
+# date = 2014-04-29 15:38
+# url = https://www.flashback.org/p48576293#p48576293
+# genre = internet_forum
+# x_sent_id = e8f87b81
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9095249772071838
+1	Det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	som	_	PRON	HP	_	3	nsubj:pass	_	_
+3	behövs	behöva|behövas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl:relcl	_	_
+4	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	att	att	SCONJ	SN	_	13	mark	_	_
+6	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nsubj	_	_
+7	som	_	PRON	HP	_	9	advmod	_	_
+8	damen	dam	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	leva	leva	VERB	VB	VerbForm=Inf|Voice=Act	9	advcl	_	_
+11	sambo	sambo	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obj	_	_
+12	med	med	ADP	PP	_	10	case	_	_
+13	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+14	visa	visa	VERB	VB	VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	att	att	SCONJ	SN	_	17	mark	_	_
+16	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
+17	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	_
+18	försörja	försörja|försörja sig	VERB	VB	VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	dig	du|försörja sig:18	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	18	obj	_	_
+20	själv.Med	_	ADVERB	AB	Abbr=Yes	22	case	_	_
+21	detta	denna	DET	DT	Definite=Def|Gender=Neut|Number=Sing	22	amod	_	_
+22	visum	visum	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	_
+23	får	få	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+24	damen	dam	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	_
+25	svenskt	svensk	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	personnummer	personnummer	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	obj	_	_
+27	och	och	CCONJ	KN	_	28	cc	_	_
+28	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	_
+29	t	t|t ex	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	30	case	_	_
+30	ex	ex|t ex:29	NOUN	NN	Abbr=Yes	31	obl	_	_
+31	börja	börja	VERB	VB	VerbForm=Inf|Voice=Act	28	xcomp	_	_
+32	studera	studera	VERB	VB	VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33	på	på	ADP	PP	_	34	case	_	_
+34	SFI	_	PROPN	PM	Case=Nom	32	obl	_	SpaceAfter=No
+35	.	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 2300895
+# text = Så moderkortet behöver inte ha inbyggt grafikkort.
+# date = 2005-07-16 23:13
+# url = https://www.flashback.org/p2529603#p2529603
+# genre = internet_forum
+# x_sent_id = b10cf9149
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9524161219596863
+1	Så	så	CCONJ	KN	_	3	cc	_	_
+2	moderkortet	moderkort	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	behöver	behöva	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	inte	inte	ADVERB	AB	_	3	advmod	_	_
+5	ha	ha	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	inbyggt	inbygga|inbyggd	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+7	grafikkort	grafikkort	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 600895
+# text = När jag hade bil , då fick ingen vare sig vuxen eller barn åka med en meter utan att vara fastspända med säkerhetsbälte .
+# date = 2006-06-21 10:31:14
+# url = http://www.familjeliv.se/forum/thread/10274068-bereder-mig-pa-pahopp-nu-men-hur-tanker-folk/5#anchor-m41
+# genre = internet_forum
+# x_sent_id = dd381b203
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8084986209869385
+1	När	när	ADVERB	HA	_	3	mark	_	_
+2	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+3	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	dislocated	_	_
+4	bil	bil	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
+5	,	_	PUNCT	MID	_	3	punct	_	_
+6	då	då	ADVERB	AB	_	7	advcl	_	_
+7	fick	få	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ingen	ingen	DET	DT	Definite=Ind|Gender=Com|Number=Sing	7	advmod	_	_
+9	vare	vare sig	CCONJ	KN	_	11	advmod	_	_
+10	sig	sig|vare sig:9	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	9	fixed	_	_
+11	vuxen	vuxen	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	nsubj	_	_
+12	eller	eller	CCONJ	KN	_	13	cc	_	_
+13	barn	barn	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	_
+14	åka	åka	VERB	VB	VerbForm=Inf|Voice=Act	7	conj	_	_
+15	med	med	ADP	PP	_	17	case	_	_
+16	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	17	nummod	_	_
+17	meter	meter	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	_
+18	utan	utan	ADP	PP	_	20	mark	_	_
+19	att	att	PART	IE	_	20	mark	_	_
+20	vara	vara	VERB	VB	VerbForm=Inf|Voice=Act	14	advcl	_	_
+21	fastspända	spänna fast	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur|Tense=Past|VerbForm=Part	20	xcomp	_	_
+22	med	med	ADP	PP	_	23	case	_	_
+23	säkerhetsbälte	säkerhetsbälte	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	_
+24	.	_	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 1800350
+# text = 2017
+# date = 2016-09-22 08:17:25
+# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/1#anchor-m8
+# genre = internet_forum
+# x_sent_id = a6aaca8c
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9776837825775146
+1	2017	_	NUM	RG	Case=Nom	0	root	_	_
+
+# sent_id = 3700707
+# text = Hoppas att jag inte harmissat någon redan existerande tråd i ämnet
+# date = 2006-01-24 09:09
+# url = https://www.flashback.org/p3590236#p3590236
+# genre = internet_forum
+# x_sent_id = 188ec6de2
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.9755934476852417
+1	Hoppas	hoppa|hoppas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	att	att	SCONJ	SN	_	5	mark	_	_
+3	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+4	inte	inte	ADVERB	AB	_	5	advmod	_	_
+5	harmissat	_	VERB	VB	VerbForm=Sup|Voice=Act	1	ccomp	_	_
+6	någon	någon	DET	DT	Definite=Ind|Gender=Com|Number=Sing	9	det	_	_
+7	redan	redan	ADVERB	AB	_	8	advmod	_	_
+8	existerande	existera|existerande	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	9	amod	_	_
+9	tråd	tråd	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
+10	i	i	ADP	PP	_	11	case	_	_
+11	ämnet	ämne	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
+
+# sent_id = 200324
+# text = jag kunde inte logga in på beta versionen??
+# date = 2009-01-17 14:49:08
+# url = http://www.familjeliv.se/forum/thread/40063023-familjeliv-beta-info-och-support/26#anchor-m255
+# genre = internet_forum
+# x_sent_id = b63babb
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.8965594172477722
+1	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	kunde	kunna	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	inte	inte	ADVERB	AB	_	2	advmod	_	_
+4	logga	logga|logga in	VERB	VB	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	in	in|logga in:4	PART	PL	_	4	compound:prt	_	_
+6	på	på	ADP	PP	_	8	case	_	_
+7	beta	_	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	8	amod	_	_
+8	versionen	version	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	SpaceAfter=No
+9	?	_	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
+10	?	_	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 700057
+# text = Vad är det som måste vara barnvänligt (boende, badstrand, pool?
+# date = 2013-01-02 21:56:02
+# url = http://www.familjeliv.se/forum/thread/68115170-resa-utomlands-till-sommaren-var/1#anchor-m4
+# genre = internet_forum
+# x_sent_id = 6bb904a5
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9523457288742065
+1	Vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
+4	som	_	PRON	HP	_	5	nsubj	_	_
+5	måste	måste	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+6	vara	vara	VERB	VB	VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	barnvänligt	barnvänlig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	xcomp	_	_
+8	(	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
+9	boende	boende	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	dislocated	_	SpaceAfter=No
+10	,	_	PUNCT	MID	_	11	punct	_	_
+11	badstrand	badstrand	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	_	PUNCT	MID	_	13	punct	_	_
+13	pool	pool	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj	_	SpaceAfter=No
+14	?	_	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3500235
+# text = Är tjejen född i Sverige?
+# date = 2011-03-03 11:58
+# url = https://www.flashback.org/p29242812#p29242812
+# genre = internet_forum
+# x_sent_id = 3ffff657
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9873490333557129
+1	Är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	tjejen	tjej	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	nsubj	_	_
+3	född	föda|född	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
+4	i	i	ADP	PP	_	5	case	_	_
+5	Sverige	Sverige	PROPN	PM	Case=Nom	3	obl	_	SpaceAfter=No
+6	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 300559
+# text = Men jag delar bara med mig det jag kan tänka mig att " alla " kan få veta också .
+# date = 2010-12-27 22:11:04
+# url = http://www.familjeliv.se/forum/thread/56340322-ljuger-du-pa-facebook/1#anchor-m6
+# genre = internet_forum
+# x_sent_id = 83ab281
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9741892218589783
+1	Men	men	CCONJ	KN	_	3	cc	_	_
+2	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+3	delar	dela|dela sig	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	bara	bara	ADVERB	AB	_	3	advmod	_	_
+5	med	med	ADP	PP	_	6	case	_	_
+6	mig	jag|dela sig:3	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	3	obl	_	_
+7	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	_
+8	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+10	tänka	tänka|tänka sig	VERB	VB	VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	mig	jag|tänka sig:10	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	10	obj	_	_
+12	att	att	SCONJ	SN	_	16	mark	_	_
+13	"	_	PUNCT	PAD	_	14	punct	_	_
+14	alla	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com,Neut|Number=Plur	16	nsubj	_	_
+15	"	_	PUNCT	PAD	_	14	punct	_	_
+16	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+17	få	få	VERB	VB	VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	veta	veta	VERB	VB	VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	också	också	ADVERB	AB	_	18	advmod	_	_
+20	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 600804
+# text = Jag sjunger massor , fast hellre än bra
+# date = 2009-01-26 10:47:18
+# url = http://www.familjeliv.se/forum/thread/40325517-sjunger-ni-for-era-barn/4#anchor-m31
+# genre = internet_forum
+# x_sent_id = dd38d8b88
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.8861957788467407
+1	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	sjunger	sjunga	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	massor	massa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	_	_
+4	,	_	PUNCT	MID	_	2	punct	_	_
+5	fast	fast	CCONJ	KN	_	6	advmod	_	_
+6	hellre	gärna	ADVERB	AB	Degree=Cmp	2	advmod	_	_
+7	än	_	CCONJ	KN	_	8	advmod	_	_
+8	bra	bra	ADVERB	AB	Degree=Pos	2	advmod	_	_
+
+# sent_id = 1900648
+# text = Innan volvon så köpte vi en Skoda Fabia Kombi 101 hk, rolig familjebil, (men kanske en aning liten) om man bara kör omkring i stan eller på småvägar, roligt chassi och varvvillig motor, död under 5000!!
+# date = 2004-05-10 20:29:59
+# url = http://www.familjeliv.se/forum/thread/377663-nan-har-mer-an-jag-som-ar-intresserad-av-bilar/1#anchor-m2
+# genre = internet_forum
+# x_sent_id = c51e8bd
+# speech_act = expressive
+# sentiment_label = positive
+# sentiment_score = 0.7562238574028015
+1	Innan	innan	SCONJ	SN	_	3	advmod	_	_
+2	volvon	volvo	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
+3	så	så	ADVERB	AB	_	4	advcl	_	_
+4	köpte	köpa	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	vi	vi	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	4	nsubj	_	_
+6	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	7	det	_	_
+7	Skoda	Skoda	PROPN	PM	Case=Nom	4	nsubj	_	_
+8	Fabia	_	PROPN	PM	Case=Nom	9	nmod	_	_
+9	Kombi	_	PROPN	PM	Case=Nom	4	obj	_	_
+10	101	_	NUM	RG	Case=Nom	11	nummod	_	_
+11	hk	hk	NOUN	NN	Abbr=Yes	9	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	MID	_	14	punct	_	_
+13	rolig	rolig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+14	familjebil	familjebil	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	appos	_	SpaceAfter=No
+15	,	_	PUNCT	MID	_	4	punct	_	_
+16	(	_	PUNCT	PAD	_	21	punct	_	SpaceAfter=No
+17	men	men	CCONJ	KN	_	21	cc	_	_
+18	kanske	kanske	ADVERB	AB	_	21	advmod	_	_
+19	en	en|en aning	DET	DT	Definite=Ind|Gender=Com|Number=Sing	20	det	_	_
+20	aning	aning|en aning:19	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	_
+21	liten	liten	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	conj	_	SpaceAfter=No
+22	)	_	PUNCT	PAD	_	4	punct	_	_
+23	om	om	SCONJ	SN	_	26	mark	_	_
+24	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	nsubj	_	_
+25	bara	bara	ADVERB	AB	_	26	advmod	_	_
+26	kör	köra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+27	omkring	omkring	ADVERB	AB	_	26	compound:prt	_	_
+28	i	i	ADP	PP	_	29	case	_	_
+29	stan	stad	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obl	_	_
+30	eller	eller	CCONJ	KN	_	32	cc	_	_
+31	på	på	ADP	PP	_	32	case	_	_
+32	småvägar	småväg	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	29	conj	_	SpaceAfter=No
+33	,	_	PUNCT	MID	_	35	punct	_	_
+34	roligt	rolig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+35	chassi	chassi	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	32	conj	_	_
+36	och	och	CCONJ	KN	_	38	cc	_	_
+37	varvvillig	varvvillig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	38	amod	_	_
+38	motor	motor	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	conj	_	SpaceAfter=No
+39	,	_	PUNCT	MID	_	40	punct	_	_
+40	död	död	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	conj	_	_
+41	under	under	ADP	PP	_	42	case	_	_
+42	5000	_	NUM	RG	Case=Nom	40	obl	_	SpaceAfter=No
+43	!	_	PUNCT	MAD	_	40	punct	_	SpaceAfter=No
+44	!	_	PUNCT	MAD	_	4	punct	_	_
+
+# sent_id = 3400440
+# text = Hej!
+# date = 2015-07-13 15:22
+# url = https://www.flashback.org/p54001245#p54001245
+# genre = internet_forum
+# x_sent_id = b3e22d342
+# speech_act = expressive
+# sentiment_label = neutral
+# sentiment_score = 0.8929757475852966
+1	Hej	hej	INTJ	IN	_	0	root	_	SpaceAfter=No
+2	!	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 3500623
+# text = Är du blind eller?
+# date = 2020-07-11 21:45
+# url = https://www.flashback.org/p72227949#p72227949
+# genre = internet_forum
+# x_sent_id = 3ff85a6e
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.5960702300071716
+1	Är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	nsubj	_	_
+3	blind	blind	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	xcomp	_	_
+4	eller	eller	CCONJ	KN	_	3	conj	_	SpaceAfter=No
+5	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2200029
+# text = Hon blev gravid vid 3:e inseminationen, hon är 39:) Kul att höra lite positiva stories också!
+# date = 2007-11-24 12:53:01
+# url = http://www.familjeliv.se/forum/thread/27229970-startkit/1#anchor-m5
+# genre = internet_forum
+# x_sent_id = 0530cabc4
+# speech_act = expressive
+# sentiment_label = positive
+# sentiment_score = 0.772066056728363
+1	Hon	hon	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	blev	bli	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	gravid	gravid	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp	_	_
+4	vid	vid	ADP	PP	_	6	case	_	_
+5	3:e	_	ADJ	RO	Case=Nom	6	amod	_	_
+6	inseminationen	insemination	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	_	PUNCT	MID	_	2	punct	_	_
+8	hon	hon	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+10	39	_	NUM	RG	Case=Nom	9	nummod	_	SpaceAfter=No
+11	:	_	PUNCT	MID	_	9	punct	_	SpaceAfter=No
+12	)	_	PUNCT	PAD	_	13	punct	_	_
+13	Kul	kul	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur,Sing	9	conj	_	_
+14	att	att	PART	IE	_	15	mark	_	_
+15	höra	höra	VERB	VB	VerbForm=Inf|Voice=Act	13	advcl	_	_
+16	lite	lite	ADVERB	AB	Degree=Pos	17	advmod	_	_
+17	positiva	positiv	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	18	amod	_	_
+18	stories	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	obj	_	_
+19	också	också	ADVERB	AB	_	15	advmod	_	SpaceAfter=No
+20	!	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1500106
+# text = De misstänkte mp allergi å gluten när jsg var liten.
+# date = 2015-12-14 03:54:06
+# url = http://www.familjeliv.se/forum/thread/76108640-refluxdiagnos/1#anchor-m3
+# genre = internet_forum
+# x_sent_id = 557b2c23
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.7216446995735168
+1	De	de	PRON	PN	Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur	2	nsubj	_	_
+2	misstänkte	misstänka	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	mp	mp	NOUN	NN	Abbr=Yes	4	nmod	_	_
+4	allergi	allergi	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
+5	å	_	CCONJ	KN	_	6	case	_	_
+6	gluten	gluten	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nmod	_	_
+7	när	när	ADVERB	HA	_	9	advmod	_	_
+8	jsg	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
+9	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	liten	liten	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	xcomp	_	SpaceAfter=No
+11	.	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 700218
+# text = Vad kul att du hitta hit Talossa !
+# date = 2007-03-08 22:08:50
+# url = http://www.familjeliv.se/forum/thread/15689211-thailand-vintern-20062007/68#anchor-m674
+# genre = internet_forum
+# x_sent_id = 6bb770cf
+# speech_act = expressive
+# sentiment_label = positive
+# sentiment_score = 0.9930318593978882
+1	Vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	2	advmod	_	_
+2	kul	kul	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur,Sing	0	root	_	_
+3	att	att	SCONJ	SN	_	5	mark	_	_
+4	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+5	hitta	hitta	VERB	VB	VerbForm=Inf|Voice=Act	2	csubj	_	_
+6	hit	hit	ADVERB	AB	_	5	compound:prt	_	_
+7	Talossa	_	PROPN	PM	Case=Nom	5	obj	_	_
+8	!	_	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 1600489
+# text = ?
+# date = 2008-03-05 19:34:41
+# url = http://www.familjeliv.se/forum/thread/28676800-visparnas-trad-6/151#anchor-m1506
+# genre = internet_forum
+# x_sent_id = 5ef65c7e2
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9427786469459534
+1	?	_	PUNCT	MAD	_	0	root	_	_
+
+# sent_id = 900802
+# text = Säg mig: vad skrev shakespeare om inte skönlitteratur?
+# date = 2010-09-09 20:55:47
+# url = http://www.familjeliv.se/forum/thread/54389277-vilka-fordomar-vacker-valet-av-anvandarnamn/4#anchor-m38
+# genre = internet_forum
+# x_sent_id = b66ffd3
+# speech_act = question
+# sentiment_label = neutral
+# sentiment_score = 0.9542155265808105
+1	Säg	säga	VERB	VB	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
+2	mig	jag	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	1	obj	_	SpaceAfter=No
+3	:	_	PUNCT	MID	_	1	punct	_	_
+4	vad	vad	PRON	HP	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
+5	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+6	shakespeare	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+7	om	om	ADP	PP	_	9	case	_	_
+8	inte	inte	ADVERB	AB	_	9	advmod	_	_
+9	skönlitteratur	skönlitteratur	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
+10	?	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 2900189
+# text = Har inte skapat något.
+# date = 2020-02-12 00:53
+# url = https://www.flashback.org/p70240409#p70240409
+# genre = internet_forum
+# x_sent_id = 631ccbf0a
+# speech_act = assertion
+# sentiment_label = negative
+# sentiment_score = 0.8781186938285828
+1	Har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	inte	inte	ADVERB	AB	_	1	advmod	_	_
+3	skapat	skapa	VERB	VB	VerbForm=Sup|Voice=Act	1	xcomp	_	_
+4	något	någon	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	_	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 1900287
+# text = Pappa Skoog: Visst är vinterdyk ett av det finaste man kan göra Ska ut på söndag och dyka.
+# date = 2006-02-01 22:24:24
+# url = http://www.familjeliv.se/forum/thread/6393247-dykare-har/1#anchor-m8
+# genre = internet_forum
+# x_sent_id = c599176
+# speech_act = expressive
+# sentiment_label = positive
+# sentiment_score = 0.9828285574913025
+1	Pappa	pappa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
+2	Skoog	_	PROPN	PM	Case=Nom	5	dislocated	_	SpaceAfter=No
+3	:	_	PUNCT	MID	_	2	punct	_	_
+4	Visst	viss|visst	ADVERB	AB	_	5	advmod	_	_
+5	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	vinterdyk	vinterdyk	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	det	_	_
+7	ett	_	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
+8	av	av	ADP	PP	_	10	case	_	_
+9	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	10	det	_	_
+10	finaste	fin	ADJ	JJ	Case=Nom|Definite=Def|Degree=Sup|Gender=Com,Neut|Number=Plur,Sing	7	nmod	_	_
+11	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nsubj	_	_
+12	kan	kunna	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+13	göra	göra	VERB	VB	VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	Ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	xcomp	_	_
+15	ut	ut	PART	PL	_	14	compound:prt	_	_
+16	på	på	ADP	PP	_	17	case	_	_
+17	söndag	söndag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	_
+18	och	och	CCONJ	KN	_	19	cc	_	_
+19	dyka	dyka	VERB	VB	VerbForm=Inf|Voice=Act	14	conj	_	SpaceAfter=No
+20	.	_	PUNCT	MAD	_	5	punct	_	_
+
+# sent_id = 2600322
+# text = Användaren nielsen- avstängd för 1.06.
+# date = 2011-12-10 09:57
+# url = https://www.flashback.org/p34452604#p34452604
+# genre = internet_forum
+# x_sent_id = 4eb00132
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.6524800062179565
+1	Användaren	användare	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
+2	nielsen-	_	NOUN	NN	Compound=Yes|Gender=Com	3	nsubj:pass	_	_
+3	avstängd	avstänga|stänga av	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	för	för	ADP	PP	_	5	case	_	_
+5	1.06	_	NUM	RG	Case=Nom	3	obl	_	SpaceAfter=No
+6	.	_	PUNCT	MAD	_	3	punct	_	_
+
+# sent_id = 1100759
+# text = Dem gör en "Mayblossom and Blue Cypress Balancing Facial Cleansing Gel" för bland-hy.
+# date = 2009-04-19 12:12:00
+# url = http://www.familjeliv.se/forum/thread/43157952-dalig-hy/1#anchor-m2
+# genre = internet_forum
+# x_sent_id = fb9160c
+# speech_act = assertion
+# sentiment_label = neutral
+# sentiment_score = 0.9791545271873474
+1	Dem	de	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur	2	nsubj	_	_
+2	gör	göra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	5	det	_	_
+4	"	_	PUNCT	PAD	_	5	punct	_	SpaceAfter=No
+5	Mayblossom	_	PROPN	PM	Case=Nom	2	obj	_	_
+6	and	_	PROPN	PM	Case=Nom	7	cc	_	_
+7	Blue	_	PROPN	PM	Case=Nom	8	compound	_	_
+8	Cypress	_	PROPN	PM	Case=Nom	9	compound	_	_
+9	Balancing	_	PROPN	PM	Case=Nom	10	compound	_	_
+10	Facial	_	PROPN	PM	Case=Nom	11	compound	_	_
+11	Cleansing	_	PROPN	PM	Case=Nom	12	compound	_	_
+12	Gel	_	PROPN	PM	Case=Nom	5	appos	_	SpaceAfter=No
+13	"	_	PUNCT	PAD	_	12	punct	_	_
+14	för	för	ADP	PP	_	15	case	_	_
+15	bland-hy	bland-hy	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	_	PUNCT	MAD	_	2	punct	_	_
+

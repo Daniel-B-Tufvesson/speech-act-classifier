@@ -9,6 +9,7 @@ import speechact.annotate as anno
 import enum
 import speechact.corpus as corp
 import collections as col
+import speechact as sa
 
 INTERROGATIVE_PRONOUNS = {'vilken', 'vilkendera', 'hurdan', 'vem', 'vad'}
 
@@ -26,37 +27,37 @@ SUBJECT_RELS = {
 class SyntBlock(enum.StrEnum):
 
     # Dependency blocks.
-    SUBJECT = 'subject'
-    OBJECT = 'object'
-    ADV_MOD = 'advmod'
-    ADV_CL = 'advcl'
-    INT_ADV = 'interrogative adverbial'
-    INT_PRON = 'interrogative pronoun'
-    OBL = 'oblique modifier'
-    XCOMP = 'xcomp'
-    CCOMP = 'ccomp'
-    PARTICLE = 'particle'
-    CONJ = 'conjunction'
-    EXPL = 'expletive'
-    NAME = 'name'
-    DISLOCATED = 'dislocated'
+    SUBJECT = 'SUBJECT'
+    OBJECT = 'OBJECT'
+    ADV_MOD = 'ADV_MOD'
+    ADV_CL = 'ADV_CL'
+    INT_ADV = 'INT_ADV'  # 'interrogative adverbial'
+    INT_PRON = 'INT_PRON'  # 'interrogative pronoun'
+    OBL = 'OBL'
+    XCOMP = 'XCOMP'
+    CCOMP = 'CCOMP'
+    PARTICLE = 'PARTICLE'
+    CONJ = 'CONJ'
+    EXPL = 'EXPL'
+    NAME = 'NAME'
+    DISLOCATED = 'DISLOCATED'
 
     # Root blocks.
-    FIN_VERB = 'finite verb'
-    FIN_VERB_IMP = 'finite verb imperative'
-    SUP_VERB = 'supine'
-    PART_VERB = 'participle'
-    ADVERB = 'adverb'
-    NOUN = 'noun'
-    ADJECTIVE = 'adjective'
-    NUMBER = 'number'
-    PROPN = 'proper noun'
+    FIN_VERB = 'FIN_VERB'  # 'finite verb'
+    FIN_VERB_IMP = 'FIN_VERB_IMP'  # 'finite verb imperative'
+    SUP_VERB = 'SUP_VERB'  # 'supine'
+    PART_VERB = 'PART_VERB'  # 'participle'
+    ADVERB = 'ADVERB'
+    NOUN = 'NOUN'
+    ADJECTIVE = 'ADJECTIVE'
+    NUMBER = 'NUMBER'
+    PROPN = 'PROPN'
 
     # Special.
-    NONE = 'none'
-    QUESTION_MARK = 'question mark'
-    PERIOD = 'period'
-    EXCLAMATION_MARK = 'exclamation mark'
+    NONE = 'NONE'
+    QUESTION_MARK = 'QUESTION_MARK'
+    PERIOD = 'PERIOD'
+    EXCLAMATION_MARK = 'EXCLAMATION_MARK'
 
 
 class Rule:
@@ -199,6 +200,15 @@ class RuleBasedClassifier(base.Classifier):
     
     def classify_sentence(self, sentence: doc.Sentence):
         speech_act = self.get_speech_act_for(sentence)
+
+        # if speech_act == anno.SpeechActLabels.ASSERTION:
+        #     if sa.get_sentence_property(sentence, 'sentiment_label') != 'neutral':  # type: ignore
+        #         speech_act = anno.SpeechActLabels.EXPRESSIVE
+        
+        # elif speech_act == anno.SpeechActLabels.EXPRESSIVE:
+        #     if sa.get_sentence_property(sentence, 'sentiment_label') == 'neutral':  # type: ignore
+        #         speech_act = anno.SpeechActLabels.ASSERTION
+
         sentence.speech_act = speech_act  # type: ignore
 
     def get_speech_act_for(self, sentence: doc.Sentence) -> anno.SpeechActLabels:
@@ -357,8 +367,8 @@ class TrainableClassifier(RuleBasedClassifier):
         
         # Refresh the labels for all rules.
         for rule in self.rules:
-            assert type(rule) == TrainableRule, 'rule is not a trainable rule.'
-            rule.refresh_label()
+            if type(rule) == TrainableRule:
+                rule.refresh_label()
         
         self.sort_rules()
 
