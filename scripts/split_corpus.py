@@ -6,7 +6,7 @@ import speechact.corpus as corp
 import speechact.preprocess as pre
 
 if __name__ == '__main__':
-    source_file = 'data/annotated data/dev-set-sentiment.connlu.bz2'
+    source_file = 'data/annotated data/dev-set-sentiment.conllu.bz2'
     source_corpus = corp.Corpus(source_file)
 
     target_dir = 'data/annotated data'
