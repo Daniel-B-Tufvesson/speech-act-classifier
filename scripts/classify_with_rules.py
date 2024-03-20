@@ -64,5 +64,5 @@ if __name__ == '__main__':
     trainable_rule_classifier.save_rules('models/trained_rules.json')
     print('Trainable rule-based classifier results:')
     evaluation.evaluate(test_corpus, trainable_rule_classifier, labels,
-                        print_missclassified=('directive', 'expressive'),
+                        print_missclassified=('directive', 'assertion'),
                         draw_conf_matrix=True)
