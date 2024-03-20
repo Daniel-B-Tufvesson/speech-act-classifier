@@ -55,6 +55,8 @@ class SyntBlock(enum.StrEnum):
     # Special.
     NONE = 'none'
     QUESTION_MARK = 'question mark'
+    PERIOD = 'period'
+    EXCLAMATION_MARK = 'exclamation mark'
 
 
 class Rule:
@@ -223,13 +225,13 @@ class RuleBasedClassifier(base.Classifier):
         synt_blocks = []
         for word in words:
 
+            # Ignore punctuations if there is no block for it.
+            if word.pos == 'PUNCT' and word != sentence.words[-1]:
+                continue
+
             synt_block = self.get_synt_block(word)
             
             if synt_block == SyntBlock.NONE:
-                continue
-
-            # Ignore punctuations if there is no block for it.
-            if word.pos == 'PUNCT':# and synt_block == SyntBlock.NONE:
                 continue
             
             synt_blocks.append(synt_block)
@@ -243,6 +245,8 @@ class RuleBasedClassifier(base.Classifier):
         """
 
         if word.text == '?': return SyntBlock.QUESTION_MARK
+        if word.text == '.': return SyntBlock.PERIOD
+        if word.text == '!': return SyntBlock.EXCLAMATION_MARK
 
         if word.deprel == 'root':
             if word.pos == 'VERB' and word.feats != None:

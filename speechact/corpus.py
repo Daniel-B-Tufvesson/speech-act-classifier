@@ -16,6 +16,17 @@ class Sentence:
                 return line.removeprefix(_key).strip()
         
         raise ValueError(f'Cannot find meta-data with key "{key}" in {self.sentence_lines}')
+    
+
+    def try_get_meta_date(self, key: str) -> str|None:
+        """
+        Try retrieving the meta data with the given key. If no value is found, None will be returned,
+        instead of raising a ValueError.
+        """
+        try:
+            return self.get_meta_data(key)
+        except ValueError:
+            return None
 
 
     def set_meta_data(self, key: str, value):
