@@ -10,7 +10,7 @@ import speechact.annotate as annotate
 import speechact.classifier.rulebased as rule
 
 if __name__ == '__main__':
-    corpus = corp.Corpus('data/annotated data/dev-set-sentiment.connlu.bz2')
+    corpus = corp.Corpus('data/annotated data/dev-set-sentiment.conllu.bz2')
     labels = annotate.SpeechActLabels.get_labels()
 
     print()

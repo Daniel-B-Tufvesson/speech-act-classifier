@@ -80,7 +80,7 @@ class Corpus:
 
         # Get name from filename instead.
         if name == None:
-            name = os.path.basename(file_name).removesuffix('.connlu.bz2')
+            name = os.path.basename(file_name).removesuffix('.bz2').removesuffix('.conllu')
 
         self.file_name = file_name
         self.name = name
