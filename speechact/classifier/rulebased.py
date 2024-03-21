@@ -206,9 +206,9 @@ class RuleBasedClassifier(base.Classifier):
             if sa.get_sentence_property(sentence, 'sentiment_label') != 'neutral':  # type: ignore
                 speech_act = anno.SpeechActLabels.EXPRESSIVE
         
-        elif speech_act == anno.SpeechActLabels.EXPRESSIVE:
-            if sa.get_sentence_property(sentence, 'sentiment_label') == 'neutral':  # type: ignore
-                speech_act = anno.SpeechActLabels.ASSERTION
+        # elif speech_act == anno.SpeechActLabels.EXPRESSIVE:
+        #     if sa.get_sentence_property(sentence, 'sentiment_label') == 'neutral':  # type: ignore
+        #         speech_act = anno.SpeechActLabels.ASSERTION
 
         sentence.speech_act = speech_act  # type: ignore
 
