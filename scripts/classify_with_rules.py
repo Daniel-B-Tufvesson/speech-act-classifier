@@ -11,7 +11,10 @@ import speechact.classifier.rulebased as rule
 
 if __name__ == '__main__':
     #corpus = corp.Corpus('data/annotated data/dev-set-sentiment.conllu.bz2')
-    corpus = corp.Corpus('data/annotated data/dev-set-sentiment.conllu.bz2')
+    corpus = corp.Corpus('data/annotated data/dev-set-sentiment-upsampled.conllu.bz2')
+    test_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-test-upsampled.conllu.bz2')
+    train_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-train-upsampled.conllu.bz2')
+    corpus = test_corpus
     labels = annotate.SpeechActLabels.get_labels()
 
     print()
@@ -33,20 +36,20 @@ if __name__ == '__main__':
                         draw_conf_matrix=False)
     print()
 
-    # # Evaluate clause classifier.
-    # clause_classifier = algo.ClauseClassifier()
-    # print('Clause classifier results:')
-    # evaluation.evaluate(corpus, clause_classifier, labels, 
-    #                     #print_missclassified=('assertion', 'none'),
-    #                     draw_conf_matrix=False)
-    # print()
+    # Evaluate clause classifier.
+    clause_classifier = algo.ClauseClassifier()
+    print('Clause classifier results:')
+    evaluation.evaluate(corpus, clause_classifier, labels, 
+                        #print_missclassified=('assertion', 'none'),
+                        draw_conf_matrix=False)
+    print()
 
-    # # Evaluate algorithmic classifier.
-    # algo_classifier = algo.RuleBasedClassifier()
-    # print('Algorithmic classifier results:')
-    # evaluation.evaluate(corpus, algo_classifier, labels,
-    #                     #print_missclassified=('directive', 'assertion'),
-    #                     draw_conf_matrix=False)
+    # Evaluate algorithmic classifier.
+    algo_classifier = algo.RuleBasedClassifier()
+    print('Algorithmic classifier results:')
+    evaluation.evaluate(corpus, algo_classifier, labels,
+                        #print_missclassified=('directive', 'assertion'),
+                        draw_conf_matrix=False)
 
     # # Evaluate rule based classifier.
     # rule_classifer = rule.RuleBasedClassifier(ruleset_file='models/ruleset_1.json')
@@ -57,11 +60,9 @@ if __name__ == '__main__':
     
     # Evaluate trainable rule based classifier.
     trainable_rule_classifier = rule.TrainableClassifier()
-    test_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-test.conllu.bz2')
-    train_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-train.conllu.bz2')
-    trainable_rule_classifier.train(test_corpus)
+    trainable_rule_classifier.train(train_corpus)
     trainable_rule_classifier.save_rules('models/trained_rules.json')
     print('Trainable rule-based classifier results:')
-    evaluation.evaluate(train_corpus, trainable_rule_classifier, labels,
-                        print_missclassified=('directive', 'assertion'),
+    evaluation.evaluate(test_corpus, trainable_rule_classifier, labels,
+                        # print_missclassified=('directive', 'assertion'),
                         draw_conf_matrix=True)

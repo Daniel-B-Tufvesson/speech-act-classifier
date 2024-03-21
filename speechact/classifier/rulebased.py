@@ -282,7 +282,7 @@ class RuleBasedClassifier(base.Classifier):
         if word.lemma in INTERROGATIVE_ADVERBS and word.pos == 'ADVERB': return SyntBlock.INT_ADV
 
         if word.deprel in SUBJECT_RELS: 
-            #if word.text.lower() in PRON_2ND_PERSON: return SyntBlock.SUBJECT_2ND
+            if word.lemma in PRON_2ND_PERSON: return SyntBlock.SUBJECT_2ND
             return SyntBlock.SUBJECT
         #if word.deprel == 'advmod': return SyntBlock.ADV_MOD
         #if word.deprel == 'advcl': return SyntBlock.ADV_CL
