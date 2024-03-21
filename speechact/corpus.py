@@ -8,6 +8,7 @@ class Sentence:
 
     def __init__(self, sentence_lines: list[str]) -> None:
         self.sentence_lines = sentence_lines
+
     
     def get_meta_data(self, key: str) -> str:
         _key = f'# {key} = '
@@ -60,6 +61,15 @@ class Sentence:
         non-integer IDs. 
         """
         return int(self.get_meta_data('sent_id'))
+    
+
+    @property
+    def speech_act(self) -> str:
+        """
+        The labeled speech act of the sentence.
+        """
+        return self.get_meta_data('speech_act')
+
     
     def write(self, target: TextIO):
         """

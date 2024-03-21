@@ -364,5 +364,32 @@ def split_train_test(corpus: corp.Corpus, target_test_file: str, target_train_fi
                 sentence.write(test)
     
     if print_progress: print('Splitting complete.')
-            
+
+
+
+def upsample(corpus: corp.Corpus, target: TextIO):
+    import collections as col
+    import itertools as it
+
+    # Sort sentences into lists for each class.
+    sentences = col.defaultdict(list)
+    for sentence in corpus.sentences():
+        sentences[sentence.speech_act].append(sentence)
+
+    # Find the size of the largest class.
+    largest_size = max([len(sent_list) for sent_list in sentences.values()])
+
+    # Upsample each sentence list of each class.
+    for speech_act in sentences.keys():
+        sent_list = sentences[speech_act]
+        sentences[speech_act] = [sent_list[i % len(sent_list)] for i in range(largest_size)]
+
+    # Write sentences.
+    for i in range(largest_size):
+        for speech_act in sentences.keys():
+            sentences[speech_act][i].write(target)
+        
+
+
+
 
