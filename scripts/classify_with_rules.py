@@ -11,7 +11,7 @@ import speechact.classifier.rulebased as rule
 
 if __name__ == '__main__':
     #corpus = corp.Corpus('data/annotated data/dev-set-sentiment.conllu.bz2')
-    corpus = corp.Corpus('data/annotated data/dev-set.conllu.bz2')
+    corpus = corp.Corpus('data/annotated data/dev-set-sentiment.conllu.bz2')
     labels = annotate.SpeechActLabels.get_labels()
 
     print()
@@ -57,8 +57,8 @@ if __name__ == '__main__':
     
     # Evaluate trainable rule based classifier.
     trainable_rule_classifier = rule.TrainableClassifier()
-    test_corpus = corp.Corpus('data/annotated data/dev-set-test.conllu.bz2')
-    train_corpus = corp.Corpus('data/annotated data/dev-set-train.conllu.bz2')
+    test_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-test.conllu.bz2')
+    train_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-train.conllu.bz2')
     trainable_rule_classifier.train(test_corpus)
     trainable_rule_classifier.save_rules('models/trained_rules.json')
     print('Trainable rule-based classifier results:')

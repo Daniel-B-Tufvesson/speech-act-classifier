@@ -202,13 +202,13 @@ class RuleBasedClassifier(base.Classifier):
     def classify_sentence(self, sentence: doc.Sentence):
         speech_act = self.get_speech_act_for(sentence)
 
-        # if speech_act == anno.SpeechActLabels.ASSERTION:
-        #     if sa.get_sentence_property(sentence, 'sentiment_label') != 'neutral':  # type: ignore
-        #         speech_act = anno.SpeechActLabels.EXPRESSIVE
+        if speech_act == anno.SpeechActLabels.ASSERTION:
+            if sa.get_sentence_property(sentence, 'sentiment_label') != 'neutral':  # type: ignore
+                speech_act = anno.SpeechActLabels.EXPRESSIVE
         
-        # elif speech_act == anno.SpeechActLabels.EXPRESSIVE:
-        #     if sa.get_sentence_property(sentence, 'sentiment_label') == 'neutral':  # type: ignore
-        #         speech_act = anno.SpeechActLabels.ASSERTION
+        elif speech_act == anno.SpeechActLabels.EXPRESSIVE:
+            if sa.get_sentence_property(sentence, 'sentiment_label') == 'neutral':  # type: ignore
+                speech_act = anno.SpeechActLabels.ASSERTION
 
         sentence.speech_act = speech_act  # type: ignore
 
@@ -282,8 +282,8 @@ class RuleBasedClassifier(base.Classifier):
         if word.lemma in INTERROGATIVE_ADVERBS and word.pos == 'ADVERB': return SyntBlock.INT_ADV
 
         if word.deprel in SUBJECT_RELS: 
-            if word.text.lower() in PRON_2ND_PERSON: return SyntBlock.SUBJECT_2ND
-            else: return SyntBlock.SUBJECT
+            #if word.text.lower() in PRON_2ND_PERSON: return SyntBlock.SUBJECT_2ND
+            return SyntBlock.SUBJECT
         #if word.deprel == 'advmod': return SyntBlock.ADV_MOD
         #if word.deprel == 'advcl': return SyntBlock.ADV_CL
         #if word.deprel == 'xcomp': return SyntBlock.XCOMP

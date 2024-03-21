@@ -31,9 +31,9 @@
         {
             "speech_act": "question",
             "blocks": [
-                "SUBJECT_2ND",
+                "SUBJECT",
                 "FIN_VERB",
-                "SUBJECT_2ND",
+                "SUBJECT",
                 "QUESTION_MARK"
             ]
         },
@@ -65,30 +65,12 @@
             ]
         },
         {
-            "speech_act": "question",
-            "blocks": [
-                "SUBJECT",
-                "FIN_VERB",
-                "SUBJECT",
-                "QUESTION_MARK"
-            ]
-        },
-        {
             "speech_act": "assertion",
             "blocks": [
                 "SUBJECT",
                 "SUBJECT",
                 "PART_VERB",
                 "PERIOD"
-            ]
-        },
-        {
-            "speech_act": "question",
-            "blocks": [
-                "INT_ADV",
-                "FIN_VERB",
-                "SUBJECT_2ND",
-                "QUESTION_MARK"
             ]
         },
         {
@@ -119,15 +101,6 @@
             ]
         },
         {
-            "speech_act": "question",
-            "blocks": [
-                "INT_PRON",
-                "FIN_VERB",
-                "SUBJECT_2ND",
-                "QUESTION_MARK"
-            ]
-        },
-        {
             "speech_act": "assertion",
             "blocks": [
                 "FIN_VERB",
@@ -168,27 +141,11 @@
             ]
         },
         {
-            "speech_act": "question",
-            "blocks": [
-                "FIN_VERB",
-                "SUBJECT_2ND",
-                "QUESTION_MARK"
-            ]
-        },
-        {
             "speech_act": "assertion",
             "blocks": [
                 "FIN_VERB",
                 "SUBJECT",
                 "EXCLAMATION_MARK"
-            ]
-        },
-        {
-            "speech_act": "directive",
-            "blocks": [
-                "FIN_VERB",
-                "SUBJECT_2ND",
-                "PERIOD"
             ]
         },
         {
@@ -196,14 +153,6 @@
             "blocks": [
                 "ADVERB",
                 "SUBJECT",
-                "PERIOD"
-            ]
-        },
-        {
-            "speech_act": "assertion",
-            "blocks": [
-                "SUBJECT_2ND",
-                "FIN_VERB",
                 "PERIOD"
             ]
         },
@@ -224,14 +173,6 @@
             ]
         },
         {
-            "speech_act": "directive",
-            "blocks": [
-                "SUBJECT_2ND",
-                "FIN_VERB",
-                "QUESTION_MARK"
-            ]
-        },
-        {
             "speech_act": "assertion",
             "blocks": [
                 "SUBJECT",
@@ -268,7 +209,7 @@
             "blocks": [
                 "INT_ADV",
                 "FIN_VERB",
-                "SUBJECT_2ND"
+                "SUBJECT"
             ]
         },
         {
@@ -290,13 +231,6 @@
             "blocks": [
                 "FIN_VERB",
                 "PERIOD"
-            ]
-        },
-        {
-            "speech_act": "question",
-            "blocks": [
-                "FIN_VERB",
-                "SUBJECT_2ND"
             ]
         },
         {
@@ -367,13 +301,6 @@
             "blocks": [
                 "SUP_VERB",
                 "PERIOD"
-            ]
-        },
-        {
-            "speech_act": "question",
-            "blocks": [
-                "SUBJECT_2ND",
-                "FIN_VERB"
             ]
         },
         {
