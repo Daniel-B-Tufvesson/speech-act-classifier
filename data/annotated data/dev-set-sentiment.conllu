@@ -63,30 +63,6 @@
 11	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	_	SpaceAfter=No
 12	.	_	PUNCT	MAD	_	7	punct	_	_
 
-# sent_id = 1700843
-# text = Maniok, SigridA (2) 15. namera (1) 16.
-# date = 2009-04-02 03:05:12
-# url = http://www.familjeliv.se/forum/thread/41959283-bim-lista-april/13#anchor-m129
-# genre = internet_forum
-# x_sent_id = b174d59b
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8954572677612305
-1	Maniok	maniok	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	1	punct	_	_
-3	SigridA	_	PROPN	PM	Case=Nom	1	conj	_	_
-4	(	_	PUNCT	PAD	_	3	punct	_	SpaceAfter=No
-5	2	_	NUM	RG	Case=Nom	3	nummod	_	SpaceAfter=No
-6	)	_	PUNCT	PAD	_	3	punct	_	_
-7	15	_	NUM	RG	Case=Nom	3	nmod	_	SpaceAfter=No
-8	.	_	PUNCT	MAD	_	1	punct	_	_
-9	namera	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos	_	_
-10	(	_	PUNCT	PAD	_	9	punct	_	SpaceAfter=No
-11	1	_	NUM	RG	Case=Nom	9	nmod	_	SpaceAfter=No
-12	)	_	PUNCT	PAD	_	9	punct	_	_
-13	16	_	NUM	RG	Case=Nom	9	nummod	_	SpaceAfter=No
-14	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 3300836
 # text = Perfekt område att handla iPhoneladdare/headsets (dock skiftande kvalitet, ett headset jag köpte där sprack i kablarna av den Svenska kylan t.ex.), även teer och kryddor finns att fynda här, likaså torkad svamp av olika slag.
 # date = 2013-02-07 10:06
@@ -804,18 +780,6 @@
 3	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj:pass	_	_
 4	med	med	ADP	PP	_	2	case	_	_
 
-# sent_id = 3600572
-# text = Spoiler:
-# date = 2015-06-04 17:20
-# url = https://www.flashback.org/p53567888#p53567888
-# genre = internet_forum
-# x_sent_id = a3c486dc2
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9591891765594482
-1	Spoiler	spoiler	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-2	:	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1300531
 # text = Den dag han kan prata "normal" Då kan ni prata igenom allt även om att du inte åt p-piller o att han visste om det m.¨m m.m m.m
 # date = 2005-11-26 21:43:54
@@ -923,19 +887,6 @@
 6	nästa	nästa	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur,Sing	7	amod	_	_
 7	vecka	vecka	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
 8	.	_	PUNCT	MAD	_	5	punct	_	_
-
-# sent_id = 1700569
-# text = v.16 13.
-# date = 2009-03-01 21:58:35
-# url = http://www.familjeliv.se/forum/thread/41959283-bim-lista-april/1#anchor-m9
-# genre = internet_forum
-# x_sent_id = b17a7287
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.93238365650177
-1	v.16	_	NOUN	NN	Abbr=Yes	2	nmod	_	_
-2	13	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-3	.	_	PUNCT	MAD	_	2	punct	_	_
 
 # sent_id = 1600574
 # text = Verkar ju lite mysko med prickarna det KAN ju vara så att lillen har jättont i halsen och därför inte vill äta?
@@ -1662,17 +1613,6 @@
 14	sant	sann	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	xcomp	_	SpaceAfter=No
 15	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1300233
-# text = !
-# date = 2017-05-15 17:42:50
-# url = http://www.familjeliv.se/forum/thread/77635684-al-hur-blir-man-gravid-enklast-tips/3#anchor-m28
-# genre = internet_forum
-# x_sent_id = a68e19c0b
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 600481
 # text = Kan ju vara ett förbipasserande fyllo som tog chansen och kolla om dörren var öppen .
 # date = 2009-08-29 00:43:07
@@ -1874,17 +1814,6 @@
 4	bilder	bild	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	SpaceAfter=No
 5	.	_	PUNCT	MAD	_	4	punct	_	_
 
-# sent_id = 900893
-# text = :-d
-# date = 2005-12-13 18:19:27
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/510#anchor-m5093
-# genre = internet_forum
-# x_sent_id = b6662bc
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9562110304832458
-1	:-d	_	INTJ	IN	_	0	root	_	_
-
 # sent_id = 1000332
 # text = Och så har ni aldrig pratat om honom..........
 # date = 2008-01-16 21:01:38
@@ -2030,20 +1959,6 @@
 46	ideologisk	ideologisk	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	47	amod	_	_
 47	fråga	fråga	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	43	nsubj	_	SpaceAfter=No
 48	.	_	PUNCT	MAD	_	43	punct	_	_
-
-# sent_id = 3300418
-# text = Enjoy the flödder!
-# date = 2014-03-01 04:54
-# url = https://www.flashback.org/p47731117#p47731117
-# genre = internet_forum
-# x_sent_id = e8fa95f0
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.5175092816352844
-1	Enjoy	_	X	UO	_	2	advmod	_	_
-2	the	_	X	UO	_	3	amod	_	_
-3	flödder	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	SpaceAfter=No
-4	!	_	PUNCT	MAD	_	3	punct	_	_
 
 # sent_id = 3200635
 # text = Jag ser detta som något positivt.
@@ -2493,71 +2408,6 @@
 13	fransar	frans	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obj	_	SpaceAfter=No
 14	?	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 2000680
-# text = !
-# date = 2007-06-03 01:34:58
-# url = http://www.familjeliv.se/forum/thread/20716945-javla-kvinnokliniken-falu-lasarett/1#anchor-m3
-# genre = internet_forum
-# x_sent_id = d8f4bd057
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
-# sent_id = 1700441
-# text = Emmajohanna, MammaMu, Bebbelängtan77, monbebe, fanny20 (5) 15. lella77, sara1981, Pirri, ZarahZ87, betan, Carolin83(6) 16. izabelle32, Kajsa73, temple of love, nojjan (4) 17.
-# date = 2005-12-02 13:27:50
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/17#anchor-m168
-# genre = internet_forum
-# x_sent_id = b17e9fe6
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8732224702835083
-1	Emmajohanna	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	1	punct	_	_
-3	MammaMu	_	PROPN	PM	Case=Nom	1	conj	_	SpaceAfter=No
-4	,	_	PUNCT	MID	_	3	punct	_	_
-5	Bebbelängtan77	_	PROPN	PM	Case=Nom	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	MID	_	7	punct	_	_
-7	monbebe	_	PROPN	PM	Case=Nom	3	conj	_	SpaceAfter=No
-8	,	_	PUNCT	MID	_	9	punct	_	_
-9	fanny20	_	NUM	RG	Case=Nom	7	conj	_	_
-10	(	_	PUNCT	PAD	_	9	punct	_	SpaceAfter=No
-11	5	_	NUM	RG	Case=Nom	9	nummod	_	SpaceAfter=No
-12	)	_	PUNCT	PAD	_	13	punct	_	_
-13	15	_	NUM	RG	Case=Nom	9	nummod	_	SpaceAfter=No
-14	.	_	PUNCT	MID	_	1	punct	_	_
-15	lella77	_	NUM	RG	Case=Nom	1	conj	_	SpaceAfter=No
-16	,	_	PUNCT	MID	_	15	punct	_	_
-17	sara1981	_	NUM	RG	Case=Nom	15	conj	_	SpaceAfter=No
-18	,	_	PUNCT	MID	_	19	punct	_	_
-19	Pirri	_	PROPN	PM	Case=Nom	1	conj	_	SpaceAfter=No
-20	,	_	PUNCT	MID	_	19	punct	_	_
-21	ZarahZ87	_	PROPN	PM	Case=Nom	19	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	MID	_	19	punct	_	_
-23	betan	beta	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	MID	_	25	punct	_	_
-25	Carolin83	_	PROPN	PM	Case=Nom	1	conj	_	SpaceAfter=No
-26	(	_	PUNCT	PAD	_	25	punct	_	SpaceAfter=No
-27	6	_	NUM	RG	Case=Nom	25	nummod	_	SpaceAfter=No
-28	)	_	PUNCT	PAD	_	25	punct	_	_
-29	16	_	NUM	RG	Case=Nom	25	nummod	_	SpaceAfter=No
-30	.	_	PUNCT	MAD	_	31	punct	_	_
-31	izabelle32	_	NUM	RG	Case=Nom	1	conj	_	SpaceAfter=No
-32	,	_	PUNCT	MID	_	31	punct	_	_
-33	Kajsa73	_	NUM	RG	Case=Nom	31	nummod	_	SpaceAfter=No
-34	,	_	PUNCT	MID	_	35	punct	_	_
-35	temple	_	PROPN	PM	Case=Nom	1	conj	_	_
-36	of	_	PROPN	PM	Case=Nom	37	nmod	_	_
-37	love	_	PROPN	PM	Case=Nom	35	nmod	_	SpaceAfter=No
-38	,	_	PUNCT	MID	_	35	punct	_	_
-39	nojjan	nojja	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	35	nmod	_	_
-40	(	_	PUNCT	PAD	_	35	punct	_	SpaceAfter=No
-41	4	_	NUM	RG	Case=Nom	35	nummod	_	SpaceAfter=No
-42	)	_	PUNCT	PAD	_	35	punct	_	_
-43	17	_	NUM	RG	Case=Nom	41	nummod	_	SpaceAfter=No
-44	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1400866
 # text = Man är aldrig skyldig att betala umgängesresor som boförälder.
 # date = 2007-08-16 09:01:47
@@ -2628,17 +2478,6 @@
 10	och	och	CCONJ	KN	_	11	cc	_	_
 11	msn	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj	_	SpaceAfter=No
 12	.	_	PUNCT	MAD	_	7	punct	_	_
-
-# sent_id = 2000649
-# text = !
-# date = 2005-12-04 16:39:16
-# url = http://www.familjeliv.se/forum/thread/5809105-spelar-det-nan-roll-vad-man-ar-pa-for-dag-i-cykeln/1#anchor-m3
-# genre = internet_forum
-# x_sent_id = d8f4d43d8
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 2600025
 # text = Reklam och annonsering.
@@ -3357,24 +3196,6 @@
 8	av	av	ADP	PP	_	9	case	_	_
 9	100	_	NUM	RG	Case=Nom	7	nmod	_	SpaceAfter=No
 10	.	_	PUNCT	MAD	_	4	punct	_	_
-
-# sent_id = 2200905
-# text = BF 080820 Lilla puppan,42 år.....
-# date = 2008-07-26 23:47:45
-# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/58#anchor-m572
-# genre = internet_forum
-# x_sent_id = 0530cd823
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9561622142791748
-1	BF	_	NOUN	NN	Abbr=Yes	4	nsubj	_	_
-2	080820	_	NUM	RG	Case=Nom	4	nummod	_	_
-3	Lilla	liten	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	4	amod	_	_
-4	puppan	puppa	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	MID	_	4	punct	_	SpaceAfter=No
-6	42	_	NUM	RG	Case=Nom	7	nummod	_	_
-7	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	appos	_	SpaceAfter=No
-8	.....	_	PUNCT	MAD	_	4	punct	_	_
 
 # sent_id = 400739
 # text = Ja det gör det men Hornbach har billigare .
@@ -4252,17 +4073,6 @@
 5	längre	länge|längre|lång	ADVERB	AB	Degree=Cmp	4	advmod	_	SpaceAfter=No
 6	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 782
-# text = !
-# date = 2007-06-26 11:13:38
-# url = http://www.familjeliv.se/forum/thread/22159625-ffia-kina/1
-# genre = internet_forum
-# x_sent_id = bacb207d
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 2200739
 # text = Trentalen kan också hjälpa om man har svårt för att få upp slemhinnan till rätt storlek inför ET.
 # date = 2009-02-16 14:01:07
@@ -4797,29 +4607,6 @@
 5	cyklar	cykla	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 6	?	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 1200819
-# text = When your home gets cold, the thermostat turns on the furnace.
-# date = 2007-01-05 16:09:53
-# url = http://www.familjeliv.se/forum/thread/13643543-fjarde-aptraden/166#anchor-m1655
-# genre = internet_forum
-# x_sent_id = 4e9ce83ee
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9812843203544617
-1	When	_	X	UO	_	0	root	_	_
-2	your	_	X	UO	_	3	amod	_	_
-3	home	_	X	UO	_	5	amod	_	_
-4	gets	_	X	UO	_	5	compound	_	_
-5	cold	_	X	UO	_	1	appos	_	SpaceAfter=No
-6	,	_	PUNCT	MID	_	5	punct	_	_
-7	the	_	X	UO	_	8	compound	_	_
-8	thermostat	_	X	UO	_	9	compound	_	_
-9	turns	_	X	UO	_	5	appos	_	_
-10	on	_	X	UO	_	9	punct	_	_
-11	the	_	X	UO	_	12	compound	_	_
-12	furnace	_	X	UO	_	9	appos	_	SpaceAfter=No
-13	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 2400204
 # text = Ingen vidare lust att säga att jag ligger på steroider!
 # date = 2010-09-22 11:50
@@ -5146,20 +4933,6 @@
 6	som	_	CCONJ	KN	_	5	fixed	_	_
 7	vanligt	vanlig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	fixed	_	_
 
-# sent_id = 1800631
-# text = 19 augusti - Erla
-# date = 2017-02-19 21:21:46
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/4#anchor-m31
-# genre = internet_forum
-# x_sent_id = a6aa08e4
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9573080539703369
-1	19	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	augusti	augusti	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Erla	_	PROPN	PM	Case=Nom	2	parataxis	_	_
-
 # sent_id = 1900659
 # text = Lät ju helt ok imo, själv så spelar jag i ett Doomband och jag tycker verkligen att det är skitballt.
 # date = 2006-09-19 12:01:57
@@ -5475,18 +5248,6 @@
 9	Thailand	Thailand	PROPN	PM	Case=Nom	7	nmod	_	SpaceAfter=No
 10	.	_	PUNCT	MAD	_	3	punct	_	_
 
-# sent_id = 600392
-# text = The Eye
-# date = 2008-07-28 20:57:12
-# url = http://www.familjeliv.se/forum/thread/34456299-tips-pa-skrackfilm/1#anchor-m3
-# genre = internet_forum
-# x_sent_id = dd383e995
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9832133054733276
-1	The	_	PROPN	PM	Case=Nom	2	amod	_	_
-2	Eye	_	PROPN	PM	Case=Nom	0	root	_	_
-
 # sent_id = 2500410
 # text = Däremot kommer priset flukturera på marknaden.
 # date = 2008-10-24 06:56
@@ -5582,18 +5343,6 @@
 4	scalarerna	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj	_	_
 5	upp	upp|äta upp:3	ADVERB	AB	_	3	advmod	_	_
 6	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 2900090
-# text = QUOTE]
-# date = 2008-02-23 19:24
-# url = https://www.flashback.org/p10125318#p10125318
-# genre = internet_forum
-# x_sent_id = 631c056b7
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9882214665412903
-1	QUOTE	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-2	]	_	PUNCT	PAD	_	1	punct	_	_
 
 # sent_id = 600573
 # text = Så läs det jag skrivit istället för att hetsa upp dig på sånt jag inte skrivit .
@@ -6043,62 +5792,6 @@
 23	marklyft	marklyft	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	_	PUNCT	MAD	_	6	punct	_	_
 
-# sent_id = 1700378
-# text = *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* ~*~*~* TOTALT ANTAL MEDLEMMAR: 37
-# date = 2005-11-21 09:57:14
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/6#anchor-m59
-# genre = internet_forum
-# x_sent_id = b179a7fe
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9450868368148804
-1	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
-2	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-3	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
-4	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-5	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
-6	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-7	*	_	PUNCT	MID	_	8	punct	_	SpaceAfter=No
-8	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
-9	*	_	PUNCT	MID	_	10	punct	_	SpaceAfter=No
-10	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
-11	*	_	PUNCT	MID	_	12	punct	_	SpaceAfter=No
-12	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
-13	*	_	PUNCT	MID	_	14	punct	_	SpaceAfter=No
-14	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	10	conj	_	SpaceAfter=No
-15	*	_	PUNCT	MID	_	16	punct	_	SpaceAfter=No
-16	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-17	*	_	PUNCT	MID	_	18	punct	_	SpaceAfter=No
-18	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-19	*	_	PUNCT	MID	_	20	punct	_	SpaceAfter=No
-20	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-21	*	_	PUNCT	MID	_	22	punct	_	SpaceAfter=No
-22	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-23	*	_	PUNCT	MID	_	24	punct	_	SpaceAfter=No
-24	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-25	*	_	PUNCT	MID	_	26	punct	_	SpaceAfter=No
-26	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-27	*	_	PUNCT	MID	_	28	punct	_	SpaceAfter=No
-28	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-29	*	_	PUNCT	MID	_	30	punct	_	SpaceAfter=No
-30	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-31	*	_	PUNCT	MID	_	32	punct	_	SpaceAfter=No
-32	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-33	*	_	PUNCT	MID	_	34	punct	_	SpaceAfter=No
-34	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-35	*	_	PUNCT	MID	_	36	punct	_	_
-36	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-37	*	_	PUNCT	MID	_	38	punct	_	SpaceAfter=No
-38	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-39	*	_	PUNCT	MID	_	40	punct	_	SpaceAfter=No
-40	~	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	2	conj	_	SpaceAfter=No
-41	*	_	PUNCT	MID	_	44	punct	_	_
-42	TOTALT	total	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
-43	ANTAL	antal	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	44	nmod	_	_
-44	MEDLEMMAR	medlem	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	conj	_	SpaceAfter=No
-45	:	_	PUNCT	MID	_	44	punct	_	_
-46	37	_	NUM	RG	Case=Nom	44	nummod	_	_
-
 # sent_id = 1700044
 # text = Haha hushållssysslor gillar jag med, gör det varje dag!
 # date = 2016-08-08 21:47:00
@@ -6174,35 +5867,6 @@
 28	läpparna	läpp	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	26	nmod	_	SpaceAfter=No
 29	.	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 1700551
-# text = Anna U, mummin, Hannajo, Schessie, Nickan71, Nyx, Annica30 (7) 14.
-# date = 2005-12-14 17:14:05
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/46#anchor-m458
-# genre = internet_forum
-# x_sent_id = b17ca5b8
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9235087037086487
-1	Anna	Anna	PROPN	PM	Case=Nom	0	root	_	_
-2	U	U	PROPN	PM	Case=Nom	1	flat:name	_	SpaceAfter=No
-3	,	_	PUNCT	MID	_	1	punct	_	_
-4	mummin	_	PROPN	PM	Case=Nom	1	appos	_	SpaceAfter=No
-5	,	_	PUNCT	MID	_	1	punct	_	_
-6	Hannajo	_	PROPN	PM	Case=Nom	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	MID	_	6	punct	_	_
-8	Schessie	_	PROPN	PM	Case=Nom	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	MID	_	8	punct	_	_
-10	Nickan71	_	PROPN	PM	Case=Nom	8	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	MID	_	10	punct	_	_
-12	Nyx	_	PROPN	PM	Case=Nom	10	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	MID	_	14	punct	_	_
-14	Annica30	_	PROPN	PM	Case=Nom	12	nmod	_	_
-15	(	_	PUNCT	PAD	_	14	punct	_	SpaceAfter=No
-16	7	_	NUM	RG	Case=Nom	14	nummod	_	SpaceAfter=No
-17	)	_	PUNCT	PAD	_	14	punct	_	_
-18	14	_	NUM	RG	Case=Nom	14	nummod	_	SpaceAfter=No
-19	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 800607
 # text = Gå nu och städa med dig så det är fint när din man kommer hem kvinna!
 # date = 2012-10-26 11:18:00
@@ -6229,36 +5893,6 @@
 15	hem	hem|komma hem:14	PART	PL	_	14	compound:prt	_	_
 16	kvinna	kvinna	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj	_	SpaceAfter=No
 17	!	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 900048
-# text = Mini liten skrev 2009-05-22 12:57:07 följande: Jag brukar kunna förstå det messta du skrivit, efter mååååånga omläsningar.
-# date = 2009-05-22 13:19:21
-# url = http://www.familjeliv.se/forum/thread/43243899-jag-dodar-alla/39#anchor-m381
-# genre = internet_forum
-# x_sent_id = b667f14
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9615821242332458
-1	Mini	_	PROPN	PM	Case=Nom	2	nmod	_	_
-2	liten	liten	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	nsubj	_	_
-3	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	2009-05-22	_	NUM	RG	Case=Nom	3	nummod	_	_
-5	12:57:07	_	NUM	RG	Case=Nom	3	obl	_	_
-6	följande	följa|följande	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	4	nmod	_	SpaceAfter=No
-7	:	_	PUNCT	MID	_	3	punct	_	_
-8	Jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
-9	brukar	bruka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-10	kunna	kunna	VERB	VB	VerbForm=Inf|Voice=Act	9	xcomp	_	_
-11	förstå	förstå	VERB	VB	VerbForm=Inf|Voice=Act	10	xcomp	_	_
-12	det	den|en	DET	DT	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	_
-13	messta	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	_
-14	du	du	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	_
-15	skrivit	skriva	VERB	VB	VerbForm=Sup|Voice=Act	13	acl:relcl	_	SpaceAfter=No
-16	,	_	PUNCT	MID	_	19	punct	_	_
-17	efter	efter	ADP	PP	_	19	case	_	_
-18	mååååånga	_	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	19	amod	_	_
-19	omläsningar	omläsning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	obl	_	SpaceAfter=No
-20	.	_	PUNCT	MAD	_	3	punct	_	_
 
 # sent_id = 1000437
 # text = Han var lika efterlängtad och är nu lika älskad som sin storabror och storasyster trots att han inte fick stanna hos oss.
@@ -6817,19 +6451,6 @@
 7	mig	jag|dela sig:5	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 3700947
-# text = Round up.
-# date = 2021-12-10 21:37
-# url = https://www.flashback.org/p78276088#p78276088
-# genre = internet_forum
-# x_sent_id = 188e8d0e9
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9728197455406189
-1	Round	_	PROPN	PM	Case=Nom	2	nmod	_	_
-2	up	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-3	.	_	PUNCT	MAD	_	2	punct	_	_
-
 # sent_id = 1400038
 # text = Hjälper inte det så dra det upp till tingsrätten.
 # date = 2009-02-03 10:09:33
@@ -7222,20 +6843,6 @@
 14	finns	finna|finnas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	advcl	_	SpaceAfter=No
 15	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1800462
-# text = 14 maj - columbus
-# date = 2016-11-08 10:57:11
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/3#anchor-m25
-# genre = internet_forum
-# x_sent_id = a6aa7906
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9735061526298523
-1	14	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	columbus	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
-
 # sent_id = 1700350
 # text = Tror jag ska ta en paus från alla bimlistor nu.
 # date = 2009-04-12 11:14:21
@@ -7305,110 +6912,6 @@
 18	första	_	ADJ	RO	Case=Nom	19	amod	_	_
 19	månaderna	månad	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	obl	_	SpaceAfter=No
 20	:	_	PUNCT	MAD	_	10	punct	_	_
-
-# sent_id = 1800287
-# text = Beräknad förlossning: 2016 4 juli - capy - födde en son (Olle) 21 juni 23 augusti - Symetrical - födde en son (Milian) 31 aug 21 september - Sagoskog - födde en dotter (Ylva) 4 sep 25 oktober - Eagle - födde en son 21 okt 26 oktober - Loppan84 31 oktober - Iskristall 31 oktober - GästenT 16 november - Sajocawa 2017 1 feb - sagan12345 11 maj - misslina 14 maj - columbus 22 maj - Bäbiiiis 22 maj - Happylife 25 maj - Hoppitossa
-# date = 2016-11-04 11:11:55
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/3#anchor-m22
-# genre = internet_forum
-# x_sent_id = a6aa0eef
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8692773580551147
-1	Beräknad	beräknad	VERB	PC	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	amod	_	_
-2	förlossning	förlossning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-3	:	_	PUNCT	MID	_	2	punct	_	_
-4	2016	_	NUM	RG	Case=Nom	2	nummod	_	_
-5	4	_	NUM	RG	Case=Nom	6	nummod	_	_
-6	juli	juli	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	appos	_	_
-7	-	_	PUNCT	MID	_	6	punct	_	_
-8	capy	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
-9	-	_	PUNCT	MID	_	6	punct	_	_
-10	födde	föda	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-11	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	12	nummod	_	_
-12	son	son	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obj	_	_
-13	(	_	PUNCT	PAD	_	12	punct	_	SpaceAfter=No
-14	Olle	Olle	PROPN	PM	Case=Nom	12	appos	_	SpaceAfter=No
-15	)	_	PUNCT	PAD	_	14	punct	_	_
-16	21	_	NUM	RG	Case=Nom	17	nummod	_	_
-17	juni	juni	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	_	_
-18	23	_	NUM	RG	Case=Nom	19	nummod	_	_
-19	augusti	augusti	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj	_	_
-20	-	_	PUNCT	MID	_	21	punct	_	_
-21	Symetrical	_	PROPN	PM	Case=Nom	10	conj	_	_
-22	-	_	PUNCT	MID	_	23	punct	_	_
-23	födde	föda	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-24	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	25	nummod	_	_
-25	son	son	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obj	_	_
-26	(	_	PUNCT	PAD	_	25	punct	_	SpaceAfter=No
-27	Milian	Milia|Milian	PROPN	PM	Case=Nom	25	appos	_	SpaceAfter=No
-28	)	_	PUNCT	PAD	_	25	punct	_	_
-29	31	_	NUM	RG	Case=Nom	30	nummod	_	_
-30	aug	_	NOUN	NN	Abbr=Yes	23	obl	_	_
-31	21	_	NUM	RG	Case=Nom	32	nummod	_	_
-32	september	september	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	conj	_	_
-33	-	_	PUNCT	MID	_	34	punct	_	_
-34	Sagoskog	_	PROPN	PM	Case=Nom	23	conj	_	_
-35	-	_	PUNCT	MID	_	36	punct	_	_
-36	födde	föda	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-37	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	38	nummod	_	_
-38	dotter	dotter	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	obj	_	_
-39	(	_	PUNCT	PAD	_	36	punct	_	SpaceAfter=No
-40	Ylva	Ylva	PROPN	PM	Case=Nom	36	nsubj	_	SpaceAfter=No
-41	)	_	PUNCT	PAD	_	36	punct	_	_
-42	4	_	NUM	RG	Case=Nom	43	nummod	_	_
-43	sep	_	NOUN	NN	Abbr=Yes	36	obl	_	_
-44	25	_	NUM	RG	Case=Nom	45	nummod	_	_
-45	oktober	oktober	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	obl	_	_
-46	-	_	PUNCT	MID	_	47	punct	_	_
-47	Eagle	_	PROPN	PM	Case=Nom	43	conj	_	_
-48	-	_	PUNCT	MID	_	49	punct	_	_
-49	födde	föda	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-50	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	51	nummod	_	_
-51	son	son	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	49	obj	_	_
-52	21	_	NUM	RG	Case=Nom	53	nummod	_	_
-53	okt	_	NOUN	NN	Abbr=Yes	49	obj	_	_
-54	26	_	NUM	RG	Case=Nom	55	nummod	_	_
-55	oktober	oktober	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	49	obl	_	_
-56	-	_	PUNCT	MID	_	57	punct	_	_
-57	Loppan84	_	PROPN	PM	Case=Nom	49	conj	_	_
-58	31	_	NUM	RG	Case=Nom	59	nummod	_	_
-59	oktober	oktober	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	49	conj	_	_
-60	-	_	PUNCT	MID	_	61	punct	_	_
-61	Iskristall	_	PROPN	PM	Case=Nom	2	conj	_	_
-62	31	_	NUM	RG	Case=Nom	61	nummod	_	_
-63	oktober	oktober	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	57	conj	_	_
-64	-	_	PUNCT	MID	_	65	punct	_	_
-65	GästenT	_	PROPN	PM	Case=Nom	2	conj	_	_
-66	16	_	NUM	RG	Case=Nom	65	nummod	_	_
-67	november	november	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	65	conj	_	_
-68	-	_	PUNCT	MID	_	69	punct	_	_
-69	Sajocawa	_	PROPN	PM	Case=Nom	2	conj	_	_
-70	2017	_	NUM	RG	Case=Nom	69	nummod	_	_
-71	1	_	NUM	RG	Case=Nom	72	nummod	_	_
-72	feb	_	NOUN	NN	Abbr=Yes	65	conj	_	_
-73	-	_	PUNCT	MID	_	2	punct	_	_
-74	sagan12345	_	NUM	RG	Case=Nom	2	conj	_	_
-75	11	_	NUM	RG	Case=Nom	76	nummod	_	_
-76	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	74	conj	_	_
-77	-	_	PUNCT	MID	_	78	punct	_	_
-78	misslina	misslina	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj	_	_
-79	14	_	NUM	RG	Case=Nom	80	nummod	_	_
-80	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	78	conj	_	_
-81	-	_	PUNCT	MID	_	82	punct	_	_
-82	columbus	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj	_	_
-83	22	_	NUM	RG	Case=Nom	84	nummod	_	_
-84	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	82	conj	_	_
-85	-	_	PUNCT	MID	_	2	punct	_	_
-86	Bäbiiiis	_	PROPN	PM	Case=Nom	2	conj	_	_
-87	22	_	NUM	RG	Case=Nom	88	nummod	_	_
-88	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	86	conj	_	_
-89	-	_	PUNCT	MID	_	90	punct	_	_
-90	Happylife	_	PROPN	PM	Case=Nom	2	conj	_	_
-91	25	_	NUM	RG	Case=Nom	92	nummod	_	_
-92	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj	_	_
-93	-	_	PUNCT	MID	_	2	punct	_	_
-94	Hoppitossa	hoppitossa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
 
 # sent_id = 959
 # text = Barnet hade fått titta i den här livsboken dagligen i flera veckor innan vi kom till landet och kunde allt utantill.
@@ -7492,17 +6995,6 @@
 9	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 10	positiv	positiv	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	xcomp	_	SpaceAfter=No
 11	.	_	PUNCT	MAD	_	4	punct	_	_
-
-# sent_id = 1600943
-# text = !
-# date = 2008-03-28 07:13:10
-# url = http://www.familjeliv.se/forum/thread/28676800-visparnas-trad-6/198#anchor-m1976
-# genre = internet_forum
-# x_sent_id = 5ef679884
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 500043
 # text = Åhh Har dom stått ute längre tid?
@@ -8140,17 +7632,6 @@
 # sentiment_score = 0.9776837825775146
 1	2017	_	NUM	RG	Case=Nom	0	root	_	_
 
-# sent_id = 900353
-# text = !
-# date = 2005-12-12 14:24:51
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/95#anchor-m950
-# genre = internet_forum
-# x_sent_id = b6621ec
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 2300875
 # text = Ok, det verkar ju lite konstigt att inte ens datorn skulle starta.
 # date = 2011-03-26 15:18
@@ -8190,20 +7671,6 @@
 4	prova	prova	VERB	VB	VerbForm=Inf|Voice=Act	3	xcomp	_	_
 5	den	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing	4	obj	_	SpaceAfter=No
 6	...	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 1800943
-# text = 11 maj - misslina
-# date = 2016-09-23 07:39:40
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/2#anchor-m11
-# genre = internet_forum
-# x_sent_id = a6aaad2d
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.5270936489105225
-1	11	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	misslina	misslina	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
 
 # sent_id = 200689
 # text = Det ena spåret var hans, det andra var Guds.
@@ -8245,17 +7712,6 @@
 8	orolig	orolig	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	xcomp	_	_
 9	för	för	ADP	PP	_	7	case	_	SpaceAfter=No
 10	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 1800309
-# text = :)
-# date = 2014-06-01 16:09:15
-# url = http://www.familjeliv.se/forum/thread/72416191-varmlandsmammor/14#anchor-m138
-# genre = internet_forum
-# x_sent_id = a6aa5d45
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9696422815322876
-1	:)	_	INTJ	IN	_	0	root	_	_
 
 # sent_id = 800345
 # text = Nej självklart inte, skilj dig, lämna svinet, gör inget du inte vill, ett nej väger alltid tyngst osvosv.
@@ -9820,32 +9276,6 @@
 7	droger	drog	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nmod	_	SpaceAfter=No
 8	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 3600769
-# text = Sky sources are telling us that Nikica Jelavic has passed his medical at West Ham.
-# date = 2015-09-01 11:44
-# url = https://www.flashback.org/p54547768#p54547768
-# genre = internet_forum
-# x_sent_id = a3c4b60a9
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9926630258560181
-1	Sky	_	PROPN	PM	Case=Nom	0	root	_	_
-2	sources	_	PROPN	PM	Case=Nom	4	nmod	_	_
-3	are	_	PROPN	PM	Case=Nom	4	compound	_	_
-4	telling	_	PROPN	PM	Case=Nom	5	compound	_	_
-5	us	_	PROPN	PM	Case=Nom	7	compound	_	_
-6	that	_	PROPN	PM	Case=Nom	7	compound	_	_
-7	Nikica	_	PROPN	PM	Case=Nom	8	compound	_	_
-8	Jelavic	_	PROPN	PM	Case=Nom	1	conj	_	_
-9	has	_	PROPN	PM	Case=Nom	10	flat:name	_	_
-10	passed	_	PROPN	PM	Case=Nom	11	compound	_	_
-11	his	_	PROPN	PM	Case=Nom	12	compound	_	_
-12	medical	_	PROPN	PM	Case=Nom	13	compound	_	_
-13	at	_	PROPN	PM	Case=Nom	1	conj	_	_
-14	West	_	PROPN	PM	Case=Nom	13	compound	_	_
-15	Ham	_	PROPN	PM	Case=Nom	13	flat:name	_	SpaceAfter=No
-16	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1200033
 # text = ), eller ska jag köra på havregrynsgröt då också?
 # date = 2006-12-10 20:40:23
@@ -10103,17 +9533,6 @@
 18	sikta	sikta	VERB	VB	VerbForm=Inf|Voice=Act	17	xcomp	_	_
 19	på	på	ADP	PP	_	18	case	_	SpaceAfter=No
 20	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 900516
-# text = :-d
-# date = 2005-12-13 18:20:15
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/517#anchor-m5165
-# genre = internet_forum
-# x_sent_id = b667639
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9562110304832458
-1	:-d	_	INTJ	IN	_	0	root	_	_
 
 # sent_id = 800097
 # text = Ingen av oss ar villig att ge upp sitt efternamn.
@@ -11611,55 +11030,6 @@
 6	bort	bort|gå bort:5	PART	PL	_	5	compound:prt	_	SpaceAfter=No
 7	.	_	PUNCT	MAD	_	5	punct	_	_
 
-# sent_id = 2900101
-# text = SAS gick alltså ut imorse och gjorde sig själva till offer genom att påstå "When analyzing the pattern and volume of reactions we have reason to suspect an online attack and that the campaign has been hijacked.
-# date = 2020-02-12 16:19
-# url = https://www.flashback.org/p70246821#p70246821
-# genre = internet_forum
-# x_sent_id = 631c1c5d8
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9362279176712036
-1	SAS	SAS	PROPN	PM	Case=Nom	2	nsubj	_	_
-2	gick	gå|gå ut	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	alltså	alltså	ADVERB	AB	_	2	advmod	_	_
-4	ut	ut|gå ut:2	PART	PL	_	2	compound:prt	_	_
-5	imorse	imorse	ADVERB	AB	_	2	advmod	_	_
-6	och	och	CCONJ	KN	_	7	cc	_	_
-7	gjorde	göra|göra sig	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
-8	sig	sig|göra sig:7	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	7	obj	_	_
-9	själva	själv|själva	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	7	advmod	_	_
-10	till	till	ADP	PP	_	11	case	_	_
-11	offer	offer	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	_
-12	genom	genom	ADP	PP	_	14	mark	_	_
-13	att	att	PART	IE	_	14	mark	_	_
-14	påstå	påstå	VERB	VB	VerbForm=Inf|Voice=Act	7	advcl	_	_
-15	"	_	PUNCT	PAD	_	14	punct	_	SpaceAfter=No
-16	When	_	X	UO	_	19	compound	_	_
-17	analyzing	_	X	UO	_	19	amod	_	_
-18	the	_	X	UO	_	19	amod	_	_
-19	pattern	_	X	UO	_	14	appos	_	_
-20	and	_	X	UO	_	21	cc	_	_
-21	volume	_	X	UO	_	19	conj	_	_
-22	of	_	X	UO	_	23	case	_	_
-23	reactions	_	X	UO	_	19	compound	_	_
-24	we	_	X	UO	_	28	compound	_	_
-25	have	_	X	UO	_	28	compound	_	_
-26	reason	_	X	UO	_	28	compound	_	_
-27	to	_	X	UO	_	28	compound	_	_
-28	suspect	_	X	UO	_	19	conj	_	_
-29	an	_	X	UO	_	31	case	_	_
-30	online	_	X	UO	_	31	compound	_	_
-31	attack	_	X	UO	_	28	appos	_	_
-32	and	_	X	UO	_	35	cc	_	_
-33	that	_	X	UO	_	31	amod	_	_
-34	the	_	X	UO	_	35	compound	_	_
-35	campaign	_	X	UO	_	31	conj	_	_
-36	has	_	X	UO	_	37	amod	_	_
-37	been	_	X	UO	_	38	compound	_	_
-38	hijacked	_	X	UO	_	28	conj	_	SpaceAfter=No
-39	.	_	PUNCT	MAD	_	2	punct	_	_
-
 # sent_id = 1500115
 # text = Jag undrar för jag hittar inte så bra här i familjelivsdjungeln om det finns någon aktiv tråd man kan gå in i som handlar om detta!
 # date = 2015-12-12 09:31:04
@@ -11933,157 +11303,6 @@
 5	:	_	PUNCT	MID	_	4	punct	_	_
 6	1	_	NUM	RG	Case=Nom	1	list	_	SpaceAfter=No
 7	.	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 2200812
-# text = azuren, 42 år ..... BIM 12/8 Lyckoprinsessan, 42 år... BIM 13/8 Vildhonung, 44 år... BIM c:a 15/8 ystersyster, 41 år... BIM 16/8 Vildhonung, 44 år... BIM c:a 18/8 Magica DH, 43 år... BIM ca 19/8 Evie, 42 år... BIM ca 19/8 ModerSvea, 41 år..... BIM 22/8 Fyrabarnsmor, 45 år...BIM 25/8 akh,43år .. BIM 26/8 HannaGD, 44 år..... BIM 27/8 ChippiChoppi,41 år... BIM 28/8 Lotta, 41 år.... BIM 28/8 Minnet66, 42 år... BIM c:a 30/8 Skeptisk, 41 år... BIM cirka 8/9
-# date = 2008-08-05 16:26:40
-# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/66#anchor-m659
-# genre = internet_forum
-# x_sent_id = 053012558
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.7821254730224609
-1	azuren	azur	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	1	punct	_	_
-3	42	_	NUM	RG	Case=Nom	4	nummod	_	_
-4	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	appos	_	_
-5	.....	_	PUNCT	MID	_	1	punct	_	_
-6	BIM	_	PROPN	PM	Case=Nom	1	appos	_	_
-7	12	_	NUM	RG	Case=Nom	6	nummod	_	SpaceAfter=No
-8	/	_	PUNCT	MID	_	9	punct	_	SpaceAfter=No
-9	8	_	NUM	RG	Case=Nom	10	nummod	_	_
-10	Lyckoprinsessan	lyckoprinsessa	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	conj	_	SpaceAfter=No
-11	,	_	PUNCT	MID	_	13	punct	_	_
-12	42	_	NUM	RG	Case=Nom	13	nummod	_	_
-13	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	appos	_	SpaceAfter=No
-14	...	_	PUNCT	MID	_	15	punct	_	_
-15	BIM	_	PROPN	PM	Case=Nom	1	appos	_	_
-16	13	_	NUM	RG	Case=Nom	15	nummod	_	SpaceAfter=No
-17	/	_	PUNCT	MID	_	15	punct	_	SpaceAfter=No
-18	8	_	NUM	RG	Case=Nom	15	conj	_	_
-19	Vildhonung	_	PROPN	PM	Case=Nom	15	conj	_	SpaceAfter=No
-20	,	_	PUNCT	MID	_	19	punct	_	_
-21	44	_	NUM	RG	Case=Nom	22	nummod	_	_
-22	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	19	parataxis	_	SpaceAfter=No
-23	...	_	PUNCT	MID	_	26	punct	_	_
-24	BIM	_	PROPN	PM	Case=Nom	26	obl	_	_
-25	c:a	_	NOUN	NN	Abbr=Yes	26	obl	_	_
-26	15	_	NUM	RG	Case=Nom	19	conj	_	SpaceAfter=No
-27	/	_	PUNCT	MID	_	29	punct	_	SpaceAfter=No
-28	8	_	NUM	RG	Case=Nom	29	nummod	_	_
-29	ystersyster	ystersyster	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	conj	_	SpaceAfter=No
-30	,	_	PUNCT	MID	_	32	punct	_	_
-31	41	_	NUM	RG	Case=Nom	32	nummod	_	_
-32	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	26	parataxis	_	SpaceAfter=No
-33	...	_	PUNCT	MID	_	34	punct	_	_
-34	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-35	16	_	NUM	RG	Case=Nom	34	nummod	_	SpaceAfter=No
-36	/	_	PUNCT	MID	_	37	punct	_	SpaceAfter=No
-37	8	_	NUM	RG	Case=Nom	1	conj	_	_
-38	Vildhonung	_	PROPN	PM	Case=Nom	1	conj	_	SpaceAfter=No
-39	,	_	PUNCT	MID	_	34	punct	_	_
-40	44	_	NUM	RG	Case=Nom	41	nummod	_	_
-41	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	34	conj	_	SpaceAfter=No
-42	...	_	PUNCT	MID	_	45	punct	_	_
-43	BIM	_	PROPN	PM	Case=Nom	45	obl	_	_
-44	c:a	_	NOUN	NN	Abbr=Yes	45	nmod	_	_
-45	18	_	NUM	RG	Case=Nom	1	parataxis	_	SpaceAfter=No
-46	/	_	PUNCT	MID	_	47	punct	_	SpaceAfter=No
-47	8	_	NUM	RG	Case=Nom	45	nummod	_	_
-48	Magica	_	PROPN	PM	Case=Nom	45	conj	_	_
-49	DH	_	PROPN	PM	Case=Nom	45	conj	_	SpaceAfter=No
-50	,	_	PUNCT	MID	_	52	punct	_	_
-51	43	_	NUM	RG	Case=Nom	52	nummod	_	_
-52	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	45	parataxis	_	SpaceAfter=No
-53	...	_	PUNCT	MID	_	54	punct	_	_
-54	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-55	ca	ca	ADVERB	AB	Abbr=Yes	56	advmod	_	_
-56	19	_	NUM	RG	Case=Nom	54	nummod	_	SpaceAfter=No
-57	/	_	PUNCT	MID	_	58	punct	_	SpaceAfter=No
-58	8	_	NUM	RG	Case=Nom	54	conj	_	_
-59	Evie	_	PROPN	PM	Case=Nom	54	conj	_	SpaceAfter=No
-60	,	_	PUNCT	MID	_	54	punct	_	_
-61	42	_	NUM	RG	Case=Nom	62	nummod	_	_
-62	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	54	conj	_	SpaceAfter=No
-63	...	_	PUNCT	MID	_	64	punct	_	_
-64	BIM	_	PROPN	PM	Case=Nom	54	conj	_	_
-65	ca	ca	ADVERB	AB	Abbr=Yes	66	advmod	_	_
-66	19	_	NUM	RG	Case=Nom	64	conj	_	SpaceAfter=No
-67	/	_	PUNCT	MID	_	68	punct	_	SpaceAfter=No
-68	8	_	NUM	RG	Case=Nom	64	nummod	_	_
-69	ModerSvea	_	PROPN	PM	Case=Nom	64	conj	_	SpaceAfter=No
-70	,	_	PUNCT	MID	_	64	punct	_	_
-71	41	_	NUM	RG	Case=Nom	72	nummod	_	_
-72	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	64	conj	_	SpaceAfter=No
-73	.....	_	PUNCT	MID	_	75	punct	_	_
-74	BIM	_	NOUN	NN	Abbr=Yes	75	obl	_	_
-75	22	_	NUM	RG	Case=Nom	64	conj	_	SpaceAfter=No
-76	/	_	PUNCT	MID	_	75	punct	_	SpaceAfter=No
-77	8	_	NUM	RG	Case=Nom	75	nummod	_	_
-78	Fyrabarnsmor	fyrabarnsmor	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	75	conj	_	SpaceAfter=No
-79	,	_	PUNCT	MID	_	75	punct	_	_
-80	45	_	NUM	RG	Case=Nom	81	nummod	_	_
-81	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	75	conj	_	SpaceAfter=No
-82	...	_	PUNCT	MID	_	78	punct	_	SpaceAfter=No
-83	BIM	_	PROPN	PM	Case=Nom	75	obl	_	_
-84	25	_	NUM	RG	Case=Nom	75	nummod	_	SpaceAfter=No
-85	/	_	PUNCT	MID	_	83	punct	_	SpaceAfter=No
-86	8	_	NUM	RG	Case=Nom	83	nummod	_	_
-87	akh	_	NOUN	NN	Abbr=Yes	83	conj	_	SpaceAfter=No
-88	,	_	PUNCT	MID	_	89	punct	_	SpaceAfter=No
-89	43år	_	NUM	RG	Case=Nom	83	conj	_	_
-90	..	_	PUNCT	MID	_	91	punct	_	_
-91	BIM	_	PROPN	PM	Case=Nom	89	obl	_	_
-92	26	_	NUM	RG	Case=Nom	89	nummod	_	SpaceAfter=No
-93	/	_	PUNCT	MID	_	94	punct	_	SpaceAfter=No
-94	8	_	NUM	RG	Case=Nom	89	conj	_	_
-95	HannaGD	_	PROPN	PM	Case=Nom	94	obl	_	SpaceAfter=No
-96	,	_	PUNCT	MID	_	101	punct	_	_
-97	44	_	NUM	RG	Case=Nom	98	nummod	_	_
-98	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	89	obl	_	SpaceAfter=No
-99	.....	_	PUNCT	MID	_	101	punct	_	_
-100	BIM	_	NOUN	NN	Abbr=Yes	101	obl	_	_
-101	27	_	NUM	RG	Case=Nom	1	parataxis	_	SpaceAfter=No
-102	/	_	PUNCT	MID	_	101	punct	_	SpaceAfter=No
-103	8	_	NUM	RG	Case=Nom	101	conj	_	_
-104	ChippiChoppi	_	PROPN	PM	Case=Nom	101	conj	_	SpaceAfter=No
-105	,	_	PUNCT	MID	_	101	punct	_	SpaceAfter=No
-106	41	_	NUM	RG	Case=Nom	107	nummod	_	_
-107	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	101	obl	_	SpaceAfter=No
-108	...	_	PUNCT	MID	_	101	punct	_	_
-109	BIM	_	PROPN	PM	Case=Nom	101	conj	_	_
-110	28	_	NUM	RG	Case=Nom	109	nummod	_	SpaceAfter=No
-111	/	_	PUNCT	MID	_	112	punct	_	SpaceAfter=No
-112	8	_	NUM	RG	Case=Nom	109	conj	_	_
-113	Lotta	Lotta	PROPN	PM	Case=Nom	112	conj	_	SpaceAfter=No
-114	,	_	PUNCT	MID	_	112	punct	_	_
-115	41	_	NUM	RG	Case=Nom	116	nummod	_	_
-116	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	112	appos	_	SpaceAfter=No
-117	....	_	PUNCT	MID	_	118	punct	_	_
-118	BIM	_	PROPN	PM	Case=Nom	1	conj	_	_
-119	28	_	NUM	RG	Case=Nom	118	nummod	_	SpaceAfter=No
-120	/	_	PUNCT	MID	_	122	punct	_	SpaceAfter=No
-121	8	_	NUM	RG	Case=Nom	1	conj	_	_
-122	Minnet66	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No
-123	,	_	PUNCT	MID	_	122	punct	_	_
-124	42	_	NUM	RG	Case=Nom	125	nummod	_	_
-125	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	122	conj	_	SpaceAfter=No
-126	...	_	PUNCT	MID	_	122	punct	_	_
-127	BIM	_	PROPN	PM	Case=Nom	129	obl	_	_
-128	c:a	_	NOUN	NN	Abbr=Yes	129	obl	_	_
-129	30	_	NUM	RG	Case=Nom	122	nummod	_	SpaceAfter=No
-130	/	_	PUNCT	MID	_	129	punct	_	SpaceAfter=No
-131	8	_	NUM	RG	Case=Nom	129	conj	_	_
-132	Skeptisk	skeptisk	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	129	conj	_	SpaceAfter=No
-133	,	_	PUNCT	MID	_	129	punct	_	_
-134	41	_	NUM	RG	Case=Nom	135	nummod	_	_
-135	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	129	obl	_	SpaceAfter=No
-136	...	_	PUNCT	MID	_	139	punct	_	_
-137	BIM	_	PROPN	PM	Case=Nom	1	conj	_	_
-138	cirka	cirka	ADVERB	AB	_	139	advmod	_	_
-139	8	_	NUM	RG	Case=Nom	129	conj	_	SpaceAfter=No
-140	/	_	PUNCT	MID	_	139	punct	_	SpaceAfter=No
-141	9	_	NUM	RG	Case=Nom	139	conj	_	_
 
 # sent_id = 2900997
 # text = Den moderna mannen är mer självständig än dennes primitive föregångare, dock ännu inte helt individualiserad.
@@ -12604,17 +11823,6 @@
 5	rätt	rätt	ADVERB	AB	_	3	advmod	_	SpaceAfter=No
 6	.	_	PUNCT	MAD	_	3	punct	_	_
 
-# sent_id = 1300353
-# text = !
-# date = 2005-09-17 23:30:08
-# url = http://www.familjeliv.se/forum/thread/4488048-inte-sex-pa-over/2#anchor-m14
-# genre = internet_forum
-# x_sent_id = a68eca208
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 2500475
 # text = Nä hela grejen verkar jävligt fishy.
 # date = 2011-08-27 22:40
@@ -12631,20 +11839,6 @@
 5	jävligt	jävlig|jävligt	ADVERB	AB	Degree=Pos	6	advmod	_	_
 6	fishy	fishy	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	xcomp	_	SpaceAfter=No
 7	.	_	PUNCT	MAD	_	4	punct	_	_
-
-# sent_id = 1800201
-# text = 21 september - Sagoskog
-# date = 2016-10-04 19:05:33
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/2#anchor-m14
-# genre = internet_forum
-# x_sent_id = a6aa8987
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9720847010612488
-1	21	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	september	september	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Sagoskog	sagoskog	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
 
 # sent_id = 1900698
 # text = Du skulle snarare göra fel i att ALDRIG ta med dig familjen.
@@ -13170,17 +12364,6 @@
 1	12	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
 2	.	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 900464
-# text = !
-# date = 2005-12-13 21:27:27
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/539#anchor-m5384
-# genre = internet_forum
-# x_sent_id = b6640f1
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 2500842
 # text = Vi plockade mest bollarna ur vattenhålen, på banan hade dem även en sorts maskin man stoppar in bollarna i och vevar, så tvättas dem
 # date = 2012-05-12 22:56
@@ -13216,17 +12399,6 @@
 24	så	så	ADVERB	AB	_	25	advmod	_	_
 25	tvättas	tvätta	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
 26	dem	de	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur	25	obj	_	_
-
-# sent_id = 1300552
-# text = !
-# date = 2004-10-12 21:34:09
-# url = http://www.familjeliv.se/forum/thread/1187564-andra-barnet-mindre-forstaende-partner/1#anchor-m5
-# genre = internet_forum
-# x_sent_id = a68ea313e
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 2500355
 # text = Men om man kan räkna kort enligt ett visst system som funkar som så att 2-6 innebär + 1, och 10-A innebär -1, så kan man, om man lärt sig spela optimalt innan, gå plus med i genomsnitt ca 1% per hand, ju mer desto större differens man har från 0 enligt räknesättet.
@@ -14243,26 +13415,6 @@
 10	sin	sig|i sin:9	DET	PS	Definite=Def|Gender=Com|Number=Sing	11	amod	_	_
 11	kategori	kategori	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	_	PUNCT	MAD	_	6	punct	_	_
-
-# sent_id = 3200852
-# text = I'll still see you in hell SvS.
-# date = 2002-04-13 12:52
-# url = https://www.flashback.org/p1147#p1147
-# genre = internet_forum
-# x_sent_id = 7765f4ca2
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8991726040840149
-1	I	i	ADP	PP	_	3	case	_	SpaceAfter=No
-2	'	_	PUNCT	PAD	_	3	punct	_	SpaceAfter=No
-3	ll	_	PROPN	PM	Case=Nom	0	root	_	_
-4	still	_	PROPN	PM	Case=Nom	6	nmod	_	_
-5	see	_	PROPN	PM	Case=Nom	6	amod	_	_
-6	you	_	PROPN	PM	Case=Nom	3	nmod	_	_
-7	in	_	PROPN	PM	Case=Nom	6	punct	_	_
-8	hell	_	PROPN	PM	Case=Nom	9	nmod	_	_
-9	SvS	_	PROPN	PM	Case=Nom	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	MAD	_	6	punct	_	_
 
 # sent_id = 1200934
 # text = "Det låter förfärligt!"
@@ -15935,25 +15087,6 @@
 28	henne	hon	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	25	obl	_	_
 29	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1700943
-# text = Tricia, Underbara Ängel (2) 11.
-# date = 2005-12-04 13:52:20
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/23#anchor-m227
-# genre = internet_forum
-# x_sent_id = b17a2423
-# speech_act = none
-# sentiment_label = positive
-# sentiment_score = 0.7609599828720093
-1	Tricia	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	1	punct	_	_
-3	Underbara	underbar	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	4	amod	_	_
-4	Ängel	ängel	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos	_	_
-5	(	_	PUNCT	PAD	_	4	punct	_	SpaceAfter=No
-6	2	_	NUM	RG	Case=Nom	4	nummod	_	SpaceAfter=No
-7	)	_	PUNCT	PAD	_	4	punct	_	_
-8	11	_	NUM	RG	Case=Nom	4	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1900904
 # text = Nu jäklar skall det snickras en spjälsäng!!!
 # date = 2008-01-04 23:06:06
@@ -16315,39 +15448,6 @@
 17	skada	skada	VERB	VB	VerbForm=Inf|Voice=Act	16	xcomp	_	_
 18	dig	du	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	17	iobj	_	SpaceAfter=No
 19	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 2400150
-# text = "Martin from Sweden is hard as nails and looks to be the best in this call out from where we sit"
-# date = 2008-05-10 20:11
-# url = https://www.flashback.org/p11163016#p11163016
-# genre = internet_forum
-# x_sent_id = c28a27d8e
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9605100750923157
-1	"	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
-2	Martin	Martin	PROPN	PM	Case=Nom	0	root	_	_
-3	from	_	PROPN	PM	Case=Nom	4	flat:name	_	_
-4	Sweden	_	PROPN	PM	Case=Nom	2	conj	_	_
-5	is	_	X	UO	_	6	compound	_	_
-6	hard	_	X	UO	_	2	conj	_	_
-7	as	_	X	UO	_	8	cc	_	_
-8	nails	_	X	UO	_	6	compound	_	_
-9	and	_	X	UO	_	10	cc	_	_
-10	looks	_	X	UO	_	8	conj	_	_
-11	to	_	X	UO	_	14	appos	_	_
-12	be	_	X	UO	_	14	compound	_	_
-13	the	_	X	UO	_	14	compound	_	_
-14	best	_	X	UO	_	2	conj	_	_
-15	in	_	X	UO	_	18	case	_	_
-16	this	_	X	UO	_	17	compound	_	_
-17	call	_	X	UO	_	18	compound	_	_
-18	out	_	X	UO	_	14	appos	_	_
-19	from	_	X	UO	_	22	cc	_	_
-20	where	_	X	UO	_	21	compound	_	_
-21	we	_	X	UO	_	22	compound	_	_
-22	sit	_	X	UO	_	18	appos	_	SpaceAfter=No
-23	"	_	PUNCT	PAD	_	14	punct	_	_
 
 # sent_id = 1300758
 # text = Och en del har mer än vad de hade innan.
@@ -18044,17 +17144,6 @@
 12	..	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
 13	?	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 900496
-# text = :-d
-# date = 2005-12-13 18:19:49
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/513#anchor-m5128
-# genre = internet_forum
-# x_sent_id = b66b8dd
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9562110304832458
-1	:-d	_	INTJ	IN	_	0	root	_	_
-
 # sent_id = 1100724
 # text = Hej!
 # date = 2009-08-31 17:25:52
@@ -18203,116 +17292,6 @@
 17	)	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
 18	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1000115
-# text = FEBRUARI 1 Gabriel (mamma Jeanette) 1997 1 Isabelle (Jossesmamma) 2007 2 Leo Nathanael (mamma Änglamor) 2005 2 Vår älskade dotter Alma (mamma Bebbe2007) 2007 3 Lucas (mamma maddez) 2006 4 Isabelle Martina&Jens) 2005 5 Hampus (mamma-änglamamma-Jenny) 2003 5 Leonora (mamma Gabriella och pappa Mattias) 2007 5 Felicia (Liindiita) 2005 6 Emmy (Snuffsan74) 2006 7 Emilia (Jessica26) 2006 8 Milla (mamma emma2006) 2006 9 Moa (nettan33)2005 13 Saku(Mamma Mariana & Pappa Jeffrey.
-# date = 2008-01-23 10:41:24
-# url = http://www.familjeliv.se/forum/thread/26730644-vara-anglars-fodelsedagar/14#anchor-m139
-# genre = internet_forum
-# x_sent_id = c58d7be
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8576288223266602
-1	FEBRUARI	februari	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
-2	1	_	NUM	RG	Case=Nom	0	root	_	_
-3	Gabriel	Gabriel	PROPN	PM	Case=Nom	2	conj	_	_
-4	(	_	PUNCT	PAD	_	3	punct	_	SpaceAfter=No
-5	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
-6	Jeanette	Jeanette	PROPN	PM	Case=Nom	3	nmod	_	SpaceAfter=No
-7	)	_	PUNCT	PAD	_	3	punct	_	_
-8	1997	_	NUM	RG	Case=Nom	10	nummod	_	_
-9	1	_	NUM	RG	Case=Nom	10	nummod	_	_
-10	Isabelle	Isabelle	PROPN	PM	Case=Nom	2	conj	_	_
-11	(	_	PUNCT	PAD	_	10	punct	_	SpaceAfter=No
-12	Jossesmamma	_	PROPN	PM	Case=Nom	10	nmod	_	SpaceAfter=No
-13	)	_	PUNCT	PAD	_	10	punct	_	_
-14	2007	_	NUM	RG	Case=Nom	16	nummod	_	_
-15	2	_	NUM	RG	Case=Nom	16	nummod	_	_
-16	Leo	Leo	PROPN	PM	Case=Nom	2	conj	_	_
-17	Nathanael	Nathanael	PROPN	PM	Case=Nom	16	flat:name	_	_
-18	(	_	PUNCT	PAD	_	16	punct	_	SpaceAfter=No
-19	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	_	_
-20	Änglamor	_	PROPN	PM	Case=Nom	16	nmod	_	SpaceAfter=No
-21	)	_	PUNCT	PAD	_	16	punct	_	_
-22	2005	_	NUM	RG	Case=Nom	16	nummod	_	_
-23	2	_	NUM	RG	Case=Nom	25	nummod	_	_
-24	Vår	vi	DET	PS	Definite=Def|Gender=Com|Number=Sing	25	amod	_	_
-25	älskade	älska|älskad	VERB	PC	Case=Nom|Definite=Def|Gender=Com,Neut|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
-26	dotter	dotter	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nmod	_	_
-27	Alma	Alma	PROPN	PM	Case=Nom	2	conj	_	_
-28	(	_	PUNCT	PAD	_	27	punct	_	SpaceAfter=No
-29	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	nmod	_	_
-30	Bebbe2007	_	PROPN	PM	Case=Nom	27	nmod	_	SpaceAfter=No
-31	)	_	PUNCT	PAD	_	27	punct	_	_
-32	2007	_	NUM	RG	Case=Nom	27	nummod	_	_
-33	3	_	NUM	RG	Case=Nom	34	nummod	_	_
-34	Lucas	Lucas	PROPN	PM	Case=Nom	2	conj	_	_
-35	(	_	PUNCT	PAD	_	34	punct	_	SpaceAfter=No
-36	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	nmod	_	_
-37	maddez	_	PROPN	PM	Case=Nom	34	nmod	_	SpaceAfter=No
-38	)	_	PUNCT	PAD	_	34	punct	_	_
-39	2006	_	NUM	RG	Case=Nom	41	nummod	_	_
-40	4	_	NUM	RG	Case=Nom	41	nummod	_	_
-41	Isabelle	Isabelle	PROPN	PM	Case=Nom	2	conj	_	_
-42	Martina&Jens	_	PROPN	PM	Case=Nom	41	flat:name	_	SpaceAfter=No
-43	)	_	PUNCT	PAD	_	41	punct	_	_
-44	2005	_	NUM	RG	Case=Nom	46	nummod	_	_
-45	5	_	NUM	RG	Case=Nom	46	nummod	_	_
-46	Hampus	Hampus	PROPN	PM	Case=Nom	41	conj	_	_
-47	(	_	PUNCT	PAD	_	46	punct	_	SpaceAfter=No
-48	mamma-änglamamma-Jenny	_	PROPN	PM	Case=Nom	46	nmod	_	SpaceAfter=No
-49	)	_	PUNCT	PAD	_	46	punct	_	_
-50	2003	_	NUM	RG	Case=Nom	51	nummod	_	_
-51	5	_	NUM	RG	Case=Nom	52	nummod	_	_
-52	Leonora	Leonora	PROPN	PM	Case=Nom	46	conj	_	_
-53	(	_	PUNCT	PAD	_	52	punct	_	SpaceAfter=No
-54	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	55	nmod	_	_
-55	Gabriella	Gabriella	PROPN	PM	Case=Nom	52	appos	_	_
-56	och	och	CCONJ	KN	_	55	cc	_	_
-57	pappa	pappa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	55	conj	_	_
-58	Mattias	Mattias	PROPN	PM	Case=Nom	55	conj	_	SpaceAfter=No
-59	)	_	PUNCT	PAD	_	52	punct	_	_
-60	2007	_	NUM	RG	Case=Nom	62	nummod	_	_
-61	5	_	NUM	RG	Case=Nom	62	nummod	_	_
-62	Felicia	Felicia	PROPN	PM	Case=Nom	52	conj	_	_
-63	(	_	PUNCT	PAD	_	62	punct	_	SpaceAfter=No
-64	Liindiita	_	PROPN	PM	Case=Nom	62	nmod	_	SpaceAfter=No
-65	)	_	PUNCT	PAD	_	62	punct	_	_
-66	2005	_	NUM	RG	Case=Nom	62	nummod	_	_
-67	6	_	NUM	RG	Case=Nom	68	nummod	_	_
-68	Emmy	Emmy	PROPN	PM	Case=Nom	62	conj	_	_
-69	(	_	PUNCT	PAD	_	68	punct	_	SpaceAfter=No
-70	Snuffsan74	_	PROPN	PM	Case=Nom	68	nmod	_	SpaceAfter=No
-71	)	_	PUNCT	PAD	_	68	punct	_	_
-72	2006	_	NUM	RG	Case=Nom	68	nummod	_	_
-73	7	_	NUM	RG	Case=Nom	74	nummod	_	_
-74	Emilia	Emilia	PROPN	PM	Case=Nom	68	conj	_	_
-75	(	_	PUNCT	PAD	_	74	punct	_	SpaceAfter=No
-76	Jessica26	_	NUM	RG	Case=Nom	74	nmod	_	SpaceAfter=No
-77	)	_	PUNCT	PAD	_	74	punct	_	_
-78	2006	_	NUM	RG	Case=Nom	74	nummod	_	_
-79	8	_	NUM	RG	Case=Nom	80	nummod	_	_
-80	Milla	Milla	PROPN	PM	Case=Nom	74	conj	_	_
-81	(	_	PUNCT	PAD	_	80	punct	_	SpaceAfter=No
-82	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	83	nmod	_	_
-83	emma2006	_	NUM	RG	Case=Nom	80	appos	_	SpaceAfter=No
-84	)	_	PUNCT	PAD	_	80	punct	_	_
-85	2006	_	NUM	RG	Case=Nom	87	nummod	_	_
-86	9	_	NUM	RG	Case=Nom	87	nummod	_	_
-87	Moa	Moa	PROPN	PM	Case=Nom	2	conj	_	_
-88	(	_	PUNCT	PAD	_	87	punct	_	SpaceAfter=No
-89	nettan33	_	NUM	RG	Case=Nom	87	nmod	_	SpaceAfter=No
-90	)	_	PUNCT	PAD	_	87	punct	_	SpaceAfter=No
-91	2005	_	NUM	RG	Case=Nom	93	nummod	_	_
-92	13	_	NUM	RG	Case=Nom	93	nummod	_	_
-93	Saku	_	PROPN	PM	Case=Nom	87	conj	_	SpaceAfter=No
-94	(	_	PUNCT	PAD	_	93	punct	_	SpaceAfter=No
-95	Mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	96	nmod	_	_
-96	Mariana	_	PROPN	PM	Case=Nom	93	appos	_	_
-97	&	&	CCONJ	KN	Abbr=Yes	98	cc	_	_
-98	Pappa	pappa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	96	conj	_	_
-99	Jeffrey	_	PROPN	PM	Case=Nom	96	flat:name	_	SpaceAfter=No
-100	.	_	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
-
 # sent_id = 3400102
 # text = Är det verkligen _så_ svårt att skaffa sommarjobb som många här påstår.
 # date = 2009-03-31 12:52
@@ -18373,20 +17352,6 @@
 # sentiment_score = 0.8772361874580383
 1	Narkotikahandel	narkotikahandel	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 2	.	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 1800353
-# text = 1 feb - sagan12345
-# date = 2017-02-19 21:21:46
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/4#anchor-m31
-# genre = internet_forum
-# x_sent_id = a6aabce1
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9829780459403992
-1	1	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	feb	_	NOUN	NN	Abbr=Yes	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	sagan12345	_	NUM	RG	Case=Nom	2	parataxis	_	_
 
 # sent_id = 400991
 # text = Du behöver inte göra rent filtret förrän du märker att utblåset minskar .
@@ -19616,17 +18581,6 @@
 1	Hej	hej	INTJ	IN	_	0	root	_	SpaceAfter=No
 2	!	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 100256
-# text = ..
-# date = 2014-06-19 14:16:04
-# url = http://www.familjeliv.se/forum/thread/73476944-villken-battre-forsakringen-villkoren-till-autistiska-person/1
-# genre = internet_forum
-# x_sent_id = c77a60b3
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9223781824111938
-1	..	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 3400189
 # text = Ungefär 10:15 stapplar chefen in med ett stort leende, ber inte om ursäkt att han är sen, skakar min hand hårt och frågar hur läget är och hur allt känns.
 # date = 2020-02-24 04:09
@@ -19669,20 +18623,6 @@
 31	allt	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing	32	nsubj:pass	_	_
 32	känns	känna|kännas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	28	conj	_	SpaceAfter=No
 33	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 1800561
-# text = 1 oktober - Hallonfrossa
-# date = 2017-02-19 20:02:38
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/3#anchor-m28
-# genre = internet_forum
-# x_sent_id = a6aac73d
-# speech_act = none
-# sentiment_label = negative
-# sentiment_score = 0.7298524379730225
-1	1	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	oktober	oktober	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Hallonfrossa	hallonfrossa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
 
 # sent_id = 2000042
 # text = anette79: Wohoo
@@ -19950,17 +18890,6 @@
 13	arbetslivet	arbetsliv	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 14	.	_	PUNCT	MAD	_	6	punct	_	_
 
-# sent_id = 1800006
-# text = !
-# date = 2021-07-03 21:52:15
-# url = http://www.familjeliv.se/forum/thread/81225809-vilket-namn/3#anchor-m22
-# genre = internet_forum
-# x_sent_id = a6aa0b37
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 600523
 # text = Jag och min man är strax under medellängd .
 # date = 2007-11-16 14:50:33
@@ -20012,17 +18941,6 @@
 21	blir	bli	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 22	jämnare	jämn	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Cmp|Gender=Com,Neut|Number=Plur,Sing	21	xcomp	_	SpaceAfter=No
 23	.	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 1600223
-# text = !
-# date = 2020-02-06 13:22:23
-# url = http://www.familjeliv.se/forum/thread/80209629-mogel-pa-handduk-nappflaska/1
-# genre = internet_forum
-# x_sent_id = b34f22c
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 900907
 # text = Så gick de över en väg och den ena blev överkörd.
@@ -20248,24 +19166,6 @@
 16	gemensam	gemensam	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
 17	vårdnad	vårdnad	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj	_	SpaceAfter=No
 18	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 3200434
-# text = ditt resonemang är helt enkelt för dåligt.&#8221;
-# date = 2002-04-13 15:17
-# url = https://www.flashback.org/p1149#p1149
-# genre = internet_forum
-# x_sent_id = 776592829
-# speech_act = none
-# sentiment_label = negative
-# sentiment_score = 0.9892672300338745
-1	ditt	du	DET	PS	Definite=Def|Gender=Neut|Number=Sing	2	det	_	_
-2	resonemang	resonemang	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	_
-3	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	helt	hel|helt|helt enkelt	ADVERB	AB	Degree=Pos	5	advmod	_	_
-5	enkelt	enkel|helt enkelt:4	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	_
-6	för	för	ADP	PP	_	7	case	_	_
-7	dåligt.&#8221	_	NUM	RG	Case=Nom	3	obl	_	SpaceAfter=No
-8	;	_	PUNCT	MAD	_	3	punct	_	_
 
 # sent_id = 2000530
 # text = Vårt problem är att jag inte kan behålla fostret.
@@ -20688,17 +19588,6 @@
 7	i	i	ADP	PP	_	8	case	_	_
 8	höst	höst	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 1600791
-# text = !
-# date = 2008-01-31 10:59:02
-# url = http://www.familjeliv.se/forum/thread/28676800-visparnas-trad-6/64#anchor-m632
-# genre = internet_forum
-# x_sent_id = 5ef669334
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 2200995
 # text = Hinner precis bli klar med min utbildning och vara ledig en månad om allt går.
@@ -21151,22 +20040,6 @@
 17	liv	liv	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No
 18	?	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1700875
-# text = Elisabeth83 (1) 29.
-# date = 2009-04-16 18:34:19
-# url = http://www.familjeliv.se/forum/thread/41959283-bim-lista-april/27#anchor-m262
-# genre = internet_forum
-# x_sent_id = b17d7090
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8985242247581482
-1	Elisabeth83	_	PROPN	PM	Case=Nom	0	root	_	_
-2	(	_	PUNCT	PAD	_	1	punct	_	SpaceAfter=No
-3	1	_	NUM	RG	Case=Nom	1	list	_	SpaceAfter=No
-4	)	_	PUNCT	PAD	_	1	punct	_	_
-5	29	_	NUM	RG	Case=Nom	1	list	_	SpaceAfter=No
-6	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 3200164
 # text = För att svara på din nya fråga så finns det inte en enda yrkeskriminell som vill att droger ska legaliseras.
 # date = 2017-11-13 21:13
@@ -21432,17 +20305,6 @@
 13	form	form	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	_	SpaceAfter=No
 14	.	_	PUNCT	MAD	_	6	punct	_	_
 
-# sent_id = 1800960
-# text = :)
-# date = 2014-02-11 20:05:49
-# url = http://www.familjeliv.se/forum/thread/72416191-varmlandsmammor/4#anchor-m38
-# genre = internet_forum
-# x_sent_id = a6aa3524
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9696422815322876
-1	:)	_	INTJ	IN	_	0	root	_	_
-
 # sent_id = 2200714
 # text = Lycka till!!
 # date = 2005-12-01 14:09:58
@@ -21456,17 +20318,6 @@
 2	till	till|lycka till:1	ADP	PP	_	1	advmod	_	SpaceAfter=No
 3	!	_	PUNCT	MAD	_	1	punct	_	SpaceAfter=No
 4	!	_	PUNCT	MAD	_	1	punct	_	SpaceAfter=No
-
-# sent_id = 2100951
-# text = ..
-# date = 2013-05-25 08:33:57
-# url = http://www.familjeliv.se/forum/thread/57275063-ditt-konstigasteroligaste-one-night-stand/21#anchor-m206
-# genre = internet_forum
-# x_sent_id = 14e697d4b
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9223781824111938
-1	..	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 2600119
 # text = Reklam och annonsering.
@@ -21567,17 +20418,6 @@
 4	till	till	ADP	PP	_	5	case	_	_
 5	er	ni	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Plur	1	obl	_	_
 6	alla	all	PRON	PN	Case=Acc,Nom|Definite=Ind|Gender=Com,Neut|Number=Plur	1	obl	_	_
-
-# sent_id = 400024
-# text = =/
-# date = 2012-05-31 11:40:05
-# url = http://www.familjeliv.se/forum/thread/65147605-hjalp-ar-det-sjukdom/1#anchor-m2
-# genre = internet_forum
-# x_sent_id = c7f1cf7
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9899236559867859
-1	=/	_	INTJ	IN	_	0	root	_	_
 
 # sent_id = 2500537
 # text = Du kan få en slant av mig så du klarar dig...
@@ -21923,20 +20763,6 @@
 14	försvar	försvar	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
 15	.	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 1800988
-# text = 21 september - Sagoskog
-# date = 2016-09-22 08:17:25
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/1#anchor-m8
-# genre = internet_forum
-# x_sent_id = a6aa59c8
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9720847010612488
-1	21	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	september	september	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Sagoskog	sagoskog	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
-
 # sent_id = 3200085
 # text = hur går den processen till på?
 # date = 2017-11-10 14:41
@@ -22197,20 +21023,6 @@
 8	av	av	ADP	PP	_	9	case	_	_
 9	2009	_	NUM	RG	Case=Nom	7	nmod	_	SpaceAfter=No
 10	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 1800670
-# text = 21 september - Sagoskog
-# date = 2016-04-20 17:08:34
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/1#anchor-m1
-# genre = internet_forum
-# x_sent_id = a6aa08bb
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9720847010612488
-1	21	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	september	september	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Sagoskog	sagoskog	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
 
 # sent_id = 1600828
 # text = Riktigt pojkigt utseende :) Svante blir jättebra.
@@ -22798,57 +21610,6 @@
 24	halvt	halv	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	fixed	_	_
 25	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
 26	.	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 2300710
-# text = Nätaggregat: HIPER 530w CHASSI:Antec Ninehundred Trådlös nätverkskort(54mbit) Samsung DVD-brännare Moderkort: Gigabyte 6-Quad(DDR3)Ultra durable2 p35-DQ6 [GAMERS CHOICE]:mycket bra moderkort som stödjer ddr3 så det räcker många år framöver.
-# date = 2008-10-11 12:30
-# url = https://www.flashback.org/p13229802#p13229802
-# genre = internet_forum
-# x_sent_id = b10cea976
-# speech_act = none
-# sentiment_label = positive
-# sentiment_score = 0.9479913711547852
-1	Nätaggregat	nätaggregat	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-2	:	_	PUNCT	MID	_	1	punct	_	_
-3	HIPER	_	PROPN	PM	Case=Nom	4	amod	_	_
-4	530w	_	NUM	RG	Case=Nom	5	amod	_	_
-5	CHASSI:Antec	_	PROPN	PM	Case=Nom	6	compound	_	_
-6	Ninehundred	_	PROPN	PM	Case=Nom	7	compound	_	_
-7	Trådlös	_	PROPN	PM	Case=Nom	8	compound	_	_
-8	nätverkskort	nätverkskort	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
-9	(	_	PUNCT	PAD	_	8	punct	_	SpaceAfter=No
-10	54mbit	_	PROPN	PM	Case=Nom	8	appos	_	SpaceAfter=No
-11	)	_	PUNCT	PAD	_	12	punct	_	_
-12	Samsung	_	PROPN	PM	Case=Nom	13	compound	_	_
-13	DVD-brännare	dvd-brännare	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	compound	_	_
-14	Moderkort	moderkort	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
-15	:	_	PUNCT	MID	_	14	punct	_	_
-16	Gigabyte	_	PROPN	PM	Case=Nom	17	amod	_	_
-17	6-Quad	_	PROPN	PM	Case=Nom	14	appos	_	SpaceAfter=No
-18	(	_	PUNCT	PAD	_	17	punct	_	SpaceAfter=No
-19	DDR3	_	PROPN	PM	Case=Nom	17	appos	_	SpaceAfter=No
-20	)	_	PUNCT	PAD	_	17	punct	_	SpaceAfter=No
-21	Ultra	_	PROPN	PM	Case=Nom	22	compound	_	_
-22	durable2	_	PROPN	PM	Case=Nom	23	compound	_	_
-23	p35-DQ6	_	PROPN	PM	Case=Nom	17	conj	_	_
-24	[	_	PUNCT	PAD	_	23	punct	_	SpaceAfter=No
-25	GAMERS	_	PROPN	PM	Case=Nom	26	compound	_	_
-26	CHOICE	_	PROPN	PM	Case=Nom	23	appos	_	SpaceAfter=No
-27	]	_	PUNCT	PAD	_	23	punct	_	SpaceAfter=No
-28	:	_	PUNCT	MID	_	23	punct	_	SpaceAfter=No
-29	mycket	mycket	ADVERB	AB	Degree=Pos	30	advmod	_	_
-30	bra	bra	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur,Sing	31	amod	_	_
-31	moderkort	moderkort	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	appos	_	_
-32	som	_	PRON	HP	_	33	nsubj	_	_
-33	stödjer	stödja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	_
-34	ddr3	_	PROPN	PM	Case=Nom	33	obj	_	_
-35	så	så	CCONJ	KN	_	37	cc	_	_
-36	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	37	expl	_	_
-37	räcker	räcka	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
-38	många	_	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	39	amod	_	_
-39	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	37	obl	_	_
-40	framöver	framöver	ADVERB	AB	_	37	advmod	_	SpaceAfter=No
-41	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 3500337
 # text = Att däremot skriva som en människa som troligen har ett husdjur som är smartare, ser dumt ut.
@@ -23787,18 +22548,6 @@
 11	Subaruägarna	Subaruägare	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	nsubj	_	SpaceAfter=No
 12	.	_	PUNCT	MAD	_	7	punct	_	_
 
-# sent_id = 3100701
-# text = osv.
-# date = 2009-07-22 14:47
-# url = https://www.flashback.org/p17778555#p17778555
-# genre = internet_forum
-# x_sent_id = 362f40f5
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.902286171913147
-1	osv	osv	ADVERB	AB	Abbr=Yes	0	root	_	SpaceAfter=No
-2	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 3400009
 # text = Om det gått till som du säger så är människan uppenbarligen lite rubbat.
 # date = 2012-04-09 19:41
@@ -23878,132 +22627,6 @@
 21	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	22	det	_	_
 22	prilla	prilla	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obj	_	SpaceAfter=No
 23	.	_	PUNCT	MAD	_	9	punct	_	_
-
-# sent_id = 2200961
-# text = Nioli, 43 år..... BIM 4/7 Minnet66, 42 år .... BIM 8/7 Judith333, 43 år...BIM 11/7 Lyckoprinsessan, 42 år... BIM 15/7 Vildhonung, 44 år... BIM 20/7 Evie, 42år... BIM 21/7 MagicaDH, 43 år... BIM 22/7 SannaStina, 43 år... BIM 22/7 ModerSvea, 41 år..... BIM 27/7 ChippiChoppi,41 år... BIM 27/7 Fyrabarnsmor, 45 år...´BIM 28/7 lillaj,42 år... BIM 29/7 Skeptisk, 41 år... BIM 10/8
-# date = 2008-07-02 21:32:10
-# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/41#anchor-m403
-# genre = internet_forum
-# x_sent_id = 05309c372
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.713344156742096
-1	Nioli	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	1	punct	_	_
-3	43	_	NUM	RG	Case=Nom	4	nummod	_	_
-4	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	appos	_	SpaceAfter=No
-5	.....	_	NOUN	NN	Case=Nom	7	nummod	_	_
-6	BIM	_	PROPN	PM	Case=Nom	7	nmod	_	_
-7	4	_	NUM	RG	Case=Nom	1	conj	_	SpaceAfter=No
-8	/	_	PUNCT	MID	_	7	punct	_	SpaceAfter=No
-9	7	_	NUM	RG	Case=Nom	10	nummod	_	_
-10	Minnet66	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No
-11	,	_	PUNCT	MID	_	13	punct	_	_
-12	42	_	NUM	RG	Case=Nom	13	nummod	_	_
-13	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	conj	_	_
-14	....	_	PUNCT	MID	_	15	punct	_	_
-15	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-16	8	_	NUM	RG	Case=Nom	15	nummod	_	SpaceAfter=No
-17	/	_	PUNCT	MID	_	15	punct	_	SpaceAfter=No
-18	7	_	NUM	RG	Case=Nom	15	nummod	_	_
-19	Judith333	_	NUM	RG	Case=Nom	15	nummod	_	SpaceAfter=No
-20	,	_	PUNCT	MID	_	24	punct	_	_
-21	43	_	NUM	RG	Case=Nom	22	nummod	_	_
-22	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	parataxis	_	SpaceAfter=No
-23	...	_	PUNCT	MID	_	1	punct	_	SpaceAfter=No
-24	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-25	11	_	NUM	RG	Case=Nom	24	nummod	_	SpaceAfter=No
-26	/	_	PUNCT	MID	_	24	punct	_	SpaceAfter=No
-27	7	_	NUM	RG	Case=Nom	28	nummod	_	_
-28	Lyckoprinsessan	lyckoprinsessa	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	conj	_	SpaceAfter=No
-29	,	_	PUNCT	MID	_	28	punct	_	_
-30	42	_	NUM	RG	Case=Nom	31	nummod	_	_
-31	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	28	appos	_	SpaceAfter=No
-32	...	_	PUNCT	MID	_	28	punct	_	_
-33	BIM	_	PROPN	PM	Case=Nom	1	conj	_	_
-34	15	_	NUM	RG	Case=Nom	28	nummod	_	SpaceAfter=No
-35	/	_	PUNCT	MID	_	37	punct	_	SpaceAfter=No
-36	7	_	NUM	RG	Case=Nom	1	conj	_	_
-37	Vildhonung	_	PROPN	PM	Case=Nom	1	conj	_	SpaceAfter=No
-38	,	_	PUNCT	MID	_	37	punct	_	_
-39	44	_	NUM	RG	Case=Nom	40	nummod	_	_
-40	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	37	appos	_	SpaceAfter=No
-41	...	_	PUNCT	MID	_	37	punct	_	_
-42	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-43	20	_	NUM	RG	Case=Nom	42	nummod	_	SpaceAfter=No
-44	/	_	PUNCT	MID	_	42	punct	_	SpaceAfter=No
-45	7	_	NUM	RG	Case=Nom	42	nummod	_	_
-46	Evie	_	PROPN	PM	Case=Nom	42	conj	_	SpaceAfter=No
-47	,	_	PUNCT	MID	_	42	punct	_	_
-48	42år	_	NUM	RG	Case=Nom	42	nummod	_	SpaceAfter=No
-49	...	_	PUNCT	MID	_	50	punct	_	_
-50	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-51	21	_	NUM	RG	Case=Nom	50	nummod	_	SpaceAfter=No
-52	/	_	PUNCT	MID	_	53	punct	_	SpaceAfter=No
-53	7	_	NUM	RG	Case=Nom	1	conj	_	_
-54	MagicaDH	_	PROPN	PM	Case=Nom	50	conj	_	SpaceAfter=No
-55	,	_	PUNCT	MID	_	59	punct	_	_
-56	43	_	NUM	RG	Case=Nom	57	nummod	_	_
-57	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	50	conj	_	SpaceAfter=No
-58	...	_	PUNCT	MID	_	59	punct	_	_
-59	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-60	22	_	NUM	RG	Case=Nom	59	nummod	_	SpaceAfter=No
-61	/	_	PUNCT	MID	_	59	nummod	_	SpaceAfter=No
-62	7	_	NUM	RG	Case=Nom	59	nummod	_	_
-63	SannaStina	_	PROPN	PM	Case=Nom	59	conj	_	SpaceAfter=No
-64	,	_	PUNCT	MID	_	59	punct	_	_
-65	43	_	NUM	RG	Case=Nom	66	nummod	_	_
-66	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	59	conj	_	SpaceAfter=No
-67	...	_	PUNCT	MID	_	68	punct	_	_
-68	BIM	_	PROPN	PM	Case=Nom	1	parataxis	_	_
-69	22	_	NUM	RG	Case=Nom	68	nummod	_	SpaceAfter=No
-70	/	_	PUNCT	MID	_	72	punct	_	SpaceAfter=No
-71	7	_	NUM	RG	Case=Nom	72	nummod	_	_
-72	ModerSvea	_	PROPN	PM	Case=Nom	1	conj	_	SpaceAfter=No
-73	,	_	PUNCT	MID	_	72	punct	_	_
-74	41	_	NUM	RG	Case=Nom	75	nummod	_	_
-75	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	72	appos	_	SpaceAfter=No
-76	.....	_	PUNCT	MID	_	78	punct	_	_
-77	BIM	_	NOUN	NN	Abbr=Yes	78	obl	_	_
-78	27	_	NUM	RG	Case=Nom	72	nummod	_	SpaceAfter=No
-79	/	_	PUNCT	MID	_	78	punct	_	SpaceAfter=No
-80	7	_	NUM	RG	Case=Nom	78	nummod	_	_
-81	ChippiChoppi	_	PROPN	PM	Case=Nom	78	conj	_	SpaceAfter=No
-82	,	_	PUNCT	MID	_	78	punct	_	SpaceAfter=No
-83	41	_	NUM	RG	Case=Nom	84	nummod	_	_
-84	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	78	obl	_	SpaceAfter=No
-85	...	_	PUNCT	MID	_	78	punct	_	_
-86	BIM	_	NOUN	NN	Abbr=Yes	87	obl	_	_
-87	27	_	NUM	RG	Case=Nom	78	conj	_	SpaceAfter=No
-88	/	_	PUNCT	MID	_	87	punct	_	SpaceAfter=No
-89	7	_	NUM	RG	Case=Nom	90	nummod	_	_
-90	Fyrabarnsmor	fyrabarnsmor	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	87	conj	_	SpaceAfter=No
-91	,	_	PUNCT	MID	_	87	punct	_	_
-92	45	_	NUM	RG	Case=Nom	93	nummod	_	_
-93	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	87	conj	_	SpaceAfter=No
-94	...	_	PUNCT	MID	_	90	punct	_	SpaceAfter=No
-95	´BIM	_	PROPN	PM	Case=Nom	87	conj	_	_
-96	28	_	NUM	RG	Case=Nom	95	nummod	_	SpaceAfter=No
-97	/	_	PUNCT	MID	_	90	punct	_	SpaceAfter=No
-98	7	_	NUM	RG	Case=Nom	99	nummod	_	_
-99	lillaj	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	87	conj	_	SpaceAfter=No
-100	,	_	PUNCT	MID	_	99	punct	_	SpaceAfter=No
-101	42	_	NUM	RG	Case=Nom	102	nummod	_	_
-102	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	99	conj	_	SpaceAfter=No
-103	...	_	PUNCT	MID	_	99	punct	_	_
-104	BIM	_	PROPN	PM	Case=Nom	99	conj	_	_
-105	29	_	NUM	RG	Case=Nom	99	nummod	_	SpaceAfter=No
-106	/	_	PUNCT	MID	_	104	nummod	_	SpaceAfter=No
-107	7	_	NUM	RG	Case=Nom	99	nummod	_	_
-108	Skeptisk	skeptisk	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	99	amod	_	SpaceAfter=No
-109	,	_	PUNCT	MID	_	108	punct	_	_
-110	41	_	NUM	RG	Case=Nom	111	nummod	_	_
-111	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	99	conj	_	SpaceAfter=No
-112	...	_	PUNCT	MID	_	99	punct	_	_
-113	BIM	_	PROPN	PM	Case=Nom	114	obl	_	_
-114	10	_	NUM	RG	Case=Nom	1	parataxis	_	SpaceAfter=No
-115	/	_	PUNCT	MID	_	114	punct	_	SpaceAfter=No
-116	8	_	NUM	RG	Case=Nom	1	nummod	_	_
 
 # sent_id = 700953
 # text = nej nu ska jag nog passa på att städa lite.
@@ -24960,17 +23583,6 @@
 18	.	_	PUNCT	MAD	_	4	punct	_	_
 19	)	_	PUNCT	PAD	_	4	punct	_	_
 
-# sent_id = 1700328
-# text = !
-# date = 2009-03-09 20:57:45
-# url = http://www.familjeliv.se/forum/thread/41959283-bim-lista-april/4#anchor-m38
-# genre = internet_forum
-# x_sent_id = b17265dd
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 1600776
 # text = Hurra hurra för store Björn idag
 # date = 2008-02-25 10:01:36
@@ -25138,25 +23750,6 @@
 22	och	och	CCONJ	KN	_	23	cc	_	_
 23	kö	kö	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	conj	_	SpaceAfter=No
 24	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 700552
-# text = 17/1 - 5/2 Anteninna.
-# date = 2007-01-02 00:01:57
-# url = http://www.familjeliv.se/forum/thread/15689211-thailand-vintern-20062007/3#anchor-m21
-# genre = internet_forum
-# x_sent_id = 6bbf1ec3
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.933928370475769
-1	17	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-2	/	_	PUNCT	MID	_	3	case	_	SpaceAfter=No
-3	1	_	NUM	RG	Case=Nom	1	nummod	_	_
-4	-	_	PUNCT	MID	_	1	punct	_	_
-5	5	_	NUM	RG	Case=Nom	1	conj	_	SpaceAfter=No
-6	/	_	PUNCT	MID	_	5	case	_	SpaceAfter=No
-7	2	_	NUM	RG	Case=Nom	5	nummod	_	_
-8	Anteninna	_	PROPN	PM	Case=Nom	1	conj	_	SpaceAfter=No
-9	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 2900509
 # text = Jag tror att de får ganska bra pröjs för att hålla igång av produktionsbolaget.
@@ -25507,18 +24100,6 @@
 14	sälja	sälja	VERB	VB	VerbForm=Inf|Voice=Act	13	xcomp	_	_
 15	hahaha	_	INTJ	IN	_	3	punct	_	_
 
-# sent_id = 1400760
-# text = Dvs.
-# date = 2010-02-27 11:42:51
-# url = http://www.familjeliv.se/forum/thread/51024728-hur-gora-for-att-sarkullbarnet-inte-ska-arva-huset/30#anchor-m299
-# genre = internet_forum
-# x_sent_id = 8ab25ebc
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9115715026855469
-1	Dvs	dvs	ADVERB	AB	Abbr=Yes	0	root	_	SpaceAfter=No
-2	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 2500597
 # text = När ska dagens idiot-ungdomar fatta att man inte ska köpa/handla saker/tjänster om man inte har pengar till det?
 # date = 2012-06-14 20:32
@@ -25635,49 +24216,6 @@
 30	namnuppgifter	namnuppgift	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	27	appos	_	_
 31	eller	eller	CCONJ	KN	_	32	cc	_	_
 32	adresser	adress	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	30	conj	_	_
-
-# sent_id = 2400654
-# text = The reduction of breast size in spite of increased estradiol levels on the other hand, suggests that the mean therapeutic effect of tamoxifen is through estrogen receptor blockade of breast tissue.
-# date = 2007-03-02 14:49
-# url = https://www.flashback.org/p6468153#p6468153
-# genre = internet_forum
-# x_sent_id = c28a4e3cc
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9780896306037903
-1	The	_	X	UO	_	2	amod	_	_
-2	reduction	_	X	UO	_	0	root	_	_
-3	of	_	X	UO	_	5	case	_	_
-4	breast	_	X	UO	_	5	amod	_	_
-5	size	_	X	UO	_	2	nmod	_	_
-6	in	_	X	UO	_	7	case	_	_
-7	spite	_	X	UO	_	5	appos	_	_
-8	of	_	X	UO	_	10	case	_	_
-9	increased	_	X	UO	_	10	compound	_	_
-10	estradiol	_	X	UO	_	11	compound	_	_
-11	levels	_	X	UO	_	7	conj	_	_
-12	on	_	X	UO	_	11	punct	_	_
-13	the	_	X	UO	_	15	compound	_	_
-14	other	_	X	UO	_	15	compound	_	_
-15	hand	_	X	UO	_	11	appos	_	SpaceAfter=No
-16	,	_	PUNCT	MID	_	15	punct	_	_
-17	suggests	_	X	UO	_	15	compound	_	_
-18	that	_	X	UO	_	15	compound	_	_
-19	the	_	X	UO	_	22	compound	_	_
-20	mean	_	X	UO	_	22	compound	_	_
-21	therapeutic	_	X	UO	_	22	compound	_	_
-22	effect	_	X	UO	_	17	conj	_	_
-23	of	_	X	UO	_	24	case	_	_
-24	tamoxifen	_	X	UO	_	22	compound	_	_
-25	is	_	X	UO	_	24	cc	_	_
-26	through	_	X	UO	_	27	compound	_	_
-27	estrogen	_	X	UO	_	29	compound	_	_
-28	receptor	_	X	UO	_	29	compound	_	_
-29	blockade	_	X	UO	_	22	appos	_	_
-30	of	_	X	UO	_	32	case	_	_
-31	breast	_	X	UO	_	32	compound	_	_
-32	tissue	_	X	UO	_	29	appos	_	SpaceAfter=No
-33	.	_	PUNCT	MAD	_	29	punct	_	_
 
 # sent_id = 2900116
 # text = Jag tycker mig ha sett att de slirar rejält på båda områdena bara senaste året.
@@ -25885,20 +24423,6 @@
 16	det	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	_
 17	framhäver	framhäva	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 18	rynkorna	rynka	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Plur	17	obj	_	_
-
-# sent_id = 2000376
-# text = motila % - 60
-# date = 2006-11-29 08:53:22
-# url = http://www.familjeliv.se/forum/thread/14843247-svar-pa-spermaprov/1
-# genre = internet_forum
-# x_sent_id = d8f404b71
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9490928053855896
-1	motila	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	%	%	NOUN	NN	Abbr=Yes	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	60	_	NUM	RG	Case=Nom	2	list	_	_
 
 # sent_id = 2900266
 # text = Flygvärdinnorna blev ifrågasatta av minst 3 stycken passagerare och de lackade ur till slut och syntes inte till mer under färden.
@@ -26192,28 +24716,6 @@
 8	görs	göra	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj	_	SpaceAfter=No
 9	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1000458
-# text = //Linda mamma till Wiktor f/d 9/6-06
-# date = 2007-02-26 17:14:07
-# url = http://www.familjeliv.se/forum/thread/17858296-grav-eller-minneslund/1#anchor-m4
-# genre = internet_forum
-# x_sent_id = c58790e
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.961401104927063
-1	/	_	PUNCT	MID	_	3	punct	_	SpaceAfter=No
-2	/	_	PUNCT	MID	_	3	punct	_	SpaceAfter=No
-3	Linda	Linda	PROPN	PM	Case=Nom	0	root	_	_
-4	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	flat:name	_	_
-5	till	till	ADP	PP	_	6	case	_	_
-6	Wiktor	Wiktor	PROPN	PM	Case=Nom	3	nmod	_	_
-7	f	_	PROPN	PM	Case=Nom	3	nummod	_	SpaceAfter=No
-8	/	_	PUNCT	MID	_	9	punct	_	SpaceAfter=No
-9	d	_	PROPN	PM	Case=Nom	3	conj	_	_
-10	9	_	NUM	RG	Case=Nom	9	nummod	_	SpaceAfter=No
-11	/	_	PUNCT	MID	_	10	case	_	SpaceAfter=No
-12	6-06	_	NUM	RG	Case=Nom	10	nummod	_	_
-
 # sent_id = 1200756
 # text = Jag saknar faktiskt det fran min uppvaxt pa landet.
 # date = 2006-12-26 10:28:01
@@ -26279,26 +24781,6 @@
 34	ur	ur	ADP	PP	_	35	case	_	_
 35	kastrullen	kastrull	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	33	obl	_	SpaceAfter=No
 36	.	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 3500036
-# text = Pornography in Japan: Cross cultural and theoretical considerations.
-# date = 2001-09-02 21:45
-# url = https://www.flashback.org/p385644#p385644
-# genre = internet_forum
-# x_sent_id = 3ff2e3f9
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9933127760887146
-1	Pornography	pornography	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-2	in	_	X	UO	_	3	case	_	_
-3	Japan	Japan	PROPN	PM	Case=Nom	1	nmod	_	SpaceAfter=No
-4	:	_	PUNCT	MID	_	1	punct	_	_
-5	Cross	_	PROPN	PM	Case=Nom	6	amod	_	_
-6	cultural	_	PROPN	PM	Case=Nom	8	compound	_	_
-7	and	_	PROPN	PM	Case=Nom	8	compound	_	_
-8	theoretical	_	PROPN	PM	Case=Nom	9	compound	_	_
-9	considerations	_	PROPN	PM	Case=Nom	1	appos	_	SpaceAfter=No
-10	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 1500663
 # text = Hej alla, det är så här att min broder har fått problem med yrkesakademin, han har sökt att få ta lastbilskort, och då måste man gå en förbredande kurs i 2vec där dom ska se om du är lämplig att gå vidare å få gå utbildningen för lastbilskortet, och det har han gjort och han gjorde det med god marginal på alla prover och även på praktiken han hade, och han va en utav dom bästa på att köra när dom hade körprov inne i en stad.
@@ -26533,32 +25015,6 @@
 2	,	_	PUNCT	MID	_	3	punct	_	_
 3	ok	_	INTJ	IN	_	0	root	_	SpaceAfter=No
 4	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 1700926
-# text = Lillmyggan (1) 7. sweedy, Mumlan74, oOoJOYoOo (3) 8.
-# date = 2005-11-30 11:18:37
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/12#anchor-m113
-# genre = internet_forum
-# x_sent_id = b17d6711
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8226975202560425
-1	Lillmyggan	lillmygga	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
-2	(	_	PUNCT	PAD	_	1	punct	_	SpaceAfter=No
-3	1	_	NUM	RG	Case=Nom	1	nummod	_	SpaceAfter=No
-4	)	_	PUNCT	PAD	_	1	punct	_	_
-5	7	_	NUM	RG	Case=Nom	1	nummod	_	SpaceAfter=No
-6	.	_	PUNCT	MAD	_	1	punct	_	_
-7	sweedy	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos	_	SpaceAfter=No
-8	,	_	PUNCT	MID	_	7	punct	_	_
-9	Mumlan74	_	PROPN	PM	Case=Nom	7	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	MID	_	11	punct	_	_
-11	oOoJOYoOo	_	PROPN	PM	Case=Nom	7	conj	_	_
-12	(	_	PUNCT	PAD	_	11	punct	_	SpaceAfter=No
-13	3	_	NUM	RG	Case=Nom	11	nummod	_	SpaceAfter=No
-14	)	_	PUNCT	PAD	_	11	punct	_	_
-15	8	_	NUM	RG	Case=Nom	11	nummod	_	SpaceAfter=No
-16	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 2200157
 # text = Ett myller av svar har du fått och du är en riktig bra skrivare som kunde referera och reflektera oss alla med dina tankar om vad vi hade skrivit.
@@ -26894,32 +25350,6 @@
 11	lerum	lerum	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
 12	.	_	PUNCT	MAD	_	5	punct	_	_
 
-# sent_id = 1500589
-# text = [quote=80672836][quote-nick]Magical skrev 2020-09-29 15:04:11 följande:[/quote-nick]
-# date = 2020-09-29 15:21:51
-# url = http://www.familjeliv.se/forum/thread/80672036-konstigt-beteende/3#anchor-m23
-# genre = internet_forum
-# x_sent_id = 557b59f5
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9924633502960205
-1	[	_	PUNCT	PAD	_	8	punct	_	SpaceAfter=No
-2	quote=80672836	_	NUM	RG	Case=Nom	8	nsubj	_	SpaceAfter=No
-3	]	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
-4	[	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
-5	quote-nick	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	compound	_	SpaceAfter=No
-6	]	_	PUNCT	PAD	_	5	punct	_	SpaceAfter=No
-7	Magical	_	PROPN	PM	Case=Nom	8	nsubj	_	_
-8	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	2020-09-29	_	NUM	RG	Case=Nom	8	nummod	_	_
-10	15:04:11	_	NUM	RG	Case=Nom	11	nummod	_	_
-11	följande	följande	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
-12	:	_	PUNCT	MID	_	11	punct	_	SpaceAfter=No
-13	[	_	PUNCT	PAD	_	11	punct	_	SpaceAfter=No
-14	/	_	PUNCT	MID	_	15	punct	_	SpaceAfter=No
-15	quote-nick	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	appos	_	SpaceAfter=No
-16	]	_	PUNCT	PAD	_	11	punct	_	_
-
 # sent_id = 1400379
 # text = Det skulle nog vara bra för barnet om han sen bodde heltid hos pappan i ungefär lika lång tid som han bodde hos dig i så fall.
 # date = 2009-11-04 23:27:35
@@ -27189,21 +25619,6 @@
 3	den	den	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	_
 4	var	vara	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	bra	bra	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur,Sing	4	xcomp	_	_
-
-# sent_id = 1700490
-# text = Vecka 48 (7)
-# date = 2005-12-04 09:37:52
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/22#anchor-m211
-# genre = internet_forum
-# x_sent_id = b171151f
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9858013987541199
-1	Vecka	vecka	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
-2	48	_	NUM	RG	Case=Nom	0	root	_	_
-3	(	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
-4	7	_	NUM	RG	Case=Nom	2	nmod	_	SpaceAfter=No
-5	)	_	PUNCT	PAD	_	2	punct	_	_
 
 # sent_id = 1000385
 # text = Hoppas det är ok. )
@@ -28063,19 +26478,6 @@
 3	förhand	förhand|på förhand:2	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	fixed	_	SpaceAfter=No
 4	!	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 3000457
-# text = Haha spot on
-# date = 2011-06-12 23:29
-# url = https://www.flashback.org/p31132723#p31132723
-# genre = internet_forum
-# x_sent_id = 7093a11d
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8302646279335022
-1	Haha	haha	INTJ	IN	_	2	nmod	_	_
-2	spot	_	X	UO	_	0	root	_	_
-3	on	_	X	UO	_	2	punct	_	_
-
 # sent_id = 2600319
 # text = Användaren rainbow319 avstängd för 1.01.
 # date = 2018-04-30 08:30
@@ -28869,20 +27271,6 @@
 31	på	på	ADP	PP	_	32	case	_	_
 32	hyran	hyra	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	obl	_	SpaceAfter=No
 33	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 1800236
-# text = 22 maj - happylife
-# date = 2016-09-22 08:17:25
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/1#anchor-m8
-# genre = internet_forum
-# x_sent_id = a6aaecb9
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9455732703208923
-1	22	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	happylife	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
 
 # sent_id = 2900980
 # text = Möjligt att Macbooken inte sjunker lägre, men jag reagerar på det fetmarkerade.
@@ -30783,19 +29171,6 @@
 26	reklamen	reklam	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	obl	_	SpaceAfter=No
 27	.	_	PUNCT	MAD	_	8	punct	_	_
 
-# sent_id = 257
-# text = ISSN 0037-833X.
-# date = 2009-06-03 23:32:21
-# url = http://www.familjeliv.se/forum/thread/44369741-adoptera-omplaceringsbarn-i-sverige/7#anchor-m62
-# genre = internet_forum
-# x_sent_id = bac0bed5
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9814991354942322
-1	ISSN	_	NOUN	NN	Abbr=Yes	2	nmod	_	_
-2	0037-833X	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-3	.	_	PUNCT	MAD	_	2	punct	_	_
-
 # sent_id = 1300065
 # text = Jag blir så arg!!!
 # date = 2004-08-18 13:47:42
@@ -30876,17 +29251,6 @@
 1	aha	aha	INTJ	IN	_	0	root	_	_
 2	!	_	PUNCT	MAD	_	1	punct	_	_
 3	!	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 1000709
-# text = !
-# date = 2007-12-03 16:29:21
-# url = http://www.familjeliv.se/forum/thread/27315743-vi-som-forlorat-ena-tvillingen-del-2/2#anchor-m20
-# genre = internet_forum
-# x_sent_id = c58a0a7
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 3300929
 # text = Ska åka till Thailand i morgon med tjejen.
@@ -31132,43 +29496,6 @@
 41	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	40	nsubj	_	_
 42	inte	inte	ADVERB	AB	_	40	advmod	_	SpaceAfter=No
 43	.	_	PUNCT	MAD	_	6	punct	_	_
-
-# sent_id = 100028
-# text = TsMormor skrev 2009-02-27 22:15:55 följande : TRASD0CKAN skrev 2009-02-27 22:14:45 följande:Så bara för man inte har sitt barn hemma så ska man inte få klippa sig ?
-# date = 2009-02-27 22:19:08
-# url = http://www.familjeliv.se/forum/thread/39941803-tillagnad-alla-som-forlorat-vardnaden-om-sina-barn-och-hamnat-under-soc-makt/12#anchor-m114
-# genre = internet_forum
-# x_sent_id = c770e0b0
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8905126452445984
-1	TsMormor	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nsubj	_	_
-2	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	2009-02-27	_	NUM	RG	Case=Nom	2	obl	_	_
-4	22:15:55	_	NUM	RG	Case=Nom	3	nmod	_	_
-5	följande	följande	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
-6	:	_	PUNCT	MID	_	2	punct	_	_
-7	TRASD0CKAN	_	PROPN	PM	Case=Nom	8	nsubj	_	_
-8	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-9	2009-02-27	_	NUM	RG	Case=Nom	8	nummod	_	_
-10	22:14:45	_	NUM	RG	Case=Nom	8	obl	_	_
-11	följande:Så	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	advmod	_	_
-12	bara	bara	ADVERB	AB	_	16	advmod	_	_
-13	för	för	CCONJ	KN	_	16	mark	_	_
-14	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nsubj	_	_
-15	inte	inte	ADVERB	AB	_	16	advmod	_	_
-16	har	ha|ha sitt	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
-17	sitt	sig|ha sitt:16	DET	PS	Definite=Def|Gender=Neut|Number=Sing	18	amod	_	_
-18	barn	barn	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	_
-19	hemma	hemma	ADVERB	AB	_	16	advmod	_	_
-20	så	så	ADVERB	AB	_	21	advcl	_	_
-21	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-22	man	man	PRON	PN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	nsubj	_	_
-23	inte	inte	ADVERB	AB	_	21	advmod	_	_
-24	få	få	VERB	VB	VerbForm=Inf|Voice=Act	21	xcomp	_	_
-25	klippa	klippa|klippa sig	VERB	VB	VerbForm=Inf|Voice=Act	24	xcomp	_	_
-26	sig	sig|klippa sig:25	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur,Sing	25	iobj	_	_
-27	?	_	PUNCT	MAD	_	2	punct	_	_
 
 # sent_id = 3300486
 # text = en sådan biljett kostar 2-300 kr.
@@ -31452,17 +29779,6 @@
 8	avreagera	avreagera|avreagera sig	VERB	VB	VerbForm=Inf|Voice=Act	7	xcomp	_	_
 9	mig	jag|avreagera sig:8	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	8	obj	_	SpaceAfter=No
 10	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 3700696
-# text = !
-# date = 2015-11-11 21:59
-# url = https://www.flashback.org/p55358106#p55358106
-# genre = internet_forum
-# x_sent_id = 188e9ebd2
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 1800140
 # text = Skönt att höra att du mår bra Mymmlan och guuud vad gött att få åka på spa!
@@ -32272,23 +30588,6 @@
 27	jobb	jobb	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	obj	_	SpaceAfter=No
 28	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 2200758
-# text = Nioli, 43 år..... BIM ?
-# date = 2008-08-05 22:46:11
-# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/67#anchor-m662
-# genre = internet_forum
-# x_sent_id = 0530479cc
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9321655631065369
-1	Nioli	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	1	punct	_	_
-3	43	_	NUM	RG	Case=Nom	4	nummod	_	_
-4	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	appos	_	SpaceAfter=No
-5	.....	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
-6	BIM	_	PROPN	PM	Case=Nom	1	appos	_	_
-7	?	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1800568
 # text = Jag har hört att man kan äta typ torra kex eller skorpor.
 # date = 2014-09-08 12:26:29
@@ -32470,17 +30769,6 @@
 3	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	4	nummod	_	_
 4	vecka	vecka	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	SpaceAfter=No
 5	.	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 3500566
-# text = !
-# date = 2010-04-14 22:25
-# url = https://www.flashback.org/p22534440#p22534440
-# genre = internet_forum
-# x_sent_id = 3ff223c4
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 1200428
 # text = Jag tror knappast att de vaknar för att det är kul, utan för att de inte kan somna om.
@@ -32785,32 +31073,6 @@
 15	prioriterat	prioritera	VERB	PC	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	SpaceAfter=No
 16	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 800815
-# text = Shoulou skrev 2010-02-21 08:23:11 följande:Jepp, men framöver ska dessa 240 dagar inte kunna överlåtas.
-# date = 2010-02-21 11:24:03
-# url = http://www.familjeliv.se/forum/thread/50891871-individualisera-foraldraforsakringen/67#anchor-m670
-# genre = internet_forum
-# x_sent_id = 7332ba73
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.966408908367157
-1	Shoulou	_	PROPN	PM	Case=Nom	2	nsubj	_	_
-2	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	2010-02-21	_	NUM	RG	Case=Nom	4	nummod	_	_
-4	08:23:11	_	NUM	RG	Case=Nom	2	obl	_	_
-5	följande:Jepp	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	fixed	_	SpaceAfter=No
-6	,	_	PUNCT	MID	_	9	punct	_	_
-7	men	men	CCONJ	KN	_	9	cc	_	_
-8	framöver	framöver	ADVERB	AB	_	9	advmod	_	_
-9	ska	skola	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
-10	dessa	denna	DET	DT	Definite=Def|Gender=Com,Neut|Number=Plur	9	nsubj	_	_
-11	240	_	NUM	RG	Case=Nom	12	nummod	_	_
-12	dagar	dag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	_
-13	inte	inte	ADVERB	AB	_	9	advmod	_	_
-14	kunna	kunna	VERB	VB	VerbForm=Inf|Voice=Act	9	xcomp	_	_
-15	överlåtas	överlåta	VERB	VB	VerbForm=Inf|Voice=Pass	9	xcomp	_	SpaceAfter=No
-16	.	_	PUNCT	MAD	_	2	punct	_	_
-
 # sent_id = 3100294
 # text = Nu är det så att jag ska till Turkiet i slutet av mars.
 # date = 2010-02-14 21:45
@@ -33026,48 +31288,6 @@
 48	helt	hel|helt	ADVERB	AB	Degree=Pos	49	advmod	_	_
 49	rätt	rätt	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	46	xcomp	_	SpaceAfter=No
 50	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 600968
-# text = angelika sjödin skrev 2009-04-07 21:00:31 följande : Ge upp nu [ / c angelika sjödin skrev 2009-04-07 21:00:31 följande : [ citat ] Ge upp nuHallå - detta är ett diskussionsforum .
-# date = 2009-04-07 21:02:04
-# url = http://www.familjeliv.se/forum/thread/42918214-hjalp-vad-gor-man-med-ett-santhar-inlagg/29#anchor-m285
-# genre = internet_forum
-# x_sent_id = dd3831b12
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9306414127349854
-1	angelika	_	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	2	amod	_	_
-2	sjödin	_	PROPN	PM	Case=Nom	3	nsubj	_	_
-3	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	2009-04-07	_	NUM	RG	Case=Nom	3	obl	_	_
-5	21:00:31	_	NUM	RG	Case=Nom	3	obl	_	_
-6	följande	följande	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
-7	:	_	PUNCT	MID	_	3	punct	_	_
-8	Ge	ge|ge upp	VERB	VB	Mood=Imp|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-9	upp	upp|ge upp:8	PART	PL	_	8	compound:prt	_	_
-10	nu	nu	ADVERB	AB	_	8	advmod	_	_
-11	[	_	PUNCT	PAD	_	3	punct	_	_
-12	/	_	PUNCT	MID	_	16	punct	_	_
-13	c	c	NOUN	NN	Abbr=Yes	16	nsubj	_	_
-14	angelika	_	X	UO	_	16	advmod	_	_
-15	sjödin	_	PROPN	PM	Case=Nom	14	nmod	_	_
-16	skrev	skriva	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-17	2009-04-07	_	NUM	RG	Case=Nom	16	nummod	_	_
-18	21:00:31	_	NUM	RG	Case=Nom	16	obl	_	_
-19	följande	följande	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	_
-20	:	_	PUNCT	MID	_	3	punct	_	_
-21	[	_	PUNCT	PAD	_	3	punct	_	_
-22	citat	citat	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	nsubj	_	_
-23	]	_	PUNCT	PAD	_	24	punct	_	_
-24	Ge	ge|ge upp	VERB	VB	VerbForm=Inf|Voice=Act	3	parataxis	_	_
-25	upp	upp|ge upp:24	PART	PL	_	24	compound:prt	_	_
-26	nuHallå	nuhallå|nuHallå	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obj	_	_
-27	-	_	PUNCT	MID	_	3	punct	_	_
-28	detta	denna	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	29	expl	_	_
-29	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-30	ett	en	DET	DT	Definite=Ind|Gender=Neut|Number=Sing	31	det	_	_
-31	diskussionsforum	diskussionsforum	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	29	obj	_	_
-32	.	_	PUNCT	MAD	_	3	punct	_	_
 
 # sent_id = 2100108
 # text = Inte ens ute på krogen faktiskt... undrar vart han tog vägen?
@@ -33633,27 +31853,6 @@
 3	kränkta	kränka	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur|Tense=Past|VerbForm=Part	2	xcomp	_	SpaceAfter=No
 4	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 700502
-# text = MARS: 3/3 - 25/3 AnnahConda.
-# date = 2007-03-23 03:31:32
-# url = http://www.familjeliv.se/forum/thread/15689211-thailand-vintern-20062007/79#anchor-m782
-# genre = internet_forum
-# x_sent_id = 6bb0d086
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9483007788658142
-1	MARS	mars	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-2	:	_	PUNCT	MID	_	1	punct	_	_
-3	3	_	NUM	RG	Case=Nom	1	nummod	_	SpaceAfter=No
-4	/	_	PUNCT	MID	_	5	punct	_	SpaceAfter=No
-5	3	_	NUM	RG	Case=Nom	1	appos	_	_
-6	-	_	PUNCT	MID	_	5	punct	_	_
-7	25	_	NUM	RG	Case=Nom	5	nummod	_	SpaceAfter=No
-8	/	_	PUNCT	MID	_	7	punct	_	SpaceAfter=No
-9	3	_	NUM	RG	Case=Nom	10	nummod	_	_
-10	AnnahConda	_	PROPN	PM	Case=Nom	7	conj	_	SpaceAfter=No
-11	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 2500361
 # text = Hitta en bra affärside och hitta en investerare och anställ folk- så har ni pengar och slipper undra över hur mycket pulver ni får plats med i rektum.
 # date = 2013-02-04 21:21
@@ -33924,17 +32123,6 @@
 5	!	_	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
 6	!	_	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
 
-# sent_id = 900653
-# text = !
-# date = 2005-12-12 23:24:23
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/437#anchor-m4362
-# genre = internet_forum
-# x_sent_id = b6645e5
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 2200725
 # text = Haha, är fortfarande på jobbet och huvudet är inte riktigt med, lite långt att vänta tills nästa år :)
 # date = 2012-10-17 19:41:26
@@ -34171,32 +32359,6 @@
 10	barnets	barn	NOUN	NN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	11	nmod:poss	_	_
 11	räkning	räkning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	_	_
 12	.	_	PUNCT	MAD	_	6	punct	_	_
-
-# sent_id = 1700397
-# text = Norahs mamma, mala78, kajsa04, gravid 21åring, diz (5) 27.
-# date = 2005-12-18 12:01:36
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/54#anchor-m532
-# genre = internet_forum
-# x_sent_id = b178c056
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8961324691772461
-1	Norahs	Norah	PROPN	PM	Case=Gen	2	nmod:poss	_	_
-2	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-3	,	_	PUNCT	MID	_	2	punct	_	_
-4	mala78	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	MID	_	2	punct	_	_
-6	kajsa04	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	MID	_	6	punct	_	_
-8	gravid	gravid	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	_
-9	21åring	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	appos	_	SpaceAfter=No
-10	,	_	PUNCT	MID	_	9	punct	_	_
-11	diz	_	NOUN	NN	Case=Nom|Number=Sing	9	nmod	_	_
-12	(	_	PUNCT	PAD	_	11	punct	_	SpaceAfter=No
-13	5	_	NUM	RG	Case=Nom	11	nummod	_	SpaceAfter=No
-14	)	_	PUNCT	PAD	_	13	punct	_	_
-15	27	_	NUM	RG	Case=Nom	13	nummod	_	SpaceAfter=No
-16	.	_	PUNCT	MAD	_	2	punct	_	_
 
 # sent_id = 1300272
 # text = Fy vilken människa som kan säga så!!
@@ -34881,46 +33043,6 @@
 22	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp	_	SpaceAfter=No
 23	.	_	PUNCT	MAD	_	3	punct	_	_
 
-# sent_id = 800170
-# text = Gällande "Flynneffekten" som jag nämnde tidigare:Jon Martin Sundet and colleagues (2004) examined scores on intelligence tests given to Norwegian conscripts between the 1950s and 2002.
-# date = 2012-08-28 13:51:29
-# url = http://www.familjeliv.se/forum/thread/66064522-jamstalldhetsfeminist-vs-genusfeminist/10#anchor-m95
-# genre = internet_forum
-# x_sent_id = 73324ea8
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9886078834533691
-1	Gällande	gälla	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part	3	nsubj	_	_
-2	"	_	PUNCT	PAD	_	3	punct	_	SpaceAfter=No
-3	Flynneffekten	flynneffekt	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-4	"	_	PUNCT	PAD	_	3	punct	_	_
-5	som	_	PRON	HP	_	7	advmod	_	_
-6	jag	jag	PRON	PN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
-7	nämnde	nämna	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
-8	tidigare:Jon	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
-9	Martin	Martin	PROPN	PM	Case=Nom	7	obj	_	_
-10	Sundet	_	PROPN	PM	Case=Nom	9	flat:name	_	_
-11	and	_	PROPN	PM	Case=Nom	9	flat:name	_	_
-12	colleagues	_	PROPN	PM	Case=Nom	9	conj	_	_
-13	(	_	PUNCT	PAD	_	12	punct	_	SpaceAfter=No
-14	2004	_	NUM	RG	Case=Nom	12	nummod	_	SpaceAfter=No
-15	)	_	PUNCT	PAD	_	12	punct	_	_
-16	examined	_	PROPN	PM	Case=Nom	3	conj	_	_
-17	scores	_	PROPN	PM	Case=Nom	20	compound	_	_
-18	on	_	PROPN	PM	Case=Nom	19	compound	_	_
-19	intelligence	_	PROPN	PM	Case=Nom	20	compound	_	_
-20	tests	_	PROPN	PM	Case=Nom	16	conj	_	_
-21	given	_	X	UO	_	24	compound	_	_
-22	to	_	PROPN	PM	Case=Nom	24	compound	_	_
-23	Norwegian	Norwegian	PROPN	PM	Case=Nom	24	compound	_	_
-24	conscripts	_	PROPN	PM	Case=Nom	16	conj	_	_
-25	between	_	PROPN	PM	Case=Nom	26	nmod	_	_
-26	the	_	PROPN	PM	Case=Nom	27	nmod	_	_
-27	1950s	_	PROPN	PM	Case=Nom	24	nmod	_	_
-28	and	_	PROPN	PM	Case=Nom	27	nmod	_	_
-29	2002	_	NUM	RG	Case=Nom	24	nummod	_	SpaceAfter=No
-30	.	_	PUNCT	MAD	_	3	punct	_	_
-
 # sent_id = 3200292
 # text = Vilket samband har cannabis med våldsverkare och illegala vapen i Storbritanien?
 # date = 2007-11-06 19:17
@@ -35562,20 +33684,6 @@
 5	1.01	_	NUM	RG	Case=Nom	3	obl	_	SpaceAfter=No
 6	.	_	PUNCT	MAD	_	3	punct	_	_
 
-# sent_id = 1400093
-# text = [/citat]
-# date = 2009-11-27 19:54:34
-# url = http://www.familjeliv.se/forum/thread/48713170-har-han-ratt-till-halva-reskostnaden-vid-varannan-helg-umgange/11#anchor-m104
-# genre = internet_forum
-# x_sent_id = 8ab25a9b
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9948086142539978
-1	[	_	PUNCT	PAD	_	3	punct	_	SpaceAfter=No
-2	/	_	PUNCT	MID	_	3	punct	_	SpaceAfter=No
-3	citat	citat	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-4	]	_	PUNCT	PAD	_	3	punct	_	_
-
 # sent_id = 1700322
 # text = Kan du inte testa i smyg och låta sexet komma "spontant" ?
 # date = 2008-01-26 20:32:39
@@ -36203,80 +34311,6 @@
 16	trivs	trivas	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	ccomp	_	SpaceAfter=No
 17	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1700819
-# text = *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* ~*~*~*
-# date = 2005-12-17 09:11:35
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/53#anchor-m521
-# genre = internet_forum
-# x_sent_id = b1741c24
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8962449431419373
-1	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
-2	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-3	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
-4	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-5	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
-6	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-7	*	_	PUNCT	MID	_	8	punct	_	SpaceAfter=No
-8	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
-9	*	_	PUNCT	MID	_	10	punct	_	SpaceAfter=No
-10	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
-11	*	_	PUNCT	MID	_	12	punct	_	SpaceAfter=No
-12	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
-13	*	_	PUNCT	MID	_	14	punct	_	SpaceAfter=No
-14	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
-15	*	_	PUNCT	MID	_	16	punct	_	SpaceAfter=No
-16	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-17	*	_	PUNCT	MID	_	18	punct	_	SpaceAfter=No
-18	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-19	*	_	PUNCT	MID	_	20	punct	_	SpaceAfter=No
-20	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-21	*	_	PUNCT	MID	_	22	punct	_	SpaceAfter=No
-22	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-23	*	_	PUNCT	MID	_	24	punct	_	SpaceAfter=No
-24	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-25	*	_	PUNCT	MID	_	26	punct	_	SpaceAfter=No
-26	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-27	*	_	PUNCT	MID	_	28	punct	_	SpaceAfter=No
-28	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-29	*	_	PUNCT	MID	_	30	punct	_	SpaceAfter=No
-30	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-31	*	_	PUNCT	MID	_	32	punct	_	SpaceAfter=No
-32	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-33	*	_	PUNCT	MID	_	34	punct	_	SpaceAfter=No
-34	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-35	*	_	PUNCT	MID	_	36	punct	_	_
-36	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-37	*	_	PUNCT	MID	_	38	punct	_	SpaceAfter=No
-38	~	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
-39	*	_	PUNCT	MID	_	38	punct	_	SpaceAfter=No
-40	~	_	INTJ	IN	_	38	punct	_	SpaceAfter=No
-41	*	_	PUNCT	MID	_	2	punct	_	_
-
-# sent_id = 1800485
-# text = 4 juli - capy - födde en son (Olle) 21 juni
-# date = 2016-11-08 10:57:11
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/3#anchor-m25
-# genre = internet_forum
-# x_sent_id = a6aa325b
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8572394251823425
-1	4	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	juli	juli	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	capy	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	appos	_	_
-5	-	_	PUNCT	MID	_	2	punct	_	_
-6	födde	föda	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	en	en	DET	DT	Definite=Ind|Gender=Com|Number=Sing	8	nummod	_	_
-8	son	son	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
-9	(	_	PUNCT	PAD	_	8	punct	_	SpaceAfter=No
-10	Olle	Olle	PROPN	PM	Case=Nom	8	appos	_	SpaceAfter=No
-11	)	_	PUNCT	PAD	_	8	punct	_	_
-12	21	_	NUM	RG	Case=Nom	13	nummod	_	_
-13	juni	juni	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	_	_
-
 # sent_id = 2000898
 # text = Vad kämpigt att det inte såg bra ut vännen!
 # date = 2004-12-16 20:56:39
@@ -36364,25 +34398,6 @@
 13	sänka	sänka	VERB	VB	VerbForm=Inf|Voice=Act	9	advcl	_	_
 14	SAS	SAS	PROPN	PM	Case=Nom	13	obj	_	SpaceAfter=No
 15	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 700041
-# text = 28/12 - 12/1 Maggisen.
-# date = 2007-01-05 17:31:39
-# url = http://www.familjeliv.se/forum/thread/15689211-thailand-vintern-20062007/8#anchor-m73
-# genre = internet_forum
-# x_sent_id = 6bb6110c
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9610199928283691
-1	28	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-2	/	_	PUNCT	MID	_	3	case	_	SpaceAfter=No
-3	12	_	NUM	RG	Case=Nom	1	nmod	_	_
-4	-	_	PUNCT	MID	_	1	punct	_	_
-5	12	_	NUM	RG	Case=Nom	1	nummod	_	SpaceAfter=No
-6	/	_	PUNCT	MID	_	5	cc	_	SpaceAfter=No
-7	1	_	NUM	RG	Case=Nom	8	nummod	_	_
-8	Maggisen	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	conj	_	SpaceAfter=No
-9	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 3000591
 # text = Helst vita, eller enfärgade och inte så tunna men alla tips är välkommna!
@@ -37280,17 +35295,6 @@
 20	eller	eller	CCONJ	KN	_	19	cc	_	_
 21	mer	mer|mycket	ADVERB	AB	Degree=Cmp	19	conj	_	SpaceAfter=No
 22	.	_	PUNCT	MAD	_	4	punct	_	_
-
-# sent_id = 900914
-# text = !
-# date = 2005-12-12 20:51:05
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/360#anchor-m3599
-# genre = internet_forum
-# x_sent_id = b665c00
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 3700267
 # text = Shells of shells kallas detta
@@ -39048,17 +37052,6 @@
 14	på	på	ADP	PP	_	8	case	_	_
 15	.	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 900011
-# text = !
-# date = 2005-12-12 13:26:31
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/60#anchor-m592
-# genre = internet_forum
-# x_sent_id = b66e3d4
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 1500935
 # text = Men majoriteten av dem är ju då också civilingenjörer i grunden och några med doktorsexamen och även docentur, så jag kanske får en sned uppfattning?
 # date = 2019-07-16 10:24:21
@@ -39793,20 +37786,6 @@
 15	dyrt	dyr	ADVERB	AB	Degree=Pos	5	advmod	_	SpaceAfter=No
 16	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 3300864
-# text = Thnx 4 facts!
-# date = 2016-01-29 13:47
-# url = https://www.flashback.org/p56177766#p56177766
-# genre = internet_forum
-# x_sent_id = e8fb6f05
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9835563898086548
-1	Thnx	_	PROPN	PM	Case=Nom	0	root	_	_
-2	4	_	NUM	RG	Case=Nom	3	nummod	_	_
-3	facts	_	X	UO	_	1	nmod	_	SpaceAfter=No
-4	!	_	PUNCT	MAD	_	1	punct	_	SpaceAfter=No
-
 # sent_id = 2800798
 # text = Du betalar ju hyra eller månadsavgift, och då ska de fixa saker som inte funkar.
 # date = 2021-12-18 23:08
@@ -40538,18 +38517,6 @@
 17	valuta	valuta	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	conj	_	SpaceAfter=No
 18	..	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 1300074
-# text = 3.
-# date = 2012-04-26 09:18:40
-# url = http://www.familjeliv.se/forum/thread/19135338-korkade-kommentarer-fran-blivande-pappan-hall-glimten-i-ogat/113#anchor-m1130
-# genre = internet_forum
-# x_sent_id = a68e1f58d
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8741658926010132
-1	3	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-2	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1600173
 # text = Hör gärna av dig!
 # date = 2016-04-21 14:09:58
@@ -40735,37 +38702,6 @@
 16	månaden	månad	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
 17	..	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 2300575
-# text = Package Type: LGA775 Manufacturing Technology:90 nm Thermal Design Power: 115W Thermal Specification: 72.8° VID Voltage Range: 1.25V-1.388V
-# date = 2010-02-28 15:15
-# url = https://www.flashback.org/p21732488#p21732488
-# genre = internet_forum
-# x_sent_id = b10cbf827
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9228739738464355
-1	Package	_	PROPN	PM	Case=Nom	2	amod	_	_
-2	Type	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-3	:	_	PUNCT	MID	_	2	punct	_	_
-4	LGA775	_	PROPN	PM	Case=Nom	5	compound	_	_
-5	Manufacturing	_	PROPN	PM	Case=Nom	7	compound	_	_
-6	Technology:90	_	PROPN	PM	Case=Nom	7	compound	_	_
-7	nm	_	NOUN	NN	Abbr=Yes	8	compound	_	_
-8	Thermal	_	PROPN	PM	Case=Nom	9	compound	_	_
-9	Design	_	PROPN	PM	Case=Nom	10	compound	_	_
-10	Power	_	PROPN	PM	Case=Nom	2	appos	_	SpaceAfter=No
-11	:	_	PUNCT	MID	_	10	punct	_	_
-12	115W	_	NUM	RG	Case=Nom	13	compound	_	_
-13	Thermal	_	PROPN	PM	Case=Nom	14	compound	_	_
-14	Specification	_	PROPN	PM	Case=Nom	10	appos	_	SpaceAfter=No
-15	:	_	PUNCT	MID	_	14	punct	_	_
-16	72.8°	_	NUM	RG	Case=Nom	17	nummod	_	_
-17	VID	vid	ADP	PP	_	18	compound	_	_
-18	Voltage	_	PROPN	PM	Case=Nom	19	compound	_	_
-19	Range	_	PROPN	PM	Case=Nom	14	appos	_	SpaceAfter=No
-20	:	_	PUNCT	MID	_	19	punct	_	_
-21	1.25V-1.388V	_	NUM	RG	Case=Nom	19	appos	_	_
-
 # sent_id = 300842
 # text = Mitt val .
 # date = 2017-05-18 11:31:17
@@ -40853,17 +38789,6 @@
 # sentiment_label = neutral
 # sentiment_score = 0.989869236946106
 1	http://selga.se/minikanal-ld3aw2-a-2...mation.raction	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-
-# sent_id = 900038
-# text = !
-# date = 2005-12-12 15:13:39
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/260#anchor-m2591
-# genre = internet_forum
-# x_sent_id = b665541
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
 
 # sent_id = 2
 # text = Jag tycker allt känns så pirrigt och nervöst..
@@ -43184,18 +41109,6 @@
 27	rörsprängning	rörsprängning	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obl	_	SpaceAfter=No
 28	.	_	PUNCT	MAD	_	12	punct	_	_
 
-# sent_id = 900638
-# text = ......!
-# date = 2008-03-03 14:42:42
-# url = http://www.familjeliv.se/forum/thread/29184776-50-stora/15#anchor-m146
-# genre = internet_forum
-# x_sent_id = b664a87
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9625921249389648
-1	......	_	INTJ	IN	_	0	root	_	SpaceAfter=No
-2	!	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 2600174
 # text = Användaren dahla9 avstängd för 1.09.
 # date = 2022-03-27 11:25
@@ -43964,35 +41877,6 @@
 5	mig	jag	PRON	PN	Case=Acc|Definite=Def|Gender=Com|Number=Sing	4	obj	_	_
 6	då	då	ADVERB	AB	_	4	advmod	_	SpaceAfter=No
 7	?	_	PUNCT	MAD	_	1	punct	_	_
-
-# sent_id = 1900954
-# text = Video System Monitor/Panel : SONY CPD-E400P Adapter : NVIDIA GeForce 6600 GT --------------------------------------- Systemet fungerar sådär.
-# date = 2006-06-17 10:04:34
-# url = http://www.familjeliv.se/forum/thread/9943591-battlefield-2/2#anchor-m14
-# genre = internet_forum
-# x_sent_id = c5d6a3f
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8421019911766052
-1	Video	_	PROPN	PM	Case=Nom	2	nmod	_	_
-2	System	_	PROPN	PM	Case=Nom	3	nmod	_	_
-3	Monitor	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-4	/	_	PUNCT	MID	_	3	punct	_	SpaceAfter=No
-5	Panel	_	PROPN	PM	Case=Nom	3	appos	_	_
-6	:	_	PUNCT	MID	_	3	punct	_	_
-7	SONY	_	PROPN	PM	Case=Nom	8	compound	_	_
-8	CPD-E400P	_	PROPN	PM	Case=Nom	9	compound	_	_
-9	Adapter	_	PROPN	PM	Case=Nom	3	appos	_	_
-10	:	_	PUNCT	MID	_	9	punct	_	_
-11	NVIDIA	_	PROPN	PM	Case=Nom	12	nmod	_	_
-12	GeForce	_	PROPN	PM	Case=Nom	13	compound	_	_
-13	6600	_	NUM	RG	Case=Nom	14	nmod	_	_
-14	GT	_	PROPN	PM	Case=Nom	9	appos	_	_
-15	---------------------------------------	_	PROPN	PM	Compound=Yes	3	punct	_	_
-16	Systemet	system	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	_
-17	fungerar	fungera	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-18	sådär	sådär	ADVERB	AB	_	17	advmod	_	SpaceAfter=No
-19	.	_	PUNCT	MAD	_	3	punct	_	_
 
 # sent_id = 2100615
 # text = På familjeliv.
@@ -45538,49 +43422,6 @@
 23	dem	de	PRON	PN	Case=Acc|Definite=Def|Gender=Com,Neut|Number=Plur	19	obl	_	SpaceAfter=No
 24	!	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 2200303
-# text = BF 080923 Primrose, 43 år BF 081031 Majliselotten 40 år BF 081109 Helle04, 40 år BF 081207 (men blir kejsarsnitt ca 2 v innan) mobygirl, 43 år...
-# date = 2008-08-04 11:05:59
-# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/64#anchor-m636
-# genre = internet_forum
-# x_sent_id = 053011e63
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.861420214176178
-1	BF	_	NOUN	NN	Abbr=Yes	2	nmod	_	_
-2	080923	_	NUM	RG	Case=Nom	3	nummod	_	_
-3	Primrose	_	PROPN	PM	Case=Nom	0	root	_	SpaceAfter=No
-4	,	_	PUNCT	MID	_	3	punct	_	_
-5	43	_	NUM	RG	Case=Nom	6	nummod	_	_
-6	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	_
-7	BF	_	NOUN	NN	Abbr=Yes	3	nmod	_	_
-8	081031	_	NUM	RG	Case=Nom	3	nummod	_	_
-9	Majliselotten	_	PROPN	PM	Case=Nom	3	conj	_	_
-10	40	_	NUM	RG	Case=Nom	11	nummod	_	_
-11	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	appos	_	_
-12	BF	_	PROPN	PM	Case=Nom	11	nmod	_	_
-13	081109	_	NUM	RG	Case=Nom	3	nummod	_	_
-14	Helle04	_	PROPN	PM	Case=Nom	3	conj	_	SpaceAfter=No
-15	,	_	PUNCT	MID	_	14	punct	_	_
-16	40	_	NUM	RG	Case=Nom	17	nummod	_	_
-17	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	appos	_	_
-18	BF	_	NOUN	NN	Abbr=Yes	14	nmod	_	_
-19	081207	_	NUM	RG	Case=Nom	14	nummod	_	_
-20	(	_	PUNCT	PAD	_	22	punct	_	SpaceAfter=No
-21	men	men	CCONJ	KN	_	22	cc	_	_
-22	blir	bli	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
-23	kejsarsnitt	kejsarsnitt	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	_
-24	ca	ca	ADVERB	AB	Abbr=Yes	25	advmod	_	_
-25	2	_	NUM	RG	Case=Nom	26	nummod	_	_
-26	v	v	NOUN	NN	Abbr=Yes	22	obl	_	_
-27	innan	innan	ADP	PP	_	29	case	_	SpaceAfter=No
-28	)	_	PUNCT	PAD	_	29	punct	_	_
-29	mobygirl	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	SpaceAfter=No
-30	,	_	PUNCT	MID	_	29	punct	_	_
-31	43	_	NUM	RG	Case=Nom	32	nummod	_	_
-32	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	29	appos	_	SpaceAfter=No
-33	...	_	PUNCT	MAD	_	3	punct	_	_
-
 # sent_id = 3000534
 # text = Leka i vattenpöl i en skjorta från RL eller leka i en vattenpöl i kläder från Ullared, eller valfri lågprisbutik, det känns som en ganska drastisk generalisering.
 # date = 2012-09-29 01:30
@@ -45927,85 +43768,6 @@
 6	endast	endast	ADVERB	AB	_	4	advmod	_	_
 7	lössnus	lössnus	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
 8	.	_	PUNCT	MAD	_	4	punct	_	_
-
-# sent_id = 1000131
-# text = 24 Erika (mamma Acki) 2004 25 Love ( mamma tessan82 ) 26 Liten (mamma myran71 - Maria) 2005 29 Philip (mamma SaraLotta - Lotta) 2007 30 Gustav (mamma petra 73 Daniels lillebror) 2003 (somna in 1 sep 2003) 31 Melinda (Mamma mimi80) 2005 31 Alexander (mamma spellis) 2002 31 Josephine (mamma sarahk) 2006
-# date = 2008-01-05 17:17:16
-# url = http://www.familjeliv.se/forum/thread/26730644-vara-anglars-fodelsedagar/10#anchor-m92
-# genre = internet_forum
-# x_sent_id = c583843
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8610400557518005
-1	24	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	Erika	Erika	PROPN	PM	Case=Nom	0	root	_	_
-3	(	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
-4	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	appos	_	_
-5	Acki	_	PROPN	PM	Case=Nom	2	appos	_	SpaceAfter=No
-6	)	_	PUNCT	PAD	_	2	punct	_	_
-7	2004	_	NUM	RG	Case=Nom	2	nummod	_	_
-8	25	_	NUM	RG	Case=Nom	9	nummod	_	_
-9	Love	Love	PROPN	PM	Case=Nom	2	appos	_	_
-10	(	_	PUNCT	PAD	_	9	punct	_	_
-11	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
-12	tessan82	_	NUM	RG	Case=Nom	11	nummod	_	_
-13	)	_	PUNCT	PAD	_	2	punct	_	_
-14	26	_	NUM	RG	Case=Nom	15	nummod	_	_
-15	Liten	liten	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	parataxis	_	_
-16	(	_	PUNCT	PAD	_	17	punct	_	SpaceAfter=No
-17	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
-18	myran71	_	NUM	RG	Case=Nom	17	conj	_	_
-19	-	_	PUNCT	MID	_	20	punct	_	_
-20	Maria	Maria	PROPN	PM	Case=Nom	17	conj	_	SpaceAfter=No
-21	)	_	PUNCT	PAD	_	20	punct	_	_
-22	2005	_	NUM	RG	Case=Nom	24	nummod	_	_
-23	29	_	NUM	RG	Case=Nom	24	nummod	_	_
-24	Philip	Philip	PROPN	PM	Case=Nom	2	conj	_	_
-25	(	_	PUNCT	PAD	_	24	punct	_	SpaceAfter=No
-26	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nmod	_	_
-27	SaraLotta	_	PROPN	PM	Case=Nom	24	nmod	_	_
-28	-	_	PUNCT	MID	_	29	punct	_	_
-29	Lotta	Lotta	PROPN	PM	Case=Nom	27	conj	_	SpaceAfter=No
-30	)	_	PUNCT	PAD	_	24	punct	_	_
-31	2007	_	NUM	RG	Case=Nom	24	nummod	_	_
-32	30	_	NUM	RG	Case=Nom	33	nummod	_	_
-33	Gustav	Gustav	PROPN	PM	Case=Nom	2	conj	_	_
-34	(	_	PUNCT	PAD	_	33	punct	_	SpaceAfter=No
-35	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	nmod	_	_
-36	petra	_	PROPN	PM	Case=Nom	33	appos	_	_
-37	73	_	NUM	RG	Case=Nom	39	nummod	_	_
-38	Daniels	Daniel	PROPN	PM	Case=Gen	39	nmod:poss	_	_
-39	lillebror	lillebror	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	conj	_	SpaceAfter=No
-40	)	_	PUNCT	PAD	_	33	punct	_	_
-41	2003	_	NUM	RG	Case=Nom	33	nummod	_	_
-42	(	_	PUNCT	PAD	_	43	punct	_	SpaceAfter=No
-43	somna	somna	VERB	VB	Mood=Imp|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-44	in	in	PART	PL	_	43	compound:prt	_	_
-45	1	_	NUM	RG	Case=Nom	46	nummod	_	_
-46	sep	_	NOUN	NN	Abbr=Yes	43	obj	_	_
-47	2003	_	NUM	RG	Case=Nom	43	nummod	_	SpaceAfter=No
-48	)	_	PUNCT	PAD	_	43	punct	_	_
-49	31	_	NUM	RG	Case=Nom	50	nummod	_	_
-50	Melinda	Melinda	PROPN	PM	Case=Nom	2	conj	_	_
-51	(	_	PUNCT	PAD	_	50	punct	_	SpaceAfter=No
-52	Mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	50	nmod	_	_
-53	mimi80	_	NUM	RG	Case=Nom	50	appos	_	SpaceAfter=No
-54	)	_	PUNCT	PAD	_	50	punct	_	_
-55	2005	_	NUM	RG	Case=Nom	57	nummod	_	_
-56	31	_	NUM	RG	Case=Nom	50	nummod	_	_
-57	Alexander	Alexander	PROPN	PM	Case=Nom	50	conj	_	_
-58	(	_	PUNCT	PAD	_	57	punct	_	SpaceAfter=No
-59	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	57	nmod	_	_
-60	spellis	_	X	UO	_	57	appos	_	SpaceAfter=No
-61	)	_	PUNCT	PAD	_	57	punct	_	_
-62	2002	_	NUM	RG	Case=Nom	64	nummod	_	_
-63	31	_	NUM	RG	Case=Nom	64	nummod	_	_
-64	Josephine	Josephine	PROPN	PM	Case=Nom	57	conj	_	_
-65	(	_	PUNCT	PAD	_	64	punct	_	SpaceAfter=No
-66	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	67	nmod	_	_
-67	sarahk	_	PROPN	PM	Case=Nom	64	appos	_	SpaceAfter=No
-68	)	_	PUNCT	PAD	_	64	punct	_	_
-69	2006	_	NUM	RG	Case=Nom	2	nummod	_	_
 
 # sent_id = 3300634
 # text = Som sagt, minst sagt krångligt som jag anser det.
@@ -46800,18 +44562,6 @@
 13	pedofiler	pedofil	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	_	SpaceAfter=No
 14	.	_	PUNCT	MAD	_	5	punct	_	_
 
-# sent_id = 600377
-# text = Thirteen ghosts
-# date = 2004-06-22 17:43:23
-# url = http://www.familjeliv.se/forum/thread/575023-tipsa-mig-om-bra-skrackfilmer/1
-# genre = internet_forum
-# x_sent_id = dd38e5b63
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9788636565208435
-1	Thirteen	_	PROPN	PM	Case=Nom	2	nsubj	_	_
-2	ghosts	_	PROPN	PM	Case=Nom	0	root	_	_
-
 # sent_id = 200530
 # text = Japp...Samma skiten igen ..........
 # date = 2009-03-08 13:27:47
@@ -47147,26 +44897,6 @@
 3	forskarvärlden	forskarvärld	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	SpaceAfter=No
 4	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1700329
-# text = Nessa78, Xena75, mars78 (3) 29.
-# date = 2006-01-01 14:55:22
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/67#anchor-m666
-# genre = internet_forum
-# x_sent_id = b17e7eef
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9188563227653503
-1	Nessa78	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	1	punct	_	_
-3	Xena75	_	PROPN	PM	Case=Nom	1	obl	_	SpaceAfter=No
-4	,	_	PUNCT	MID	_	3	punct	_	_
-5	mars78	_	NUM	RG	Case=Nom	3	nmod	_	_
-6	(	_	PUNCT	PAD	_	5	punct	_	SpaceAfter=No
-7	3	_	NUM	RG	Case=Nom	5	nmod	_	SpaceAfter=No
-8	)	_	PUNCT	PAD	_	3	punct	_	_
-9	29	_	NUM	RG	Case=Nom	7	nummod	_	SpaceAfter=No
-10	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1200953
 # text = Som tur är lovade hon själv att hjälpa till.
 # date = 2007-01-17 08:45:21
@@ -47210,20 +44940,6 @@
 12	har	ha	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpaceAfter=No
 13	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1800879
-# text = 21 maj - Hoppitossa
-# date = 2016-10-04 19:05:33
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/2#anchor-m14
-# genre = internet_forum
-# x_sent_id = a6aa01b3
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9683287739753723
-1	21	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Hoppitossa	hoppitossa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
-
 # sent_id = 3600313
 # text = Men jag är hursomhelst oerhört glad över Dzeko.
 # date = 2015-08-07 00:01
@@ -47242,17 +44958,6 @@
 7	över	över	ADP	PP	_	8	case	_	_
 8	Dzeko	_	PROPN	PM	Case=Nom	3	obl	_	SpaceAfter=No
 9	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 900781
-# text = Pliis
-# date = 2009-04-28 18:32:30
-# url = http://www.familjeliv.se/forum/thread/43243899-jag-dodar-alla/16#anchor-m153
-# genre = internet_forum
-# x_sent_id = b667418
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9311251640319824
-1	Pliis	_	PROPN	PM	Case=Nom	0	root	_	_
 
 # sent_id = 651
 # text = Det hade varit bättre att få diskutera olika situationer som kan uppstå både under processen och när barnet kommit hit.
@@ -47406,17 +45111,6 @@
 1	Snicksnack	snicksnack	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 2	.	_	PUNCT	MAD	_	1	punct	_	_
 
-# sent_id = 900109
-# text = !
-# date = 2005-12-12 20:36:12
-# url = http://www.familjeliv.se/forum/thread/5879508-tavling-vem-far-sista-ordet/282#anchor-m2818
-# genre = internet_forum
-# x_sent_id = b667be3
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8935645818710327
-1	!	_	PUNCT	MAD	_	0	root	_	_
-
 # sent_id = 600776
 # text = För bara några veckor sedan var det några ungdomar från skåne som tog sig upp hit till mellansverige för att frontalkrocka med en lastbil 8självmord ) .
 # date = 2009-04-07 15:35:13
@@ -47527,19 +45221,6 @@
 16	hade	ha	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
 17	önskat	önska	VERB	VB	VerbForm=Sup|Voice=Act	16	xcomp	_	SpaceAfter=No
 18	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 1200082
-# text = *s*
-# date = 2006-11-05 19:46:22
-# url = http://www.familjeliv.se/forum/thread/13643543-fjarde-aptraden/37#anchor-m369
-# genre = internet_forum
-# x_sent_id = 4e9c098f9
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.968940794467926
-1	*	_	PUNCT	MID	_	2	punct	_	SpaceAfter=No
-2	s	s	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-3	*	_	PUNCT	MID	_	2	punct	_	_
 
 # sent_id = 100338
 # text = skulle kunna skriva en bok om allt jag var med om på dom 10 månaderna .
@@ -47952,22 +45633,6 @@
 3	rättigenom	_	ADVERB	AB	_	2	advmod	_	SpaceAfter=No
 4	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 2200462
-# text = GRAVIDA........................... EvaBella 41 år.....
-# date = 2008-07-24 12:24:29
-# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/55#anchor-m550
-# genre = internet_forum
-# x_sent_id = 0530f80ee
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9101865887641907
-1	GRAVIDA	gravid	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	2	amod	_	SpaceAfter=No
-2	...........................	_	NOUN	NN	Abbr=Yes	0	root	_	_
-3	EvaBella	_	PROPN	PM	Case=Nom	2	nmod	_	_
-4	41	_	NUM	RG	Case=Nom	5	nummod	_	_
-5	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
-6	.....	_	PUNCT	MAD	_	2	punct	_	_
-
 # sent_id = 3100775
 # text = Men då aftonbladet var primärkällan kommer här en ny länk från aftonbladet.
 # date = 2022-11-30 08:30
@@ -48151,34 +45816,6 @@
 # sentiment_label = neutral
 # sentiment_score = 0.9427786469459534
 1	?	_	PUNCT	MAD	_	0	root	_	_
-
-# sent_id = 1700200
-# text = v.17 (5) 20. misssindra (1) 21. lottizm (1) 22.
-# date = 2009-04-15 10:06:07
-# url = http://www.familjeliv.se/forum/thread/41959283-bim-lista-april/25#anchor-m244
-# genre = internet_forum
-# x_sent_id = b1738937
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8877158761024475
-1	v.17	_	NOUN	NN	Abbr=Yes	0	root	_	_
-2	(	_	PUNCT	PAD	_	1	punct	_	SpaceAfter=No
-3	5	_	NUM	RG	Case=Nom	1	nummod	_	SpaceAfter=No
-4	)	_	PUNCT	PAD	_	5	punct	_	_
-5	20	_	NUM	RG	Case=Nom	1	nummod	_	SpaceAfter=No
-6	.	_	PUNCT	MAD	_	1	punct	_	_
-7	misssindra	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos	_	_
-8	(	_	PUNCT	PAD	_	7	punct	_	SpaceAfter=No
-9	1	_	NUM	RG	Case=Nom	7	nummod	_	SpaceAfter=No
-10	)	_	PUNCT	PAD	_	7	punct	_	_
-11	21	_	NUM	RG	Case=Nom	7	nummod	_	SpaceAfter=No
-12	.	_	PUNCT	MAD	_	13	punct	_	_
-13	lottizm	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
-14	(	_	PUNCT	PAD	_	13	punct	_	SpaceAfter=No
-15	1	_	NUM	RG	Case=Nom	13	nummod	_	SpaceAfter=No
-16	)	_	PUNCT	PAD	_	13	punct	_	_
-17	22	_	NUM	RG	Case=Nom	13	nummod	_	SpaceAfter=No
-18	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 3700563
 # text = Skulle vara kul att veta sammansättningen, för till storleken är de kralligare än likvärdiga jag gjort med german dark 25mikron och KClO4.
@@ -49566,22 +47203,6 @@
 4	relation	relation	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No
 5	?	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1700959
-# text = Carolin83 (1) 18.
-# date = 2005-11-28 11:59:01
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/11#anchor-m104
-# genre = internet_forum
-# x_sent_id = b170868e
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9293631911277771
-1	Carolin83	_	PROPN	PM	Case=Nom	0	root	_	_
-2	(	_	PUNCT	PAD	_	1	punct	_	SpaceAfter=No
-3	1	_	NUM	RG	Case=Nom	1	list	_	SpaceAfter=No
-4	)	_	PUNCT	PAD	_	1	punct	_	_
-5	18	_	NUM	RG	Case=Nom	1	list	_	SpaceAfter=No
-6	.	_	PUNCT	MAD	_	1	punct	_	_
-
 # sent_id = 1600382
 # text = Typ fem minuter intensivt tuttande sen är han nöjd i två timmar.
 # date = 2009-01-13 21:08:40
@@ -49736,18 +47357,6 @@
 22	i	i	ADP	PP	_	23	case	_	_
 23	september	september	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obl	_	SpaceAfter=No
 24	.	_	PUNCT	MAD	_	2	punct	_	_
-
-# sent_id = 1700987
-# text = 12.
-# date = 2005-12-15 18:18:04
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/50#anchor-m492
-# genre = internet_forum
-# x_sent_id = b17afa01
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9357349872589111
-1	12	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-2	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 1900740
 # text = Jag kommer att köra på bana snart.
@@ -50968,20 +48577,6 @@
 19	vill	vilja	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	SpaceAfter=No
 20	.	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 1800488
-# text = 22 maj - happylife
-# date = 2016-10-04 19:05:10
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/2#anchor-m13
-# genre = internet_forum
-# x_sent_id = a6aa2405
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9455732703208923
-1	22	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	maj	maj	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	happylife	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
-
 # sent_id = 800790
 # text = Ni som argumenterar för att behålla det som idag.
 # date = 2010-02-21 20:34:26
@@ -51316,17 +48911,6 @@
 12	de	de	PRON	PN	Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur	11	nsubj	_	_
 13	ihop	ihop|gå ihop:11	PART	PL	_	11	compound:prt	_	_
 14	då	då	ADVERB	AB	_	11	advmod	_	_
-
-# sent_id = 400841
-# text = :)
-# date = 2011-10-29 14:33:17
-# url = http://www.familjeliv.se/forum/thread/61641473-nagon-mer-som-ar-nystartad/1#anchor-m10
-# genre = internet_forum
-# x_sent_id = c7f97b3
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9696422815322876
-1	:)	_	INTJ	IN	_	0	root	_	_
 
 # sent_id = 3000341
 # text = Lagom baggy jeans samt en buff eller svettband runt handleden/erna.
@@ -51746,197 +49330,6 @@
 5	imorgon	imorgon	ADVERB	AB	_	4	advmod	_	_
 6	iaf	_	ADVERB	AB	_	5	advmod	_	SpaceAfter=No
 7	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 1000194
-# text = OKTOBER 4 Moa & Ida (mamma kellyb) 2003 7 Charlotta (mamma Efra) 2004 12 Rasmus (mamma Lillzandra) 2006 12 Daniel (mamma Fusilli) 2005 12 Amelinda (mamma AnnLee) 2007 13 Wilma(mamma Gilga)2000 14 Alfons (mamma Sara, aprikos76) 2001 15 Linnea (mamma tjenixis) 2006 17 Johanna (mamma Tereziia) 2005 17 Robin (mamma Wilma00) 2004 18 Sebastian 05(mamma Helena)Somnade in 24/8-06 på kvällen 19 Jesper Leon (mamma krysantemum) 2004 22 Älskade Liten (mamma englabella o pappa Marcus) 2006 23 Noah (Mamma Svartfågel) f/d 1997 25 Vår älskade son (mamma barnsäng) 2004 25 Våra älskade döttrar Elsa & Ella (mamma Sara "julknäck") 2005 27 Klara (mamma Paulina f69) 2004, död 1 nov 04 30 Frida (mamma brus) 2006 (samma dag som storebror på jorden 2002) 31 Emilia (mamma Jessica (Emmalemma)) 2007
-# date = 2008-02-20 13:19:58
-# url = http://www.familjeliv.se/forum/thread/29726636-vara-anglabarns-fodelsedagar/3#anchor-m25
-# genre = internet_forum
-# x_sent_id = c58cce4
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.7930169105529785
-1	OKTOBER	oktober	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
-2	4	_	NUM	RG	Case=Nom	3	nummod	_	_
-3	Moa	Moa	PROPN	PM	Case=Nom	0	root	_	_
-4	&	&	CCONJ	KN	Abbr=Yes	3	punct	_	_
-5	Ida	Ida	PROPN	PM	Case=Nom	3	conj	_	_
-6	(	_	PUNCT	PAD	_	3	punct	_	SpaceAfter=No
-7	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	appos	_	_
-8	kellyb	_	PROPN	PM	Case=Nom	7	nmod	_	SpaceAfter=No
-9	)	_	PUNCT	PAD	_	3	punct	_	_
-10	2003	_	NUM	RG	Case=Nom	12	nummod	_	_
-11	7	_	NUM	RG	Case=Nom	12	nummod	_	_
-12	Charlotta	Charlotta	PROPN	PM	Case=Nom	3	conj	_	_
-13	(	_	PUNCT	PAD	_	12	punct	_	SpaceAfter=No
-14	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
-15	Efra	_	PROPN	PM	Case=Nom	14	nmod	_	SpaceAfter=No
-16	)	_	PUNCT	PAD	_	12	punct	_	_
-17	2004	_	NUM	RG	Case=Nom	19	nummod	_	_
-18	12	_	NUM	RG	Case=Nom	19	nummod	_	_
-19	Rasmus	Rasmus	PROPN	PM	Case=Nom	3	parataxis	_	_
-20	(	_	PUNCT	PAD	_	19	punct	_	SpaceAfter=No
-21	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	_
-22	Lillzandra	_	PROPN	PM	Case=Nom	21	conj	_	SpaceAfter=No
-23	)	_	PUNCT	PAD	_	21	punct	_	_
-24	2006	_	NUM	RG	Case=Nom	26	nummod	_	_
-25	12	_	NUM	RG	Case=Nom	26	nummod	_	_
-26	Daniel	Daniel	PROPN	PM	Case=Nom	19	conj	_	_
-27	(	_	PUNCT	PAD	_	26	punct	_	SpaceAfter=No
-28	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	nmod	_	_
-29	Fusilli	_	PROPN	PM	Case=Nom	28	nmod	_	SpaceAfter=No
-30	)	_	PUNCT	PAD	_	26	punct	_	_
-31	2005	_	NUM	RG	Case=Nom	32	nummod	_	_
-32	12	_	NUM	RG	Case=Nom	33	nummod	_	_
-33	Amelinda	_	PROPN	PM	Case=Nom	26	conj	_	_
-34	(	_	PUNCT	PAD	_	35	punct	_	SpaceAfter=No
-35	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	nmod	_	_
-36	AnnLee	_	PROPN	PM	Case=Nom	35	nmod	_	SpaceAfter=No
-37	)	_	PUNCT	PAD	_	35	punct	_	_
-38	2007	_	NUM	RG	Case=Nom	39	nummod	_	_
-39	13	_	NUM	RG	Case=Nom	40	nummod	_	_
-40	Wilma	Wilma	PROPN	PM	Case=Nom	3	conj	_	SpaceAfter=No
-41	(	_	PUNCT	PAD	_	40	punct	_	SpaceAfter=No
-42	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	40	nmod	_	_
-43	Gilga	_	PROPN	PM	Case=Nom	42	conj	_	SpaceAfter=No
-44	)	_	PUNCT	PAD	_	40	punct	_	SpaceAfter=No
-45	2000	_	NUM	RG	Case=Nom	47	nummod	_	_
-46	14	_	NUM	RG	Case=Nom	47	nummod	_	_
-47	Alfons	Alfons	PROPN	PM	Case=Nom	40	conj	_	_
-48	(	_	PUNCT	PAD	_	47	punct	_	SpaceAfter=No
-49	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	50	nmod	_	_
-50	Sara	Sara	PROPN	PM	Case=Nom	47	appos	_	SpaceAfter=No
-51	,	_	PUNCT	MID	_	50	punct	_	_
-52	aprikos76	_	NUM	RG	Case=Nom	50	nmod	_	SpaceAfter=No
-53	)	_	PUNCT	PAD	_	50	punct	_	_
-54	2001	_	NUM	RG	Case=Nom	55	nummod	_	_
-55	15	_	NUM	RG	Case=Nom	56	nummod	_	_
-56	Linnea	Linnea	PROPN	PM	Case=Nom	50	conj	_	_
-57	(	_	PUNCT	PAD	_	56	punct	_	SpaceAfter=No
-58	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	56	nmod	_	_
-59	tjenixis	_	PROPN	PM	Case=Nom	58	nmod	_	SpaceAfter=No
-60	)	_	PUNCT	PAD	_	56	punct	_	_
-61	2006	_	NUM	RG	Case=Nom	62	nummod	_	_
-62	17	_	NUM	RG	Case=Nom	63	nummod	_	_
-63	Johanna	Johanna	PROPN	PM	Case=Nom	56	conj	_	_
-64	(	_	PUNCT	PAD	_	63	punct	_	SpaceAfter=No
-65	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	63	nmod	_	_
-66	Tereziia	_	PROPN	PM	Case=Nom	65	conj	_	SpaceAfter=No
-67	)	_	PUNCT	PAD	_	63	punct	_	_
-68	2005	_	NUM	RG	Case=Nom	70	nummod	_	_
-69	17	_	NUM	RG	Case=Nom	70	nummod	_	_
-70	Robin	Robin	PROPN	PM	Case=Nom	63	conj	_	_
-71	(	_	PUNCT	PAD	_	70	punct	_	SpaceAfter=No
-72	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	70	nmod	_	_
-73	Wilma00	_	PROPN	PM	Case=Nom	72	obj	_	SpaceAfter=No
-74	)	_	PUNCT	PAD	_	70	punct	_	_
-75	2004	_	NUM	RG	Case=Nom	77	nummod	_	_
-76	18	_	NUM	RG	Case=Nom	77	nummod	_	_
-77	Sebastian	Sebastian	PROPN	PM	Case=Nom	70	conj	_	_
-78	05	_	NUM	RG	Case=Nom	77	nummod	_	SpaceAfter=No
-79	(	_	PUNCT	PAD	_	77	punct	_	SpaceAfter=No
-80	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	77	appos	_	_
-81	Helena	Helena	PROPN	PM	Case=Nom	80	flat:name	_	SpaceAfter=No
-82	)	_	PUNCT	PAD	_	83	punct	_	SpaceAfter=No
-83	Somnade	somna	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	77	conj	_	_
-84	in	in	PART	PL	_	83	compound:prt	_	_
-85	24	_	NUM	RG	Case=Nom	83	obj	_	SpaceAfter=No
-86	/	_	PUNCT	MID	_	87	case	_	SpaceAfter=No
-87	8-06	_	NUM	RG	Case=Nom	83	obl	_	_
-88	på	på	ADP	PP	_	89	case	_	_
-89	kvällen	kväll	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	83	obl	_	_
-90	19	_	NUM	RG	Case=Nom	91	nummod	_	_
-91	Jesper	Jesper	PROPN	PM	Case=Nom	83	obl	_	_
-92	Leon	Leon	PROPN	PM	Case=Nom	91	flat:name	_	_
-93	(	_	PUNCT	PAD	_	91	punct	_	SpaceAfter=No
-94	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	91	appos	_	_
-95	krysantemum	krysantemum	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	91	appos	_	SpaceAfter=No
-96	)	_	PUNCT	PAD	_	91	punct	_	_
-97	2004	_	NUM	RG	Case=Nom	98	nummod	_	_
-98	22	_	NUM	RG	Case=Nom	99	obl	_	_
-99	Älskade	älska	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	91	acl:relcl	_	_
-100	Liten	liten	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	99	obj	_	_
-101	(	_	PUNCT	PAD	_	99	punct	_	SpaceAfter=No
-102	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	99	obl	_	_
-103	englabella	_	ADJ	JJ	Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing	99	advcl	_	_
-104	o	o	CCONJ	KN	_	105	cc	_	_
-105	pappa	pappa	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	102	conj	_	_
-106	Marcus	Marcus	PROPN	PM	Case=Nom	99	obj	_	SpaceAfter=No
-107	)	_	PUNCT	PAD	_	102	punct	_	_
-108	2006	_	NUM	RG	Case=Nom	109	nummod	_	_
-109	23	_	NUM	RG	Case=Nom	110	nummod	_	_
-110	Noah	Noah	PROPN	PM	Case=Nom	99	obj	_	_
-111	(	_	PUNCT	PAD	_	110	punct	_	SpaceAfter=No
-112	Mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	110	nmod	_	_
-113	Svartfågel	_	PROPN	PM	Case=Nom	112	conj	_	SpaceAfter=No
-114	)	_	PUNCT	PAD	_	110	punct	_	_
-115	f	_	PROPN	PM	Case=Nom	110	conj	_	SpaceAfter=No
-116	/	_	PUNCT	MID	_	117	punct	_	SpaceAfter=No
-117	d	_	PROPN	PM	Case=Nom	110	conj	_	_
-118	1997	_	NUM	RG	Case=Nom	117	nummod	_	_
-119	25	_	NUM	RG	Case=Nom	122	nummod	_	_
-120	Vår	vi	DET	PS	Definite=Def|Gender=Com|Number=Sing	121	amod	_	_
-121	älskade	älska|älskad	VERB	PC	Case=Nom|Definite=Def|Gender=Com,Neut|Number=Sing|Tense=Past|VerbForm=Part	122	amod	_	_
-122	son	son	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	110	conj	_	_
-123	(	_	PUNCT	PAD	_	122	punct	_	SpaceAfter=No
-124	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	125	nmod	_	_
-125	barnsäng	barnsäng	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	122	appos	_	SpaceAfter=No
-126	)	_	PUNCT	PAD	_	122	punct	_	_
-127	2004	_	NUM	RG	Case=Nom	132	nummod	_	_
-128	25	_	NUM	RG	Case=Nom	130	nummod	_	_
-129	Våra	vi	DET	PS	Definite=Def|Gender=Com,Neut|Number=Plur	130	amod	_	_
-130	älskade	älska|älskad	VERB	PC	Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur|Tense=Past|VerbForm=Part	132	obl	_	_
-131	döttrar	dotter	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	132	obl	_	_
-132	Elsa	Elsa	PROPN	PM	Case=Nom	122	conj	_	_
-133	&	&	CCONJ	KN	Abbr=Yes	134	cc	_	_
-134	Ella	Ella	PROPN	PM	Case=Nom	132	conj	_	_
-135	(	_	PUNCT	PAD	_	132	punct	_	SpaceAfter=No
-136	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	137	nmod	_	_
-137	Sara	Sara	PROPN	PM	Case=Nom	132	obl	_	_
-138	"	_	PUNCT	PAD	_	139	punct	_	SpaceAfter=No
-139	julknäck	julknäck	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	137	conj	_	SpaceAfter=No
-140	"	_	PUNCT	PAD	_	139	punct	_	SpaceAfter=No
-141	)	_	PUNCT	PAD	_	132	punct	_	_
-142	2005	_	NUM	RG	Case=Nom	143	nummod	_	_
-143	27	_	NUM	RG	Case=Nom	132	obl	_	_
-144	Klara	klar	ADJ	JJ	Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur	143	amod	_	_
-145	(	_	PUNCT	PAD	_	143	punct	_	SpaceAfter=No
-146	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	147	nmod	_	_
-147	Paulina	Paulina	PROPN	PM	Case=Nom	143	obl	_	_
-148	f69	_	NUM	RG	Case=Nom	147	nummod	_	SpaceAfter=No
-149	)	_	PUNCT	PAD	_	147	punct	_	_
-150	2004	_	NUM	RG	Case=Nom	147	nummod	_	SpaceAfter=No
-151	,	_	PUNCT	MID	_	152	punct	_	_
-152	död	död	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	143	conj	_	_
-153	1	_	NUM	RG	Case=Nom	154	nummod	_	_
-154	nov	_	NOUN	NN	Abbr=Yes	152	obl	_	_
-155	04	_	NUM	RG	Case=Nom	154	nummod	_	_
-156	30	_	NUM	RG	Case=Nom	157	nummod	_	_
-157	Frida	Frida	PROPN	PM	Case=Nom	3	conj	_	_
-158	(	_	PUNCT	PAD	_	157	punct	_	SpaceAfter=No
-159	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	160	nmod	_	_
-160	brus	brus	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	157	appos	_	SpaceAfter=No
-161	)	_	PUNCT	PAD	_	157	punct	_	_
-162	2006	_	NUM	RG	Case=Nom	157	nummod	_	_
-163	(	_	PUNCT	PAD	_	157	punct	_	SpaceAfter=No
-164	samma	samma	DET	DT	Definite=Ind|Gender=Com,Neut|Number=Plur,Sing	165	nummod	_	_
-165	dag	dag	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	157	conj	_	_
-166	som	_	CCONJ	KN	_	167	cc	_	_
-167	storebror	storebror	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	165	conj	_	_
-168	på	på	ADP	PP	_	169	case	_	_
-169	jorden	jord	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	170	nmod	_	_
-170	2002	_	NUM	RG	Case=Nom	165	obl	_	SpaceAfter=No
-171	)	_	PUNCT	PAD	_	173	punct	_	_
-172	31	_	NUM	RG	Case=Nom	173	nummod	_	_
-173	Emilia	Emilia	PROPN	PM	Case=Nom	3	parataxis	_	_
-174	(	_	PUNCT	PAD	_	173	punct	_	SpaceAfter=No
-175	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	176	nmod	_	_
-176	Jessica	Jessica	PROPN	PM	Case=Nom	173	appos	_	_
-177	(	_	PUNCT	PAD	_	176	punct	_	SpaceAfter=No
-178	Emmalemma	_	PROPN	PM	Case=Nom	176	nmod	_	SpaceAfter=No
-179	)	_	PUNCT	PAD	_	173	punct	_	SpaceAfter=No
-180	)	_	PUNCT	PAD	_	173	punct	_	_
-181	2007	_	NUM	RG	Case=Nom	3	nummod	_	_
 
 # sent_id = 400887
 # text = Lyckas man få in alla de krav som ställs i en skål har man ju verkligen jobbat på bra .
@@ -52772,54 +50165,6 @@
 26	det	den|den där	PRON	PN	Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing	20	obl	_	_
 27	där	där|den där:26	ADVERB	AB	_	26	advmod	_	SpaceAfter=No
 28	.	_	PUNCT	MAD	_	10	punct	_	_
-
-# sent_id = 1700533
-# text = Fiskbulle666, beccagranen, Smurfan 81, Memma81 (4) 6. kotte1 (1) 7. sweedy, hoppas78 (2) 8. maria8109, Bounce, Finisen, (3) 9.
-# date = 2005-12-07 17:23:46
-# url = http://www.familjeliv.se/forum/thread/5508156-bim-lista-december/33#anchor-m322
-# genre = internet_forum
-# x_sent_id = b172694f
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8863346576690674
-1	Fiskbulle666	_	NUM	RG	Case=Nom	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	MID	_	3	punct	_	_
-3	beccagranen	_	NOUN	NN	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	conj	_	SpaceAfter=No
-4	,	_	PUNCT	MID	_	3	punct	_	_
-5	Smurfan	_	PROPN	PM	Case=Nom	3	nmod	_	_
-6	81	_	NUM	RG	Case=Nom	5	nummod	_	SpaceAfter=No
-7	,	_	PUNCT	MID	_	3	punct	_	_
-8	Memma81	_	NUM	RG	Case=Nom	3	conj	_	_
-9	(	_	PUNCT	PAD	_	8	punct	_	SpaceAfter=No
-10	4	_	NUM	RG	Case=Nom	8	nummod	_	SpaceAfter=No
-11	)	_	PUNCT	PAD	_	12	punct	_	_
-12	6	_	NUM	RG	Case=Nom	8	conj	_	SpaceAfter=No
-13	.	_	PUNCT	MAD	_	14	punct	_	_
-14	kotte1	_	NUM	RG	Case=Nom	3	conj	_	_
-15	(	_	PUNCT	PAD	_	14	punct	_	SpaceAfter=No
-16	1	_	NUM	RG	Case=Nom	14	nummod	_	SpaceAfter=No
-17	)	_	PUNCT	PAD	_	14	punct	_	_
-18	7	_	NUM	RG	Case=Nom	14	nummod	_	SpaceAfter=No
-19	.	_	PUNCT	MAD	_	20	punct	_	_
-20	sweedy	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	SpaceAfter=No
-21	,	_	PUNCT	MID	_	20	punct	_	_
-22	hoppas78	_	VERB	VB	VerbForm=Sup|Voice=Pass	20	conj	_	_
-23	(	_	PUNCT	PAD	_	22	punct	_	SpaceAfter=No
-24	2	_	NUM	RG	Case=Nom	22	obl	_	SpaceAfter=No
-25	)	_	PUNCT	PAD	_	22	punct	_	_
-26	8	_	NUM	RG	Case=Nom	20	nummod	_	SpaceAfter=No
-27	.	_	PUNCT	MAD	_	28	punct	_	_
-28	maria8109	_	NUM	RG	Case=Nom	3	conj	_	SpaceAfter=No
-29	,	_	PUNCT	MID	_	30	punct	_	_
-30	Bounce	_	PROPN	PM	Case=Nom	28	nmod	_	SpaceAfter=No
-31	,	_	PUNCT	MID	_	30	punct	_	_
-32	Finisen	_	PROPN	PM	Case=Nom	30	nmod	_	SpaceAfter=No
-33	,	_	PUNCT	MID	_	32	punct	_	_
-34	(	_	PUNCT	PAD	_	35	punct	_	SpaceAfter=No
-35	3	_	NUM	RG	Case=Nom	32	nmod	_	SpaceAfter=No
-36	)	_	PUNCT	PAD	_	35	punct	_	_
-37	9	_	NUM	RG	Case=Nom	35	nummod	_	SpaceAfter=No
-38	.	_	PUNCT	MAD	_	1	punct	_	_
 
 # sent_id = 900474
 # text = Visste ni att man kunde göra så här för att få fram många inlägg??
@@ -54430,85 +51775,6 @@
 14	gaisare	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obl:agent	_	SpaceAfter=No
 15	.	_	PUNCT	MAD	_	9	punct	_	_
 
-# sent_id = 1000936
-# text = 24 Erika (mamma Acki) 2004 25 Love ( mamma tessan82 ) 26 Liten (mamma myran71 - Maria) 2005 29 Philip (mamma SaraLotta - Lotta) 2007 30 Gustav (mamma petra 73 Daniels lillebror) 2003 (somna in 1 sep 2003) 31 Melinda (Mamma mimi80) 2005 31 Alexander (mamma spellis) 2002 31 Josephine (mamma sarahk) 2006
-# date = 2008-04-11 08:42:35
-# url = http://www.familjeliv.se/forum/thread/29726636-vara-anglabarns-fodelsedagar/10#anchor-m99
-# genre = internet_forum
-# x_sent_id = c58ef0c
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8610400557518005
-1	24	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	Erika	Erika	PROPN	PM	Case=Nom	0	root	_	_
-3	(	_	PUNCT	PAD	_	2	punct	_	SpaceAfter=No
-4	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	appos	_	_
-5	Acki	_	PROPN	PM	Case=Nom	2	appos	_	SpaceAfter=No
-6	)	_	PUNCT	PAD	_	2	punct	_	_
-7	2004	_	NUM	RG	Case=Nom	2	nummod	_	_
-8	25	_	NUM	RG	Case=Nom	9	nummod	_	_
-9	Love	Love	PROPN	PM	Case=Nom	2	appos	_	_
-10	(	_	PUNCT	PAD	_	9	punct	_	_
-11	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
-12	tessan82	_	NUM	RG	Case=Nom	11	nummod	_	_
-13	)	_	PUNCT	PAD	_	2	punct	_	_
-14	26	_	NUM	RG	Case=Nom	15	nummod	_	_
-15	Liten	liten	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	parataxis	_	_
-16	(	_	PUNCT	PAD	_	17	punct	_	SpaceAfter=No
-17	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
-18	myran71	_	NUM	RG	Case=Nom	17	conj	_	_
-19	-	_	PUNCT	MID	_	20	punct	_	_
-20	Maria	Maria	PROPN	PM	Case=Nom	17	conj	_	SpaceAfter=No
-21	)	_	PUNCT	PAD	_	20	punct	_	_
-22	2005	_	NUM	RG	Case=Nom	24	nummod	_	_
-23	29	_	NUM	RG	Case=Nom	24	nummod	_	_
-24	Philip	Philip	PROPN	PM	Case=Nom	2	conj	_	_
-25	(	_	PUNCT	PAD	_	24	punct	_	SpaceAfter=No
-26	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nmod	_	_
-27	SaraLotta	_	PROPN	PM	Case=Nom	24	nmod	_	_
-28	-	_	PUNCT	MID	_	29	punct	_	_
-29	Lotta	Lotta	PROPN	PM	Case=Nom	27	conj	_	SpaceAfter=No
-30	)	_	PUNCT	PAD	_	24	punct	_	_
-31	2007	_	NUM	RG	Case=Nom	24	nummod	_	_
-32	30	_	NUM	RG	Case=Nom	33	nummod	_	_
-33	Gustav	Gustav	PROPN	PM	Case=Nom	2	conj	_	_
-34	(	_	PUNCT	PAD	_	33	punct	_	SpaceAfter=No
-35	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	nmod	_	_
-36	petra	_	PROPN	PM	Case=Nom	33	appos	_	_
-37	73	_	NUM	RG	Case=Nom	39	nummod	_	_
-38	Daniels	Daniel	PROPN	PM	Case=Gen	39	nmod:poss	_	_
-39	lillebror	lillebror	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	conj	_	SpaceAfter=No
-40	)	_	PUNCT	PAD	_	33	punct	_	_
-41	2003	_	NUM	RG	Case=Nom	33	nummod	_	_
-42	(	_	PUNCT	PAD	_	43	punct	_	SpaceAfter=No
-43	somna	somna	VERB	VB	Mood=Imp|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-44	in	in	PART	PL	_	43	compound:prt	_	_
-45	1	_	NUM	RG	Case=Nom	46	nummod	_	_
-46	sep	_	NOUN	NN	Abbr=Yes	43	obj	_	_
-47	2003	_	NUM	RG	Case=Nom	43	nummod	_	SpaceAfter=No
-48	)	_	PUNCT	PAD	_	43	punct	_	_
-49	31	_	NUM	RG	Case=Nom	50	nummod	_	_
-50	Melinda	Melinda	PROPN	PM	Case=Nom	2	conj	_	_
-51	(	_	PUNCT	PAD	_	50	punct	_	SpaceAfter=No
-52	Mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	50	nmod	_	_
-53	mimi80	_	NUM	RG	Case=Nom	50	appos	_	SpaceAfter=No
-54	)	_	PUNCT	PAD	_	50	punct	_	_
-55	2005	_	NUM	RG	Case=Nom	57	nummod	_	_
-56	31	_	NUM	RG	Case=Nom	50	nummod	_	_
-57	Alexander	Alexander	PROPN	PM	Case=Nom	50	conj	_	_
-58	(	_	PUNCT	PAD	_	57	punct	_	SpaceAfter=No
-59	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	57	nmod	_	_
-60	spellis	_	X	UO	_	57	appos	_	SpaceAfter=No
-61	)	_	PUNCT	PAD	_	57	punct	_	_
-62	2002	_	NUM	RG	Case=Nom	64	nummod	_	_
-63	31	_	NUM	RG	Case=Nom	64	nummod	_	_
-64	Josephine	Josephine	PROPN	PM	Case=Nom	57	conj	_	_
-65	(	_	PUNCT	PAD	_	64	punct	_	SpaceAfter=No
-66	mamma	mamma	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	67	nmod	_	_
-67	sarahk	_	PROPN	PM	Case=Nom	64	appos	_	SpaceAfter=No
-68	)	_	PUNCT	PAD	_	64	punct	_	_
-69	2006	_	NUM	RG	Case=Nom	2	nummod	_	_
-
 # sent_id = 1500343
 # text = Eftersom du verkar ha begränsat med pengar kanske du kan fråga runt lite bland vänner och bekanta om någon kanske har en bra skolväska att sälja/skänka/låna ut till dig?
 # date = 2019-09-02 05:29:29
@@ -54867,20 +52133,6 @@
 10	är	vara	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	motoralternativen	motoralternativ	NOUN	NN	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No
 12	.	_	PUNCT	MAD	_	10	punct	_	_
-
-# sent_id = 1800331
-# text = 26 oktober - Loppan84
-# date = 2016-09-23 07:39:40
-# url = http://www.familjeliv.se/forum/thread/76553454-bf-lista-for-gravida-fran-temparfertility-friend/2#anchor-m11
-# genre = internet_forum
-# x_sent_id = a6aa7f9b
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.960654079914093
-1	26	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	oktober	oktober	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Loppan84	_	PROPN	PM	Case=Nom	2	parataxis	_	_
 
 # sent_id = 3700853
 # text = Tycker jag har kollat igenom de sidor som finns, plus några till, men har inte sett den någonstans.
@@ -56134,19 +53386,6 @@
 14	vansinne	vansinne	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	fixed	_	_
 15	:)	_	INTJ	IN	_	8	punct	_	_
 
-# sent_id = 1300708
-# text = ^_^
-# date = 2007-06-27 12:54:50
-# url = http://www.familjeliv.se/forum/thread/19135338-korkade-kommentarer-fran-blivande-pappan-hall-glimten-i-ogat/100#anchor-m1000
-# genre = internet_forum
-# x_sent_id = a68e9028c
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9859588742256165
-1	^	_	NOUN	NN	Case=Nom|Definite=Ind|Number=Sing	0	root	_	SpaceAfter=No
-2	_	_	PUNCT	MID	_	1	punct	_	SpaceAfter=No
-3	^	_	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	list	_	_
-
 # sent_id = 2400713
 # text = 1 20mg (08.00) uppvaknande 10mg (16.00) 1-2 timmar innan träning Och detta upplägg kanske inte skulle stänga ner en lika hårt som den under?
 # date = 2005-03-16 10:16
@@ -56271,31 +53510,6 @@
 13	man	man	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	_	SpaceAfter=No
 14	!	_	PUNCT	MAD	_	2	punct	_	_
 
-# sent_id = 3600431
-# text = 154 p - Bertil (-2 p, -1 platser) 4.
-# date = 2012-03-22 17:54
-# url = https://www.flashback.org/p36406849#p36406849
-# genre = internet_forum
-# x_sent_id = a3c4863ff
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.8306882977485657
-1	154	_	NUM	RG	Case=Nom	2	nummod	_	_
-2	p	p	NOUN	NN	Abbr=Yes	0	root	_	_
-3	-	_	PUNCT	MID	_	2	punct	_	_
-4	Bertil	Bertil	PROPN	PM	Case=Nom	2	appos	_	_
-5	(	_	PUNCT	PAD	_	4	punct	_	SpaceAfter=No
-6	-	_	PUNCT	MID	_	4	punct	_	SpaceAfter=No
-7	2	_	NUM	RG	Case=Nom	8	nummod	_	_
-8	p	p	NOUN	NN	Abbr=Yes	4	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	MID	_	4	punct	_	_
-10	-	_	PUNCT	MID	_	4	punct	_	SpaceAfter=No
-11	1	_	NUM	RG	Case=Nom	12	nummod	_	_
-12	platser	plats	NOUN	NN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	appos	_	SpaceAfter=No
-13	)	_	PUNCT	PAD	_	12	punct	_	_
-14	4	_	NUM	RG	Case=Nom	4	nummod	_	SpaceAfter=No
-15	.	_	PUNCT	MAD	_	2	punct	_	_
-
 # sent_id = 400923
 # text = De finns både på botten och på växterna .
 # date = 2013-03-24 17:56:18
@@ -56405,42 +53619,6 @@
 21	att	att	PART	IE	_	22	mark	_	_
 22	slippa	slippa	VERB	VB	VerbForm=Inf|Voice=Act	17	advcl	_	SpaceAfter=No
 23	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 3600494
-# text = Anchelotti - Bayern Munchen Guardiola - Manchester City Pellegrini - Real Madrid Benitez - Inter Mancini - Chelsea Mourinho - Manchester United Van Gaal - arbetslös
-# date = 2015-12-22 17:26
-# url = https://www.flashback.org/p55790240#p55790240
-# genre = internet_forum
-# x_sent_id = a3c4723e3
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9637757539749146
-1	Anchelotti	_	PROPN	PM	Case=Nom	0	root	_	_
-2	-	_	PUNCT	MID	_	1	punct	_	_
-3	Bayern	Bayern	PROPN	PM	Case=Nom	1	appos	_	_
-4	Munchen	_	PROPN	PM	Case=Nom	5	obl	_	_
-5	Guardiola	_	PROPN	PM	Case=Nom	1	conj	_	_
-6	-	_	PUNCT	MID	_	7	punct	_	_
-7	Manchester	Manchester	PROPN	PM	Case=Nom	1	conj	_	_
-8	City	_	PROPN	PM	Case=Nom	9	obl	_	_
-9	Pellegrini	_	PROPN	PM	Case=Nom	1	conj	_	_
-10	-	_	PUNCT	MID	_	9	punct	_	_
-11	Real	_	PROPN	PM	Case=Nom	1	conj	_	_
-12	Madrid	Madrid	PROPN	PM	Case=Nom	13	obl	_	_
-13	Benitez	_	PROPN	PM	Case=Nom	1	conj	_	_
-14	-	_	PUNCT	MID	_	15	punct	_	_
-15	Inter	_	PROPN	PM	Case=Nom	1	conj	_	_
-16	Mancini	_	PROPN	PM	Case=Nom	15	flat:name	_	_
-17	-	_	PUNCT	MID	_	15	punct	_	_
-18	Chelsea	Chelsea	PROPN	PM	Case=Nom	1	conj	_	_
-19	Mourinho	_	PROPN	PM	Case=Nom	1	conj	_	_
-20	-	_	PUNCT	MID	_	21	punct	_	_
-21	Manchester	Manchester	PROPN	PM	Case=Nom	1	conj	_	_
-22	United	_	PROPN	PM	Case=Nom	23	nmod	_	_
-23	Van	_	PROPN	PM	Case=Nom	1	conj	_	_
-24	Gaal	_	PROPN	PM	Case=Nom	23	flat:name	_	_
-25	-	_	PUNCT	MID	_	26	punct	_	_
-26	arbetslös	arbetslös	ADJ	JJ	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	parataxis	_	_
 
 # sent_id = 112
 # text = Min fästman vill även han adoptera så det känns väldigt naturligt för oss.
@@ -57702,23 +54880,6 @@
 4	för	för	ADP	PP	_	5	case	_	_
 5	1.07	_	NUM	RG	Case=Nom	3	obl	_	SpaceAfter=No
 6	.	_	PUNCT	MAD	_	3	punct	_	_
-
-# sent_id = 2200827
-# text = BF 081216 Flower68, 40 år....
-# date = 2008-06-30 15:27:27
-# url = http://www.familjeliv.se/forum/thread/33128236-bim-lista-for-oss-som-ar-ca-40-iv/40#anchor-m394
-# genre = internet_forum
-# x_sent_id = 0530df6e3
-# speech_act = none
-# sentiment_label = neutral
-# sentiment_score = 0.9663602709770203
-1	BF	_	NOUN	NN	Abbr=Yes	2	nmod	_	_
-2	081216	_	NUM	RG	Case=Nom	0	root	_	_
-3	Flower68	_	NUM	RG	Case=Nom	2	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	MID	_	3	punct	_	_
-5	40	_	NUM	RG	Case=Nom	6	nummod	_	_
-6	år	år	NOUN	NN	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
-7	....	_	PUNCT	MAD	_	2	punct	_	_
 
 # sent_id = 1100770
 # text = Hälsn Nina

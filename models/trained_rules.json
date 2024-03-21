@@ -109,11 +109,11 @@
             ]
         },
         {
-            "speech_act": "assertion",
+            "speech_act": "question",
             "blocks": [
                 "SUBJECT",
                 "FIN_VERB",
-                "EXCLAMATION_MARK"
+                "QUESTION_MARK"
             ]
         },
         {
@@ -127,14 +127,6 @@
         {
             "speech_act": "question",
             "blocks": [
-                "SUBJECT",
-                "FIN_VERB",
-                "QUESTION_MARK"
-            ]
-        },
-        {
-            "speech_act": "question",
-            "blocks": [
                 "FIN_VERB",
                 "SUBJECT",
                 "QUESTION_MARK"
@@ -145,6 +137,14 @@
             "blocks": [
                 "FIN_VERB",
                 "SUBJECT",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
                 "EXCLAMATION_MARK"
             ]
         },
@@ -215,21 +215,14 @@
         {
             "speech_act": "assertion",
             "blocks": [
-                "NOUN",
+                "FIN_VERB",
                 "PERIOD"
             ]
         },
         {
             "speech_act": "assertion",
             "blocks": [
-                "SUBJECT",
-                "FIN_VERB"
-            ]
-        },
-        {
-            "speech_act": "assertion",
-            "blocks": [
-                "FIN_VERB",
+                "NOUN",
                 "PERIOD"
             ]
         },
@@ -255,6 +248,13 @@
             ]
         },
         {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB"
+            ]
+        },
+        {
             "speech_act": "directive",
             "blocks": [
                 "FIN_VERB_IMP",
@@ -273,20 +273,6 @@
             "blocks": [
                 "FIN_VERB",
                 "QUESTION_MARK"
-            ]
-        },
-        {
-            "speech_act": "none",
-            "blocks": [
-                "PROPN",
-                "PERIOD"
-            ]
-        },
-        {
-            "speech_act": "none",
-            "blocks": [
-                "NUMBER",
-                "PERIOD"
             ]
         },
         {
@@ -353,24 +339,6 @@
             ]
         },
         {
-            "speech_act": "expressive",
-            "blocks": [
-                "PROPN"
-            ]
-        },
-        {
-            "speech_act": "expressive",
-            "blocks": [
-                "EXCLAMATION_MARK"
-            ]
-        },
-        {
-            "speech_act": "assertion",
-            "blocks": [
-                "NOUN"
-            ]
-        },
-        {
             "speech_act": "assertion",
             "blocks": [
                 "FIN_VERB"
@@ -380,6 +348,12 @@
             "speech_act": "expressive",
             "blocks": [
                 "PART_VERB"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "NOUN"
             ]
         },
         {
@@ -401,13 +375,25 @@
             ]
         },
         {
+            "speech_act": "expressive",
+            "blocks": [
+                "PROPN"
+            ]
+        },
+        {
             "speech_act": "assertion",
             "blocks": [
                 "ADJECTIVE"
             ]
         },
         {
-            "speech_act": "none",
+            "speech_act": "expressive",
+            "blocks": [
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "assertion",
             "blocks": [
                 "NUMBER"
             ]
