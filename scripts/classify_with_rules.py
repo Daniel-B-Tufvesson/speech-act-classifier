@@ -14,7 +14,6 @@ if __name__ == '__main__':
     corpus = corp.Corpus('data/annotated data/dev-set-sentiment-upsampled.conllu.bz2')
     test_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-test-upsampled.conllu.bz2')
     train_corpus = corp.Corpus('data/annotated data/dev-set-sentiment-train-upsampled.conllu.bz2')
-    corpus = test_corpus
     labels = annotate.SpeechActLabels.get_labels()
 
     print()
@@ -29,7 +28,7 @@ if __name__ == '__main__':
                         draw_conf_matrix=False)
     print()
 
-    # # Evaluate punctuation classifier.
+    # Evaluate punctuation classifier.
     punctuation_classifier = algo.PunctuationClassifier()
     print('Punctuation classifier results:')
     evaluation.evaluate(corpus, punctuation_classifier, labels,
