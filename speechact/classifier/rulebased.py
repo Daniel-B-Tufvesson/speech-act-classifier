@@ -1,6 +1,10 @@
 """
 A rulebased speech act classifier. This uses syntactical information to classify sentences 
-with speech acts according to a set of predefined rules.
+with speech acts according to a set of rules. These rules can either be predefined or 
+trained.
+
+These classifiers are shallow in the sense that they only look at the syntactic dependendent
+words of the root word. 
 """
 
 import stanza.models.common.doc as doc
@@ -25,6 +29,10 @@ SUBJECT_RELS = {
     }
 
 class SyntBlock(enum.StrEnum):
+    """
+    The basic building blocks for the rules. These blocks represent functional syntactic
+    information of a sentence. 
+    """
 
     # Dependency blocks.
     SUBJECT = 'SUBJECT'
@@ -56,10 +64,15 @@ class SyntBlock(enum.StrEnum):
 
     # Special.
     NONE = 'NONE'
+    """The token does not belong to any synt-block."""
     QUESTION_MARK = 'QUESTION_MARK'
+    """The token is a question mark (?)."""
     PERIOD = 'PERIOD'
+    """The token is a period (.)"""
     EXCLAMATION_MARK = 'EXCLAMATION_MARK'
+    """The token is an exclamation mark (!)."""
     SENTIMENT = 'SENTIMENT'
+    """The sentence expresses a non-neutral sentiment."""
 
 
 class Rule:
@@ -71,12 +84,20 @@ class Rule:
         self.strict = strict
     
     def is_matching(self, synt_blocks: list[SyntBlock]) -> bool:
+        """
+        Check if the sequence of synt-blocks matches this rule. If this is a strict rule, 
+        then all the blocks need to match exactly. If it is unstrict, then only some of
+        the blocks need to be present in the correct order.
+        """
         if self.strict:
             return self.is_matching_strict(synt_blocks)
         else:
             return self.is_matching_unstrict(synt_blocks)
 
     def is_matching_strict(self, synt_blocks: list[SyntBlock]) -> bool:
+        """
+        Check if the given sequence of synt-blocks is equal to the the one in this rule.
+        """
         if len(self.synt_blocks) != len(synt_blocks):
             return False
         
@@ -88,8 +109,8 @@ class Rule:
 
     def is_matching_unstrict(self, synt_blocks: list[SyntBlock]) -> bool:
         """
-        Check if all the rule's synt-blocks are present in the given list of 
-        synt-blocks.
+        Check if the given sequence of synt-blocks is present in the right order in 
+        this rule.
         """
         if len(self.synt_blocks) > len(synt_blocks):
             return False
@@ -111,6 +132,9 @@ class Rule:
 
 
 class RuleBasedClassifier(base.Classifier):
+    """
+    Classify speech acts based on a list of rules.
+    """
 
     def __init__(self, ruleset_file: str|None = None) -> None:
         super().__init__()
@@ -197,17 +221,32 @@ class RuleBasedClassifier(base.Classifier):
         return None
 
     def sort_rules(self):
+        """
+        Sort the rules in decreasing specificity. The most specific rule (i.e. the one with
+        the most synt-blocks) is first. The least specific (i.e. the one with the fewest
+        synt-blocks) will be last.
+        """
         self.rules.sort(key=lambda rule: -len(rule.synt_blocks))
 
     @property
     def rule_count(self):
+        """
+        The number of rules.
+        """
         return len(self.rules)
     
     def classify_sentence(self, sentence: doc.Sentence):
+        """
+        Classify the sentence with a speech act based on a list of rules.
+        """
         speech_act = self.get_speech_act_for(sentence)
         sentence.speech_act = speech_act  # type: ignore
 
     def get_speech_act_for(self, sentence: doc.Sentence) -> anno.SpeechActLabels:
+        """
+        Classify the sentence without actually assigning it a speech act. The speech act
+        is instead returned.
+        """
         
         synt_blocks = self.to_synt_blocks(sentence)
 
@@ -220,6 +259,9 @@ class RuleBasedClassifier(base.Classifier):
         return anno.SpeechActLabels.NONE
 
     def to_synt_blocks(self, sentence: doc.Sentence) -> list[SyntBlock]:
+        """
+        Compute the sequence of the synt-blocks for the sentence.
+        """
 
         # Retrieve the root word and its dependencies.
         root = get_root(sentence)
@@ -237,6 +279,7 @@ class RuleBasedClassifier(base.Classifier):
 
             synt_block = self.get_synt_block(word)
             
+            # Ingore NONE blocks.
             if synt_block == SyntBlock.NONE:
                 continue
             
@@ -247,7 +290,7 @@ class RuleBasedClassifier(base.Classifier):
     
     def get_synt_block(self, word: doc.Word) -> SyntBlock:
         """
-        Get the synt-block for the word (and its dependencies).
+        Get the synt-block for the word.
         """
 
         if word.text == '?': return SyntBlock.QUESTION_MARK
@@ -320,22 +363,32 @@ def get_deps(sentence: doc.Sentence, head: doc.Word) -> list[doc.Word]:
 
 
 class TrainableRule(Rule):
+    """
+    A trainable rule is used by the trainable 
+    """
 
     def __init__(self, synt_blocks: list[SyntBlock]):
         super().__init__(anno.SpeechActLabels.NONE, synt_blocks)
         self.counts = col.Counter()
 
     def increment_for(self, speech_act: anno.SpeechActLabels):
+        """
+        Increment the occurence of the given speech act. This is used during training.
+        """
         self.counts[speech_act] += 1
     
     def refresh_label(self):
+        """
+        Refresh the speech act label so that it is the most common speech act from the 
+        training.
+        """
         self.speech_act = self.counts.most_common()[0][0]
 
 
 
 class TrainableClassifier(RuleBasedClassifier):
     """
-    A trainable rule based classifier.
+    A trainable rule-based classifier.
     """
 
     def __init__(self, ruleset_file: str | None = None):
@@ -375,6 +428,10 @@ class TrainableClassifier(RuleBasedClassifier):
 
 
 class TrainableSentimentClassifier(TrainableClassifier):
+    """
+    A trainable rule-based classifier that also incorporates the SENTIMENT synt-block in
+    the rules. This requires the sentences to be annotated with a sentiment_label.
+    """
 
     def to_synt_blocks(self, sentence: doc.Sentence) -> list[SyntBlock]: 
         synt_blocks = super().to_synt_blocks(sentence)
@@ -388,6 +445,13 @@ class TrainableSentimentClassifier(TrainableClassifier):
 
 
 class TrainableSentimentClassifierV2(TrainableClassifier):
+    """
+    A trainable rule-based classifier that classifies assertives as expressives if they
+    have a non-neutral sentiment. Note that the sentiment is not incorporated into the 
+    rules as in TrainableSentimentClassifier.
+    
+    This requires the sentences to be annotated with a sentiment_label.
+    """
 
 
     def classify_sentence(self, sentence: doc.Sentence):
