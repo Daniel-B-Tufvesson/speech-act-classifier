@@ -5,20 +5,22 @@ Evalaute the classifiers.
 import speechact.classifier.base as cb
 import speechact.corpus as corp
 import sklearn.metrics as metrics
+import numpy as np
 import pandas as pd
-    
+from typing import Any
 
 def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, labels: list[str],
              print_missclassified: tuple[str, str]|None=None,
-             draw_conf_matrix=False):
+             draw_conf_matrix=False) -> dict[str, Any]:
     """
     Evaluate the classifier on the CoNNL-U corpus.
     """
+    evaluation_results = {}
 
     # Collect all the correct and predicted labels.
     all_correct_labels = []
     all_predicted_labels = []
-    missclassified = []
+    misclassified = []
     for batch in corpus.batched_docs(100):
 
         # Get the correct labels for batch.
@@ -38,12 +40,15 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, labels: list[str],
                 if (correct == print_missclassified[0] and 
                     sentence.speech_act == print_missclassified[1]):
 
-                    missclassified.append(sentence.text)
+                    misclassified.append(sentence.text)
+    
+    evaluation_results['misclassified'] = misclassified
 
 
     # Compute accuracy.
     accuracy = metrics.accuracy_score(y_true=all_correct_labels, 
                                       y_pred=all_predicted_labels)
+    evaluation_results['accuracy'] = accuracy
     print(f'Accuracy: {accuracy}')
 
     # Get classification report.
@@ -55,10 +60,20 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, labels: list[str],
     print('Classification report:')
     print(report)
 
+    # Get classification report as dictionary.
+    report_dict = metrics.classification_report(y_true=all_correct_labels,
+                                                y_pred=all_predicted_labels,
+                                                zero_division=0,
+                                                labels=labels,
+                                                output_dict=True
+                                                )
+    evaluation_results['classification_report'] = report_dict
+
     # Compute confusion matrix.
     conf_matrix = metrics.confusion_matrix(y_true=all_correct_labels,
                                            y_pred=all_predicted_labels,
                                            labels=labels)
+    evaluation_results['conf_matrix'] = conf_matrix
     conf_matrix_dframe = pd.DataFrame(conf_matrix,
                                       index = labels,
                                       columns = labels)
@@ -72,15 +87,17 @@ def evaluate(corpus: corp.Corpus, classifier: cb.Classifier, labels: list[str],
     # Print missclassified sentences.
     if print_missclassified:
         print()
-        print(f'{len(missclassified)} "{print_missclassified[0]}" sentences missclassified as "{print_missclassified[1]}".')
+        print(f'{len(misclassified)} "{print_missclassified[0]}" sentences missclassified as "{print_missclassified[1]}".')
         print('Printing missclassified sentences:')
-        for sentence_text in missclassified:
+        for sentence_text in misclassified:
             print(sentence_text)
+    
+    return evaluation_results
     
 
 def plot_confusion_matrix(confusion_matrix, labels: list[str]):
     """
-    Plot a confusion and display it in a window. 
+    Plot a confusion matrix and display it in a window. 
     """
     import matplotlib.pyplot as plt
 
