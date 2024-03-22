@@ -59,6 +59,7 @@ class SyntBlock(enum.StrEnum):
     QUESTION_MARK = 'QUESTION_MARK'
     PERIOD = 'PERIOD'
     EXCLAMATION_MARK = 'EXCLAMATION_MARK'
+    SENTIMENT = 'SENTIMENT'
 
 
 class Rule:
@@ -202,9 +203,9 @@ class RuleBasedClassifier(base.Classifier):
     def classify_sentence(self, sentence: doc.Sentence):
         speech_act = self.get_speech_act_for(sentence)
 
-        if speech_act == anno.SpeechActLabels.ASSERTION:
-            if sa.get_sentence_property(sentence, 'sentiment_label') != 'neutral':  # type: ignore
-                speech_act = anno.SpeechActLabels.EXPRESSIVE
+        # if speech_act == anno.SpeechActLabels.ASSERTION:
+        #     if sa.get_sentence_property(sentence, 'sentiment_label') != 'neutral':  # type: ignore
+        #         speech_act = anno.SpeechActLabels.EXPRESSIVE
         
         # elif speech_act == anno.SpeechActLabels.EXPRESSIVE:
         #     if sa.get_sentence_property(sentence, 'sentiment_label') == 'neutral':  # type: ignore
@@ -299,6 +300,9 @@ class RuleBasedClassifier(base.Classifier):
         return SyntBlock.NONE
 
 
+
+
+
 def get_root(sentence: doc.Sentence) -> doc.Word:
     """
     Retrieve the root word of the sentence.
@@ -377,6 +381,17 @@ class TrainableClassifier(RuleBasedClassifier):
 
 
 
+class TrainableSentimentClassifier(TrainableClassifier):
+
+    def to_synt_blocks(self, sentence: doc.Sentence) -> list[SyntBlock]: 
+        synt_blocks = super().to_synt_blocks(sentence)
+
+        # Check sentiment.
+        sentiment = sa.get_sentence_property(sentence, 'sentiment_label')
+        if sentiment != sa.Sentiment.NEUTRAL:
+            synt_blocks.append(SyntBlock.SENTIMENT)
+
+        return synt_blocks
 
 
 
