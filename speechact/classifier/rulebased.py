@@ -202,15 +202,6 @@ class RuleBasedClassifier(base.Classifier):
     
     def classify_sentence(self, sentence: doc.Sentence):
         speech_act = self.get_speech_act_for(sentence)
-
-        # if speech_act == anno.SpeechActLabels.ASSERTION:
-        #     if sa.get_sentence_property(sentence, 'sentiment_label') != 'neutral':  # type: ignore
-        #         speech_act = anno.SpeechActLabels.EXPRESSIVE
-        
-        # elif speech_act == anno.SpeechActLabels.EXPRESSIVE:
-        #     if sa.get_sentence_property(sentence, 'sentiment_label') == 'neutral':  # type: ignore
-        #         speech_act = anno.SpeechActLabels.ASSERTION
-
         sentence.speech_act = speech_act  # type: ignore
 
     def get_speech_act_for(self, sentence: doc.Sentence) -> anno.SpeechActLabels:
@@ -386,7 +377,7 @@ class TrainableSentimentClassifier(TrainableClassifier):
     def to_synt_blocks(self, sentence: doc.Sentence) -> list[SyntBlock]: 
         synt_blocks = super().to_synt_blocks(sentence)
 
-        # Check sentiment.
+        # Check sentiment and add as synt block.
         sentiment = sa.get_sentence_property(sentence, 'sentiment_label')
         if sentiment != sa.Sentiment.NEUTRAL:
             synt_blocks.append(SyntBlock.SENTIMENT)
@@ -394,5 +385,16 @@ class TrainableSentimentClassifier(TrainableClassifier):
         return synt_blocks
 
 
+class TrainableSentimentClassifierV2(TrainableClassifier):
 
-            
+
+    def classify_sentence(self, sentence: doc.Sentence):
+        speech_act = self.get_speech_act_for(sentence)
+
+        # Assertions with sentiment should be expressives.
+        if speech_act == anno.SpeechActLabels.ASSERTION:
+            sentiment = sa.get_sentence_property(sentence, 'sentiment_label')
+            if sentiment != sa.Sentiment.NEUTRAL:
+                speech_act = anno.SpeechActLabels.EXPRESSIVE
+
+        sentence.speech_act = speech_act  # type: ignore
