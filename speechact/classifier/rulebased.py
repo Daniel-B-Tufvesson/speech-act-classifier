@@ -102,7 +102,7 @@ class Rule:
                 if this_index >= len(self.synt_blocks):
                     break
 
-        # If not all the rule's synt-blocks match.
+        # If not all the rules' synt-blocks match.
         if this_index < len(self.synt_blocks):
             return False
                 
@@ -138,7 +138,7 @@ class RuleBasedClassifier(base.Classifier):
             strict = json_rule.get('strict', False)
 
             # Convert to enum synt-blocks.
-            synt_blocks = [SyntBlock[block] for block in json_blocks]
+            synt_blocks = [SyntBlock(block) for block in json_blocks]
 
             self.new_rule(anno.SpeechActLabels(speech_act), synt_blocks, strict)
     
@@ -199,6 +199,9 @@ class RuleBasedClassifier(base.Classifier):
     def sort_rules(self):
         self.rules.sort(key=lambda rule: -len(rule.synt_blocks))
 
+    @property
+    def rule_count(self):
+        return len(self.rules)
     
     def classify_sentence(self, sentence: doc.Sentence):
         speech_act = self.get_speech_act_for(sentence)
@@ -289,7 +292,6 @@ class RuleBasedClassifier(base.Classifier):
         # if word.deprel == 'dislocated': return SyntBlock.DISLOCATED
 
         return SyntBlock.NONE
-
 
 
 

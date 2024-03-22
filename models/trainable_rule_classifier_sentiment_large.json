@@ -1,0 +1,1139 @@
+{
+    "rules": [
+        {
+            "speech_act": "question",
+            "blocks": [
+                "SUBJECT",
+                "SUBJECT",
+                "FIN_VERB",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "FIN_VERB",
+                "SUBJECT",
+                "SUBJECT",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "FIN_VERB",
+                "SUBJECT",
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_PRON",
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "SUBJECT",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "SUBJECT",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "INT_PRON",
+                "ADJECTIVE",
+                "SUBJECT",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "INT_PRON",
+                "ADJECTIVE",
+                "SUBJECT",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "SUBJECT",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_PRON",
+                "FIN_VERB",
+                "SUBJECT",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "SUBJECT",
+                "FIN_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "FIN_VERB",
+                "SUBJECT",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "SUBJECT",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT_2ND",
+                "FIN_VERB",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "SUBJECT",
+                "SUBJECT_2ND",
+                "FIN_VERB",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "INT_PRON",
+                "NOUN",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "ADJECTIVE",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_PRON",
+                "ADJECTIVE",
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB_IMP",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT_2ND",
+                "FIN_VERB",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "SUBJECT",
+                "PART_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADJECTIVE",
+                "SUBJECT",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUP_VERB",
+                "SUBJECT",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADVERB",
+                "SUBJECT",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "NOUN",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADJECTIVE",
+                "SUBJECT",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "ADJECTIVE",
+                "SUBJECT",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "INT_PRON",
+                "ADJECTIVE",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "SUBJECT",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "INT_ADV",
+                "SUBJECT",
+                "FIN_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "SUBJECT",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "INT_ADV",
+                "SUBJECT",
+                "FIN_VERB",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "INT_PRON",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "SUBJECT_2ND",
+                "FIN_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "SUBJECT_2ND",
+                "FIN_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "NOUN",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "NOUN",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB_IMP",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB_IMP",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "ADJECTIVE",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB_IMP",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "SUBJECT",
+                "SUP_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "PART_VERB",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADJECTIVE",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "FIN_VERB",
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADJECTIVE",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PROPN",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SUBJECT",
+                "NOUN",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "ADVERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_PRON",
+                "FIN_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADVERB",
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "INT_ADV",
+                "FIN_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADVERB",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "SUP_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADJECTIVE",
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PART_VERB",
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "PART_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADVERB",
+                "SUBJECT",
+                "SUBJECT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "PART_VERB",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB",
+                "SUBJECT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "FIN_VERB"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "ADJECTIVE",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "FIN_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "NOUN",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "FIN_VERB_IMP",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "NOUN",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "NOUN",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB_IMP",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "SUP_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "ADJECTIVE",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "NOUN",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "EXCLAMATION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "FIN_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT_2ND"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "FIN_VERB",
+                "SUBJECT"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB_IMP",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "PROPN",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "ADVERB",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PERIOD",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "QUESTION_MARK",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "ADVERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "ADVERB",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADJECTIVE",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PART_VERB",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "PROPN",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "PROPN",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUP_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "NUMBER",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADJECTIVE",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "NUMBER",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB_IMP",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "NUMBER",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "PART_VERB",
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "ADVERB",
+                "SUBJECT"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PART_VERB",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB",
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "PART_VERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "ADVERB",
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PROPN",
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "SUBJECT",
+                "NOUN"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "SENTIMENT"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "PERIOD"
+            ]
+        },
+        {
+            "speech_act": "question",
+            "blocks": [
+                "QUESTION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "FIN_VERB"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "FIN_VERB_IMP"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "NOUN"
+            ]
+        },
+        {
+            "speech_act": "directive",
+            "blocks": [
+                "ADVERB"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PROPN"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "EXCLAMATION_MARK"
+            ]
+        },
+        {
+            "speech_act": "expressive",
+            "blocks": [
+                "PART_VERB"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "NUMBER"
+            ]
+        },
+        {
+            "speech_act": "assertion",
+            "blocks": [
+                "ADJECTIVE"
+            ]
+        }
+    ]
+}
