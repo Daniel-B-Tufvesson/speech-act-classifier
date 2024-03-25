@@ -1,5 +1,5 @@
 """
-A script for extracting sub samples of sentences in a CoNNL-U file.
+A script for extracting sub samples of sentences in a CoNLL-U file.
 """
 
 import bz2

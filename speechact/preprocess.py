@@ -230,12 +230,14 @@ def clean_up_connlu(source: TextIO, target: TextIO, print_progress=False):
     if print_progress: print(f'Cleaned up {sentence_count} sentences. Found {error_count}/{sentence_count} errors.')
 
 
-def extract_sub_sample(source: TextIO, target: TextIO, n_sentences: int, print_progress=False):
+def extract_sub_sample(source: TextIO, target: TextIO, n_sentences: int, skip_sentences: int = 0,
+                       print_progress=False):
     """
-    Extract a sub sample of sentences from the CoNNL-U source and write them to the target.
+    Extract a sub sample of sentences from the CoNLL-U source and write them to the target.
     """
 
     sentence_count = 0
+    skipped_sentences = 0
 
     # Write lines from source to target.
     for line in source:
@@ -243,22 +245,29 @@ def extract_sub_sample(source: TextIO, target: TextIO, n_sentences: int, print_p
 
         # New line indicated end of sentence.
         if line == '\n':
-            sentence_count += 1
+            
+            # Skip sentence.
+            if skipped_sentences < skip_sentences:
+                skipped_sentences += 1
 
-            if print_progress and sentence_count % 2000 == 0:
-                print(f'...extracted {sentence_count} sentences.')
+            # Or extract sentence.
+            else :
+                sentence_count += 1
 
-            # Stop if reached max sample size.
-            if sentence_count == n_sentences:
-                break
+                if print_progress and sentence_count % 2000 == 0:
+                    print(f'...extracted {sentence_count} sentences.')
 
-    if print_progress: print(f'Extracted {sentence_count}/{n_sentences}.')
+                # Stop if reached max sample size.
+                if sentence_count == n_sentences:
+                    break
+
+    if print_progress: print(f'Extracted {sentence_count}/{n_sentences}. Skipped {skipped_sentences} sentences.')
 
 
 def tag_dep_rel(source: TextIO, target: TextIO, print_progress=False, **kwargs):
     """
-    Tag a source CoNNL-U corpus with Universal Dependency relations. The tagged sentences are
-    written to the target as CoNNL-U.
+    Tag a source CoNLL-U corpus with Universal Dependency relations. The tagged sentences are
+    written to the target as CoNLL-U.
 
     The dependency tags are the Universal Dependency Relations: 
     https://universaldependencies.org/u/dep/index.html

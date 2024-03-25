@@ -1,5 +1,5 @@
 """
-This script extracts the first N sentences from each CoNNL-U corpus, scrambles them, and distributes
+This script extracts the first N sentences from each CoNLL-U corpus, scrambles them, and distributes
 them into new smaller corpus files. These smaller files contain only sent_id and text of the sentences.
 The individual tokens or other meta-data are not extracted. Entries are separated with an empty line.
 The new files are uncompressed as a regular txt format.
