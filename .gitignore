@@ -7,3 +7,4 @@ data/processed data no-deps clean
 data/processed data
 data/raw data
 data/annotated data/dev-set.connlu
+data/auto-annotated data/extracted-sentences.conllu.bz2
