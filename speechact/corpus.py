@@ -69,11 +69,19 @@ class Sentence:
         The labeled speech act of the sentence.
         """
         return self.get_meta_data('speech_act')
+    
+
+    @property
+    def text(self):
+        """
+        The text of the sentence as a string.
+        """
+        return self.get_meta_data('text')
 
     
     def write(self, target: TextIO):
         """
-        Write this sentence to a target file as CoNNL-U. This also writes an additional newline at
+        Write this sentence to a target file as CoNLL-U. This also writes an additional newline at
         the end.
         """
         target.writelines(self.sentence_lines)
@@ -82,7 +90,7 @@ class Sentence:
 
 class Corpus:
     """
-    A corpus which loads sentences from CoNNL-U file (bz2 compressed).
+    A corpus which loads sentences from CoNLL-U file (bz2 compressed).
     """
 
     def __init__(self, file_name: str, name: str|None = None) -> None:

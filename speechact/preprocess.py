@@ -113,6 +113,37 @@ def list_files(directory: str, file_extension: str|None = None) -> list[str]:
     return [os.path.join(directory, file) for file in files_and_dirs if file_filter(file)]
 
 
+def open_write(target: str|TextIO|corp.Corpus) -> TextIO:
+
+    # Handle as a Corpus.
+    if isinstance(target, corp.Corpus):
+        return open_write(target.file_name)
+    
+    # Handle as a text IO.
+    if isinstance(target, TextIO):
+        if not target.writable:
+            raise ValueError(f'target is not a writable TextIO: {target}')
+        return target
+    
+    # Handle as filename.
+    if isinstance(target, str):
+        if target.endswith('bz2'):
+            return bz2.open(target, mode='wt')
+        elif target.endswith('conllu'):
+            return open(target, mode='wt')
+        else:
+            raise ValueError(f'Unsupported file extension: {target}')
+
+def open_corpus(source: str|corp.Corpus) -> corp.Corpus:
+    """
+    Open a corpus from the given argument. 
+    """
+    if isinstance(source, str):
+        return corp.Corpus(source)
+    else:
+        return source
+
+
 def reindex(corpora: list[corp.Corpus], target_dir: str, start_id=1):
     """
     Reindex each sentence in each corpus, and write them to new corpus files in the target
@@ -397,8 +428,57 @@ def upsample(corpus: corp.Corpus, target: TextIO):
     for i in range(largest_size):
         for speech_act in sentences.keys():
             sentences[speech_act][i].write(target)
-        
 
+
+def remove_duplicates(source: corp.Corpus|str, target: TextIO|str, print_progress=False):
+    """
+    Remove duplicate sentences by finding all unique sentences and write the unique ones to a 
+    target file.
+    """
+
+    if print_progress: print('Removing duplicate sentences and writing unique to new corpus...')
+
+    source_corpus = open_corpus(source)
+    target_file = open_write(target)
+
+    # All the unique sentences.
+    unique_sent_texts = set()
+
+    # Collect and compare sentences for uniqueness.
+    total_sentences = 0
+    for sentence in source_corpus.sentences():
+        total_sentences += 1
+        sent_text = sentence.text
+        size_before = len(unique_sent_texts)
+        unique_sent_texts.add(sent_text)
+
+        # Write sentence if it was not in the unique set.
+        if size_before != len(unique_sent_texts):
+            sentence.write(target_file)
+        
+        if print_progress and total_sentences % 1000 == 0:
+            print(f'Checked {total_sentences} and written {len(unique_sent_texts)} unique sentences.')
+    
+    target_file.close()
+
+    if print_progress: 
+        print(f'Wrote {len(unique_sent_texts)}/{total_sentences} unique sentences to target.')
+
+
+def shuffle_sentences(source: str|corp.Corpus, target: str|TextIO|corp.Corpus):
+    source_corpus = open_corpus(source)
+    target_file = open_write(target)
+    sentences = [sent for sent in source_corpus.sentences()]
+    
+    # Shuffle sentences.
+    import random as r
+    r.shuffle(sentences)
+
+    # Write shuffled sentence to target.
+    for sentence in sentences:
+        sentence.write(target_file)
+
+    target_file.close()
 
 
 
