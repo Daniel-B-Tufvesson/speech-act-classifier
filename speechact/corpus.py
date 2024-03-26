@@ -6,7 +6,7 @@ import stanza.models.common.doc as doc
 
 class Sentence:
 
-    def __init__(self, sentence_lines: list[str]) -> None:
+    def __init__(self, sentence_lines: list[str]):
         self.sentence_lines = sentence_lines
 
     
@@ -118,6 +118,18 @@ class Corpus:
                     lines = []
                 else:
                     lines.append(line)
+
+    def batched_sentences(self, batch_size: int) -> Generator[list[Sentence], None, None]:
+        batch = []
+        sent_count = 0
+        for sentence in self.sentences():
+            batch.append(sentence)
+            sent_count += 1
+            if sent_count == batch_size:
+                sent_count = 0
+                yield batch
+                batch = []
+
     
     @property
     def sentence_count(self) -> int:
