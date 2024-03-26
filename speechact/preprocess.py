@@ -344,28 +344,38 @@ def tag_sentiment(source: corp.Corpus, target: TextIO, print_progress=False):
     tokenizer = trf.AutoTokenizer.from_pretrained('KBLab/megatron-bert-large-swedish-cased-165k') 
     sentiment_nlp = trf.pipeline("sentiment-analysis", 
                                  model=sentiment_model,
-                                 tokenizer=tokenizer)
+                                 tokenizer=tokenizer,
+                                 device='mps')
     
-    sentence_count = 0
+    total_sentences = 0
+    tagged_sentences = 0
     # Tag and write each sentence.
     for sentence in source.sentences():
-        text = sentence.get_meta_data('text')
 
-        result = sentiment_nlp(text)
-        sentiment = result[0]['label']  # type: ignore
-        score = result[0]['score']  # type: ignore
+        try:
+            text = sentence.get_meta_data('text')
 
-        strd_label = to_sentiment(sentiment)
+            result = sentiment_nlp(text)
+            sentiment = result[0]['label']  # type: ignore
+            score = result[0]['score']  # type: ignore
 
-        sentence.set_meta_data('sentiment_label', strd_label)
-        sentence.set_meta_data('sentiment_score', score)
-        sentence.write(target)
+            strd_label = to_sentiment(sentiment)
 
-        sentence_count += 1
-        if print_progress and sentence_count % 100 == 0:
-            print(f'Tagged {sentence_count} sentences with sentiment.')
+            sentence.set_meta_data('sentiment_label', strd_label)
+            sentence.set_meta_data('sentiment_score', score)
+            sentence.write(target)
+    
+            tagged_sentences += 1
+        except Exception as e:
+            print(f'Failed to tag sentence {sentence.sent_id}, text: "{sentence.text}"')
+            print(f'Caused by: {e}')
 
-    if print_progress: print(f'Sentiment tagging complete. Tagged {sentence_count} sentences.')
+        total_sentences += 1
+        if print_progress and tagged_sentences % 100 == 0:
+            print(f'Processed {total_sentences} sentences and tagged {tagged_sentences} with sentiment.')
+
+    if print_progress: 
+        print(f'Sentiment tagging complete. Tagged {tagged_sentences}/{total_sentences} sentences.')
 
 
 def to_sentiment(sentiment_label) -> sa.Sentiment:
