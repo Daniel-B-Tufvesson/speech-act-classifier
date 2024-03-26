@@ -13,7 +13,7 @@ import speechact as sa
 
 def read_sentences_bz2(connlu_corpus_file: str, max_sentences = -1) -> Generator[doc.Sentence, None, None]:
     """
-    Read and yield each sentence in a bz2 compressed CoNNL-U corpus. The yielded sentences are Stanza 
+    Read and yield each sentence in a bz2 compressed CoNLL-U corpus. The yielded sentences are Stanza 
     Sentences.
     """
     with bz2.open(connlu_corpus_file, mode='rt') as source:
@@ -23,7 +23,7 @@ def read_sentences_bz2(connlu_corpus_file: str, max_sentences = -1) -> Generator
 
 def read_sentences(connlu_corpus: TextIO, max_sentences = -1) -> Generator[doc.Sentence, None, None]:
     """
-    Read and yield each sentence in the CoNNL-U corpus. The yielded sentences are Stanza Sentences.
+    Read and yield each sentence in the CoNLL-U corpus. The yielded sentences are Stanza Sentences.
     """
     for batched_doc in read_batched_doc(connlu_corpus, 100, max_sentences=max_sentences):
         
@@ -33,7 +33,7 @@ def read_sentences(connlu_corpus: TextIO, max_sentences = -1) -> Generator[doc.S
 
 def read_batched_doc(connlu_corpus: TextIO, batch_size: int, max_sentences = -1) -> Generator[stanza.Document, None, None]:
     """
-    Read a CoNNL-U corpus in batches. The batches are yielded as stanza.Documents. The batch size is given
+    Read a CoNLL-U corpus in batches. The batches are yielded as stanza.Documents. The batch size is given
     in the number of sentences.
     """
     
@@ -227,9 +227,9 @@ def merge_corpora(corpora: list[corp.Corpus], target_file: str, start_id=1, prin
 
 def clean_up_connlu(source: TextIO, target: TextIO, print_progress=False):
     """
-    Clean up the source CoNNL-U corpus and save it to the target. This is done by removing 
+    Clean up the source CoNLL-U corpus and save it to the target. This is done by removing 
     sentences that are improperly formatted. A sentence is incorrectly formatted if it cannot 
-    be loaded by Stanza's CoNNL-U parser.
+    be loaded by Stanza's CoNLL-U parser.
     """
     if print_progress: print('Clean up corpus')
 
@@ -331,14 +331,14 @@ def tag_dep_rel(source: TextIO, target: TextIO, print_progress=False, **kwargs):
 
 def tag_sentiment(source: corp.Corpus, target: TextIO, print_progress=False):
     """
-    Tag a source CoNNL-U corpus with sentiment labels and score. The tagged sentences are
-    written to the target as CoNNL-U.
+    Tag a source CoNLL-U corpus with sentiment labels and score. The tagged sentences are
+    written to the target as CoNLL-U.
     """
     if print_progress: print('Tag corpus with sentiment tags')
 
-    import transformers as trf
-
     # Create sentiment analysis pipeline.
+    # Accelerate it using GPU on Mac (device='mps')
+    import transformers as trf
     sentiment_model = trf.AutoModelForSequenceClassification.from_pretrained(
         'KBLab/robust-swedish-sentiment-multiclass')
     tokenizer = trf.AutoTokenizer.from_pretrained('KBLab/megatron-bert-large-swedish-cased-165k') 
@@ -347,9 +347,9 @@ def tag_sentiment(source: corp.Corpus, target: TextIO, print_progress=False):
                                  tokenizer=tokenizer,
                                  device='mps')
     
+    # Tag and write each sentence.
     total_sentences = 0
     tagged_sentences = 0
-    # Tag and write each sentence.
     for sentence in source.sentences():
 
         try:
@@ -367,10 +367,15 @@ def tag_sentiment(source: corp.Corpus, target: TextIO, print_progress=False):
     
             tagged_sentences += 1
         except Exception as e:
+            # Print error and ignore sentence.
+            # Note: Sentences that fail to be tagged are excluded. Sentences that fail
+            # are often extremely long. 
             print(f'Failed to tag sentence {sentence.sent_id}, text: "{sentence.text}"')
             print(f'Caused by: {e}')
 
         total_sentences += 1
+
+        # Print progress.
         if print_progress and tagged_sentences % 100 == 0:
             print(f'Processed {total_sentences} sentences and tagged {tagged_sentences} with sentiment.')
 
