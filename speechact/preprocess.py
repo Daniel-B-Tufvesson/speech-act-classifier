@@ -129,10 +129,10 @@ def open_write(target: str|TextIO|corp.Corpus) -> TextIO:
     if isinstance(target, str):
         if target.endswith('bz2'):
             return bz2.open(target, mode='wt')
-        elif target.endswith('conllu'):
-            return open(target, mode='wt')
         else:
-            raise ValueError(f'Unsupported file extension: {target}')
+            return open(target, mode='wt')
+        #else:
+        #    raise ValueError(f'Unsupported file extension: {target}')
 
 def open_corpus(source: str|corp.Corpus) -> corp.Corpus:
     """
