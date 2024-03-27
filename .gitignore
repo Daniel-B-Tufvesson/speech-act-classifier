@@ -10,3 +10,4 @@ data/annotated data/dev-set.connlu
 data/auto-annotated data/extracted-sentences.conllu.bz2
 data/auto-annotated data/no duplicates.conllu.bz2
 data/auto-annotated data/shuffled.conllu.bz2
+data/auto-annotated data/sentiment.conllu.bz2
