@@ -13,8 +13,8 @@ from stanza.utils.conll import CoNLL
 
 
 if __name__ == '__main__':
-    source_file = '' # todo: add file names.
-    target_file = ''
+    source_file = 'data/auto-annotated data/sentiment.conllu.bz2'
+    target_file = 'data/auto-annotated data/speech-acts.conllu.bz2'
 
     rule_file = 'models/trainable_rule_classifier_sentiment_2_large.json'
     classifier = rb.TrainableSentimentClassifierV2(ruleset_file=rule_file)
