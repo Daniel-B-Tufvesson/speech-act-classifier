@@ -13,6 +13,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.utils.data as tdat
 import sentence_transformers as stf
+from typing import Generator
 
 SPEECH_ACTS = [
     anno.SpeechActLabels.ASSERTION,
@@ -20,21 +21,13 @@ SPEECH_ACTS = [
     anno.SpeechActLabels.DIRECTIVE,
     anno.SpeechActLabels.EXPRESSIVE
 ]
-
-
-def one_hot(index: int, n_classes: int) -> torch.Tensor:
-    """
-    One-hot encode the label with the given index.
-    """
-    return torch.tensor([1 if index == i else 0 for i in range(n_classes)], dtype=torch.int)
-
-
-SPEECH_ACT_TO_TENSOR = {act: one_hot(index, len(SPEECH_ACTS)) for index, act in enumerate(SPEECH_ACTS)}
-"""Speech acts mapped to one-hot encoded tensors."""
+"""
+The speech act labels to classify. Note that the HYPOTHESIS is not included.
+"""
 
 class CorpusDataset(tdat.Dataset):
     """
-    A Pytorch compatible dataset from a speech act labeled Corpus.
+    A Pytorch compatible dataset for a speech act labeled Corpus.
 
     All sentences are loaded into memory. However, it is only the sent_id, text, and speech_act
     that is stored.
@@ -58,23 +51,34 @@ class CorpusDataset(tdat.Dataset):
         return sentence.text, speech_act_class_index
 
 
-class ClassificationNetwork(nn.Module):
+class DocumentDataset(tdat.Dataset):
     """
-    A simple neural network.
+    A Pytorch compatible dataset for a speech act labeled Stanza Document.
     """
 
-    def __init__(self, input_size: int, hidden_size: int, output_size: int):
+    def __init__(self, document: doc.Document) -> None:
         super().__init__()
-        self.fc1 = nn.Linear(input_size, hidden_size)
-        self.relu = nn.ReLU()
-        self.fc2 = nn.Linear(hidden_size, output_size)
+        self.document = document
+    
+
+    def __len__(self) -> int:
+        return len(self.document.sentences)
 
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        x = self.fc1(x)
-        x = self.relu(x)
-        x = self.fc2(x)
-        return x
+    def __getitem__(self, index) -> tuple[str, int]:
+        sentence = self.document.sentences[index]
+        speech_act_class_index = SPEECH_ACTS.index(sentence.speech_act)
+        return sentence.text, speech_act_class_index
+    
+
+    def batched(self, batch_size: int) -> Generator[list[doc.Sentence], None, None]:
+        batch = []
+        for sentence in self.document.sentences:
+            batch.append(sentence)
+
+            if len(batch) == batch_size:
+                yield batch
+                batch = []
 
 
 class EmbeddingClassifier (base.Classifier):
@@ -89,7 +93,6 @@ class EmbeddingClassifier (base.Classifier):
         input_size: int = self.emb_model.get_sentence_embedding_dimension() # type: ignore
         hidden_size = 64  
         output_size = len(SPEECH_ACTS)
-        #self.cls_model = ClassificationNetwork(input_size, hidden_size, output_size)  # type: ignore
         self.cls_model = nn.Sequential(
             nn.Linear(input_size, hidden_size),
             nn.ReLU(),
@@ -98,6 +101,31 @@ class EmbeddingClassifier (base.Classifier):
         
         # Run on MPS.
         self.cls_model = self.cls_model.to('mps')
+
+
+    def classify_document(self, document: doc.Document):
+        doc_dataset = DocumentDataset(document)
+        #data_loader = tdat.DataLoader(doc_dataset, batch_size=32, shuffle=False)
+
+        self.cls_model.eval()
+        with torch.no_grad():
+            for batch in doc_dataset.batched(32):
+                texts = [sent.text for sent in batch]
+
+                embeddings = self.emb_model.encode(texts, convert_to_numpy=False,  # type: ignore
+                                                   convert_to_tensor=True)
+                outputs = self.cls_model(embeddings)
+
+                # Assign outputs to sentences.
+                for output, sentence in zip(outputs, batch):
+                    class_index = torch.argmax(output)
+                    speech_act = SPEECH_ACTS[class_index]
+                    sentence.speech_act = speech_act  # type: ignore
+                
+
+
+
+
 
 
     def classify_sentence(self, sentence: doc.Sentence):
