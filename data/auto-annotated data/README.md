@@ -21,7 +21,7 @@ This resulted in a data set with 3 333 760 sentences. Meaning 466 240 sentences 
 The sentences were then shuffled so that they come in random order. I did this by running `scripts/shuffle_sentences.py` on `no duplicates.conllu.bz2` (not in repository), which created `shuffled.conllu.bz2` (not in repository).
 
 ### 4. Tag sentiment
-Then the sentences were automatically annotated with sentiment. I did this by running `scripts/tag_sentiment.py` on `no duplicates.conllu.bz2` (not in repository), which produced `sentiment.conllu.bz2` (not in repository).
+Then the sentences were automatically annotated with sentiment. I did this by running `scripts/tag_sentiment.py` on `no duplicates.conllu.bz2` (not in repository), which produced `sentiment.conllu.bz2` (not in repository). This took roughly 48 hours to do on a Macbook Air (2022) with MPS acceleration.
 
 Some sentences were too long for the transformer model, so they were omitted during the tagging process. This resulted in 3 333 561 tagged sentences (199 omitted).
 
