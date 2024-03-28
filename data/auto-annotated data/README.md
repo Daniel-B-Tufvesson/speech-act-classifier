@@ -1,7 +1,7 @@
 # `auto-annotated data`
 This directory contains the training data set for the final classifier. 
 
-Many of the data files are not in the repository since they are too large (roughly 400 MB). 
+Many of the data files are not in the repository since they are too large (roughly 400 MB; GitHub only allows 100 MB). 
 
 ## How the training set was created
 
@@ -21,9 +21,14 @@ This resulted in a data set with 3 333 760 sentences. Meaning 466 240 sentences 
 The sentences were then shuffled so that they come in random order. I did this by running `scripts/shuffle_sentences.py` on `no duplicates.conllu.bz2` (not in repository), which created `shuffled.conllu.bz2` (not in repository).
 
 ### 4. Tag sentiment
+Then the sentences were automatically annotated with sentiment. I did this by running `scripts/tag_sentiment.py` on `no duplicates.conllu.bz2` (not in repository), which produced `sentiment.conllu.bz2` (not in repository).
+
+Some sentences were too long for the transformer model, so they were omitted during the tagging process. This resulted in 3 333 561 tagged sentences (199 omitted).
 
 ### 5. Tag speech acts
 
-### 6. Tag sentence embeddings
+### 6. Remove sentences labeled 'none'
 
-### 7. Balance data?
+### 7. Remove sentences that occur in the test data.
+
+### 6. Balance data?
