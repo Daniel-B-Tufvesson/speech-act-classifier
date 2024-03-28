@@ -28,6 +28,9 @@ Some sentences were too long for the transformer model, so they were omitted dur
 ### 5. Tag speech acts
 
 ### 6. Remove sentences labeled 'none'
+I then removed all sentences labeled 'none' by running `scripts/exclude_labels.py` on `speech-acts.conllu.bz2`, which removes the 'none' sentences from the file itself. 
+
+This resulted in a dataset with 3 293 824 sentences (39 737 omitted).
 
 ### 7. Remove sentences that occur in the test data.
 

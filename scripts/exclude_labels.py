@@ -17,11 +17,10 @@ if __name__ == '__main__':
         anno.SpeechActLabels.ASSERTION,
         anno.SpeechActLabels.DIRECTIVE,
         anno.SpeechActLabels.EXPRESSIVE,
-        anno.SpeechActLabels.HYPOTHESIS,
         anno.SpeechActLabels.QUESTION
     ]
 
-    source_file = 'data/annotated data/dev-set-sentiment.conllu.bz2'
+    source_file = 'data/auto-annotated data/speech-acts.conllu.bz2'
     source_corpus = corp.Corpus(source_file)
 
     print(f'Excluding sentences that are not {to_include}, in "{source_file}"')

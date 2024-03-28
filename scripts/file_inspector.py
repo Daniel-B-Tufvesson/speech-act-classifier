@@ -23,6 +23,6 @@ def incremental_read(file_name: str):
 
 
 if __name__ == '__main__':
-    file_name = 'data/auto-annotated data/shuffled.conllu.bz2'
+    file_name = 'data/auto-annotated data/speech-acts.conllu.bz2'
     incremental_read(file_name)
     pass
