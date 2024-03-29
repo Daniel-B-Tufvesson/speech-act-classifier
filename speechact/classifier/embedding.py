@@ -154,10 +154,14 @@ class EmbeddingClassifier (base.Classifier):
         
     
 
-    def train(self, data: CorpusDataset, batch_size: int, print_progress=True):
+    def train(self, data: CorpusDataset, batch_size: int, print_progress=True, 
+              save_each_epoch: None|str = None ):
         """
         Train the classifier on labeled embeddings from an EmbeddingDataset.
         """
+
+        import tqdm
+
         criterion = nn.CrossEntropyLoss().to('mps')
         optimizer = optim.Adam(self.cls_model.parameters(), lr=0.001)
 
@@ -167,11 +171,12 @@ class EmbeddingClassifier (base.Classifier):
         num_epochs = 10
         for epoch in range(num_epochs):
 
-            if print_progress: print(f'Epoch {epoch}/{num_epochs}')
+            #if print_progress: print(f'Epoch {epoch}/{num_epochs}')
 
             self.cls_model.train()
             running_loss = 0.0
-            for inputs, labels in train_loader:
+            #for inputs, labels in train_loader:
+            for inputs, labels in tqdm.tqdm(train_loader, desc=f'Epoch {epoch+1}/{num_epochs}", unit="batch'):
                 labels = labels.to('mps')
 
                 optimizer.zero_grad()
@@ -183,6 +188,14 @@ class EmbeddingClassifier (base.Classifier):
                 loss.backward()
                 optimizer.step()
                 running_loss += loss.item()
+            
+            # Calculate average loss for the epoch
+            epoch_loss = running_loss / len(train_loader)
+            print(f'Epoch {epoch+1}/{num_epochs}, Loss: {epoch_loss}')
+
+            # Save model.
+            if save_each_epoch != None:
+                self.save(save_each_epoch)
         
         if print_progress: print('Training complete')
         

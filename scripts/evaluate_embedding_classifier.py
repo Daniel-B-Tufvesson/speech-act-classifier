@@ -8,7 +8,7 @@ import speechact.corpus as corp
 import speechact.evaluation as eval
 import speechact.annotate as anno
 
-def train_model(data_file: str, model_name: str):
+def train_model(data_file: str, model_name: str, save_each_epoch=False):
     print('Load classifier')
     classifier = emb.EmbeddingClassifier()
 
@@ -17,8 +17,11 @@ def train_model(data_file: str, model_name: str):
     dataset = emb.CorpusDataset(corpus)
     
     print('Train classifier')
-    classifier.train(dataset, 32, print_progress=True)
-    classifier.save(model_name)
+    if save_each_epoch:
+        classifier.train(dataset, 32, print_progress=True, save_each_epoch=model_name)
+    else:
+        classifier.train(dataset, 32, print_progress=True)
+        classifier.save(model_name)
 
 
 def evaluate_model(data_file: str, model_name: str):
@@ -41,15 +44,16 @@ def evaluate_model(data_file: str, model_name: str):
 
 
 if __name__ == '__main__':
-    # train_model(
-    #     data_file='data/annotated data/dev-set-sentiment-test.conllu.bz2',
+    train_model(
+        data_file='data/auto-annotated data/speech-acts-upsampled.conllu.bz2',
+        model_name='models/neural/final-model.pth',
+        save_each_epoch=True
+    )
+
+    # evaluate_model(
+    #     data_file='data/annotated data/dev-set-sentiment-train.conllu.bz2',
     #     model_name='models/neural/dev-model.pth'
     # )
-
-    evaluate_model(
-        data_file='data/annotated data/dev-set-sentiment-train.conllu.bz2',
-        model_name='models/neural/dev-model.pth'
-    )
 
 
     
