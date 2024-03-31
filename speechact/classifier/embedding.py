@@ -14,6 +14,7 @@ import torch.optim as optim
 import torch.utils.data as tdat
 import sentence_transformers as stf
 from typing import Generator
+import collections as col
 
 SPEECH_ACTS = [
     anno.SpeechActLabels.ASSERTION,
@@ -38,7 +39,12 @@ class CorpusDataset(tdat.Dataset):
 
         # Load sentences.
         self.sentences = [anno.Sentence(s.text, str(s.sent_id), s.speech_act) for s in corpus.sentences()]
-
+        
+        # Count class frequencies.
+        self.class_frequencies = col.Counter()
+        for sentence in self.sentences:
+            self.class_frequencies[sentence.label] += 1
+        
 
     def __len__(self) -> int:
         return len(self.sentences)
@@ -47,8 +53,11 @@ class CorpusDataset(tdat.Dataset):
     def __getitem__(self, index) -> tuple[str, int]:
         sentence = self.sentences[index]
         speech_act_class_index = SPEECH_ACTS.index(sentence.label)
-        #speech_act_tensor = SPEECH_ACT_TO_TENSOR[sentence.label]
         return sentence.text, speech_act_class_index
+    
+    def get_class_frequency(self, class_index):
+        speech_act = SPEECH_ACTS[class_index]
+        return self.class_frequencies[speech_act]
 
 
 class DocumentDataset(tdat.Dataset):
@@ -91,11 +100,12 @@ class EmbeddingClassifier (base.Classifier):
 
         # Create the neural network.
         input_size: int = self.emb_model.get_sentence_embedding_dimension() # type: ignore
-        hidden_size = 64  
+        hidden_size = 256  
         output_size = len(SPEECH_ACTS)
         self.cls_model = nn.Sequential(
             nn.Linear(input_size, hidden_size),
             nn.ReLU(),
+            nn.Dropout(p=0.2),
             nn.Linear(hidden_size, output_size)
         )
         
@@ -123,11 +133,6 @@ class EmbeddingClassifier (base.Classifier):
                     sentence.speech_act = speech_act  # type: ignore
                 
 
-
-
-
-
-
     def classify_sentence(self, sentence: doc.Sentence):
         speech_act = self.get_speech_act_for(sentence)
         sentence.speech_act = speech_act  # type: ignore
@@ -154,36 +159,41 @@ class EmbeddingClassifier (base.Classifier):
         
     
 
-    def train(self, data: CorpusDataset, batch_size: int, print_progress=True, 
-              save_each_epoch: None|str = None ):
+    def train(self, data: CorpusDataset, batch_size: int, num_epochs = 10,
+              save_each_epoch: None|str = None, use_class_weights=False):
         """
-        Train the classifier on labeled embeddings from an EmbeddingDataset.
+        Train the classifier on labeled embeddings from an corpus.
         """
 
-        import tqdm
+        import tqdm  # For progress bar.
 
-        criterion = nn.CrossEntropyLoss().to('mps')
         optimizer = optim.Adam(self.cls_model.parameters(), lr=0.001)
+        criterion = nn.CrossEntropyLoss()
+
+        # Use class weights.
+        if use_class_weights:
+            class_weights = [1.0 / data.get_class_frequency(i) for i in range(len(SPEECH_ACTS))]
+            criterion.weight = torch.tensor(class_weights, dtype=torch.float32)
 
         train_loader = tdat.DataLoader(data, batch_size=batch_size, shuffle=True)
 
-        # Train the network.
-        num_epochs = 10
-        for epoch in range(num_epochs):
+        criterion = criterion.to('mps')
 
-            #if print_progress: print(f'Epoch {epoch}/{num_epochs}')
+        # Train the network.
+        for epoch in range(num_epochs):
 
             self.cls_model.train()
             running_loss = 0.0
-            #for inputs, labels in train_loader:
             for inputs, labels in tqdm.tqdm(train_loader, desc=f'Epoch {epoch+1}/{num_epochs}", unit="batch'):
                 labels = labels.to('mps')
 
                 optimizer.zero_grad()
 
+                # Do forward pass.
                 embeddings = self.emb_model.encode(inputs, convert_to_numpy=False, convert_to_tensor=True)
                 outputs = self.cls_model(embeddings)
 
+                # Compute loss and backpropagate.
                 loss = criterion(outputs, labels)
                 loss.backward()
                 optimizer.step()
@@ -197,7 +207,7 @@ class EmbeddingClassifier (base.Classifier):
             if save_each_epoch != None:
                 self.save(save_each_epoch)
         
-        if print_progress: print('Training complete')
+        print('Training complete')
         
 
     def save(self, file_name):
