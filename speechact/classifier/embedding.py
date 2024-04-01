@@ -1,5 +1,5 @@
 """
-Classify speech acts from sentence embeddings, e.g. SBERT embeddings.
+Classify speech acts from SBERT sentence embeddings.
 """
 
 from . import base
@@ -92,30 +92,31 @@ class DocumentDataset(tdat.Dataset):
 
 class EmbeddingClassifier (base.Classifier):
 
-    def __init__(self) -> None:
+    def __init__(self, device='mps') -> None:  # mps is the macbook's GPU.
         super().__init__()
+        self.device = device
 
         # Load embedding model.
-        self.emb_model = stf.SentenceTransformer('KBLab/sentence-bert-swedish-cased', device='mps')
+        self.emb_model = stf.SentenceTransformer('KBLab/sentence-bert-swedish-cased', device=device)
 
         # Create the neural network.
         input_size: int = self.emb_model.get_sentence_embedding_dimension() # type: ignore
         hidden_size = 256  
         output_size = len(SPEECH_ACTS)
         self.cls_model = nn.Sequential(
-            nn.Linear(input_size, hidden_size),
-            nn.ReLU(),
-            nn.Dropout(p=0.2),
-            nn.Linear(hidden_size, output_size)
+            #nn.Linear(input_size, hidden_size),
+            #nn.ReLU(),
+            #nn.Dropout(p=0.2),
+            #nn.Linear(hidden_size, output_size)
+            nn.Linear(input_size, output_size)
         )
         
-        # Run on MPS.
-        self.cls_model = self.cls_model.to('mps')
+        # Run on device.
+        self.cls_model = self.cls_model.to(device)
 
 
     def classify_document(self, document: doc.Document):
         doc_dataset = DocumentDataset(document)
-        #data_loader = tdat.DataLoader(doc_dataset, batch_size=32, shuffle=False)
 
         self.cls_model.eval()
         with torch.no_grad():
@@ -150,17 +151,22 @@ class EmbeddingClassifier (base.Classifier):
             text = sentence.text
         else:
             text = sentence
+
+        self.cls_model.eval()
         
         # Create embedding and classify.
         embedding = self.emb_model.encode(text, convert_to_numpy=False)
-        output = self.cls_model.forward(embedding)  # type: ignore
+        with torch.no_grad():
+            output = self.cls_model.forward(embedding)  # type: ignore
         class_index = torch.argmax(output)
         return SPEECH_ACTS[class_index]
         
     
 
     def train(self, data: CorpusDataset, batch_size: int, num_epochs = 10,
-              save_each_epoch: None|str = None, use_class_weights=False):
+              save_each_epoch: None|str = None, use_class_weights=False,
+              loss_history: list[float]|None = None, dev_loss_history: list[float]|None = None,
+              dev_data: CorpusDataset|None = None):
         """
         Train the classifier on labeled embeddings from an corpus.
         """
@@ -168,24 +174,28 @@ class EmbeddingClassifier (base.Classifier):
         import tqdm  # For progress bar.
 
         optimizer = optim.Adam(self.cls_model.parameters(), lr=0.001)
-        criterion = nn.CrossEntropyLoss()
+        criterion = nn.CrossEntropyLoss().to(self.device)
 
         # Use class weights.
         if use_class_weights:
             class_weights = [1.0 / data.get_class_frequency(i) for i in range(len(SPEECH_ACTS))]
-            criterion.weight = torch.tensor(class_weights, dtype=torch.float32)
-
+            criterion.weight = torch.tensor(class_weights, dtype=torch.float32).to(self.device)
+        
+        # Handle training data.
         train_loader = tdat.DataLoader(data, batch_size=batch_size, shuffle=True)
 
-        criterion = criterion.to('mps')
+        # Handle dev data.
+        if dev_data != None:
+            dev_loader = tdat.DataLoader(dev_data, batch_size=batch_size, shuffle=True)
+
 
         # Train the network.
         for epoch in range(num_epochs):
 
             self.cls_model.train()
             running_loss = 0.0
-            for inputs, labels in tqdm.tqdm(train_loader, desc=f'Epoch {epoch+1}/{num_epochs}", unit="batch'):
-                labels = labels.to('mps')
+            for inputs, labels in tqdm.tqdm(train_loader, desc=f'Training: epoch {epoch+1}/{num_epochs}", unit="batch'):
+                labels = labels.to(self.device)
 
                 optimizer.zero_grad()
 
@@ -199,13 +209,41 @@ class EmbeddingClassifier (base.Classifier):
                 optimizer.step()
                 running_loss += loss.item()
             
+            # Save model.
+            if save_each_epoch != None:
+                self.save(save_each_epoch)
+            
             # Calculate average loss for the epoch
             epoch_loss = running_loss / len(train_loader)
             print(f'Epoch {epoch+1}/{num_epochs}, Loss: {epoch_loss}')
 
-            # Save model.
-            if save_each_epoch != None:
-                self.save(save_each_epoch)
+            # Save the loss to history.
+            if loss_history != None:
+                loss_history.append(epoch_loss)
+            
+            # Compute loss on dev data.
+            if dev_data != None:
+                running_dev_loss = 0.0
+                self.cls_model.eval()
+                for inputs, labels in tqdm.tqdm(dev_loader, desc=f'Eval on dev data: epoch {epoch+1}/{num_epochs}", unit="batch'):
+                    labels = labels.to(self.device)
+                    embeddings = self.emb_model.encode(inputs, convert_to_numpy=False, convert_to_tensor=True)
+                    outputs = self.cls_model(embeddings)
+                    loss = criterion(outputs, labels)
+                    running_dev_loss += loss.item()
+
+                # Calculate average dev loss for the epoch
+                dev_epoch_loss = running_dev_loss / len(dev_loader)
+                print(f'Epoch {epoch+1}/{num_epochs}, Dev loss: {dev_epoch_loss}')
+
+                # Save the dev loss to history.
+                if dev_loss_history != None:
+                    dev_loss_history.append(dev_epoch_loss)
+
+
+
+
+            
         
         print('Training complete')
         
