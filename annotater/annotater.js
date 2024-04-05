@@ -265,7 +265,7 @@ const sentences = [
 //...
 
 // Read sentences.
-const file_name = 'sents_102'  // Change this value to choose file.
+const file_name = 'sents_104'  // Change this value to choose file.
 const fileURL = `../data/data to annotate/real annotation/${file_name}.💬`
 const sentences = await parseSentences(fileURL, -1)
 sentences.sort(() => Math.random() - 0.5) // Shuffle sentences.
