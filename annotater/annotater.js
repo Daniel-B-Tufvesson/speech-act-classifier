@@ -12,7 +12,6 @@ export class Sentence {
     annotationTag = null
 
     /**
-     * 
      * @param {*} sent_id the ID of the sentence.
      * @param {string} text the string of the sentence.
      */
@@ -56,7 +55,6 @@ function currentDateAndTime() {
     // Construct the date and time string
     const dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`
 
-    console.log(dateTimeString)
     return dateTimeString
 }
 
@@ -76,7 +74,6 @@ class Session {
     resultsURL = null
     
     /**
-     * 
      * @param {string} session_id a unique ID of the current session.
      * @param {Array<Sentence>} sentences the sentences to annotate.
      */
@@ -250,22 +247,9 @@ class Controller {
     }
 }
 
-/*
-// Some test sentences.
-const sentences = [
-    new Sentence(0, 'Tänk om man hade en blå bil.'),
-    new Sentence(1, 'Vad fin du är!'),
-    new Sentence(2, 'Har du sett Spider-man?'),
-    new Sentence(3, 'Detta är en mening.')
-]
-*/
 
-// Choose random sentence file.
-//...
-//...
-
-// Read sentences.
-const file_name = 'sents_104'  // Change this value to choose file.
+// Read sentences from a file.
+const file_name = 'sents_110'  // Change this value to choose file.
 const fileURL = `../data/data to annotate/real annotation/${file_name}.💬`
 const sentences = await parseSentences(fileURL, -1)
 sentences.sort(() => Math.random() - 0.5) // Shuffle sentences.
