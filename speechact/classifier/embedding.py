@@ -114,6 +114,14 @@ def sigmoid_hidden_layer(input_size: int, output_size: int) -> nn.Module:
     )
 
 class EmbeddingClassifier (base.Classifier):
+    """
+    Classifies sentences based on their embeddings. The sentence embeddings are computed using a Swedish
+    SBERT model.
+
+    Args: 
+        device: The name of the device to run the models on.
+        network_factory: a callable function that creates the classification network. 
+    """
 
     def __init__(self, device='mps', network_factory: NetworkFactory|None = None) -> None:  # mps is the macbook's GPU.
         super().__init__()
@@ -124,7 +132,6 @@ class EmbeddingClassifier (base.Classifier):
 
         # Create the neural network.
         input_size: int = self.emb_model.get_sentence_embedding_dimension() # type: ignore
-        # hidden_size = 256  
         output_size = len(SPEECH_ACTS)
 
         # Create the network from the factory, or use default linear perceptron.
@@ -222,7 +229,9 @@ class EmbeddingClassifier (base.Classifier):
                 optimizer.zero_grad()
 
                 # Do forward pass.
-                embeddings = self.emb_model.encode(inputs, convert_to_numpy=False, convert_to_tensor=True)
+                embeddings = self.emb_model.encode(inputs, 
+                                                   convert_to_numpy=False, 
+                                                   convert_to_tensor=True)
                 outputs = self.cls_model(embeddings)
 
                 # Compute loss and backpropagate.
@@ -249,7 +258,9 @@ class EmbeddingClassifier (base.Classifier):
                 self.cls_model.eval()
                 for inputs, labels in tqdm.tqdm(dev_loader, desc=f'Eval on dev data: epoch {epoch+1}/{num_epochs}", unit="batch'):
                     labels = labels.to(self.device)
-                    embeddings = self.emb_model.encode(inputs, convert_to_numpy=False, convert_to_tensor=True)
+                    embeddings = self.emb_model.encode(inputs, 
+                                                       convert_to_numpy=False, 
+                                                       convert_to_tensor=True)
                     outputs = self.cls_model(embeddings)
                     loss = criterion(outputs, labels)
                     running_dev_loss += loss.item()
@@ -261,16 +272,11 @@ class EmbeddingClassifier (base.Classifier):
                 # Save the dev loss to history.
                 if dev_loss_history != None:
                     dev_loss_history.append(dev_epoch_loss)
-
-
-
-
-            
         
         print('Training complete')
         
 
-    def save(self, file_name):
+    def save(self, file_name: str):
         """
         Save the model to a file. This is only saves the classification network and not the 
         embedding model.
@@ -279,7 +285,7 @@ class EmbeddingClassifier (base.Classifier):
         torch.save(self.cls_model.state_dict(), file_name)
     
 
-    def load(self, file_name):
+    def load(self, file_name: str):
         """
         Load the model from a file. This only loads the classification network and not the
         embedding model.
