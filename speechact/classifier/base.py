@@ -24,7 +24,7 @@ class Classifier(abc.ABC):
     def classify_sentence(self, sentence: doc.Sentence):
         """
         Classify a single sentences. This assigns the sentence with a
-        valiue to the 'speech_act' property.
+        value to the 'speech_act' property.
         """
         pass
 
