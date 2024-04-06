@@ -15,6 +15,9 @@ import torch.utils.data as tdat
 import sentence_transformers as stf
 from typing import Generator
 import collections as col
+from typing import Callable
+
+NetworkFactory = Callable[[int, int], nn.Module]
 
 SPEECH_ACTS = [
     anno.SpeechActLabels.ASSERTION,
@@ -90,9 +93,29 @@ class DocumentDataset(tdat.Dataset):
                 batch = []
 
 
+def linear_perceptron(input_size: int, output_size: int) -> nn.Module:
+    return nn.Linear(input_size, output_size)
+
+
+def softmax_perceptron(input_size: int, output_size: int) -> nn.Module:
+    return nn.Sequential(
+        nn.Linear(input_size, output_size),
+        nn.Softmax(dim=1)
+    )
+
+
+def sigmoid_hidden_layer(input_size: int, output_size: int) -> nn.Module:
+    hidden_size = 64
+    return nn.Sequential(
+        nn.Linear(input_size, hidden_size),
+        nn.Sigmoid(),
+        nn.Linear(hidden_size, output_size),
+        nn.Softmax(dim=1)
+    )
+
 class EmbeddingClassifier (base.Classifier):
 
-    def __init__(self, device='mps') -> None:  # mps is the macbook's GPU.
+    def __init__(self, device='mps', network_factory: NetworkFactory|None = None) -> None:  # mps is the macbook's GPU.
         super().__init__()
         self.device = device
 
@@ -101,15 +124,14 @@ class EmbeddingClassifier (base.Classifier):
 
         # Create the neural network.
         input_size: int = self.emb_model.get_sentence_embedding_dimension() # type: ignore
-        hidden_size = 256  
+        # hidden_size = 256  
         output_size = len(SPEECH_ACTS)
-        self.cls_model = nn.Sequential(
-            #nn.Linear(input_size, hidden_size),
-            #nn.ReLU(),
-            #nn.Dropout(p=0.2),
-            #nn.Linear(hidden_size, output_size)
-            nn.Linear(input_size, output_size)
-        )
+
+        # Create the network from the factory, or use default linear perceptron.
+        if network_factory != None:
+            self.cls_model = network_factory(input_size, output_size)
+        else:
+            self.cls_model = linear_perceptron(input_size, output_size)
         
         # Run on device.
         self.cls_model = self.cls_model.to(device)
