@@ -106,3 +106,39 @@ def plot_confusion_matrix(confusion_matrix, labels: list[str]):
     
     display.plot(xticks_rotation='vertical')
     plt.show()
+
+
+def accuracy(corpus: corp.Corpus, classifier: cb.Classifier):
+    all_correct_labels = []
+    all_predicted_labels = []
+    for batch in corpus.batched_docs(1000):
+        # Get the correct labels for batch.
+        correct_labels = [sentence.speech_act for sentence in batch.sentences]
+        all_correct_labels += correct_labels
+
+        # Do prediction.
+        classifier.classify_document(batch)
+
+        # Get the predicted labels for batch.
+        predicted_labels = [sentence.speech_act for sentence in batch.sentences]
+        all_predicted_labels += predicted_labels
+    
+    return metrics.accuracy_score(y_true=all_correct_labels, 
+                                  y_pred=all_predicted_labels)
+
+class TrainAccuracyHistory:
+    def __init__(self, 
+                 corpus: corp.Corpus, 
+                 classifier: cb.Classifier, 
+                 batch_size:int) -> None:
+        self.corpus = corpus
+        self.classifier = classifier
+        self.batch_size = batch_size
+        self.accuracies = []
+        self.data_amount = []
+    
+    def compute_accuracy(self, batch_number: int):
+        acc = accuracy(self.corpus, self.classifier)
+        self.accuracies.append(acc)
+        self.data_amount.append(batch_number * self.batch_size)
+    

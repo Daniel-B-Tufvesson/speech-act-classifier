@@ -195,7 +195,9 @@ class EmbeddingClassifier (base.Classifier):
     def train(self, data: CorpusDataset, batch_size: int, num_epochs = 10,
               save_each_epoch: None|str = None, use_class_weights=False,
               loss_history: list[float]|None = None, dev_loss_history: list[float]|None = None,
-              dev_data: CorpusDataset|None = None):
+              dev_data: CorpusDataset|None = None,
+              callback_each_batch=-1,
+              batch_callback:Callable[[int], None]|None = None):
         """
         Train the classifier on labeled embeddings from an corpus.
         """
@@ -219,6 +221,7 @@ class EmbeddingClassifier (base.Classifier):
 
 
         # Train the network.
+        batch_count = 0
         for epoch in range(num_epochs):
 
             self.cls_model.train()
@@ -239,6 +242,15 @@ class EmbeddingClassifier (base.Classifier):
                 loss.backward()
                 optimizer.step()
                 running_loss += loss.item()
+
+                # Do callback.
+                if (batch_callback != None and callback_each_batch != -1 and 
+                    batch_count % callback_each_batch == 0):
+
+                    batch_callback(batch_count)
+                
+                batch_count += 1
+
             
             # Save model.
             if save_each_epoch != None:
@@ -274,7 +286,7 @@ class EmbeddingClassifier (base.Classifier):
                     dev_loss_history.append(dev_epoch_loss)
         
         print('Training complete')
-        
+    
 
     def save(self, file_name: str):
         """
