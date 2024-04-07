@@ -33,5 +33,6 @@ I then removed all sentences labeled 'none' by running `scripts/exclude_labels.p
 This resulted in a dataset with 3 293 824 sentences (39 737 omitted).
 
 ### 7. Remove sentences that occur in the test data.
+I then removed all the sentences that also occur in the test data.
 
 ### 6. Balance data?

@@ -26,9 +26,9 @@ def generate_corpus(annotated_sents_dir: str, connlu_dir: str, target_file: str,
     print(f'Corpora generated.')
 
 if __name__ == '__main__':
-    annotated_sents_dir = 'data/annotated data/dev annotations'
+    annotated_sents_dir = 'data/annotated data/evaluation annotations'
     connlu_dir = 'data/tagged data'
-    target_file = 'data/annotated data/dev-set.conllu.bz2'
+    target_file = 'data/annotated data/test-set.conllu.bz2'
     exclude_labels = [annotate.SpeechActLabels.UNKNOWN.value]
 
     generate_corpus(annotated_sents_dir, connlu_dir, target_file, exclude_labels)

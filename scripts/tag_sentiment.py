@@ -16,7 +16,7 @@ def tag_corpus(bz2_source_file: str, target_file: str):
         pre.tag_sentiment(corpus, target, print_progress=True)
 
 if __name__ == '__main__':
-    source_file = 'data/auto-annotated data/shuffled.conllu.bz2'
-    target_file = 'data/auto-annotated data/sentiment.conllu.bz2'
+    source_file = 'data/annotated data/test-set.conllu.bz2'
+    target_file = 'data/annotated data/test-set-sentiment.conllu.bz2'
 
     tag_corpus(source_file, target_file)

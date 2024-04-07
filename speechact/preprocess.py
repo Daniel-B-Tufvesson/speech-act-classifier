@@ -480,6 +480,41 @@ def remove_duplicates(source: corp.Corpus|str, target: TextIO|str, print_progres
         print(f'Wrote {len(unique_sent_texts)}/{total_sentences} unique sentences to target.')
 
 
+def remove_duplicates_from_other(remove_from: corp.Corpus|str, 
+                                 check_against: corp.Corpus|str,
+                                 target: TextIO|str, 
+                                 print_progress=False):
+    """
+    Remove sentences in the 'remove_from' corpus that also occur in the 'check_against'
+    corpus. The sentences that are kept are sent to 'target'.
+    """
+    if print_progress: 
+        print('Removing duplicate sentences and writing unique to new corpus...')
+    
+    remove_from_corpus = open_corpus(remove_from)
+    check_against_corpus = open_corpus(check_against)
+    target_file = open_write(target)
+
+    check_against_sentences = {sent.text for sent in check_against_corpus.sentences()}
+
+    total_sentences = 0
+    kept_sentences = 0
+    for sentence in remove_from_corpus.sentences():
+        total_sentences += 1
+
+        if sentence.text not in check_against_sentences:
+            sentence.write(target_file)
+            kept_sentences += 1
+        
+        if print_progress and total_sentences % 100 == 0:
+            print(f'Checked {total_sentences} and written {kept_sentences} unique sentences.')
+
+    target_file.close()
+
+    if print_progress: 
+        print(f'Wrote {kept_sentences}/{total_sentences} unique sentences to target.')
+
+
 def shuffle_sentences(source: str|corp.Corpus, target: str|TextIO|corp.Corpus):
     source_corpus = open_corpus(source)
     target_file = open_write(target)
