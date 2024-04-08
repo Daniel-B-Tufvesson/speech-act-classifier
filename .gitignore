@@ -13,3 +13,8 @@ data/auto-annotated data/shuffled.conllu.bz2
 data/auto-annotated data/sentiment.conllu.bz2
 data/auto-annotated data/speech-acts.conllu.bz2
 data/auto-annotated data/speech-acts-upsampled.conllu.bz2
+venv/lib64
+venv/pyvenv.cfg
+venv/bin/python
+venv/bin/python3
+venv/bin/python3.10
