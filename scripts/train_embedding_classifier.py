@@ -15,14 +15,18 @@ if __name__ == '__main__':
     train_data = emb.CorpusDataset(train_corpus)
 
 
+    print('Loading model.')
     classifier = emb.EmbeddingClassifier(device='cuda')
+    model_name = 'models/neural/no-hidden/liu-projdator-model.pth'
+    classifier.load(model_name)
 
     print('Training network...')
 
     classifier.train(train_data,
                      batch_size=16,
-                     num_epochs=1,
-                     use_class_weights=True)
-    classifier.save('models/neural/no-hidden/liu-projdator-model.pth')
+                     num_epochs=9,
+                     use_class_weights=True,
+                     save_each_epoch=model_name)
+    classifier.save(model_name)
 
     print('Training complete.')
