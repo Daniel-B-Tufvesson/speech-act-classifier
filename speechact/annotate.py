@@ -254,6 +254,14 @@ def compute_cohens_kappa_dir(directory_a: str, directory_b: str) -> float:
     return compute_cohens_kappa(corpus_pairs)
 
 
+def compute_cohens_kappa_files(file_a: str, file_b: str) -> float:
+    """
+    Compute Cohen's kappa between two files of annotated sentences.
+    """
+    corpus_pair = AnnotatedCorpusPair(SentenceCorpus(file_a), SentenceCorpus(file_b))
+    return compute_cohens_kappa([corpus_pair])
+
+
 def compute_cohens_kappa(corpus_pairs: list[AnnotatedCorpusPair]) -> float:
     """
     Compute Cohen's kappa between the corpora pairs.
