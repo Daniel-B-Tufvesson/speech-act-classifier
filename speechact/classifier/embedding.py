@@ -303,5 +303,5 @@ class EmbeddingClassifier (base.Classifier):
         embedding model.
         """
         print(f'Loading model from "{file_name}"')
-        self.cls_model.load_state_dict(torch.load(file_name))
+        self.cls_model.load_state_dict(torch.load(file_name, map_location=self.device))
         
