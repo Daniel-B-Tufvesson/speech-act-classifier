@@ -23,6 +23,6 @@ def incremental_read(file_name: str):
 
 
 if __name__ == '__main__':
-    file_name = 'data/annotated data/test-set.conllu.bz2'
+    file_name = 'data/annotated data/dev-test-set-upsampled.conllu.bz2'
     incremental_read(file_name)
     pass

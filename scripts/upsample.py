@@ -11,7 +11,7 @@ import bz2
 
 
 if __name__ == '__main__':
-    source_file = 'data/annotated data/test-set.conllu.bz2'
+    source_file = 'data/annotated data/dev-train-set.conllu.bz2'
     source_corpus = corp.Corpus(source_file)
 
 
