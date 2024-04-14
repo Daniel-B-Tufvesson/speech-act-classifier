@@ -1,8 +1,11 @@
 """
 A simple script for inspecting bz2 compressed corpus files.
-"""
 
+Usage: python view_bz2_file.py <bz2 text file>
+"""
+# Example: python scripts/view_bz2_file.py 'data/test-set.conllu.bz2'
 import bz2
+import sys
 
 def incremental_read(file_name: str):
     """
@@ -23,6 +26,11 @@ def incremental_read(file_name: str):
 
 
 if __name__ == '__main__':
-    file_name = 'data/annotated data/dev-test-set-upsampled.conllu.bz2'
+
+    # Check the number of arguments passed.
+    if len(sys.argv) != 2:
+        print('Usage: python view_bz2_file.py <bz2 text file>')
+        sys.exit(1)
+
+    file_name = sys.argv[1]
     incremental_read(file_name)
-    pass
