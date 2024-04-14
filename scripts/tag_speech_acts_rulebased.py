@@ -3,22 +3,33 @@ This script tags a CoNLL-U corpus file with speech acts using the rule based cla
 sentences are written to a new corpus file.
 
 The corpus needs to be tagged with sentiment labels (sent_label).
+
+Usage: python tag_speech_acts_rulebased.py <source corpus> <target corpus> <ruleset file>
 """
+# Example: python scripts/tag_speech_acts_rulebased.py 'data/for-testing/dir2/dev-set-test-sentiment.conllu.bz2' 'data/for-testing/dir2/speech-acts.conllu.bz2'
 
 from context import speechact
 import speechact.classifier.rulebased as rb
 import speechact.corpus as corp
 import speechact.preprocess as pre
 from stanza.utils.conll import CoNLL
-
+import sys
 
 if __name__ == '__main__':
-    source_file = 'data/auto-annotated data/sentiment.conllu.bz2'
-    target_file = 'data/auto-annotated data/speech-acts.conllu.bz2'
+    # Check the number of arguments passed
+    if len(sys.argv) != 3 and len(sys.argv) != 4:
+        print('Usage: python tag_speech_acts_rulebased.py <source corpus> <target corpus> <ruleset file>')
+        sys.exit(1)
 
-    rule_file = 'models/trainable_rule_classifier_sentiment_2_large.json'
+    source_file = sys.argv[1]
+    target_file = sys.argv[2]
+
+    if len(sys.argv) > 3:
+        rule_file = sys.argv[3]
+    else:
+        rule_file = 'models/trainable_rule_classifier_sentiment_2_large.json'
+
     classifier = rb.TrainableSentimentClassifierV2(ruleset_file=rule_file)
-
     source_corpus = corp.Corpus(source_file)
     
     with pre.open_write(target_file) as target:
