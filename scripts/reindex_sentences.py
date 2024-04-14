@@ -13,7 +13,7 @@ import sys
 if __name__ == '__main__':
 
     # Check the number of arguments passed
-    if len(sys.argv) < 3:
+    if len(sys.argv) != 3:
         print('Usage: python reindex_sentences.py <source directory> <target directory>')
         sys.exit(1)
 
