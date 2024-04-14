@@ -1,5 +1,7 @@
 """
 This script splits a CoNLL-U coprus into a training corpus file and a test corpus file.
+
+Usage: python split_corpus.py <corpus> <target directory> <split fraction>
 """
 # Example: python scripts/split_corpus.py 'data/for-testing/dir1/dev-set.conllu.bz2' 'data/for-testing/dir2' 0.8
 
