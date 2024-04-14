@@ -1,21 +1,30 @@
 """
 This script is used for editing a single speech_act label in an annotated CoNLL-U file.
+
+Usage: python edit_label.py <corpus> <sent_id> <new label>
 """
+# Example: python scripts/edit_label.py data/for-testing/dir2/tagged/test-set.conllu.bz2 2500664 expressive
+
 from context import speechact
 import speechact.corpus as corp
 import speechact.annotate as anno
 import os
 import bz2
+import sys
 
 if __name__ == '__main__':
-    sent_id = 1300288
-    new_speech_act = anno.SpeechActLabels.ASSERTION
+    # Check the number of arguments passed
+    if len(sys.argv) != 4:
+        print('Usage: python edit_label.py <corpus> <sent_id> <new label>')
+        sys.exit(1)
+
+    corpus_file = sys.argv[1]
+    sent_id = int(sys.argv[2])
+    new_speech_act = sys.argv[3]
 
     assert new_speech_act in anno.SpeechActLabels.get_labels(), f'Unsupported label: "{new_speech_act}"'
 
-    corpus_file = 'data/annotated data/dev-set-sentiment.connlu.bz2'
     corpus = corp.Corpus(corpus_file)
-
     directory = os.path.dirname(corpus_file)
     temp_file = os.path.join(directory, f'{corpus}.conllu.bz2')
 
