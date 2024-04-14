@@ -1,9 +1,11 @@
 """
 A script which merges several corpus files into a single file. All duplicate sentences will be 
-removed (i.e. sentences that match exactly). The sentences will also recieve a new sent_id which
-is an incremented integer. The original sent_id is saved as x_sent_id. The name of the corpus is 
-also saved for each sentence.
+removed (i.e. sentences that match exactly).
+
+'Usage: python merge_corpora.py <target corpus> <corpus 1> <corpus 2> ...'
 """
+
+# Example: python scripts/merge_corpora.py 'data/merged-set.conllu.bz2' 'data/dev-train-set.conllu.bz2' 'data/dev-test-set.conllu.bz2'
 
 from context import speechact
 import speechact.preprocess as pre
@@ -23,4 +25,3 @@ if __name__ == '__main__':
     pre.merge_corpora(corpora, target_file, print_progress=True, new_sent_ids=False)
     pre.print_initial_lines(target_file)
 
-# Example: python scripts/merge_corpora.py 'data/merged-set.conllu.bz2' 'data/dev-train-set.conllu.bz2' 'data/dev-test-set.conllu.bz2'
