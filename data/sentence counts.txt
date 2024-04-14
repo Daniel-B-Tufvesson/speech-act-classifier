@@ -1,0 +1,9 @@
+dev-set 2232
+dev-test-set-upsampled 1036
+dev-train-set 1787
+dev-train-set-upsampled 4264
+test-set-upsampled 5324
+all-data 3296032
+test-set 2435
+train-set 3291365
+dev-test-set 445
