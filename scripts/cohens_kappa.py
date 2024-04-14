@@ -13,7 +13,7 @@ if __name__ == '__main__':
     
     # Check the number of arguments passed
     if len(sys.argv) != 3:
-        print("Usage: python cohens_kappa.py <directory 1> <directory 2>")
+        print('Usage: python cohens_kappa.py <directory 1> <directory 2>')
         sys.exit(1)
 
     dir_1 = sys.argv[1]
