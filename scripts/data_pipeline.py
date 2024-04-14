@@ -31,7 +31,7 @@ def process(corpus_name: str, genre: str, read_tail=False, parse_pos=True):
     target_file = f'{DIR_NO_DEPS_CLEAN}/{corpus_name}.connlu.bz2'
     print(f'Cleaning up "{source_file}" to "{target_file}"')
     with bz2.open(source_file, mode='rt') as source, bz2.open(target_file, mode='wt') as target:
-        pre.clean_up_connlu(source, target, print_progress=True)
+        pre.clean_up_conllu(source, target, print_progress=True)
     pre.print_initial_lines(target_file, 30)
 
     # Parse dependency relations.

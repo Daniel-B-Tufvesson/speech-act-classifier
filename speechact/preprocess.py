@@ -230,7 +230,7 @@ def merge_corpora(corpora: list[corp.Corpus],
     if print_progress: print(f'Merging complete. ')
 
 
-def clean_up_connlu(source: TextIO, target: TextIO, print_progress=False):
+def clean_up_conllu(source: TextIO, target: TextIO, print_progress=False):
     """
     Clean up the source CoNLL-U corpus and save it to the target. This is done by removing 
     sentences that are improperly formatted. A sentence is incorrectly formatted if it cannot 
@@ -266,7 +266,10 @@ def clean_up_connlu(source: TextIO, target: TextIO, print_progress=False):
     if print_progress: print(f'Cleaned up {sentence_count} sentences. Found {error_count}/{sentence_count} errors.')
 
 
-def extract_sub_sample(source: TextIO, target: TextIO, n_sentences: int, skip_sentences: int = 0,
+def extract_sub_sample(source: TextIO, 
+                       target: TextIO, 
+                       n_sentences: int, 
+                       skip_sentences: int = 0,
                        print_progress=False):
     """
     Extract a sub sample of sentences from the CoNLL-U source and write them to the target.
