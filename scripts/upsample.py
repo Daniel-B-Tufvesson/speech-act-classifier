@@ -1,6 +1,8 @@
 """
 This script upsamples the corpus so that there is an equal amount of sentences 
 for each speech act label. The upsampled corpus is written to a new file.
+
+Usage: python upsample.py <source corpus>
 """
 # Example: python scripts/upsample.py 'data/for-testing/dir2/tagged/test-set.conllu.bz2'
 
