@@ -77,7 +77,7 @@ export async function parseSentences(fileURL, nSentences) {
         // Parse sentence if empty line.
         if (line === '') {
             
-            if (sentenceID !== null && sentenceText !== null) {
+            if (sentenceText !== null) {
                 let sentence = new Sentence(sentenceID, sentenceText)
                 sentences.push(sentence)
                 sentenceCount++
@@ -87,6 +87,10 @@ export async function parseSentences(fileURL, nSentences) {
                     break
                 }
             }
+
+            // Reset.
+            sentenceID = null
+            sentenceText = null
         }
         // Parse text or ID.
         else {

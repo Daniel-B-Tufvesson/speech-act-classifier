@@ -150,7 +150,9 @@ class Session {
         // Write all sentences as lines.
         for (let sentence of this.sentences) {
             lines.push('\n')
-            lines.push('# sent_id = ' + sentence.sent_id + '\n')
+            if (sentence.sent_id !== null) {
+                lines.push('# sent_id = ' + sentence.sent_id + '\n')
+            }
             lines.push('# text = ' + sentence.text + '\n')
             lines.push('# speech_act = ' + sentence.annotationTag + '\n')
         }
@@ -249,15 +251,15 @@ class Controller {
 
 
 // Read sentences from a file.
-const file_name = 'sents_110'  // Change this value to choose file.
-const fileURL = `../data/data to annotate/real annotation/${file_name}.💬`
+const fileURL = `test sentences no IDs.💬` // Change this to load other file.
 const sentences = await parseSentences(fileURL, -1)
 sentences.sort(() => Math.random() - 0.5) // Shuffle sentences.
 console.log('Number of sentences: ', sentences.length)
 
 // Create new session.
 const session = new Session(null, sentences)
-session.session_id = `${file_name}-${session.startTime}`
+const sessionName = fileURL.split('/').pop().split('.')[0]
+session.session_id = `${sessionName}-${session.startTime}`
 new View(session)
 new Controller(session)
 
