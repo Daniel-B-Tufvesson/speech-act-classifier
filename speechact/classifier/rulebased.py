@@ -37,19 +37,8 @@ class SyntBlock(enum.StrEnum):
     # Dependency blocks.
     SUBJECT = 'SUBJECT'
     SUBJECT_2ND = 'SUBJECT_2ND'  # 2nd person subject.
-    OBJECT = 'OBJECT'
-    ADV_MOD = 'ADV_MOD'
-    ADV_CL = 'ADV_CL'
     INT_ADV = 'INT_ADV'  # 'interrogative adverbial'
     INT_PRON = 'INT_PRON'  # 'interrogative pronoun'
-    OBL = 'OBL'
-    XCOMP = 'XCOMP'
-    CCOMP = 'CCOMP'
-    PARTICLE = 'PARTICLE'
-    CONJ = 'CONJ'
-    EXPL = 'EXPL'
-    NAME = 'NAME'
-    DISLOCATED = 'DISLOCATED'
 
     # Root blocks.
     FIN_VERB = 'FIN_VERB'  # 'finite verb'
@@ -322,17 +311,6 @@ class RuleBasedClassifier(base.Classifier):
         if word.deprel in SUBJECT_RELS: 
             if word.lemma in PRON_2ND_PERSON: return SyntBlock.SUBJECT_2ND
             return SyntBlock.SUBJECT
-        #if word.deprel == 'advmod': return SyntBlock.ADV_MOD
-        #if word.deprel == 'advcl': return SyntBlock.ADV_CL
-        #if word.deprel == 'xcomp': return SyntBlock.XCOMP
-        #if word.deprel == 'ccomp': return SyntBlock.CCOMP
-        # if word.deprel == 'obl': return SyntBlock.OBL
-        # if word.deprel == 'obj': return SyntBlock.OBJECT
-        # if word.deprel == 'conj': return SyntBlock.CONJ
-        # if word.deprel == 'compound:prt': return SyntBlock.PARTICLE
-        # if word.deprel == 'expl': return SyntBlock.EXPL
-        # if word.deprel == 'flat:name': return SyntBlock.NAME
-        # if word.deprel == 'dislocated': return SyntBlock.DISLOCATED
 
         return SyntBlock.NONE
 
