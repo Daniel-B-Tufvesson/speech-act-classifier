@@ -126,6 +126,27 @@ def accuracy(corpus: corp.Corpus, classifier: cb.Classifier):
     return metrics.accuracy_score(y_true=all_correct_labels, 
                                   y_pred=all_predicted_labels)
 
+
+def get_misclassified(corpus: corp.Corpus, 
+                      classifier: cb.Classifier,
+                      expected_label: str,
+                      predicted_label) -> list[str]:
+    
+    misclassified = []
+    for batch in corpus.batched_docs(1000):
+        # Get the correct labels for batch.
+        correct_labels = [sentence.speech_act for sentence in batch.sentences]
+
+        # Do prediction.
+        classifier.classify_document(batch)
+
+        for sentence, correct_label in zip(batch.sentences, correct_labels):
+            if correct_label == expected_label and sentence.speech_act == predicted_label:
+                misclassified.append(sentence.text)
+
+    return misclassified
+
+
 class TrainAccuracyHistory:
     def __init__(self, 
                  corpus: corp.Corpus, 
