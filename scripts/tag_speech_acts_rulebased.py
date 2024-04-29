@@ -27,7 +27,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 3:
         rule_file = sys.argv[3]
     else:
-        rule_file = 'models/trainable_rule_classifier_sentiment_2_large.json'
+        rule_file = 'models/rule-based.json'
 
     classifier = rb.TrainableSentimentClassifierV2(ruleset_file=rule_file)
     source_corpus = corp.Corpus(source_file)
