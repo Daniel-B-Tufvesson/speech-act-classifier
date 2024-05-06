@@ -2,7 +2,7 @@
 
 
 ## What are Speech Acts?
-What is done through speaking? In a sense, a spoken utterance is just a string of vocal sounds. But in another sense, it is also a social action that has real effects on the world. These spoken actions are referred to as *speech acts*. We humans unconsciously understand and categorize speech acts all the time. The meaning of a speech act depends both on the syntax and semantics of the sentence and the conversational context in which it occurs.
+What is done through speaking? In a sense, a spoken utterance is just a string of vocal sounds. But in another sense, it is also a social action that has real effects on the world. For example, "Can you pass the salt?" is an act of requesting the salt, which can then result in obtaining the salt. These spoken actions are referred to as *speech acts*. We humans unconsciously understand and categorize speech acts all the time. The meaning of a speech act depends both on the syntax and semantics of the sentence and the conversational context in which it occurs.
 
 
 
