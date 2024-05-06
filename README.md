@@ -11,7 +11,7 @@ What is done through speaking? In a sense, a spoken utterance is just a string o
 ### Classifier Models
 This repository contains two different models for automatically classifying speech acts. These are classified out of context, meaning, they analyze the conversational structure but only individual sentences. Furthermore, they target Swedish sentences.
 
-- **Rule-based classifier**: This classifier uses rules for classification. It relies primarily on syntax, but also on sentiment. The model is json file consisting of rules: `models/rule-based.json`.
+- **Rule-based classifier**: This classifier uses rules for classification. It relies primarily on syntax, but also sentiment. The model is json file consisting of rules: `models/rule-based.json`.
 
 - **Embedding-based classifier**: This classifier uses sentence embeddings from SBERT and classifies them with a linear, single-layer neural network. The model is a pytorch file: `models/embedding-based.pth`.
 
@@ -21,7 +21,7 @@ These models have been trained on isolated, Swedish sentences originating from o
 
 
 ## What Speech Acts are Classified?
-The models can classify the following speech acts, that are taken from *The Swedish Academy Grammar* (Teleman et al., 1999):
+The models can classify the following speech acts, which are taken from *The Swedish Academy Grammar* (Teleman et al., 1999):
 
 - **Assertive**: the speaker holds that the content of the sentence is true or at least true to a varying degree. For example: “They launched a car into space.”
 
@@ -35,14 +35,14 @@ The models can classify the following speech acts, that are taken from *The Swed
 
 
 # Usage
-Classification is done on entire corpora. The classifiers take as input a CoNLL-U corpus and tags each sentence with their respective speech acts. These are then outputted as a new CoNLL-U corpus. 
+The classifiers operate on entire corpora. They take as input a CoNLL-U corpus and tag each sentence with their respective speech acts. These are then outputted as a new CoNLL-U corpus. 
 
 
 ## Classifying with Rules
 Run [`tag_speech_acts_rulebased.py`](scripts/tag_speech_acts_rulebased.py) on the corpus you want to tag with speech acts. It takes three arguments:
-1. The source corpus which contain the sentences to be tagged.
-2. The target corpus which the tagged sentences are written to.
-3. The rule set file which contain all the rules.
+1. The source corpus which contains the sentences to be tagged.
+2. The target corpus to which the tagged sentences are written.
+3. The rule set file which contains all the rules.
 
 Example: `python scripts/tag_speech_acts_rulebased.py 'sentences.conllu.bz2' 'speech-acts.conllu.bz2' 'models/rule-based.json'`
 
@@ -52,7 +52,7 @@ Alternatively, you can use the [`rulebased.py`](speechact/classifier/rulebased.p
 
 
 ## Classifying with Embeddings
-Currently, there is no script for tagging entire corpora similar to the rule-based classifier above. However, if you only want integrate it with your code, you can use the [`embedding.py`](speechact/classifier/embedding.py) module.
+Currently, there is no script for tagging entire corpora similar to the rule-based classifier above. However, if you only want to integrate it with your code, you can use the [`embedding.py`](speechact/classifier/embedding.py) module.
 
 
 
@@ -76,7 +76,7 @@ The embedding-based classifier was trained on an automatically annotated corpus 
 # Performance and Evaluation
 The classifiers were evaluated on the `data/test-set-upsampled.conllu.bz2` data set. The evaluation can be replicated in [`evaluate_classifiers.ipynb`](notebooks/evaluate_classifiers.ipynb).
 
-Table 1 shows that the embedding-based classifiers overall performs better than the rule-based classifier. Table 2 shows that this is also the case for most of the class-specific measures. While the embedding-based classifier is better, this difference is only slight.  
+Table 1 shows that the embedding-based classifier overall performs better than the rule-based classifier. Table 2 shows that this is also the case for most of the class-specific measures. While the embedding-based classifier is better, this difference is only slight.  
 
 <br>
 
@@ -89,7 +89,7 @@ Table 1: The accuracy and averaged F1 score for the classifiers and a baseline.
 <br>
 <br>
 
-Table 2: Class-specific metrics for the classifiers. Highest measure is marked in bold.
+Table 2: Class-specific metrics for the classifiers. The highest measures are marked in bold.
 |            | Precision  (Rule) | Precision  (Embedding) | Recall  (Rule) | Recall  (Embedding) | F1  (Rule) | F1  (Embedding) |
 |------------|-------------------|------------------------|----------------|---------------------|------------|-----------------|
 | Assertive  | .53               | **.60**                | **.74**        | .70                 | .62        | **.64**         |
