@@ -32,6 +32,9 @@ The models can classify the following speech acts, which are taken from *The Swe
 - **Expressive**: the speaker expresses some feeling or emotional attitude about the content of the sentence. For example: “What an adorable dog!” or “The Avengers are awesome!”
 
 
+## Why does this exist?
+I have created this as part of my bachelor's thesis in cognitive science. These classifiers are intended to be tools that can be used for linguistic analysis of large amounts of language data, also referred to as *corpus linguistics*. Here, they can be used for finding linguistic patterns of speech acts in transcribed conversations. 
+
 
 
 # Usage
