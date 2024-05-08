@@ -16,7 +16,7 @@ This repository contains two different models for automatically classifying spee
 - **Embedding-based classifier**: This classifier uses sentence embeddings from SBERT and classifies them with a linear, single-layer neural network. The model is a pytorch file: `models/embedding-based.pth`.
 
 ### Data
-These models have been trained on isolated, Swedish sentences originating from online discussion forums (familjeliv.se and flashback.se). I have hand-labeled these with their respective speech acts. The data sets are described in [data/README.md](data/README.md).
+These models have been trained on isolated, Swedish sentences originating from online discussion forums (familjeliv.se and flashback.se). I have hand-labeled these with their respective speech acts. The data sets are described in [data/README.md](data/README.md). All the data sets are available on [Kaggle](https://www.kaggle.com/datasets/danieltufvesson/swedics-speech-acts).
 
 
 

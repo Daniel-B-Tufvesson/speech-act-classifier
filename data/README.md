@@ -1,6 +1,6 @@
 # Data
 
-The data sets consist of isolated, Swedish sentences originating from online discussion forums (familjeliv.se and flashback.se). I have hand-labeled these with their respective speech acts.
+The data sets consist of isolated, Swedish sentences originating from online discussion forums (familjeliv.se and flashback.se). I have hand-labeled these with their respective speech acts. All the data sets are available on [Kaggle](https://www.kaggle.com/datasets/danieltufvesson/swedics-speech-acts).
 
 The data were retrieved from corpora by [Språkbanken](https://spraakbanken.gu.se/resurser/familjeliv) and are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). The original corpora were annotated in XML, but I formatted them to CoNLL-U. Furthermore, I have converted the POS-tags to Universal Dependencies POS-tags, as well as retagged the dependency relations to Universal Dependencies. 
 
