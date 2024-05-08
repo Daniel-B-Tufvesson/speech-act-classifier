@@ -1,5 +1,9 @@
 # Data
 
+The data sets consist of isolated, Swedish sentences originating from online discussion forums (familjeliv.se and flashback.se). I have hand-labeled these with their respective speech acts.
+
+The data were retrieved from corpora by [Språkbanken](https://spraakbanken.gu.se/resurser/familjeliv) and are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). The original corpora were annotated in XML, but I formatted them to CoNLL-U. Furthermore, I have converted the POS-tags to Universal Dependencies POS-tags, as well as retagged the dependency relations to Universal Dependencies. 
+
 ## Data Files
 These are all CoNLL-U corpora. They all consist of sentences manually annotated with speech acts. The sentences were also automatically annotated with sentiment (positive, negative, neutral), and its probability score.
 
@@ -35,3 +39,4 @@ The corpora are formatted as CoNLL-U.
 7   .           _               PUNCT   MAD   _   1   punct   _   _
 
 ```
+
