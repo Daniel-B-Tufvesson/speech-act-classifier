@@ -40,6 +40,8 @@ I have created this as part of my bachelor's thesis in cognitive science. These 
 # Usage
 The classifiers operate on entire corpora. They take as input a CoNLL-U corpus and tag each sentence with their respective speech acts. These are then outputted as a new CoNLL-U corpus. 
 
+Also see [`evaluate_classifiers.ipynb`](notebooks/evaluate_classifiers.ipynb) for how the classifiers can be used and how the data sets are loaded.
+
 
 ## Classifying with Rules
 Run [`tag_speech_acts_rulebased.py`](scripts/tag_speech_acts_rulebased.py) on the corpus you want to tag with speech acts. It takes three arguments:
