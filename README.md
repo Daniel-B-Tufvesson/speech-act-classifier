@@ -9,7 +9,7 @@ What is done through speaking? In a sense, a spoken utterance is just a string o
 ## What is in this Repository?
 
 ### Classifier Models
-This repository contains two different models for automatically classifying speech acts. These are classified out of context, meaning, they analyze the conversational structure but only individual sentences. Furthermore, they target Swedish sentences.
+This repository contains two different models for automatically classifying speech acts. These are classified out of context, meaning, they do not analyze the conversational structure but only individual sentences. Furthermore, they target only Swedish sentences.
 
 - **Rule-based classifier**: This classifier uses rules for classification. It relies primarily on syntax, but also sentiment. The model is json file consisting of rules: `models/rule-based.json`.
 
