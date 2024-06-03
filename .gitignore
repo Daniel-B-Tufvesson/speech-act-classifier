@@ -19,6 +19,5 @@ venv/bin/python
 venv/bin/python3
 venv/bin/python3.10
 data/train-set.conllu.bz2
-data/all-data.conllu.bz2
 data/for-testing
 data/test-set.conllu
